@@ -67,6 +67,8 @@ export class Geometry {
     top: 0,
     right: 0
   };
+  xTiles = [];
+  yTiles = [];
   zoom = 14;
 
   constructor(private gpsData: GpsData) {
@@ -98,6 +100,13 @@ export class Geometry {
       this.dims.numYTiles = Math.abs(this.tiles.top - this.tiles.bottom) + 1;
       this.dims.cxNominal = this.dims.cxTile * this.dims.numXTiles;
       this.dims.cyNominal = this.dims.cyTile * this.dims.numYTiles;
+      // fill out the tile numbers
+      this.xTiles = [...Array(this.dims.numXTiles).keys()].map(
+        (ix) => this.tiles.left + ix
+      );
+      this.yTiles = [...Array(this.dims.numYTiles).keys()].map(
+        (iy) => this.tiles.top + iy
+      );
       // compute origin for lat/lon conversion
       this.bounds.bottom = this.tile2lat(this.tiles.bottom + 1);
       this.bounds.left = this.tile2lon(this.tiles.left);

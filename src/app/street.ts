@@ -9,24 +9,17 @@ import { Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-street',
   template: `
-    <ng-container *ngFor="let y of yTiles; let iy = index">
-      <ng-container *ngFor="let x of xTiles; let ix = index">
+    <ng-container *ngFor="let y of geometry.yTiles; let iy = index">
+      <ng-container *ngFor="let x of geometry.xTiles; let ix = index">
         <map-tile
           [ix]="ix"
           [iy]="iy"
-          src="/street/tile/{{ geometry.zoom }}/{{ y + iy }}/{{ x + ix }}"
+          src="/street/tile/{{ geometry.zoom }}/{{ y }}/{{ x }}"
         ></map-tile>
       </ng-container>
     </ng-container>
   `
 })
 export class StreetComponent {
-  xTiles = new Array(this.geometry.dims.numXTiles).fill(
-    this.geometry.tiles.left
-  );
-  yTiles = new Array(this.geometry.dims.numYTiles).fill(
-    this.geometry.tiles.top
-  );
-
   constructor(public geometry: Geometry) {}
 }
