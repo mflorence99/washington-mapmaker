@@ -49,6 +49,8 @@ export class Geometry {
   dims = {
     cxFeet: 52800,
     cyFeet: 52800,
+    cxGrid: 5280,
+    cyGrid: 5280,
     cxNominal: 0,
     cyNominal: 0,
     cxTile: 256,
@@ -133,9 +135,9 @@ export class Geometry {
         cx: (this.dims.cxFeet / cxFeet) * this.dims.cxNominal,
         cy: (this.dims.cyFeet / cyFeet) * this.dims.cyNominal
       };
-      // grid lines every 200 feet
-      this.dims.numHGrids = this.dims.cxFeet / 200;
-      this.dims.numVGrids = this.dims.cyFeet / 200;
+      // grid lines every N feet
+      this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
+      this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
       // useful logging
       console.table({
         bbox: this.bbox,
@@ -185,24 +187,6 @@ export class Geometry {
     ).join(' ');
   }
 
-  tileClipPath(ix: number, iy: number): string {
-    return this.gpsData.boundary.Boundary.reduce(
-      (acc: string, point: Point, index: number) => {
-        let [x, y] = this.point2xy(point);
-        // translate to tile origin
-        x -= ix * this.dims.cxTile;
-        y -= iy * this.dims.cyTile;
-        // scale appropriately
-        x *= this.scale;
-        y *= this.scale;
-        if (index === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      },
-      ''
-    );
-  }
-
   linear(point: Point): string {
     const [x, y] = this.point2xy(point);
     return `L ${x} ${y}`;
@@ -230,6 +214,24 @@ export class Geometry {
         this.dims.cyNominal) /
       (this.lat2y(this.bounds.bottom) - this.lat2y(this.bounds.top));
     return [x, y];
+  }
+
+  tileClipPath(ix: number, iy: number): string {
+    return this.gpsData.boundary.Boundary.reduce(
+      (acc: string, point: Point, index: number) => {
+        let [x, y] = this.point2xy(point);
+        // translate to tile origin
+        x -= ix * this.dims.cxTile;
+        y -= iy * this.dims.cyTile;
+        // scale appropriately
+        x *= this.scale;
+        y *= this.scale;
+        if (index === 0) {
+          return `M ${x} ${y}`;
+        } else return `${acc} L ${x} ${y}`;
+      },
+      ''
+    );
   }
 
   xy2point([x, y]: [number, number]): Point {

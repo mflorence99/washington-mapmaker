@@ -37,7 +37,9 @@ type UIEvent = {
                 (mouseup)="stopDrag()"
               >
                 <map-street></map-street>
+                <map-parcels></map-parcels>
                 <map-boundary></map-boundary>
+                <map-grid></map-grid>
               </figure>
             </section>
           </div>

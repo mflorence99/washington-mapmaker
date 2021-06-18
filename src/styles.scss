@@ -122,6 +122,8 @@ map-root {
         width: calc(var(--map-cxNominal) * var(--map-scale));
 
         map-boundary,
+        map-grid,
+        map-parcels,
         map-street,
         map-topo {
           display: block;
@@ -130,7 +132,9 @@ map-root {
           width: 100%;
         }
 
-        map-boundary {
+        map-boundary,
+        map-grid,
+        map-parcels {
           svg {
             height: 100%;
             width: 100%;
@@ -138,13 +142,31 @@ map-root {
             & > g {
               transform: scale(var(--map-scale), var(--map-scale));
             }
+          }
+        }
 
-            g polygon {
-              fill: none;
-              stroke: var(--mat-gray-800);
-              stroke-dasharray: 4;
-              stroke-width: 3;
-            }
+        map-boundary {
+          g polygon {
+            fill: none;
+            stroke: var(--mat-gray-800);
+            stroke-dasharray: 4;
+            stroke-width: 3;
+          }
+        }
+
+        map-grid {
+          g path {
+            fill: none;
+            stroke: var(--mat-gray-800);
+            stroke-width: 0.5;
+          }
+        }
+
+        map-parcels {
+          g path {
+            fill: none;
+            stroke: var(--mat-blue-grey-300);
+            stroke-width: 1;
           }
         }
 

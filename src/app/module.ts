@@ -1,4 +1,6 @@
 import { BoundaryComponent } from './boundary';
+import { GridComponent } from './grid';
+import { ParcelsComponent } from './parcels';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
 import { TileComponent } from './tile';
@@ -26,6 +28,8 @@ class IconsModule {
 
 const COMPONENTS = [
   BoundaryComponent,
+  GridComponent,
+  ParcelsComponent,
   RootComponent,
   StreetComponent,
   TileComponent
@@ -43,6 +47,6 @@ const MODULES = [
 
   declarations: [...COMPONENTS],
 
-  imports: [...MODULES],
+  imports: [...MODULES]
 })
 export class MapModule {}
