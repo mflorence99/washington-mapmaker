@@ -1,0 +1,62 @@
+{
+  "name": "map",
+  "version": "0.0.0",
+  "description": "Town of Washington NH Map",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mflorence99/washington-mapmaker.git"
+  },
+  "author": "Mark Florence",
+  "scripts": {
+    "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
+    "postinstall": "ngcc",
+    "prettier": "prettier --write .",
+    "serve": "ng serve --proxy-config proxy.conf.js"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^12",
+    "@angular/cli": "^12",
+    "@angular/common": "^12",
+    "@angular/compiler": "^12",
+    "@angular/compiler-cli": "^12",
+    "@angular/core": "^12",
+    "@angular/language-service": "^12",
+    "@angular/platform-browser": "^12",
+    "@angular/platform-browser-dynamic": "^12",
+    "@fortawesome/angular-fontawesome": "^0.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1",
+    "@fortawesome/free-brands-svg-icons": "^5",
+    "@fortawesome/free-regular-svg-icons": "^5",
+    "@fortawesome/free-solid-svg-icons": "^5",
+    "@types/xml2js": "^0.4.8",
+    "@typescript-eslint/eslint-plugin": "^4",
+    "@typescript-eslint/parser": "^4",
+    "dom-to-image": "^2.6.0",
+    "eslint": "^7",
+    "eslint-config-mflorence99": "^1.1.1",
+    "eslint-config-prettier": "^8",
+    "eslint-plugin-import-splitnsort": "^1.0.2",
+    "file-saver": "^2",
+    "prettier": "^2",
+    "prettier-plugin-package": "^1",
+    "rxjs": "^7",
+    "stream": "0.0.2",
+    "stylelint": "^13",
+    "stylelint-config-standard": "^22",
+    "stylelint-order": "^4",
+    "stylelint-scss": "^3",
+    "timers": "^0.1.1",
+    "ts-node": "^10",
+    "tslib": "^2",
+    "typescript": "^4.2",
+    "xml2js": "^0.4.23",
+    "zone.js": "~0.11.4"
+  },
+  "build": {
+    "appId": "map"
+  },
+  "dependencies": {
+    "lz-string": "^1.4.4"
+  }
+}

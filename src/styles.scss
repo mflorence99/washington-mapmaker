@@ -1,0 +1,182 @@
+@import 'colors.scss';
+
+:root {
+  --map-aside-cx: 0;
+  // NOTE: these set in geometry.ts
+  --map-clip-x: 0;
+  --map-clip-y: 0;
+  --map-clip-cx: 0;
+  --map-clip-cy: 0;
+  --map-cxNominal: 0;
+  --map-cyNominal: 0;
+  --map-cxTile: 0;
+  --map-cyTile: 0;
+  --map-numHGrids: 0;
+  --map-numVGrids: 0;
+  --map-numXTiles: 0;
+  --map-numYTiles: 0;
+  --map-scale: 1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  background-color: var(--mat-gray-200);
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  place-content: center;
+  user-select: none;
+  width: 100%;
+}
+
+html {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+map-root {
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+    'back  map blank'
+    'front map blank';
+  overflow: hidden;
+
+  &.dragging {
+    cursor: grabbing;
+  }
+
+  &.printing {
+    cursor: wait;
+    overflow: unset;
+  }
+
+  aside {
+    width: var(--map-aside-cx);
+  }
+
+  aside.front {
+    background-color: var(--mat-green-100);
+    grid-area: front;
+  }
+
+  aside.back {
+    background-color: var(--mat-yellow-100);
+    grid-area: back;
+  }
+
+  aside.blank {
+    background-color: var(--mat-blue-100);
+    grid-area: blank;
+  }
+
+  main {
+    grid-area: map;
+
+    .border-1 {
+      border: 3px solid var(--mat-gray-600);
+      margin: calc(var(--map-cyNominal) * var(--map-scale) / 100)
+        calc(var(--map-cxNominal) * var(--map-scale) / 100);
+    }
+
+    .border-2 {
+      background-color: var(--mat-brown-50);
+      border: calc(var(--map-cyNominal) * var(--map-scale) / 300) dashed
+        var(--mat-gray-600);
+    }
+
+    .border-3 {
+      background-color: white;
+      border: 1px solid var(--mat-gray-600);
+      padding: calc(var(--map-cyNominal) * var(--map-scale) / 200)
+        calc(var(--map-cxNominal) * var(--map-scale) / 200);
+    }
+
+    section {
+      display: block;
+      height: calc(var(--map-clip-cy) * var(--map-scale));
+      overflow: hidden;
+      position: relative;
+      width: calc(var(--map-clip-cx) * var(--map-scale));
+
+      figure {
+        cursor: normal;
+        display: block;
+        height: calc(var(--map-cyNominal) * var(--map-scale));
+        position: absolute;
+        transform: translate(
+          calc(var(--map-clip-x) * var(--map-scale) * -1),
+          calc(var(--map-clip-y) * var(--map-scale) * -1)
+        );
+        width: calc(var(--map-cxNominal) * var(--map-scale));
+
+        map-boundary,
+        map-street,
+        map-topo {
+          display: block;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+
+        map-boundary {
+          svg {
+            height: 100%;
+            width: 100%;
+
+            & > g {
+              transform: scale(var(--map-scale), var(--map-scale));
+            }
+
+            g polygon {
+              fill: none;
+              stroke: var(--mat-gray-800);
+              stroke-dasharray: 4;
+              stroke-width: 3;
+            }
+          }
+        }
+
+        map-tile {
+          display: inline-block;
+          height: calc(var(--map-cyTile) * var(--map-scale));
+          position: relative;
+          vertical-align: top;
+          width: calc(var(--map-cxTile) * var(--map-scale));
+
+          canvas {
+            height: var(--map-cyTile);
+            position: absolute;
+            visibility: hidden;
+            width: var(--map-cxTile);
+          }
+
+          img {
+            height: 100%;
+            position: absolute;
+            width: 100%;
+          }
+
+          img.inside {
+            filter: saturate(3);
+          }
+
+          img.outside {
+            filter: grayscale(1);
+          }
+        }
+      }
+    }
+  }
+}
