@@ -30,7 +30,8 @@ export type Parcels = Record<string, Parcel>;
     <ng-container *ngIf="parcels$ | async as parcels">
       <ng-container *ngFor="let parcel of parcels | keyvalue">
         <ng-container *ngFor="let polygon of parcel.value.geo.coordinates">
-          <g><path [attr.d]="path(polygon)" /></g>
+          <g><path class="black" [attr.d]="path(polygon)" /></g>
+          <g><path class="white" [attr.d]="path(polygon)" /></g>
         </ng-container>
       </ng-container>
     </ng-container>

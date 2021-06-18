@@ -36,8 +36,8 @@ type UIEvent = {
                 (mousemove)="doDrag($event)"
                 (mouseup)="stopDrag()"
               >
-                <map-street></map-street>
                 <map-parcels></map-parcels>
+                <map-street></map-street>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
               </figure>

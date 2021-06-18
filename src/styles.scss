@@ -163,9 +163,15 @@ map-root {
         }
 
         map-parcels {
-          g path {
+          g path.black {
             fill: none;
             stroke: var(--mat-blue-grey-300);
+            stroke-width: 1;
+          }
+          g path.white {
+            fill: none;
+            stroke: var(--mat-blue-grey-50);
+            stroke-dasharray: 1, 2;
             stroke-width: 1;
           }
         }
@@ -177,6 +183,13 @@ map-root {
           vertical-align: top;
           width: calc(var(--map-cxTile) * var(--map-scale));
 
+          canvas {
+            height: var(--map-cyTile);
+            position: absolute;
+            visibility: hidden;
+            width: var(--map-cxTile);
+          }
+
           img {
             height: 100%;
             position: absolute;
@@ -184,7 +197,7 @@ map-root {
           }
 
           img.inside {
-            filter: saturate(2.5);
+            filter: none;
           }
 
           img.outside {

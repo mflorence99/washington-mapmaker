@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=4.000000
-ympp=4.000000
-lat=43.144747
-lon=-72.030373
+xmpp=16.000000
+ympp=16.000000
+lat=43.198674
+lon=-72.079211
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -13,8 +13,8 @@ drawcentermark=t
 drawhighlight=t
 
 ~Layer Map
-name=Default Map
-mode=25
+name=Mapnik
+mode=13
 directory=
 cache_type=1
 mapfile=
@@ -26,7 +26,8 @@ mapzoom=0
 
 
 ~Layer Map
-name=Map
+name=ArcGIS Worls Street
+visible=f
 mode=60
 directory=
 cache_type=1

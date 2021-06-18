@@ -25,8 +25,9 @@ const PROXY_CONFIG = [
     pathRewrite: {
       '/street': ''
     },
-    target:
-      'https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer',
+    // target:
+    //   'https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer',
+    target: 'https://tile.openstreetmap.org',
     secure: true
   },
   {
