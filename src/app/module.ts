@@ -4,6 +4,7 @@ import { ParcelsComponent } from './parcels';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
 import { TileComponent } from './tile';
+import { TopoComponent } from './topo';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -32,7 +33,8 @@ const COMPONENTS = [
   ParcelsComponent,
   RootComponent,
   StreetComponent,
-  TileComponent
+  TileComponent,
+  TopoComponent
 ];
 
 const MODULES = [

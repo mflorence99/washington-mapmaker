@@ -36,8 +36,15 @@ type UIEvent = {
                 (mousemove)="doDrag($event)"
                 (mouseup)="stopDrag()"
               >
-                <map-parcels></map-parcels>
-                <map-street></map-street>
+                <ng-container *ngIf="geometry.style == 'arcgis'">
+                  <map-street></map-street>
+                  <map-parcels></map-parcels>
+                </ng-container>
+                <ng-container *ngIf="geometry.style == 'osm'">
+                  <map-topo></map-topo>
+                  <map-parcels></map-parcels>
+                  <map-street></map-street>
+                </ng-container>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
               </figure>
@@ -108,7 +115,10 @@ export class RootComponent {
         domtoimage
           .toBlob(this.host.nativeElement as HTMLElement, { bgcolor: 'white ' })
           .then((blob) => {
-            saveAs(blob, `map-${this.geometry.format}.png`);
+            saveAs(
+              blob,
+              `washington-${this.geometry.style}-${this.geometry.format}.png`
+            );
             // back to our normal programming
             this.printing = false;
             this.cdf.markForCheck();

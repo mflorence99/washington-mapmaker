@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/member-ordering */
-
 import { GpsData } from './gps-data';
 import { Point } from './gps-data';
 
@@ -63,6 +61,7 @@ export class Geometry {
   format = 'poster';
   ready = new Subject<void>();
   scale = 1;
+  style = 'osm';
   tiles = {
     bottom: 0,
     left: 0,
@@ -76,6 +75,7 @@ export class Geometry {
   constructor(private gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
     this.format = searchParams?.format ?? this.format;
+    this.style = searchParams?.style ?? this.style;
     this.scale = FORMAT2SCALE[this.format];
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
@@ -140,6 +140,10 @@ export class Geometry {
       this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
       // useful logging
       console.table({
+        format: this.format,
+        style: this.style
+      });
+      console.table({
         bbox: this.bbox,
         bounds: this.bounds,
         tiles: this.tiles
@@ -187,6 +191,24 @@ export class Geometry {
     ).join(' ');
   }
 
+  clipPath(ix: number, iy: number): string {
+    return this.gpsData.boundary.Boundary.reduce(
+      (acc: string, point: Point, index: number) => {
+        let [x, y] = this.point2xy(point);
+        // translate to tile origin
+        x -= ix * this.dims.cxTile;
+        y -= iy * this.dims.cyTile;
+        // scale appropriately
+        x *= this.scale;
+        y *= this.scale;
+        if (index === 0) {
+          return `M ${x} ${y}`;
+        } else return `${acc} L ${x} ${y}`;
+      },
+      ''
+    );
+  }
+
   linear(point: Point): string {
     const [x, y] = this.point2xy(point);
     return `L ${x} ${y}`;
@@ -216,24 +238,6 @@ export class Geometry {
     return [x, y];
   }
 
-  tileClipPath(ix: number, iy: number): string {
-    return this.gpsData.boundary.Boundary.reduce(
-      (acc: string, point: Point, index: number) => {
-        let [x, y] = this.point2xy(point);
-        // translate to tile origin
-        x -= ix * this.dims.cxTile;
-        y -= iy * this.dims.cyTile;
-        // scale appropriately
-        x *= this.scale;
-        y *= this.scale;
-        if (index === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      },
-      ''
-    );
-  }
-
   xy2point([x, y]: [number, number]): Point {
     const lon =
       this.bounds.left +
@@ -243,6 +247,8 @@ export class Geometry {
       (y / this.dims.cyNominal) * (this.bounds.bottom - this.bounds.top);
     return { lat, lon };
   }
+
+  /* eslint-disable @typescript-eslint/member-ordering */
 
   // @see https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
 
