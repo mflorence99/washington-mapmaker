@@ -132,3 +132,57 @@ type="trackend"
 ~EndLayerData
 ~EndLayer
 
+
+~Layer TrackWaypoint
+name=LAE
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-06-20T10:21:03.368138Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypoint" latitude="43.168915" longitude="-72.173346" name="001" unixtime="1624184523"
+type="waypoint" latitude="43.139968" longitude="-72.12264076786653" name="002" unixtime="1624184566"
+type="waypointlistend"
+~EndLayerData
+~EndLayer
+

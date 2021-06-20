@@ -17,6 +17,53 @@ const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
 const SMOOTHING = 0.2;
 
+const R_EARTH = 20902000; // feet
+
+const PROFILES: any = {
+  lae: {
+    bbox: {
+      asBoundary: false,
+      bottom: 43.139968,
+      left: -72.173346,
+      top: 43.168915,
+      right: -72.122641
+    },
+    dims: {
+      cxFeet: 10560,
+      cyFeet: 10560,
+      cxGrid: 1320,
+      cyGrid: 1320,
+      cxNominal: 0,
+      cyNominal: 0,
+      cxTile: 256,
+      cyTile: 256,
+      numHGrids: 0,
+      numVGrids: 0,
+      numXTiles: 0,
+      numYTiles: 0
+    },
+    title: 'LAE',
+    zoom: 17
+  },
+  washington: {
+    dims: {
+      cxFeet: 52800,
+      cyFeet: 52800,
+      cxGrid: 5280,
+      cyGrid: 5280,
+      cxNominal: 0,
+      cyNominal: 0,
+      cxTile: 256,
+      cyTile: 256,
+      numHGrids: 0,
+      numVGrids: 0,
+      numXTiles: 0,
+      numYTiles: 0
+    },
+    zoom: 14
+  }
+};
+
 type LineProps = { angle: number; length: number };
 
 export type PathOp = 'bezier' | 'linear';
@@ -25,6 +72,7 @@ export type XY = [x: number, y: number];
 @Injectable({ providedIn: 'root' })
 export class Geometry {
   bbox = {
+    asBoundary: true,
     bottom: Number.MAX_SAFE_INTEGER,
     left: Number.MAX_SAFE_INTEGER,
     top: Number.MIN_SAFE_INTEGER,
@@ -45,10 +93,10 @@ export class Geometry {
   };
   crs = 'CRS:84';
   dims = {
-    cxFeet: 52800,
-    cyFeet: 52800,
-    cxGrid: 5280,
-    cyGrid: 5280,
+    cxFeet: 0,
+    cyFeet: 0,
+    cxGrid: 0,
+    cyGrid: 0,
     cxNominal: 0,
     cyNominal: 0,
     cxTile: 256,
@@ -59,6 +107,7 @@ export class Geometry {
     numYTiles: 0
   };
   format = 'poster';
+  profile = 'washington';
   ready = new Subject<void>();
   scale = 1;
   style = 'osm';
@@ -75,17 +124,32 @@ export class Geometry {
   constructor(private gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
     this.format = searchParams?.format ?? this.format;
+    this.profile = searchParams?.profile ?? this.profile;
     this.style = searchParams?.style ?? this.style;
     this.scale = FORMAT2SCALE[this.format];
+    // prime profile values
+    Object.assign(this, PROFILES[this.profile]);
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
-      // compute the boundary box
-      this.gpsData.boundary.Boundary.forEach((point: Point) => {
-        this.bbox.right = Math.max(this.bbox.right, point.lon);
-        this.bbox.top = Math.max(this.bbox.top, point.lat);
-        this.bbox.left = Math.min(this.bbox.left, point.lon);
-        this.bbox.bottom = Math.min(this.bbox.bottom, point.lat);
-      });
+      // compute the boundary box from the boundary GPX
+      if (this.bbox.asBoundary) {
+        this.gpsData.boundary.Boundary.forEach((point: Point) => {
+          this.bbox.right = Math.max(this.bbox.right, point.lon);
+          this.bbox.top = Math.max(this.bbox.top, point.lat);
+          this.bbox.left = Math.min(this.bbox.left, point.lon);
+          this.bbox.bottom = Math.min(this.bbox.bottom, point.lat);
+        });
+      }
+      // ... or compute it from the top left
+      else if (this.bbox.right === 0 || this.bbox.bottom === 0) {
+        // @ see https://stackoverflow.com/questions/7477003/calculating-new-longitude-latitude-from-old-n-meters
+        this.bbox.right =
+          this.bbox.left -
+          ((this.dims.cxFeet / R_EARTH) * RAD2DEG) /
+            Math.cos(this.bbox.top * RAD2DEG);
+        this.bbox.bottom =
+          this.bbox.top - (this.dims.cyFeet / R_EARTH) * RAD2DEG;
+      }
       // ... and its center
       this.center = {
         lat: this.bbox.top - (this.bbox.top - this.bbox.bottom) / 2,
@@ -140,6 +204,7 @@ export class Geometry {
       this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
       // useful logging
       console.table({
+        profile: this.profile,
         format: this.format,
         style: this.style
       });
@@ -207,6 +272,12 @@ export class Geometry {
       },
       ''
     );
+  }
+
+  indices(): Geometry[] {
+    return Object.values(PROFILES).filter(
+      (profile: any) => profile.title
+    ) as Geometry[];
   }
 
   linear(point: Point): string {

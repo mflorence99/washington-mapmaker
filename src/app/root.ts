@@ -47,6 +47,9 @@ type UIEvent = {
                 </ng-container>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
+                <map-indices
+                  *ngIf="geometry.profile == 'washington'"
+                ></map-indices>
               </figure>
             </section>
           </div>
@@ -117,7 +120,7 @@ export class RootComponent {
           .then((blob) => {
             saveAs(
               blob,
-              `washington-${this.geometry.style}-${this.geometry.format}.png`
+              `${this.geometry.profile}-${this.geometry.style}-${this.geometry.format}.png`
             );
             // back to our normal programming
             this.printing = false;

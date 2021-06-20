@@ -1,5 +1,6 @@
 import { BoundaryComponent } from './boundary';
 import { GridComponent } from './grid';
+import { IndicesComponent } from './indices';
 import { ParcelsComponent } from './parcels';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
@@ -30,6 +31,7 @@ class IconsModule {
 const COMPONENTS = [
   BoundaryComponent,
   GridComponent,
+  IndicesComponent,
   ParcelsComponent,
   RootComponent,
   StreetComponent,
