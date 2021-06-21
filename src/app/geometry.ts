@@ -80,9 +80,9 @@ export class Geometry {
   constructor(public gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
     this.format = searchParams?.format ?? this.format;
+    this.scale = FORMAT2SCALE[this.format];
     this.profile = searchParams?.profile ?? this.profile;
     this.style = searchParams?.style ?? this.style;
-    this.scale = FORMAT2SCALE[this.format];
     // profile values override "washington" defaults
     const profile: Profile = PROFILES[this.profile];
     if (profile) {
