@@ -36,7 +36,7 @@ export class GridComponent {
   }
 
   hlines(): string[] {
-    const gap = this.geometry.clip.cy / this.geometry.dims.numHGrids;
+    const gap = this.geometry.clip.cy / this.geometry.dims.numVGrids;
     const lines = [];
     for (let y = gap; y < this.geometry.clip.cy; y += gap)
       lines.push(`M 0,${y} L ${this.geometry.clip.cx - 1},${y}`);
@@ -48,7 +48,7 @@ export class GridComponent {
   }
 
   vlines(): string[] {
-    const gap = this.geometry.clip.cx / this.geometry.dims.numVGrids;
+    const gap = this.geometry.clip.cx / this.geometry.dims.numHGrids;
     const lines = [];
     for (let x = gap; x < this.geometry.clip.cx; x += gap)
       lines.push(`M ${x},0 L ${x},${this.geometry.clip.cy - 1}`);

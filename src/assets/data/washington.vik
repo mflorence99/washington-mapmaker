@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=16.000000
-ympp=16.000000
-lat=43.198674
-lon=-72.079211
+xmpp=64.000000
+ympp=64.000000
+lat=43.168133
+lon=-72.024966
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -180,8 +180,8 @@ external_file=
 
 ~LayerData
 type="waypointlist"
-type="waypoint" latitude="43.168915" longitude="-72.173346" name="001" unixtime="1624184523"
-type="waypoint" latitude="43.139968" longitude="-72.12264076786653" name="002" unixtime="1624184566"
+type="waypoint" latitude="43.178273" longitude="-72.173346" name="tl" unixtime="1624184566"
+type="waypoint" latitude="43.131057" longitude="-72.13365104848715" name="br" unixtime="1624213672"
 type="waypointlistend"
 ~EndLayerData
 ~EndLayer

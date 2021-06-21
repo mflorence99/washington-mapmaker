@@ -1,4 +1,5 @@
 import { Geometry } from './geometry';
+import { Point } from './gps-data';
 
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -6,7 +7,6 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { OnInit } from '@angular/core';
 import { ViewChild } from '@angular/core';
 
 import { mergeMap } from 'rxjs/operators';
@@ -28,14 +28,14 @@ type CLUT = Record<number, RGBA>;
     <img class="outside" [src]="src" #outside />
     <img
       class="inside"
-      style="clip-path: path('{{ geometry.clipPath(ix, iy) }}'); filter: {{
+      style="clip-path: path('{{ clipPath(ix, iy) }}'); filter: {{
         this.filter ?? 'none'
       }};"
       [src]="src"
       #inside
     />`
 })
-export class TileComponent implements AfterViewInit, OnInit {
+export class TileComponent implements AfterViewInit {
   @ViewChild('canvas', { static: true }) canvas;
   @ViewChild('inside', { static: true }) inside;
   @ViewChild('outside', { static: true }) outside;
@@ -45,7 +45,6 @@ export class TileComponent implements AfterViewInit, OnInit {
   @Input() filter: string;
   @Input() ix: number;
   @Input() iy: number;
-  @Input() ramp: Ramp[];
   @Input() src: string;
   @Input() threshold: number;
   @Input() transparent: number[];
@@ -53,6 +52,24 @@ export class TileComponent implements AfterViewInit, OnInit {
   private clut: CLUT;
 
   constructor(public geometry: Geometry, private http: HttpClient) {}
+
+  clipPath(ix: number, iy: number): string {
+    return this.geometry.gpsData.boundary.Boundary.reduce(
+      (acc: string, point: Point, index: number) => {
+        let [x, y] = this.geometry.point2xy(point);
+        // translate to tile origin
+        x -= ix * this.geometry.dims.cxTile;
+        y -= iy * this.geometry.dims.cyTile;
+        // scale appropriately
+        x *= this.geometry.scale;
+        y *= this.geometry.scale;
+        if (index === 0) {
+          return `M ${x} ${y}`;
+        } else return `${acc} L ${x} ${y}`;
+      },
+      ''
+    );
+  }
 
   ngAfterViewInit(): void {
     this.http
@@ -66,7 +83,7 @@ export class TileComponent implements AfterViewInit, OnInit {
         const ctx = canvas.getContext('2d');
         ctx.drawImage(bitmap, 0, 0);
         // ONLY for ramp transform, transparency
-        if (this.ramp || this.transparent) {
+        if (this.transparent) {
           // grab the image pixels
           const imageData = ctx.getImageData(
             0,
@@ -77,26 +94,9 @@ export class TileComponent implements AfterViewInit, OnInit {
           const pixels: number[] = imageData.data;
           // transform pixels ...
           for (let ix = 0; ix < pixels.length; ix += 4) {
-            // ... color transformation
-            // NOTE: not currently used
-            if (this.ramp) {
-              const value =
-                256 -
-                Math.trunc((pixels[ix] + pixels[ix + 1] + pixels[ix + 2]) / 3);
-              const rgba = this.clut[value];
-              if (rgba) {
-                pixels[ix] = rgba[0];
-                pixels[ix + 1] = rgba[1];
-                pixels[ix + 2] = rgba[2];
-                pixels[ix + 3] = rgba[3];
-              } else console.error(value);
-            }
-            // ... make transparent
-            if (this.transparent) {
-              const pixel = [pixels[ix], pixels[ix + 1], pixels[ix + 2]];
-              if (this.comparePixel(pixel, this.transparent, this.threshold))
-                pixels[ix + 3] = this.alpha;
-            }
+            const pixel = [pixels[ix], pixels[ix + 1], pixels[ix + 2]];
+            if (this.comparePixel(pixel, this.transparent, this.threshold))
+              pixels[ix + 3] = this.alpha;
           }
           // update the image pixels
           ctx.putImageData(imageData, 0, 0);
@@ -107,16 +107,6 @@ export class TileComponent implements AfterViewInit, OnInit {
         const inside = this.inside.nativeElement;
         inside.src = canvas.toDataURL();
       });
-  }
-
-  ngOnInit(): void {
-    if (this.ramp) {
-      // convert color ramp to CLUT
-      this.clut = this.ramp.reduce((acc: CLUT, ramp: Ramp) => {
-        acc[ramp.value] = this.hexToRGBA(ramp.color);
-        return acc;
-      }, {});
-    }
   }
 
   private comparePixel(p: number[], q: number[], threshold: number): boolean {
@@ -136,16 +126,5 @@ export class TileComponent implements AfterViewInit, OnInit {
         })
         .catch((err) => observer.error(err));
     });
-  }
-
-  // @see https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
-  private hexToRGBA(hex: string): RGBA {
-    const parsed = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return [
-      parseInt(parsed[1], 16),
-      parseInt(parsed[2], 16),
-      parseInt(parsed[3], 16),
-      this.alpha
-    ];
   }
 }

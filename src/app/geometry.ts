@@ -1,5 +1,9 @@
 import { GpsData } from './gps-data';
 import { Point } from './gps-data';
+import { Profile } from './profiles';
+import { PROFILES } from './profiles';
+
+import { bbox } from './profiles';
 
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
@@ -15,54 +19,6 @@ const FORMAT2SCALE = {
 
 const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
-const SMOOTHING = 0.2;
-
-const R_EARTH = 20902000; // feet
-
-const PROFILES: any = {
-  lae: {
-    bbox: {
-      asBoundary: false,
-      bottom: 43.139968,
-      left: -72.173346,
-      top: 43.168915,
-      right: -72.122641
-    },
-    dims: {
-      cxFeet: 10560,
-      cyFeet: 10560,
-      cxGrid: 1320,
-      cyGrid: 1320,
-      cxNominal: 0,
-      cyNominal: 0,
-      cxTile: 256,
-      cyTile: 256,
-      numHGrids: 0,
-      numVGrids: 0,
-      numXTiles: 0,
-      numYTiles: 0
-    },
-    title: 'LAE',
-    zoom: 17
-  },
-  washington: {
-    dims: {
-      cxFeet: 52800,
-      cyFeet: 52800,
-      cxGrid: 5280,
-      cyGrid: 5280,
-      cxNominal: 0,
-      cyNominal: 0,
-      cxTile: 256,
-      cyTile: 256,
-      numHGrids: 0,
-      numVGrids: 0,
-      numXTiles: 0,
-      numYTiles: 0
-    },
-    zoom: 14
-  }
-};
 
 type LineProps = { angle: number; length: number };
 
@@ -72,7 +28,6 @@ export type XY = [x: number, y: number];
 @Injectable({ providedIn: 'root' })
 export class Geometry {
   bbox = {
-    asBoundary: true,
     bottom: Number.MAX_SAFE_INTEGER,
     left: Number.MAX_SAFE_INTEGER,
     top: Number.MIN_SAFE_INTEGER,
@@ -93,10 +48,10 @@ export class Geometry {
   };
   crs = 'CRS:84';
   dims = {
-    cxFeet: 0,
-    cyFeet: 0,
-    cxGrid: 0,
-    cyGrid: 0,
+    cxFeet: 52800,
+    cyFeet: 52800,
+    cxGrid: 5280,
+    cyGrid: 5280,
     cxNominal: 0,
     cyNominal: 0,
     cxTile: 256,
@@ -106,7 +61,7 @@ export class Geometry {
     numXTiles: 0,
     numYTiles: 0
   };
-  format = 'poster';
+  format = 'tiny';
   profile = 'washington';
   ready = new Subject<void>();
   scale = 1;
@@ -117,22 +72,32 @@ export class Geometry {
     top: 0,
     right: 0
   };
+  title = 'Washington';
   xTiles = [];
   yTiles = [];
   zoom = 14;
 
-  constructor(private gpsData: GpsData) {
+  constructor(public gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
     this.format = searchParams?.format ?? this.format;
     this.profile = searchParams?.profile ?? this.profile;
     this.style = searchParams?.style ?? this.style;
     this.scale = FORMAT2SCALE[this.format];
-    // prime profile values
-    Object.assign(this, PROFILES[this.profile]);
+    // profile values override "washington" defaults
+    const profile: Profile = PROFILES[this.profile];
+    if (profile) {
+      this.bbox = bbox(profile);
+      this.dims.cxFeet = profile.cxFeet;
+      this.dims.cyFeet = profile.cyFeet;
+      this.dims.cxGrid = profile.cxGrid;
+      this.dims.cyGrid = profile.cyGrid;
+      this.title = profile.title;
+      this.zoom = profile.zoom;
+    }
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
       // compute the boundary box from the boundary GPX
-      if (this.bbox.asBoundary) {
+      if (this.profile === 'washington') {
         this.gpsData.boundary.Boundary.forEach((point: Point) => {
           this.bbox.right = Math.max(this.bbox.right, point.lon);
           this.bbox.top = Math.max(this.bbox.top, point.lat);
@@ -141,14 +106,7 @@ export class Geometry {
         });
       }
       // ... or compute it from the top left
-      else if (this.bbox.right === 0 || this.bbox.bottom === 0) {
-        // @ see https://stackoverflow.com/questions/7477003/calculating-new-longitude-latitude-from-old-n-meters
-        this.bbox.right =
-          this.bbox.left -
-          ((this.dims.cxFeet / R_EARTH) * RAD2DEG) /
-            Math.cos(this.bbox.top * RAD2DEG);
-        this.bbox.bottom =
-          this.bbox.top - (this.dims.cyFeet / R_EARTH) * RAD2DEG;
+      else if (!this.bbox.right || !this.bbox.bottom) {
       }
       // ... and its center
       this.center = {
@@ -234,67 +192,6 @@ export class Geometry {
       // ready to rock!
       this.ready.next();
     });
-  }
-
-  // @see https://medium.com/@francoisromain/smooth-a-svg-path-with-cubic-bezier-curves-e37b49d46c74
-
-  bezier(point: Point, ix: number, points: Point[]): string {
-    const ok = (p): boolean => p < points.length - 1 && p >= 0;
-    const current = this.point2xy(point);
-    const next = ok(ix + 1) ? this.point2xy(points[ix + 1]) : undefined;
-    const previous = ok(ix - 1) ? this.point2xy(points[ix - 1]) : undefined;
-    const pprevious = ok(ix - 2) ? this.point2xy(points[ix - 2]) : undefined;
-    const [x, y] = current;
-    const [cpsX, cpsY] = this.controlPoint(previous, pprevious, current);
-    const [cpeX, cpeY] = this.controlPoint(current, previous, next, true);
-    return `C ${cpsX},${cpsY} ${cpeX},${cpeY} ${x},${y}`;
-  }
-
-  boundary(): string {
-    return this.gpsData.boundary.Boundary.map((point: Point) =>
-      this.point2xy(point).join(',')
-    ).join(' ');
-  }
-
-  clipPath(ix: number, iy: number): string {
-    return this.gpsData.boundary.Boundary.reduce(
-      (acc: string, point: Point, index: number) => {
-        let [x, y] = this.point2xy(point);
-        // translate to tile origin
-        x -= ix * this.dims.cxTile;
-        y -= iy * this.dims.cyTile;
-        // scale appropriately
-        x *= this.scale;
-        y *= this.scale;
-        if (index === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      },
-      ''
-    );
-  }
-
-  indices(): Geometry[] {
-    return Object.values(PROFILES).filter(
-      (profile: any) => profile.title
-    ) as Geometry[];
-  }
-
-  linear(point: Point): string {
-    const [x, y] = this.point2xy(point);
-    return `L ${x} ${y}`;
-  }
-
-  path(points: Point[], op: PathOp = 'linear'): string {
-    return points.reduce(
-      (acc: string, point: Point, ix: number, points: Point[]) => {
-        if (ix === 0) {
-          const [x, y] = this.point2xy(point);
-          return `M ${x} ${y}`;
-        } else return `${acc} ${this[op](point, ix, points)}`;
-      },
-      ''
-    );
   }
 
   point2xy(point: Point): XY {
@@ -398,27 +295,6 @@ export class Geometry {
         dist = undefined;
     }
     return Math.abs(dist);
-  }
-
-  // @see https://medium.com/@francoisromain/smooth-a-svg-path-with-cubic-bezier-curves-e37b49d46c74
-
-  private controlPoint(
-    [cx, cy]: XY,
-    previous: XY,
-    next: XY,
-    reverse = false
-  ): XY {
-    previous = previous ?? [cx, cy];
-    next = next ?? [cx, cy];
-    // properties of opposed line
-    const lineProps = this.lineProps(previous, next);
-    // if is end-control-point, add PI to the angle to go backward
-    const angle = lineProps.angle + (reverse ? Math.PI : 0);
-    const length = lineProps.length * SMOOTHING;
-    // control point position is relative to the current point
-    const x = cx + Math.cos(angle) * length;
-    const y = cy + Math.sin(angle) * length;
-    return [x, y];
   }
 
   private lineProps([px, py]: XY, [qx, qy]: XY): LineProps {
