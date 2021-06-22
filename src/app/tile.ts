@@ -10,17 +10,6 @@ import { Observable } from 'rxjs';
 import { ViewChild } from '@angular/core';
 
 import { mergeMap } from 'rxjs/operators';
-
-// @see rampgenerator.com
-export type Ramp = {
-  color: string;
-  value: number;
-};
-
-type RGBA = [r: number, g: number, b: number, a: number];
-
-type CLUT = Record<number, RGBA>;
-
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-tile',
@@ -48,8 +37,6 @@ export class TileComponent implements AfterViewInit {
   @Input() src: string;
   @Input() threshold: number;
   @Input() transparent: number[];
-
-  private clut: CLUT;
 
   constructor(public geometry: Geometry, private http: HttpClient) {}
 
@@ -82,7 +69,7 @@ export class TileComponent implements AfterViewInit {
         canvas.width = this.geometry.dims.cxTile;
         const ctx = canvas.getContext('2d');
         ctx.drawImage(bitmap, 0, 0);
-        // ONLY for ramp transform, transparency
+        // ONLY for transparency
         if (this.transparent) {
           // grab the image pixels
           const imageData = ctx.getImageData(

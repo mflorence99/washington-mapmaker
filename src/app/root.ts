@@ -36,15 +36,19 @@ type UIEvent = {
                 (mousemove)="doDrag($event)"
                 (mouseup)="stopDrag()"
               >
-                <ng-container *ngIf="geometry.style == 'arcgis'">
-                  <map-street></map-street>
-                  <map-parcels></map-parcels>
+                <ng-container [ngSwitch]="geometry.style">
+                  <ng-container *ngSwitchCase="'arcgis'">
+                    <map-street></map-street>
+                    <map-parcels></map-parcels>
+                  </ng-container>
+
+                  <ng-container *ngSwitchCase="'osm'">
+                    <map-topo></map-topo>
+                    <map-parcels></map-parcels>
+                    <map-street></map-street>
+                  </ng-container>
                 </ng-container>
-                <ng-container *ngIf="geometry.style == 'osm'">
-                  <map-topo></map-topo>
-                  <map-parcels></map-parcels>
-                  <map-street></map-street>
-                </ng-container>
+
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
                 <map-indices

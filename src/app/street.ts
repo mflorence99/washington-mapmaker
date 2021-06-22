@@ -9,22 +9,25 @@ import { Component } from '@angular/core';
   template: `
     <ng-container *ngFor="let y of geometry.yTiles; let iy = index">
       <ng-container *ngFor="let x of geometry.xTiles; let ix = index">
-        <map-tile
-          *ngIf="geometry.style == 'arcgis'"
-          filter="saturate(1.5)"
-          [ix]="ix"
-          [iy]="iy"
-          src="/street/arcgis/{{ geometry.zoom }}/{{ x }}/{{ y }}"
-        ></map-tile>
-        <map-tile
-          *ngIf="geometry.style == 'osm'"
-          [alpha]="0"
-          [threshold]="16"
-          [transparent]="[242, 239, 233]"
-          [ix]="ix"
-          [iy]="iy"
-          src="/street/osm/{{ geometry.zoom }}/{{ x }}/{{ y }}"
-        ></map-tile>
+        <ng-container [ngSwitch]="geometry.style">
+          <map-tile
+            *ngSwitchCase="'arcgis'"
+            filter="saturate(1.5)"
+            [ix]="ix"
+            [iy]="iy"
+            src="/street/arcgis/{{ geometry.zoom }}/{{ x }}/{{ y }}"
+          ></map-tile>
+
+          <map-tile
+            *ngSwitchCase="'osm'"
+            [alpha]="0"
+            [threshold]="16"
+            [transparent]="[242, 239, 233]"
+            [ix]="ix"
+            [iy]="iy"
+            src="/street/osm/{{ geometry.zoom }}/{{ x }}/{{ y }}"
+          ></map-tile>
+        </ng-container>
       </ng-container>
     </ng-container>
   `

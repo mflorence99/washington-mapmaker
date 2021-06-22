@@ -1,5 +1,4 @@
 import { Geometry } from './geometry';
-import { Ramp } from './tile';
 
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';

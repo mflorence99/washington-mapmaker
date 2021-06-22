@@ -29,19 +29,22 @@ export type Parcels = Record<string, Parcel>;
   >
     <ng-container *ngIf="parcels$ | async as parcels">
       <ng-container *ngFor="let parcel of parcels | keyvalue">
-        <ng-container *ngIf="parcel.value.geo.type == 'Polygon'">
-          <ng-container *ngFor="let polygon of parcel.value.geo.coordinates">
-            <g><path class="black" [attr.d]="path(polygon)" /></g>
-            <g><path class="white" [attr.d]="path(polygon)" /></g>
-          </ng-container>
-        </ng-container>
-        <ng-container *ngIf="parcel.value.geo.type == 'MultiPolygon'">
-          <ng-container
-            *ngFor="let multipolygon of parcel.value.geo.coordinates"
-          >
-            <ng-container *ngFor="let polygon of multipolygon">
+        <ng-container [ngSwitch]="parcel.value.geo.type">
+          <ng-container *ngSwitchCase="'Polygon'">
+            <ng-container *ngFor="let polygon of parcel.value.geo.coordinates">
               <g><path class="black" [attr.d]="path(polygon)" /></g>
               <g><path class="white" [attr.d]="path(polygon)" /></g>
+            </ng-container>
+          </ng-container>
+
+          <ng-container *ngSwitchCase="'MultiPolygon'">
+            <ng-container
+              *ngFor="let multipolygon of parcel.value.geo.coordinates"
+            >
+              <ng-container *ngFor="let polygon of multipolygon">
+                <g><path class="black" [attr.d]="path(polygon)" /></g>
+                <g><path class="white" [attr.d]="path(polygon)" /></g>
+              </ng-container>
             </ng-container>
           </ng-container>
         </ng-container>
