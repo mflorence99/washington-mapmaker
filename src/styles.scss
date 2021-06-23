@@ -1,7 +1,22 @@
 @import 'colors.scss';
 
+@font-face {
+  font-family: 'Carnevalee Freakshow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/Carnevalee Freakshow.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/RobotoMono.ttf') format('truetype');
+}
+
 :root {
-  --map-aside-cx: 0;
+  // NOTE: this is set in root.ts
+  --map-side-matter-cx: 0;
   // NOTE: these set in geometry.ts
   --map-clip-x: 0;
   --map-clip-y: 0;
@@ -29,9 +44,10 @@
 }
 
 body {
-  background-color: var(--mat-gray-200);
+  background-color: white;
   display: grid;
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   height: 100%;
   place-content: center;
@@ -41,6 +57,7 @@ body {
 
 html {
   border: 0;
+  font-size: 14px;
   height: 100%;
   width: 100%;
 }
@@ -49,8 +66,8 @@ map-root {
   background-color: white;
   display: grid;
   grid-template-areas:
-    'back  map blank'
-    'front map blank';
+    'map side-matter'
+    'map side-matter';
   overflow: hidden;
 
   &.dragging {
@@ -63,22 +80,31 @@ map-root {
   }
 
   aside {
-    width: var(--map-aside-cx);
-  }
+    grid-area: side-matter;
+    padding: calc(var(--map-cyNominal) * var(--map-scale) / 100)
+      calc(var(--map-cxNominal) * var(--map-scale) / 100);
+    width: var(--map-side-matter-cx);
 
-  aside.front {
-    background-color: var(--mat-green-100);
-    grid-area: front;
-  }
+    map-legend {
+      display: block;
+      height: 100%;
+      width: 100%;
 
-  aside.back {
-    background-color: var(--mat-yellow-100);
-    grid-area: back;
-  }
+      header {
+        font-family: 'Carnevalee Freakshow', sans-serif;
+        text-align: center;
 
-  aside.blank {
-    background-color: var(--mat-blue-100);
-    grid-area: blank;
+        h1 {
+          font-size: 4rem;
+          font-weight: normal;
+        }
+
+        h2 {
+          font-size: 2rem;
+          font-weight: normal;
+        }
+      }
+    }
   }
 
   main {

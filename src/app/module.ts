@@ -1,6 +1,7 @@
 import { BoundaryComponent } from './boundary';
 import { GridComponent } from './grid';
 import { IndicesComponent } from './indices';
+import { LegendComponent } from './legend';
 import { ParcelsComponent } from './parcels';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
@@ -32,6 +33,7 @@ const COMPONENTS = [
   BoundaryComponent,
   GridComponent,
   IndicesComponent,
+  LegendComponent,
   ParcelsComponent,
   RootComponent,
   StreetComponent,

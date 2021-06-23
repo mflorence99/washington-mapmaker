@@ -9,12 +9,11 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 const FORMAT2SCALE = {
-  folded: 0.75,
   tiny: 0.75,
-  poster: 1,
-  small: 1.5,
+  small: 1,
   medium: 2,
-  large: 3
+  large: 3,
+  legendOnly: 1
 };
 
 const RAD2DEG = 180 / Math.PI;

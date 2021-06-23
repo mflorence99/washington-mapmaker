@@ -20,9 +20,7 @@ type UIEvent = {
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-root',
   template: `
-    <aside class="front"></aside>
-    <aside class="back"></aside>
-    <main *ngIf="ready" #theMap>
+    <main *ngIf="ready && geometry.format !== 'legendOnly'" #theMap>
       <div class="border-1">
         <div class="border-2">
           <div class="border-3">
@@ -60,7 +58,10 @@ type UIEvent = {
         </div>
       </div>
     </main>
-    <aside class="blank"></aside>
+
+    <aside *ngIf="geometry.profile == 'washington'">
+      <map-legend></map-legend>
+    </aside>
   `
 })
 export class RootComponent {
@@ -84,11 +85,14 @@ export class RootComponent {
     this.geometry.ready.subscribe(() => {
       this.ready = true;
       this.cdf.detectChanges();
-      // add the "wings" if this is a folded map
-      if (this.geometry.format === 'folded') {
-        const foldWidth = this.theMap.nativeElement.offsetWidth / 4;
+      // compute size of side matter
+      if (this.geometry.profile === 'washington') {
+        const sideMatterWidth =
+          geometry.format === 'legendOnly'
+            ? 800
+            : this.theMap.nativeElement.offsetWidth / 3;
         const style = document.body.style;
-        style.setProperty('--map-aside-cx', `${foldWidth}px`);
+        style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
       }
     });
   }
