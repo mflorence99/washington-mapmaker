@@ -25,15 +25,7 @@ type UIEvent = {
         <div class="border-2">
           <div class="border-3">
             <section>
-              <figure
-                [ngClass]="geometry.format"
-                (click)="logLocation($event)"
-                (dblclick)="print()"
-                (mousedown)="startDrag($event)"
-                (mouseout)="stopDrag()"
-                (mousemove)="doDrag($event)"
-                (mouseup)="stopDrag()"
-              >
+              <figure [ngClass]="geometry.format">
                 <ng-container [ngSwitch]="geometry.style">
                   <ng-container *ngSwitchCase="'arcgis'">
                     <map-street></map-street>
@@ -53,7 +45,20 @@ type UIEvent = {
                   *ngIf="geometry.profile == 'washington'"
                 ></map-indices>
               </figure>
-              <figcaption>Published {{ today | date: 'longDate' }}</figcaption>
+
+              <figcaption
+                (click)="logLocation($event)"
+                (dblclick)="print()"
+                (mousedown)="startDrag($event)"
+                (mouseout)="stopDrag()"
+                (mousemove)="doDrag($event)"
+                (mouseup)="stopDrag()"
+              >
+                <p>
+                  Sources: ArcGIS, OpenStreetMap and parcels by Landgrid.com
+                </p>
+                <p>Published {{ today | date: 'longDate' }}</p>
+              </figcaption>
             </section>
           </div>
         </div>
