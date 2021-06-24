@@ -1,17 +1,17 @@
 @import 'colors.scss';
 
 @font-face {
+  font-family: 'Bentham Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/Bentham-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Carnevalee Freakshow';
   font-style: normal;
   font-weight: 400;
   src: url('assets/Carnevalee Freakshow.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url('assets/RobotoMono.ttf') format('truetype');
 }
 
 :root {
@@ -46,7 +46,7 @@
 body {
   background-color: white;
   display: grid;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bentham Regular', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   height: 100%;
@@ -241,6 +241,16 @@ map-root {
             filter: grayscale(1);
           }
         }
+      }
+
+      figcaption {
+        align-content: end;
+        display: grid;
+        height: 100%;
+        justify-content: end;
+        padding: 0.25rem;
+        position: absolute;
+        width: 100%;
       }
     }
   }

@@ -53,6 +53,7 @@ type UIEvent = {
                   *ngIf="geometry.profile == 'washington'"
                 ></map-indices>
               </figure>
+              <figcaption>Published {{ today | date: 'longDate' }}</figcaption>
             </section>
           </div>
         </div>
@@ -71,6 +72,8 @@ export class RootComponent {
   ready = false;
 
   @ViewChild('theMap', { static: false }) theMap: ElementRef;
+
+  today = new Date();
 
   private basis: MouseEvent;
 
