@@ -55,7 +55,8 @@ type UIEvent = {
                 (mouseup)="stopDrag()"
               >
                 <p>
-                  Sources: ArcGIS, OpenStreetMap and parcels by Landgrid.com
+                  Sources: ArcGIS, OpenStreetMap, and parcels by LOVELAND
+                  Technologies at landgrid.com
                 </p>
                 <p>Published {{ today | date: 'longDate' }}</p>
               </figcaption>

@@ -7,14 +7,15 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 export interface Parcel {
-  address: string;
-  fid: string;
-  geo: {
+  geometry: {
     coordinates: [[[number, number]]];
     type: 'Polygon' | 'MultiPolygon';
   };
-  path: string;
-  pid: string;
+  properties: {
+    address: string;
+    path: string;
+    pid: string;
+  };
 }
 
 export type Parcels = Record<string, Parcel>;
@@ -29,9 +30,11 @@ export type Parcels = Record<string, Parcel>;
   >
     <ng-container *ngIf="parcels$ | async as parcels">
       <ng-container *ngFor="let parcel of parcels | keyvalue">
-        <ng-container [ngSwitch]="parcel.value.geo.type">
+        <ng-container [ngSwitch]="parcel.value.geometry.type">
           <ng-container *ngSwitchCase="'Polygon'">
-            <ng-container *ngFor="let polygon of parcel.value.geo.coordinates">
+            <ng-container
+              *ngFor="let polygon of parcel.value.geometry.coordinates"
+            >
               <g><path class="black" [attr.d]="path(polygon)" /></g>
               <g><path class="white" [attr.d]="path(polygon)" /></g>
             </ng-container>
@@ -39,7 +42,7 @@ export type Parcels = Record<string, Parcel>;
 
           <ng-container *ngSwitchCase="'MultiPolygon'">
             <ng-container
-              *ngFor="let multipolygon of parcel.value.geo.coordinates"
+              *ngFor="let multipolygon of parcel.value.geometry.coordinates"
             >
               <ng-container *ngFor="let polygon of multipolygon">
                 <g><path class="black" [attr.d]="path(polygon)" /></g>

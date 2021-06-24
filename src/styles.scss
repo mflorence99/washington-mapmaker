@@ -3,15 +3,22 @@
 @font-face {
   font-family: 'Bentham Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: url('assets/Bentham-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Carnevalee Freakshow';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: url('assets/Carnevalee Freakshow.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand Light';
+  font-style: normal;
+  font-weight: 100;
+  src: url('assets/quicksand.light-regular.otf') format('opentype');
 }
 
 :root {
@@ -45,11 +52,7 @@
 
 body {
   background-color: white;
-  color: var(--mat-grey-900);
   display: grid;
-  font-family: 'Bentham Regular', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
   height: 100%;
   place-content: center;
   user-select: none;
@@ -248,6 +251,8 @@ map-root {
         align-items: flex-end;
         color: var(--mat-grey-700);
         display: flex;
+        font-family: 'Bentham Regular', sans-serif;
+        font-size: 1rem;
         height: 100%;
         justify-content: space-between;
         padding: 0.25rem;
