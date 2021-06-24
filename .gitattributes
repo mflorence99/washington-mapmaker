@@ -1,1 +1,2 @@
+src/assets.data/nh_sullivan.json filter=lfs diff=lfs merge=lfs -text
 src/assets/data/nh_sullivan.json filter=lfs diff=lfs merge=lfs -text
