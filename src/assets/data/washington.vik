@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=64.000000
-ympp=64.000000
-lat=43.168133
-lon=-72.024966
+xmpp=8.000000
+ympp=8.000000
+lat=43.158680
+lon=-72.058869
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -105,25 +105,15 @@ type="trackpoint" latitude="43.13187505438793" longitude="-72.17849779685616"
 type="trackpoint" latitude="43.129799650354386" longitude="-72.12457156002063"
 type="trackpoint" latitude="43.12972360811928" longitude="-72.12315265882593"
 type="trackpoint" latitude="43.12880807494566" longitude="-72.03817392397316"
-type="trackpoint" latitude="43.14023822524717" longitude="-72.0326048123703"
 type="trackpoint" latitude="43.14289990529489" longitude="-72.03187525151824"
-type="trackpoint" latitude="43.15138460495649" longitude="-72.02755421279525"
-type="trackpoint" latitude="43.1598693046181" longitude="-72.02323317407226"
-type="trackpoint" latitude="43.16548794708105" longitude="-72.02653765557861"
-type="trackpoint" latitude="43.171106589543996" longitude="-72.02984213708496"
-type="trackpoint" latitude="43.182373100286476" longitude="-72.0362794387207"
-type="trackpoint" latitude="43.18788942452084" longitude="-72.00907446591629"
-type="trackpoint" latitude="43.223071687251476" longitude="-72.04108595727538"
-type="trackpoint" latitude="43.24352021488899" longitude="-72.04400420068359"
-type="trackpoint" latitude="43.2500535423116" longitude="-72.04443335412597"
-type="trackpoint" latitude="43.254710845486066" longitude="-72.04481959222412"
-type="trackpoint" latitude="43.255367215284664" longitude="-72.06481814263915"
+type="trackpoint" latitude="43.16011960426342" longitude="-72.02385020104981"
+type="trackpoint" latitude="43.182341671443716" longitude="-72.03646731225587"
+type="trackpoint" latitude="43.222446106126206" longitude="-72.04178881494141"
+type="trackpoint" latitude="43.25471070978847" longitude="-72.04556536523438"
+type="trackpoint" latitude="43.25439815025426" longitude="-72.06530642358399"
 type="trackpoint" latitude="43.25008511852033" longitude="-72.06367925607312"
 type="trackpoint" latitude="43.25006816762064" longitude="-72.06367210839414"
 type="trackpoint" latitude="43.24914501964112" longitude="-72.06335177090342"
-type="trackpoint" latitude="43.24919858339022" longitude="-72.07082875001234"
-type="trackpoint" latitude="43.24923666175698" longitude="-72.07531470275865"
-type="trackpoint" latitude="43.24924428203737" longitude="-72.0771613928972"
 type="trackpoint" latitude="43.24925953321957" longitude="-72.07821430423499"
 type="trackpoint" latitude="43.2494578392218" longitude="-72.11118923833439"
 type="trackpoint" latitude="43.24952651929497" longitude="-72.11916982448963"

@@ -104,9 +104,6 @@ export class Geometry {
           this.bbox.bottom = Math.min(this.bbox.bottom, point.lat);
         });
       }
-      // ... or compute it from the top left
-      else if (!this.bbox.right || !this.bbox.bottom) {
-      }
       // ... and its center
       this.center = {
         lat: this.bbox.top - (this.bbox.top - this.bbox.bottom) / 2,
