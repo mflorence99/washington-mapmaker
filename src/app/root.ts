@@ -29,12 +29,12 @@ type UIEvent = {
                 <ng-container [ngSwitch]="geometry.style">
                   <ng-container *ngSwitchCase="'arcgis'">
                     <map-street></map-street>
-                    <map-parcels></map-parcels>
+                    <map-lots></map-lots>
                   </ng-container>
 
                   <ng-container *ngSwitchCase="'osm'">
                     <map-topo></map-topo>
-                    <map-parcels></map-parcels>
+                    <map-lots></map-lots>
                     <map-street></map-street>
                   </ng-container>
                 </ng-container>

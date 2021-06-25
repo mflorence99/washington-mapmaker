@@ -154,7 +154,7 @@ map-root {
         map-boundary,
         map-grid,
         map-indices,
-        map-parcels,
+        map-lots,
         map-street,
         map-topo {
           display: block;
@@ -166,7 +166,7 @@ map-root {
         map-boundary,
         map-grid,
         map-indices,
-        map-parcels {
+        map-lots {
           svg {
             height: 100%;
             width: 100%;
@@ -203,7 +203,7 @@ map-root {
           }
         }
 
-        map-parcels {
+        map-lots {
           g path.black {
             fill: none;
             stroke: var(--mat-blue-grey-300);

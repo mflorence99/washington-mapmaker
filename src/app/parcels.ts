@@ -1,16 +1,15 @@
-import { Geometry } from './geometry';
-import { Point } from './gps-data';
+import '../assets/data/parcels.js';
 
-import { ChangeDetectionStrategy } from '@angular/core';
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Injectable } from '@angular/core';
 
-export interface Parcel {
+declare const PARCELS: Lots;
+
+export interface Lot {
   geometry: {
     coordinates: [[[number, number]]];
     type: 'Polygon' | 'MultiPolygon';
   };
+  id: number;
   properties: {
     address: string;
     path: string;
@@ -18,60 +17,15 @@ export interface Parcel {
   };
 }
 
-export type Parcels = Record<string, Parcel>;
+export interface Lots {
+  lots: Lot[];
+  usageByArea: Record<string, number>;
+  usageByCode: Record<string, string>;
+  usageByCount: Record<string, number>;
+  usageByDesc: Record<string, string>;
+}
 
-@Component({
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  selector: 'map-parcels',
-  template: `<svg
-    attr.viewPort="0 0 {{ geometry.dims.cxNominal }} {{
-      geometry.dims.cyNominal
-    }}"
-  >
-    <ng-container *ngIf="parcels$ | async as parcels">
-      <ng-container *ngFor="let parcel of parcels | keyvalue">
-        <ng-container [ngSwitch]="parcel.value.geometry.type">
-          <ng-container *ngSwitchCase="'Polygon'">
-            <ng-container
-              *ngFor="let polygon of parcel.value.geometry.coordinates"
-            >
-              <g><path class="black" [attr.d]="path(polygon)" /></g>
-              <g><path class="white" [attr.d]="path(polygon)" /></g>
-            </ng-container>
-          </ng-container>
-
-          <ng-container *ngSwitchCase="'MultiPolygon'">
-            <ng-container
-              *ngFor="let multipolygon of parcel.value.geometry.coordinates"
-            >
-              <ng-container *ngFor="let polygon of multipolygon">
-                <g><path class="black" [attr.d]="path(polygon)" /></g>
-                <g><path class="white" [attr.d]="path(polygon)" /></g>
-              </ng-container>
-            </ng-container>
-          </ng-container>
-        </ng-container>
-      </ng-container>
-    </ng-container>
-  </svg>`
-})
-export class ParcelsComponent {
-  parcels$: Observable<Parcels> = this.http.get<Parcels>(
-    '/assets/data/parcels.json'
-  );
-
-  constructor(public geometry: Geometry, private http: HttpClient) {}
-
-  path(points: [[number, number]]): string {
-    return points
-      .map(
-        (point: [number, number]): Point => ({ lat: point[1], lon: point[0] })
-      )
-      .reduce((acc: string, point: Point, ix: number) => {
-        const [x, y] = this.geometry.point2xy(point);
-        if (ix === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      }, '');
-  }
+@Injectable({ providedIn: 'root' })
+export class Parcels {
+  parcels: Lots = PARCELS;
 }
