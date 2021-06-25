@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=8.000000
-ympp=8.000000
-lat=43.158680
-lon=-72.058869
+xmpp=2.000000
+ympp=2.000000
+lat=43.221743
+lon=-72.037797
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -107,8 +107,10 @@ type="trackpoint" latitude="43.12972360811928" longitude="-72.12315265882593"
 type="trackpoint" latitude="43.12880807494566" longitude="-72.03817392397316"
 type="trackpoint" latitude="43.14289990529489" longitude="-72.03187525151824"
 type="trackpoint" latitude="43.16011960426342" longitude="-72.02385020104981"
+type="trackpoint" latitude="43.17123063785357" longitude="-72.03015875665284"
 type="trackpoint" latitude="43.182341671443716" longitude="-72.03646731225587"
-type="trackpoint" latitude="43.222446106126206" longitude="-72.04178881494141"
+type="trackpoint" latitude="43.1874739204475" longitude="-72.00900136999512"
+type="trackpoint" latitude="43.222602727068434" longitude="-72.04159525680542"
 type="trackpoint" latitude="43.25471070978847" longitude="-72.04556536523438"
 type="trackpoint" latitude="43.25439815025426" longitude="-72.06530642358399"
 type="trackpoint" latitude="43.25008511852033" longitude="-72.06367925607312"

@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 import { ViewChild } from '@angular/core';
 
 import { mergeMap } from 'rxjs/operators';
+
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-tile',
@@ -89,10 +90,11 @@ export class TileComponent implements AfterViewInit {
           ctx.putImageData(imageData, 0, 0);
         }
         // draw the munged image
+        const data = canvas.toDataURL();
         const outside = this.outside.nativeElement;
-        outside.src = canvas.toDataURL();
+        outside.src = data;
         const inside = this.inside.nativeElement;
-        inside.src = canvas.toDataURL();
+        inside.src = data;
       });
   }
 

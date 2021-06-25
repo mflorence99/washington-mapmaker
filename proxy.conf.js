@@ -31,6 +31,7 @@ const PROXY_CONFIG = [
   {
     changeOrigin: true,
     context: ['/street/osm'],
+    logLevel: 'debug',
     pathRewrite: (path, req) => path.replace('/street/osm', '') + '.png',
     target: 'https://tile.openstreetmap.org',
     secure: true
@@ -38,6 +39,7 @@ const PROXY_CONFIG = [
   {
     changeOrigin: true,
     context: ['/topo/arcgis'],
+    logLevel: 'debug',
     pathRewrite: (path, req) =>
       reverseXY(path).replace('/topo/arcgis', '/tile'),
     target:

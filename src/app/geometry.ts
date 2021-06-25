@@ -9,10 +9,8 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 const FORMAT2SCALE = {
-  tiny: 0.75,
-  small: 1,
-  medium: 2,
-  large: 3,
+  tiny: 0.25,
+  normal: 1,
   legendOnly: 1
 };
 
@@ -74,7 +72,7 @@ export class Geometry {
   title = 'Washington';
   xTiles = [];
   yTiles = [];
-  zoom = 14;
+  zoom = 15;
 
   constructor(public gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
@@ -110,11 +108,11 @@ export class Geometry {
         lon: this.bbox.left + (this.bbox.right - this.bbox.left) / 2
       };
       // compute tiles
-      // NOTE: spread out one tile on all sides
-      this.tiles.bottom = this.lat2tile(this.bbox.bottom) + 1;
-      this.tiles.left = this.lon2tile(this.bbox.left) - 1;
-      this.tiles.right = this.lon2tile(this.bbox.right) + 1;
-      this.tiles.top = this.lat2tile(this.bbox.top) - 1;
+      // NOTE: spread out on all sides
+      this.tiles.bottom = this.lat2tile(this.bbox.bottom) + 2;
+      this.tiles.left = this.lon2tile(this.bbox.left) - 2;
+      this.tiles.right = this.lon2tile(this.bbox.right) + 2;
+      this.tiles.top = this.lat2tile(this.bbox.top) - 2;
       // compute dimension
       this.dims.numXTiles = Math.abs(this.tiles.left - this.tiles.right) + 1;
       this.dims.numYTiles = Math.abs(this.tiles.top - this.tiles.bottom) + 1;

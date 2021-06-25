@@ -18,7 +18,12 @@ import { Component } from '@angular/core';
         <ng-container *ngSwitchCase="'Polygon'">
           <ng-container *ngFor="let polygon of lot.geometry.coordinates">
             <g><path class="black" [attr.d]="path(polygon)" /></g>
-            <g><path class="white" [attr.d]="path(polygon)" /></g>
+            <g>
+              <path
+                class="white u{{ lot.properties.usecode }}"
+                [attr.d]="path(polygon)"
+              />
+            </g>
           </ng-container>
         </ng-container>
 

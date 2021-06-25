@@ -66,7 +66,9 @@ type UIEvent = {
       </div>
     </main>
 
-    <aside *ngIf="geometry.profile == 'washington'">
+    <aside
+      *ngIf="geometry.format !== 'tiny' && geometry.profile == 'washington'"
+    >
       <map-legend></map-legend>
     </aside>
   `
@@ -83,9 +85,6 @@ export class RootComponent {
 
   private basis: MouseEvent;
 
-  // @see https://stackoverflow.com/questions/35497243
-  private beep = new Audio('assets/beep.mp3');
-
   constructor(
     private cdf: ChangeDetectorRef,
     private host: ElementRef,
@@ -95,11 +94,14 @@ export class RootComponent {
       this.ready = true;
       this.cdf.detectChanges();
       // compute size of side matter
-      if (this.geometry.profile === 'washington') {
+      if (
+        this.geometry.format !== 'tiny' &&
+        this.geometry.profile === 'washington'
+      ) {
         const sideMatterWidth =
           geometry.format === 'legendOnly'
             ? 800
-            : this.theMap.nativeElement.offsetWidth / 3;
+            : this.theMap.nativeElement.offsetWidth / 6;
         const style = document.body.style;
         style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
       }
@@ -144,7 +146,7 @@ export class RootComponent {
             this.cdf.markForCheck();
           });
       }, 100);
-    } else this.beep.play();
+    }
   }
 
   startDrag(event: MouseEvent): void {

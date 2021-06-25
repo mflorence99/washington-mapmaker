@@ -209,11 +209,54 @@ map-root {
             stroke: var(--mat-blue-grey-300);
             stroke-width: 1;
           }
+
           g path.white {
             fill: none;
             stroke: var(--mat-blue-grey-50);
             stroke-dasharray: 1, 2;
             stroke-width: 1;
+          }
+
+          // @see https://www.gismanual.com/style/ColorConventions.pdf
+
+          g path.white.u11 /* Single family */ {
+            fill: var(--mat-brown-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u12 /* Multi family */ {
+            fill: var(--mat-brown-300);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u17 /* Manufacturing */ {
+            fill: var(--mat-red-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u19 /* Unclassified improved residential */ {
+            fill: var(--mat-light-green-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u22 /* Residential land */ {
+            fill: var(--mat-yellow-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u26 /* Mixed use */ {
+            fill: var(--mat-purple-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u33 /* Commercial */ {
+            fill: var(--mat-indigo-100);
+            mix-blend-mode: multiply;
+          }
+
+          g path.white.u58 /* Garage */ {
+            fill: var(--mat-blue-100);
+            mix-blend-mode: multiply;
           }
         }
 
