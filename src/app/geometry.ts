@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 const FORMAT2SCALE = {
-  tiny: 0.25,
+  tiny: 0.5,
   normal: 1,
   legendOnly: 1
 };

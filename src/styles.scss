@@ -40,7 +40,7 @@
   --map-scale: 1;
   // land use color shading
   --shade-u11: var(--mat-brown-100);
-  --shade-u12: var(--mat-brown-300);
+  --shade-u12: var(--mat-brown-200);
   --shade-u17: var(--mat-red-100);
   --shade-u19: var(--mat-light-green-100);
   --shade-u22: var(--mat-orange-100);
@@ -161,6 +161,7 @@ map-root {
         width: calc(var(--map-cxNominal) * var(--map-scale));
 
         map-boundary,
+        map-clip,
         map-grid,
         map-indices,
         map-lots,
@@ -174,6 +175,7 @@ map-root {
         }
 
         map-boundary,
+        map-clip,
         map-grid,
         map-indices,
         map-lots {
@@ -214,16 +216,18 @@ map-root {
         }
 
         map-lots {
+          clip-path: url(#boundary);
+
           g path.black {
             fill: none;
-            stroke: var(--mat-blue-grey-300);
+            stroke: var(--mat-blue-gray-300);
             stroke-width: 1;
           }
 
           g path.white {
             fill: none;
             mix-blend-mode: multiply;
-            stroke: var(--mat-blue-grey-50);
+            stroke: var(--mat-blue-gray-50);
             stroke-dasharray: 1, 2;
             stroke-width: 1;
           }
@@ -261,6 +265,12 @@ map-root {
           g path.white.u58 /* Garage */ {
             fill: var(--shade-u58);
           }
+
+          g text {
+            color: var(--mat-gray-500);
+            font-family: sans-serif;
+            font-size: 10px;
+          }
         }
 
         map-tile {
@@ -295,7 +305,7 @@ map-root {
 
       figcaption {
         align-items: flex-end;
-        color: var(--mat-grey-700);
+        color: var(--mat-gray-700);
         display: flex;
         font-family: 'Bentham Regular', sans-serif;
         font-size: 1rem;

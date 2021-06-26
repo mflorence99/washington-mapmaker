@@ -1,5 +1,6 @@
 import { Geometry } from './geometry';
 
+import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { ChangeDetectorRef } from '@angular/core';
 import { Component } from '@angular/core';
@@ -26,6 +27,8 @@ type UIEvent = {
           <div class="border-3">
             <section>
               <figure [ngClass]="geometry.format">
+                <map-clip></map-clip>
+
                 <ng-container [ngSwitch]="geometry.style">
                   <ng-container *ngSwitchCase="'arcgis'">
                     <map-street></map-street>
@@ -33,9 +36,9 @@ type UIEvent = {
                   </ng-container>
 
                   <ng-container *ngSwitchCase="'osm'">
-                    <map-topo></map-topo>
+                    <!-- map-topo></!-->
                     <map-lots></map-lots>
-                    <map-street></map-street>
+                    <!-- map-street></!-->
                   </ng-container>
                 </ng-container>
 
@@ -73,7 +76,7 @@ type UIEvent = {
     </aside>
   `
 })
-export class RootComponent {
+export class RootComponent implements AfterViewInit {
   @HostBinding('class.dragging') dragging = false;
   @HostBinding('class.printing') printing = false;
 
@@ -87,23 +90,7 @@ export class RootComponent {
     private cdf: ChangeDetectorRef,
     private host: ElementRef,
     public geometry: Geometry
-  ) {
-    this.geometry.ready$.subscribe(() => {
-      this.cdf.detectChanges();
-      // compute size of side matter
-      if (
-        this.geometry.format !== 'tiny' &&
-        this.geometry.profile === 'washington'
-      ) {
-        const sideMatterWidth =
-          geometry.format === 'legendOnly'
-            ? 800
-            : this.theMap.nativeElement.offsetWidth / 6;
-        const style = document.body.style;
-        style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
-      }
-    });
-  }
+  ) {}
 
   doDrag(event: MouseEvent): void {
     if (this.dragging) {
@@ -121,6 +108,24 @@ export class RootComponent {
     const x = layerX + this.geometry.clip.x;
     const y = layerY + this.geometry.clip.y;
     console.log(this.geometry.xy2point([x, y]));
+  }
+
+  ngAfterViewInit(): void {
+    this.geometry.ready$.subscribe(() => {
+      this.cdf.detectChanges();
+      // compute size of side matter
+      if (
+        this.geometry.format !== 'tiny' &&
+        this.geometry.profile === 'washington'
+      ) {
+        const sideMatterWidth =
+          this.geometry.format === 'legendOnly'
+            ? 800
+            : this.theMap.nativeElement.offsetWidth / 6;
+        const style = document.body.style;
+        style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
+      }
+    });
   }
 
   print(): void {
