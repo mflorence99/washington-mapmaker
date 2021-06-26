@@ -238,7 +238,6 @@ map-root {
 
           g path.white {
             fill: none;
-            mix-blend-mode: multiply;
             stroke: var(--mat-blue-gray-50);
             stroke-dasharray: 1, 2;
             stroke-width: 1;
@@ -248,42 +247,52 @@ map-root {
 
           g path.white.u11 /* Single family */ {
             fill: var(--shade-u11);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u12 /* Multi family */ {
             fill: var(--shade-u12);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u17 /* Manufacturing */ {
             fill: var(--shade-u17);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u19 /* Unclassified improved residential */ {
             fill: var(--shade-u19);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u22 /* Residential land */ {
             fill: var(--shade-u22);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u26 /* Mixed use */ {
             fill: var(--shade-u26);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u33 /* Commercial */ {
             fill: var(--shade-u33);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u58 /* Garage */ {
             fill: var(--shade-u58);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u100 /* State Park */ {
             fill: var(--shade-u100);
+            mix-blend-mode: multiply;
           }
 
           g path.white.u101 /* Town Forest */ {
             fill: var(--shade-u101);
+            mix-blend-mode: multiply;
           }
         }
 

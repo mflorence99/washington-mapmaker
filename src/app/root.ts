@@ -36,7 +36,7 @@ type UIEvent = {
                   </ng-container>
 
                   <ng-container *ngSwitchCase="'osm'">
-                    <!-- map-topo></!-->
+                    <map-topo></map-topo>
                     <map-lots></map-lots>
                     <map-street></map-street>
                   </ng-container>

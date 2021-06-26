@@ -13,48 +13,14 @@ import { Component } from '@angular/core';
     }}"
   >
     <ng-container *ngFor="let lot of parcels.parcels.lots">
-      <ng-container [ngSwitch]="lot.geometry.type">
-        <ng-container *ngSwitchCase="'Polygon'">
-          <ng-container *ngFor="let polygon of lot.geometry.coordinates">
-            <ng-container
-              *ngTemplateOutlet="
-                lotTemplate;
-                context: {
-                  lot: { polygon: polygon, properties: lot.properties }
-                }
-              "
-            ></ng-container>
-          </ng-container>
+      <ng-container *ngIf="lot.properties.ll_gisacre >= 10">
+        <ng-container *ngFor="let center of lot.properties.centers">
+          <g *ngIf="geometry.point2xy(center) as xy">
+            <text [attr.x]="xy[0]" [attr.y]="xy[1]" text-anchor="middle">
+              {{ lotID(lot.properties) }}
+            </text>
+          </g>
         </ng-container>
-
-        <ng-container *ngSwitchCase="'MultiPolygon'">
-          <ng-container *ngFor="let multipolygon of lot.geometry.coordinates">
-            <ng-container *ngFor="let polygon of multipolygon">
-              <ng-container
-                *ngTemplateOutlet="
-                  lotTemplate;
-                  context: {
-                    lot: { polygon: polygon, properties: lot.properties }
-                  }
-                "
-              ></ng-container>
-            </ng-container>
-          </ng-container>
-        </ng-container>
-
-        <ng-template #lotTemplate let-lot="lot">
-          <ng-container *ngIf="lot.properties.ll_gisacre >= 10">
-            <ng-container
-              *ngIf="geometry.point2xy(geometry.centerPoint(lot.polygon)) as xy"
-            >
-              <g>
-                <text [attr.x]="xy[0]" [attr.y]="xy[1]" text-anchor="middle">
-                  {{ lotID(lot.properties) }}
-                </text>
-              </g>
-            </ng-container>
-          </ng-container>
-        </ng-template>
       </ng-container>
     </ng-container>
   </svg>`

@@ -101,13 +101,18 @@ county.features
         const count: number = washington.usageByCount[usedesc];
         washington.usageByCount[usedesc] = count ? count + 1 : 1;
       }
-      // jam center
+      // jam centers
+      let centers;
       if (feature.geometry.type === 'Polygon')
-        feature.properties.center = [polylabel(feature.geometry.coordinates)];
+        centers = [polylabel(feature.geometry.coordinates)];
       else if (feature.geometry.type === 'MultiPolygon')
-        feature.properties.center = feature.geometry.coordinates.map(
-          (polygon) => polylabel(polygon)
+        centers = feature.geometry.coordinates.map((polygon) =>
+          polylabel(polygon)
         );
+      feature.properties.centers = centers.map((center) => ({
+        lat: center[1],
+        lon: center[0]
+      }));
     }
   });
 
