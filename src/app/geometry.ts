@@ -60,7 +60,7 @@ export class Geometry {
   };
   format = 'tiny';
   profile = 'washington';
-  ready = new Subject<void>();
+  ready$ = new Subject<boolean>();
   scale = 1;
   style = 'osm';
   tiles = {
@@ -184,7 +184,7 @@ export class Geometry {
       style.setProperty('--map-numYTiles', `${this.dims.numYTiles}`);
       style.setProperty('--map-scale', `${this.scale}`);
       // ready to rock!
-      this.ready.next();
+      this.ready$.next(true);
     });
   }
 

@@ -1,34 +1,32 @@
 import { Geometry } from './geometry';
+import { TileParams } from './tiles';
+
+import { makeTileParams } from './tiles';
 
 import { ChangeDetectionStrategy } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
 import { Component } from '@angular/core';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-topo',
-  template: `
-    <ng-container *ngIf="ready">
-      <ng-container *ngFor="let y of geometry.yTiles; let iy = index">
-        <ng-container *ngFor="let x of geometry.xTiles; let ix = index">
-          <map-tile
-            filter="saturate(4)"
-            [ix]="ix"
-            [iy]="iy"
-            src="/topo/arcgis/{{ geometry.zoom }}/{{ x }}/{{ y }}"
-          ></map-tile>
-        </ng-container>
-      </ng-container>
-    </ng-container>
-  `
+  template: `<map-tiles [tileParams]="tileParams"></map-tiles>`
 })
 export class TopoComponent {
-  ready = false;
+  tileParams: TileParams[] = [];
 
-  constructor(private cdf: ChangeDetectorRef, public geometry: Geometry) {
-    setTimeout(() => {
-      this.ready = true;
-      this.cdf.detectChanges();
-    }, 10000);
+  constructor(public geometry: Geometry) {
+    for (let iy = 0; iy < this.geometry.dims.numYTiles; iy++) {
+      for (let ix = 0; ix < this.geometry.dims.numXTiles; ix++) {
+        const x = this.geometry.xTiles[ix];
+        const y = this.geometry.yTiles[iy];
+        const params: TileParams = makeTileParams({
+          filter: 'saturate(4)',
+          ix: ix,
+          iy: iy,
+          src: `/topo/arcgis/${this.geometry.zoom}/${x}/${y}`
+        });
+        this.tileParams.push(params);
+      }
+    }
   }
 }

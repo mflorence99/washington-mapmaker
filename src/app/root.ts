@@ -20,8 +20,8 @@ type UIEvent = {
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-root',
   template: `
-    <main *ngIf="ready && geometry.format !== 'legendOnly'" #theMap>
-      <div class="border-1">
+    <main *ngIf="geometry.ready$ | async as ready" #theMap>
+      <div *ngIf="geometry.format !== 'legendOnly'" class="border-1">
         <div class="border-2">
           <div class="border-3">
             <section>
@@ -77,8 +77,6 @@ export class RootComponent {
   @HostBinding('class.dragging') dragging = false;
   @HostBinding('class.printing') printing = false;
 
-  ready = false;
-
   @ViewChild('theMap', { static: false }) theMap: ElementRef;
 
   today = new Date();
@@ -90,8 +88,7 @@ export class RootComponent {
     private host: ElementRef,
     public geometry: Geometry
   ) {
-    this.geometry.ready.subscribe(() => {
-      this.ready = true;
+    this.geometry.ready$.subscribe(() => {
       this.cdf.detectChanges();
       // compute size of side matter
       if (

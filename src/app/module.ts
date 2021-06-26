@@ -6,6 +6,7 @@ import { LotsComponent } from './lots';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
 import { TileComponent } from './tile';
+import { TilesComponent } from './tiles';
 import { TopoComponent } from './topo';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -38,6 +39,7 @@ const COMPONENTS = [
   RootComponent,
   StreetComponent,
   TileComponent,
+  TilesComponent,
   TopoComponent
 ];
 

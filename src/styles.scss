@@ -38,6 +38,15 @@
   --map-numXTiles: 0;
   --map-numYTiles: 0;
   --map-scale: 1;
+  // land use color shading
+  --shade-u11: var(--mat-brown-100);
+  --shade-u12: var(--mat-brown-300);
+  --shade-u17: var(--mat-red-100);
+  --shade-u19: var(--mat-light-green-100);
+  --shade-u22: var(--mat-orange-100);
+  --shade-u26: var(--mat-purple-100);
+  --shade-u33: var(--mat-indigo-100);
+  --shade-u58: var(--mat-blue-100);
 }
 
 * {
@@ -156,6 +165,7 @@ map-root {
         map-indices,
         map-lots,
         map-street,
+        map-tiles,
         map-topo {
           display: block;
           height: 100%;
@@ -212,6 +222,7 @@ map-root {
 
           g path.white {
             fill: none;
+            mix-blend-mode: multiply;
             stroke: var(--mat-blue-grey-50);
             stroke-dasharray: 1, 2;
             stroke-width: 1;
@@ -220,43 +231,35 @@ map-root {
           // @see https://www.gismanual.com/style/ColorConventions.pdf
 
           g path.white.u11 /* Single family */ {
-            fill: var(--mat-brown-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u11);
           }
 
           g path.white.u12 /* Multi family */ {
-            fill: var(--mat-brown-300);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u12);
           }
 
           g path.white.u17 /* Manufacturing */ {
-            fill: var(--mat-red-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u17);
           }
 
           g path.white.u19 /* Unclassified improved residential */ {
-            fill: var(--mat-light-green-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u19);
           }
 
           g path.white.u22 /* Residential land */ {
-            fill: var(--mat-yellow-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u22);
           }
 
           g path.white.u26 /* Mixed use */ {
-            fill: var(--mat-purple-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u26);
           }
 
           g path.white.u33 /* Commercial */ {
-            fill: var(--mat-indigo-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u33);
           }
 
           g path.white.u58 /* Garage */ {
-            fill: var(--mat-blue-100);
-            mix-blend-mode: multiply;
+            fill: var(--shade-u58);
           }
         }
 

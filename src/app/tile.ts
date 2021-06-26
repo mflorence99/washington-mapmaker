@@ -1,27 +1,23 @@
 import { Geometry } from './geometry';
 import { Point } from './gps-data';
+import { TileParams } from './tiles';
 
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Input } from '@angular/core';
-import { Observable } from 'rxjs';
 import { ViewChild } from '@angular/core';
-
-import { mergeMap } from 'rxjs/operators';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-tile',
   template: `<canvas #canvas></canvas>
-    <img class="outside" [src]="src" #outside />
+    <img class="outside" #outside />
     <img
       class="inside"
-      style="clip-path: path('{{ clipPath(ix, iy) }}'); filter: {{
-        this.filter ?? 'none'
+      style="clip-path: path('{{ clipPath(params.ix, params.iy) }}'); filter: {{
+        params.filter ?? 'none'
       }};"
-      [src]="src"
       #inside
     />`
 })
@@ -30,16 +26,9 @@ export class TileComponent implements AfterViewInit {
   @ViewChild('inside', { static: true }) inside;
   @ViewChild('outside', { static: true }) outside;
 
-  // eslint-disable-next-line @typescript-eslint/member-ordering
-  @Input() alpha: number;
-  @Input() filter: string;
-  @Input() ix: number;
-  @Input() iy: number;
-  @Input() src: string;
-  @Input() threshold: number;
-  @Input() transparent: number[];
+  @Input() params: TileParams;
 
-  constructor(public geometry: Geometry, private http: HttpClient) {}
+  constructor(public geometry: Geometry) {}
 
   clipPath(ix: number, iy: number): string {
     return this.geometry.gpsData.boundary.Boundary.reduce(
@@ -60,42 +49,45 @@ export class TileComponent implements AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.http
-      .get(this.src, { responseType: 'blob' })
-      .pipe(mergeMap((blob: Blob) => this.createImageBitmap(blob)))
-      .subscribe((bitmap: ImageBitmap) => {
-        // draw the bitmap on the canvas
-        const canvas = this.canvas.nativeElement;
-        canvas.height = this.geometry.dims.cyTile;
-        canvas.width = this.geometry.dims.cxTile;
-        const ctx = canvas.getContext('2d');
-        ctx.drawImage(bitmap, 0, 0);
-        // ONLY for transparency
-        if (this.transparent) {
-          // grab the image pixels
-          const imageData = ctx.getImageData(
-            0,
-            0,
-            this.geometry.dims.cxTile,
-            this.geometry.dims.cyTile
-          );
-          const pixels: number[] = imageData.data;
-          // transform pixels ...
-          for (let ix = 0; ix < pixels.length; ix += 4) {
-            const pixel = [pixels[ix], pixels[ix + 1], pixels[ix + 2]];
-            if (this.comparePixel(pixel, this.transparent, this.threshold))
-              pixels[ix + 3] = this.alpha;
-          }
-          // update the image pixels
-          ctx.putImageData(imageData, 0, 0);
+    this.params.ready$.subscribe((bitmap: ImageBitmap) => {
+      // draw the bitmap on the canvas
+      const canvas = this.canvas.nativeElement;
+      canvas.height = this.geometry.dims.cyTile;
+      canvas.width = this.geometry.dims.cxTile;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(bitmap, 0, 0);
+      // ONLY for transparency
+      if (this.params.transparent) {
+        // grab the image pixels
+        const imageData = ctx.getImageData(
+          0,
+          0,
+          this.geometry.dims.cxTile,
+          this.geometry.dims.cyTile
+        );
+        const pixels: number[] = imageData.data;
+        // transform pixels ...
+        for (let ix = 0; ix < pixels.length; ix += 4) {
+          const pixel = [pixels[ix], pixels[ix + 1], pixels[ix + 2]];
+          if (
+            this.comparePixel(
+              pixel,
+              this.params.transparent,
+              this.params.threshold
+            )
+          )
+            pixels[ix + 3] = this.params.alpha;
         }
-        // draw the munged image
-        const data = canvas.toDataURL();
-        const outside = this.outside.nativeElement;
-        outside.src = data;
-        const inside = this.inside.nativeElement;
-        inside.src = data;
-      });
+        // update the image pixels
+        ctx.putImageData(imageData, 0, 0);
+      }
+      // draw the munged image
+      const data = canvas.toDataURL();
+      const outside = this.outside.nativeElement;
+      outside.src = data;
+      const inside = this.inside.nativeElement;
+      inside.src = data;
+    });
   }
 
   private comparePixel(p: number[], q: number[], threshold: number): boolean {
@@ -104,16 +96,5 @@ export class TileComponent implements AfterViewInit {
       Math.abs(p[1] - q[1]) < threshold &&
       Math.abs(p[2] - q[2]) < threshold
     );
-  }
-
-  private createImageBitmap(blob: Blob): Observable<ImageBitmap> {
-    return new Observable<ImageBitmap>((observer) => {
-      createImageBitmap(blob)
-        .then((bitmap) => {
-          observer.next(bitmap);
-          observer.complete();
-        })
-        .catch((err) => observer.error(err));
-    });
   }
 }

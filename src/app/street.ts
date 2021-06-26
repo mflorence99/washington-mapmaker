@@ -1,47 +1,35 @@
 import { Geometry } from './geometry';
+import { TileParams } from './tiles';
+
+import { makeTileParams } from './tiles';
 
 import { ChangeDetectionStrategy } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
 import { Component } from '@angular/core';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-street',
-  template: `
-    <ng-container *ngIf="ready">
-      <ng-container *ngFor="let y of geometry.yTiles; let iy = index">
-        <ng-container *ngFor="let x of geometry.xTiles; let ix = index">
-          <ng-container [ngSwitch]="geometry.style">
-            <map-tile
-              *ngSwitchCase="'arcgis'"
-              filter="saturate(1.5)"
-              [ix]="ix"
-              [iy]="iy"
-              src="/street/arcgis/{{ geometry.zoom }}/{{ x }}/{{ y }}"
-            ></map-tile>
-
-            <map-tile
-              *ngSwitchCase="'osm'"
-              [alpha]="0"
-              [threshold]="16"
-              [transparent]="[242, 239, 233]"
-              [ix]="ix"
-              [iy]="iy"
-              src="/street/osm/{{ geometry.zoom }}/{{ x }}/{{ y }}"
-            ></map-tile>
-          </ng-container>
-        </ng-container>
-      </ng-container>
-    </ng-container>
-  `
+  template: `<map-tiles [tileParams]="tileParams"></map-tiles>`
 })
 export class StreetComponent {
-  ready = false;
+  tileParams: TileParams[] = [];
 
-  constructor(private cdf: ChangeDetectorRef, public geometry: Geometry) {
-    setTimeout(() => {
-      this.ready = true;
-      this.cdf.detectChanges();
-    }, 100);
+  constructor(public geometry: Geometry) {
+    for (let iy = 0; iy < this.geometry.dims.numYTiles; iy++) {
+      for (let ix = 0; ix < this.geometry.dims.numXTiles; ix++) {
+        const x = this.geometry.xTiles[ix];
+        const y = this.geometry.yTiles[iy];
+        const params: TileParams = makeTileParams({
+          alpha: this.geometry.style === 'osm' ? 0 : null,
+          filter: this.geometry.style === 'arcgis' ? 'saturate(1.5)' : null,
+          ix: ix,
+          iy: iy,
+          src: `/street/${this.geometry.style}/${this.geometry.zoom}/${x}/${y}`,
+          threshold: this.geometry.style === 'osm' ? 16 : null,
+          transparent: this.geometry.style === 'osm' ? [242, 239, 233] : null
+        });
+        this.tileParams.push(params);
+      }
+    }
   }
 }
