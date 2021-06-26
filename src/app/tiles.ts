@@ -8,6 +8,7 @@ import { Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Subject } from 'rxjs';
 
+import { catchError } from 'rxjs/operators';
 import { concat } from 'rxjs';
 import { forkJoin } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
@@ -45,14 +46,15 @@ export class TilesComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     const requests = this.tileParams.map((params) => {
       return forkJoin(
-        this.http
-          .get(params.src, { responseType: 'blob' })
-          .pipe(mergeMap((blob: Blob) => this.createImageBitmap(blob))),
+        this.http.get(params.src, { responseType: 'blob' }).pipe(
+          mergeMap((blob: Blob) => this.createImageBitmap(blob)),
+          catchError((_) => of(null))
+        ),
         of(params)
       );
     });
     concat(...requests).subscribe(([bitmap, params]) => {
-      params.ready$.next(bitmap);
+      if (bitmap) params.ready$.next(bitmap);
     });
   }
 

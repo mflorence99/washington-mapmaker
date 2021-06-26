@@ -2,6 +2,7 @@ import { BoundaryComponent } from './boundary';
 import { ClipComponent } from './clip';
 import { GridComponent } from './grid';
 import { IndicesComponent } from './indices';
+import { LabelsComponent } from './labels';
 import { LegendComponent } from './legend';
 import { LotsComponent } from './lots';
 import { RootComponent } from './root';
@@ -36,6 +37,7 @@ const COMPONENTS = [
   ClipComponent,
   GridComponent,
   IndicesComponent,
+  LabelsComponent,
   LegendComponent,
   LotsComponent,
   RootComponent,

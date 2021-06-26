@@ -1,13 +1,12 @@
 import { Geometry } from './geometry';
 import { Parcels } from './parcels';
-import { Point } from './gps-data';
 
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  selector: 'map-lots',
+  selector: 'map-labels',
   template: `<svg
     attr.viewPort="0 0 {{ geometry.dims.cxNominal }} {{
       geometry.dims.cyNominal
@@ -44,32 +43,29 @@ import { Component } from '@angular/core';
         </ng-container>
 
         <ng-template #lotTemplate let-lot="lot">
-          <g><path class="black" [attr.d]="path(lot.polygon)" /></g>
-
-          <g>
-            <path
-              class="white u{{ lot.properties.usecode }}"
-              [attr.d]="path(lot.polygon)"
-            />
-          </g>
+          <ng-container *ngIf="lot.properties.ll_gisacre >= 10">
+            <ng-container
+              *ngIf="geometry.point2xy(geometry.centerPoint(lot.polygon)) as xy"
+            >
+              <g>
+                <text [attr.x]="xy[0]" [attr.y]="xy[1]" text-anchor="middle">
+                  {{ lotID(lot.properties) }}
+                </text>
+              </g>
+            </ng-container>
+          </ng-container>
         </ng-template>
       </ng-container>
     </ng-container>
   </svg>`
 })
-export class LotsComponent {
+export class LabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
 
-  path(points: [[number, number]]): string {
-    return points
-      .map(
-        (point: [number, number]): Point => ({ lat: point[1], lon: point[0] })
-      )
-      .reduce((acc: string, point: Point, ix: number) => {
-        const [x, y] = this.geometry.point2xy(point);
-        if (ix === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      }, '');
+  lotID(properties: any): string {
+    if (!properties.displayid) return '';
+    const parts = properties.displayid.split('-');
+    const base = `${parseInt(parts[0], 10)}-${parseInt(parts[1], 10)}`;
+    return ['0', '00'].includes(parts[2]) ? base : `${base}-${parts[2]}`;
   }
 }

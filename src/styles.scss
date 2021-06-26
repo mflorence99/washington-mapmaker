@@ -42,11 +42,13 @@
   --shade-u11: var(--mat-brown-100);
   --shade-u12: var(--mat-brown-200);
   --shade-u17: var(--mat-red-100);
-  --shade-u19: var(--mat-light-green-100);
+  --shade-u19: var(--mat-yellow-100);
   --shade-u22: var(--mat-orange-100);
   --shade-u26: var(--mat-purple-100);
   --shade-u33: var(--mat-indigo-100);
   --shade-u58: var(--mat-blue-100);
+  --shade-u100: #cdddc5;
+  --shade-u101: #add19e;
 }
 
 * {
@@ -164,6 +166,7 @@ map-root {
         map-clip,
         map-grid,
         map-indices,
+        map-labels,
         map-lots,
         map-street,
         map-tiles,
@@ -178,6 +181,7 @@ map-root {
         map-clip,
         map-grid,
         map-indices,
+        map-labels,
         map-lots {
           svg {
             height: 100%;
@@ -212,6 +216,14 @@ map-root {
             stroke: var(--mat-gray-500);
             stroke-opacity: 0.5;
             stroke-width: 8;
+          }
+        }
+
+        map-labels {
+          g text {
+            color: var(--mat-gray-500);
+            font-family: sans-serif;
+            font-size: 10px;
           }
         }
 
@@ -266,10 +278,12 @@ map-root {
             fill: var(--shade-u58);
           }
 
-          g text {
-            color: var(--mat-gray-500);
-            font-family: sans-serif;
-            font-size: 10px;
+          g path.white.u100 /* State Park */ {
+            fill: var(--shade-u100);
+          }
+
+          g path.white.u101 /* Town Forest */ {
+            fill: var(--shade-u101);
           }
         }
 

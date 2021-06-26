@@ -16,7 +16,9 @@
     "serve": "ng serve --proxy-config proxy.conf.js"
   },
   "dependencies": {
-    "lz-string": "^1.4.4"
+    "@types/polylabel": "^1.0.5",
+    "lz-string": "^1.4.4",
+    "polylabel": "^1.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^12",
