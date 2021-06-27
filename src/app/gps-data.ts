@@ -1,20 +1,16 @@
-import { HttpClient } from "@angular/common/http";
-import { HttpResponse } from "@angular/common/http";
-import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { Point } from './geometry';
 
-import { forkJoin } from "rxjs";
-import { mergeMap } from "rxjs/operators";
-import { parseString } from "xml2js";
-import { tap } from "rxjs/operators";
+import { HttpClient } from '@angular/common/http';
+import { HttpResponse } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+
+import { forkJoin } from 'rxjs';
+import { mergeMap } from 'rxjs/operators';
+import { parseString } from 'xml2js';
+import { tap } from 'rxjs/operators';
 
 const METERS2FEET = 3.28084;
-
-export interface Point {
-  ele?: number;
-  lat: number;
-  lon: number;
-}
 
 export interface Tracks {
   [name: string]: Point[];
@@ -24,21 +20,21 @@ export interface Waypoints {
   [name: string]: Point;
 }
 
-@Injectable({ providedIn: "root" })
+@Injectable({ providedIn: 'root' })
 export class GpsData {
   boundary: Tracks;
 
   constructor(private http: HttpClient) {}
 
   load(): Observable<any> {
-    return forkJoin([this.loadImpl("boundary")]);
+    return forkJoin([this.loadImpl('boundary')]);
   }
 
   private loadImpl(key: string): Observable<Tracks | Waypoints> {
     return this.http
       .get(`/assets/data/${key}.gpx`, {
-        observe: "response",
-        responseType: "text",
+        observe: 'response',
+        responseType: 'text'
       })
       .pipe(
         mergeMap((response: HttpResponse<string>) => this.parse(response.body)),
@@ -85,6 +81,6 @@ export class GpsData {
   private transform(gpx: any): Tracks | Waypoints {
     if (gpx.trk) return this.toTracks(gpx);
     else if (gpx.wpt) return this.toWaypoints(gpx);
-    else throw new Error("Invalid GPX data");
+    else throw new Error('Invalid GPX data');
   }
 }

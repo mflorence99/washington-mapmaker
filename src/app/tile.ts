@@ -1,5 +1,5 @@
 import { Geometry } from './geometry';
-import { Point } from './gps-data';
+import { Point } from './geometry';
 import { TileParams } from './tiles';
 
 import { AfterViewInit } from '@angular/core';

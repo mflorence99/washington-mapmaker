@@ -88,9 +88,8 @@ county.features
     const base = `${parseInt(parts[0], 10)}-${parseInt(parts[1], 10)}`;
     const id = ['0', '00'].includes(parts[2]) ? base : `${base}-${parts[2]}`;
     // eliminate duplicates
-    if (!ids.has(feature.properties.displayid)) {
-      if (duplicates.has(feature.properties.displayid))
-        ids.add(feature.properties.displayid);
+    if (!ids.has(id)) {
+      if (duplicates.has(id)) ids.add(id);
       // extract the bundaries
       let boundaries;
       if (feature.geometry.type === 'Polygon')

@@ -1,5 +1,4 @@
 import { GpsData } from './gps-data';
-import { Point } from './gps-data';
 import { Profile } from './profiles';
 import { PROFILES } from './profiles';
 
@@ -17,20 +16,36 @@ const FORMAT2SCALE = {
 const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
 
-type LineProps = { angle: number; length: number };
+export interface LineProps {
+  angle: number;
+  length: number;
+}
+export interface Point {
+  ele?: number;
+  lat: number;
+  lon: number;
+}
 
-export type PathOp = 'bezier' | 'linear';
+export interface Rectangle {
+  bottom?: number;
+  height?: number;
+  left: number;
+  right?: number;
+  top: number;
+  width?: number;
+}
+
 export type XY = [x: number, y: number];
 
 @Injectable({ providedIn: 'root' })
 export class Geometry {
-  bbox = {
+  bbox: Rectangle = {
     bottom: Number.MAX_SAFE_INTEGER,
     left: Number.MAX_SAFE_INTEGER,
     top: Number.MIN_SAFE_INTEGER,
     right: Number.MIN_SAFE_INTEGER
   };
-  bounds = {
+  bounds: Rectangle = {
     bottom: 0,
     left: 0,
     right: 0,
@@ -188,6 +203,26 @@ export class Geometry {
     });
   }
 
+  latlon2css(rect: Rectangle): Rectangle {
+    const tl = this.point2xy({ lat: rect.top, lon: rect.left });
+    const br = this.point2xy({ lat: rect.bottom, lon: rect.right });
+    return {
+      height: (br[1] - tl[1]) * this.scale,
+      left: (tl[0] - this.clip.x) * this.scale,
+      top: (tl[1] - this.clip.y) * this.scale,
+      width: (br[0] - tl[0]) * this.scale
+    };
+  }
+
+  lineProps([px, py]: XY, [qx, qy]: XY): LineProps {
+    const lx = qx - px;
+    const ly = qy - py;
+    return {
+      angle: Math.atan2(ly, lx),
+      length: Math.sqrt(Math.pow(lx, 2) + Math.pow(ly, 2))
+    };
+  }
+
   point2xy(point: Point): XY {
     const x =
       ((this.lon2x(point.lon) - this.lon2x(this.bounds.left)) *
@@ -289,15 +324,6 @@ export class Geometry {
         dist = undefined;
     }
     return Math.abs(dist);
-  }
-
-  private lineProps([px, py]: XY, [qx, qy]: XY): LineProps {
-    const lx = qx - px;
-    const ly = qy - py;
-    return {
-      angle: Math.atan2(ly, lx),
-      length: Math.sqrt(Math.pow(lx, 2) + Math.pow(ly, 2))
-    };
   }
 
   // other helpers

@@ -1,7 +1,7 @@
 import { Geometry } from './geometry';
-import { Point } from './gps-data';
 import { Profile } from './profiles';
 import { PROFILES } from './profiles';
+import { Rectangle } from './geometry';
 
 import { bbox } from './profiles';
 
@@ -11,33 +11,31 @@ import { Component } from '@angular/core';
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-indices',
-  template: `<svg
-    attr.viewPort="0 0 {{ geometry.dims.cxNominal }} {{
-      geometry.dims.cyNominal
-    }}"
-  >
+  template: `
     <ng-container *ngFor="let profile of profiles()">
-      <g><polygon [attr.points]="polygon(profile)" /></g>
+      <ng-container *ngIf="rect(profile) as css">
+        <article
+          [ngStyle]="{
+            'left.px': css.left,
+            'top.px': css.top,
+            'width.px': css.width,
+            'height.px': css.height
+          }"
+        >
+          {{ profile.title }}
+        </article>
+      </ng-container>
     </ng-container>
-  </svg>`
+  `
 })
 export class IndicesComponent {
   constructor(public geometry: Geometry) {}
 
-  polygon(profile: Profile): string {
-    const rect = bbox(profile);
-    const points: Point[] = [
-      { lat: rect.top, lon: rect.left },
-      { lat: rect.top, lon: rect.right },
-      { lat: rect.bottom, lon: rect.right },
-      { lat: rect.bottom, lon: rect.left }
-    ];
-    return points
-      .map((point: Point) => this.geometry.point2xy(point).join(','))
-      .join(' ');
-  }
-
   profiles(): Profile[] {
     return Object.values(PROFILES);
+  }
+
+  rect(profile: Profile): Rectangle {
+    return this.geometry.latlon2css(bbox(profile));
   }
 }

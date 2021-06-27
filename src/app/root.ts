@@ -25,7 +25,14 @@ type UIEvent = {
       <div *ngIf="geometry.format !== 'legendOnly'" class="border-1">
         <div class="border-2">
           <div class="border-3">
-            <section>
+            <section
+              (click)="logLocation($event)"
+              (dblclick)="print()"
+              (mousedown)="startDrag($event)"
+              (mouseout)="stopDrag()"
+              (mousemove)="doDrag($event)"
+              (mouseup)="stopDrag()"
+            >
               <figure [ngClass]="geometry.format">
                 <map-clip></map-clip>
 
@@ -46,24 +53,20 @@ type UIEvent = {
 
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
+              </figure>
+
+              <figcaption>
                 <map-indices
                   *ngIf="geometry.profile == 'washington'"
                 ></map-indices>
-              </figure>
 
-              <figcaption
-                (click)="logLocation($event)"
-                (dblclick)="print()"
-                (mousedown)="startDrag($event)"
-                (mouseout)="stopDrag()"
-                (mousemove)="doDrag($event)"
-                (mouseup)="stopDrag()"
-              >
-                <p>
-                  Sources: ArcGIS, OpenStreetMap, and parcels by LOVELAND
-                  Technologies at landgrid.com
-                </p>
-                <p>Published {{ today | date: 'longDate' }}</p>
+                <footer>
+                  <p>
+                    Sources: ArcGIS, OpenStreetMap, and parcels by LOVELAND
+                    Technologies at landgrid.com
+                  </p>
+                  <p>Published {{ today | date: 'longDate' }}</p>
+                </footer>
               </figcaption>
             </section>
           </div>
@@ -123,7 +126,7 @@ export class RootComponent implements AfterViewInit {
         const sideMatterWidth =
           this.geometry.format === 'legendOnly'
             ? 800
-            : this.theMap.nativeElement.offsetWidth / 6;
+            : this.theMap.nativeElement.offsetWidth / 4;
         const style = document.body.style;
         style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
       }

@@ -1,6 +1,6 @@
 import '../assets/data/parcels.js';
 
-import { Point } from './gps-data';
+import { Point } from './geometry';
 
 import { Injectable } from '@angular/core';
 

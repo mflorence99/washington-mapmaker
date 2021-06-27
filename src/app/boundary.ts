@@ -1,5 +1,5 @@
 import { Geometry } from './geometry';
-import { Point } from './gps-data';
+import { Point } from './geometry';
 
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
