@@ -3,8 +3,8 @@ FILE_VERSION=1
 
 xmpp=8.000000
 ympp=8.000000
-lat=43.157733
-lon=-72.123553
+lat=43.133811
+lon=-72.108018
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -101,8 +101,9 @@ type="trackpoint" latitude="43.18553962682925" longitude="-72.12768428008852"
 type="trackpoint" latitude="43.181976674409015" longitude="-72.15666179621152"
 type="trackpoint" latitude="43.1605230552494" longitude="-72.16717556031828"
 type="trackpoint" latitude="43.14896471566081" longitude="-72.17320273674596"
-type="trackpoint" latitude="43.132370327063626" longitude="-72.17831256587219"
-type="trackpoint" latitude="43.129551588658025" longitude="-72.03995349604797"
+type="trackpoint" latitude="43.13180646294223" longitude="-72.17831297924805"
+type="trackpoint" latitude="43.12980202160629" longitude="-72.12329550793457"
+type="trackpoint" latitude="43.12892505786516" longitude="-72.03815146496582"
 type="trackpoint" latitude="43.14289990529489" longitude="-72.03187525151824"
 type="trackpoint" latitude="43.16011960426342" longitude="-72.02385020104981"
 type="trackpoint" latitude="43.17123063785357" longitude="-72.03015875665284"
