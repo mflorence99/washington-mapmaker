@@ -14,45 +14,12 @@ import { Component } from '@angular/core';
     }}"
   >
     <ng-container *ngFor="let lot of parcels.parcels.lots">
-      <ng-container [ngSwitch]="lot.geometry.type">
-        <ng-container *ngSwitchCase="'Polygon'">
-          <ng-container *ngFor="let polygon of lot.geometry.coordinates">
-            <ng-container
-              *ngTemplateOutlet="
-                lotTemplate;
-                context: {
-                  lot: { polygon: polygon, properties: lot.properties }
-                }
-              "
-            ></ng-container>
-          </ng-container>
-        </ng-container>
+      <ng-container *ngFor="let boundary of lot.boundaries">
+        <g><path class="black" [attr.d]="path(boundary)" /></g>
 
-        <ng-container *ngSwitchCase="'MultiPolygon'">
-          <ng-container *ngFor="let multipolygon of lot.geometry.coordinates">
-            <ng-container *ngFor="let polygon of multipolygon">
-              <ng-container
-                *ngTemplateOutlet="
-                  lotTemplate;
-                  context: {
-                    lot: { polygon: polygon, properties: lot.properties }
-                  }
-                "
-              ></ng-container>
-            </ng-container>
-          </ng-container>
-        </ng-container>
-
-        <ng-template #lotTemplate let-lot="lot">
-          <g><path class="black" [attr.d]="path(lot.polygon)" /></g>
-
-          <g>
-            <path
-              class="white u{{ lot.properties.usecode }}"
-              [attr.d]="path(lot.polygon)"
-            />
-          </g>
-        </ng-template>
+        <g>
+          <path class="white u{{ lot.usage }}" [attr.d]="path(boundary)" />
+        </g>
       </ng-container>
     </ng-container>
   </svg>`
@@ -60,16 +27,12 @@ import { Component } from '@angular/core';
 export class LotsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
 
-  path(points: [[number, number]]): string {
-    return points
-      .map(
-        (point: [number, number]): Point => ({ lat: point[1], lon: point[0] })
-      )
-      .reduce((acc: string, point: Point, ix: number) => {
-        const [x, y] = this.geometry.point2xy(point);
-        if (ix === 0) {
-          return `M ${x} ${y}`;
-        } else return `${acc} L ${x} ${y}`;
-      }, '');
+  path(points: Point[]): string {
+    return points.reduce((acc: string, point: Point, ix: number) => {
+      const [x, y] = this.geometry.point2xy(point);
+      if (ix === 0) {
+        return `M ${x} ${y}`;
+      } else return `${acc} L ${x} ${y}`;
+    }, '');
   }
 }

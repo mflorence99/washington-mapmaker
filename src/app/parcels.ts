@@ -1,28 +1,24 @@
 import '../assets/data/parcels.js';
 
+import { Point } from './gps-data';
+
 import { Injectable } from '@angular/core';
 
 declare const PARCELS: Lots;
 
 export interface Lot {
-  geometry: {
-    coordinates: [[[number, number]]];
-    type: 'Polygon' | 'MultiPolygon';
-  };
-  id: number;
-  properties: {
-    address: string;
-    path: string;
-    pid: string;
-  };
+  area: number;
+  boundaries: Point[][];
+  centers: Point[];
+  id: string;
+  usage: string;
 }
 
 export interface Lots {
+  areaByUsage: Record<string, number>;
+  countByUsage: Record<string, number>;
+  descByUsage: Record<string, string>;
   lots: Lot[];
-  usageByArea: Record<string, number>;
-  usageByCode: Record<string, string>;
-  usageByCount: Record<string, number>;
-  usageByDesc: Record<string, string>;
 }
 
 @Injectable({ providedIn: 'root' })

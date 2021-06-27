@@ -39,16 +39,17 @@
   --map-numYTiles: 0;
   --map-scale: 1;
   // land use color shading
-  --shade-u11: var(--mat-brown-100);
-  --shade-u12: var(--mat-brown-200);
-  --shade-u17: var(--mat-red-100);
-  --shade-u19: var(--mat-yellow-100);
-  --shade-u22: var(--mat-orange-100);
-  --shade-u26: var(--mat-purple-100);
-  --shade-u33: var(--mat-indigo-100);
-  --shade-u58: var(--mat-blue-100);
-  --shade-u100: #cdddc5;
-  --shade-u101: #add19e;
+  --shade-u11: var(--rgb-brown-200);
+  --shade-u12: var(--rgb-brown-400);
+  --shade-u17: var(--rgb-red-200);
+  --shade-u19: var(--rgb-yellow-200);
+  --shade-u22: var(--rgb-orange-200);
+  --shade-u26: var(--rgb-purple-200);
+  --shade-u27: var(--rgb-gray-300);
+  --shade-u33: var(--rgb-blue-200);
+  --shade-u58: var(--rgb-teal-200);
+  --shade-u100: 190, 219, 75; // #BEDBAF
+  --shade-u101: 170, 204, 155; // #aacc9b
 }
 
 * {
@@ -246,53 +247,47 @@ map-root {
           // @see https://www.gismanual.com/style/ColorConventions.pdf
 
           g path.white.u11 /* Single family */ {
-            fill: var(--shade-u11);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u11), 0.5);
           }
 
           g path.white.u12 /* Multi family */ {
-            fill: var(--shade-u12);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u12), 0.5);
           }
 
           g path.white.u17 /* Manufacturing */ {
-            fill: var(--shade-u17);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u17), 0.5);
           }
 
-          g path.white.u19 /* Unclassified improved residential */ {
-            fill: var(--shade-u19);
-            mix-blend-mode: multiply;
+          g path.white.u19 /* Improved residential */ {
+            fill: rgba(var(--shade-u19), 0.5);
           }
 
           g path.white.u22 /* Residential land */ {
-            fill: var(--shade-u22);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u22), 0.5);
           }
 
           g path.white.u26 /* Mixed use */ {
-            fill: var(--shade-u26);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u26), 0.5);
+          }
+
+          g path.white.u27 /* Unclassified */ {
+            fill: rgba(var(--shade-u27), 0.5);
           }
 
           g path.white.u33 /* Commercial */ {
-            fill: var(--shade-u33);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u33), 0.5);
           }
 
           g path.white.u58 /* Garage */ {
-            fill: var(--shade-u58);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u58), 0.5);
           }
 
           g path.white.u100 /* State Park */ {
-            fill: var(--shade-u100);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u100), 0.5);
           }
 
           g path.white.u101 /* Town Forest */ {
-            fill: var(--shade-u101);
-            mix-blend-mode: multiply;
+            fill: rgba(var(--shade-u101), 1);
           }
         }
 
