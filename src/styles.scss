@@ -221,10 +221,49 @@ map-root {
         }
 
         map-labels {
-          g text {
-            color: var(--mat-gray-500);
-            font-family: sans-serif;
-            font-size: 10px;
+          g {
+            text tspan {
+              fill: rgba(var(--rgb-gray-900), 0.5);
+              font-family: sans-serif;
+              font-size: 10px;
+            }
+
+            text tspan.area {
+              font-size: 0.8em;
+              font-style: italic;
+            }
+
+            text tspan.a50,
+            text tspan.a100 {
+              font-size: 1.5em;
+            }
+
+            text tspan.a500 {
+              font-size: 3em;
+            }
+
+            text tspan.a0.area,
+            text tspan.a1.area {
+              display: none;
+            }
+
+            text tspan.a50.area,
+            text tspan.a100.area {
+              font-size: 1em;
+            }
+
+            text tspan.a500.area {
+              font-size: 2em;
+            }
+          }
+
+          g.washington {
+            text tspan.a0,
+            text tspan.a1,
+            text tspan.a2,
+            text tspan.a5 {
+              display: none;
+            }
           }
         }
 
@@ -234,14 +273,14 @@ map-root {
           g path.black {
             fill: none;
             stroke: var(--mat-blue-gray-300);
-            stroke-width: 1;
+            stroke-width: 2;
           }
 
           g path.white {
             fill: none;
             stroke: var(--mat-blue-gray-50);
-            stroke-dasharray: 1, 2;
-            stroke-width: 1;
+            stroke-dasharray: 1, 4;
+            stroke-width: 2;
           }
 
           // @see https://www.gismanual.com/style/ColorConventions.pdf
