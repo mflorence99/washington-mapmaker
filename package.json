@@ -10,13 +10,12 @@
   "author": "Mark Florence",
   "scripts": {
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
-    "parcels": "ts-node --dir bin parcelerator.ts",
+    "parcels": "ts-node --dir bin parcels.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
     "serve": "ng serve --proxy-config proxy.conf.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@angular-devkit/build-angular": "^12",
     "@angular/cli": "^12",
@@ -32,6 +31,7 @@
     "@fortawesome/free-brands-svg-icons": "^5",
     "@fortawesome/free-regular-svg-icons": "^5",
     "@fortawesome/free-solid-svg-icons": "^5",
+    "@turf/turf": "^6.4.0",
     "@types/polylabel": "^1.0.5",
     "@types/xml2js": "^0.4.8",
     "@typescript-eslint/eslint-plugin": "^4",

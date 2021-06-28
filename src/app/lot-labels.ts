@@ -1,13 +1,19 @@
 import { Geometry } from './geometry';
+import { LineProps } from './geometry';
 import { Lot } from './parcels';
 import { Parcels } from './parcels';
 
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
 
+const ZOOM2THRESHOLD = {
+  15: 25,
+  16: 4
+};
+
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  selector: 'map-labels',
+  selector: 'map-lot-labels',
   template: `<svg
     attr.viewPort="0 0 {{ geometry.dims.cxNominal }} {{
       geometry.dims.cyNominal
@@ -20,23 +26,32 @@ import { Component } from '@angular/core';
           [ngClass]="[geometry.profile, 'z' + geometry.zoom]"
         >
           <text
+            *ngIf="rotate(lot, ix) as props"
             [attr.transform]="
               'translate(' +
               xy[0] +
               ',' +
               xy[1] +
               ') rotate(' +
-              xxx(lot, ix) +
+              props.angle +
               ')'
             "
-            [ngClass]="'a' + quantize(lot.area)"
+            [ngClass]="'a' + quantize(lot.areas[ix])"
             text-anchor="middle"
           >
             <tspan [attr.dy]="'0.25em'" class="id">
               {{ lot.id }}
             </tspan>
-            <tspan [attr.dx]="'-4em'" [attr.dy]="'1.1em'" class="area">
+            <tspan
+              *ngIf="props.length < 80"
+              [attr.x]="0"
+              [attr.dy]="'1.1em'"
+              class="area"
+            >
               {{ round(lot.area) }} ac
+            </tspan>
+            <tspan *ngIf="props.length >= 80" class="area">
+              &nbsp;{{ round(lot.area) }} ac
             </tspan>
           </text>
         </g>
@@ -44,7 +59,7 @@ import { Component } from '@angular/core';
     </ng-container>
   </svg>`
 })
-export class LabelsComponent {
+export class LotLabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
 
   quantize(area: number): number {
@@ -59,14 +74,11 @@ export class LabelsComponent {
     else return 0;
   }
 
-  round(area: number): number {
-    return Math.round(area * 10) / 10;
-  }
-
-  xxx(lot: Lot, ix: number): any {
-    if (lot.area > 2) return 0;
+  rotate(lot: Lot, ix: number): LineProps {
+    const threshold = ZOOM2THRESHOLD[this.geometry.zoom];
+    if (lot.areas[ix] > threshold) return { angle: 0, length: 0 };
     // find the longest edge
-    let maxLength = 0;
+    let longest = 0;
     let lp, lq;
     lot.boundaries[ix].forEach((point, iy, boundary) => {
       if (iy > 0) {
@@ -76,8 +88,8 @@ export class LabelsComponent {
           point.lat,
           point.lon
         );
-        if (length > maxLength) {
-          maxLength = length;
+        if (length > longest) {
+          longest = length;
           lp = point;
           lq = boundary[iy - 1];
         }
@@ -86,13 +98,15 @@ export class LabelsComponent {
     // now find the angle of the longest edge
     const p = this.geometry.point2xy(lp);
     const q = this.geometry.point2xy(lq);
-    const angle =
+    const props =
       p[0] < q[0]
-        ? this.geometry.lineProps(p, q).angle
-        : this.geometry.lineProps(q, p).angle;
-    const degrees = angle * (180 / Math.PI);
-    if (['14-161', '14-162'].includes(lot.id))
-      console.log(lot.id, degrees, p, q);
-    return degrees;
+        ? this.geometry.lineProps(p, q)
+        : this.geometry.lineProps(q, p);
+    if (lot.id === '12-199') console.log(props);
+    return props;
+  }
+
+  round(area: number): number {
+    return Math.round(area * 10) / 10;
   }
 }

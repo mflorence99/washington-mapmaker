@@ -49,7 +49,7 @@ type UIEvent = {
                   </ng-container>
                 </ng-container>
 
-                <map-labels></map-labels>
+                <map-lot-labels></map-lot-labels>
 
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>

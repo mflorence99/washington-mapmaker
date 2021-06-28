@@ -8,6 +8,7 @@ declare const PARCELS: Lots;
 
 export interface Lot {
   area: number;
+  areas: number[];
   boundaries: Point[][];
   centers: Point[];
   id: string;

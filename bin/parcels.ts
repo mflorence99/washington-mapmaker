@@ -1,3 +1,5 @@
+import * as turf from '@turf/turf';
+
 import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 
@@ -76,6 +78,8 @@ const overridesByID = {
 const duplicates = new Set(['11-27']);
 const ids = new Set();
 
+const M2TOACRES = 4047;
+
 // extract data from original
 county.features
   .filter(
@@ -86,10 +90,22 @@ county.features
     // construct lot ID
     const parts = feature.properties.displayid.split('-');
     const base = `${parseInt(parts[0], 10)}-${parseInt(parts[1], 10)}`;
-    const id = ['0', '00'].includes(parts[2]) ? base : `${base}-${parts[2]}`;
+    const id = ['0', '00', '000', '0000', '00000', '000000'].includes(parts[2])
+      ? base
+      : `${base}-${parts[2]}`;
     // eliminate duplicates
     if (!ids.has(id)) {
       if (duplicates.has(id)) ids.add(id);
+      // find the areas of each individual polygon
+      let areas;
+      if (feature.geometry.type === 'Polygon')
+        areas = [turf.area(turf.polygon(feature.geometry.coordinates))];
+      else if (feature.geometry.type === 'MultiPolygon')
+        areas = feature.geometry.coordinates.map((polygon) =>
+          turf.area(turf.polygon(polygon))
+        );
+      // NOTE: convert sq meters to acres
+      areas = areas.map((area) => area / M2TOACRES);
       // extract the bundaries
       let boundaries;
       if (feature.geometry.type === 'Polygon')
@@ -98,7 +114,7 @@ county.features
         boundaries = feature.geometry.coordinates.map((polygon) =>
           toPoints(polygon.flat(1))
         );
-      // find the centers
+      // find the centers of each individual polygon
       let centers;
       if (feature.geometry.type === 'Polygon')
         centers = [polylabel(feature.geometry.coordinates)];
@@ -115,6 +131,7 @@ county.features
       // initialize the lot
       const lot = {
         area: feature.properties.ll_gisacre as number,
+        areas: areas,
         boundaries: boundaries,
         centers: centers,
         id: id,

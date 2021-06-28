@@ -238,7 +238,7 @@ export class Geometry {
     const lx = qx - px;
     const ly = qy - py;
     return {
-      angle: Math.atan2(ly, lx),
+      angle: Math.atan2(ly, lx) * RAD2DEG,
       length: Math.sqrt(Math.pow(lx, 2) + Math.pow(ly, 2))
     };
   }
