@@ -1,4 +1,5 @@
 import { Geometry } from './geometry';
+import { Lot } from './parcels';
 import { Parcels } from './parcels';
 
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -13,21 +14,28 @@ import { Component } from '@angular/core';
     }}"
   >
     <ng-container *ngFor="let lot of parcels.parcels.lots">
-      <ng-container *ngFor="let center of lot.centers">
+      <ng-container *ngFor="let center of lot.centers; let ix = index">
         <g
           *ngIf="geometry.point2xy(center) as xy"
           [ngClass]="[geometry.profile, 'z' + geometry.zoom]"
         >
-          <text [attr.x]="xy[0]" [attr.y]="xy[1]" text-anchor="middle">
-            <tspan [ngClass]="'a' + quantize(lot.area)" class="id">
+          <text
+            [attr.transform]="
+              'translate(' +
+              xy[0] +
+              ',' +
+              xy[1] +
+              ') rotate(' +
+              xxx(lot, ix) +
+              ')'
+            "
+            [ngClass]="'a' + quantize(lot.area)"
+            text-anchor="middle"
+          >
+            <tspan [attr.dy]="'0.25em'" class="id">
               {{ lot.id }}
             </tspan>
-            <tspan
-              [attr.x]="xy[0]"
-              [attr.dy]="'1.1em'"
-              [ngClass]="'a' + quantize(lot.area)"
-              class="area"
-            >
+            <tspan [attr.dx]="'-4em'" [attr.dy]="'1.1em'" class="area">
               {{ round(lot.area) }} ac
             </tspan>
           </text>
@@ -53,5 +61,38 @@ export class LabelsComponent {
 
   round(area: number): number {
     return Math.round(area * 10) / 10;
+  }
+
+  xxx(lot: Lot, ix: number): any {
+    if (lot.area > 2) return 0;
+    // find the longest edge
+    let maxLength = 0;
+    let lp, lq;
+    lot.boundaries[ix].forEach((point, iy, boundary) => {
+      if (iy > 0) {
+        const length = this.geometry.distance(
+          boundary[iy - 1].lat,
+          boundary[iy - 1].lon,
+          point.lat,
+          point.lon
+        );
+        if (length > maxLength) {
+          maxLength = length;
+          lp = point;
+          lq = boundary[iy - 1];
+        }
+      }
+    });
+    // now find the angle of the longest edge
+    const p = this.geometry.point2xy(lp);
+    const q = this.geometry.point2xy(lq);
+    const angle =
+      p[0] < q[0]
+        ? this.geometry.lineProps(p, q).angle
+        : this.geometry.lineProps(q, p).angle;
+    const degrees = angle * (180 / Math.PI);
+    if (['14-161', '14-162'].includes(lot.id))
+      console.log(lot.id, degrees, p, q);
+    return degrees;
   }
 }

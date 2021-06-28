@@ -73,6 +73,7 @@ export class Geometry {
     numXTiles: 0,
     numYTiles: 0
   };
+  focus: Point = { lat: 43.176086457408914, lon: -72.0965696751637 };
   format = 'tiny';
   profile = 'washington';
   ready$ = new Subject<boolean>();
@@ -103,6 +104,7 @@ export class Geometry {
       this.dims.cyFeet = profile.cyFeet;
       this.dims.cxGrid = profile.cxGrid;
       this.dims.cyGrid = profile.cyGrid;
+      this.focus = profile.focus;
       this.title = profile.title;
       this.zoom = profile.zoom;
     }
@@ -205,13 +207,31 @@ export class Geometry {
 
   latlon2css(rect: Rectangle): Rectangle {
     const tl = this.point2xy({ lat: rect.top, lon: rect.left });
-    const br = this.point2xy({ lat: rect.bottom, lon: rect.right });
-    return {
-      height: (br[1] - tl[1]) * this.scale,
-      left: (tl[0] - this.clip.x) * this.scale,
-      top: (tl[1] - this.clip.y) * this.scale,
-      width: (br[0] - tl[0]) * this.scale
-    };
+    if (rect.bottom && rect.right) {
+      const br = this.point2xy({ lat: rect.bottom, lon: rect.right });
+      return {
+        height: (br[1] - tl[1]) * this.scale,
+        left: (tl[0] - this.clip.x) * this.scale,
+        top: (tl[1] - this.clip.y) * this.scale,
+        width: (br[0] - tl[0]) * this.scale
+      };
+    } else if (rect.width && rect.height) {
+      const br = this.point2xy({
+        lat: rect.top + rect.height,
+        lon: rect.left + rect.width
+      });
+      return {
+        height: (br[1] - tl[1]) * this.scale,
+        left: (tl[0] - this.clip.x) * this.scale,
+        top: (tl[1] - this.clip.y) * this.scale,
+        width: (br[0] - tl[0]) * this.scale
+      };
+    } else {
+      return {
+        left: (tl[0] - this.clip.x) * this.scale,
+        top: (tl[1] - this.clip.y) * this.scale
+      };
+    }
   }
 
   lineProps([px, py]: XY, [qx, qy]: XY): LineProps {

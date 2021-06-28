@@ -1,24 +1,10 @@
 @import 'colors.scss';
 
 @font-face {
-  font-family: 'Bentham Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('assets/Bentham-Regular.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Carnevalee Freakshow';
   font-style: normal;
   font-weight: normal;
   src: url('assets/Carnevalee Freakshow.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quicksand Light';
-  font-style: normal;
-  font-weight: 100;
-  src: url('assets/quicksand.light-regular.otf') format('opentype');
 }
 
 :root {
@@ -212,9 +198,8 @@ map-root {
 
         map-labels {
           g {
-            text tspan {
-              fill: rgba(var(--rgb-gray-900), 0.5);
-              font-size: 10px;
+            text {
+              fill: rgba(var(--rgb-gray-900), 0.66);
             }
 
             text tspan.area {
@@ -222,35 +207,66 @@ map-root {
               font-style: italic;
             }
 
-            text tspan.a50,
-            text tspan.a100 {
-              font-size: 1.5em;
+            text tspan.id {
+              font-size: 1em;
+              font-weight: bold;
             }
 
-            text tspan.a500 {
-              font-size: 3em;
+            text.a0 {
+              font-size: 6px;
             }
 
-            text tspan.a0.area,
-            text tspan.a1.area {
+            text.a1 {
+              font-size: 8px;
+            }
+
+            text.a2 {
+              font-size: 10px;
+            }
+
+            text.a5 {
+              font-size: 12px;
+            }
+
+            text.a10 {
+              font-size: 16px;
+            }
+
+            text.a25 {
+              font-size: 16px;
+            }
+
+            text.a50 {
+              font-size: 24px;
+            }
+
+            text.a100 {
+              font-size: 24px;
+            }
+
+            text.a500 {
+              font-size: 36px;
+            }
+
+            text.a0 tspan.area {
               display: none;
             }
 
-            text tspan.a50.area,
-            text tspan.a100.area {
-              font-size: 1em;
-            }
+            // text tspan.a50.area,
+            // text tspan.a100.area {
+            //   font-size: 1em;
+            // }
 
-            text tspan.a500.area {
-              font-size: 2em;
-            }
+            // text tspan.a500.area {
+            //   font-size: 2em;
+            // }
           }
 
-          g.washington {
-            text tspan.a0,
-            text tspan.a1,
-            text tspan.a2,
-            text tspan.a5 {
+          g.z15 {
+            text.a0,
+            text.a1,
+            text.a2,
+            text.a5 {
               display: none;
             }
           }

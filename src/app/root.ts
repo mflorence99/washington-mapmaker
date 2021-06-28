@@ -43,9 +43,9 @@ type UIEvent = {
                   </ng-container>
 
                   <ng-container *ngSwitchCase="'osm'">
-                    <map-topo></map-topo>
+                    <!-- map-topo></!-->
                     <map-lots></map-lots>
-                    <map-street></map-street>
+                    <!-- map-street></!-->
                   </ng-container>
                 </ng-container>
 
@@ -126,17 +126,26 @@ export class RootComponent implements AfterViewInit {
         const sideMatterWidth =
           this.geometry.format === 'legendOnly'
             ? 800
-            : this.theMap.nativeElement.offsetWidth / 4;
+            : this.theMap.nativeElement.offsetWidth / 5;
         const style = document.body.style;
         style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
       }
+      // scroll to the focus point
+      const center = this.geometry.latlon2css({
+        left: this.geometry.focus.lon,
+        top: this.geometry.focus.lat
+      });
+      this.host.nativeElement.scrollBy(
+        center.left - this.host.nativeElement.offsetWidth / 2,
+        center.top - this.host.nativeElement.offsetHeight / 2
+      );
     });
   }
 
   print(): void {
     if (!this.printing) {
       // effect of "printing" will be to make overflow: unset
-      // NOTE: necessary for print to shoe entire extent
+      // NOTE: necessary for print to show entire extent
       this.printing = true;
       this.cdf.markForCheck();
       // a little later, fire up the print
