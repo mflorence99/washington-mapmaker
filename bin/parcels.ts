@@ -4,6 +4,7 @@ import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 
 import polylabel from 'polylabel';
+import simplify from 'simplify-geojson';
 
 const county = JSON.parse(
   readFileSync('src/assets/data/nh_sullivan.json').toString()
@@ -19,12 +20,12 @@ const washington = {
     '19': 'Improved Residential Land',
     '22': 'Residential Land',
     '26': 'Mixed Commercial/Industrial',
-    '27': 'Unclassified',
     '33': 'Commercial',
     // '57': 'Unclass/Unk Other',
     '58': 'Garage/Storage Unit',
     '100': 'Pilsbury State Park',
-    '101': 'Washington Town Forest'
+    '101': 'Washington Town Forest',
+    '27': 'Unclassified'
   },
   lots: []
 };
@@ -96,6 +97,10 @@ county.features
     // eliminate duplicates
     if (!ids.has(id)) {
       if (duplicates.has(id)) ids.add(id);
+      // simplify boundaries
+      if (id === '14-138') console.log(feature.geometry.coordinates);
+      feature = simplify(feature, 0.00001);
+      if (id === '14-138') console.log(feature.geometry.coordinates);
       // find the areas of each individual polygon
       let areas;
       if (feature.geometry.type === 'Polygon')

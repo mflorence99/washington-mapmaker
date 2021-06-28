@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
 
 const ZOOM2THRESHOLD = {
-  15: 25,
+  15: 30,
   16: 4
 };
 
