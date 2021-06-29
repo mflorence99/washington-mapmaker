@@ -20,7 +20,7 @@ import domtoimage from 'dom-to-image';
   ],
   selector: 'map-root',
   template: `
-    <main *ngIf="geometry.ready$ | async as ready" #theMap>
+    <main *ngIf="geometry.ready$ | async" #theMap>
       <div *ngIf="!geometry.legendOnly" class="border-1">
         <div class="border-2">
           <div class="border-3">
@@ -111,23 +111,17 @@ export class RootComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.geometry.ready$.subscribe(() => {
       this.cdf.detectChanges();
-      // compute size of side matter
-      if (this.geometry.profile === 'washington') {
-        const sideMatterWidth = this.geometry.legendOnly
-          ? 861
-          : this.theMap.nativeElement.offsetWidth / 5;
-        const style = document.body.style;
-        style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
-      }
       // scroll to the focus point
-      const center = this.geometry.latlon2css({
-        left: this.geometry.focus.lon,
-        top: this.geometry.focus.lat
-      });
-      this.host.nativeElement.scrollBy(
-        center.left - this.host.nativeElement.offsetWidth / 2,
-        center.top - this.host.nativeElement.offsetHeight / 2
-      );
+      if (!this.geometry.legendOnly) {
+        const center = this.geometry.latlon2css({
+          left: this.geometry.focus.lon,
+          top: this.geometry.focus.lat
+        });
+        this.host.nativeElement.scrollBy(
+          center.left - this.host.nativeElement.offsetWidth / 2,
+          center.top - this.host.nativeElement.offsetHeight / 2
+        );
+      }
     });
   }
 

@@ -12,7 +12,7 @@ const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
 
 export interface GeoParams {
-  thumnbail: boolean;
+  thumbnail: boolean;
 }
 
 export interface LineProps {
@@ -94,7 +94,7 @@ export class Geometry {
     this.parcelsOnly = searchParams?.parcelsOnly ?? this.parcelsOnly;
     this.profile = searchParams?.profile ?? this.profile;
     // profile values override "washington" defaults
-    const profile: Profile = params.thumnbail
+    const profile: Profile = params.thumbnail
       ? PROFILES['thumbnail']
       : PROFILES[this.profile];
     if (profile) {
@@ -109,7 +109,9 @@ export class Geometry {
     }
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
-      this.gpsData.boundary = this.gpsData.washington;
+      this.gpsData.boundary = params.thumbnail
+        ? this.gpsData.sullivan
+        : this.gpsData.washington;
       // compute the boundary box from the boundary GPX
       if (this.profile === 'washington') {
         this.gpsData.boundary.Boundary.forEach((point: Point) => {
@@ -169,13 +171,11 @@ export class Geometry {
         cy: (this.dims.cyFeet / cyFeet) * this.dims.cyNominal
       };
       // grid lines every N feet
-      if (this.dims.cxGrid && this.dims.cyGrid) {
-        this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
-        this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
-      }
+      this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
+      this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
       // set CSS variables
       const style = document.body.style;
-      const pfx = params.thumnbail ? 'thumbnail' : 'map';
+      const pfx = params.thumbnail ? 'thumbnail' : 'map';
       style.setProperty(`--${pfx}-clip-x`, `${this.clip.x}px`);
       style.setProperty(`--${pfx}-clip-y`, `${this.clip.y}px`);
       style.setProperty(`--${pfx}-clip-cx`, `${this.clip.cx}px`);

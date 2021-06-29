@@ -15,8 +15,6 @@
 }
 
 :root {
-  // NOTE: this is set in root.ts
-  --map-side-matter-cx: 0;
   // NOTE: these set in geometry.ts
   --map-clip-x: 0;
   --map-clip-y: 0;
@@ -88,7 +86,7 @@ map-root {
   grid-template-areas:
     'map side-matter'
     'map side-matter';
-  overflow: hidden;
+  overflow: auto;
 
   &.dragging {
     cursor: grabbing;
@@ -100,16 +98,16 @@ map-root {
   }
 
   aside {
+    color: var(--mat-gray-900);
     grid-area: side-matter;
-    overflow: auto;
     padding: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100);
-    width: var(--map-side-matter-cx);
 
     map-legend {
       align-content: start;
       display: grid;
       grid-template-columns: 1fr;
       height: 100%;
+      justify-content: center;
       row-gap: 96px;
       width: 100%;
 
@@ -134,7 +132,98 @@ map-root {
         }
       }
 
+      map-thumbnail {
+        display: block;
+        height: calc(var(--thumbnail-clip-cy));
+        overflow: hidden;
+        position: relative;
+        width: calc(var(--thumbnail-clip-cx));
+
+        figure {
+          display: block;
+          height: calc(var(--thumbnail-cyNominal));
+          pointer-events: none;
+          position: absolute;
+          transform: translate(
+            calc(var(--thumbnail-clip-x) * -1),
+            calc(var(--thumbnail-clip-y) * -1)
+          );
+          width: calc(var(--thumbnail-cxNominal));
+
+          map-boundary,
+          map-grid,
+          map-street,
+          map-tiles,
+          map-topo,
+          map-washington {
+            display: block;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+          }
+
+          map-boundary,
+          map-grid,
+          map-washington {
+            svg {
+              height: 100%;
+              width: 100%;
+            }
+          }
+
+          map-boundary {
+            fill: none;
+            stroke: var(--mat-gray-800);
+            stroke-dasharray: 4;
+            stroke-width: 3;
+          }
+
+          map-grid {
+            g path {
+              fill: none;
+              stroke: var(--mat-gray-800);
+              stroke-width: 0.25;
+            }
+          }
+
+          map-tile {
+            display: inline-block;
+            height: calc(var(--thumbnail-cyTile));
+            position: relative;
+            vertical-align: top;
+            width: calc(var(--thumbnail-cxTile));
+
+            canvas {
+              height: var(--thumbnail-cyTile);
+              position: absolute;
+              visibility: hidden;
+              width: var(--thumbnail-cxTile);
+            }
+
+            img {
+              height: 100%;
+              position: absolute;
+              width: 100%;
+            }
+
+            img.inside {
+              filter: none;
+            }
+
+            img.outside {
+              filter: grayscale(1);
+            }
+          }
+
+          map-washington {
+            fill: rgba(var(--rgb-teal-900), 0.1);
+            stroke: none;
+          }
+        }
+      }
+
       table.usage {
+        border-collapse: collapse;
         font-family: 'Bentham Regular', sans-serif;
         font-size: 32px;
         width: 100%;
@@ -220,6 +309,13 @@ map-root {
         thead td {
           font-weight: bold;
           text-transform: uppercase;
+        }
+
+        tr.total {
+          td {
+            font-weight: bold;
+            text-transform: uppercase;
+          }
         }
       }
     }

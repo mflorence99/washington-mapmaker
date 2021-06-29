@@ -7,9 +7,11 @@ import { LotLabelsComponent } from './lot-labels';
 import { LotsComponent } from './lots';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
+import { ThumbnailComponent } from './thumbnail';
 import { TileComponent } from './tile';
 import { TilesComponent } from './tiles';
 import { TopoComponent } from './topo';
+import { WashingtonComponent } from './washington';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -42,9 +44,11 @@ const COMPONENTS = [
   LotsComponent,
   RootComponent,
   StreetComponent,
+  ThumbnailComponent,
   TileComponent,
   TilesComponent,
-  TopoComponent
+  TopoComponent,
+  WashingtonComponent
 ];
 
 const MODULES = [

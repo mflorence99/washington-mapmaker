@@ -16,6 +16,8 @@ import Chart from 'chart.js/auto';
       <h2>Sullivan Co</h2>
     </header>
 
+    <map-thumbnail></map-thumbnail>
+
     <figure #wrapper class="wrapper">
       <canvas #canvas class="chart"> </canvas>
     </figure>
@@ -41,6 +43,14 @@ import Chart from 'chart.js/auto';
             {{ parcels.parcels.areaByUsage[usage] | number: '1.1-1' }}
           </td>
           <td class="numeric">{{ parcels.parcels.countByUsage[usage] }}</td>
+        </tr>
+        <tr class="total">
+          <td></td>
+          <td class="desc">Total</td>
+          <td class="numeric">
+            {{ sum(parcels.parcels.areaByUsage) | number: '1.1-1' }}
+          </td>
+          <td class="numeric">{{ sum(parcels.parcels.countByUsage) }}</td>
         </tr>
       </tbody>
     </table>`
@@ -85,7 +95,7 @@ export class LegendComponent implements AfterViewInit {
           scales: {
             x: {
               ticks: {
-                display: false
+                display: true
               }
             },
             y: {
@@ -101,6 +111,10 @@ export class LegendComponent implements AfterViewInit {
         }
       });
     }, 1000);
+  }
+
+  sum(byUsage: Record<string, number>): number {
+    return Object.values(byUsage).reduce((p, q) => p + q, 0);
   }
 
   usages(): string[] {
