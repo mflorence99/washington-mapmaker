@@ -16,6 +16,10 @@ import Chart from 'chart.js/auto';
       <h2>Sullivan Co</h2>
     </header>
 
+    <figure #wrapper class="wrapper">
+      <canvas #canvas class="chart"> </canvas>
+    </figure>
+
     <table class="usage">
       <thead>
         <tr>
@@ -39,11 +43,7 @@ import Chart from 'chart.js/auto';
           <td class="numeric">{{ parcels.parcels.countByUsage[usage] }}</td>
         </tr>
       </tbody>
-    </table>
-
-    <figure #wrapper class="wrapper">
-      <canvas #canvas class="chart"> </canvas>
-    </figure>`
+    </table>`
 })
 export class LegendComponent implements AfterViewInit {
   @ViewChild('canvas', { static: true }) canvas: ElementRef;
@@ -54,7 +54,7 @@ export class LegendComponent implements AfterViewInit {
 
   constructor(public parcels: Parcels) {
     Chart.defaults.font.family = 'Bentham Regular';
-    Chart.defaults.font.size = 16;
+    Chart.defaults.font.size = 24;
   }
 
   ngAfterViewInit(): void {
@@ -80,6 +80,22 @@ export class LegendComponent implements AfterViewInit {
           plugins: {
             legend: {
               display: false
+            }
+          },
+          scales: {
+            x: {
+              ticks: {
+                display: false
+              }
+            },
+            y: {
+              title: {
+                display: true,
+                font: {
+                  weight: 'bold'
+                },
+                text: 'ACRES'
+              }
             }
           }
         }

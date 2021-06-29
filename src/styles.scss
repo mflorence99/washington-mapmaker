@@ -30,6 +30,19 @@
   --map-numVGrids: 0;
   --map-numXTiles: 0;
   --map-numYTiles: 0;
+  // NOTE: these sapply to the thumbnail
+  --thumbnail-clip-x: 0;
+  --thumbnail-clip-y: 0;
+  --thumbnail-clip-cx: 0;
+  --thumbnail-clip-cy: 0;
+  --thumbnail-cxNominal: 0;
+  --thumbnail-cyNominal: 0;
+  --thumbnail-cxTile: 0;
+  --thumbnail-cyTile: 0;
+  --thumbnail-numHGrids: 0;
+  --thumbnail-numVGrids: 0;
+  --thumbnail-numXTiles: 0;
+  --thumbnail-numYTiles: 0;
   // land use color shading
   --shade-u11: var(--rgb-brown-300);
   --shade-u12: var(--rgb-brown-500);
@@ -97,11 +110,11 @@ map-root {
       display: grid;
       grid-template-columns: 1fr;
       height: 100%;
-      row-gap: 32px;
+      row-gap: 96px;
       width: 100%;
 
       figure.wrapper {
-        aspect-ratio: 1 / 1;
+        aspect-ratio: 4 / 3;
         display: block;
         width: 100%;
       }
@@ -111,19 +124,19 @@ map-root {
         text-align: center;
 
         h1 {
-          font-size: 64px;
+          font-size: 96px;
           font-weight: normal;
         }
 
         h2 {
-          font-size: 32px;
+          font-size: 64px;
           font-weight: normal;
         }
       }
 
       table.usage {
         font-family: 'Bentham Regular', sans-serif;
-        font-size: 24px;
+        font-size: 32px;
         width: 100%;
 
         td {

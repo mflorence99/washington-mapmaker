@@ -14,6 +14,10 @@ import domtoimage from 'dom-to-image';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
+  providers: [
+    { provide: Geometry },
+    { provide: 'params', useValue: { thumbnail: false } }
+  ],
   selector: 'map-root',
   template: `
     <main *ngIf="geometry.ready$ | async as ready" #theMap>
@@ -110,7 +114,7 @@ export class RootComponent implements AfterViewInit {
       // compute size of side matter
       if (this.geometry.profile === 'washington') {
         const sideMatterWidth = this.geometry.legendOnly
-          ? 800
+          ? 861
           : this.theMap.nativeElement.offsetWidth / 5;
         const style = document.body.style;
         style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);

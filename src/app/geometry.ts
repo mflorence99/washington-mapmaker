@@ -4,11 +4,16 @@ import { PROFILES } from './profiles';
 
 import { bbox } from './profiles';
 
+import { Inject } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
+
+export interface GeoParams {
+  thumnbail: boolean;
+}
 
 export interface LineProps {
   angle: number;
@@ -31,7 +36,7 @@ export interface Rectangle {
 
 export type XY = [x: number, y: number];
 
-@Injectable({ providedIn: 'root' })
+@Injectable()
 export class Geometry {
   bbox: Rectangle = {
     bottom: Number.MAX_SAFE_INTEGER,
@@ -83,13 +88,15 @@ export class Geometry {
   yTiles = [];
   zoom = 15;
 
-  constructor(public gpsData: GpsData) {
+  constructor(public gpsData: GpsData, @Inject('params') params: GeoParams) {
     const searchParams = this.parseInitialSearchParams();
     this.legendOnly = searchParams?.legendOnly ?? this.legendOnly;
     this.parcelsOnly = searchParams?.parcelsOnly ?? this.parcelsOnly;
     this.profile = searchParams?.profile ?? this.profile;
     // profile values override "washington" defaults
-    const profile: Profile = PROFILES[this.profile];
+    const profile: Profile = params.thumnbail
+      ? PROFILES['thumbnail']
+      : PROFILES[this.profile];
     if (profile) {
       this.bbox = bbox(profile);
       this.dims.cxFeet = profile.cxFeet;
@@ -102,6 +109,7 @@ export class Geometry {
     }
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
+      this.gpsData.boundary = this.gpsData.washington;
       // compute the boundary box from the boundary GPX
       if (this.profile === 'washington') {
         this.gpsData.boundary.Boundary.forEach((point: Point) => {
@@ -161,30 +169,25 @@ export class Geometry {
         cy: (this.dims.cyFeet / cyFeet) * this.dims.cyNominal
       };
       // grid lines every N feet
-      this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
-      this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
-      console.table({
-        bbox: this.bbox,
-        bounds: this.bounds,
-        tiles: this.tiles
-      });
-      console.table({ dims: this.dims });
-      console.table({ clip: this.clip });
-      console.table({ center: this.center });
+      if (this.dims.cxGrid && this.dims.cyGrid) {
+        this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
+        this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
+      }
       // set CSS variables
       const style = document.body.style;
-      style.setProperty('--map-clip-x', `${this.clip.x}px`);
-      style.setProperty('--map-clip-y', `${this.clip.y}px`);
-      style.setProperty('--map-clip-cx', `${this.clip.cx}px`);
-      style.setProperty('--map-clip-cy', `${this.clip.cy}px`);
-      style.setProperty('--map-cxNominal', `${this.dims.cxNominal}px`);
-      style.setProperty('--map-cyNominal', `${this.dims.cyNominal}px`);
-      style.setProperty('--map-cxTile', `${this.dims.cxTile}px`);
-      style.setProperty('--map-cyTile', `${this.dims.cyTile}px`);
-      style.setProperty('--map-numHGrids', `${this.dims.numHGrids}`);
-      style.setProperty('--map-numVGrids', `${this.dims.numVGrids}`);
-      style.setProperty('--map-numXTiles', `${this.dims.numXTiles}`);
-      style.setProperty('--map-numYTiles', `${this.dims.numYTiles}`);
+      const pfx = params.thumnbail ? 'thumbnail' : 'map';
+      style.setProperty(`--${pfx}-clip-x`, `${this.clip.x}px`);
+      style.setProperty(`--${pfx}-clip-y`, `${this.clip.y}px`);
+      style.setProperty(`--${pfx}-clip-cx`, `${this.clip.cx}px`);
+      style.setProperty(`--${pfx}-clip-cy`, `${this.clip.cy}px`);
+      style.setProperty(`--${pfx}-cxNominal`, `${this.dims.cxNominal}px`);
+      style.setProperty(`--${pfx}-cyNominal`, `${this.dims.cyNominal}px`);
+      style.setProperty(`--${pfx}-cxTile`, `${this.dims.cxTile}px`);
+      style.setProperty(`--${pfx}-cyTile`, `${this.dims.cyTile}px`);
+      style.setProperty(`--${pfx}-numHGrids`, `${this.dims.numHGrids}`);
+      style.setProperty(`--${pfx}-numVGrids`, `${this.dims.numVGrids}`);
+      style.setProperty(`--${pfx}-numXTiles`, `${this.dims.numXTiles}`);
+      style.setProperty(`--${pfx}-numYTiles`, `${this.dims.numYTiles}`);
       // ready to rock!
       this.ready$.next(true);
     });

@@ -10,6 +10,7 @@
   "author": "Mark Florence",
   "scripts": {
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
+    "counties": "ts-node --dir bin counties.ts",
     "parcels": "ts-node --dir bin parcels.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",

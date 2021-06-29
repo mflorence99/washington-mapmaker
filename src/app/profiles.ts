@@ -3,12 +3,12 @@ import { Rectangle } from './geometry';
 
 export interface Profile {
   cxFeet: number;
-  cxGrid: number;
+  cxGrid?: number;
   cyFeet: number;
-  cyGrid: number;
-  focus: Point;
+  cyGrid?: number;
+  focus?: Point;
   origin: Point;
-  title: string;
+  title?: string;
   zoom: number;
 }
 
@@ -28,6 +28,16 @@ export const PROFILES: Record<string, Profile> = {
     },
     title: 'LAE',
     zoom: 16
+  },
+  // NOTE: just used for thumbnail
+  thumbnail: {
+    cxFeet: 158400,
+    cyFeet: 211200,
+    origin: {
+      lat: 43.634458,
+      lon: -72.504642
+    },
+    zoom: 13
   }
 };
 

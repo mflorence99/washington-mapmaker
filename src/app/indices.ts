@@ -32,7 +32,7 @@ export class IndicesComponent {
   constructor(public geometry: Geometry) {}
 
   profiles(): Profile[] {
-    return Object.values(PROFILES);
+    return Object.values(PROFILES).filter((profile) => profile.title);
   }
 
   rect(profile: Profile): Rectangle {
