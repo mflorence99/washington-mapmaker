@@ -18,7 +18,11 @@ import { Component } from '@angular/core';
         <g><path class="black" [attr.d]="path(boundary)" /></g>
 
         <g>
-          <path class="white u{{ lot.usage }}" [attr.d]="path(boundary)" />
+          <path
+            class="white u{{ lot.usage }}"
+            [attr.d]="path(boundary)"
+            [id]="lot.id"
+          />
         </g>
       </ng-container>
     </ng-container>
