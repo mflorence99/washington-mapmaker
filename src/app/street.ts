@@ -20,13 +20,13 @@ export class StreetComponent {
         const x = this.geometry.xTiles[ix];
         const y = this.geometry.yTiles[iy];
         const params: TileParams = makeTileParams({
-          alpha: this.geometry.style === 'osm' ? 0 : null,
-          filter: this.geometry.style === 'arcgis' ? 'saturate(1.5)' : null,
+          alpha: 0,
+          filter: null,
           ix: ix,
           iy: iy,
-          src: `/street/${this.geometry.style}/${this.geometry.zoom}/${x}/${y}`,
-          threshold: this.geometry.style === 'osm' ? 16 : null,
-          transparent: this.geometry.style === 'osm' ? [242, 239, 233] : null
+          src: `/street/osm/${this.geometry.zoom}/${x}/${y}`,
+          threshold: 16,
+          transparent: [242, 239, 233]
         });
         this.tileParams.push(params);
       }

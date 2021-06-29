@@ -7,12 +7,6 @@ import { bbox } from './profiles';
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
-const FORMAT2SCALE = {
-  tiny: 0.5,
-  normal: 1,
-  legendOnly: 1
-};
-
 const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
 
@@ -74,11 +68,10 @@ export class Geometry {
     numYTiles: 0
   };
   focus: Point = { lat: 43.176086457408914, lon: -72.0965696751637 };
-  format = 'tiny';
+  legendOnly = false;
+  parcelsOnly = false;
   profile = 'washington';
   ready$ = new Subject<boolean>();
-  scale = 1;
-  style = 'osm';
   tiles = {
     bottom: 0,
     left: 0,
@@ -92,10 +85,9 @@ export class Geometry {
 
   constructor(public gpsData: GpsData) {
     const searchParams = this.parseInitialSearchParams();
-    this.format = searchParams?.format ?? this.format;
-    this.scale = FORMAT2SCALE[this.format];
+    this.legendOnly = searchParams?.legendOnly ?? this.legendOnly;
+    this.parcelsOnly = searchParams?.parcelsOnly ?? this.parcelsOnly;
     this.profile = searchParams?.profile ?? this.profile;
-    this.style = searchParams?.style ?? this.style;
     // profile values override "washington" defaults
     const profile: Profile = PROFILES[this.profile];
     if (profile) {
@@ -171,12 +163,6 @@ export class Geometry {
       // grid lines every N feet
       this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
       this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
-      // useful logging
-      console.table({
-        profile: this.profile,
-        format: this.format,
-        style: this.style
-      });
       console.table({
         bbox: this.bbox,
         bounds: this.bounds,
@@ -199,7 +185,6 @@ export class Geometry {
       style.setProperty('--map-numVGrids', `${this.dims.numVGrids}`);
       style.setProperty('--map-numXTiles', `${this.dims.numXTiles}`);
       style.setProperty('--map-numYTiles', `${this.dims.numYTiles}`);
-      style.setProperty('--map-scale', `${this.scale}`);
       // ready to rock!
       this.ready$.next(true);
     });
@@ -210,10 +195,10 @@ export class Geometry {
     if (rect.bottom && rect.right) {
       const br = this.point2xy({ lat: rect.bottom, lon: rect.right });
       return {
-        height: (br[1] - tl[1]) * this.scale,
-        left: (tl[0] - this.clip.x) * this.scale,
-        top: (tl[1] - this.clip.y) * this.scale,
-        width: (br[0] - tl[0]) * this.scale
+        height: br[1] - tl[1],
+        left: tl[0] - this.clip.x,
+        top: tl[1] - this.clip.y,
+        width: br[0] - tl[0]
       };
     } else if (rect.width && rect.height) {
       const br = this.point2xy({
@@ -221,15 +206,15 @@ export class Geometry {
         lon: rect.left + rect.width
       });
       return {
-        height: (br[1] - tl[1]) * this.scale,
-        left: (tl[0] - this.clip.x) * this.scale,
-        top: (tl[1] - this.clip.y) * this.scale,
-        width: (br[0] - tl[0]) * this.scale
+        height: br[1] - tl[1],
+        left: tl[0] - this.clip.x,
+        top: tl[1] - this.clip.y,
+        width: br[0] - tl[0]
       };
     } else {
       return {
-        left: (tl[0] - this.clip.x) * this.scale,
-        top: (tl[1] - this.clip.y) * this.scale
+        left: tl[0] - this.clip.x,
+        top: tl[1] - this.clip.y
       };
     }
   }

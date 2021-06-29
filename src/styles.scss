@@ -30,7 +30,6 @@
   --map-numVGrids: 0;
   --map-numXTiles: 0;
   --map-numYTiles: 0;
-  --map-scale: 1;
   // land use color shading
   --shade-u11: var(--rgb-brown-300);
   --shade-u12: var(--rgb-brown-500);
@@ -89,8 +88,8 @@ map-root {
 
   aside {
     grid-area: side-matter;
-    padding: calc(var(--map-cyNominal) * var(--map-scale) / 100)
-      calc(var(--map-cxNominal) * var(--map-scale) / 100);
+    overflow: auto;
+    padding: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100);
     width: var(--map-side-matter-cx);
 
     map-legend {
@@ -212,40 +211,37 @@ map-root {
 
     .border-1 {
       border: 3px solid var(--mat-gray-600);
-      margin: calc(var(--map-cyNominal) * var(--map-scale) / 100)
-        calc(var(--map-cxNominal) * var(--map-scale) / 100);
+      margin: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100);
     }
 
     .border-2 {
       background-color: var(--mat-brown-50);
-      border: calc(var(--map-cyNominal) * var(--map-scale) / 300) dashed
-        var(--mat-gray-600);
+      border: calc(var(--map-cyNominal) / 300) dashed var(--mat-gray-600);
     }
 
     .border-3 {
       background-color: white;
       border: 1px solid var(--mat-gray-600);
-      padding: calc(var(--map-cyNominal) * var(--map-scale) / 200)
-        calc(var(--map-cxNominal) * var(--map-scale) / 200);
+      padding: calc(var(--map-cyNominal) / 200) calc(var(--map-cxNominal) / 200);
     }
 
     section {
       display: block;
-      height: calc(var(--map-clip-cy) * var(--map-scale));
+      height: calc(var(--map-clip-cy));
       overflow: hidden;
       position: relative;
-      width: calc(var(--map-clip-cx) * var(--map-scale));
+      width: calc(var(--map-clip-cx));
 
       figure {
         cursor: normal;
         display: block;
-        height: calc(var(--map-cyNominal) * var(--map-scale));
+        height: calc(var(--map-cyNominal));
         position: absolute;
         transform: translate(
-          calc(var(--map-clip-x) * var(--map-scale) * -1),
-          calc(var(--map-clip-y) * var(--map-scale) * -1)
+          calc(var(--map-clip-x) * -1),
+          calc(var(--map-clip-y) * -1)
         );
-        width: calc(var(--map-cxNominal) * var(--map-scale));
+        width: calc(var(--map-cxNominal));
 
         map-boundary,
         map-clip,
@@ -269,10 +265,6 @@ map-root {
           svg {
             height: 100%;
             width: 100%;
-
-            & > g {
-              transform: scale(var(--map-scale), var(--map-scale));
-            }
           }
         }
 
@@ -456,10 +448,10 @@ map-root {
 
         map-tile {
           display: inline-block;
-          height: calc(var(--map-cyTile) * var(--map-scale));
+          height: calc(var(--map-cyTile));
           position: relative;
           vertical-align: top;
-          width: calc(var(--map-cxTile) * var(--map-scale));
+          width: calc(var(--map-cxTile));
 
           canvas {
             height: var(--map-cyTile);

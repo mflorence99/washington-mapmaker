@@ -37,9 +37,6 @@ export class TileComponent implements AfterViewInit {
         // translate to tile origin
         x -= ix * this.geometry.dims.cxTile;
         y -= iy * this.geometry.dims.cyTile;
-        // scale appropriately
-        x *= this.geometry.scale;
-        y *= this.geometry.scale;
         if (index === 0) {
           return `M ${x} ${y}`;
         } else return `${acc} L ${x} ${y}`;

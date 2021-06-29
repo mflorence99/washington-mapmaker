@@ -22,7 +22,7 @@ type UIEvent = {
   selector: 'map-root',
   template: `
     <main *ngIf="geometry.ready$ | async as ready" #theMap>
-      <div *ngIf="geometry.format !== 'legendOnly'" class="border-1">
+      <div *ngIf="!geometry.legendOnly" class="border-1">
         <div class="border-2">
           <div class="border-3">
             <section
@@ -33,24 +33,12 @@ type UIEvent = {
               (mousemove)="doDrag($event)"
               (mouseup)="stopDrag()"
             >
-              <figure [ngClass]="geometry.format">
+              <figure>
                 <map-clip></map-clip>
-
-                <ng-container [ngSwitch]="geometry.style">
-                  <ng-container *ngSwitchCase="'arcgis'">
-                    <map-street></map-street>
-                    <map-lots></map-lots>
-                  </ng-container>
-
-                  <ng-container *ngSwitchCase="'osm'">
-                    <map-topo></map-topo>
-                    <map-lots></map-lots>
-                    <map-street></map-street>
-                  </ng-container>
-                </ng-container>
-
+                <map-topo *ngIf="!geometry.parcelsOnly"></map-topo>
+                <map-lots></map-lots>
+                <map-street *ngIf="!geometry.parcelsOnly"></map-street>
                 <map-lot-labels></map-lot-labels>
-
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
               </figure>
@@ -74,9 +62,7 @@ type UIEvent = {
       </div>
     </main>
 
-    <aside
-      *ngIf="geometry.format !== 'tiny' && geometry.profile == 'washington'"
-    >
+    <aside *ngIf="geometry.profile === 'washington'">
       <map-legend></map-legend>
     </aside>
   `
@@ -119,14 +105,10 @@ export class RootComponent implements AfterViewInit {
     this.geometry.ready$.subscribe(() => {
       this.cdf.detectChanges();
       // compute size of side matter
-      if (
-        this.geometry.format !== 'tiny' &&
-        this.geometry.profile === 'washington'
-      ) {
-        const sideMatterWidth =
-          this.geometry.format === 'legendOnly'
-            ? 800
-            : this.theMap.nativeElement.offsetWidth / 5;
+      if (this.geometry.profile === 'washington') {
+        const sideMatterWidth = this.geometry.legendOnly
+          ? 800
+          : this.theMap.nativeElement.offsetWidth / 5;
         const style = document.body.style;
         style.setProperty('--map-side-matter-cx', `${sideMatterWidth}px`);
       }
@@ -153,10 +135,7 @@ export class RootComponent implements AfterViewInit {
         domtoimage
           .toBlob(this.host.nativeElement as HTMLElement, { bgcolor: 'white ' })
           .then((blob) => {
-            saveAs(
-              blob,
-              `${this.geometry.profile}-${this.geometry.style}-${this.geometry.format}.png`
-            );
+            saveAs(blob, `${this.geometry.profile}.png`);
             // back to our normal programming
             this.printing = false;
             this.cdf.markForCheck();

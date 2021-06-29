@@ -13,11 +13,7 @@ import { Component } from '@angular/core';
     }}"
   >
     <defs>
-      <clipPath
-        attr.transform="scale({{ geometry.scale }}, {{ geometry.scale }})"
-        clipPathUnits="userSpaceOnUse"
-        id="boundary"
-      >
+      <clipPath clipPathUnits="userSpaceOnUse" id="boundary">
         <polygon [attr.points]="boundary()" />
       </clipPath>
     </defs>
