@@ -16,18 +16,18 @@ const washington = {
   descByUsage: {
     '11': 'Single Family Home',
     '12': 'Multi Family Units',
-    '17': 'Industrial',
     '19': 'Improved Residential Land',
     '22': 'Residential Land',
-    '26': 'Mixed Commercial/Industrial',
-    '33': 'Commercial',
-    // '57': 'Unclass/Unk Other',
-    '58': 'Garage/Storage Unit',
     '100': 'Pilsbury State Park',
     '101': 'Washington Town Forest',
+    '17': 'Industrial',
+    '33': 'Commercial',
+    '26': 'Mixed Commercial/Industrial',
+    '58': 'Garage/Storage Unit',
     '27': 'Unclassified'
   },
-  lots: []
+  lots: [],
+  usages: ['11', '12', '19', '22', '100', '101', '17', '33', '26', '58', '27']
 };
 
 // NOTE: these lots are unclassified in the original
@@ -64,6 +64,50 @@ const overridesByID = {
   '10-5': {
     usage: '101'
   },
+  '11-27': {
+    centers: [{ lat: 43.18354379706618, lon: -72.10934014840896 }]
+  },
+  '11-21': {
+    labels: [{ split: true }]
+  },
+  '11-38-01': {
+    centers: [{ lat: 43.179193129936984, lon: -72.10987659021194 }],
+    labels: [{ rotate: true }]
+  },
+  '11-85': {
+    centers: [{ lat: 43.17010054863459, lon: -72.12390990777786 }]
+  },
+  '11-87': {
+    callouts: [{ lat: 43.17913053040994, lon: -72.10352511926467 }]
+  },
+  '12-14': {
+    centers: [{ lat: 43.179521777453935, lon: -72.08365531488235 }]
+  },
+  '12-17': {
+    centers: [{ lat: 43.179803475325606, lon: -72.08502860589797 }]
+  },
+  '12-196': {
+    callouts: [{ lat: 43.18227615664364, lon: -72.08213182016189 }]
+  },
+  '12-29': {
+    callouts: [
+      null,
+      { lat: 43.18266740368763, lon: -72.07996459527786 },
+      { lat: 43.18409154292777, lon: -72.07998605294998 }
+    ]
+  },
+  '12-39': {
+    callouts: [null, { lat: 43.18180666019085, lon: -72.08271117730911 }]
+  },
+  '15-62': {
+    labels: [{ rotate: true }]
+  },
+  '15-64': {
+    labels: [{ rotate: true }]
+  },
+  '15-65': {
+    centers: [{ lat: 43.163277200187366, lon: -72.12146373315628 }]
+  },
   '12-100': {
     usage: '101'
   },
@@ -98,9 +142,7 @@ county.features
     if (!ids.has(id)) {
       if (duplicates.has(id)) ids.add(id);
       // simplify boundaries
-      if (id === '14-138') console.log(feature.geometry.coordinates);
       feature = simplify(feature, 0.00001);
-      if (id === '14-138') console.log(feature.geometry.coordinates);
       // find the areas of each individual polygon
       let areas;
       if (feature.geometry.type === 'Polygon')
@@ -138,8 +180,10 @@ county.features
         area: feature.properties.ll_gisacre as number,
         areas: areas,
         boundaries: boundaries,
-        centers: centers,
+        callouts: override?.callouts ?? [],
+        centers: override?.centers ?? centers,
         id: id,
+        labels: override?.labels ?? [],
         usage:
           // NOTE: fold 57 and 27 together
           override?.usage ??

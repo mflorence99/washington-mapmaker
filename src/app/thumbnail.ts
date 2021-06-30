@@ -11,9 +11,8 @@ import { Component } from '@angular/core';
   ],
   selector: 'map-thumbnail',
   template: `<figure *ngIf="geometry.ready$ | async">
-    <map-topo></map-topo>
+    <map-street [provider]="'arcgis'" [tag]="'Thumbnail street'"></map-street>
     <map-washington></map-washington>
-    <map-street></map-street>
     <map-boundary></map-boundary>
     <map-grid></map-grid>
   </figure>`

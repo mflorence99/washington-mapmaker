@@ -28,7 +28,7 @@
   --map-numVGrids: 0;
   --map-numXTiles: 0;
   --map-numYTiles: 0;
-  // NOTE: these sapply to the thumbnail
+  // NOTE: these apply to the thumbnail
   --thumbnail-clip-x: 0;
   --thumbnail-clip-y: 0;
   --thumbnail-clip-cx: 0;
@@ -100,21 +100,70 @@ map-root {
   aside {
     color: var(--mat-gray-900);
     grid-area: side-matter;
-    padding: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100);
+    padding: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100)
+      calc(var(--map-cyNominal) / 100) 0;
 
     map-legend {
       align-content: start;
       display: grid;
+      font-family: 'Bentham Regular', sans-serif;
+      font-size: 32px;
       grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto auto 1fr;
       height: 100%;
       justify-content: center;
       row-gap: 96px;
       width: 100%;
 
-      figure.wrapper {
+      article.grids {
+        display: grid;
+        grid-column-gap: 64px;
+        grid-row-gap: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+
+        figure {
+          aspect-ratio: 1 / 1;
+          background-color: var(--mat-gray-800);
+          border: 1px solid var(--mat-gray-800);
+          box-sizing: content-box;
+          display: grid;
+          font-size: 16px;
+          grid-gap: 1px;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          width: 100%;
+
+          div {
+            background-color: white;
+            display: grid;
+            place-content: center;
+            text-align: center;
+          }
+        }
+
+        figcaption {
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        h2 {
+          grid-column: 1 / 4;
+        }
+      }
+
+      figure.chart {
         aspect-ratio: 4 / 3;
         display: block;
         width: 100%;
+      }
+
+      footer {
+        align-content: end;
+        display: grid;
+        font-size: 16px;
+        text-align: center;
       }
 
       header {
@@ -224,8 +273,6 @@ map-root {
 
       table.usage {
         border-collapse: collapse;
-        font-family: 'Bentham Regular', sans-serif;
-        font-size: 32px;
         width: 100%;
 
         td {
@@ -403,9 +450,15 @@ map-root {
 
         map-lot-labels {
           g {
+            line {
+              stroke: var(--mat-gray-600);
+              stroke-dasharray: 1;
+              stroke-width: 1;
+            }
+
             text {
               fill: var(--mat-gray-600);
-              font-family: 'Ubuntu', 'Droid Sans', sans-serif;
+              font-family: 'Ubuntu', sans-serif;
             }
 
             text tspan.area {
@@ -419,11 +472,11 @@ map-root {
             }
 
             text.a0 {
-              font-size: 6px;
+              font-size: 8px;
             }
 
             text.a1 {
-              font-size: 8px;
+              font-size: 9px;
             }
 
             text.a2 {
@@ -496,6 +549,10 @@ map-root {
             text.a2 tspan.area {
               display: none;
             }
+          }
+
+          g.z15.callout {
+            display: none;
           }
         }
 
@@ -608,19 +665,21 @@ map-root {
           font-size: 16px;
           height: 100%;
           justify-content: space-between;
-          padding: 0.25rem 1rem;
+          padding: 0 16px 8px 16px;
           position: absolute;
           width: 100%;
         }
 
         map-indices {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 64px;
+          font-weight: bold;
+          text-transform: uppercase;
+
           article {
             border: 5px solid rgba(var(--rgb-gray-500), 0.5);
             color: rgba(var(--rgb-gray-500), 0.5);
             display: grid;
-            font-family: 'Bentham Regular', sans-serif;
-            font-size: 64px;
-            font-weight: bold;
             place-items: center;
             position: absolute;
           }

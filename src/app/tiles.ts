@@ -39,6 +39,7 @@ export interface TileParams {
   ></map-tile>`
 })
 export class TilesComponent implements AfterViewInit {
+  @Input() tag: string;
   @Input() tileParams: TileParams[];
 
   constructor(public geometry: Geometry, private http: HttpClient) {}
@@ -53,8 +54,14 @@ export class TilesComponent implements AfterViewInit {
         of(params)
       );
     });
-    concat(...requests).subscribe(([bitmap, params]) => {
-      if (bitmap) params.ready$.next(bitmap);
+    concat(...requests).subscribe({
+      complete: () => console.log(`${this.tag} completed`),
+      next: ([bitmap, params]) => {
+        if (bitmap) {
+          params.ready$.next(bitmap);
+          console.log(`${this.tag} loading ...`);
+        }
+      }
     });
   }
 

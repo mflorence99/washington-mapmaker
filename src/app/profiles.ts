@@ -13,22 +13,28 @@ export interface Profile {
 }
 
 export const PROFILES: Record<string, Profile> = {
+  center: {
+    cxFeet: 15840,
+    cyFeet: 10560,
+    cxGrid: 1320,
+    cyGrid: 1320,
+    focus: { lat: 43.17727538027316, lon: -72.09871544237562 },
+    origin: { lat: 43.18490951655938, lon: -72.13330520983168 },
+    title: 'Center',
+    zoom: 16
+  },
+
   lae: {
     cxFeet: 10560,
     cyFeet: 15840,
     cxGrid: 1320,
     cyGrid: 1320,
-    focus: {
-      lat: 43.15540545705978,
-      lon: -72.15321792955824
-    },
-    origin: {
-      lat: 43.17727946502029,
-      lon: -72.17305139671191
-    },
+    focus: { lat: 43.15540545705978, lon: -72.15321792955824 },
+    origin: { lat: 43.17727946502029, lon: -72.17305139671191 },
     title: 'LAE',
     zoom: 16
   },
+
   // NOTE: just used for thumbnail
   thumbnail: {
     cxFeet: 158400,

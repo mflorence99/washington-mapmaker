@@ -34,9 +34,17 @@ import domtoimage from 'dom-to-image';
             >
               <figure>
                 <map-clip></map-clip>
-                <map-topo *ngIf="!geometry.parcelsOnly"></map-topo>
+                <map-topo
+                  *ngIf="!geometry.parcelsOnly"
+                  [provider]="'arcgis'"
+                  [tag]="'Main map topo'"
+                ></map-topo>
                 <map-lots></map-lots>
-                <map-street *ngIf="!geometry.parcelsOnly"></map-street>
+                <map-street
+                  *ngIf="!geometry.parcelsOnly"
+                  [provider]="'osm'"
+                  [tag]="'Main map street'"
+                ></map-street>
                 <map-lot-labels></map-lot-labels>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>

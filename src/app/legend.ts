@@ -18,8 +18,8 @@ import Chart from 'chart.js/auto';
 
     <map-thumbnail></map-thumbnail>
 
-    <figure #wrapper class="wrapper">
-      <canvas #canvas class="chart"> </canvas>
+    <figure #wrapper class="chart">
+      <canvas #canvas> </canvas>
     </figure>
 
     <table class="usage">
@@ -32,7 +32,7 @@ import Chart from 'chart.js/auto';
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let usage of usages()">
+        <tr *ngFor="let usage of parcels.parcels.usages">
           <td class="usage">
             <div class="lot">
               <div [ngClass]="'u' + usage"></div>
@@ -53,7 +53,36 @@ import Chart from 'chart.js/auto';
           <td class="numeric">{{ sum(parcels.parcels.countByUsage) }}</td>
         </tr>
       </tbody>
-    </table>`
+    </table>
+
+    <article class="grids">
+      <h2>Grid and Scale</h2>
+      <figure>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>10 x 10 miles<br />100 sq miles</div>
+      </figure>
+      <figure>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>1 sq mile<br />640 acres</div>
+      </figure>
+      <figure>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>&#188; x &#188; mile<br />40 acres</div>
+      </figure>
+      <figcaption>Sullivan Co</figcaption>
+      <figcaption>Washington</figcaption>
+      <figcaption>Detail Maps</figcaption>
+    </article>
+
+    <footer>
+      <p>For information only &mdash; {{ today | date: 'longDate' }}</p>
+    </footer>`
 })
 export class LegendComponent implements AfterViewInit {
   @ViewChild('canvas', { static: true }) canvas: ElementRef;
@@ -61,6 +90,8 @@ export class LegendComponent implements AfterViewInit {
 
   // eslint-disable-next-line @typescript-eslint/member-ordering
   chart: Chart;
+
+  today = new Date();
 
   constructor(public parcels: Parcels) {
     Chart.defaults.font.family = 'Bentham Regular';
@@ -76,12 +107,16 @@ export class LegendComponent implements AfterViewInit {
       this.chart = new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: Object.values(this.parcels.parcels.descByUsage),
+          labels: this.parcels.parcels.usages.map(
+            (usage) => this.parcels.parcels.descByUsage[usage]
+          ),
           datasets: [
             {
               backgroundColor: this.makeColors(),
               borderWidth: 1,
-              data: Object.values(this.parcels.parcels.areaByUsage)
+              data: this.parcels.parcels.usages.map(
+                (usage) => this.parcels.parcels.areaByUsage[usage]
+              )
             }
           ]
         },
@@ -95,7 +130,7 @@ export class LegendComponent implements AfterViewInit {
           scales: {
             x: {
               ticks: {
-                display: true
+                display: false
               }
             },
             y: {
@@ -117,13 +152,9 @@ export class LegendComponent implements AfterViewInit {
     return Object.values(byUsage).reduce((p, q) => p + q, 0);
   }
 
-  usages(): string[] {
-    return Object.keys(this.parcels.parcels.descByUsage);
-  }
-
   private makeColors(): string[] {
     const style = getComputedStyle(this.canvas.nativeElement);
-    return Object.keys(this.parcels.parcels.descByUsage).map((usage) => {
+    return this.parcels.parcels.usages.map((usage) => {
       const rgb = style.getPropertyValue(`--shade-u${usage}`);
       // NOTE: horrible hack, see styles.css
       return `rgba(${rgb}, ${usage === '101' ? 1 : 0.5})`;
