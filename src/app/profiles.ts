@@ -18,10 +18,10 @@ export const PROFILES: Record<string, Profile> = {
     cyFeet: 10560,
     cxGrid: 1320,
     cyGrid: 1320,
-    focus: { lat: 43.17727538027316, lon: -72.09871544237562 },
+    focus: { lat: 43.15926517835463, lon: -72.12333347683916 },
     origin: { lat: 43.18490951655938, lon: -72.13330520983168 },
     title: 'Center',
-    zoom: 16
+    zoom: 17
   },
 
   lae: {

@@ -470,46 +470,6 @@ map-root {
               font-size: 1em;
               font-weight: bold;
             }
-
-            text.a0 {
-              font-size: 8px;
-            }
-
-            text.a1 {
-              font-size: 9px;
-            }
-
-            text.a2 {
-              font-size: 10px;
-            }
-
-            text.a5 {
-              font-size: 12px;
-            }
-
-            text.a10 {
-              font-size: 16px;
-            }
-
-            text.a25 {
-              font-size: 16px;
-            }
-
-            text.a50 {
-              font-size: 24px;
-            }
-
-            text.a100 {
-              font-size: 24px;
-            }
-
-            text.a500 {
-              font-size: 36px;
-            }
-
-            text.a0 tspan.area {
-              display: none;
-            }
           }
 
           g.z15 {
@@ -553,6 +513,90 @@ map-root {
 
           g.z15.callout {
             display: none;
+          }
+
+          g.z16 {
+            text.a0 {
+              display: none;
+            }
+
+            text.a1 {
+              font-size: 9px;
+            }
+
+            text.a2 {
+              font-size: 10px;
+            }
+
+            text.a5 {
+              font-size: 12px;
+            }
+
+            text.a10 {
+              font-size: 16px;
+            }
+
+            text.a25 {
+              font-size: 16px;
+            }
+
+            text.a50 {
+              font-size: 24px;
+            }
+
+            text.a100 {
+              font-size: 24px;
+            }
+
+            text.a500 {
+              font-size: 36px;
+            }
+
+            text.a0 tspan.area {
+              display: none;
+            }
+          }
+
+          g.z17 {
+            text.a0 {
+              font-size: 12px;
+            }
+
+            text.a1 {
+              font-size: 16px;
+            }
+
+            text.a2 {
+              font-size: 20px;
+            }
+
+            text.a5 {
+              font-size: 24px;
+            }
+
+            text.a10 {
+              font-size: 28px;
+            }
+
+            text.a25 {
+              font-size: 32px;
+            }
+
+            text.a50 {
+              font-size: 40px;
+            }
+
+            text.a100 {
+              font-size: 48px;
+            }
+
+            text.a500 {
+              font-size: 56px;
+            }
+
+            text.a0 tspan.area {
+              display: none;
+            }
           }
         }
 

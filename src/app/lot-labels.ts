@@ -6,11 +6,6 @@ import { Parcels } from './parcels';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
 
-const ZOOM2THRESHOLD = {
-  15: 30,
-  16: 4
-};
-
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-lot-labels',
@@ -96,16 +91,14 @@ export class LotLabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
 
   forceRotate(lot: Lot, ix: number): boolean {
-    const threshold = ZOOM2THRESHOLD[this.geometry.zoom];
     const labels = lot.labels?.[ix];
-    // eslint-disable-next-line @typescript-eslint/no-unnecessary-boolean-literal-compare
-    return lot.areas[ix] < threshold || labels?.rotate === true;
+    return labels?.rotate === undefined ? lot.areas[ix] < 25 : labels?.rotate;
   }
 
   forceSplit(lot: Lot, ix: number, props: LineProps): boolean {
     const labels = lot.labels?.[ix];
-    // eslint-disable-next-line @typescript-eslint/no-unnecessary-boolean-literal-compare
-    return props.length < 80 || labels?.split === true;
+    const MAGIC = 160; // TODO: works for z17, will need adjusting
+    return labels?.split === undefined ? props.length < MAGIC : labels?.split;
   }
 
   quantize(area: number): number {
