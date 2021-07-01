@@ -32,7 +32,7 @@ export const PROFILES: Record<string, Profile> = {
     focus: { lat: 43.15540545705978, lon: -72.15321792955824 },
     origin: { lat: 43.17727946502029, lon: -72.17305139671191 },
     title: 'LAE',
-    zoom: 16
+    zoom: 17
   },
 
   // NOTE: just used for thumbnail

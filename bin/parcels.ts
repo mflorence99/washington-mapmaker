@@ -190,9 +190,6 @@ const overridesByID = {
   '15-173': {
     callouts: [{ lat: 43.167762924811846, lon: -72.12425615674029 }]
   },
-  '12-100': {
-    usage: '101'
-  },
   '12-174': {
     callouts: [{ lat: 43.17216829429197, lon: -72.0849778879262 }]
   },
@@ -264,6 +261,24 @@ county.features
         areas = feature.geometry.coordinates.map((polygon) =>
           turf.area(turf.polygon(polygon))
         );
+      // find the perimeters of each individual polygon
+      let perimeters;
+      if (feature.geometry.type === 'Polygon')
+        perimeters = [
+          turf.length(turf.lineString(feature.geometry.coordinates[0]))
+        ];
+      else if (feature.geometry.type === 'MultiPolygon')
+        perimeters = feature.geometry.coordinates.map((polygon) =>
+          turf.length(turf.lineString(polygon[0]))
+        );
+      // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
+      const shapeIndices = areas.map(
+        (area, ix) => (area / Math.pow(perimeters[ix] * 1000, 2)) * 4 * Math.PI
+      );
+      // expect square
+      // if (['22-2'].includes(id)) console.log(id, shapeIndices);
+      // expect elongated
+      // if (['16-70-05'].includes(id)) console.log(id, shapeIndices);
       // NOTE: convert sq meters to acres
       areas = areas.map((area) => area / M2TOACRES);
       // extract the bundaries
@@ -297,6 +312,7 @@ county.features
         centers: override?.centers ?? centers,
         id: id,
         labels: override?.labels ?? [],
+        shapeIndices: shapeIndices,
         usage:
           // NOTE: fold 57 and 27 together
           override?.usage ??

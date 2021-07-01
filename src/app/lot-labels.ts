@@ -67,7 +67,7 @@ import { Component } from '@angular/core';
               </tspan>
 
               <tspan
-                *ngIf="forceSplit(lot, ix, props); else joined"
+                *ngIf="forceSplit(lot, ix); else joined"
                 [attr.x]="0"
                 [attr.dy]="'1.1em'"
                 class="area"
@@ -91,14 +91,17 @@ export class LotLabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
 
   forceRotate(lot: Lot, ix: number): boolean {
-    const labels = lot.labels?.[ix];
-    return labels?.rotate === undefined ? lot.areas[ix] < 25 : labels?.rotate;
+    const label = lot.labels?.[ix];
+    return label?.rotate === undefined ? lot.areas[ix] < 25 : label?.rotate;
   }
 
-  forceSplit(lot: Lot, ix: number, props: LineProps): boolean {
-    const labels = lot.labels?.[ix];
-    const MAGIC = 160; // TODO: works for z17, will need adjusting
-    return labels?.split === undefined ? props.length < MAGIC : labels?.split;
+  forceSplit(lot: Lot, ix: number): boolean {
+    const label = lot.labels?.[ix];
+    const shapeIndex = lot.shapeIndices[ix];
+    // const MAGIC = 160; // TODO: works for z17, will need adjusting
+    // if (lot.id === '16-70-23') console.log(props);
+    // return labels?.split === undefined ? props.length < MAGIC : labels?.split;
+    return label?.split === undefined ? shapeIndex > 0.6 : label?.split;
   }
 
   quantize(area: number): number {
@@ -115,7 +118,7 @@ export class LotLabelsComponent {
 
   rotate(lot: Lot, ix: number): LineProps {
     if (!this.forceRotate(lot, ix)) return { angle: 0, length: 0 };
-    // find the longest edge
+    // find the length of the longest edge
     let longest = 0;
     let lp, lq;
     lot.boundaries[ix].forEach((point, iy, boundary) => {

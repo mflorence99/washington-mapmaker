@@ -24,14 +24,7 @@ import domtoimage from 'dom-to-image';
       <div *ngIf="!geometry.legendOnly" class="border-1">
         <div class="border-2">
           <div class="border-3">
-            <section
-              (contextmenu)="logLocation($event)"
-              (dblclick)="print()"
-              (mousedown)="startDrag($event)"
-              (mouseout)="stopDrag()"
-              (mousemove)="doDrag($event)"
-              (mouseup)="stopDrag()"
-            >
+            <section (contextmenu)="logLocation($event)" (dblclick)="print()">
               <figure>
                 <map-clip></map-clip>
                 <map-topo
@@ -82,23 +75,11 @@ export class RootComponent implements AfterViewInit {
 
   today = new Date();
 
-  private basis: MouseEvent;
-
   constructor(
     private cdf: ChangeDetectorRef,
     private host: ElementRef,
     public geometry: Geometry
   ) {}
-
-  doDrag(event: MouseEvent): void {
-    if (this.dragging) {
-      this.host.nativeElement.scrollBy(
-        -(event.clientX - this.basis.clientX),
-        -(event.clientY - this.basis.clientY)
-      );
-      this.basis = event;
-    }
-  }
 
   // NOTE: we know layerX, layerY is non-standard, but
   // it works for us and that's good enough for this non-critical API
@@ -151,14 +132,5 @@ export class RootComponent implements AfterViewInit {
           });
       }, 100);
     }
-  }
-
-  startDrag(event: MouseEvent): void {
-    this.basis = event;
-    this.dragging = true;
-  }
-
-  stopDrag(): void {
-    this.dragging = false;
   }
 }
