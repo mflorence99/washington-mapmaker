@@ -54,7 +54,7 @@ export class TileComponent implements AfterViewInit {
       const ctx = canvas.getContext('2d');
       ctx.drawImage(bitmap, 0, 0);
       // ONLY for transparency
-      if (this.params.transparent) {
+      if (this.params.transparencies) {
         // grab the image pixels
         const imageData = ctx.getImageData(
           0,
@@ -66,14 +66,10 @@ export class TileComponent implements AfterViewInit {
         // transform pixels ...
         for (let ix = 0; ix < pixels.length; ix += 4) {
           const pixel = [pixels[ix], pixels[ix + 1], pixels[ix + 2]];
-          if (
-            this.comparePixel(
-              pixel,
-              this.params.transparent,
-              this.params.threshold
-            )
-          )
-            pixels[ix + 3] = this.params.alpha;
+          this.params.transparencies.forEach((transparent) => {
+            if (this.comparePixel(pixel, transparent, this.params.threshold))
+              pixels[ix + 3] = transparent[3];
+          });
         }
         // update the image pixels
         ctx.putImageData(imageData, 0, 0);

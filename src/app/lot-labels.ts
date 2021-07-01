@@ -1,5 +1,4 @@
 import { Geometry } from './geometry';
-import { LineProps } from './geometry';
 import { Lot } from './parcels';
 import { Parcels } from './parcels';
 
@@ -49,14 +48,13 @@ import { Component } from '@angular/core';
             [ngClass]="[geometry.profile, 'z' + geometry.zoom]"
           >
             <text
-              *ngIf="rotate(lot, ix) as props"
               [attr.transform]="
                 'translate(' +
                 xy[0] +
                 ',' +
                 xy[1] +
                 ') rotate(' +
-                props.angle +
+                rotation(lot, ix) +
                 ')'
               "
               [ngClass]="'a' + quantize(lot.areas[ix])"
@@ -67,7 +65,7 @@ import { Component } from '@angular/core';
               </tspan>
 
               <tspan
-                *ngIf="forceSplit(lot, ix); else joined"
+                *ngIf="splitation(lot, ix); else joined"
                 [attr.x]="0"
                 [attr.dy]="'1.1em'"
                 class="area"
@@ -76,9 +74,7 @@ import { Component } from '@angular/core';
               </tspan>
 
               <ng-template #joined>
-                <tspan *ngIf="props.length >= 80" class="area">
-                  &nbsp;{{ round(lot.area) }} ac
-                </tspan>
+                <tspan class="area">&nbsp;{{ round(lot.area) }} ac</tspan>
               </ng-template>
             </text>
           </g>
@@ -89,20 +85,6 @@ import { Component } from '@angular/core';
 })
 export class LotLabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
-
-  forceRotate(lot: Lot, ix: number): boolean {
-    const label = lot.labels?.[ix];
-    return label?.rotate === undefined ? lot.areas[ix] < 25 : label?.rotate;
-  }
-
-  forceSplit(lot: Lot, ix: number): boolean {
-    const label = lot.labels?.[ix];
-    const shapeIndex = lot.shapeIndices[ix];
-    // const MAGIC = 160; // TODO: works for z17, will need adjusting
-    // if (lot.id === '16-70-23') console.log(props);
-    // return labels?.split === undefined ? props.length < MAGIC : labels?.split;
-    return label?.split === undefined ? shapeIndex > 0.6 : label?.split;
-  }
 
   quantize(area: number): number {
     if (area >= 500) return 500;
@@ -116,37 +98,29 @@ export class LotLabelsComponent {
     else return 0;
   }
 
-  rotate(lot: Lot, ix: number): LineProps {
-    if (!this.forceRotate(lot, ix)) return { angle: 0, length: 0 };
-    // find the length of the longest edge
-    let longest = 0;
-    let lp, lq;
-    lot.boundaries[ix].forEach((point, iy, boundary) => {
-      if (iy > 0) {
-        const length = this.geometry.distance(
-          boundary[iy - 1].lat,
-          boundary[iy - 1].lon,
-          point.lat,
-          point.lon
-        );
-        if (length > longest) {
-          longest = length;
-          lp = point;
-          lq = boundary[iy - 1];
-        }
-      }
-    });
-    // now find the angle of the longest edge
-    const p = this.geometry.point2xy(lp);
-    const q = this.geometry.point2xy(lq);
-    const props =
-      p[0] < q[0]
-        ? this.geometry.lineProps(p, q)
-        : this.geometry.lineProps(q, p);
-    return props;
+  rotation(lot: Lot, ix: number): number {
+    const label = lot.labels?.[ix];
+    const rotate =
+      label?.rotate === undefined ? this.smallLot(lot, ix) : label?.rotate;
+    return rotate ? lot.orientations[ix] : 0;
   }
 
   round(area: number): number {
     return Math.round(area * 10) / 10;
+  }
+
+  smallLot(lot: Lot, ix: number): boolean {
+    return lot.areas[ix] < 25;
+  }
+
+  splitation(lot: Lot, ix: number): boolean {
+    const label = lot.labels?.[ix];
+    return label?.split === undefined
+      ? !this.smallLot(lot, ix) || this.squareLot(lot, ix)
+      : label?.split;
+  }
+
+  squareLot(lot: Lot, ix: number): boolean {
+    return lot.sqarcities[ix] > 0.6;
   }
 }

@@ -27,13 +27,15 @@ export class StreetComponent implements OnInit {
         const x = this.geometry.xTiles[ix];
         const y = this.geometry.yTiles[iy];
         const params: TileParams = makeTileParams({
-          alpha: 0,
           filter: null,
           ix: ix,
           iy: iy,
           src: `/street/${this.provider}/${this.geometry.zoom}/${x}/${y}`,
           threshold: 16,
-          transparent: [242, 239, 233]
+          transparencies: [
+            [242, 239, 233, 0], // general yellow totally transparent
+            [170, 211, 233, 128] // water blue partially transparent
+          ]
         });
         this.tileParams.push(params);
       }

@@ -64,6 +64,10 @@ const overridesByID = {
   '10-5': {
     usage: '101'
   },
+  '10-23': {
+    centers: [{ lat: 43.17246092106209, lon: -72.15294136619026 }],
+    labels: [{ rotate: false }]
+  },
   '11-11': {
     callouts: [null, { lat: 43.16705086686746, lon: -72.12541487103472 }]
   },
@@ -94,6 +98,12 @@ const overridesByID = {
   },
   '11-66': {
     callouts: [{ lat: 43.17088304272258, lon: -72.12094874902542 }]
+  },
+  '11-69-01': {
+    labels: [{ split: true }]
+  },
+  '11-81': {
+    labels: [{ split: true }]
   },
   '11-84': {
     labels: [{ split: true }]
@@ -129,11 +139,39 @@ const overridesByID = {
   '12-39': {
     callouts: [null, { lat: 43.18180666019085, lon: -72.08271117730911 }]
   },
+  '12-174': {
+    callouts: [{ lat: 43.17216829429197, lon: -72.0849778879262 }]
+  },
   '12-176': {
     labels: [{ rotate: false, split: true }]
   },
   '12-180': {
     labels: [{ rotate: false, split: true }]
+  },
+  '12-193': {
+    callouts: [{ lat: 43.171769228850614, lon: -72.08480622654925 }]
+  },
+  '14-90': {
+    labels: [{ rotate: false, split: true }]
+  },
+  '14-138': {
+    centers: [{ lat: 43.158553036986795, lon: -72.14757694816048 }],
+    labels: [{ rotate: false, split: true }]
+  },
+  '14-421': {
+    labels: [{ rotate: false }]
+  },
+  '14-422': {
+    labels: [{ rotate: false }]
+  },
+  '14-423': {
+    labels: [{ rotate: false }]
+  },
+  '14-424': {
+    labels: [{ rotate: false }]
+  },
+  '14-430': {
+    labels: [{ split: true }]
   },
   '15-48-01': {
     centers: [{ lat: 43.158733091099485, lon: -72.11957838421831 }]
@@ -190,17 +228,14 @@ const overridesByID = {
   '15-173': {
     callouts: [{ lat: 43.167762924811846, lon: -72.12425615674029 }]
   },
-  '12-174': {
-    callouts: [{ lat: 43.17216829429197, lon: -72.0849778879262 }]
-  },
-  '12-193': {
-    callouts: [{ lat: 43.171769228850614, lon: -72.08480622654925 }]
-  },
   '14-400': {
     usage: '101'
   },
   '18-6': {
     usage: '101'
+  },
+  '18-31': {
+    callouts: [{ lat: 43.147235760468575, lon: -72.15177192305977 }]
   },
   '22-5-01': {
     centers: [{ lat: 43.179288873735864, lon: -72.09896829014788 }]
@@ -213,7 +248,7 @@ const overridesByID = {
   },
   '22-37-01': {
     centers: [{ lat: 43.17457051175271, lon: -72.09729459172259 }],
-    labels: [{ rotate: false }]
+    labels: [{ rotate: false, split: true }]
   },
   '22-40': {
     callouts: [{ lat: 43.175296309378815, lon: -72.09925504251297 }]
@@ -248,11 +283,14 @@ county.features
     const id = ['0', '00', '000', '0000', '00000', '000000'].includes(parts[2])
       ? base
       : `${base}-${parts[2]}`;
+
     // eliminate duplicates
     if (!ids.has(id)) {
       if (duplicates.has(id)) ids.add(id);
+
       // simplify boundaries
       feature = simplify(feature, 0.00001);
+
       // find the areas of each individual polygon
       let areas;
       if (feature.geometry.type === 'Polygon')
@@ -261,6 +299,7 @@ county.features
         areas = feature.geometry.coordinates.map((polygon) =>
           turf.area(turf.polygon(polygon))
         );
+
       // find the perimeters of each individual polygon
       let perimeters;
       if (feature.geometry.type === 'Polygon')
@@ -271,16 +310,15 @@ county.features
         perimeters = feature.geometry.coordinates.map((polygon) =>
           turf.length(turf.lineString(polygon[0]))
         );
+
       // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
-      const shapeIndices = areas.map(
+      const sqarcities = areas.map(
         (area, ix) => (area / Math.pow(perimeters[ix] * 1000, 2)) * 4 * Math.PI
       );
-      // expect square
-      // if (['22-2'].includes(id)) console.log(id, shapeIndices);
-      // expect elongated
-      // if (['16-70-05'].includes(id)) console.log(id, shapeIndices);
+
       // NOTE: convert sq meters to acres
       areas = areas.map((area) => area / M2TOACRES);
+
       // extract the bundaries
       let boundaries;
       if (feature.geometry.type === 'Polygon')
@@ -289,6 +327,7 @@ county.features
         boundaries = feature.geometry.coordinates.map((polygon) =>
           toPoints(polygon.flat(1))
         );
+
       // find the centers of each individual polygon
       let centers;
       if (feature.geometry.type === 'Polygon')
@@ -301,8 +340,19 @@ county.features
         lat: center[1],
         lon: center[0]
       }));
+
+      // find the perimeters of each individual polygon
+      let orientations;
+      if (feature.geometry.type === 'Polygon')
+        orientations = [orientation(feature.geometry.coordinates[0])];
+      else if (feature.geometry.type === 'MultiPolygon')
+        orientations = feature.geometry.coordinates.map((polygon) =>
+          orientation(polygon[0])
+        );
+
       // extract any overrides
       const override = overridesByID[id];
+
       // initialize the lot
       const lot = {
         area: feature.properties.ll_gisacre as number,
@@ -312,7 +362,8 @@ county.features
         centers: override?.centers ?? centers,
         id: id,
         labels: override?.labels ?? [],
-        shapeIndices: shapeIndices,
+        orientations: override?.orientations ?? orientations,
+        sqarcities: override?.sqarcities ?? sqarcities,
         usage:
           // NOTE: fold 57 and 27 together
           override?.usage ??
@@ -321,6 +372,7 @@ county.features
             : feature.properties.usecode ?? '27')
       };
       washington.lots.push(lot);
+
       // accumulate usage
       if (lot.usage) {
         const area: number = washington.areaByUsage[lot.usage];
@@ -335,6 +387,29 @@ writeFileSync(
   'src/assets/data/parcels.js',
   'PARCELS = ' + JSON.stringify(washington, null, 2) + ';'
 );
+
+// helpers
+
+function orientation(points: number[][]): number {
+  let angle = 0;
+  let longest = 0;
+  points.forEach((point, ix) => {
+    if (ix > 0) {
+      const p = turf.point(point);
+      const q = turf.point(points[ix - 1]);
+      const length = turf.distance(p, q);
+      if (length > longest) {
+        angle =
+          p.geometry.coordinates[0] < q.geometry.coordinates[0]
+            ? turf.bearing(p, q)
+            : turf.bearing(q, p);
+        longest = length;
+      }
+    }
+  });
+  // convert bearing to rotation
+  return angle - 90;
+}
 
 function toPoints(coordinates: number[][]): { lat: number; lon: number }[] {
   return coordinates.map((coordinate) => ({

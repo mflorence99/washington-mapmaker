@@ -97,7 +97,10 @@ PARCELS = {
       ],
       "id": "248-9000",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.973114862741781
+      ],
+      "sqarcities": [
         0.6054149081529634
       ],
       "usage": "11"
@@ -140,7 +143,10 @@ PARCELS = {
       ],
       "id": "8-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.16035241291576
+      ],
+      "sqarcities": [
         0.517455108957281
       ],
       "usage": "22"
@@ -191,7 +197,10 @@ PARCELS = {
       ],
       "id": "7-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.510240474973983
+      ],
+      "sqarcities": [
         0.7725568468636957
       ],
       "usage": "22"
@@ -242,7 +251,10 @@ PARCELS = {
       ],
       "id": "2-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.214053865340773
+      ],
+      "sqarcities": [
         0.752068556648982
       ],
       "usage": "19"
@@ -285,7 +297,10 @@ PARCELS = {
       ],
       "id": "19-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.04345987964837
+      ],
+      "sqarcities": [
         0.5937673217054725
       ],
       "usage": "22"
@@ -336,7 +351,10 @@ PARCELS = {
       ],
       "id": "7-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.6744427711206
+      ],
+      "sqarcities": [
         0.6252268674968802
       ],
       "usage": "11"
@@ -399,7 +417,10 @@ PARCELS = {
       ],
       "id": "7-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.388780652972713
+      ],
+      "sqarcities": [
         0.6330584059710863
       ],
       "usage": "11"
@@ -454,7 +475,10 @@ PARCELS = {
       ],
       "id": "7-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.721578961328902
+      ],
+      "sqarcities": [
         0.6686196313614684
       ],
       "usage": "11"
@@ -505,7 +529,10 @@ PARCELS = {
       ],
       "id": "7-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.048135513490081
+      ],
+      "sqarcities": [
         0.5372993776988602
       ],
       "usage": "19"
@@ -608,7 +635,10 @@ PARCELS = {
       ],
       "id": "7-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.9175908462058
+      ],
+      "sqarcities": [
         0.717535316927051
       ],
       "usage": "11"
@@ -655,7 +685,10 @@ PARCELS = {
       ],
       "id": "7-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.855713596894802
+      ],
+      "sqarcities": [
         0.6666052973715629
       ],
       "usage": "22"
@@ -710,7 +743,10 @@ PARCELS = {
       ],
       "id": "8-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.043165508648997
+      ],
+      "sqarcities": [
         0.6935321910277079
       ],
       "usage": "19"
@@ -765,7 +801,10 @@ PARCELS = {
       ],
       "id": "8-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.975723639178554
+      ],
+      "sqarcities": [
         0.6297040009848252
       ],
       "usage": "19"
@@ -808,7 +847,10 @@ PARCELS = {
       ],
       "id": "8-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.790368294212826
+      ],
+      "sqarcities": [
         0.45792742291805605
       ],
       "usage": "22"
@@ -855,7 +897,10 @@ PARCELS = {
       ],
       "id": "8-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.723856313083857
+      ],
+      "sqarcities": [
         0.44711486485023033
       ],
       "usage": "22"
@@ -910,7 +955,10 @@ PARCELS = {
       ],
       "id": "8-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.234674752648004
+      ],
+      "sqarcities": [
         0.506460792610063
       ],
       "usage": "19"
@@ -961,7 +1009,10 @@ PARCELS = {
       ],
       "id": "8-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.47704673988608
+      ],
+      "sqarcities": [
         0.5927095318098026
       ],
       "usage": "22"
@@ -1004,7 +1055,10 @@ PARCELS = {
       ],
       "id": "8-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.40151393400092
+      ],
+      "sqarcities": [
         0.5534830036957672
       ],
       "usage": "19"
@@ -1055,7 +1109,10 @@ PARCELS = {
       ],
       "id": "8-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.20944549039021
+      ],
+      "sqarcities": [
         0.5684160439212074
       ],
       "usage": "19"
@@ -1122,7 +1179,10 @@ PARCELS = {
       ],
       "id": "9-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.1088911077467
+      ],
+      "sqarcities": [
         0.7619902678889857
       ],
       "usage": "33"
@@ -1229,7 +1289,10 @@ PARCELS = {
       ],
       "id": "9-26-0C",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.9964418638979
+      ],
+      "sqarcities": [
         0.5246980888963996
       ],
       "usage": "19"
@@ -1292,7 +1355,10 @@ PARCELS = {
       ],
       "id": "10-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.8132311447039
+      ],
+      "sqarcities": [
         0.35813293424856857
       ],
       "usage": "11"
@@ -1347,7 +1413,10 @@ PARCELS = {
       ],
       "id": "10-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.89057644688974
+      ],
+      "sqarcities": [
         0.33274852233732916
       ],
       "usage": "11"
@@ -1446,7 +1515,10 @@ PARCELS = {
       ],
       "id": "11-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.53029923413404
+      ],
+      "sqarcities": [
         0.5871599944886053
       ],
       "usage": "11"
@@ -1517,7 +1589,10 @@ PARCELS = {
       ],
       "id": "11-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.328154313951458
+      ],
+      "sqarcities": [
         0.757564499735903
       ],
       "usage": "19"
@@ -1601,7 +1676,11 @@ PARCELS = {
       ],
       "id": "11-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        34.849053921744144,
+        71.9921943023291
+      ],
+      "sqarcities": [
         0.48179776359542886,
         0.7255346046165213
       ],
@@ -1690,7 +1769,11 @@ PARCELS = {
       ],
       "id": "11-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        34.849053921744144,
+        -71.05446191971487
+      ],
+      "sqarcities": [
         0.47585717798243654,
         0.5811734244583048
       ],
@@ -1766,7 +1849,10 @@ PARCELS = {
       ],
       "id": "11-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.42119773704137
+      ],
+      "sqarcities": [
         0.4256655036472525
       ],
       "usage": "11"
@@ -1821,7 +1907,10 @@ PARCELS = {
       ],
       "id": "11-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.30198885314732
+      ],
+      "sqarcities": [
         0.7213948114214294
       ],
       "usage": "22"
@@ -1868,7 +1957,10 @@ PARCELS = {
       ],
       "id": "11-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.43262958149836
+      ],
+      "sqarcities": [
         0.7852155736491003
       ],
       "usage": "11"
@@ -1915,7 +2007,10 @@ PARCELS = {
       ],
       "id": "12-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.606234254840274
+      ],
+      "sqarcities": [
         0.7137471311931087
       ],
       "usage": "27"
@@ -1966,7 +2061,10 @@ PARCELS = {
       ],
       "id": "12-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.97685300726104
+      ],
+      "sqarcities": [
         0.4168712933713229
       ],
       "usage": "22"
@@ -2029,7 +2127,10 @@ PARCELS = {
       ],
       "id": "12-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.232280959873933
+      ],
+      "sqarcities": [
         0.8033377329170506
       ],
       "usage": "22"
@@ -2084,7 +2185,10 @@ PARCELS = {
       ],
       "id": "12-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.589570681107233
+      ],
+      "sqarcities": [
         0.5570915348304599
       ],
       "usage": "11"
@@ -2135,7 +2239,10 @@ PARCELS = {
       ],
       "id": "12-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.589570681107233
+      ],
+      "sqarcities": [
         0.48835359396642886
       ],
       "usage": "11"
@@ -2186,7 +2293,10 @@ PARCELS = {
       ],
       "id": "12-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.70618791471827
+      ],
+      "sqarcities": [
         0.5668977111706397
       ],
       "usage": "22"
@@ -2305,7 +2415,10 @@ PARCELS = {
       ],
       "id": "12-85",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.417822506941334
+      ],
+      "sqarcities": [
         0.4651928707852878
       ],
       "usage": "11"
@@ -2352,7 +2465,10 @@ PARCELS = {
       ],
       "id": "12-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.610478973792354
+      ],
+      "sqarcities": [
         0.6588510447128005
       ],
       "usage": "11"
@@ -2395,7 +2511,10 @@ PARCELS = {
       ],
       "id": "12-92",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.86365245379929
+      ],
+      "sqarcities": [
         0.2501734003790601
       ],
       "usage": "22"
@@ -2442,7 +2561,10 @@ PARCELS = {
       ],
       "id": "12-149",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.050272009109861
+      ],
+      "sqarcities": [
         0.4179561603085905
       ],
       "usage": "19"
@@ -2493,7 +2615,10 @@ PARCELS = {
       ],
       "id": "12-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.782812090063835
+      ],
+      "sqarcities": [
         0.6078305501653563
       ],
       "usage": "11"
@@ -2556,7 +2681,10 @@ PARCELS = {
       ],
       "id": "12-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.24567081920607
+      ],
+      "sqarcities": [
         0.7815461155950386
       ],
       "usage": "11"
@@ -2627,7 +2755,10 @@ PARCELS = {
       ],
       "id": "12-97-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.9366284619519405
+      ],
+      "sqarcities": [
         0.7115762024910087
       ],
       "usage": "22"
@@ -2698,7 +2829,10 @@ PARCELS = {
       ],
       "id": "12-106",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -39.036957635260876
+      ],
+      "sqarcities": [
         0.5546778970609043
       ],
       "usage": "11"
@@ -2769,7 +2903,10 @@ PARCELS = {
       ],
       "id": "12-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.613250190118748
+      ],
+      "sqarcities": [
         0.6702063580388383
       ],
       "usage": "11"
@@ -2824,7 +2961,10 @@ PARCELS = {
       ],
       "id": "12-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.73894926297066
+      ],
+      "sqarcities": [
         0.5737998708607357
       ],
       "usage": "11"
@@ -2879,7 +3019,10 @@ PARCELS = {
       ],
       "id": "12-115",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.80249314122122
+      ],
+      "sqarcities": [
         0.5397923984738102
       ],
       "usage": "11"
@@ -2946,7 +3089,10 @@ PARCELS = {
       ],
       "id": "12-123",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.805267533177386
+      ],
+      "sqarcities": [
         0.6189974311402676
       ],
       "usage": "22"
@@ -2997,7 +3143,10 @@ PARCELS = {
       ],
       "id": "12-133",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -37.5058576801854
+      ],
+      "sqarcities": [
         0.33572532140808053
       ],
       "usage": "22"
@@ -3040,7 +3189,10 @@ PARCELS = {
       ],
       "id": "12-135",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.311114347096925
+      ],
+      "sqarcities": [
         0.20698200293261773
       ],
       "usage": "22"
@@ -3087,7 +3239,10 @@ PARCELS = {
       ],
       "id": "12-142",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.496824163499866
+      ],
+      "sqarcities": [
         0.42757925284685844
       ],
       "usage": "11"
@@ -3138,7 +3293,10 @@ PARCELS = {
       ],
       "id": "12-143",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.95159593772236
+      ],
+      "sqarcities": [
         0.4266701680269181
       ],
       "usage": "22"
@@ -3213,7 +3371,10 @@ PARCELS = {
       ],
       "id": "12-157",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.168225085825526
+      ],
+      "sqarcities": [
         0.6446239188332292
       ],
       "usage": "11"
@@ -3288,7 +3449,10 @@ PARCELS = {
       ],
       "id": "12-158",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.62327837918363
+      ],
+      "sqarcities": [
         0.5466436448723186
       ],
       "usage": "19"
@@ -3331,7 +3495,10 @@ PARCELS = {
       ],
       "id": "12-170",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.18402779473625
+      ],
+      "sqarcities": [
         0.7783211744990303
       ],
       "usage": "22"
@@ -3374,7 +3541,10 @@ PARCELS = {
       ],
       "id": "12-181-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.374069815535904
+      ],
+      "sqarcities": [
         0.5102974629337453
       ],
       "usage": "19"
@@ -3506,7 +3676,10 @@ PARCELS = {
           "split": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        -55.35079808714531
+      ],
+      "sqarcities": [
         0.4033600390235364
       ],
       "usage": "27"
@@ -3633,7 +3806,10 @@ PARCELS = {
       ],
       "id": "13-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.53098542226171
+      ],
+      "sqarcities": [
         0.3410079303702881
       ],
       "usage": "19"
@@ -3732,7 +3908,10 @@ PARCELS = {
       ],
       "id": "13-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.89794618561993
+      ],
+      "sqarcities": [
         0.6864388990005577
       ],
       "usage": "19"
@@ -3799,7 +3978,10 @@ PARCELS = {
       ],
       "id": "13-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.599417820360443
+      ],
+      "sqarcities": [
         0.6626231928556925
       ],
       "usage": "19"
@@ -4066,7 +4248,10 @@ PARCELS = {
       ],
       "id": "13-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.016290774499566
+      ],
+      "sqarcities": [
         0.584662194570078
       ],
       "usage": "19"
@@ -4117,7 +4302,10 @@ PARCELS = {
       ],
       "id": "13-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        39.766203115496495
+      ],
+      "sqarcities": [
         0.790001725911582
       ],
       "usage": "19"
@@ -4168,7 +4356,10 @@ PARCELS = {
       ],
       "id": "13-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.914411645940632
+      ],
+      "sqarcities": [
         0.6231617011361154
       ],
       "usage": "27"
@@ -4227,7 +4418,10 @@ PARCELS = {
       ],
       "id": "14-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.267701768260238
+      ],
+      "sqarcities": [
         0.36418078513924934
       ],
       "usage": "11"
@@ -4290,7 +4484,10 @@ PARCELS = {
       ],
       "id": "14-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.374118199861158
+      ],
+      "sqarcities": [
         0.6353517336680914
       ],
       "usage": "11"
@@ -4357,7 +4554,10 @@ PARCELS = {
       ],
       "id": "14-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.374118199861158
+      ],
+      "sqarcities": [
         0.6121337088196126
       ],
       "usage": "11"
@@ -4404,7 +4604,10 @@ PARCELS = {
       ],
       "id": "14-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -82.29919975193697
+      ],
+      "sqarcities": [
         0.7816662266498198
       ],
       "usage": "11"
@@ -4451,7 +4654,10 @@ PARCELS = {
       ],
       "id": "14-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.745292522711878
+      ],
+      "sqarcities": [
         0.694163319439271
       ],
       "usage": "22"
@@ -4498,7 +4704,10 @@ PARCELS = {
       ],
       "id": "14-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.417190842696058
+      ],
+      "sqarcities": [
         0.788089491288028
       ],
       "usage": "22"
@@ -4557,7 +4766,10 @@ PARCELS = {
       ],
       "id": "14-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.1516640735932
+      ],
+      "sqarcities": [
         0.7977154153465588
       ],
       "usage": "11"
@@ -4628,7 +4840,10 @@ PARCELS = {
       ],
       "id": "14-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.075061837981764
+      ],
+      "sqarcities": [
         0.464850151925021
       ],
       "usage": "11"
@@ -4699,7 +4914,10 @@ PARCELS = {
       ],
       "id": "14-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.45692414283695
+      ],
+      "sqarcities": [
         0.7239107929102934
       ],
       "usage": "11"
@@ -4746,7 +4964,10 @@ PARCELS = {
       ],
       "id": "14-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.89259768005593
+      ],
+      "sqarcities": [
         0.7402168618628882
       ],
       "usage": "22"
@@ -4793,7 +5014,10 @@ PARCELS = {
       ],
       "id": "14-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.43290219768366
+      ],
+      "sqarcities": [
         0.7687374365696058
       ],
       "usage": "11"
@@ -4844,7 +5068,10 @@ PARCELS = {
       ],
       "id": "14-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.73359669734009
+      ],
+      "sqarcities": [
         0.7744114932343673
       ],
       "usage": "11"
@@ -4891,7 +5118,10 @@ PARCELS = {
       ],
       "id": "14-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.5217658960789
+      ],
+      "sqarcities": [
         0.7804941905383782
       ],
       "usage": "27"
@@ -4938,7 +5168,10 @@ PARCELS = {
       ],
       "id": "14-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.70405839541982
+      ],
+      "sqarcities": [
         0.7806759673976719
       ],
       "usage": "11"
@@ -4985,7 +5218,10 @@ PARCELS = {
       ],
       "id": "14-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.30793297895104
+      ],
+      "sqarcities": [
         0.7835702893625515
       ],
       "usage": "11"
@@ -5032,7 +5268,10 @@ PARCELS = {
       ],
       "id": "14-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.7075849499376
+      ],
+      "sqarcities": [
         0.7702917358158882
       ],
       "usage": "11"
@@ -5079,7 +5318,10 @@ PARCELS = {
       ],
       "id": "14-127",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.728021987759774
+      ],
+      "sqarcities": [
         0.7298111255496031
       ],
       "usage": "11"
@@ -5126,7 +5368,10 @@ PARCELS = {
       ],
       "id": "14-143",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.5813700088778
+      ],
+      "sqarcities": [
         0.7897436119348884
       ],
       "usage": "11"
@@ -5173,7 +5418,10 @@ PARCELS = {
       ],
       "id": "14-141",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.57865620206209
+      ],
+      "sqarcities": [
         0.7755250397249323
       ],
       "usage": "22"
@@ -5228,7 +5476,10 @@ PARCELS = {
       ],
       "id": "14-153",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.541991685883687
+      ],
+      "sqarcities": [
         0.742150986967314
       ],
       "usage": "11"
@@ -5275,7 +5526,10 @@ PARCELS = {
       ],
       "id": "14-161",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.44208551166534
+      ],
+      "sqarcities": [
         0.6257452560082386
       ],
       "usage": "11"
@@ -5326,7 +5580,10 @@ PARCELS = {
       ],
       "id": "14-167",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.86058044785943
+      ],
+      "sqarcities": [
         0.6642984103802603
       ],
       "usage": "11"
@@ -5385,7 +5642,10 @@ PARCELS = {
       ],
       "id": "14-172",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.04909518506216
+      ],
+      "sqarcities": [
         0.7403543844331436
       ],
       "usage": "11"
@@ -5436,7 +5696,10 @@ PARCELS = {
       ],
       "id": "14-173",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.91729466397439
+      ],
+      "sqarcities": [
         0.6896209669443085
       ],
       "usage": "11"
@@ -5491,7 +5754,10 @@ PARCELS = {
       ],
       "id": "14-176",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.49849020481562
+      ],
+      "sqarcities": [
         0.6230079091173337
       ],
       "usage": "11"
@@ -5546,7 +5812,10 @@ PARCELS = {
       ],
       "id": "14-177",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.58890902408542
+      ],
+      "sqarcities": [
         0.6671170941331448
       ],
       "usage": "11"
@@ -5597,7 +5866,10 @@ PARCELS = {
       ],
       "id": "14-181",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.683558388913255
+      ],
+      "sqarcities": [
         0.5085385887401804
       ],
       "usage": "11"
@@ -5640,7 +5912,10 @@ PARCELS = {
       ],
       "id": "14-182",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.4347866497822395
+      ],
+      "sqarcities": [
         0.46957314798332594
       ],
       "usage": "11"
@@ -5687,7 +5962,10 @@ PARCELS = {
       ],
       "id": "14-185",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.272086765730279
+      ],
+      "sqarcities": [
         0.5465832751185292
       ],
       "usage": "11"
@@ -5762,7 +6040,10 @@ PARCELS = {
       ],
       "id": "14-189",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.87718939234361
+      ],
+      "sqarcities": [
         0.6640730059793034
       ],
       "usage": "11"
@@ -5829,7 +6110,10 @@ PARCELS = {
       ],
       "id": "14-191",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.12116400812101
+      ],
+      "sqarcities": [
         0.6480876923978687
       ],
       "usage": "11"
@@ -5888,7 +6172,10 @@ PARCELS = {
       ],
       "id": "14-192",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.12116400812101
+      ],
+      "sqarcities": [
         0.6756673190936336
       ],
       "usage": "11"
@@ -5967,7 +6254,10 @@ PARCELS = {
       ],
       "id": "14-199",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.573218094839625
+      ],
+      "sqarcities": [
         0.4497325536636159
       ],
       "usage": "11"
@@ -6022,7 +6312,10 @@ PARCELS = {
       ],
       "id": "14-200",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.573218094839625
+      ],
+      "sqarcities": [
         0.5619828121022159
       ],
       "usage": "11"
@@ -6069,7 +6362,10 @@ PARCELS = {
       ],
       "id": "14-203",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.14137217230109
+      ],
+      "sqarcities": [
         0.5851209410342881
       ],
       "usage": "11"
@@ -6116,7 +6412,10 @@ PARCELS = {
       ],
       "id": "14-217",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.507368671340046
+      ],
+      "sqarcities": [
         0.772865837716849
       ],
       "usage": "11"
@@ -6163,7 +6462,10 @@ PARCELS = {
       ],
       "id": "14-212",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.554289407483608
+      ],
+      "sqarcities": [
         0.7586938894594877
       ],
       "usage": "22"
@@ -6210,7 +6512,10 @@ PARCELS = {
       ],
       "id": "14-213",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.10327620092231
+      ],
+      "sqarcities": [
         0.7660093773739288
       ],
       "usage": "22"
@@ -6253,7 +6558,10 @@ PARCELS = {
       ],
       "id": "14-218",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.184042699389991
+      ],
+      "sqarcities": [
         0.7831827100294615
       ],
       "usage": "11"
@@ -6300,7 +6608,10 @@ PARCELS = {
       ],
       "id": "14-219",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.445560423443382
+      ],
+      "sqarcities": [
         0.7857485933931774
       ],
       "usage": "11"
@@ -6343,7 +6654,10 @@ PARCELS = {
       ],
       "id": "14-230",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.109197592903996
+      ],
+      "sqarcities": [
         0.786851507085557
       ],
       "usage": "11"
@@ -6386,7 +6700,10 @@ PARCELS = {
       ],
       "id": "14-231",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.107658786092728
+      ],
+      "sqarcities": [
         0.7848543972236066
       ],
       "usage": "11"
@@ -6433,7 +6750,10 @@ PARCELS = {
       ],
       "id": "14-240",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.7095219393566055
+      ],
+      "sqarcities": [
         0.6675942329174115
       ],
       "usage": "11"
@@ -6496,7 +6816,10 @@ PARCELS = {
       ],
       "id": "14-242",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.69594580274722
+      ],
+      "sqarcities": [
         0.6034567236594219
       ],
       "usage": "11"
@@ -6551,7 +6874,10 @@ PARCELS = {
       ],
       "id": "14-245",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.35752018926229
+      ],
+      "sqarcities": [
         0.7510188437253866
       ],
       "usage": "11"
@@ -6594,7 +6920,10 @@ PARCELS = {
       ],
       "id": "14-256",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.77958014613034
+      ],
+      "sqarcities": [
         0.7742844929568584
       ],
       "usage": "11"
@@ -6669,7 +6998,10 @@ PARCELS = {
       ],
       "id": "14-263",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.7287614571747
+      ],
+      "sqarcities": [
         0.6679112487896128
       ],
       "usage": "11"
@@ -6720,7 +7052,10 @@ PARCELS = {
       ],
       "id": "14-274",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.15834498713421
+      ],
+      "sqarcities": [
         0.6452440090903894
       ],
       "usage": "11"
@@ -6771,7 +7106,10 @@ PARCELS = {
       ],
       "id": "14-275",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.78073265096087
+      ],
+      "sqarcities": [
         0.594893359020393
       ],
       "usage": "11"
@@ -6818,7 +7156,10 @@ PARCELS = {
       ],
       "id": "14-285",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.935597872455702
+      ],
+      "sqarcities": [
         0.7922145997718896
       ],
       "usage": "11"
@@ -6873,7 +7214,10 @@ PARCELS = {
       ],
       "id": "14-293",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.76576376935193
+      ],
+      "sqarcities": [
         0.7135414031620613
       ],
       "usage": "11"
@@ -6928,7 +7272,10 @@ PARCELS = {
       ],
       "id": "14-288",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.032681250359474
+      ],
+      "sqarcities": [
         0.7248301333878341
       ],
       "usage": "22"
@@ -6975,7 +7322,10 @@ PARCELS = {
       ],
       "id": "14-299",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.24947578995679
+      ],
+      "sqarcities": [
         0.7451837817509804
       ],
       "usage": "11"
@@ -7026,7 +7376,10 @@ PARCELS = {
       ],
       "id": "14-322",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.260758595415581
+      ],
+      "sqarcities": [
         0.7017902457224925
       ],
       "usage": "11"
@@ -7073,7 +7426,10 @@ PARCELS = {
       ],
       "id": "14-332",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.43848421124238
+      ],
+      "sqarcities": [
         0.7856567046659679
       ],
       "usage": "11"
@@ -7120,7 +7476,10 @@ PARCELS = {
       ],
       "id": "14-339",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.1432520351008
+      ],
+      "sqarcities": [
         0.7557359305177771
       ],
       "usage": "22"
@@ -7163,7 +7522,10 @@ PARCELS = {
       ],
       "id": "14-349",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.54706659109935
+      ],
+      "sqarcities": [
         0.6350315395943847
       ],
       "usage": "11"
@@ -7234,7 +7596,10 @@ PARCELS = {
       ],
       "id": "14-341",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.87476459483645
+      ],
+      "sqarcities": [
         0.7531445015063364
       ],
       "usage": "27"
@@ -7297,7 +7662,10 @@ PARCELS = {
       ],
       "id": "14-378",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.35470804596875
+      ],
+      "sqarcities": [
         0.5509502729825317
       ],
       "usage": "11"
@@ -7344,7 +7712,10 @@ PARCELS = {
       ],
       "id": "14-372",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.56193280934899
+      ],
+      "sqarcities": [
         0.6911203153814571
       ],
       "usage": "11"
@@ -7391,7 +7762,10 @@ PARCELS = {
       ],
       "id": "15-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.13618785089882
+      ],
+      "sqarcities": [
         0.3975332753613962
       ],
       "usage": "22"
@@ -7434,7 +7808,10 @@ PARCELS = {
       ],
       "id": "15-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.629383827716964
+      ],
+      "sqarcities": [
         0.390632194016272
       ],
       "usage": "22"
@@ -7485,7 +7862,10 @@ PARCELS = {
       ],
       "id": "15-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.548556636775373
+      ],
+      "sqarcities": [
         0.3919689348056832
       ],
       "usage": "22"
@@ -7552,7 +7932,10 @@ PARCELS = {
       ],
       "id": "15-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.3760835042629083
+      ],
+      "sqarcities": [
         0.5394188251694568
       ],
       "usage": "11"
@@ -7627,7 +8010,10 @@ PARCELS = {
       ],
       "id": "15-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.64932295470663
+      ],
+      "sqarcities": [
         0.49192269739105626
       ],
       "usage": "19"
@@ -7714,7 +8100,10 @@ PARCELS = {
       ],
       "id": "15-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.227464320544968
+      ],
+      "sqarcities": [
         0.6109048610128471
       ],
       "usage": "11"
@@ -7762,7 +8151,10 @@ PARCELS = {
       ],
       "id": "15-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.08590822927601
+      ],
+      "sqarcities": [
         0.48464881832114254
       ],
       "usage": "11"
@@ -7809,7 +8201,10 @@ PARCELS = {
       ],
       "id": "15-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.975419129035032
+      ],
+      "sqarcities": [
         0.7079308088430862
       ],
       "usage": "11"
@@ -7860,7 +8255,10 @@ PARCELS = {
       ],
       "id": "15-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.54887340471478
+      ],
+      "sqarcities": [
         0.5423179545698777
       ],
       "usage": "11"
@@ -7944,7 +8342,11 @@ PARCELS = {
           "rotate": false
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        64.60980529931072,
+        -44.90820995427957
+      ],
+      "sqarcities": [
         0.5898644795432353,
         0.5212105256926862
       ],
@@ -7992,7 +8394,10 @@ PARCELS = {
       ],
       "id": "15-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.01152139806689
+      ],
+      "sqarcities": [
         0.7330481812163105
       ],
       "usage": "11"
@@ -8039,7 +8444,10 @@ PARCELS = {
       ],
       "id": "15-126",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.19149670702285
+      ],
+      "sqarcities": [
         0.7925658963724818
       ],
       "usage": "11"
@@ -8114,7 +8522,10 @@ PARCELS = {
       ],
       "id": "15-127",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        24.253022302619925
+      ],
+      "sqarcities": [
         0.5798937840579823
       ],
       "usage": "27"
@@ -8169,7 +8580,10 @@ PARCELS = {
       ],
       "id": "15-131",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        24.003007778590373
+      ],
+      "sqarcities": [
         0.754922054256686
       ],
       "usage": "22"
@@ -8228,7 +8642,10 @@ PARCELS = {
       ],
       "id": "15-144",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.365879095938595
+      ],
+      "sqarcities": [
         0.6577413171978919
       ],
       "usage": "22"
@@ -8455,7 +8872,10 @@ PARCELS = {
       ],
       "id": "16-7-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.387077715647187
+      ],
+      "sqarcities": [
         0.6010822908598742
       ],
       "usage": "17"
@@ -8502,7 +8922,10 @@ PARCELS = {
       ],
       "id": "16-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.62282392940783
+      ],
+      "sqarcities": [
         0.6997870193273168
       ],
       "usage": "11"
@@ -8549,7 +8972,10 @@ PARCELS = {
       ],
       "id": "16-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.61085337043042
+      ],
+      "sqarcities": [
         0.6884020669162422
       ],
       "usage": "11"
@@ -8768,7 +9194,10 @@ PARCELS = {
       ],
       "id": "16-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.649598248511296
+      ],
+      "sqarcities": [
         0.6145131616434081
       ],
       "usage": "22"
@@ -8819,7 +9248,10 @@ PARCELS = {
       ],
       "id": "16-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.53698454022022
+      ],
+      "sqarcities": [
         0.7566452874156674
       ],
       "usage": "22"
@@ -8866,7 +9298,10 @@ PARCELS = {
       ],
       "id": "16-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.42956950901282
+      ],
+      "sqarcities": [
         0.7704658136080382
       ],
       "usage": "11"
@@ -8933,7 +9368,10 @@ PARCELS = {
       ],
       "id": "16-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -35.05897254449303
+      ],
+      "sqarcities": [
         0.6770108701748484
       ],
       "usage": "11"
@@ -8976,7 +9414,10 @@ PARCELS = {
       ],
       "id": "16-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.6813202246756
+      ],
+      "sqarcities": [
         0.6944331395803455
       ],
       "usage": "22"
@@ -9031,7 +9472,10 @@ PARCELS = {
       ],
       "id": "16-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.49977418897987
+      ],
+      "sqarcities": [
         0.592227455382578
       ],
       "usage": "22"
@@ -9082,7 +9526,10 @@ PARCELS = {
       ],
       "id": "16-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.757492635998858
+      ],
+      "sqarcities": [
         0.7314542676968285
       ],
       "usage": "19"
@@ -9141,7 +9588,10 @@ PARCELS = {
       ],
       "id": "16-77-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.782220209449576
+      ],
+      "sqarcities": [
         0.450202726218546
       ],
       "usage": "22"
@@ -9188,7 +9638,10 @@ PARCELS = {
       ],
       "id": "16-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.047073754334335
+      ],
+      "sqarcities": [
         0.41407550564289985
       ],
       "usage": "11"
@@ -9235,7 +9688,10 @@ PARCELS = {
       ],
       "id": "16-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.16410409861966
+      ],
+      "sqarcities": [
         0.317528851158052
       ],
       "usage": "22"
@@ -9278,7 +9734,10 @@ PARCELS = {
       ],
       "id": "16-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.191184454979663
+      ],
+      "sqarcities": [
         0.4045265804839257
       ],
       "usage": "22"
@@ -9333,7 +9792,10 @@ PARCELS = {
       ],
       "id": "16-130",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.61085337043042
+      ],
+      "sqarcities": [
         0.8238712237611802
       ],
       "usage": "19"
@@ -9403,7 +9865,11 @@ PARCELS = {
       ],
       "id": "17-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.33049747725541,
+        75.28391311078607
+      ],
+      "sqarcities": [
         0.652081449471706,
         0.6563471690147272
       ],
@@ -9447,7 +9913,10 @@ PARCELS = {
       ],
       "id": "17-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.806077137139795
+      ],
+      "sqarcities": [
         0.5695813045370084
       ],
       "usage": "11"
@@ -9578,7 +10047,10 @@ PARCELS = {
       ],
       "id": "17-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.70642561558836
+      ],
+      "sqarcities": [
         0.5643744706496554
       ],
       "usage": "22"
@@ -9629,7 +10101,10 @@ PARCELS = {
       ],
       "id": "17-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.899246534064716
+      ],
+      "sqarcities": [
         0.6939400122751862
       ],
       "usage": "22"
@@ -9708,7 +10183,10 @@ PARCELS = {
       ],
       "id": "20-141",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.93887431176759
+      ],
+      "sqarcities": [
         0.7712410165209725
       ],
       "usage": "11"
@@ -9751,7 +10229,10 @@ PARCELS = {
       ],
       "id": "20-143",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.39742630338546
+      ],
+      "sqarcities": [
         0.7616143989687263
       ],
       "usage": "11"
@@ -9822,7 +10303,10 @@ PARCELS = {
       ],
       "id": "20-170",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.13234097194885
+      ],
+      "sqarcities": [
         0.6443522809791151
       ],
       "usage": "22"
@@ -9869,7 +10353,10 @@ PARCELS = {
       ],
       "id": "21-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.420722011282606
+      ],
+      "sqarcities": [
         0.8015022393112489
       ],
       "usage": "11"
@@ -9912,7 +10399,10 @@ PARCELS = {
       ],
       "id": "22-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.066747923182334
+      ],
+      "sqarcities": [
         0.7508206316589987
       ],
       "usage": "19"
@@ -9983,7 +10473,10 @@ PARCELS = {
       ],
       "id": "21-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.70953225450613
+      ],
+      "sqarcities": [
         0.6671146364067659
       ],
       "usage": "11"
@@ -10030,7 +10523,10 @@ PARCELS = {
       ],
       "id": "22-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.47006474362752
+      ],
+      "sqarcities": [
         0.7951776636746991
       ],
       "usage": "27"
@@ -10077,7 +10573,10 @@ PARCELS = {
       ],
       "id": "22-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.33097903154908
+      ],
+      "sqarcities": [
         0.6496317984798301
       ],
       "usage": "11"
@@ -10120,7 +10619,10 @@ PARCELS = {
       ],
       "id": "22-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.152918725081406
+      ],
+      "sqarcities": [
         0.7559448469169461
       ],
       "usage": "22"
@@ -10211,7 +10713,10 @@ PARCELS = {
       ],
       "id": "22-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.193623269622094
+      ],
+      "sqarcities": [
         0.415359999658627
       ],
       "usage": "11"
@@ -10270,7 +10775,10 @@ PARCELS = {
       ],
       "id": "22-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.952405924539704
+      ],
+      "sqarcities": [
         0.48967873318927724
       ],
       "usage": "11"
@@ -10322,7 +10830,10 @@ PARCELS = {
       ],
       "id": "22-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.385865187318089
+      ],
+      "sqarcities": [
         0.6865692474988107
       ],
       "usage": "22"
@@ -10365,7 +10876,10 @@ PARCELS = {
       ],
       "id": "22-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.148586846754753
+      ],
+      "sqarcities": [
         0.7730733975406296
       ],
       "usage": "33"
@@ -10424,7 +10938,10 @@ PARCELS = {
       ],
       "id": "22-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.83581527251235
+      ],
+      "sqarcities": [
         0.8170304583460133
       ],
       "usage": "33"
@@ -10471,7 +10988,10 @@ PARCELS = {
       ],
       "id": "22-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.26444831582285
+      ],
+      "sqarcities": [
         0.6195274859374738
       ],
       "usage": "11"
@@ -10567,10 +11087,14 @@ PARCELS = {
       "id": "22-37-01",
       "labels": [
         {
-          "rotate": false
+          "rotate": false,
+          "split": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        -50.57492278495261
+      ],
+      "sqarcities": [
         0.3607709722349974
       ],
       "usage": "22"
@@ -10622,7 +11146,10 @@ PARCELS = {
       ],
       "id": "22-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.84873372081461
+      ],
+      "sqarcities": [
         0.7646464165868547
       ],
       "usage": "11"
@@ -10673,7 +11200,10 @@ PARCELS = {
       ],
       "id": "22-37-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.57492278495261
+      ],
+      "sqarcities": [
         0.7269818404861923
       ],
       "usage": "22"
@@ -10752,7 +11282,10 @@ PARCELS = {
           "split": false
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        -6.967344475690638
+      ],
+      "sqarcities": [
         0.6456950256433441
       ],
       "usage": "27"
@@ -10799,7 +11332,10 @@ PARCELS = {
       ],
       "id": "22-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.76709368765361
+      ],
+      "sqarcities": [
         0.7413063527403642
       ],
       "usage": "11"
@@ -10854,7 +11390,10 @@ PARCELS = {
       ],
       "id": "22-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.069914784504476
+      ],
+      "sqarcities": [
         0.6498747679750502
       ],
       "usage": "11"
@@ -10909,7 +11448,10 @@ PARCELS = {
       ],
       "id": "22-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.44812472006004
+      ],
+      "sqarcities": [
         0.751532526673041
       ],
       "usage": "11"
@@ -10964,7 +11506,10 @@ PARCELS = {
       ],
       "id": "22-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.121751744725117
+      ],
+      "sqarcities": [
         0.6292486505952593
       ],
       "usage": "11"
@@ -11015,7 +11560,10 @@ PARCELS = {
       ],
       "id": "23-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        27.666697118941045
+      ],
+      "sqarcities": [
         0.4289376780127841
       ],
       "usage": "11"
@@ -11058,7 +11606,10 @@ PARCELS = {
       ],
       "id": "23-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.30926492352776
+      ],
+      "sqarcities": [
         0.6460672845071466
       ],
       "usage": "33"
@@ -11109,7 +11660,10 @@ PARCELS = {
       ],
       "id": "22-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.51546435527059
+      ],
+      "sqarcities": [
         0.7845162691750739
       ],
       "usage": "22"
@@ -11180,7 +11734,10 @@ PARCELS = {
       ],
       "id": "23-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.484306300132204
+      ],
+      "sqarcities": [
         0.42582989893615486
       ],
       "usage": "22"
@@ -11235,7 +11792,10 @@ PARCELS = {
       ],
       "id": "23-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.45964936272932
+      ],
+      "sqarcities": [
         0.5900562879641684
       ],
       "usage": "22"
@@ -11290,7 +11850,10 @@ PARCELS = {
       ],
       "id": "23-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.25338252453292
+      ],
+      "sqarcities": [
         0.6279081791039934
       ],
       "usage": "22"
@@ -11369,7 +11932,10 @@ PARCELS = {
       ],
       "id": "23-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.05850320614505
+      ],
+      "sqarcities": [
         0.36987866275144515
       ],
       "usage": "27"
@@ -11420,7 +11986,10 @@ PARCELS = {
       ],
       "id": "23-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.80294299978497
+      ],
+      "sqarcities": [
         0.6101567131421661
       ],
       "usage": "27"
@@ -11475,7 +12044,10 @@ PARCELS = {
       ],
       "id": "23-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -63.6345165344569
+      ],
+      "sqarcities": [
         0.6090740112041013
       ],
       "usage": "22"
@@ -11518,7 +12090,10 @@ PARCELS = {
       ],
       "id": "24-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.944903580069365
+      ],
+      "sqarcities": [
         0.7621474802933481
       ],
       "usage": "22"
@@ -11593,7 +12168,10 @@ PARCELS = {
       ],
       "id": "23-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.84036269969566
+      ],
+      "sqarcities": [
         0.7159213086368896
       ],
       "usage": "22"
@@ -11636,7 +12214,10 @@ PARCELS = {
       ],
       "id": "24-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.1664042641490369
+      ],
+      "sqarcities": [
         0.6825842613569942
       ],
       "usage": "22"
@@ -11727,7 +12308,10 @@ PARCELS = {
       ],
       "id": "23-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.5458582558059533
+      ],
+      "sqarcities": [
         0.695328297401268
       ],
       "usage": "22"
@@ -11782,7 +12366,10 @@ PARCELS = {
       ],
       "id": "24-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.61776278776
+      ],
+      "sqarcities": [
         0.7538987996946729
       ],
       "usage": "19"
@@ -11829,7 +12416,10 @@ PARCELS = {
       ],
       "id": "24-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.61776278776
+      ],
+      "sqarcities": [
         0.6116648200125427
       ],
       "usage": "11"
@@ -11872,7 +12462,10 @@ PARCELS = {
       ],
       "id": "24-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.47583249474161
+      ],
+      "sqarcities": [
         0.4062498074006874
       ],
       "usage": "22"
@@ -11923,7 +12516,10 @@ PARCELS = {
       ],
       "id": "24-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.17215303918962
+      ],
+      "sqarcities": [
         0.44785954990857674
       ],
       "usage": "22"
@@ -11974,7 +12570,10 @@ PARCELS = {
       ],
       "id": "24-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.98480167167519
+      ],
+      "sqarcities": [
         0.7463098830746946
       ],
       "usage": "19"
@@ -12017,7 +12616,10 @@ PARCELS = {
       ],
       "id": "24-16-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.3351883735884
+      ],
+      "sqarcities": [
         0.6923159075076457
       ],
       "usage": "22"
@@ -12072,7 +12674,10 @@ PARCELS = {
       ],
       "id": "24-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.72429555776705
+      ],
+      "sqarcities": [
         0.7313159364868124
       ],
       "usage": "22"
@@ -12115,7 +12720,10 @@ PARCELS = {
       ],
       "id": "24-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.782071864531673
+      ],
+      "sqarcities": [
         0.6870044261024298
       ],
       "usage": "22"
@@ -12162,7 +12770,10 @@ PARCELS = {
       ],
       "id": "24-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.55565111632005
+      ],
+      "sqarcities": [
         0.5123991515435043
       ],
       "usage": "22"
@@ -12213,7 +12824,10 @@ PARCELS = {
       ],
       "id": "24-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.19747861276946
+      ],
+      "sqarcities": [
         0.8033450022611925
       ],
       "usage": "11"
@@ -12307,7 +12921,11 @@ PARCELS = {
       ],
       "id": "24-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.26976579310444,
+        -41.30068800745721
+      ],
+      "sqarcities": [
         0.724822592164784,
         0.5527295478080483
       ],
@@ -12403,7 +13021,10 @@ PARCELS = {
       ],
       "id": "24-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.322821861542735
+      ],
+      "sqarcities": [
         0.47156278593835715
       ],
       "usage": "11"
@@ -12454,7 +13075,10 @@ PARCELS = {
       ],
       "id": "24-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.68838938359326
+      ],
+      "sqarcities": [
         0.5510315996504848
       ],
       "usage": "19"
@@ -12521,7 +13145,10 @@ PARCELS = {
       ],
       "id": "24-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.01519307354181
+      ],
+      "sqarcities": [
         0.5504226831063418
       ],
       "usage": "19"
@@ -12572,7 +13199,10 @@ PARCELS = {
       ],
       "id": "24-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.299799357640453
+      ],
+      "sqarcities": [
         0.5478230765789891
       ],
       "usage": "11"
@@ -12619,7 +13249,10 @@ PARCELS = {
       ],
       "id": "24-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.863403301790214
+      ],
+      "sqarcities": [
         0.46630677663654846
       ],
       "usage": "19"
@@ -12670,7 +13303,10 @@ PARCELS = {
       ],
       "id": "24-108-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.8218246627673
+      ],
+      "sqarcities": [
         0.6560930789946742
       ],
       "usage": "11"
@@ -12713,7 +13349,10 @@ PARCELS = {
       ],
       "id": "25-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.85431582744906
+      ],
+      "sqarcities": [
         0.7655068978299057
       ],
       "usage": "19"
@@ -12752,7 +13391,10 @@ PARCELS = {
       ],
       "id": "25-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        33.6204279717479
+      ],
+      "sqarcities": [
         0.5629769382565181
       ],
       "usage": "19"
@@ -12819,7 +13461,10 @@ PARCELS = {
       ],
       "id": "25-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.4258034130841537
+      ],
+      "sqarcities": [
         0.5919239508409617
       ],
       "usage": "11"
@@ -12866,7 +13511,10 @@ PARCELS = {
       ],
       "id": "25-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.396662034591998
+      ],
+      "sqarcities": [
         0.7037169732680744
       ],
       "usage": "11"
@@ -12925,7 +13573,10 @@ PARCELS = {
       ],
       "id": "25-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.2387811720107038
+      ],
+      "sqarcities": [
         0.7129179113605689
       ],
       "usage": "11"
@@ -12972,7 +13623,10 @@ PARCELS = {
       ],
       "id": "25-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.625101520698891
+      ],
+      "sqarcities": [
         0.5543697520526066
       ],
       "usage": "22"
@@ -13019,7 +13673,10 @@ PARCELS = {
       ],
       "id": "25-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.030179164286992
+      ],
+      "sqarcities": [
         0.49270759372382217
       ],
       "usage": "19"
@@ -13082,7 +13739,10 @@ PARCELS = {
       ],
       "id": "25-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.66783867953473
+      ],
+      "sqarcities": [
         0.5482799395645632
       ],
       "usage": "11"
@@ -13137,7 +13797,10 @@ PARCELS = {
       ],
       "id": "25-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.27024402925102
+      ],
+      "sqarcities": [
         0.5377062776904169
       ],
       "usage": "19"
@@ -13184,7 +13847,10 @@ PARCELS = {
       ],
       "id": "25-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.27024402925102
+      ],
+      "sqarcities": [
         0.5154751975930058
       ],
       "usage": "11"
@@ -13235,7 +13901,10 @@ PARCELS = {
       ],
       "id": "25-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.723871187302024
+      ],
+      "sqarcities": [
         0.439507793010317
       ],
       "usage": "11"
@@ -13278,7 +13947,10 @@ PARCELS = {
       ],
       "id": "25-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.34719527350833
+      ],
+      "sqarcities": [
         0.7399871135141298
       ],
       "usage": "19"
@@ -13321,7 +13993,10 @@ PARCELS = {
       ],
       "id": "25-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.50285510855684
+      ],
+      "sqarcities": [
         0.6822989762963327
       ],
       "usage": "11"
@@ -13364,7 +14039,10 @@ PARCELS = {
       ],
       "id": "25-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.020552091963296
+      ],
+      "sqarcities": [
         0.6997512656355908
       ],
       "usage": "22"
@@ -13411,7 +14089,10 @@ PARCELS = {
       ],
       "id": "25-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.396662034591998
+      ],
+      "sqarcities": [
         0.7816412342053165
       ],
       "usage": "11"
@@ -13510,7 +14191,10 @@ PARCELS = {
       ],
       "id": "25-92",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.547600525956327
+      ],
+      "sqarcities": [
         0.4862541707022932
       ],
       "usage": "11"
@@ -13597,7 +14281,10 @@ PARCELS = {
       ],
       "id": "25-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.699033868027627
+      ],
+      "sqarcities": [
         0.4616968659260349
       ],
       "usage": "27"
@@ -13684,7 +14371,10 @@ PARCELS = {
       ],
       "id": "25-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.00285495240145
+      ],
+      "sqarcities": [
         0.6444483843636785
       ],
       "usage": "11"
@@ -13739,7 +14429,10 @@ PARCELS = {
       ],
       "id": "25-106",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.915384623129299
+      ],
+      "sqarcities": [
         0.5144391555653208
       ],
       "usage": "19"
@@ -13818,7 +14511,10 @@ PARCELS = {
       ],
       "id": "25-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.152270478936316
+      ],
+      "sqarcities": [
         0.652484524684834
       ],
       "usage": "11"
@@ -13877,7 +14573,10 @@ PARCELS = {
       ],
       "id": "25-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.44811440436257
+      ],
+      "sqarcities": [
         0.7371932039255198
       ],
       "usage": "11"
@@ -13932,7 +14631,10 @@ PARCELS = {
       ],
       "id": "25-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.45837291472955
+      ],
+      "sqarcities": [
         0.33884071025498197
       ],
       "usage": "22"
@@ -13999,7 +14701,10 @@ PARCELS = {
       ],
       "id": "25-115",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.45837291472955
+      ],
+      "sqarcities": [
         0.43360915629898406
       ],
       "usage": "11"
@@ -14062,7 +14767,10 @@ PARCELS = {
       ],
       "id": "6-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.10608691869803
+      ],
+      "sqarcities": [
         0.5292612313242664
       ],
       "usage": "19"
@@ -14113,7 +14821,10 @@ PARCELS = {
       ],
       "id": "20-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.937480634531013
+      ],
+      "sqarcities": [
         0.41507745815884034
       ],
       "usage": "19"
@@ -14160,7 +14871,10 @@ PARCELS = {
       ],
       "id": "11-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.84758326049112
+      ],
+      "sqarcities": [
         0.5188378654155067
       ],
       "usage": "19"
@@ -14231,7 +14945,10 @@ PARCELS = {
       ],
       "id": "11-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.58649411154474
+      ],
+      "sqarcities": [
         0.8023768274613272
       ],
       "usage": "11"
@@ -14278,7 +14995,10 @@ PARCELS = {
       ],
       "id": "11-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.41339061757267
+      ],
+      "sqarcities": [
         0.5187840101001375
       ],
       "usage": "11"
@@ -14365,7 +15085,10 @@ PARCELS = {
       ],
       "id": "11-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.58649411154474
+      ],
+      "sqarcities": [
         0.7835294073446935
       ],
       "usage": "19"
@@ -14408,7 +15131,10 @@ PARCELS = {
       ],
       "id": "248-8000",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.972442420310102
+      ],
+      "sqarcities": [
         0.5013415397426835
       ],
       "usage": "11"
@@ -14451,7 +15177,10 @@ PARCELS = {
       ],
       "id": "12-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.26795155144986893
+      ],
+      "sqarcities": [
         0.7143097250440681
       ],
       "usage": "11"
@@ -14498,7 +15227,10 @@ PARCELS = {
       ],
       "id": "14-121",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.22159116384228
+      ],
+      "sqarcities": [
         0.7715573397082119
       ],
       "usage": "11"
@@ -14541,7 +15273,10 @@ PARCELS = {
       ],
       "id": "15-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.623898881343052
+      ],
+      "sqarcities": [
         0.3836215698955077
       ],
       "usage": "22"
@@ -14604,7 +15339,10 @@ PARCELS = {
       ],
       "id": "7-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.093934325026567
+      ],
+      "sqarcities": [
         0.4943132520892976
       ],
       "usage": "11"
@@ -14651,7 +15389,10 @@ PARCELS = {
       ],
       "id": "14-220",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.474055694064575
+      ],
+      "sqarcities": [
         0.7983321208134143
       ],
       "usage": "11"
@@ -14698,7 +15439,10 @@ PARCELS = {
       ],
       "id": "7-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.1745702494526
+      ],
+      "sqarcities": [
         0.4923422561265404
       ],
       "usage": "11"
@@ -14753,7 +15497,10 @@ PARCELS = {
       ],
       "id": "7-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.559004976777544
+      ],
+      "sqarcities": [
         0.6895669533744007
       ],
       "usage": "11"
@@ -14800,7 +15547,10 @@ PARCELS = {
       ],
       "id": "7-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.02149620678691
+      ],
+      "sqarcities": [
         0.3975261715196838
       ],
       "usage": "11"
@@ -14847,7 +15597,10 @@ PARCELS = {
       ],
       "id": "14-266",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.14203981233018
+      ],
+      "sqarcities": [
         0.7843398823991555
       ],
       "usage": "11"
@@ -14914,7 +15667,10 @@ PARCELS = {
       ],
       "id": "7-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.636129953068135
+      ],
+      "sqarcities": [
         0.5821476194441371
       ],
       "usage": "11"
@@ -14977,7 +15733,10 @@ PARCELS = {
       ],
       "id": "7-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.358028207990586
+      ],
+      "sqarcities": [
         0.6030002977545748
       ],
       "usage": "11"
@@ -15032,7 +15791,10 @@ PARCELS = {
       ],
       "id": "7-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.38162443086688
+      ],
+      "sqarcities": [
         0.621245244421383
       ],
       "usage": "11"
@@ -15159,7 +15921,10 @@ PARCELS = {
       ],
       "id": "7-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.08670379569809
+      ],
+      "sqarcities": [
         0.518075516425663
       ],
       "usage": "11"
@@ -15210,7 +15975,10 @@ PARCELS = {
       ],
       "id": "7-7-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.12061751832847
+      ],
+      "sqarcities": [
         0.6797948292742083
       ],
       "usage": "11"
@@ -15313,7 +16081,10 @@ PARCELS = {
       ],
       "id": "7-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.96190288765989
+      ],
+      "sqarcities": [
         0.4230284892403641
       ],
       "usage": "11"
@@ -15360,7 +16131,10 @@ PARCELS = {
       ],
       "id": "7-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.25405403262013
+      ],
+      "sqarcities": [
         0.46662144376140413
       ],
       "usage": "11"
@@ -15431,7 +16205,10 @@ PARCELS = {
       ],
       "id": "7-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.96895479689334
+      ],
+      "sqarcities": [
         0.5041835410430895
       ],
       "usage": "11"
@@ -15490,7 +16267,10 @@ PARCELS = {
       ],
       "id": "7-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.544928284589325
+      ],
+      "sqarcities": [
         0.7952248486817984
       ],
       "usage": "11"
@@ -15541,7 +16321,10 @@ PARCELS = {
       ],
       "id": "7-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.229380095365244
+      ],
+      "sqarcities": [
         0.52917958471198
       ],
       "usage": "11"
@@ -15596,7 +16379,10 @@ PARCELS = {
       ],
       "id": "7-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.663587067701656
+      ],
+      "sqarcities": [
         0.33882166768426264
       ],
       "usage": "11"
@@ -15643,7 +16429,10 @@ PARCELS = {
       ],
       "id": "7-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.1745702494526
+      ],
+      "sqarcities": [
         0.49632889649884715
       ],
       "usage": "11"
@@ -15730,7 +16519,10 @@ PARCELS = {
       ],
       "id": "7-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.53677422949175
+      ],
+      "sqarcities": [
         0.7737702302096042
       ],
       "usage": "11"
@@ -15869,7 +16661,10 @@ PARCELS = {
       ],
       "id": "7-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.509790632209658
+      ],
+      "sqarcities": [
         0.6943993425172486
       ],
       "usage": "11"
@@ -15924,7 +16719,10 @@ PARCELS = {
       ],
       "id": "7-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.39185064264582
+      ],
+      "sqarcities": [
         0.6918484487844885
       ],
       "usage": "11"
@@ -15971,7 +16769,10 @@ PARCELS = {
       ],
       "id": "7-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.29858489982054
+      ],
+      "sqarcities": [
         0.790817364227994
       ],
       "usage": "19"
@@ -16030,7 +16831,10 @@ PARCELS = {
       ],
       "id": "7-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.084007723123335
+      ],
+      "sqarcities": [
         0.4808013298099137
       ],
       "usage": "17"
@@ -16077,7 +16881,10 @@ PARCELS = {
       ],
       "id": "7-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.03516765935784
+      ],
+      "sqarcities": [
         0.5202092788734494
       ],
       "usage": "11"
@@ -16124,7 +16931,10 @@ PARCELS = {
       ],
       "id": "7-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.91115895489985
+      ],
+      "sqarcities": [
         0.5007632985541877
       ],
       "usage": "11"
@@ -16179,7 +16989,10 @@ PARCELS = {
       ],
       "id": "8-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.5659838847315655
+      ],
+      "sqarcities": [
         0.6915828938233078
       ],
       "usage": "11"
@@ -16286,7 +17099,10 @@ PARCELS = {
       ],
       "id": "8-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.07348004782898
+      ],
+      "sqarcities": [
         0.6884876791301712
       ],
       "usage": "11"
@@ -16333,7 +17149,10 @@ PARCELS = {
       ],
       "id": "8-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.232280959873933
+      ],
+      "sqarcities": [
         0.7340400008426691
       ],
       "usage": "11"
@@ -16444,7 +17263,10 @@ PARCELS = {
       ],
       "id": "8-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.3067613963523
+      ],
+      "sqarcities": [
         0.5492849833249888
       ],
       "usage": "11"
@@ -16499,7 +17321,10 @@ PARCELS = {
       ],
       "id": "8-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.043165508648997
+      ],
+      "sqarcities": [
         0.6965085472636406
       ],
       "usage": "11"
@@ -16829,7 +17654,11 @@ PARCELS = {
       ],
       "id": "8-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.9270408540907,
+        -3.4268073342541214
+      ],
+      "sqarcities": [
         0.7847933865155015,
         0.561996855979444
       ],
@@ -16893,7 +17722,10 @@ PARCELS = {
       ],
       "id": "8-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.487725319698498
+      ],
+      "sqarcities": [
         0.4416973298158336
       ],
       "usage": "11"
@@ -16964,7 +17796,10 @@ PARCELS = {
       ],
       "id": "8-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.268237887123306
+      ],
+      "sqarcities": [
         0.5345120650593284
       ],
       "usage": "19"
@@ -17035,7 +17870,10 @@ PARCELS = {
       ],
       "id": "8-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.98913117976394
+      ],
+      "sqarcities": [
         0.5515791070079499
       ],
       "usage": "11"
@@ -17098,7 +17936,10 @@ PARCELS = {
       ],
       "id": "8-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.18384589465478
+      ],
+      "sqarcities": [
         0.4591361344155348
       ],
       "usage": "11"
@@ -17149,7 +17990,10 @@ PARCELS = {
       ],
       "id": "8-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.8276363339256
+      ],
+      "sqarcities": [
         0.6057579425281137
       ],
       "usage": "11"
@@ -17208,7 +18052,10 @@ PARCELS = {
       ],
       "id": "8-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.89575340407725
+      ],
+      "sqarcities": [
         0.5598794751002323
       ],
       "usage": "11"
@@ -17263,7 +18110,10 @@ PARCELS = {
       ],
       "id": "8-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.35036065535766
+      ],
+      "sqarcities": [
         0.5240518374735368
       ],
       "usage": "19"
@@ -17338,7 +18188,10 @@ PARCELS = {
       ],
       "id": "8-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.20944549039021
+      ],
+      "sqarcities": [
         0.5274870173070844
       ],
       "usage": "11"
@@ -17381,7 +18234,10 @@ PARCELS = {
       ],
       "id": "8-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.71898117898414
+      ],
+      "sqarcities": [
         0.7832302456818292
       ],
       "usage": "11"
@@ -17452,7 +18308,10 @@ PARCELS = {
       ],
       "id": "8-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.975723639178554
+      ],
+      "sqarcities": [
         0.6068216271974999
       ],
       "usage": "11"
@@ -17507,7 +18366,10 @@ PARCELS = {
       ],
       "id": "8-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.81896900881796
+      ],
+      "sqarcities": [
         0.7282096985308384
       ],
       "usage": "11"
@@ -17574,7 +18436,10 @@ PARCELS = {
       ],
       "id": "9-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.56045360163392
+      ],
+      "sqarcities": [
         0.5984727814377713
       ],
       "usage": "11"
@@ -17681,7 +18546,10 @@ PARCELS = {
       ],
       "id": "9-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.44373824925253
+      ],
+      "sqarcities": [
         0.6038836721020574
       ],
       "usage": "11"
@@ -17752,7 +18620,10 @@ PARCELS = {
       ],
       "id": "9-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.9964418638979
+      ],
+      "sqarcities": [
         0.5874349760012851
       ],
       "usage": "11"
@@ -17811,7 +18682,10 @@ PARCELS = {
       ],
       "id": "9-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.40407874405338
+      ],
+      "sqarcities": [
         0.6011679301617485
       ],
       "usage": "11"
@@ -17953,7 +18827,11 @@ PARCELS = {
       ],
       "id": "9-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.24688412035518,
+        75.33763075599737
+      ],
+      "sqarcities": [
         0.590616632473299,
         0.5302724677353999
       ],
@@ -18041,7 +18919,10 @@ PARCELS = {
       ],
       "id": "9-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.24688412035518
+      ],
+      "sqarcities": [
         0.4168587961714744
       ],
       "usage": "11"
@@ -18084,7 +18965,10 @@ PARCELS = {
       ],
       "id": "9-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.1296864452536255
+      ],
+      "sqarcities": [
         0.7684453025416348
       ],
       "usage": "11"
@@ -18163,7 +19047,10 @@ PARCELS = {
       ],
       "id": "9-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.11515561010106
+      ],
+      "sqarcities": [
         0.49231095271359615
       ],
       "usage": "11"
@@ -18226,7 +19113,10 @@ PARCELS = {
       ],
       "id": "9-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.57314384568593
+      ],
+      "sqarcities": [
         0.7441672057564134
       ],
       "usage": "11"
@@ -18285,7 +19175,10 @@ PARCELS = {
       ],
       "id": "9-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.580909341687573
+      ],
+      "sqarcities": [
         0.7443825376452734
       ],
       "usage": "11"
@@ -18332,7 +19225,10 @@ PARCELS = {
       ],
       "id": "9-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.49366702750643
+      ],
+      "sqarcities": [
         0.72737807811494
       ],
       "usage": "11"
@@ -18470,7 +19366,11 @@ PARCELS = {
       ],
       "id": "9-26-0B",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.9680016042766,
+        -8.206708392454033
+      ],
+      "sqarcities": [
         0.7415779019256105,
         0.62503064847469
       ],
@@ -18522,7 +19422,10 @@ PARCELS = {
       ],
       "id": "9-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.67181149678078
+      ],
+      "sqarcities": [
         0.5428391290216052
       ],
       "usage": "11"
@@ -18753,7 +19656,10 @@ PARCELS = {
       ],
       "id": "9-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.6451088574115857
+      ],
+      "sqarcities": [
         0.6396947211617179
       ],
       "usage": "11"
@@ -18852,7 +19758,10 @@ PARCELS = {
       ],
       "id": "9-29-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.32930103573969
+      ],
+      "sqarcities": [
         0.6876828661589393
       ],
       "usage": "11"
@@ -19195,7 +20104,10 @@ PARCELS = {
       ],
       "id": "9-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.51362684606289
+      ],
+      "sqarcities": [
         0.5463748885669825
       ],
       "usage": "11"
@@ -19358,7 +20270,10 @@ PARCELS = {
       ],
       "id": "9-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.0010364910252463
+      ],
+      "sqarcities": [
         0.352901394998824
       ],
       "usage": "11"
@@ -19409,7 +20324,10 @@ PARCELS = {
       ],
       "id": "9-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.07580764550829
+      ],
+      "sqarcities": [
         0.42544447890357534
       ],
       "usage": "11"
@@ -19536,7 +20454,10 @@ PARCELS = {
       ],
       "id": "9-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.31877223592447
+      ],
+      "sqarcities": [
         0.7435200532777791
       ],
       "usage": "11"
@@ -19595,7 +20516,10 @@ PARCELS = {
       ],
       "id": "9-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.96314090956935
+      ],
+      "sqarcities": [
         0.7987942680884088
       ],
       "usage": "11"
@@ -19642,7 +20566,10 @@ PARCELS = {
       ],
       "id": "9-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.315341129160387
+      ],
+      "sqarcities": [
         0.7371405548650626
       ],
       "usage": "11"
@@ -19729,7 +20656,10 @@ PARCELS = {
       ],
       "id": "9-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.0495342578994666
+      ],
+      "sqarcities": [
         0.6784799973901572
       ],
       "usage": "22"
@@ -19780,7 +20710,10 @@ PARCELS = {
       ],
       "id": "9-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.35538489902157
+      ],
+      "sqarcities": [
         0.4699744170197022
       ],
       "usage": "11"
@@ -19855,7 +20788,10 @@ PARCELS = {
       ],
       "id": "9-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.360492345289856
+      ],
+      "sqarcities": [
         0.5638070673691206
       ],
       "usage": "11"
@@ -19930,7 +20866,10 @@ PARCELS = {
       ],
       "id": "9-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.38055445488601
+      ],
+      "sqarcities": [
         0.6850676849744182
       ],
       "usage": "22"
@@ -19973,7 +20912,10 @@ PARCELS = {
       ],
       "id": "9-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.22972414281867
+      ],
+      "sqarcities": [
         0.6990940654934559
       ],
       "usage": "11"
@@ -20024,7 +20966,10 @@ PARCELS = {
       ],
       "id": "9-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.912886293837673
+      ],
+      "sqarcities": [
         0.790413266373333
       ],
       "usage": "11"
@@ -20123,7 +21068,10 @@ PARCELS = {
       ],
       "id": "10-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.91123948912278
+      ],
+      "sqarcities": [
         0.4887976333907097
       ],
       "usage": "19"
@@ -20178,7 +21126,10 @@ PARCELS = {
       ],
       "id": "10-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.69421995921354
+      ],
+      "sqarcities": [
         0.4449111669013724
       ],
       "usage": "11"
@@ -20233,7 +21184,10 @@ PARCELS = {
       ],
       "id": "10-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.53338414861742
+      ],
+      "sqarcities": [
         0.6443576204764768
       ],
       "usage": "11"
@@ -20292,7 +21246,10 @@ PARCELS = {
       ],
       "id": "10-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.85111514767539
+      ],
+      "sqarcities": [
         0.4862182039032677
       ],
       "usage": "11"
@@ -20363,7 +21320,10 @@ PARCELS = {
       ],
       "id": "10-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.18808008001997
+      ],
+      "sqarcities": [
         0.6163637314767564
       ],
       "usage": "11"
@@ -20414,7 +21374,10 @@ PARCELS = {
       ],
       "id": "10-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.723493045389375
+      ],
+      "sqarcities": [
         0.7692060561782992
       ],
       "usage": "11"
@@ -20465,7 +21428,10 @@ PARCELS = {
       ],
       "id": "10-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.5198886982541211
+      ],
+      "sqarcities": [
         0.6371377633503301
       ],
       "usage": "11"
@@ -20666,13 +21632,20 @@ PARCELS = {
       "callouts": [],
       "centers": [
         {
-          "lat": 43.171957057224525,
-          "lon": -72.15351665946034
+          "lat": 43.17246092106209,
+          "lon": -72.15294136619026
         }
       ],
       "id": "10-23",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false
+        }
+      ],
+      "orientations": [
+        1.3820228373862449
+      ],
+      "sqarcities": [
         0.15651645205111647
       ],
       "usage": "11"
@@ -20723,7 +21696,10 @@ PARCELS = {
       ],
       "id": "10-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.194473066260741
+      ],
+      "sqarcities": [
         0.5454287035884468
       ],
       "usage": "11"
@@ -20770,7 +21746,10 @@ PARCELS = {
       ],
       "id": "10-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.281789962343979
+      ],
+      "sqarcities": [
         0.5644137604255557
       ],
       "usage": "11"
@@ -20833,7 +21812,10 @@ PARCELS = {
       ],
       "id": "10-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.934098628281625
+      ],
+      "sqarcities": [
         0.27877480484562184
       ],
       "usage": "11"
@@ -20888,7 +21870,10 @@ PARCELS = {
       ],
       "id": "10-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.409735303065858
+      ],
+      "sqarcities": [
         0.33476465635484
       ],
       "usage": "11"
@@ -20943,7 +21928,10 @@ PARCELS = {
       ],
       "id": "10-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.89057644688974
+      ],
+      "sqarcities": [
         0.40339386265376487
       ],
       "usage": "11"
@@ -20994,7 +21982,10 @@ PARCELS = {
       ],
       "id": "10-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.60737446276545
+      ],
+      "sqarcities": [
         0.4804916581236381
       ],
       "usage": "11"
@@ -21073,7 +22064,10 @@ PARCELS = {
       ],
       "id": "11-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -82.8404481606347
+      ],
+      "sqarcities": [
         0.3918009243425201
       ],
       "usage": "11"
@@ -21256,7 +22250,10 @@ PARCELS = {
       ],
       "id": "11-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.7758985535757
+      ],
+      "sqarcities": [
         0.4036996273719078
       ],
       "usage": "11"
@@ -21404,7 +22401,11 @@ PARCELS = {
       ],
       "id": "11-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.24657750059593,
+        31.276342497341886
+      ],
+      "sqarcities": [
         0.5252401323255003,
         0.6507364782026499
       ],
@@ -21496,7 +22497,10 @@ PARCELS = {
       ],
       "id": "11-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.86642475510217
+      ],
+      "sqarcities": [
         0.6477780615647456
       ],
       "usage": "11"
@@ -21631,7 +22635,10 @@ PARCELS = {
       ],
       "id": "11-27-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.90000823045122
+      ],
+      "sqarcities": [
         0.3589676712634389
       ],
       "usage": "17"
@@ -21710,7 +22717,10 @@ PARCELS = {
       ],
       "id": "11-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.83166361744992
+      ],
+      "sqarcities": [
         0.6522928764700475
       ],
       "usage": "11"
@@ -21761,7 +22771,10 @@ PARCELS = {
       ],
       "id": "11-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.30367251167954
+      ],
+      "sqarcities": [
         0.5304546404555202
       ],
       "usage": "11"
@@ -21820,7 +22833,10 @@ PARCELS = {
       ],
       "id": "11-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.74590976926035
+      ],
+      "sqarcities": [
         0.7504775740001517
       ],
       "usage": "11"
@@ -21907,7 +22923,10 @@ PARCELS = {
       ],
       "id": "11-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.919397844505795
+      ],
+      "sqarcities": [
         0.37048670190176747
       ],
       "usage": "27"
@@ -21966,7 +22985,10 @@ PARCELS = {
       ],
       "id": "11-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.54949743801615
+      ],
+      "sqarcities": [
         0.7631742590010905
       ],
       "usage": "11"
@@ -22105,7 +23127,10 @@ PARCELS = {
       ],
       "id": "11-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.42839077364013
+      ],
+      "sqarcities": [
         0.4192091620402734
       ],
       "usage": "11"
@@ -22176,7 +23201,10 @@ PARCELS = {
       ],
       "id": "11-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.42839077364013
+      ],
+      "sqarcities": [
         0.4108241525503572
       ],
       "usage": "11"
@@ -22223,7 +23251,10 @@ PARCELS = {
       ],
       "id": "11-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.24302003679819
+      ],
+      "sqarcities": [
         0.616883828826526
       ],
       "usage": "11"
@@ -22322,7 +23353,10 @@ PARCELS = {
       ],
       "id": "11-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.49929710955999
+      ],
+      "sqarcities": [
         0.4633710967148473
       ],
       "usage": "11"
@@ -22505,7 +23539,10 @@ PARCELS = {
       ],
       "id": "11-69-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.01369141832696
+      ],
+      "sqarcities": [
         0.428707921207384
       ],
       "usage": "11"
@@ -22552,7 +23589,10 @@ PARCELS = {
       ],
       "id": "11-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.594667117820038
+      ],
+      "sqarcities": [
         0.6589519659465373
       ],
       "usage": "11"
@@ -22651,7 +23691,10 @@ PARCELS = {
       ],
       "id": "11-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.62829080151599
+      ],
+      "sqarcities": [
         0.4412499816102909
       ],
       "usage": "11"
@@ -22730,7 +23773,10 @@ PARCELS = {
       ],
       "id": "11-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.36329271183473
+      ],
+      "sqarcities": [
         0.6918115618002979
       ],
       "usage": "11"
@@ -22777,7 +23823,10 @@ PARCELS = {
       ],
       "id": "11-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.65507387386262
+      ],
+      "sqarcities": [
         0.7311874479951446
       ],
       "usage": "19"
@@ -22839,8 +23888,15 @@ PARCELS = {
         }
       ],
       "id": "11-81",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "split": true
+        }
+      ],
+      "orientations": [
+        17.659970616877445
+      ],
+      "sqarcities": [
         0.5513270322176169
       ],
       "usage": "11"
@@ -22903,7 +23959,10 @@ PARCELS = {
       ],
       "id": "11-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -63.15232386881438
+      ],
+      "sqarcities": [
         0.6538866140632822
       ],
       "usage": "11"
@@ -22966,7 +24025,10 @@ PARCELS = {
       ],
       "id": "11-85",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.49298122678863
+      ],
+      "sqarcities": [
         0.42442706179979095
       ],
       "usage": "11"
@@ -23041,7 +24103,10 @@ PARCELS = {
       ],
       "id": "12-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.03432517795841
+      ],
+      "sqarcities": [
         0.5566482662269298
       ],
       "usage": "11"
@@ -23135,7 +24200,11 @@ PARCELS = {
       ],
       "id": "12-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.940919892369621,
+        -83.35670379216093
+      ],
+      "sqarcities": [
         0.5145587464057775,
         0.6364540322180453
       ],
@@ -23239,7 +24308,10 @@ PARCELS = {
       ],
       "id": "12-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.03432517795841
+      ],
+      "sqarcities": [
         0.5670632732509368
       ],
       "usage": "11"
@@ -23286,7 +24358,10 @@ PARCELS = {
       ],
       "id": "12-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.6398336697834
+      ],
+      "sqarcities": [
         0.7060309153791318
       ],
       "usage": "11"
@@ -23329,7 +24404,10 @@ PARCELS = {
       ],
       "id": "12-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.56740516953096
+      ],
+      "sqarcities": [
         0.7532781916668734
       ],
       "usage": "11"
@@ -23520,7 +24598,12 @@ PARCELS = {
       ],
       "id": "12-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.36927106394433,
+        -33.41098824814811,
+        -1.482936438732466
+      ],
+      "sqarcities": [
         0.35326208568937245,
         0.5143832893633858,
         0.468707331932419
@@ -23593,7 +24676,10 @@ PARCELS = {
       ],
       "id": "12-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.715091694830278
+      ],
+      "sqarcities": [
         0.5892956088941711
       ],
       "usage": "11"
@@ -23920,7 +25006,10 @@ PARCELS = {
       ],
       "id": "12-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.49998985833224
+      ],
+      "sqarcities": [
         0.2674452490010578
       ],
       "usage": "11"
@@ -23963,7 +25052,10 @@ PARCELS = {
       ],
       "id": "12-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.103361581208617
+      ],
+      "sqarcities": [
         0.7511265982375187
       ],
       "usage": "11"
@@ -24158,7 +25250,10 @@ PARCELS = {
       ],
       "id": "12-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.296740316759013
+      ],
+      "sqarcities": [
         0.5489437926513532
       ],
       "usage": "11"
@@ -24201,7 +25296,10 @@ PARCELS = {
       ],
       "id": "14-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.27983654525309
+      ],
+      "sqarcities": [
         0.7758925807022633
       ],
       "usage": "11"
@@ -24252,7 +25350,10 @@ PARCELS = {
       ],
       "id": "12-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.291417064312299
+      ],
+      "sqarcities": [
         0.5441712739260932
       ],
       "usage": "11"
@@ -24319,7 +25420,10 @@ PARCELS = {
       ],
       "id": "12-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.2905449442656
+      ],
+      "sqarcities": [
         0.7884422510118094
       ],
       "usage": "11"
@@ -24398,7 +25502,10 @@ PARCELS = {
       ],
       "id": "12-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.243294485895802
+      ],
+      "sqarcities": [
         0.5948234017664017
       ],
       "usage": "22"
@@ -24465,7 +25572,10 @@ PARCELS = {
       ],
       "id": "12-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.554605065780905
+      ],
+      "sqarcities": [
         0.7602131060236385
       ],
       "usage": "11"
@@ -24512,7 +25622,10 @@ PARCELS = {
       ],
       "id": "12-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.188042288635927
+      ],
+      "sqarcities": [
         0.5688261988852523
       ],
       "usage": "11"
@@ -24555,7 +25668,10 @@ PARCELS = {
       ],
       "id": "12-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.721570650898187
+      ],
+      "sqarcities": [
         0.5104941635782582
       ],
       "usage": "11"
@@ -24606,7 +25722,10 @@ PARCELS = {
       ],
       "id": "12-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.695383389978957
+      ],
+      "sqarcities": [
         0.47436329700487073
       ],
       "usage": "11"
@@ -24665,7 +25784,10 @@ PARCELS = {
       ],
       "id": "12-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.695383389978957
+      ],
+      "sqarcities": [
         0.6858300795079985
       ],
       "usage": "11"
@@ -24716,7 +25838,10 @@ PARCELS = {
       ],
       "id": "12-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.50361222297164
+      ],
+      "sqarcities": [
         0.5046911722959784
       ],
       "usage": "11"
@@ -24771,7 +25896,10 @@ PARCELS = {
       ],
       "id": "12-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.308959004862302
+      ],
+      "sqarcities": [
         0.49318976085574046
       ],
       "usage": "11"
@@ -24818,7 +25946,10 @@ PARCELS = {
       ],
       "id": "12-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.1629367160511492
+      ],
+      "sqarcities": [
         0.5458301349141093
       ],
       "usage": "11"
@@ -24881,7 +26012,10 @@ PARCELS = {
       ],
       "id": "12-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.941256847553568
+      ],
+      "sqarcities": [
         0.6920131617198875
       ],
       "usage": "11"
@@ -24932,7 +26066,10 @@ PARCELS = {
       ],
       "id": "12-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.941256847553568
+      ],
+      "sqarcities": [
         0.5325608648569552
       ],
       "usage": "11"
@@ -25003,7 +26140,10 @@ PARCELS = {
       ],
       "id": "12-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.201509887525063
+      ],
+      "sqarcities": [
         0.6394269843128254
       ],
       "usage": "11"
@@ -25118,7 +26258,10 @@ PARCELS = {
       ],
       "id": "12-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.574923485284835
+      ],
+      "sqarcities": [
         0.6162642428619468
       ],
       "usage": "11"
@@ -25181,7 +26324,10 @@ PARCELS = {
       ],
       "id": "12-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.89762667836846
+      ],
+      "sqarcities": [
         0.609773756023536
       ],
       "usage": "11"
@@ -25240,7 +26386,10 @@ PARCELS = {
       ],
       "id": "12-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.89762667836846
+      ],
+      "sqarcities": [
         0.5870674214728
       ],
       "usage": "11"
@@ -25295,7 +26444,10 @@ PARCELS = {
       ],
       "id": "12-88",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.00827994104943
+      ],
+      "sqarcities": [
         0.565911554049597
       ],
       "usage": "11"
@@ -25374,7 +26526,10 @@ PARCELS = {
       ],
       "id": "12-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.0652688550128175
+      ],
+      "sqarcities": [
         0.7347561723289266
       ],
       "usage": "11"
@@ -25433,7 +26588,10 @@ PARCELS = {
       ],
       "id": "12-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.0652688550128175
+      ],
+      "sqarcities": [
         0.6314112370115688
       ],
       "usage": "11"
@@ -25488,7 +26646,10 @@ PARCELS = {
       ],
       "id": "12-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.45806139028538
+      ],
+      "sqarcities": [
         0.7061427225535954
       ],
       "usage": "11"
@@ -25535,7 +26696,10 @@ PARCELS = {
       ],
       "id": "12-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.538508491091818
+      ],
+      "sqarcities": [
         0.46759060317505374
       ],
       "usage": "11"
@@ -25582,7 +26746,10 @@ PARCELS = {
       ],
       "id": "12-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.987765484152774
+      ],
+      "sqarcities": [
         0.44276238658796757
       ],
       "usage": "11"
@@ -25657,7 +26824,10 @@ PARCELS = {
       ],
       "id": "12-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.9366284619519405
+      ],
+      "sqarcities": [
         0.743228971670786
       ],
       "usage": "11"
@@ -25708,7 +26878,10 @@ PARCELS = {
       ],
       "id": "12-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.782812090063835
+      ],
+      "sqarcities": [
         0.5408434685555041
       ],
       "usage": "11"
@@ -25759,7 +26932,10 @@ PARCELS = {
       ],
       "id": "12-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.04077657954832
+      ],
+      "sqarcities": [
         0.6152607816529172
       ],
       "usage": "22"
@@ -25814,7 +26990,10 @@ PARCELS = {
       ],
       "id": "12-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.61235825043098
+      ],
+      "sqarcities": [
         0.7024424062071624
       ],
       "usage": "11"
@@ -25857,7 +27036,10 @@ PARCELS = {
       ],
       "id": "12-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.485064084824
+      ],
+      "sqarcities": [
         0.5372574141415869
       ],
       "usage": "11"
@@ -25924,7 +27106,10 @@ PARCELS = {
       ],
       "id": "12-105",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -59.38326702907689
+      ],
+      "sqarcities": [
         0.6226560277532259
       ],
       "usage": "11"
@@ -26011,7 +27196,10 @@ PARCELS = {
       ],
       "id": "12-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.441553342899624
+      ],
+      "sqarcities": [
         0.642645951635116
       ],
       "usage": "11"
@@ -26058,7 +27246,10 @@ PARCELS = {
       ],
       "id": "12-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.527723657804046
+      ],
+      "sqarcities": [
         0.6555297671854001
       ],
       "usage": "11"
@@ -26133,7 +27324,10 @@ PARCELS = {
       ],
       "id": "12-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.97981598162471
+      ],
+      "sqarcities": [
         0.5324124170611271
       ],
       "usage": "11"
@@ -26208,7 +27402,10 @@ PARCELS = {
       ],
       "id": "12-116",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.40675533675697
+      ],
+      "sqarcities": [
         0.4820159231919306
       ],
       "usage": "11"
@@ -26259,7 +27456,10 @@ PARCELS = {
       ],
       "id": "12-130",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.26795155144986893
+      ],
+      "sqarcities": [
         0.6448561544907792
       ],
       "usage": "11"
@@ -26310,7 +27510,10 @@ PARCELS = {
       ],
       "id": "12-131",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -37.1598679157931
+      ],
+      "sqarcities": [
         0.4550977608640088
       ],
       "usage": "11"
@@ -26357,7 +27560,10 @@ PARCELS = {
       ],
       "id": "12-134",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.311114347096925
+      ],
+      "sqarcities": [
         0.2633752454751305
       ],
       "usage": "11"
@@ -26400,7 +27606,10 @@ PARCELS = {
       ],
       "id": "12-138",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.545451038898037
+      ],
+      "sqarcities": [
         0.3454098688823603
       ],
       "usage": "11"
@@ -26447,7 +27656,10 @@ PARCELS = {
       ],
       "id": "12-140",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.69029702289177
+      ],
+      "sqarcities": [
         0.5205315519697107
       ],
       "usage": "11"
@@ -26494,7 +27706,10 @@ PARCELS = {
       ],
       "id": "12-141",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.559792780875497
+      ],
+      "sqarcities": [
         0.5386298576080255
       ],
       "usage": "11"
@@ -26537,7 +27752,10 @@ PARCELS = {
       ],
       "id": "12-145",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.052787769288585
+      ],
+      "sqarcities": [
         0.4177817563528627
       ],
       "usage": "11"
@@ -26592,7 +27810,10 @@ PARCELS = {
       ],
       "id": "12-147",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.80373825786198
+      ],
+      "sqarcities": [
         0.3956504435514387
       ],
       "usage": "19"
@@ -26639,7 +27860,10 @@ PARCELS = {
       ],
       "id": "12-148",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.042719855253921
+      ],
+      "sqarcities": [
         0.3796673576728801
       ],
       "usage": "11"
@@ -26782,7 +28006,10 @@ PARCELS = {
       ],
       "id": "12-153",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.16654255278954
+      ],
+      "sqarcities": [
         0.21325117929485357
       ],
       "usage": "11"
@@ -26877,7 +28104,10 @@ PARCELS = {
       ],
       "id": "12-155-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.58683980459344
+      ],
+      "sqarcities": [
         0.30724119279645856
       ],
       "usage": "11"
@@ -26968,7 +28198,10 @@ PARCELS = {
       ],
       "id": "12-155-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.1312312503972
+      ],
+      "sqarcities": [
         0.22433090362643068
       ],
       "usage": "11"
@@ -27123,7 +28356,10 @@ PARCELS = {
       ],
       "id": "12-159",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.49438957562022
+      ],
+      "sqarcities": [
         0.3336411011568361
       ],
       "usage": "11"
@@ -27190,7 +28426,10 @@ PARCELS = {
       ],
       "id": "12-164",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.83093200441286
+      ],
+      "sqarcities": [
         0.7698112466042514
       ],
       "usage": "11"
@@ -27257,7 +28496,10 @@ PARCELS = {
       ],
       "id": "12-203",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.460970979879633
+      ],
+      "sqarcities": [
         0.7160972695677631
       ],
       "usage": "11"
@@ -27304,7 +28546,10 @@ PARCELS = {
       ],
       "id": "13-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.482556290720922
+      ],
+      "sqarcities": [
         0.538152454188427
       ],
       "usage": "11"
@@ -27719,7 +28964,10 @@ PARCELS = {
       ],
       "id": "12-175",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.78844636496312
+      ],
+      "sqarcities": [
         0.3386192347120052
       ],
       "usage": "11"
@@ -27778,7 +29026,10 @@ PARCELS = {
       ],
       "id": "12-178",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.12953922743293
+      ],
+      "sqarcities": [
         0.6974209566023398
       ],
       "usage": "11"
@@ -27817,7 +29068,10 @@ PARCELS = {
       ],
       "id": "12-179",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.91268291325164
+      ],
+      "sqarcities": [
         0.422997597249909
       ],
       "usage": "11"
@@ -27868,7 +29122,10 @@ PARCELS = {
       ],
       "id": "12-181-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.1987253824003261
+      ],
+      "sqarcities": [
         0.3664517398471535
       ],
       "usage": "11"
@@ -27915,7 +29172,10 @@ PARCELS = {
       ],
       "id": "12-181-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.1987253824003261
+      ],
+      "sqarcities": [
         0.4804150469743008
       ],
       "usage": "19"
@@ -27982,7 +29242,10 @@ PARCELS = {
       ],
       "id": "12-185",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.44613558298121
+      ],
+      "sqarcities": [
         0.5761433587916137
       ],
       "usage": "11"
@@ -28033,7 +29296,10 @@ PARCELS = {
       ],
       "id": "14-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.114998844045999
+      ],
+      "sqarcities": [
         0.756180877939564
       ],
       "usage": "11"
@@ -28120,7 +29386,10 @@ PARCELS = {
       ],
       "id": "13-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.62063596238642
+      ],
+      "sqarcities": [
         0.7573804493169599
       ],
       "usage": "11"
@@ -28231,7 +29500,10 @@ PARCELS = {
       ],
       "id": "13-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.7695454172154
+      ],
+      "sqarcities": [
         0.7252939704106497
       ],
       "usage": "11"
@@ -28314,7 +29586,10 @@ PARCELS = {
       ],
       "id": "13-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.214388244516854
+      ],
+      "sqarcities": [
         0.5578533142622745
       ],
       "usage": "11"
@@ -28569,7 +29844,10 @@ PARCELS = {
       ],
       "id": "13-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.802091166835382
+      ],
+      "sqarcities": [
         0.31358701851126786
       ],
       "usage": "11"
@@ -28624,7 +29902,10 @@ PARCELS = {
       ],
       "id": "14-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.228849552730168
+      ],
+      "sqarcities": [
         0.6112368558631452
       ],
       "usage": "11"
@@ -28775,7 +30056,10 @@ PARCELS = {
       ],
       "id": "13-16-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.5041410437113427
+      ],
+      "sqarcities": [
         0.46073021056056923
       ],
       "usage": "11"
@@ -28874,7 +30158,10 @@ PARCELS = {
       ],
       "id": "13-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.883527550712401
+      ],
+      "sqarcities": [
         0.5878257890176315
       ],
       "usage": "11"
@@ -29053,7 +30340,10 @@ PARCELS = {
       ],
       "id": "13-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.484587793566575
+      ],
+      "sqarcities": [
         0.6881031227494884
       ],
       "usage": "11"
@@ -29104,7 +30394,10 @@ PARCELS = {
       ],
       "id": "13-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        29.167412917736698
+      ],
+      "sqarcities": [
         0.5317727738744421
       ],
       "usage": "11"
@@ -29207,7 +30500,10 @@ PARCELS = {
       ],
       "id": "13-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.21119811710116
+      ],
+      "sqarcities": [
         0.4474553812965356
       ],
       "usage": "11"
@@ -29254,7 +30550,10 @@ PARCELS = {
       ],
       "id": "13-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.20050267140019
+      ],
+      "sqarcities": [
         0.6634794931675891
       ],
       "usage": "11"
@@ -29321,7 +30620,10 @@ PARCELS = {
       ],
       "id": "14-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.511275192973244
+      ],
+      "sqarcities": [
         0.5435711271818242
       ],
       "usage": "11"
@@ -29592,7 +30894,10 @@ PARCELS = {
       ],
       "id": "13-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.051983591075356
+      ],
+      "sqarcities": [
         0.5270042073598005
       ],
       "usage": "19"
@@ -29639,7 +30944,10 @@ PARCELS = {
       ],
       "id": "13-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.4322486568927
+      ],
+      "sqarcities": [
         0.7369920628563597
       ],
       "usage": "11"
@@ -29682,7 +30990,10 @@ PARCELS = {
       ],
       "id": "14-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.0603039619704333
+      ],
+      "sqarcities": [
         0.7320942752822165
       ],
       "usage": "11"
@@ -29749,7 +31060,10 @@ PARCELS = {
       ],
       "id": "13-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.3856505743249
+      ],
+      "sqarcities": [
         0.43588060624215974
       ],
       "usage": "22"
@@ -29804,7 +31118,10 @@ PARCELS = {
       ],
       "id": "13-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.94368152268494
+      ],
+      "sqarcities": [
         0.5944840078681208
       ],
       "usage": "11"
@@ -29879,7 +31196,10 @@ PARCELS = {
       ],
       "id": "13-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.109718221859623
+      ],
+      "sqarcities": [
         0.48317718001532
       ],
       "usage": "11"
@@ -29926,7 +31246,10 @@ PARCELS = {
       ],
       "id": "13-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.980829203768636
+      ],
+      "sqarcities": [
         0.7309722075090522
       ],
       "usage": "11"
@@ -30021,7 +31344,10 @@ PARCELS = {
       ],
       "id": "14-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.863813904253462
+      ],
+      "sqarcities": [
         0.7169939569103851
       ],
       "usage": "11"
@@ -30088,7 +31414,10 @@ PARCELS = {
       ],
       "id": "14-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -37.72996060042387
+      ],
+      "sqarcities": [
         0.5722104188558517
       ],
       "usage": "11"
@@ -30151,7 +31480,10 @@ PARCELS = {
       ],
       "id": "14-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.48718809644298
+      ],
+      "sqarcities": [
         0.5997601102923483
       ],
       "usage": "11"
@@ -30234,7 +31566,10 @@ PARCELS = {
       ],
       "id": "14-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.48718809644298
+      ],
+      "sqarcities": [
         0.5786599607380469
       ],
       "usage": "11"
@@ -30289,7 +31624,10 @@ PARCELS = {
       ],
       "id": "14-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.1516640735932
+      ],
+      "sqarcities": [
         0.8230936388828465
       ],
       "usage": "11"
@@ -30336,7 +31674,10 @@ PARCELS = {
       ],
       "id": "14-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.23172223288171
+      ],
+      "sqarcities": [
         0.7876209917798375
       ],
       "usage": "11"
@@ -30383,7 +31724,10 @@ PARCELS = {
       ],
       "id": "14-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.45437947442686
+      ],
+      "sqarcities": [
         0.7759594523123338
       ],
       "usage": "11"
@@ -30465,7 +31809,11 @@ PARCELS = {
       ],
       "id": "14-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.863813904253462,
+        79.52406198836633
+      ],
+      "sqarcities": [
         0.4825450907282862,
         0.7241935848930184
       ],
@@ -30529,7 +31877,10 @@ PARCELS = {
       ],
       "id": "14-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.5433835470759
+      ],
+      "sqarcities": [
         0.5568734732521247
       ],
       "usage": "11"
@@ -30576,7 +31927,10 @@ PARCELS = {
       ],
       "id": "14-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.7659408211413
+      ],
+      "sqarcities": [
         0.7878357949650732
       ],
       "usage": "11"
@@ -30635,7 +31989,10 @@ PARCELS = {
       ],
       "id": "14-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.745292522711878
+      ],
+      "sqarcities": [
         0.768979452897954
       ],
       "usage": "11"
@@ -30698,7 +32055,10 @@ PARCELS = {
       ],
       "id": "14-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.14448718415254
+      ],
+      "sqarcities": [
         0.7275933944835961
       ],
       "usage": "11"
@@ -30753,7 +32113,10 @@ PARCELS = {
       ],
       "id": "14-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.565150375063254
+      ],
+      "sqarcities": [
         0.6721314094186245
       ],
       "usage": "11"
@@ -30800,7 +32163,10 @@ PARCELS = {
       ],
       "id": "14-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.88661192765596
+      ],
+      "sqarcities": [
         0.7650803655583712
       ],
       "usage": "11"
@@ -30855,7 +32221,10 @@ PARCELS = {
       ],
       "id": "14-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.018139343717962
+      ],
+      "sqarcities": [
         0.7122532257007442
       ],
       "usage": "11"
@@ -30926,7 +32295,10 @@ PARCELS = {
       ],
       "id": "14-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.6888663446034
+      ],
+      "sqarcities": [
         0.5018094813331444
       ],
       "usage": "11"
@@ -30977,7 +32349,10 @@ PARCELS = {
       ],
       "id": "14-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.8607931061795
+      ],
+      "sqarcities": [
         0.670640162446125
       ],
       "usage": "11"
@@ -31032,7 +32407,10 @@ PARCELS = {
       ],
       "id": "14-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.163751563435582
+      ],
+      "sqarcities": [
         0.6773769642792755
       ],
       "usage": "11"
@@ -31083,7 +32461,10 @@ PARCELS = {
       ],
       "id": "14-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.67557243242189
+      ],
+      "sqarcities": [
         0.6533084642362237
       ],
       "usage": "11"
@@ -31130,7 +32511,10 @@ PARCELS = {
       ],
       "id": "14-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.91973862350173
+      ],
+      "sqarcities": [
         0.7416819623892558
       ],
       "usage": "11"
@@ -31181,7 +32565,10 @@ PARCELS = {
       ],
       "id": "14-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.97212929526711
+      ],
+      "sqarcities": [
         0.7690430309354092
       ],
       "usage": "11"
@@ -31248,7 +32635,10 @@ PARCELS = {
       ],
       "id": "14-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.780776845010323
+      ],
+      "sqarcities": [
         0.5796014157473904
       ],
       "usage": "11"
@@ -31307,7 +32697,10 @@ PARCELS = {
       ],
       "id": "14-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -34.70710578713081
+      ],
+      "sqarcities": [
         0.8355789432447318
       ],
       "usage": "11"
@@ -31350,7 +32743,10 @@ PARCELS = {
       ],
       "id": "14-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.4601856763492
+      ],
+      "sqarcities": [
         0.7774415344718532
       ],
       "usage": "11"
@@ -31401,7 +32797,10 @@ PARCELS = {
       ],
       "id": "14-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.53163440902128
+      ],
+      "sqarcities": [
         0.7525287349795411
       ],
       "usage": "11"
@@ -31448,7 +32847,10 @@ PARCELS = {
       ],
       "id": "14-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.43290219768366
+      ],
+      "sqarcities": [
         0.7824201879570986
       ],
       "usage": "11"
@@ -31491,7 +32893,10 @@ PARCELS = {
       ],
       "id": "14-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.16620103290967
+      ],
+      "sqarcities": [
         0.7678810305734896
       ],
       "usage": "11"
@@ -31538,7 +32943,10 @@ PARCELS = {
       ],
       "id": "14-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.44790900249117
+      ],
+      "sqarcities": [
         0.7863861922741117
       ],
       "usage": "11"
@@ -31585,7 +32993,10 @@ PARCELS = {
       ],
       "id": "14-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.8026764019755
+      ],
+      "sqarcities": [
         0.7813577442135082
       ],
       "usage": "11"
@@ -31656,7 +33067,10 @@ PARCELS = {
       ],
       "id": "14-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.83381868544916
+      ],
+      "sqarcities": [
         0.6638744171460012
       ],
       "usage": "11"
@@ -31707,7 +33121,10 @@ PARCELS = {
       ],
       "id": "14-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.68683390508191
+      ],
+      "sqarcities": [
         0.8219076780976331
       ],
       "usage": "11"
@@ -31754,7 +33171,10 @@ PARCELS = {
       ],
       "id": "14-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.51096968843092
+      ],
+      "sqarcities": [
         0.7901988959002
       ],
       "usage": "11"
@@ -31801,7 +33221,10 @@ PARCELS = {
       ],
       "id": "14-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.6452705781563
+      ],
+      "sqarcities": [
         0.7789192945196273
       ],
       "usage": "11"
@@ -31860,7 +33283,10 @@ PARCELS = {
       ],
       "id": "14-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.34385081445816
+      ],
+      "sqarcities": [
         0.5706428031533737
       ],
       "usage": "11"
@@ -31911,7 +33337,10 @@ PARCELS = {
       ],
       "id": "14-116",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.52515887684092
+      ],
+      "sqarcities": [
         0.7554793728848269
       ],
       "usage": "11"
@@ -31958,7 +33387,10 @@ PARCELS = {
       ],
       "id": "14-124",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.419343339555496
+      ],
+      "sqarcities": [
         0.6760319004146689
       ],
       "usage": "11"
@@ -32005,7 +33437,10 @@ PARCELS = {
       ],
       "id": "14-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.30620124743965
+      ],
+      "sqarcities": [
         0.7904197110377528
       ],
       "usage": "11"
@@ -32070,13 +33505,21 @@ PARCELS = {
       "callouts": [],
       "centers": [
         {
-          "lat": 43.158800204545926,
-          "lon": -72.14711502136548
+          "lat": 43.158553036986795,
+          "lon": -72.14757694816048
         }
       ],
       "id": "14-138",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false,
+          "split": true
+        }
+      ],
+      "orientations": [
+        76.39325037423407
+      ],
+      "sqarcities": [
         0.4059192998299335
       ],
       "usage": "11"
@@ -32123,7 +33566,10 @@ PARCELS = {
       ],
       "id": "14-139",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.33277320441681
+      ],
+      "sqarcities": [
         0.7727421741765421
       ],
       "usage": "11"
@@ -32170,7 +33616,10 @@ PARCELS = {
       ],
       "id": "14-140",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.77776796934631
+      ],
+      "sqarcities": [
         0.7762713992651942
       ],
       "usage": "11"
@@ -32213,7 +33662,10 @@ PARCELS = {
       ],
       "id": "14-142",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.57865620206209
+      ],
+      "sqarcities": [
         0.7797581907913791
       ],
       "usage": "11"
@@ -32260,7 +33712,10 @@ PARCELS = {
       ],
       "id": "14-144",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.72565652333698
+      ],
+      "sqarcities": [
         0.7825759941958764
       ],
       "usage": "11"
@@ -32303,7 +33758,10 @@ PARCELS = {
       ],
       "id": "14-145",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.577966572312576
+      ],
+      "sqarcities": [
         0.77387994968857
       ],
       "usage": "11"
@@ -32346,7 +33804,10 @@ PARCELS = {
       ],
       "id": "14-146",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.577966572312576
+      ],
+      "sqarcities": [
         0.7820508073584371
       ],
       "usage": "11"
@@ -32401,7 +33862,10 @@ PARCELS = {
       ],
       "id": "14-147",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.318315283578897
+      ],
+      "sqarcities": [
         0.8168589337380777
       ],
       "usage": "11"
@@ -32456,7 +33920,10 @@ PARCELS = {
       ],
       "id": "14-155",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.951748980643259
+      ],
+      "sqarcities": [
         0.7862327074318032
       ],
       "usage": "11"
@@ -32503,7 +33970,10 @@ PARCELS = {
       ],
       "id": "14-157",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.120886143165336
+      ],
+      "sqarcities": [
         0.696894874309594
       ],
       "usage": "11"
@@ -32554,7 +34024,10 @@ PARCELS = {
       ],
       "id": "14-158",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.969776943980293
+      ],
+      "sqarcities": [
         0.6902489274861736
       ],
       "usage": "11"
@@ -32597,7 +34070,10 @@ PARCELS = {
       ],
       "id": "14-159",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.969776943980293
+      ],
+      "sqarcities": [
         0.6603395988065663
       ],
       "usage": "11"
@@ -32644,7 +34120,10 @@ PARCELS = {
       ],
       "id": "14-160",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.37918770217378
+      ],
+      "sqarcities": [
         0.7090660248976303
       ],
       "usage": "11"
@@ -32691,7 +34170,10 @@ PARCELS = {
       ],
       "id": "14-162",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.44208551166534
+      ],
+      "sqarcities": [
         0.6445877328509055
       ],
       "usage": "11"
@@ -32738,7 +34220,10 @@ PARCELS = {
       ],
       "id": "14-163",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.327058486456167
+      ],
+      "sqarcities": [
         0.6625006036867175
       ],
       "usage": "11"
@@ -32785,7 +34270,10 @@ PARCELS = {
       ],
       "id": "14-164",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.049335361779711
+      ],
+      "sqarcities": [
         0.64374615053146
       ],
       "usage": "11"
@@ -32884,7 +34372,10 @@ PARCELS = {
       ],
       "id": "14-165",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.86058044785943
+      ],
+      "sqarcities": [
         0.7543600155337167
       ],
       "usage": "27"
@@ -32927,7 +34418,10 @@ PARCELS = {
       ],
       "id": "14-166",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.19654085456095
+      ],
+      "sqarcities": [
         0.7857778702753513
       ],
       "usage": "11"
@@ -32978,7 +34472,10 @@ PARCELS = {
       ],
       "id": "14-168",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.6176184052639
+      ],
+      "sqarcities": [
         0.6686752809126196
       ],
       "usage": "11"
@@ -33025,7 +34522,10 @@ PARCELS = {
       ],
       "id": "14-169",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.24571421924503
+      ],
+      "sqarcities": [
         0.6776716371042382
       ],
       "usage": "11"
@@ -33072,7 +34572,10 @@ PARCELS = {
       ],
       "id": "14-170",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.24571421924503
+      ],
+      "sqarcities": [
         0.7053830647429524
       ],
       "usage": "11"
@@ -33123,7 +34626,10 @@ PARCELS = {
       ],
       "id": "14-171",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.97099717077282
+      ],
+      "sqarcities": [
         0.7181487462397705
       ],
       "usage": "11"
@@ -33198,7 +34704,10 @@ PARCELS = {
       ],
       "id": "14-174",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.49849020481562
+      ],
+      "sqarcities": [
         0.7699894049223133
       ],
       "usage": "11"
@@ -33249,7 +34758,10 @@ PARCELS = {
       ],
       "id": "14-178",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.08212289645123
+      ],
+      "sqarcities": [
         0.5840750309260186
       ],
       "usage": "11"
@@ -33300,7 +34812,10 @@ PARCELS = {
       ],
       "id": "14-179",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.08212289645123
+      ],
+      "sqarcities": [
         0.563286630831948
       ],
       "usage": "11"
@@ -33347,7 +34862,10 @@ PARCELS = {
       ],
       "id": "14-180",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.947186050418921
+      ],
+      "sqarcities": [
         0.5684495341847701
       ],
       "usage": "11"
@@ -33394,7 +34912,10 @@ PARCELS = {
       ],
       "id": "14-183",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.454039361043598
+      ],
+      "sqarcities": [
         0.45675291219080943
       ],
       "usage": "11"
@@ -33473,7 +34994,10 @@ PARCELS = {
       ],
       "id": "14-186",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.6114842076589184
+      ],
+      "sqarcities": [
         0.420817214644957
       ],
       "usage": "11"
@@ -33540,7 +35064,10 @@ PARCELS = {
       ],
       "id": "14-190",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -63.86175858646249
+      ],
+      "sqarcities": [
         0.7201067694935813
       ],
       "usage": "11"
@@ -33595,7 +35122,10 @@ PARCELS = {
       ],
       "id": "14-193",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.77982505217238
+      ],
+      "sqarcities": [
         0.670602258385086
       ],
       "usage": "11"
@@ -33654,7 +35184,10 @@ PARCELS = {
       ],
       "id": "14-194",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.91056501476382
+      ],
+      "sqarcities": [
         0.7366526152185375
       ],
       "usage": "11"
@@ -33697,7 +35230,10 @@ PARCELS = {
       ],
       "id": "14-198",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.217466053432837
+      ],
+      "sqarcities": [
         0.7736257999734613
       ],
       "usage": "11"
@@ -33748,7 +35284,10 @@ PARCELS = {
       ],
       "id": "14-201",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.15433644333529
+      ],
+      "sqarcities": [
         0.6244765753790609
       ],
       "usage": "11"
@@ -33791,7 +35330,10 @@ PARCELS = {
       ],
       "id": "14-204",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.783831922101939
+      ],
+      "sqarcities": [
         0.5651627123944302
       ],
       "usage": "11"
@@ -33834,7 +35376,10 @@ PARCELS = {
       ],
       "id": "14-206",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.732641972883812
+      ],
+      "sqarcities": [
         0.7841557712476758
       ],
       "usage": "11"
@@ -33881,7 +35426,10 @@ PARCELS = {
       ],
       "id": "14-208",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.516973090150401
+      ],
+      "sqarcities": [
         0.7912270666116293
       ],
       "usage": "11"
@@ -33928,7 +35476,10 @@ PARCELS = {
       ],
       "id": "14-209",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.672958812990288
+      ],
+      "sqarcities": [
         0.7938724106085081
       ],
       "usage": "11"
@@ -33971,7 +35522,10 @@ PARCELS = {
       ],
       "id": "14-210",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.20726504142138
+      ],
+      "sqarcities": [
         0.7855035146377702
       ],
       "usage": "11"
@@ -34014,7 +35568,10 @@ PARCELS = {
       ],
       "id": "14-211",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.554289407483608
+      ],
+      "sqarcities": [
         0.7714039452589815
       ],
       "usage": "11"
@@ -34061,7 +35618,10 @@ PARCELS = {
       ],
       "id": "14-215",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.83329801138001
+      ],
+      "sqarcities": [
         0.7747222827103053
       ],
       "usage": "11"
@@ -34104,7 +35664,10 @@ PARCELS = {
       ],
       "id": "14-216",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.30037495964347
+      ],
+      "sqarcities": [
         0.7553991346302368
       ],
       "usage": "11"
@@ -34151,7 +35714,10 @@ PARCELS = {
       ],
       "id": "14-221",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.26067114734559
+      ],
+      "sqarcities": [
         0.7938680118768295
       ],
       "usage": "19"
@@ -34198,7 +35764,10 @@ PARCELS = {
       ],
       "id": "14-223",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.581760862786851
+      ],
+      "sqarcities": [
         0.740442078505063
       ],
       "usage": "11"
@@ -34265,7 +35834,10 @@ PARCELS = {
       ],
       "id": "14-226",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.55235411473005
+      ],
+      "sqarcities": [
         0.5407288707475387
       ],
       "usage": "11"
@@ -34312,7 +35884,10 @@ PARCELS = {
       ],
       "id": "14-228",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.59936503192506
+      ],
+      "sqarcities": [
         0.7911832230717676
       ],
       "usage": "11"
@@ -34355,7 +35930,10 @@ PARCELS = {
       ],
       "id": "14-232",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.73169692695474
+      ],
+      "sqarcities": [
         0.7835722577236461
       ],
       "usage": "11"
@@ -34398,7 +35976,10 @@ PARCELS = {
       ],
       "id": "14-234",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -49.579187060320784
+      ],
+      "sqarcities": [
         0.7098875528681479
       ],
       "usage": "11"
@@ -34453,7 +36034,10 @@ PARCELS = {
       ],
       "id": "14-235",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.66807274801826
+      ],
+      "sqarcities": [
         0.6534329778390858
       ],
       "usage": "11"
@@ -34500,7 +36084,10 @@ PARCELS = {
       ],
       "id": "14-239",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.7095219393566055
+      ],
+      "sqarcities": [
         0.7751385494984336
       ],
       "usage": "11"
@@ -34551,7 +36138,10 @@ PARCELS = {
       ],
       "id": "14-241",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.6049966848224
+      ],
+      "sqarcities": [
         0.7909408589049022
       ],
       "usage": "11"
@@ -34598,7 +36188,10 @@ PARCELS = {
       ],
       "id": "14-244",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.69594580274722
+      ],
+      "sqarcities": [
         0.6451915217153129
       ],
       "usage": "11"
@@ -34657,7 +36250,10 @@ PARCELS = {
       ],
       "id": "14-247",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.52512316421462
+      ],
+      "sqarcities": [
         0.7798320609447591
       ],
       "usage": "11"
@@ -34720,7 +36316,10 @@ PARCELS = {
       ],
       "id": "14-249",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.845338653712105
+      ],
+      "sqarcities": [
         0.7201180378315337
       ],
       "usage": "11"
@@ -34767,7 +36366,10 @@ PARCELS = {
       ],
       "id": "14-250",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.52156481938468
+      ],
+      "sqarcities": [
         0.7969980912792182
       ],
       "usage": "11"
@@ -34822,7 +36424,10 @@ PARCELS = {
       ],
       "id": "14-251",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.42230751488614
+      ],
+      "sqarcities": [
         0.7378291446429688
       ],
       "usage": "11"
@@ -34877,7 +36482,10 @@ PARCELS = {
       ],
       "id": "14-252",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        63.42435417345851
+      ],
+      "sqarcities": [
         0.6780738662394662
       ],
       "usage": "22"
@@ -34920,7 +36528,10 @@ PARCELS = {
       ],
       "id": "14-253",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.235595247950386
+      ],
+      "sqarcities": [
         0.6827574222065105
       ],
       "usage": "11"
@@ -34967,7 +36578,10 @@ PARCELS = {
       ],
       "id": "14-260",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.52980444583491
+      ],
+      "sqarcities": [
         0.6965735091427617
       ],
       "usage": "11"
@@ -35018,7 +36632,10 @@ PARCELS = {
       ],
       "id": "14-262",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.12468563627581
+      ],
+      "sqarcities": [
         0.7575773214572121
       ],
       "usage": "11"
@@ -35073,7 +36690,10 @@ PARCELS = {
       ],
       "id": "14-272",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.45114413439285
+      ],
+      "sqarcities": [
         0.809857654530138
       ],
       "usage": "11"
@@ -35128,7 +36748,10 @@ PARCELS = {
       ],
       "id": "14-276",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.47004617715385
+      ],
+      "sqarcities": [
         0.5681533316090482
       ],
       "usage": "11"
@@ -35183,7 +36806,10 @@ PARCELS = {
       ],
       "id": "14-279",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -48.62127709474783
+      ],
+      "sqarcities": [
         0.7385524739245152
       ],
       "usage": "11"
@@ -35230,7 +36856,10 @@ PARCELS = {
       ],
       "id": "14-283",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.652197153787867
+      ],
+      "sqarcities": [
         0.7171322783484966
       ],
       "usage": "11"
@@ -35277,7 +36906,10 @@ PARCELS = {
       ],
       "id": "14-284",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.010670750283339
+      ],
+      "sqarcities": [
         0.7745903275719207
       ],
       "usage": "11"
@@ -35324,7 +36956,10 @@ PARCELS = {
       ],
       "id": "14-286",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.93313823245846
+      ],
+      "sqarcities": [
         0.6845768877010968
       ],
       "usage": "11"
@@ -35371,7 +37006,10 @@ PARCELS = {
       ],
       "id": "14-287",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.1974270809429
+      ],
+      "sqarcities": [
         0.7604842227912847
       ],
       "usage": "11"
@@ -35414,7 +37052,10 @@ PARCELS = {
       ],
       "id": "14-290",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.149095616643095
+      ],
+      "sqarcities": [
         0.7866936402211017
       ],
       "usage": "11"
@@ -35461,7 +37102,10 @@ PARCELS = {
       ],
       "id": "14-291",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.149095616643095
+      ],
+      "sqarcities": [
         0.8024100494305706
       ],
       "usage": "11"
@@ -35508,7 +37152,10 @@ PARCELS = {
       ],
       "id": "14-292",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.6509566636262
+      ],
+      "sqarcities": [
         0.7282019673602309
       ],
       "usage": "11"
@@ -35551,7 +37198,10 @@ PARCELS = {
       ],
       "id": "14-294",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.76576376935193
+      ],
+      "sqarcities": [
         0.7280035367564882
       ],
       "usage": "11"
@@ -35598,7 +37248,10 @@ PARCELS = {
       ],
       "id": "14-295",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.67241534674241
+      ],
+      "sqarcities": [
         0.7586395552063422
       ],
       "usage": "11"
@@ -35669,7 +37322,10 @@ PARCELS = {
       ],
       "id": "14-296",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.15154631408672
+      ],
+      "sqarcities": [
         0.7315902505437253
       ],
       "usage": "11"
@@ -35720,7 +37376,10 @@ PARCELS = {
       ],
       "id": "14-310",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.373994986458854
+      ],
+      "sqarcities": [
         0.706635294100894
       ],
       "usage": "11"
@@ -35771,7 +37430,10 @@ PARCELS = {
       ],
       "id": "14-311",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.35803996364021
+      ],
+      "sqarcities": [
         0.6302051805825198
       ],
       "usage": "11"
@@ -35814,7 +37476,10 @@ PARCELS = {
       ],
       "id": "14-313",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        29.774863021052667
+      ],
+      "sqarcities": [
         0.7763465384389556
       ],
       "usage": "11"
@@ -35869,7 +37534,10 @@ PARCELS = {
       ],
       "id": "14-315",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.8623290200958
+      ],
+      "sqarcities": [
         0.6406179786577746
       ],
       "usage": "11"
@@ -35920,7 +37588,10 @@ PARCELS = {
       ],
       "id": "14-316",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.96761208499542
+      ],
+      "sqarcities": [
         0.8007247463515224
       ],
       "usage": "11"
@@ -35967,7 +37638,10 @@ PARCELS = {
       ],
       "id": "14-317",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.96761208499542
+      ],
+      "sqarcities": [
         0.7746445127410359
       ],
       "usage": "11"
@@ -36014,7 +37688,10 @@ PARCELS = {
       ],
       "id": "14-321",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.50733028457742
+      ],
+      "sqarcities": [
         0.7381299947802603
       ],
       "usage": "11"
@@ -36085,7 +37762,10 @@ PARCELS = {
       ],
       "id": "14-329",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.888165914565505
+      ],
+      "sqarcities": [
         0.6533382764862806
       ],
       "usage": "11"
@@ -36132,7 +37812,10 @@ PARCELS = {
       ],
       "id": "14-335",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.10872233900206
+      ],
+      "sqarcities": [
         0.7706655204791227
       ],
       "usage": "11"
@@ -36191,7 +37874,10 @@ PARCELS = {
       ],
       "id": "14-337",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.32658633739099
+      ],
+      "sqarcities": [
         0.7674455791366139
       ],
       "usage": "11"
@@ -36238,7 +37924,10 @@ PARCELS = {
       ],
       "id": "14-338",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.66078928808462
+      ],
+      "sqarcities": [
         0.7606064844214414
       ],
       "usage": "11"
@@ -36293,7 +37982,10 @@ PARCELS = {
       ],
       "id": "14-340",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.87476459483645
+      ],
+      "sqarcities": [
         0.7341424310883093
       ],
       "usage": "11"
@@ -36352,7 +38044,10 @@ PARCELS = {
       ],
       "id": "14-343",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.192411984893667
+      ],
+      "sqarcities": [
         0.7455086862166437
       ],
       "usage": "11"
@@ -36411,7 +38106,10 @@ PARCELS = {
       ],
       "id": "14-345",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.598549207668384
+      ],
+      "sqarcities": [
         0.6632172968171438
       ],
       "usage": "11"
@@ -36454,7 +38152,10 @@ PARCELS = {
       ],
       "id": "14-350",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -39.51477545555637
+      ],
+      "sqarcities": [
         0.6330520123894596
       ],
       "usage": "11"
@@ -36505,7 +38206,10 @@ PARCELS = {
       ],
       "id": "14-351",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -39.51477545555637
+      ],
+      "sqarcities": [
         0.6523334419512362
       ],
       "usage": "11"
@@ -36548,7 +38252,10 @@ PARCELS = {
       ],
       "id": "14-352",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -55.52090454773039
+      ],
+      "sqarcities": [
         0.6339264457397727
       ],
       "usage": "11"
@@ -36603,7 +38310,10 @@ PARCELS = {
       ],
       "id": "14-365",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.90127130447789
+      ],
+      "sqarcities": [
         0.7868283356389044
       ],
       "usage": "11"
@@ -36654,7 +38364,10 @@ PARCELS = {
       ],
       "id": "14-369",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.08617498745437
+      ],
+      "sqarcities": [
         0.6606772038399863
       ],
       "usage": "11"
@@ -36705,7 +38418,10 @@ PARCELS = {
       ],
       "id": "14-370",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.24123703256191
+      ],
+      "sqarcities": [
         0.7358244467170794
       ],
       "usage": "11"
@@ -36756,7 +38472,10 @@ PARCELS = {
       ],
       "id": "14-373",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.45612451972926
+      ],
+      "sqarcities": [
         0.651797691479391
       ],
       "usage": "11"
@@ -36811,7 +38530,10 @@ PARCELS = {
       ],
       "id": "14-379",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.23055442639259
+      ],
+      "sqarcities": [
         0.7233275904612831
       ],
       "usage": "11"
@@ -36898,7 +38620,10 @@ PARCELS = {
       ],
       "id": "14-361",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.692984253443086
+      ],
+      "sqarcities": [
         0.6952269394576227
       ],
       "usage": "11"
@@ -36961,7 +38686,10 @@ PARCELS = {
       ],
       "id": "14-362",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.028690721851774
+      ],
+      "sqarcities": [
         0.6959551021355788
       ],
       "usage": "11"
@@ -37008,7 +38736,10 @@ PARCELS = {
       ],
       "id": "14-368",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.23462463107529
+      ],
+      "sqarcities": [
         0.7022231802838916
       ],
       "usage": "11"
@@ -37079,7 +38810,10 @@ PARCELS = {
       ],
       "id": "14-381",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.17053405418613
+      ],
+      "sqarcities": [
         0.7784727055656677
       ],
       "usage": "11"
@@ -37142,7 +38876,10 @@ PARCELS = {
       ],
       "id": "14-498",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.56364713834273
+      ],
+      "sqarcities": [
         0.46884474332838155
       ],
       "usage": "11"
@@ -37189,7 +38926,10 @@ PARCELS = {
       ],
       "id": "15-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.795810605663377
+      ],
+      "sqarcities": [
         0.7227319079606382
       ],
       "usage": "22"
@@ -37280,7 +39020,10 @@ PARCELS = {
       ],
       "id": "15-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.94476609224742
+      ],
+      "sqarcities": [
         0.45089360107135784
       ],
       "usage": "11"
@@ -37327,7 +39070,10 @@ PARCELS = {
       ],
       "id": "15-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.95385288122657
+      ],
+      "sqarcities": [
         0.7724599122422562
       ],
       "usage": "11"
@@ -37434,7 +39180,10 @@ PARCELS = {
       ],
       "id": "15-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.14194638318085
+      ],
+      "sqarcities": [
         0.661936918692811
       ],
       "usage": "11"
@@ -37493,7 +39242,10 @@ PARCELS = {
       ],
       "id": "15-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.713787598748482
+      ],
+      "sqarcities": [
         0.3671170109281897
       ],
       "usage": "17"
@@ -37548,7 +39300,10 @@ PARCELS = {
       ],
       "id": "15-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.669615757419265
+      ],
+      "sqarcities": [
         0.363240830225643
       ],
       "usage": "17"
@@ -37603,7 +39358,10 @@ PARCELS = {
       ],
       "id": "15-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.352146558323042
+      ],
+      "sqarcities": [
         0.3773120796336824
       ],
       "usage": "11"
@@ -37794,7 +39552,10 @@ PARCELS = {
       ],
       "id": "15-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.66752098674752
+      ],
+      "sqarcities": [
         0.32609582995296227
       ],
       "usage": "11"
@@ -37949,7 +39710,10 @@ PARCELS = {
       ],
       "id": "15-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.66752098674752
+      ],
+      "sqarcities": [
         0.333105694414132
       ],
       "usage": "11"
@@ -37992,7 +39756,10 @@ PARCELS = {
       ],
       "id": "15-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.27926051270127
+      ],
+      "sqarcities": [
         0.39730630951915524
       ],
       "usage": "22"
@@ -38039,7 +39806,10 @@ PARCELS = {
       ],
       "id": "15-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.525960704660292
+      ],
+      "sqarcities": [
         0.392292124313552
       ],
       "usage": "11"
@@ -38090,7 +39860,10 @@ PARCELS = {
       ],
       "id": "15-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.31702072060456
+      ],
+      "sqarcities": [
         0.3608323384184002
       ],
       "usage": "17"
@@ -38145,7 +39918,10 @@ PARCELS = {
       ],
       "id": "15-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.465121098300955
+      ],
+      "sqarcities": [
         0.392509342193884
       ],
       "usage": "11"
@@ -38204,7 +39980,10 @@ PARCELS = {
       ],
       "id": "15-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.766323220289877
+      ],
+      "sqarcities": [
         0.551864035746617
       ],
       "usage": "11"
@@ -38255,7 +40034,10 @@ PARCELS = {
       ],
       "id": "15-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.221678127249177
+      ],
+      "sqarcities": [
         0.27370883602885
       ],
       "usage": "11"
@@ -38374,7 +40156,10 @@ PARCELS = {
       ],
       "id": "15-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.462543388116785
+      ],
+      "sqarcities": [
         0.488361130117972
       ],
       "usage": "11"
@@ -38425,7 +40210,10 @@ PARCELS = {
       ],
       "id": "15-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.38161135530342
+      ],
+      "sqarcities": [
         0.5043710762459805
       ],
       "usage": "17"
@@ -38484,7 +40272,10 @@ PARCELS = {
       ],
       "id": "15-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.86440213128262
+      ],
+      "sqarcities": [
         0.5425252938888852
       ],
       "usage": "22"
@@ -38571,7 +40362,10 @@ PARCELS = {
       ],
       "id": "15-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.62829080151599
+      ],
+      "sqarcities": [
         0.5661006139452051
       ],
       "usage": "11"
@@ -38618,7 +40412,10 @@ PARCELS = {
       ],
       "id": "15-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.00681168845468
+      ],
+      "sqarcities": [
         0.5315621115271335
       ],
       "usage": "11"
@@ -38705,7 +40502,10 @@ PARCELS = {
       ],
       "id": "15-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        52.25056134777287
+      ],
+      "sqarcities": [
         0.5979819763486892
       ],
       "usage": "11"
@@ -38840,7 +40640,10 @@ PARCELS = {
       ],
       "id": "15-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.820260834859226
+      ],
+      "sqarcities": [
         0.5677704113525109
       ],
       "usage": "11"
@@ -38895,7 +40698,10 @@ PARCELS = {
       ],
       "id": "15-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.44686911093422
+      ],
+      "sqarcities": [
         0.5937205140100863
       ],
       "usage": "11"
@@ -38958,7 +40764,10 @@ PARCELS = {
       ],
       "id": "15-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.19541711059438
+      ],
+      "sqarcities": [
         0.6012783662430251
       ],
       "usage": "11"
@@ -39025,7 +40834,10 @@ PARCELS = {
       ],
       "id": "15-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.28081668288945
+      ],
+      "sqarcities": [
         0.39816411773811583
       ],
       "usage": "11"
@@ -39084,7 +40896,10 @@ PARCELS = {
       ],
       "id": "15-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.9754086386517997
+      ],
+      "sqarcities": [
         0.7618610207684051
       ],
       "usage": "11"
@@ -39139,7 +40954,10 @@ PARCELS = {
       ],
       "id": "15-92",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.9754086386517997
+      ],
+      "sqarcities": [
         0.7439027735076781
       ],
       "usage": "11"
@@ -39218,7 +41036,10 @@ PARCELS = {
       ],
       "id": "15-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.949724896231615
+      ],
+      "sqarcities": [
         0.6481089898801711
       ],
       "usage": "11"
@@ -39289,7 +41110,10 @@ PARCELS = {
       ],
       "id": "15-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.904713328507682
+      ],
+      "sqarcities": [
         0.6133594092424711
       ],
       "usage": "11"
@@ -39443,7 +41267,11 @@ PARCELS = {
       ],
       "id": "15-105",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.2685891248488,
+        39.20788505188651
+      ],
+      "sqarcities": [
         0.5026156207069606,
         0.5549931554697716
       ],
@@ -39503,7 +41331,10 @@ PARCELS = {
       ],
       "id": "15-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.22251490979707
+      ],
+      "sqarcities": [
         0.5087724382806423
       ],
       "usage": "11"
@@ -39562,7 +41393,10 @@ PARCELS = {
       ],
       "id": "15-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.436294778279063
+      ],
+      "sqarcities": [
         0.5293672676695201
       ],
       "usage": "11"
@@ -39636,7 +41470,11 @@ PARCELS = {
       ],
       "id": "15-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.04841244607296,
+        -58.669256972231395
+      ],
+      "sqarcities": [
         0.6396545205812743,
         0.6531882099234099
       ],
@@ -39696,7 +41534,10 @@ PARCELS = {
       ],
       "id": "15-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.05429226725896
+      ],
+      "sqarcities": [
         0.631781175994841
       ],
       "usage": "11"
@@ -39739,7 +41580,10 @@ PARCELS = {
       ],
       "id": "16-126",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.81701365633664
+      ],
+      "sqarcities": [
         0.38747689676525215
       ],
       "usage": "11"
@@ -39794,7 +41638,10 @@ PARCELS = {
       ],
       "id": "15-115",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.21286811785214
+      ],
+      "sqarcities": [
         0.7997465194961837
       ],
       "usage": "11"
@@ -39837,7 +41684,10 @@ PARCELS = {
       ],
       "id": "15-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.89042904770415
+      ],
+      "sqarcities": [
         0.7458419395957464
       ],
       "usage": "11"
@@ -39884,7 +41734,10 @@ PARCELS = {
       ],
       "id": "15-123",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.33020636464602
+      ],
+      "sqarcities": [
         0.7275327724989055
       ],
       "usage": "11"
@@ -39951,7 +41804,10 @@ PARCELS = {
       ],
       "id": "15-125",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.43848421124238
+      ],
+      "sqarcities": [
         0.768812176973151
       ],
       "usage": "22"
@@ -40010,7 +41866,10 @@ PARCELS = {
       ],
       "id": "15-128",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.668124646097397
+      ],
+      "sqarcities": [
         0.7125962727863189
       ],
       "usage": "11"
@@ -40069,7 +41928,10 @@ PARCELS = {
       ],
       "id": "15-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.668124646097397
+      ],
+      "sqarcities": [
         0.7877151815425978
       ],
       "usage": "11"
@@ -40156,7 +42018,10 @@ PARCELS = {
       ],
       "id": "15-132",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.26109476076343
+      ],
+      "sqarcities": [
         0.6181683450998223
       ],
       "usage": "11"
@@ -40363,7 +42228,10 @@ PARCELS = {
       ],
       "id": "15-141",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.39005305486512
+      ],
+      "sqarcities": [
         0.396392119586307
       ],
       "usage": "11"
@@ -40414,7 +42282,10 @@ PARCELS = {
       ],
       "id": "15-145",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.365879095938595
+      ],
+      "sqarcities": [
         0.5489806886218371
       ],
       "usage": "11"
@@ -40477,7 +42348,10 @@ PARCELS = {
       ],
       "id": "15-148",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.6849094558997137
+      ],
+      "sqarcities": [
         0.8165109630301999
       ],
       "usage": "11"
@@ -40520,7 +42394,10 @@ PARCELS = {
       ],
       "id": "15-149",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.616070277403466
+      ],
+      "sqarcities": [
         0.7162114220827651
       ],
       "usage": "11"
@@ -40571,7 +42448,10 @@ PARCELS = {
       ],
       "id": "15-150",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.1247029954014
+      ],
+      "sqarcities": [
         0.7602234453911643
       ],
       "usage": "11"
@@ -40614,7 +42494,10 @@ PARCELS = {
       ],
       "id": "15-152",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.18039030646119
+      ],
+      "sqarcities": [
         0.6353238686580814
       ],
       "usage": "11"
@@ -40697,7 +42580,10 @@ PARCELS = {
       ],
       "id": "15-156",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.92242672490164
+      ],
+      "sqarcities": [
         0.3230046289678358
       ],
       "usage": "19"
@@ -40844,7 +42730,10 @@ PARCELS = {
       ],
       "id": "16-2-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -35.60528383877624
+      ],
+      "sqarcities": [
         0.5201709127014053
       ],
       "usage": "11"
@@ -40915,7 +42804,10 @@ PARCELS = {
       ],
       "id": "16-7-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.79469529613223
+      ],
+      "sqarcities": [
         0.6705533205320836
       ],
       "usage": "11"
@@ -40994,7 +42886,10 @@ PARCELS = {
       ],
       "id": "16-7-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.80735738116462
+      ],
+      "sqarcities": [
         0.5937532868576757
       ],
       "usage": "11"
@@ -41069,7 +42964,10 @@ PARCELS = {
       ],
       "id": "16-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.87914341620811
+      ],
+      "sqarcities": [
         0.6001707664128413
       ],
       "usage": "11"
@@ -41132,7 +43030,10 @@ PARCELS = {
       ],
       "id": "16-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.68258541267019
+      ],
+      "sqarcities": [
         0.6803184128125759
       ],
       "usage": "11"
@@ -41231,7 +43132,10 @@ PARCELS = {
       ],
       "id": "16-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.19198349614916
+      ],
+      "sqarcities": [
         0.7403928951747399
       ],
       "usage": "11"
@@ -41286,7 +43190,10 @@ PARCELS = {
       ],
       "id": "16-77-05",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.37338514467007
+      ],
+      "sqarcities": [
         0.5095042065978456
       ],
       "usage": "11"
@@ -41361,7 +43268,10 @@ PARCELS = {
       ],
       "id": "16-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.10576606158196
+      ],
+      "sqarcities": [
         0.6329843084447927
       ],
       "usage": "11"
@@ -41408,7 +43318,10 @@ PARCELS = {
       ],
       "id": "16-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.123218233066098
+      ],
+      "sqarcities": [
         0.6770702393119233
       ],
       "usage": "11"
@@ -41459,7 +43372,10 @@ PARCELS = {
       ],
       "id": "16-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.62282392940783
+      ],
+      "sqarcities": [
         0.7436626830992799
       ],
       "usage": "11"
@@ -41514,7 +43430,10 @@ PARCELS = {
       ],
       "id": "16-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.803294487071724
+      ],
+      "sqarcities": [
         0.8107012901008822
       ],
       "usage": "11"
@@ -41557,7 +43476,10 @@ PARCELS = {
       ],
       "id": "16-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -40.72524029090787
+      ],
+      "sqarcities": [
         0.7349821242385947
       ],
       "usage": "19"
@@ -41600,7 +43522,10 @@ PARCELS = {
       ],
       "id": "16-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.28874191356520384
+      ],
+      "sqarcities": [
         0.7433469012654007
       ],
       "usage": "11"
@@ -41643,7 +43568,10 @@ PARCELS = {
       ],
       "id": "16-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.32999515626169
+      ],
+      "sqarcities": [
         0.7759430265444769
       ],
       "usage": "11"
@@ -41686,7 +43614,10 @@ PARCELS = {
       ],
       "id": "16-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.85203582739082
+      ],
+      "sqarcities": [
         0.687587561923332
       ],
       "usage": "11"
@@ -41753,7 +43684,10 @@ PARCELS = {
       ],
       "id": "16-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.63038334781865
+      ],
+      "sqarcities": [
         0.5735627519947415
       ],
       "usage": "11"
@@ -41800,7 +43734,10 @@ PARCELS = {
       ],
       "id": "16-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.7511442150936
+      ],
+      "sqarcities": [
         0.5764182982876161
       ],
       "usage": "11"
@@ -41847,7 +43784,10 @@ PARCELS = {
       ],
       "id": "16-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.7511442150936
+      ],
+      "sqarcities": [
         0.621098601776337
       ],
       "usage": "27"
@@ -41970,7 +43910,10 @@ PARCELS = {
       ],
       "id": "16-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.17467510655277
+      ],
+      "sqarcities": [
         0.5463863188596353
       ],
       "usage": "11"
@@ -42045,7 +43988,10 @@ PARCELS = {
       ],
       "id": "16-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.81701365633664
+      ],
+      "sqarcities": [
         0.7267690519848234
       ],
       "usage": "11"
@@ -42124,7 +44070,10 @@ PARCELS = {
       ],
       "id": "16-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.9723357695914
+      ],
+      "sqarcities": [
         0.7301165895631694
       ],
       "usage": "11"
@@ -42239,7 +44188,10 @@ PARCELS = {
       ],
       "id": "16-70-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.40482580803729
+      ],
+      "sqarcities": [
         0.6020106204229158
       ],
       "usage": "19"
@@ -42386,7 +44338,10 @@ PARCELS = {
       ],
       "id": "16-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.83663092216597
+      ],
+      "sqarcities": [
         0.6739676621146966
       ],
       "usage": "11"
@@ -42437,7 +44392,10 @@ PARCELS = {
       ],
       "id": "16-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.69553606785206
+      ],
+      "sqarcities": [
         0.31435887035307286
       ],
       "usage": "11"
@@ -42516,7 +44474,10 @@ PARCELS = {
       ],
       "id": "16-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.57487914696455
+      ],
+      "sqarcities": [
         0.6513756635934721
       ],
       "usage": "58"
@@ -42563,7 +44524,10 @@ PARCELS = {
       ],
       "id": "16-77-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.782220209449576
+      ],
+      "sqarcities": [
         0.4604834958893708
       ],
       "usage": "11"
@@ -42606,7 +44570,10 @@ PARCELS = {
       ],
       "id": "16-77-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.64337874852978
+      ],
+      "sqarcities": [
         0.4659082127266287
       ],
       "usage": "17"
@@ -42741,7 +44708,10 @@ PARCELS = {
       ],
       "id": "16-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.856856236822367
+      ],
+      "sqarcities": [
         0.461666695264681
       ],
       "usage": "11"
@@ -42864,7 +44834,10 @@ PARCELS = {
       ],
       "id": "16-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.969391523423525
+      ],
+      "sqarcities": [
         0.6056293096937847
       ],
       "usage": "33"
@@ -42991,7 +44964,10 @@ PARCELS = {
       ],
       "id": "16-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.13855955520373
+      ],
+      "sqarcities": [
         0.6842400625709951
       ],
       "usage": "11"
@@ -43038,7 +45014,10 @@ PARCELS = {
       ],
       "id": "16-88",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.25866445746476
+      ],
+      "sqarcities": [
         0.3316752957019749
       ],
       "usage": "11"
@@ -43093,7 +45072,10 @@ PARCELS = {
       ],
       "id": "16-92",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.230276948908838
+      ],
+      "sqarcities": [
         0.5913279118232346
       ],
       "usage": "11"
@@ -43140,7 +45122,10 @@ PARCELS = {
       ],
       "id": "16-93",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -27.860985695065246
+      ],
+      "sqarcities": [
         0.26584812688121395
       ],
       "usage": "11"
@@ -43187,7 +45172,10 @@ PARCELS = {
       ],
       "id": "16-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.043505590147575
+      ],
+      "sqarcities": [
         0.3026519682494695
       ],
       "usage": "11"
@@ -43242,7 +45230,10 @@ PARCELS = {
       ],
       "id": "16-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.83691383334912
+      ],
+      "sqarcities": [
         0.34897130004416577
       ],
       "usage": "17"
@@ -43285,7 +45276,10 @@ PARCELS = {
       ],
       "id": "16-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.13769056333962
+      ],
+      "sqarcities": [
         0.3388551554085636
       ],
       "usage": "11"
@@ -43344,7 +45338,10 @@ PARCELS = {
       ],
       "id": "16-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.518859996172267
+      ],
+      "sqarcities": [
         0.28576524600110287
       ],
       "usage": "11"
@@ -43415,7 +45412,10 @@ PARCELS = {
       ],
       "id": "16-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.102311343390056
+      ],
+      "sqarcities": [
         0.3709846192311013
       ],
       "usage": "11"
@@ -43458,7 +45458,10 @@ PARCELS = {
       ],
       "id": "16-124",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.83746001272608
+      ],
+      "sqarcities": [
         0.41919825284111584
       ],
       "usage": "17"
@@ -43537,7 +45540,10 @@ PARCELS = {
       ],
       "id": "16-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.15172787931985
+      ],
+      "sqarcities": [
         0.8059575717058954
       ],
       "usage": "11"
@@ -43628,7 +45634,10 @@ PARCELS = {
       ],
       "id": "16-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.431091599544814
+      ],
+      "sqarcities": [
         0.75429244490963
       ],
       "usage": "11"
@@ -43679,7 +45688,10 @@ PARCELS = {
       ],
       "id": "16-121",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.524015479066776
+      ],
+      "sqarcities": [
         0.7608571185414413
       ],
       "usage": "11"
@@ -43730,7 +45742,10 @@ PARCELS = {
       ],
       "id": "16-123",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.61817717511553
+      ],
+      "sqarcities": [
         0.4189798540350404
       ],
       "usage": "17"
@@ -43773,7 +45788,10 @@ PARCELS = {
       ],
       "id": "16-125",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.94016068154505
+      ],
+      "sqarcities": [
         0.33698212985126197
       ],
       "usage": "17"
@@ -43832,7 +45850,10 @@ PARCELS = {
       ],
       "id": "16-128",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.792463482252458
+      ],
+      "sqarcities": [
         0.4943158425230967
       ],
       "usage": "11"
@@ -43899,7 +45920,10 @@ PARCELS = {
       ],
       "id": "16-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.030474085183542
+      ],
+      "sqarcities": [
         0.29750333550926344
       ],
       "usage": "11"
@@ -44014,7 +46038,10 @@ PARCELS = {
       ],
       "id": "17-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.04354542522444
+      ],
+      "sqarcities": [
         0.4357559293102792
       ],
       "usage": "11"
@@ -44057,7 +46084,10 @@ PARCELS = {
       ],
       "id": "17-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.752618795705175
+      ],
+      "sqarcities": [
         0.6760402375340223
       ],
       "usage": "11"
@@ -44124,7 +46154,10 @@ PARCELS = {
       ],
       "id": "17-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.32294783937581
+      ],
+      "sqarcities": [
         0.400192773901024
       ],
       "usage": "11"
@@ -44183,7 +46216,10 @@ PARCELS = {
       ],
       "id": "17-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.759660953643859
+      ],
+      "sqarcities": [
         0.4538556229806663
       ],
       "usage": "11"
@@ -44242,7 +46278,10 @@ PARCELS = {
       ],
       "id": "17-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.83920947452583
+      ],
+      "sqarcities": [
         0.7761966766985735
       ],
       "usage": "11"
@@ -44293,7 +46332,10 @@ PARCELS = {
       ],
       "id": "17-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.4746801967105
+      ],
+      "sqarcities": [
         0.6270456703412802
       ],
       "usage": "11"
@@ -44356,7 +46398,10 @@ PARCELS = {
       ],
       "id": "17-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -37.9596902342603
+      ],
+      "sqarcities": [
         0.6669817421988629
       ],
       "usage": "11"
@@ -44450,7 +46495,11 @@ PARCELS = {
       ],
       "id": "17-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.10115689144118,
+        58.2310100206297
+      ],
+      "sqarcities": [
         0.6267860601987365,
         0.6897209630458833
       ],
@@ -44502,7 +46551,10 @@ PARCELS = {
       ],
       "id": "17-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.420825323132647
+      ],
+      "sqarcities": [
         0.5660770988719281
       ],
       "usage": "17"
@@ -44576,7 +46628,11 @@ PARCELS = {
       ],
       "id": "17-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.393161009102755,
+        59.06255902914489
+      ],
+      "sqarcities": [
         0.7887900127276846,
         0.7843318385407612
       ],
@@ -44659,7 +46715,11 @@ PARCELS = {
       ],
       "id": "17-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.52965464006675,
+        27.37946079042733
+      ],
+      "sqarcities": [
         0.7396539328735089,
         0.7516250012591018
       ],
@@ -44754,7 +46814,11 @@ PARCELS = {
       ],
       "id": "17-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.053804374592985,
+        14.34184297814403
+      ],
+      "sqarcities": [
         0.7526593040900316,
         0.6832085108118974
       ],
@@ -44810,7 +46874,10 @@ PARCELS = {
       ],
       "id": "17-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.039195707161767
+      ],
+      "sqarcities": [
         0.5230640984622297
       ],
       "usage": "11"
@@ -44853,7 +46920,10 @@ PARCELS = {
       ],
       "id": "22-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.03051737212047
+      ],
+      "sqarcities": [
         0.6000557965700086
       ],
       "usage": "11"
@@ -45000,7 +47070,10 @@ PARCELS = {
       ],
       "id": "17-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.27124897671618
+      ],
+      "sqarcities": [
         0.5839319206663954
       ],
       "usage": "11"
@@ -45126,7 +47199,11 @@ PARCELS = {
       ],
       "id": "17-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.488026628900315,
+        46.80689267129847
+      ],
+      "sqarcities": [
         0.6487453173833903,
         0.26691091209950246
       ],
@@ -45190,7 +47267,10 @@ PARCELS = {
       ],
       "id": "19-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.554182916205008
+      ],
+      "sqarcities": [
         0.6494771280505409
       ],
       "usage": "11"
@@ -45241,7 +47321,10 @@ PARCELS = {
       ],
       "id": "20-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.82462481699838
+      ],
+      "sqarcities": [
         0.6057677686780949
       ],
       "usage": "22"
@@ -45320,7 +47403,10 @@ PARCELS = {
       ],
       "id": "20-124",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.819023174971491
+      ],
+      "sqarcities": [
         0.48517010838830843
       ],
       "usage": "11"
@@ -45395,7 +47481,10 @@ PARCELS = {
       ],
       "id": "20-125",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.358130386848899
+      ],
+      "sqarcities": [
         0.3723043044703168
       ],
       "usage": "19"
@@ -45470,7 +47559,10 @@ PARCELS = {
       ],
       "id": "20-137",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.62361578416538
+      ],
+      "sqarcities": [
         0.8001548184107558
       ],
       "usage": "11"
@@ -45521,7 +47613,10 @@ PARCELS = {
       ],
       "id": "20-138",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -36.94273138982217
+      ],
+      "sqarcities": [
         0.65073306054899
       ],
       "usage": "11"
@@ -45572,7 +47667,10 @@ PARCELS = {
       ],
       "id": "20-139",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.989419542680587
+      ],
+      "sqarcities": [
         0.6221231362963189
       ],
       "usage": "19"
@@ -45623,7 +47721,10 @@ PARCELS = {
       ],
       "id": "20-140",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.484419996673864
+      ],
+      "sqarcities": [
         0.6447036177234163
       ],
       "usage": "11"
@@ -45678,7 +47779,10 @@ PARCELS = {
       ],
       "id": "20-142",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -35.27174962437736
+      ],
+      "sqarcities": [
         0.5984690770938619
       ],
       "usage": "19"
@@ -45741,7 +47845,10 @@ PARCELS = {
       ],
       "id": "20-150",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.953323459528278
+      ],
+      "sqarcities": [
         0.49037234156405085
       ],
       "usage": "11"
@@ -45792,7 +47899,10 @@ PARCELS = {
       ],
       "id": "22-5-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.88287313426815
+      ],
+      "sqarcities": [
         0.6742227301187711
       ],
       "usage": "11"
@@ -45867,7 +47977,10 @@ PARCELS = {
       ],
       "id": "20-171",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.746006674550728
+      ],
+      "sqarcities": [
         0.5441129022543653
       ],
       "usage": "11"
@@ -45934,7 +48047,10 @@ PARCELS = {
       ],
       "id": "20-173",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.5176668296392
+      ],
+      "sqarcities": [
         0.540209439065369
       ],
       "usage": "11"
@@ -46001,7 +48117,10 @@ PARCELS = {
       ],
       "id": "20-174",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.5176668296392
+      ],
+      "sqarcities": [
         0.5310127474184783
       ],
       "usage": "11"
@@ -46064,7 +48183,10 @@ PARCELS = {
       ],
       "id": "20-175",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.166286942124827
+      ],
+      "sqarcities": [
         0.6314095262701744
       ],
       "usage": "11"
@@ -46135,7 +48257,10 @@ PARCELS = {
       ],
       "id": "20-183",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.406161148449371
+      ],
+      "sqarcities": [
         0.3083874194841509
       ],
       "usage": "11"
@@ -46198,7 +48323,10 @@ PARCELS = {
       ],
       "id": "20-186",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.410417127436929
+      ],
+      "sqarcities": [
         0.262949768704132
       ],
       "usage": "11"
@@ -46301,7 +48429,10 @@ PARCELS = {
       ],
       "id": "21-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.49388507554951
+      ],
+      "sqarcities": [
         0.6750061592122942
       ],
       "usage": "11"
@@ -46344,7 +48475,10 @@ PARCELS = {
       ],
       "id": "22-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.15299018170481
+      ],
+      "sqarcities": [
         0.730437559067141
       ],
       "usage": "11"
@@ -46435,7 +48569,10 @@ PARCELS = {
       ],
       "id": "21-9-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -75.76110252474471
+      ],
+      "sqarcities": [
         0.2826123831143071
       ],
       "usage": "11"
@@ -46482,7 +48619,10 @@ PARCELS = {
       ],
       "id": "21-9-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.0453836441005
+      ],
+      "sqarcities": [
         0.43087185521390414
       ],
       "usage": "11"
@@ -46557,7 +48697,10 @@ PARCELS = {
       ],
       "id": "21-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.74257582211843
+      ],
+      "sqarcities": [
         0.4285792042993443
       ],
       "usage": "11"
@@ -46608,7 +48751,10 @@ PARCELS = {
       ],
       "id": "21-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        88.40414483908972
+      ],
+      "sqarcities": [
         0.31473724837011985
       ],
       "usage": "11"
@@ -46663,7 +48809,10 @@ PARCELS = {
       ],
       "id": "21-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.76309810804602
+      ],
+      "sqarcities": [
         0.2585735493547076
       ],
       "usage": "17"
@@ -46710,7 +48859,10 @@ PARCELS = {
       ],
       "id": "21-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.76309810804602
+      ],
+      "sqarcities": [
         0.23932937472964547
       ],
       "usage": "11"
@@ -46785,7 +48937,10 @@ PARCELS = {
       ],
       "id": "21-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.29159334937347
+      ],
+      "sqarcities": [
         0.47647654236429093
       ],
       "usage": "11"
@@ -46832,7 +48987,10 @@ PARCELS = {
       ],
       "id": "22-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.78961903531971
+      ],
+      "sqarcities": [
         0.5997671461410607
       ],
       "usage": "11"
@@ -46907,7 +49065,10 @@ PARCELS = {
       ],
       "id": "22-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.88316916283142
+      ],
+      "sqarcities": [
         0.35048056443588044
       ],
       "usage": "11"
@@ -46978,7 +49139,10 @@ PARCELS = {
       ],
       "id": "22-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.48039656138775
+      ],
+      "sqarcities": [
         0.495984935192594
       ],
       "usage": "11"
@@ -47057,7 +49221,10 @@ PARCELS = {
       ],
       "id": "22-12-0S",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.88356694517438
+      ],
+      "sqarcities": [
         0.6404760762479568
       ],
       "usage": "27"
@@ -47140,7 +49307,10 @@ PARCELS = {
       ],
       "id": "22-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.51073771598614
+      ],
+      "sqarcities": [
         0.7164508942687767
       ],
       "usage": "11"
@@ -47195,7 +49365,10 @@ PARCELS = {
       ],
       "id": "22-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.47540710713002
+      ],
+      "sqarcities": [
         0.5106693426007068
       ],
       "usage": "11"
@@ -47246,7 +49419,10 @@ PARCELS = {
       ],
       "id": "22-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.058973443763634
+      ],
+      "sqarcities": [
         0.7459191618289106
       ],
       "usage": "11"
@@ -47337,7 +49513,10 @@ PARCELS = {
       ],
       "id": "22-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        41.64739404654216
+      ],
+      "sqarcities": [
         0.4808232418033112
       ],
       "usage": "11"
@@ -47380,7 +49559,10 @@ PARCELS = {
       ],
       "id": "22-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.80777108675109
+      ],
+      "sqarcities": [
         0.7508063371521514
       ],
       "usage": "11"
@@ -47439,7 +49621,10 @@ PARCELS = {
       ],
       "id": "22-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.34831835239896
+      ],
+      "sqarcities": [
         0.5542374306768869
       ],
       "usage": "11"
@@ -47482,7 +49667,10 @@ PARCELS = {
       ],
       "id": "22-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.97034586534468
+      ],
+      "sqarcities": [
         0.6868627930220086
       ],
       "usage": "11"
@@ -47533,7 +49721,10 @@ PARCELS = {
       ],
       "id": "22-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.36022047464331
+      ],
+      "sqarcities": [
         0.787422330190079
       ],
       "usage": "11"
@@ -47576,7 +49767,10 @@ PARCELS = {
       ],
       "id": "22-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.27774677799985
+      ],
+      "sqarcities": [
         0.7774764282004716
       ],
       "usage": "11"
@@ -47667,7 +49861,10 @@ PARCELS = {
       ],
       "id": "22-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.242216375039888
+      ],
+      "sqarcities": [
         0.5790195955889671
       ],
       "usage": "11"
@@ -47718,7 +49915,10 @@ PARCELS = {
       ],
       "id": "22-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.13929060597393
+      ],
+      "sqarcities": [
         0.5295428179427389
       ],
       "usage": "11"
@@ -47781,7 +49981,10 @@ PARCELS = {
       ],
       "id": "22-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.13943452810264
+      ],
+      "sqarcities": [
         0.7287543967562609
       ],
       "usage": "11"
@@ -47860,7 +50063,10 @@ PARCELS = {
       ],
       "id": "22-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.98654978634572
+      ],
+      "sqarcities": [
         0.5082315106757822
       ],
       "usage": "11"
@@ -47904,7 +50110,10 @@ PARCELS = {
       ],
       "id": "22-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.32802725545616
+      ],
+      "sqarcities": [
         0.28072070751039124
       ],
       "usage": "11"
@@ -48075,7 +50284,10 @@ PARCELS = {
       ],
       "id": "22-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.5484771797105
+      ],
+      "sqarcities": [
         0.4132033255199204
       ],
       "usage": "11"
@@ -48134,7 +50346,10 @@ PARCELS = {
       ],
       "id": "22-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.82866604942001
+      ],
+      "sqarcities": [
         0.6193187930700488
       ],
       "usage": "11"
@@ -48193,7 +50408,10 @@ PARCELS = {
       ],
       "id": "22-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.215342508338324
+      ],
+      "sqarcities": [
         0.5137804383438876
       ],
       "usage": "11"
@@ -48288,7 +50506,10 @@ PARCELS = {
       ],
       "id": "22-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.07030989664207
+      ],
+      "sqarcities": [
         0.6570988368796938
       ],
       "usage": "11"
@@ -48347,7 +50568,10 @@ PARCELS = {
       ],
       "id": "22-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.069918346721053
+      ],
+      "sqarcities": [
         0.41031103165052835
       ],
       "usage": "11"
@@ -48394,7 +50618,10 @@ PARCELS = {
       ],
       "id": "22-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.23608142953276
+      ],
+      "sqarcities": [
         0.7622059451746389
       ],
       "usage": "11"
@@ -48457,7 +50684,10 @@ PARCELS = {
       ],
       "id": "22-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.6576373985572
+      ],
+      "sqarcities": [
         0.6641608750629429
       ],
       "usage": "33"
@@ -48512,7 +50742,10 @@ PARCELS = {
       ],
       "id": "22-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.553256931340556
+      ],
+      "sqarcities": [
         0.7794764858130159
       ],
       "usage": "11"
@@ -48571,7 +50804,10 @@ PARCELS = {
       ],
       "id": "22-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.19259037941754
+      ],
+      "sqarcities": [
         0.7556225473333567
       ],
       "usage": "11"
@@ -48622,7 +50858,10 @@ PARCELS = {
       ],
       "id": "22-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.19331234429521
+      ],
+      "sqarcities": [
         0.5902034054090367
       ],
       "usage": "11"
@@ -48673,7 +50912,10 @@ PARCELS = {
       ],
       "id": "22-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.303833893636835
+      ],
+      "sqarcities": [
         0.6211186286500741
       ],
       "usage": "33"
@@ -48725,7 +50967,10 @@ PARCELS = {
       ],
       "id": "22-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.91600679978606
+      ],
+      "sqarcities": [
         0.649343312155514
       ],
       "usage": "11"
@@ -48784,7 +51029,10 @@ PARCELS = {
       ],
       "id": "22-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.383625742680493
+      ],
+      "sqarcities": [
         0.60259734083099
       ],
       "usage": "11"
@@ -48831,7 +51079,10 @@ PARCELS = {
       ],
       "id": "22-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.6335096713398656
+      ],
+      "sqarcities": [
         0.5386259667309867
       ],
       "usage": "11"
@@ -48878,7 +51129,10 @@ PARCELS = {
       ],
       "id": "23-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.43715045373673
+      ],
+      "sqarcities": [
         0.735758902472696
       ],
       "usage": "11"
@@ -48921,7 +51175,10 @@ PARCELS = {
       ],
       "id": "23-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.1263046332922
+      ],
+      "sqarcities": [
         0.7520527869959918
       ],
       "usage": "11"
@@ -48980,7 +51237,10 @@ PARCELS = {
       ],
       "id": "23-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.56249006571244
+      ],
+      "sqarcities": [
         0.7486395701882809
       ],
       "usage": "11"
@@ -49031,7 +51291,10 @@ PARCELS = {
       ],
       "id": "23-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.35594059162203
+      ],
+      "sqarcities": [
         0.6282628325313708
       ],
       "usage": "11"
@@ -49074,7 +51337,10 @@ PARCELS = {
       ],
       "id": "23-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.708624680516877
+      ],
+      "sqarcities": [
         0.6337403121784554
       ],
       "usage": "11"
@@ -49117,7 +51383,10 @@ PARCELS = {
       ],
       "id": "23-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.948555016204779
+      ],
+      "sqarcities": [
         0.7355491885987151
       ],
       "usage": "11"
@@ -49160,7 +51429,10 @@ PARCELS = {
       ],
       "id": "23-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.73251731625186
+      ],
+      "sqarcities": [
         0.47230038263585544
       ],
       "usage": "11"
@@ -49231,7 +51503,10 @@ PARCELS = {
       ],
       "id": "23-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.92289728913576
+      ],
+      "sqarcities": [
         0.6464382456658899
       ],
       "usage": "11"
@@ -49278,7 +51553,10 @@ PARCELS = {
       ],
       "id": "23-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.52847450895278
+      ],
+      "sqarcities": [
         0.7985040165443537
       ],
       "usage": "11"
@@ -49325,7 +51603,10 @@ PARCELS = {
       ],
       "id": "23-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.52847450895278
+      ],
+      "sqarcities": [
         0.7883265745168082
       ],
       "usage": "11"
@@ -49368,7 +51649,10 @@ PARCELS = {
       ],
       "id": "23-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.993142285426259
+      ],
+      "sqarcities": [
         0.7673969282987778
       ],
       "usage": "11"
@@ -49439,7 +51723,10 @@ PARCELS = {
       ],
       "id": "23-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.7968685573278
+      ],
+      "sqarcities": [
         0.7245352386879093
       ],
       "usage": "11"
@@ -49494,7 +51781,10 @@ PARCELS = {
       ],
       "id": "23-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.4156957635478022
+      ],
+      "sqarcities": [
         0.7400055112107661
       ],
       "usage": "27"
@@ -49549,7 +51839,10 @@ PARCELS = {
       ],
       "id": "23-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.06265396230480746
+      ],
+      "sqarcities": [
         0.4084940315045054
       ],
       "usage": "11"
@@ -49620,7 +51913,10 @@ PARCELS = {
       ],
       "id": "23-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.42024284159983
+      ],
+      "sqarcities": [
         0.6000734597680737
       ],
       "usage": "11"
@@ -49663,7 +51959,10 @@ PARCELS = {
       ],
       "id": "23-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        27.16251901422895
+      ],
+      "sqarcities": [
         0.7235625085857694
       ],
       "usage": "11"
@@ -49710,7 +52009,10 @@ PARCELS = {
       ],
       "id": "23-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        25.758201756087075
+      ],
+      "sqarcities": [
         0.6978601755661561
       ],
       "usage": "11"
@@ -49757,7 +52059,10 @@ PARCELS = {
       ],
       "id": "23-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.347889608396599
+      ],
+      "sqarcities": [
         0.7173466416211715
       ],
       "usage": "11"
@@ -49812,7 +52117,10 @@ PARCELS = {
       ],
       "id": "23-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.17459553147634
+      ],
+      "sqarcities": [
         0.5435484764590922
       ],
       "usage": "11"
@@ -49871,7 +52179,10 @@ PARCELS = {
       ],
       "id": "23-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.94011923196649
+      ],
+      "sqarcities": [
         0.6721983081989258
       ],
       "usage": "22"
@@ -49918,7 +52229,10 @@ PARCELS = {
       ],
       "id": "23-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.49514479417019
+      ],
+      "sqarcities": [
         0.40340885837493473
       ],
       "usage": "11"
@@ -49973,7 +52287,10 @@ PARCELS = {
       ],
       "id": "23-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.34253617080014
+      ],
+      "sqarcities": [
         0.6117274733571101
       ],
       "usage": "11"
@@ -50036,7 +52353,10 @@ PARCELS = {
       ],
       "id": "23-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.414713867853564
+      ],
+      "sqarcities": [
         0.5272971866353412
       ],
       "usage": "11"
@@ -50087,7 +52407,10 @@ PARCELS = {
       ],
       "id": "23-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -75.71387527335416
+      ],
+      "sqarcities": [
         0.7420055277921805
       ],
       "usage": "22"
@@ -50166,7 +52489,10 @@ PARCELS = {
       ],
       "id": "23-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.108079731362153
+      ],
+      "sqarcities": [
         0.4917082306652521
       ],
       "usage": "11"
@@ -50253,7 +52579,10 @@ PARCELS = {
       ],
       "id": "23-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.983766571417
+      ],
+      "sqarcities": [
         0.5711640376155913
       ],
       "usage": "11"
@@ -50407,7 +52736,11 @@ PARCELS = {
       ],
       "id": "23-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.83529658157498,
+        -6.7019917572715855
+      ],
+      "sqarcities": [
         0.5906885379427225,
         0.48454602306637434
       ],
@@ -50495,7 +52828,10 @@ PARCELS = {
       ],
       "id": "23-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        27.296261349904754
+      ],
+      "sqarcities": [
         0.7923414211023778
       ],
       "usage": "11"
@@ -50550,7 +52886,10 @@ PARCELS = {
       ],
       "id": "24-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.70847455318429
+      ],
+      "sqarcities": [
         0.47067250853381287
       ],
       "usage": "27"
@@ -50709,7 +53048,10 @@ PARCELS = {
       ],
       "id": "23-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.2424488913423772
+      ],
+      "sqarcities": [
         0.6720441857078
       ],
       "usage": "11"
@@ -50836,7 +53178,10 @@ PARCELS = {
       ],
       "id": "23-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.5458582558059533
+      ],
+      "sqarcities": [
         0.5758234765559455
       ],
       "usage": "11"
@@ -50879,7 +53224,10 @@ PARCELS = {
       ],
       "id": "23-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.352607420606006
+      ],
+      "sqarcities": [
         0.639464573241047
       ],
       "usage": "11"
@@ -50930,7 +53278,10 @@ PARCELS = {
       ],
       "id": "23-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.837827167504486
+      ],
+      "sqarcities": [
         0.7920042546356975
       ],
       "usage": "11"
@@ -50977,7 +53328,10 @@ PARCELS = {
       ],
       "id": "23-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.15230445140475
+      ],
+      "sqarcities": [
         0.5495555651040789
       ],
       "usage": "11"
@@ -51092,7 +53446,10 @@ PARCELS = {
       ],
       "id": "24-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.87411899715525
+      ],
+      "sqarcities": [
         0.5305869485869492
       ],
       "usage": "11"
@@ -51155,7 +53512,10 @@ PARCELS = {
       ],
       "id": "24-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.52171127744566
+      ],
+      "sqarcities": [
         0.6742977882494945
       ],
       "usage": "17"
@@ -51210,7 +53570,10 @@ PARCELS = {
       ],
       "id": "24-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.980899572705056
+      ],
+      "sqarcities": [
         0.7347922555617555
       ],
       "usage": "19"
@@ -51269,7 +53632,10 @@ PARCELS = {
       ],
       "id": "24-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.17215303918962
+      ],
+      "sqarcities": [
         0.6565955870172198
       ],
       "usage": "11"
@@ -51312,7 +53678,10 @@ PARCELS = {
       ],
       "id": "24-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.24124605787469
+      ],
+      "sqarcities": [
         0.5760285345771815
       ],
       "usage": "11"
@@ -51355,7 +53724,10 @@ PARCELS = {
       ],
       "id": "24-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.93657434749812
+      ],
+      "sqarcities": [
         0.7244051653087576
       ],
       "usage": "11"
@@ -51398,7 +53770,10 @@ PARCELS = {
       ],
       "id": "24-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.03997763378899
+      ],
+      "sqarcities": [
         0.7203107084340881
       ],
       "usage": "11"
@@ -51441,7 +53816,10 @@ PARCELS = {
       ],
       "id": "24-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.59896476641708
+      ],
+      "sqarcities": [
         0.6844119669795138
       ],
       "usage": "22"
@@ -51596,7 +53974,10 @@ PARCELS = {
       ],
       "id": "24-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.47583249474161
+      ],
+      "sqarcities": [
         0.5883919409213874
       ],
       "usage": "11"
@@ -51655,7 +54036,10 @@ PARCELS = {
       ],
       "id": "24-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -55.868633440922444
+      ],
+      "sqarcities": [
         0.6701385709536312
       ],
       "usage": "17"
@@ -51698,7 +54082,10 @@ PARCELS = {
       ],
       "id": "24-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.980899572705056
+      ],
+      "sqarcities": [
         0.6292799639058567
       ],
       "usage": "22"
@@ -51757,7 +54144,10 @@ PARCELS = {
       ],
       "id": "24-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.68275778437591
+      ],
+      "sqarcities": [
         0.7814041946753001
       ],
       "usage": "11"
@@ -51800,7 +54190,10 @@ PARCELS = {
       ],
       "id": "24-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.713439601232267
+      ],
+      "sqarcities": [
         0.7727131695206199
       ],
       "usage": "11"
@@ -51843,7 +54236,10 @@ PARCELS = {
       ],
       "id": "24-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.633061565420576
+      ],
+      "sqarcities": [
         0.6290099227583283
       ],
       "usage": "17"
@@ -51890,7 +54286,10 @@ PARCELS = {
       ],
       "id": "24-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.083620433495966
+      ],
+      "sqarcities": [
         0.7024242946541628
       ],
       "usage": "11"
@@ -51941,7 +54340,10 @@ PARCELS = {
       ],
       "id": "24-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.083620433495966
+      ],
+      "sqarcities": [
         0.7799680932187774
       ],
       "usage": "11"
@@ -52012,7 +54414,10 @@ PARCELS = {
       ],
       "id": "24-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.72860262925599
+      ],
+      "sqarcities": [
         0.4557811654075755
       ],
       "usage": "19"
@@ -52079,7 +54484,10 @@ PARCELS = {
       ],
       "id": "24-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.7012219675972915
+      ],
+      "sqarcities": [
         0.5773721160901271
       ],
       "usage": "11"
@@ -52126,7 +54534,10 @@ PARCELS = {
       ],
       "id": "25-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.6250215882175354
+      ],
+      "sqarcities": [
         0.6678692556207529
       ],
       "usage": "11"
@@ -52169,7 +54580,10 @@ PARCELS = {
       ],
       "id": "24-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.70400667867793
+      ],
+      "sqarcities": [
         0.6571826319292371
       ],
       "usage": "11"
@@ -52216,7 +54630,10 @@ PARCELS = {
       ],
       "id": "24-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.464117739041995
+      ],
+      "sqarcities": [
         0.5444630999556845
       ],
       "usage": "19"
@@ -52383,7 +54800,10 @@ PARCELS = {
       ],
       "id": "24-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.807059868606785
+      ],
+      "sqarcities": [
         0.3206663776702323
       ],
       "usage": "11"
@@ -52526,7 +54946,10 @@ PARCELS = {
       ],
       "id": "24-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.172556363831617
+      ],
+      "sqarcities": [
         0.4009229862403926
       ],
       "usage": "19"
@@ -52725,7 +55148,10 @@ PARCELS = {
       ],
       "id": "24-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.70384117267696
+      ],
+      "sqarcities": [
         0.4106808906391464
       ],
       "usage": "11"
@@ -52776,7 +55202,10 @@ PARCELS = {
       ],
       "id": "25-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.84247977117738
+      ],
+      "sqarcities": [
         0.7985290334689786
       ],
       "usage": "11"
@@ -52847,7 +55276,10 @@ PARCELS = {
       ],
       "id": "24-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.917941866910326
+      ],
+      "sqarcities": [
         0.6985912962418172
       ],
       "usage": "11"
@@ -52906,7 +55338,10 @@ PARCELS = {
       ],
       "id": "24-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.89011414822457
+      ],
+      "sqarcities": [
         0.5514977035102835
       ],
       "usage": "11"
@@ -53009,7 +55444,10 @@ PARCELS = {
       ],
       "id": "24-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.71992464225062
+      ],
+      "sqarcities": [
         0.6846273342430778
       ],
       "usage": "11"
@@ -53128,7 +55566,10 @@ PARCELS = {
       ],
       "id": "24-93",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.815786837112412
+      ],
+      "sqarcities": [
         0.5868510327071558
       ],
       "usage": "11"
@@ -53207,7 +55648,10 @@ PARCELS = {
       ],
       "id": "24-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.635811437015064
+      ],
+      "sqarcities": [
         0.6330591351661451
       ],
       "usage": "11"
@@ -53254,7 +55698,10 @@ PARCELS = {
       ],
       "id": "24-121",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.704187340191055
+      ],
+      "sqarcities": [
         0.6774844708803304
       ],
       "usage": "11"
@@ -53317,7 +55764,10 @@ PARCELS = {
       ],
       "id": "24-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.62378022354031
+      ],
+      "sqarcities": [
         0.7210122759353101
       ],
       "usage": "11"
@@ -53452,7 +55902,10 @@ PARCELS = {
       ],
       "id": "24-138",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.88046137993894
+      ],
+      "sqarcities": [
         0.641440458478937
       ],
       "usage": "11"
@@ -53507,7 +55960,10 @@ PARCELS = {
       ],
       "id": "25-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -48.54284558709906
+      ],
+      "sqarcities": [
         0.6736787941134883
       ],
       "usage": "11"
@@ -53550,7 +56006,10 @@ PARCELS = {
       ],
       "id": "25-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.77441015824967
+      ],
+      "sqarcities": [
         0.6569426111601573
       ],
       "usage": "11"
@@ -53597,7 +56056,10 @@ PARCELS = {
       ],
       "id": "25-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.41806773175456
+      ],
+      "sqarcities": [
         0.6837209086348008
       ],
       "usage": "11"
@@ -53640,7 +56102,10 @@ PARCELS = {
       ],
       "id": "25-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.1096535090769
+      ],
+      "sqarcities": [
         0.780012976783513
       ],
       "usage": "17"
@@ -53707,7 +56172,10 @@ PARCELS = {
       ],
       "id": "25-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.014316783881725
+      ],
+      "sqarcities": [
         0.7019337023762228
       ],
       "usage": "11"
@@ -53762,7 +56230,10 @@ PARCELS = {
       ],
       "id": "25-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.499738904013256
+      ],
+      "sqarcities": [
         0.702181275787363
       ],
       "usage": "17"
@@ -53821,7 +56292,10 @@ PARCELS = {
       ],
       "id": "25-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.84247977117738
+      ],
+      "sqarcities": [
         0.5249616116989161
       ],
       "usage": "11"
@@ -53868,7 +56342,10 @@ PARCELS = {
       ],
       "id": "25-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.11772157498166
+      ],
+      "sqarcities": [
         0.8130424263710716
       ],
       "usage": "11"
@@ -53939,7 +56416,10 @@ PARCELS = {
       ],
       "id": "25-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.768142799828752
+      ],
+      "sqarcities": [
         0.5463152660624354
       ],
       "usage": "11"
@@ -53982,7 +56462,10 @@ PARCELS = {
       ],
       "id": "25-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.75178290794004
+      ],
+      "sqarcities": [
         0.7658599853834132
       ],
       "usage": "11"
@@ -54033,7 +56516,10 @@ PARCELS = {
       ],
       "id": "25-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.7147722760371664
+      ],
+      "sqarcities": [
         0.40143534997503333
       ],
       "usage": "11"
@@ -54080,7 +56566,10 @@ PARCELS = {
       ],
       "id": "25-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.60284917482997
+      ],
+      "sqarcities": [
         0.5112367843233948
       ],
       "usage": "11"
@@ -54127,7 +56616,10 @@ PARCELS = {
       ],
       "id": "25-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.789671611667231
+      ],
+      "sqarcities": [
         0.4765358830188024
       ],
       "usage": "11"
@@ -54174,7 +56666,10 @@ PARCELS = {
       ],
       "id": "25-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.390134163862527
+      ],
+      "sqarcities": [
         0.4614056184768124
       ],
       "usage": "11"
@@ -54249,7 +56744,10 @@ PARCELS = {
       ],
       "id": "25-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.390134163862527
+      ],
+      "sqarcities": [
         0.6492288441483198
       ],
       "usage": "11"
@@ -54332,7 +56830,10 @@ PARCELS = {
       ],
       "id": "25-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.044804830772605
+      ],
+      "sqarcities": [
         0.5837379745291774
       ],
       "usage": "11"
@@ -54427,7 +56928,10 @@ PARCELS = {
       ],
       "id": "25-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.66783867953473
+      ],
+      "sqarcities": [
         0.6803366322092408
       ],
       "usage": "11"
@@ -54498,7 +57002,10 @@ PARCELS = {
       ],
       "id": "25-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.4976027958572
+      ],
+      "sqarcities": [
         0.5358934798408136
       ],
       "usage": "11"
@@ -54545,7 +57052,10 @@ PARCELS = {
       ],
       "id": "25-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.64071885096763
+      ],
+      "sqarcities": [
         0.553015532202682
       ],
       "usage": "11"
@@ -54604,7 +57114,10 @@ PARCELS = {
       ],
       "id": "25-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.59649253369054
+      ],
+      "sqarcities": [
         0.7486839890259147
       ],
       "usage": "11"
@@ -54663,7 +57176,10 @@ PARCELS = {
       ],
       "id": "25-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.59649253369054
+      ],
+      "sqarcities": [
         0.7645824125807114
       ],
       "usage": "11"
@@ -54706,7 +57222,10 @@ PARCELS = {
       ],
       "id": "25-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.81378768762479
+      ],
+      "sqarcities": [
         0.7597834257695564
       ],
       "usage": "19"
@@ -54753,7 +57272,10 @@ PARCELS = {
       ],
       "id": "25-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.85184808003933
+      ],
+      "sqarcities": [
         0.7686970458375787
       ],
       "usage": "11"
@@ -54800,7 +57322,10 @@ PARCELS = {
       ],
       "id": "25-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.04263085337048
+      ],
+      "sqarcities": [
         0.6699466169578355
       ],
       "usage": "11"
@@ -54843,7 +57368,10 @@ PARCELS = {
       ],
       "id": "25-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.522626624440107
+      ],
+      "sqarcities": [
         0.5383004889987942
       ],
       "usage": "11"
@@ -54902,7 +57430,10 @@ PARCELS = {
       ],
       "id": "25-83-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.1063576561028
+      ],
+      "sqarcities": [
         0.7223982763894747
       ],
       "usage": "11"
@@ -54997,7 +57528,10 @@ PARCELS = {
       ],
       "id": "25-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.68327285803319
+      ],
+      "sqarcities": [
         0.485880950239055
       ],
       "usage": "11"
@@ -55104,7 +57638,10 @@ PARCELS = {
       ],
       "id": "25-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.757254235401895
+      ],
+      "sqarcities": [
         0.5822727737250435
       ],
       "usage": "19"
@@ -55195,7 +57732,10 @@ PARCELS = {
       ],
       "id": "25-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.72728318080955
+      ],
+      "sqarcities": [
         0.7189376123241886
       ],
       "usage": "11"
@@ -55286,7 +57826,10 @@ PARCELS = {
       ],
       "id": "25-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.72728318080955
+      ],
+      "sqarcities": [
         0.7170115767890762
       ],
       "usage": "11"
@@ -55385,7 +57928,10 @@ PARCELS = {
       ],
       "id": "25-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        28.89353581517105
+      ],
+      "sqarcities": [
         0.49132255914747125
       ],
       "usage": "11"
@@ -55452,7 +57998,10 @@ PARCELS = {
       ],
       "id": "25-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.827215102307363
+      ],
+      "sqarcities": [
         0.6299396387128446
       ],
       "usage": "11"
@@ -55535,7 +58084,10 @@ PARCELS = {
       ],
       "id": "25-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.6909515457647615
+      ],
+      "sqarcities": [
         0.6228697889210646
       ],
       "usage": "11"
@@ -55610,7 +58162,10 @@ PARCELS = {
       ],
       "id": "25-105",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.6909515457647615
+      ],
+      "sqarcities": [
         0.43438259647423694
       ],
       "usage": "11"
@@ -55661,7 +58216,10 @@ PARCELS = {
       ],
       "id": "25-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.87584314997241
+      ],
+      "sqarcities": [
         0.6942372903413812
       ],
       "usage": "11"
@@ -55732,7 +58290,10 @@ PARCELS = {
       ],
       "id": "25-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.755227919054946
+      ],
+      "sqarcities": [
         0.47056635604516533
       ],
       "usage": "11"
@@ -55799,7 +58360,10 @@ PARCELS = {
       ],
       "id": "25-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.11980305922549
+      ],
+      "sqarcities": [
         0.44580956584333414
       ],
       "usage": "19"
@@ -55898,7 +58462,10 @@ PARCELS = {
       ],
       "id": "25-116",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.793315233798296
+      ],
+      "sqarcities": [
         0.5644891313503814
       ],
       "usage": "19"
@@ -55969,7 +58536,10 @@ PARCELS = {
       ],
       "id": "25-117",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.63171398794752
+      ],
+      "sqarcities": [
         0.5136566725396855
       ],
       "usage": "11"
@@ -56028,7 +58598,10 @@ PARCELS = {
       ],
       "id": "16-117",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.18495434791798
+      ],
+      "sqarcities": [
         0.7972861141721104
       ],
       "usage": "11"
@@ -56155,7 +58728,10 @@ PARCELS = {
       ],
       "id": "9-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.51935852298234
+      ],
+      "sqarcities": [
         0.5525645639531911
       ],
       "usage": "11"
@@ -56274,7 +58850,10 @@ PARCELS = {
       ],
       "id": "9-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.1905376913940131
+      ],
+      "sqarcities": [
         0.7161400627729516
       ],
       "usage": "11"
@@ -56325,7 +58904,10 @@ PARCELS = {
       ],
       "id": "11-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.84931410270372
+      ],
+      "sqarcities": [
         0.5477910638483483
       ],
       "usage": "11"
@@ -56396,7 +58978,10 @@ PARCELS = {
       ],
       "id": "11-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        36.937294354343635
+      ],
+      "sqarcities": [
         0.657166503404106
       ],
       "usage": "11"
@@ -56923,7 +59508,10 @@ PARCELS = {
       ],
       "id": "12-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.396538032686692
+      ],
+      "sqarcities": [
         0.2412934129903745
       ],
       "usage": "11"
@@ -57106,7 +59694,10 @@ PARCELS = {
       ],
       "id": "12-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.9245503387886
+      ],
+      "sqarcities": [
         0.5113930915340628
       ],
       "usage": "11"
@@ -57149,7 +59740,10 @@ PARCELS = {
       ],
       "id": "12-137",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.86365245379929
+      ],
+      "sqarcities": [
         0.24477325900421265
       ],
       "usage": "11"
@@ -57212,7 +59806,10 @@ PARCELS = {
       ],
       "id": "12-137",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.545451038898037
+      ],
+      "sqarcities": [
         0.2854693462443197
       ],
       "usage": "11"
@@ -57279,7 +59876,10 @@ PARCELS = {
       ],
       "id": "16-117",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.68258541267019
+      ],
+      "sqarcities": [
         0.8292822464699721
       ],
       "usage": "11"
@@ -57370,7 +59970,10 @@ PARCELS = {
       ],
       "id": "23-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.490085800344744
+      ],
+      "sqarcities": [
         0.53531643593809
       ],
       "usage": "11"
@@ -57489,7 +60092,10 @@ PARCELS = {
       ],
       "id": "23-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.92707689700018
+      ],
+      "sqarcities": [
         0.44684453047673905
       ],
       "usage": "11"
@@ -57548,7 +60154,10 @@ PARCELS = {
       ],
       "id": "14-409",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.315508099119725
+      ],
+      "sqarcities": [
         0.7321424466125084
       ],
       "usage": "11"
@@ -57595,7 +60204,10 @@ PARCELS = {
       ],
       "id": "25-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.98129836960176
+      ],
+      "sqarcities": [
         0.759116886442755
       ],
       "usage": "22"
@@ -57638,7 +60250,10 @@ PARCELS = {
       ],
       "id": "8-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.84394473712086
+      ],
+      "sqarcities": [
         0.5589453793284093
       ],
       "usage": "22"
@@ -57681,7 +60296,10 @@ PARCELS = {
       ],
       "id": "7-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.44816784614876
+      ],
+      "sqarcities": [
         0.5678081534557322
       ],
       "usage": "11"
@@ -57724,7 +60342,10 @@ PARCELS = {
       ],
       "id": "7-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.691963448540136
+      ],
+      "sqarcities": [
         0.5681886587405902
       ],
       "usage": "19"
@@ -57775,7 +60396,10 @@ PARCELS = {
       ],
       "id": "7-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        28.138001393328096
+      ],
+      "sqarcities": [
         0.6610778948254309
       ],
       "usage": "11"
@@ -57834,7 +60458,10 @@ PARCELS = {
       ],
       "id": "7-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        29.875790317242007
+      ],
+      "sqarcities": [
         0.4751159456529213
       ],
       "usage": "11"
@@ -57889,7 +60516,10 @@ PARCELS = {
       ],
       "id": "7-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        26.206199683995592
+      ],
+      "sqarcities": [
         0.5138796330848249
       ],
       "usage": "11"
@@ -57932,7 +60562,10 @@ PARCELS = {
       ],
       "id": "7-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.463623680719365
+      ],
+      "sqarcities": [
         0.39855226349083184
       ],
       "usage": "11"
@@ -57975,7 +60608,10 @@ PARCELS = {
       ],
       "id": "7-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.97900233292452
+      ],
+      "sqarcities": [
         0.3957182525822398
       ],
       "usage": "22"
@@ -58050,7 +60686,10 @@ PARCELS = {
       ],
       "id": "7-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.793122386594121
+      ],
+      "sqarcities": [
         0.29794843508163654
       ],
       "usage": "11"
@@ -58097,7 +60736,10 @@ PARCELS = {
       ],
       "id": "7-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.01322173861857
+      ],
+      "sqarcities": [
         0.5874301203436978
       ],
       "usage": "11"
@@ -58144,7 +60786,10 @@ PARCELS = {
       ],
       "id": "8-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.06525269399665
+      ],
+      "sqarcities": [
         0.5925033565214208
       ],
       "usage": "22"
@@ -58191,7 +60836,10 @@ PARCELS = {
       ],
       "id": "8-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.35036065535766
+      ],
+      "sqarcities": [
         0.5295314155851529
       ],
       "usage": "19"
@@ -58246,7 +60894,10 @@ PARCELS = {
       ],
       "id": "9-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.57353716606161
+      ],
+      "sqarcities": [
         0.7294684518951351
       ],
       "usage": "19"
@@ -58368,7 +61019,11 @@ PARCELS = {
       ],
       "id": "9-26-0A",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.7289130591830144,
+        1.6229259335659947
+      ],
+      "sqarcities": [
         0.32722882743534837,
         0.49084356848491484
       ],
@@ -58432,7 +61087,10 @@ PARCELS = {
       ],
       "id": "9-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.57314384568593
+      ],
+      "sqarcities": [
         0.8097078843521374
       ],
       "usage": "22"
@@ -58479,7 +61137,10 @@ PARCELS = {
       ],
       "id": "9-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.88599578912564
+      ],
+      "sqarcities": [
         0.7517042062818085
       ],
       "usage": "27"
@@ -58530,7 +61191,10 @@ PARCELS = {
       ],
       "id": "10-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.60737446276545
+      ],
+      "sqarcities": [
         0.5066645250559857
       ],
       "usage": "11"
@@ -58585,7 +61249,10 @@ PARCELS = {
       ],
       "id": "10-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.602130486502432
+      ],
+      "sqarcities": [
         0.5251436547862834
       ],
       "usage": "11"
@@ -58660,7 +61327,10 @@ PARCELS = {
       ],
       "id": "10-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.71603807728636
+      ],
+      "sqarcities": [
         0.6577669515703675
       ],
       "usage": "22"
@@ -58711,7 +61381,10 @@ PARCELS = {
       ],
       "id": "11-3-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.61755225420643
+      ],
+      "sqarcities": [
         0.7827341415908344
       ],
       "usage": "11"
@@ -58762,7 +61435,10 @@ PARCELS = {
       ],
       "id": "11-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.81290842978339
+      ],
+      "sqarcities": [
         0.5091436898770532
       ],
       "usage": "11"
@@ -58893,7 +61569,10 @@ PARCELS = {
       ],
       "id": "11-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.428731653846114
+      ],
+      "sqarcities": [
         0.6227001687368
       ],
       "usage": "19"
@@ -58964,7 +61643,10 @@ PARCELS = {
       ],
       "id": "11-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.895357743840265
+      ],
+      "sqarcities": [
         0.41204786488820627
       ],
       "usage": "11"
@@ -59035,7 +61717,10 @@ PARCELS = {
       ],
       "id": "11-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.27751040760117
+      ],
+      "sqarcities": [
         0.7154503408155379
       ],
       "usage": "11"
@@ -59082,7 +61767,10 @@ PARCELS = {
       ],
       "id": "11-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.6078409181427
+      ],
+      "sqarcities": [
         0.6276261417073824
       ],
       "usage": "11"
@@ -59188,7 +61876,11 @@ PARCELS = {
       ],
       "id": "11-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.24302003679819,
+        40.849684511176775
+      ],
+      "sqarcities": [
         0.6727512847550178,
         0.6711353747137648
       ],
@@ -59820,7 +62512,10 @@ PARCELS = {
       ],
       "id": "11-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.31748350172256
+      ],
+      "sqarcities": [
         0.3148373148428222
       ],
       "usage": "27"
@@ -59863,7 +62558,10 @@ PARCELS = {
       ],
       "id": "12-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.040983339238451
+      ],
+      "sqarcities": [
         0.6202315986686194
       ],
       "usage": "11"
@@ -59943,7 +62641,11 @@ PARCELS = {
       ],
       "id": "12-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.6225239969720775,
+        18.264694438583547
+      ],
+      "sqarcities": [
         0.6193767362383427,
         0.32318142672394756
       ],
@@ -59991,7 +62693,10 @@ PARCELS = {
       ],
       "id": "12-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.951346273060139
+      ],
+      "sqarcities": [
         0.6318539226913137
       ],
       "usage": "11"
@@ -60038,7 +62743,10 @@ PARCELS = {
       ],
       "id": "12-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.44545132959513
+      ],
+      "sqarcities": [
         0.6168231541956052
       ],
       "usage": "11"
@@ -60125,7 +62833,10 @@ PARCELS = {
       ],
       "id": "12-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.34446944221413
+      ],
+      "sqarcities": [
         0.5947413138491676
       ],
       "usage": "11"
@@ -60176,7 +62887,10 @@ PARCELS = {
       ],
       "id": "12-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.34446944221413
+      ],
+      "sqarcities": [
         0.46911587608849037
       ],
       "usage": "19"
@@ -60219,7 +62933,10 @@ PARCELS = {
       ],
       "id": "12-162",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.337128243240784
+      ],
+      "sqarcities": [
         0.6919065919882793
       ],
       "usage": "22"
@@ -60274,7 +62991,10 @@ PARCELS = {
       ],
       "id": "14-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.956781070397213
+      ],
+      "sqarcities": [
         0.4972188595889805
       ],
       "usage": "11"
@@ -60348,7 +63068,11 @@ PARCELS = {
       ],
       "id": "14-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.956781070397213,
+        -9.565150375063254
+      ],
+      "sqarcities": [
         0.4673778829674686,
         0.670371162237581
       ],
@@ -60400,7 +63124,10 @@ PARCELS = {
       ],
       "id": "14-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.267701768260238
+      ],
+      "sqarcities": [
         0.34111037984273046
       ],
       "usage": "11"
@@ -60455,7 +63182,10 @@ PARCELS = {
       ],
       "id": "14-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.3860054047944885
+      ],
+      "sqarcities": [
         0.4113725496330543
       ],
       "usage": "11"
@@ -60502,7 +63232,10 @@ PARCELS = {
       ],
       "id": "14-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.9988336488863325
+      ],
+      "sqarcities": [
         0.5441120951936415
       ],
       "usage": "11"
@@ -60549,7 +63282,10 @@ PARCELS = {
       ],
       "id": "14-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.961461554510322
+      ],
+      "sqarcities": [
         0.6498647919416342
       ],
       "usage": "11"
@@ -60604,7 +63340,10 @@ PARCELS = {
       ],
       "id": "14-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.341318852930158
+      ],
+      "sqarcities": [
         0.7486349267849371
       ],
       "usage": "11"
@@ -60655,7 +63394,10 @@ PARCELS = {
       ],
       "id": "14-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.3921442804952
+      ],
+      "sqarcities": [
         0.7894827934040961
       ],
       "usage": "11"
@@ -60702,7 +63444,10 @@ PARCELS = {
       ],
       "id": "14-156",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.951748980643259
+      ],
+      "sqarcities": [
         0.7137030228462721
       ],
       "usage": "11"
@@ -60761,7 +63506,10 @@ PARCELS = {
       ],
       "id": "14-196",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.65195116679747
+      ],
+      "sqarcities": [
         0.6627119561403836
       ],
       "usage": "11"
@@ -60804,7 +63552,10 @@ PARCELS = {
       ],
       "id": "14-207",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.516973090150401
+      ],
+      "sqarcities": [
         0.7867788352589244
       ],
       "usage": "11"
@@ -60867,7 +63618,10 @@ PARCELS = {
       ],
       "id": "14-237",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.153622881881645
+      ],
+      "sqarcities": [
         0.7341329815618478
       ],
       "usage": "11"
@@ -60930,7 +63684,10 @@ PARCELS = {
       ],
       "id": "14-303",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.18827731602211
+      ],
+      "sqarcities": [
         0.5738434981936895
       ],
       "usage": "11"
@@ -60989,7 +63746,10 @@ PARCELS = {
       ],
       "id": "14-375",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.35470804596875
+      ],
+      "sqarcities": [
         0.8259080639445946
       ],
       "usage": "11"
@@ -61056,7 +63816,10 @@ PARCELS = {
       ],
       "id": "14-384",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.291198346890596
+      ],
+      "sqarcities": [
         0.8616189353081384
       ],
       "usage": "11"
@@ -61115,7 +63878,10 @@ PARCELS = {
       ],
       "id": "14-410",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.1138757104313
+      ],
+      "sqarcities": [
         0.7861315820497438
       ],
       "usage": "11"
@@ -61158,7 +63924,10 @@ PARCELS = {
       ],
       "id": "14-411",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.842773028579245
+      ],
+      "sqarcities": [
         0.59460278074453
       ],
       "usage": "11"
@@ -61201,7 +63970,10 @@ PARCELS = {
       ],
       "id": "14-412",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.973194059824152
+      ],
+      "sqarcities": [
         0.7813822990425195
       ],
       "usage": "11"
@@ -61256,7 +64028,10 @@ PARCELS = {
       ],
       "id": "14-413",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.451241551919253
+      ],
+      "sqarcities": [
         0.6643576628644021
       ],
       "usage": "19"
@@ -61303,7 +64078,10 @@ PARCELS = {
       ],
       "id": "14-414",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.047515991523312
+      ],
+      "sqarcities": [
         0.577935915486977
       ],
       "usage": "11"
@@ -61350,7 +64128,10 @@ PARCELS = {
       ],
       "id": "14-401",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.660880074929594
+      ],
+      "sqarcities": [
         0.7535000463864785
       ],
       "usage": "11"
@@ -61405,7 +64186,10 @@ PARCELS = {
       ],
       "id": "14-402",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.382144539186896
+      ],
+      "sqarcities": [
         0.7103407015754702
       ],
       "usage": "19"
@@ -61452,7 +64236,10 @@ PARCELS = {
       ],
       "id": "14-403",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.382144539186896
+      ],
+      "sqarcities": [
         0.7006574502811657
       ],
       "usage": "19"
@@ -61499,7 +64286,10 @@ PARCELS = {
       ],
       "id": "14-404",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        26.278766199075406
+      ],
+      "sqarcities": [
         0.5658917186530835
       ],
       "usage": "19"
@@ -61550,7 +64340,10 @@ PARCELS = {
       ],
       "id": "14-405",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.581157149481314
+      ],
+      "sqarcities": [
         0.6982435993872813
       ],
       "usage": "19"
@@ -61601,7 +64394,10 @@ PARCELS = {
       ],
       "id": "14-406",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.45317615108033
+      ],
+      "sqarcities": [
         0.7140621595163329
       ],
       "usage": "19"
@@ -61648,7 +64444,10 @@ PARCELS = {
       ],
       "id": "14-434",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.162765987538407
+      ],
+      "sqarcities": [
         0.6671680608357163
       ],
       "usage": "19"
@@ -61699,7 +64498,10 @@ PARCELS = {
       ],
       "id": "14-407",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.171960472412522
+      ],
+      "sqarcities": [
         0.7448804093141491
       ],
       "usage": "19"
@@ -61746,7 +64548,10 @@ PARCELS = {
       ],
       "id": "14-408",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.171960472412522
+      ],
+      "sqarcities": [
         0.6673796389131544
       ],
       "usage": "19"
@@ -61813,7 +64618,10 @@ PARCELS = {
       ],
       "id": "14-417",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.16247364928971
+      ],
+      "sqarcities": [
         0.7477618792448876
       ],
       "usage": "19"
@@ -61860,7 +64668,10 @@ PARCELS = {
       ],
       "id": "14-418",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.347042797800995
+      ],
+      "sqarcities": [
         0.6914302345138197
       ],
       "usage": "11"
@@ -62115,7 +64926,10 @@ PARCELS = {
       ],
       "id": "14-419",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.785738485578833
+      ],
+      "sqarcities": [
         0.23932445687417658
       ],
       "usage": "11"
@@ -62162,7 +64976,10 @@ PARCELS = {
       ],
       "id": "14-420",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.93857924023823
+      ],
+      "sqarcities": [
         0.6944179222085484
       ],
       "usage": "19"
@@ -62208,8 +65025,15 @@ PARCELS = {
         }
       ],
       "id": "14-421",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false
+        }
+      ],
+      "orientations": [
+        68.23950718022593
+      ],
+      "sqarcities": [
         0.7890619381007734
       ],
       "usage": "19"
@@ -62251,8 +65075,15 @@ PARCELS = {
         }
       ],
       "id": "14-422",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false
+        }
+      ],
+      "orientations": [
+        69.70112916231074
+      ],
+      "sqarcities": [
         0.7866242483460165
       ],
       "usage": "19"
@@ -62298,8 +65129,15 @@ PARCELS = {
         }
       ],
       "id": "14-423",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false
+        }
+      ],
+      "orientations": [
+        70.64694348725308
+      ],
+      "sqarcities": [
         0.7777688953799105
       ],
       "usage": "19"
@@ -62341,8 +65179,15 @@ PARCELS = {
         }
       ],
       "id": "14-424",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false
+        }
+      ],
+      "orientations": [
+        67.37181563826678
+      ],
+      "sqarcities": [
         0.7826471954074954
       ],
       "usage": "11"
@@ -62385,7 +65230,10 @@ PARCELS = {
       ],
       "id": "14-425",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.71557437687804
+      ],
+      "sqarcities": [
         0.7851167841318307
       ],
       "usage": "11"
@@ -62436,7 +65284,10 @@ PARCELS = {
       ],
       "id": "14-433",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.25492931840591
+      ],
+      "sqarcities": [
         0.7445460870177159
       ],
       "usage": "11"
@@ -62499,7 +65350,10 @@ PARCELS = {
       ],
       "id": "14-435",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.162765987538407
+      ],
+      "sqarcities": [
         0.7114181415373902
       ],
       "usage": "11"
@@ -62542,7 +65396,10 @@ PARCELS = {
       ],
       "id": "14-458",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.65809898102322
+      ],
+      "sqarcities": [
         0.7786111397942871
       ],
       "usage": "11"
@@ -62585,7 +65442,10 @@ PARCELS = {
       ],
       "id": "14-459",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.51973863671256
+      ],
+      "sqarcities": [
         0.7782097959349255
       ],
       "usage": "11"
@@ -62628,7 +65488,10 @@ PARCELS = {
       ],
       "id": "14-460",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.326005709575732
+      ],
+      "sqarcities": [
         0.7849565830209336
       ],
       "usage": "11"
@@ -62671,7 +65534,10 @@ PARCELS = {
       ],
       "id": "14-461",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.19429835317593
+      ],
+      "sqarcities": [
         0.7675920803190533
       ],
       "usage": "19"
@@ -62714,7 +65580,10 @@ PARCELS = {
       ],
       "id": "14-463",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.00273538834958
+      ],
+      "sqarcities": [
         0.6866467847882597
       ],
       "usage": "11"
@@ -62761,7 +65630,10 @@ PARCELS = {
       ],
       "id": "14-464",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.315423604106158
+      ],
+      "sqarcities": [
         0.7647066191686113
       ],
       "usage": "22"
@@ -62912,7 +65784,10 @@ PARCELS = {
       ],
       "id": "14-467",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.335573985764654
+      ],
+      "sqarcities": [
         0.5565121051494532
       ],
       "usage": "11"
@@ -62979,7 +65854,10 @@ PARCELS = {
       ],
       "id": "14-468",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.73281305887116
+      ],
+      "sqarcities": [
         0.6638337485486902
       ],
       "usage": "11"
@@ -63062,7 +65940,10 @@ PARCELS = {
       ],
       "id": "14-468-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.163743790534781
+      ],
+      "sqarcities": [
         0.6208360920641088
       ],
       "usage": "17"
@@ -63105,7 +65986,10 @@ PARCELS = {
       ],
       "id": "14-493",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.54221957230477
+      ],
+      "sqarcities": [
         0.7513729295009501
       ],
       "usage": "17"
@@ -63180,7 +66064,10 @@ PARCELS = {
       ],
       "id": "14-494",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.428788338689529
+      ],
+      "sqarcities": [
         0.6858398279303216
       ],
       "usage": "11"
@@ -63235,7 +66122,10 @@ PARCELS = {
       ],
       "id": "15-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.661574289650247
+      ],
+      "sqarcities": [
         0.39584175102732877
       ],
       "usage": "11"
@@ -63346,7 +66236,10 @@ PARCELS = {
       ],
       "id": "15-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.152194056460658
+      ],
+      "sqarcities": [
         0.7632749693643487
       ],
       "usage": "33"
@@ -63413,7 +66306,10 @@ PARCELS = {
       ],
       "id": "15-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.21578047700535
+      ],
+      "sqarcities": [
         0.5821610057401464
       ],
       "usage": "19"
@@ -63468,7 +66364,10 @@ PARCELS = {
       ],
       "id": "15-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.18648496743837
+      ],
+      "sqarcities": [
         0.7522252656901637
       ],
       "usage": "11"
@@ -63515,7 +66414,10 @@ PARCELS = {
       ],
       "id": "15-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.77860887142957
+      ],
+      "sqarcities": [
         0.5672331880502173
       ],
       "usage": "11"
@@ -63614,7 +66516,10 @@ PARCELS = {
       ],
       "id": "15-93",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.18191162239401
+      ],
+      "sqarcities": [
         0.6570987454917087
       ],
       "usage": "11"
@@ -63705,7 +66610,10 @@ PARCELS = {
       ],
       "id": "15-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.34107989883216
+      ],
+      "sqarcities": [
         0.2713873251937266
       ],
       "usage": "22"
@@ -63776,7 +66684,10 @@ PARCELS = {
       ],
       "id": "15-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.128688007814645
+      ],
+      "sqarcities": [
         0.5022949251837724
       ],
       "usage": "19"
@@ -63827,7 +66738,10 @@ PARCELS = {
       ],
       "id": "15-162",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.16964402013403
+      ],
+      "sqarcities": [
         0.6827101458873168
       ],
       "usage": "11"
@@ -64098,7 +67012,10 @@ PARCELS = {
       ],
       "id": "16-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.539440554238375
+      ],
+      "sqarcities": [
         0.3595124564333064
       ],
       "usage": "11"
@@ -64141,7 +67058,10 @@ PARCELS = {
       ],
       "id": "16-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.15570124818649
+      ],
+      "sqarcities": [
         0.7353457109087662
       ],
       "usage": "11"
@@ -64184,7 +67104,10 @@ PARCELS = {
       ],
       "id": "16-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -42.05608367475504
+      ],
+      "sqarcities": [
         0.7133762058397937
       ],
       "usage": "19"
@@ -64235,7 +67158,10 @@ PARCELS = {
       ],
       "id": "16-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.215885209875694
+      ],
+      "sqarcities": [
         0.7849122109170502
       ],
       "usage": "22"
@@ -64286,7 +67212,10 @@ PARCELS = {
       ],
       "id": "16-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.5375007391801
+      ],
+      "sqarcities": [
         0.7528576041604473
       ],
       "usage": "11"
@@ -64333,7 +67262,10 @@ PARCELS = {
       ],
       "id": "16-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.71493371802107
+      ],
+      "sqarcities": [
         0.7185874506289366
       ],
       "usage": "19"
@@ -64384,7 +67316,10 @@ PARCELS = {
       ],
       "id": "16-77-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.63423235798973
+      ],
+      "sqarcities": [
         0.4597035250177304
       ],
       "usage": "22"
@@ -64439,7 +67374,10 @@ PARCELS = {
       ],
       "id": "16-85",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        24.785082954899366
+      ],
+      "sqarcities": [
         0.4195042842317729
       ],
       "usage": "11"
@@ -64490,7 +67428,10 @@ PARCELS = {
       ],
       "id": "16-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.72007480777603
+      ],
+      "sqarcities": [
         0.29370459732455734
       ],
       "usage": "11"
@@ -64549,7 +67490,10 @@ PARCELS = {
       ],
       "id": "16-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.83691383334912
+      ],
+      "sqarcities": [
         0.4992921545021435
       ],
       "usage": "22"
@@ -64592,7 +67536,10 @@ PARCELS = {
       ],
       "id": "16-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.0615883281501
+      ],
+      "sqarcities": [
         0.28805095520434876
       ],
       "usage": "22"
@@ -64635,7 +67582,10 @@ PARCELS = {
       ],
       "id": "16-105",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.62978763694997
+      ],
+      "sqarcities": [
         0.3689924959533028
       ],
       "usage": "11"
@@ -64678,7 +67628,10 @@ PARCELS = {
       ],
       "id": "17-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -36.05617733536062
+      ],
+      "sqarcities": [
         0.7645830100045296
       ],
       "usage": "19"
@@ -64729,7 +67682,10 @@ PARCELS = {
       ],
       "id": "17-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.62669626317623
+      ],
+      "sqarcities": [
         0.8168381543111375
       ],
       "usage": "19"
@@ -65572,7 +68528,10 @@ PARCELS = {
       ],
       "id": "19-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.41569743375263
+      ],
+      "sqarcities": [
         0.3841894947759789
       ],
       "usage": "19"
@@ -65619,7 +68578,10 @@ PARCELS = {
       ],
       "id": "19-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.766323220289877
+      ],
+      "sqarcities": [
         0.3162331797116649
       ],
       "usage": "17"
@@ -65662,7 +68624,10 @@ PARCELS = {
       ],
       "id": "20-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.52377205207074
+      ],
+      "sqarcities": [
         0.645048607254781
       ],
       "usage": "11"
@@ -65705,7 +68670,10 @@ PARCELS = {
       ],
       "id": "20-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.89954385192121
+      ],
+      "sqarcities": [
         0.7015545595302431
       ],
       "usage": "22"
@@ -65779,7 +68747,11 @@ PARCELS = {
       ],
       "id": "20-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.86543466141184,
+        73.82844187438678
+      ],
+      "sqarcities": [
         0.7494960504050308,
         0.7386244241403354
       ],
@@ -65863,7 +68835,10 @@ PARCELS = {
       ],
       "id": "20-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.10827619041805
+      ],
+      "sqarcities": [
         0.5886605509612628
       ],
       "usage": "11"
@@ -65918,7 +68893,10 @@ PARCELS = {
       ],
       "id": "20-93",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.937480634531013
+      ],
+      "sqarcities": [
         0.7255809869199699
       ],
       "usage": "11"
@@ -66009,7 +68987,10 @@ PARCELS = {
       ],
       "id": "20-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.9911297665268535
+      ],
+      "sqarcities": [
         0.7246702765370887
       ],
       "usage": "11"
@@ -66056,7 +69037,10 @@ PARCELS = {
       ],
       "id": "20-116",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.08256125631182
+      ],
+      "sqarcities": [
         0.5361843384342119
       ],
       "usage": "22"
@@ -66155,7 +69139,10 @@ PARCELS = {
       ],
       "id": "20-132",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.181903222494498
+      ],
+      "sqarcities": [
         0.5440120659844102
       ],
       "usage": "11"
@@ -66250,7 +69237,10 @@ PARCELS = {
       ],
       "id": "20-136",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.62361578416538
+      ],
+      "sqarcities": [
         0.7225101790464267
       ],
       "usage": "11"
@@ -66297,7 +69287,10 @@ PARCELS = {
       ],
       "id": "20-184",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.146611556679545
+      ],
+      "sqarcities": [
         0.28888350313256367
       ],
       "usage": "22"
@@ -66356,7 +69349,10 @@ PARCELS = {
       ],
       "id": "22-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.2940596902012516
+      ],
+      "sqarcities": [
         0.6891335261064269
       ],
       "usage": "11"
@@ -66415,7 +69411,10 @@ PARCELS = {
       ],
       "id": "22-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.2940596902012516
+      ],
+      "sqarcities": [
         0.6889068378363545
       ],
       "usage": "22"
@@ -66498,7 +69497,10 @@ PARCELS = {
       ],
       "id": "22-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.21375735965549
+      ],
+      "sqarcities": [
         0.6562553197614853
       ],
       "usage": "11"
@@ -66541,7 +69543,10 @@ PARCELS = {
       ],
       "id": "22-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.578404043425586
+      ],
+      "sqarcities": [
         0.7782219349460637
       ],
       "usage": "11"
@@ -66592,7 +69597,10 @@ PARCELS = {
       ],
       "id": "22-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.932387172077426
+      ],
+      "sqarcities": [
         0.49757476449445015
       ],
       "usage": "27"
@@ -66659,7 +69667,10 @@ PARCELS = {
       ],
       "id": "24-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.9121923821431
+      ],
+      "sqarcities": [
         0.6657914297432592
       ],
       "usage": "22"
@@ -66718,7 +69729,10 @@ PARCELS = {
       ],
       "id": "24-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.00322727324206
+      ],
+      "sqarcities": [
         0.39217399784896717
       ],
       "usage": "22"
@@ -66777,7 +69791,10 @@ PARCELS = {
       ],
       "id": "24-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.5499781073207686
+      ],
+      "sqarcities": [
         0.7412463520575082
       ],
       "usage": "19"
@@ -66840,7 +69857,10 @@ PARCELS = {
       ],
       "id": "24-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.6657651519573307
+      ],
+      "sqarcities": [
         0.7187902295265237
       ],
       "usage": "19"
@@ -66899,7 +69919,10 @@ PARCELS = {
       ],
       "id": "24-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.7012219675972915
+      ],
+      "sqarcities": [
         0.6648466369212598
       ],
       "usage": "11"
@@ -66942,7 +69965,10 @@ PARCELS = {
       ],
       "id": "24-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.073930041841095
+      ],
+      "sqarcities": [
         0.5555518171616093
       ],
       "usage": "19"
@@ -66997,7 +70023,10 @@ PARCELS = {
       ],
       "id": "24-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.032156521310114
+      ],
+      "sqarcities": [
         0.5098768244290007
       ],
       "usage": "11"
@@ -67060,7 +70089,10 @@ PARCELS = {
       ],
       "id": "24-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.80376767704351
+      ],
+      "sqarcities": [
         0.6973754317640662
       ],
       "usage": "19"
@@ -67143,7 +70175,10 @@ PARCELS = {
       ],
       "id": "24-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.69407551519134
+      ],
+      "sqarcities": [
         0.6423964247112924
       ],
       "usage": "22"
@@ -67234,7 +70269,10 @@ PARCELS = {
       ],
       "id": "24-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.78229667470734
+      ],
+      "sqarcities": [
         0.5931714476154353
       ],
       "usage": "11"
@@ -67293,7 +70331,10 @@ PARCELS = {
       ],
       "id": "24-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.131705208397406
+      ],
+      "sqarcities": [
         0.49717201723156307
       ],
       "usage": "11"
@@ -67340,7 +70381,10 @@ PARCELS = {
       ],
       "id": "24-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.855473144689356
+      ],
+      "sqarcities": [
         0.6872383643821256
       ],
       "usage": "11"
@@ -67383,7 +70427,10 @@ PARCELS = {
       ],
       "id": "24-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.452760179442237
+      ],
+      "sqarcities": [
         0.502495647679593
       ],
       "usage": "11"
@@ -67458,7 +70505,10 @@ PARCELS = {
       ],
       "id": "24-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.452760179442237
+      ],
+      "sqarcities": [
         0.4794937329687053
       ],
       "usage": "19"
@@ -67505,7 +70555,10 @@ PARCELS = {
       ],
       "id": "24-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.855324134027001
+      ],
+      "sqarcities": [
         0.5219001319164006
       ],
       "usage": "11"
@@ -67592,7 +70645,10 @@ PARCELS = {
       ],
       "id": "24-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.810938988122274
+      ],
+      "sqarcities": [
         0.573056299708794
       ],
       "usage": "11"
@@ -67643,7 +70699,10 @@ PARCELS = {
       ],
       "id": "24-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.810938988122274
+      ],
+      "sqarcities": [
         0.7379224239733538
       ],
       "usage": "19"
@@ -67694,7 +70753,10 @@ PARCELS = {
       ],
       "id": "24-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.306167567110762
+      ],
+      "sqarcities": [
         0.7239444833826666
       ],
       "usage": "11"
@@ -67741,7 +70803,10 @@ PARCELS = {
       ],
       "id": "24-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.668275524429589
+      ],
+      "sqarcities": [
         0.6339070569252034
       ],
       "usage": "11"
@@ -67792,7 +70857,10 @@ PARCELS = {
       ],
       "id": "24-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.403449736425813
+      ],
+      "sqarcities": [
         0.6819191530001418
       ],
       "usage": "19"
@@ -67843,7 +70911,10 @@ PARCELS = {
       ],
       "id": "24-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.403449736425813
+      ],
+      "sqarcities": [
         0.6192570091901608
       ],
       "usage": "19"
@@ -67886,7 +70957,10 @@ PARCELS = {
       ],
       "id": "24-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.4180109736906
+      ],
+      "sqarcities": [
         0.6950948181858785
       ],
       "usage": "19"
@@ -67929,7 +71003,10 @@ PARCELS = {
       ],
       "id": "24-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -88.38618436173626
+      ],
+      "sqarcities": [
         0.7632612870059917
       ],
       "usage": "11"
@@ -67980,7 +71057,10 @@ PARCELS = {
       ],
       "id": "24-105",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.6280237417100807
+      ],
+      "sqarcities": [
         0.7707146158747077
       ],
       "usage": "19"
@@ -68039,7 +71119,10 @@ PARCELS = {
       ],
       "id": "24-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.828962714594411
+      ],
+      "sqarcities": [
         0.5650655924982444
       ],
       "usage": "11"
@@ -68086,7 +71169,10 @@ PARCELS = {
       ],
       "id": "24-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.828962714594411
+      ],
+      "sqarcities": [
         0.6025021540873708
       ],
       "usage": "11"
@@ -68141,7 +71227,10 @@ PARCELS = {
       ],
       "id": "24-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.6566661986559126
+      ],
+      "sqarcities": [
         0.7686786141572375
       ],
       "usage": "11"
@@ -68204,7 +71293,10 @@ PARCELS = {
       ],
       "id": "24-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        24.681116277042534
+      ],
+      "sqarcities": [
         0.6839677052915907
       ],
       "usage": "11"
@@ -68251,7 +71343,10 @@ PARCELS = {
       ],
       "id": "24-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        24.681116277042534
+      ],
+      "sqarcities": [
         0.647657623184866
       ],
       "usage": "11"
@@ -68298,7 +71393,10 @@ PARCELS = {
       ],
       "id": "24-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.55152035575658
+      ],
+      "sqarcities": [
         0.7201361282677089
       ],
       "usage": "22"
@@ -68341,7 +71439,10 @@ PARCELS = {
       ],
       "id": "24-124",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.329322853545662
+      ],
+      "sqarcities": [
         0.750480855818814
       ],
       "usage": "22"
@@ -68424,7 +71525,10 @@ PARCELS = {
       ],
       "id": "24-125",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        63.21535145368176
+      ],
+      "sqarcities": [
         0.7421486105413305
       ],
       "usage": "19"
@@ -68547,7 +71651,10 @@ PARCELS = {
       ],
       "id": "24-126",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.4297162419451155
+      ],
+      "sqarcities": [
         0.5968190597591445
       ],
       "usage": "19"
@@ -68638,7 +71745,10 @@ PARCELS = {
       ],
       "id": "24-127",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.4297162419451155
+      ],
+      "sqarcities": [
         0.6631940994300008
       ],
       "usage": "19"
@@ -68693,7 +71803,10 @@ PARCELS = {
       ],
       "id": "25-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.400705779208494
+      ],
+      "sqarcities": [
         0.5728644558382676
       ],
       "usage": "19"
@@ -68740,7 +71853,10 @@ PARCELS = {
       ],
       "id": "25-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.90547185073646
+      ],
+      "sqarcities": [
         0.7697458541236464
       ],
       "usage": "22"
@@ -68783,7 +71899,10 @@ PARCELS = {
       ],
       "id": "25-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.339513390279066
+      ],
+      "sqarcities": [
         0.7496732720771896
       ],
       "usage": "11"
@@ -68830,7 +71949,10 @@ PARCELS = {
       ],
       "id": "25-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.387684476963813
+      ],
+      "sqarcities": [
         0.6615213966840535
       ],
       "usage": "19"
@@ -68873,7 +71995,10 @@ PARCELS = {
       ],
       "id": "25-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.43816668109767
+      ],
+      "sqarcities": [
         0.7200171494237398
       ],
       "usage": "22"
@@ -68924,7 +72049,10 @@ PARCELS = {
       ],
       "id": "25-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.891429947676045
+      ],
+      "sqarcities": [
         0.7524701980221311
       ],
       "usage": "11"
@@ -68971,7 +72099,10 @@ PARCELS = {
       ],
       "id": "25-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.6215636469318184
+      ],
+      "sqarcities": [
         0.4949047030168871
       ],
       "usage": "11"
@@ -69026,7 +72157,10 @@ PARCELS = {
       ],
       "id": "25-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.377284208876304
+      ],
+      "sqarcities": [
         0.5228462039021555
       ],
       "usage": "19"
@@ -69077,7 +72211,10 @@ PARCELS = {
       ],
       "id": "25-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.52901601390705
+      ],
+      "sqarcities": [
         0.7680773954674764
       ],
       "usage": "17"
@@ -69120,7 +72257,10 @@ PARCELS = {
       ],
       "id": "25-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.360788377425465
+      ],
+      "sqarcities": [
         0.7679534426904007
       ],
       "usage": "19"
@@ -69167,7 +72307,10 @@ PARCELS = {
       ],
       "id": "25-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.360788377425465
+      ],
+      "sqarcities": [
         0.7728150112469382
       ],
       "usage": "11"
@@ -69222,7 +72365,10 @@ PARCELS = {
       ],
       "id": "25-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.22627767569607
+      ],
+      "sqarcities": [
         0.7040632380602296
       ],
       "usage": "11"
@@ -69345,7 +72491,10 @@ PARCELS = {
       ],
       "id": "25-85",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.68327285803319
+      ],
+      "sqarcities": [
         0.44512756064671194
       ],
       "usage": "11"
@@ -69404,7 +72553,10 @@ PARCELS = {
       ],
       "id": "25-93",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.419422941269033
+      ],
+      "sqarcities": [
         0.5024270548748277
       ],
       "usage": "11"
@@ -69579,7 +72731,10 @@ PARCELS = {
       ],
       "id": "25-94",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.03131123011339
+      ],
+      "sqarcities": [
         0.4576366620120874
       ],
       "usage": "11"
@@ -69638,7 +72793,10 @@ PARCELS = {
       ],
       "id": "25-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.464719002480635
+      ],
+      "sqarcities": [
         0.7053366322841701
       ],
       "usage": "11"
@@ -69705,7 +72863,10 @@ PARCELS = {
       ],
       "id": "25-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        39.31488422422629
+      ],
+      "sqarcities": [
         0.7570963472896058
       ],
       "usage": "11"
@@ -69768,7 +72929,10 @@ PARCELS = {
       ],
       "id": "25-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.690513959170374
+      ],
+      "sqarcities": [
         0.7332210726088187
       ],
       "usage": "11"
@@ -69819,7 +72983,10 @@ PARCELS = {
       ],
       "id": "25-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.52901601390705
+      ],
+      "sqarcities": [
         0.6540746306055485
       ],
       "usage": "22"
@@ -69878,7 +73045,10 @@ PARCELS = {
       ],
       "id": "11-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.91042877250004
+      ],
+      "sqarcities": [
         0.7832030021230709
       ],
       "usage": "19"
@@ -69937,7 +73107,10 @@ PARCELS = {
       ],
       "id": "11-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.934789436345014
+      ],
+      "sqarcities": [
         0.2510076119213065
       ],
       "usage": "19"
@@ -69980,7 +73153,10 @@ PARCELS = {
       ],
       "id": "14-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.1814368755185
+      ],
+      "sqarcities": [
         0.7756433070133683
       ],
       "usage": "22"
@@ -70023,7 +73199,10 @@ PARCELS = {
       ],
       "id": "14-456",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.72776234081752
+      ],
+      "sqarcities": [
         0.7847481522290369
       ],
       "usage": "22"
@@ -70070,7 +73249,10 @@ PARCELS = {
       ],
       "id": "6-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.91329439058622
+      ],
+      "sqarcities": [
         0.5508067867488722
       ],
       "usage": "19"
@@ -70169,7 +73351,10 @@ PARCELS = {
       ],
       "id": "6-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.74304585274777
+      ],
+      "sqarcities": [
         0.6572564055130754
       ],
       "usage": "19"
@@ -70339,7 +73524,11 @@ PARCELS = {
       ],
       "id": "7-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.1625670348551,
+        -7.784891142923982
+      ],
+      "sqarcities": [
         0.5783430719131787,
         0.5676210429604962
       ],
@@ -70403,7 +73592,10 @@ PARCELS = {
       ],
       "id": "7-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.38162443086688
+      ],
+      "sqarcities": [
         0.3045711674066208
       ],
       "usage": "19"
@@ -70450,7 +73642,10 @@ PARCELS = {
       ],
       "id": "7-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.25405403262013
+      ],
+      "sqarcities": [
         0.5732765348791193
       ],
       "usage": "22"
@@ -70501,7 +73696,10 @@ PARCELS = {
       ],
       "id": "7-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.544928284589325
+      ],
+      "sqarcities": [
         0.685736841230009
       ],
       "usage": "22"
@@ -70544,7 +73742,10 @@ PARCELS = {
       ],
       "id": "7-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.663587067701656
+      ],
+      "sqarcities": [
         0.38227313821417386
       ],
       "usage": "22"
@@ -70627,7 +73828,10 @@ PARCELS = {
       ],
       "id": "7-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.06701423195055
+      ],
+      "sqarcities": [
         0.5102388783842712
       ],
       "usage": "19"
@@ -70698,7 +73902,10 @@ PARCELS = {
       ],
       "id": "7-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.63416635407077
+      ],
+      "sqarcities": [
         0.35000593669523167
       ],
       "usage": "19"
@@ -70745,7 +73952,10 @@ PARCELS = {
       ],
       "id": "7-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -85.91115895489985
+      ],
+      "sqarcities": [
         0.4505130703144588
       ],
       "usage": "22"
@@ -70800,7 +74010,10 @@ PARCELS = {
       ],
       "id": "8-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.8747820840547575
+      ],
+      "sqarcities": [
         0.46174873829309787
       ],
       "usage": "19"
@@ -70855,7 +74068,10 @@ PARCELS = {
       ],
       "id": "8-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.8747820840547575
+      ],
+      "sqarcities": [
         0.4427955551665685
       ],
       "usage": "19"
@@ -70922,7 +74138,10 @@ PARCELS = {
       ],
       "id": "8-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.443539955775918
+      ],
+      "sqarcities": [
         0.6099903552060176
       ],
       "usage": "11"
@@ -70977,7 +74196,10 @@ PARCELS = {
       ],
       "id": "8-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.443539955775918
+      ],
+      "sqarcities": [
         0.6387664220627906
       ],
       "usage": "22"
@@ -71028,7 +74250,10 @@ PARCELS = {
       ],
       "id": "8-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.98913117976394
+      ],
+      "sqarcities": [
         0.5492934185425514
       ],
       "usage": "22"
@@ -71071,7 +74296,10 @@ PARCELS = {
       ],
       "id": "8-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.40151393400092
+      ],
+      "sqarcities": [
         0.6805992879122243
       ],
       "usage": "22"
@@ -71202,7 +74430,10 @@ PARCELS = {
       ],
       "id": "8-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.571374137967211
+      ],
+      "sqarcities": [
         0.5437576064866527
       ],
       "usage": "19"
@@ -71353,7 +74584,10 @@ PARCELS = {
       ],
       "id": "8-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.0018825666366
+      ],
+      "sqarcities": [
         0.6065574024402296
       ],
       "usage": "19"
@@ -71432,7 +74666,10 @@ PARCELS = {
       ],
       "id": "9-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.795223861711804
+      ],
+      "sqarcities": [
         0.6825240616524669
       ],
       "usage": "19"
@@ -71495,7 +74732,10 @@ PARCELS = {
       ],
       "id": "9-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.798556713147505
+      ],
+      "sqarcities": [
         0.7074930365748031
       ],
       "usage": "19"
@@ -71618,7 +74858,10 @@ PARCELS = {
       ],
       "id": "9-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.7289130591830144
+      ],
+      "sqarcities": [
         0.4865749272577816
       ],
       "usage": "19"
@@ -71765,7 +75008,10 @@ PARCELS = {
       ],
       "id": "9-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.7995597529621534
+      ],
+      "sqarcities": [
         0.5618314559760751
       ],
       "usage": "19"
@@ -71832,7 +75078,10 @@ PARCELS = {
       ],
       "id": "9-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.11738497466614
+      ],
+      "sqarcities": [
         0.5846694707088038
       ],
       "usage": "22"
@@ -71883,7 +75132,10 @@ PARCELS = {
       ],
       "id": "9-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.918926384312073
+      ],
+      "sqarcities": [
         0.7177547266185313
       ],
       "usage": "19"
@@ -72010,7 +75262,10 @@ PARCELS = {
       ],
       "id": "9-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        88.6825061642356
+      ],
+      "sqarcities": [
         0.5071650978141508
       ],
       "usage": "19"
@@ -72097,7 +75352,10 @@ PARCELS = {
       ],
       "id": "9-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.72474237550652
+      ],
+      "sqarcities": [
         0.4555685184299786
       ],
       "usage": "19"
@@ -72228,7 +75486,10 @@ PARCELS = {
       ],
       "id": "9-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.38359966567214
+      ],
+      "sqarcities": [
         0.6381292292014683
       ],
       "usage": "19"
@@ -72359,7 +75620,10 @@ PARCELS = {
       ],
       "id": "9-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.38359966567214
+      ],
+      "sqarcities": [
         0.6076789160763656
       ],
       "usage": "22"
@@ -72426,7 +75690,10 @@ PARCELS = {
       ],
       "id": "9-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.51362684606289
+      ],
+      "sqarcities": [
         0.6406164153586229
       ],
       "usage": "19"
@@ -72477,7 +75744,10 @@ PARCELS = {
       ],
       "id": "9-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.992337091314056
+      ],
+      "sqarcities": [
         0.5558072153304671
       ],
       "usage": "27"
@@ -72648,7 +75918,10 @@ PARCELS = {
       ],
       "id": "9-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.90882441522022
+      ],
+      "sqarcities": [
         0.6242150232906524
       ],
       "usage": "19"
@@ -72695,7 +75968,10 @@ PARCELS = {
       ],
       "id": "9-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.38055445488601
+      ],
+      "sqarcities": [
         0.5653158806885665
       ],
       "usage": "11"
@@ -72750,7 +76026,10 @@ PARCELS = {
       ],
       "id": "9-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.36569916062932
+      ],
+      "sqarcities": [
         0.42278186000842194
       ],
       "usage": "19"
@@ -72901,7 +76180,10 @@ PARCELS = {
       ],
       "id": "9-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.04971781303112
+      ],
+      "sqarcities": [
         0.4109385169989831
       ],
       "usage": "19"
@@ -72948,7 +76230,10 @@ PARCELS = {
       ],
       "id": "10-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.530841727278045
+      ],
+      "sqarcities": [
         0.5898378906003016
       ],
       "usage": "22"
@@ -73003,7 +76288,10 @@ PARCELS = {
       ],
       "id": "10-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.74610477527159
+      ],
+      "sqarcities": [
         0.4546625022864353
       ],
       "usage": "22"
@@ -73058,7 +76346,10 @@ PARCELS = {
       ],
       "id": "10-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.18808008001997
+      ],
+      "sqarcities": [
         0.39646254537544573
       ],
       "usage": "22"
@@ -73221,7 +76512,10 @@ PARCELS = {
       ],
       "id": "10-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.24742972640257
+      ],
+      "sqarcities": [
         0.41978630865339217
       ],
       "usage": "19"
@@ -73356,7 +76650,10 @@ PARCELS = {
       ],
       "id": "10-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.00707279190561
+      ],
+      "sqarcities": [
         0.4946978754829782
       ],
       "usage": "19"
@@ -73479,7 +76776,10 @@ PARCELS = {
       ],
       "id": "10-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.24676578472969
+      ],
+      "sqarcities": [
         0.6211275484712421
       ],
       "usage": "19"
@@ -73762,7 +77062,10 @@ PARCELS = {
       ],
       "id": "10-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.40015412461221
+      ],
+      "sqarcities": [
         0.6126377611610717
       ],
       "usage": "19"
@@ -73837,7 +77140,10 @@ PARCELS = {
       ],
       "id": "10-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.934098628281625
+      ],
+      "sqarcities": [
         0.2802467685817311
       ],
       "usage": "22"
@@ -73884,7 +77190,10 @@ PARCELS = {
       ],
       "id": "10-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.456900315880844
+      ],
+      "sqarcities": [
         0.4167862186146812
       ],
       "usage": "22"
@@ -73935,7 +77244,10 @@ PARCELS = {
       ],
       "id": "11-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.181897198000456
+      ],
+      "sqarcities": [
         0.7435552044321744
       ],
       "usage": "22"
@@ -74046,7 +77358,10 @@ PARCELS = {
       ],
       "id": "11-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.33281499634558
+      ],
+      "sqarcities": [
         0.7975059019225097
       ],
       "usage": "19"
@@ -74157,7 +77472,10 @@ PARCELS = {
       ],
       "id": "11-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.94126569881162
+      ],
+      "sqarcities": [
         0.5921761937262341
       ],
       "usage": "19"
@@ -74212,7 +77530,10 @@ PARCELS = {
       ],
       "id": "11-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.898704944316506
+      ],
+      "sqarcities": [
         0.686376462809882
       ],
       "usage": "19"
@@ -74359,7 +77680,10 @@ PARCELS = {
       ],
       "id": "11-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.247783742918713
+      ],
+      "sqarcities": [
         0.48763927899648796
       ],
       "usage": "19"
@@ -74442,7 +77766,10 @@ PARCELS = {
       ],
       "id": "11-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.973642768615647
+      ],
+      "sqarcities": [
         0.6234087859792119
       ],
       "usage": "19"
@@ -74541,7 +77868,10 @@ PARCELS = {
       ],
       "id": "11-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.03642450355755
+      ],
+      "sqarcities": [
         0.43656485104774695
       ],
       "usage": "11"
@@ -74624,7 +77954,10 @@ PARCELS = {
       ],
       "id": "11-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.20060069029739
+      ],
+      "sqarcities": [
         0.7022467409454297
       ],
       "usage": "22"
@@ -74723,7 +78056,10 @@ PARCELS = {
       ],
       "id": "11-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        63.3569829448532
+      ],
+      "sqarcities": [
         0.6481516519409785
       ],
       "usage": "27"
@@ -74794,7 +78130,10 @@ PARCELS = {
       ],
       "id": "11-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.31748350172256
+      ],
+      "sqarcities": [
         0.5226995702778288
       ],
       "usage": "19"
@@ -75005,7 +78344,10 @@ PARCELS = {
       ],
       "id": "11-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.069221551497819
+      ],
+      "sqarcities": [
         0.47155182883021535
       ],
       "usage": "19"
@@ -75116,7 +78458,10 @@ PARCELS = {
       ],
       "id": "11-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.713162797276354
+      ],
+      "sqarcities": [
         0.5455366642298043
       ],
       "usage": "19"
@@ -75159,7 +78504,10 @@ PARCELS = {
       ],
       "id": "11-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.22215558988188
+      ],
+      "sqarcities": [
         0.7373494694089615
       ],
       "usage": "22"
@@ -75250,7 +78598,10 @@ PARCELS = {
           "split": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        55.98172486926532
+      ],
+      "sqarcities": [
         0.6007664130084672
       ],
       "usage": "19"
@@ -75317,7 +78668,10 @@ PARCELS = {
       ],
       "id": "11-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.662769593363805
+      ],
+      "sqarcities": [
         0.6340771583127432
       ],
       "usage": "19"
@@ -75408,7 +78762,10 @@ PARCELS = {
       ],
       "id": "12-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.226992640513018
+      ],
+      "sqarcities": [
         0.542946366425855
       ],
       "usage": "19"
@@ -75467,7 +78824,10 @@ PARCELS = {
       ],
       "id": "12-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.131941137115717
+      ],
+      "sqarcities": [
         0.5329244667935876
       ],
       "usage": "27"
@@ -75546,7 +78906,10 @@ PARCELS = {
       ],
       "id": "12-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.396538032686692
+      ],
+      "sqarcities": [
         0.5474901185663904
       ],
       "usage": "11"
@@ -75605,7 +78968,10 @@ PARCELS = {
       ],
       "id": "12-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        42.74268315760901
+      ],
+      "sqarcities": [
         0.7823553628615533
       ],
       "usage": "11"
@@ -75664,7 +79030,10 @@ PARCELS = {
       ],
       "id": "12-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.91057831739185
+      ],
+      "sqarcities": [
         0.7495060704215359
       ],
       "usage": "22"
@@ -75815,7 +79184,10 @@ PARCELS = {
       ],
       "id": "12-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.296740316759013
+      ],
+      "sqarcities": [
         0.7784985515142093
       ],
       "usage": "19"
@@ -75894,7 +79266,10 @@ PARCELS = {
       ],
       "id": "12-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.99173598105446
+      ],
+      "sqarcities": [
         0.5816450271229021
       ],
       "usage": "11"
@@ -75973,7 +79348,10 @@ PARCELS = {
       ],
       "id": "12-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.6050183534765665
+      ],
+      "sqarcities": [
         0.5698671788264326
       ],
       "usage": "19"
@@ -76292,7 +79670,10 @@ PARCELS = {
       ],
       "id": "12-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -55.36134071561883
+      ],
+      "sqarcities": [
         0.5534215426169881
       ],
       "usage": "19"
@@ -76347,7 +79728,10 @@ PARCELS = {
       ],
       "id": "12-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -39.036957635260876
+      ],
+      "sqarcities": [
         0.6320337496669542
       ],
       "usage": "22"
@@ -76394,7 +79778,10 @@ PARCELS = {
       ],
       "id": "12-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.507330137093675
+      ],
+      "sqarcities": [
         0.4519134370506878
       ],
       "usage": "22"
@@ -76441,7 +79828,10 @@ PARCELS = {
       ],
       "id": "12-132",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -42.19704470570505
+      ],
+      "sqarcities": [
         0.34389756531803056
       ],
       "usage": "22"
@@ -76516,7 +79906,10 @@ PARCELS = {
       ],
       "id": "12-137-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.65555168357723
+      ],
+      "sqarcities": [
         0.19451312272201945
       ],
       "usage": "22"
@@ -76567,7 +79960,10 @@ PARCELS = {
       ],
       "id": "12-144",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.95159593772236
+      ],
+      "sqarcities": [
         0.43119675903784227
       ],
       "usage": "22"
@@ -76614,7 +80010,10 @@ PARCELS = {
       ],
       "id": "12-146",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.051323110074534
+      ],
+      "sqarcities": [
         0.40783282911382035
       ],
       "usage": "22"
@@ -76669,7 +80068,10 @@ PARCELS = {
       ],
       "id": "12-150",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.050272009109861
+      ],
+      "sqarcities": [
         0.4809610481317094
       ],
       "usage": "19"
@@ -76760,7 +80162,10 @@ PARCELS = {
       ],
       "id": "12-155",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.50116397972415
+      ],
+      "sqarcities": [
         0.3427650107995262
       ],
       "usage": "22"
@@ -76831,7 +80236,10 @@ PARCELS = {
       ],
       "id": "12-156",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.50116397972415
+      ],
+      "sqarcities": [
         0.31180128506890414
       ],
       "usage": "22"
@@ -76886,7 +80294,10 @@ PARCELS = {
       ],
       "id": "12-160",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.0495267728859
+      ],
+      "sqarcities": [
         0.4558555092479911
       ],
       "usage": "22"
@@ -76934,7 +80345,10 @@ PARCELS = {
       ],
       "id": "12-174",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.56515549463995
+      ],
+      "sqarcities": [
         0.6935606677250875
       ],
       "usage": "27"
@@ -76977,7 +80391,10 @@ PARCELS = {
       ],
       "id": "12-169",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.720873420551413
+      ],
+      "sqarcities": [
         0.7041455579947211
       ],
       "usage": "22"
@@ -77053,7 +80470,10 @@ PARCELS = {
           "split": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        56.90320322969322
+      ],
+      "sqarcities": [
         0.42119592852826465
       ],
       "usage": "22"
@@ -77196,7 +80616,10 @@ PARCELS = {
       ],
       "id": "12-182",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.92891297435244
+      ],
+      "sqarcities": [
         0.844298570446808
       ],
       "usage": "19"
@@ -77239,7 +80662,10 @@ PARCELS = {
       ],
       "id": "12-195",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -63.67233290780788
+      ],
+      "sqarcities": [
         0.7777240282634524
       ],
       "usage": "22"
@@ -77306,7 +80732,10 @@ PARCELS = {
       ],
       "id": "12-207",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -40.95796445181838
+      ],
+      "sqarcities": [
         0.7092750108332289
       ],
       "usage": "22"
@@ -77373,7 +80802,10 @@ PARCELS = {
       ],
       "id": "12-208",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.630546749607774
+      ],
+      "sqarcities": [
         0.887167253962845
       ],
       "usage": "22"
@@ -77424,7 +80856,10 @@ PARCELS = {
       ],
       "id": "13-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.482556290720922
+      ],
+      "sqarcities": [
         0.4697108866021873
       ],
       "usage": "22"
@@ -77547,7 +80982,10 @@ PARCELS = {
       ],
       "id": "13-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.5885166902696852
+      ],
+      "sqarcities": [
         0.41086518790277726
       ],
       "usage": "19"
@@ -77666,7 +81104,10 @@ PARCELS = {
       ],
       "id": "13-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.902324822454588
+      ],
+      "sqarcities": [
         0.6313734275758562
       ],
       "usage": "19"
@@ -77713,7 +81154,10 @@ PARCELS = {
       ],
       "id": "13-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.09031023461952
+      ],
+      "sqarcities": [
         0.7386841734707015
       ],
       "usage": "19"
@@ -77760,7 +81204,10 @@ PARCELS = {
       ],
       "id": "14-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.745758068153393
+      ],
+      "sqarcities": [
         0.5622966265627687
       ],
       "usage": "22"
@@ -77811,7 +81258,10 @@ PARCELS = {
       ],
       "id": "14-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.479927307044235
+      ],
+      "sqarcities": [
         0.7227022100245516
       ],
       "usage": "22"
@@ -77866,7 +81316,10 @@ PARCELS = {
       ],
       "id": "14-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.76829120167568
+      ],
+      "sqarcities": [
         0.7604198674415881
       ],
       "usage": "22"
@@ -77921,7 +81374,10 @@ PARCELS = {
       ],
       "id": "14-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -42.0409696843287
+      ],
+      "sqarcities": [
         0.8042919588930313
       ],
       "usage": "22"
@@ -77968,7 +81424,10 @@ PARCELS = {
       ],
       "id": "14-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.393094245733892
+      ],
+      "sqarcities": [
         0.7671509289850346
       ],
       "usage": "22"
@@ -78019,7 +81478,10 @@ PARCELS = {
       ],
       "id": "14-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.393094245733892
+      ],
+      "sqarcities": [
         0.731046296308482
       ],
       "usage": "22"
@@ -78066,7 +81528,10 @@ PARCELS = {
       ],
       "id": "14-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        42.12764029726557
+      ],
+      "sqarcities": [
         0.6862532634606867
       ],
       "usage": "22"
@@ -78121,7 +81586,10 @@ PARCELS = {
       ],
       "id": "14-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.49609975110155
+      ],
+      "sqarcities": [
         0.5700987352498048
       ],
       "usage": "22"
@@ -78172,7 +81640,10 @@ PARCELS = {
       ],
       "id": "14-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.80212679540335
+      ],
+      "sqarcities": [
         0.532194351745949
       ],
       "usage": "22"
@@ -78223,7 +81694,10 @@ PARCELS = {
       ],
       "id": "14-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.80212679540335
+      ],
+      "sqarcities": [
         0.6090765937123076
       ],
       "usage": "22"
@@ -78266,7 +81740,10 @@ PARCELS = {
       ],
       "id": "14-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.06284913584579
+      ],
+      "sqarcities": [
         0.6928071232079009
       ],
       "usage": "22"
@@ -78309,7 +81786,10 @@ PARCELS = {
       ],
       "id": "14-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.09212859379022
+      ],
+      "sqarcities": [
         0.7179904472500729
       ],
       "usage": "27"
@@ -78356,7 +81836,10 @@ PARCELS = {
       ],
       "id": "14-88",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.24557373692008
+      ],
+      "sqarcities": [
         0.7845296998584488
       ],
       "usage": "22"
@@ -78430,8 +81913,16 @@ PARCELS = {
         }
       ],
       "id": "14-90",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "rotate": false,
+          "split": true
+        }
+      ],
+      "orientations": [
+        73.97212929526711
+      ],
+      "sqarcities": [
         0.4397557218367656
       ],
       "usage": "22"
@@ -78482,7 +81973,10 @@ PARCELS = {
       ],
       "id": "14-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.339040766394263
+      ],
+      "sqarcities": [
         0.6718019517446071
       ],
       "usage": "11"
@@ -78529,7 +82023,10 @@ PARCELS = {
       ],
       "id": "14-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.68683390508191
+      ],
+      "sqarcities": [
         0.7130976542340284
       ],
       "usage": "22"
@@ -78576,7 +82073,10 @@ PARCELS = {
       ],
       "id": "14-112",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.34011934125374
+      ],
+      "sqarcities": [
         0.7846741500234057
       ],
       "usage": "22"
@@ -78623,7 +82123,10 @@ PARCELS = {
       ],
       "id": "14-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.00253627586878
+      ],
+      "sqarcities": [
         0.7813300447546614
       ],
       "usage": "22"
@@ -78674,7 +82177,10 @@ PARCELS = {
       ],
       "id": "14-130",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.2448761296923
+      ],
+      "sqarcities": [
         0.7588073692249522
       ],
       "usage": "22"
@@ -78741,7 +82247,10 @@ PARCELS = {
       ],
       "id": "14-131",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.68607465451688
+      ],
+      "sqarcities": [
         0.6300492677344625
       ],
       "usage": "22"
@@ -78788,7 +82297,10 @@ PARCELS = {
       ],
       "id": "14-133",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.72529689858067
+      ],
+      "sqarcities": [
         0.7790184000017145
       ],
       "usage": "27"
@@ -78835,7 +82347,10 @@ PARCELS = {
       ],
       "id": "14-227",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.684969001516833
+      ],
+      "sqarcities": [
         0.7835989036300178
       ],
       "usage": "27"
@@ -79058,7 +82573,10 @@ PARCELS = {
       ],
       "id": "14-148",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.147157161122621
+      ],
+      "sqarcities": [
         0.1353011138246534
       ],
       "usage": "27"
@@ -79113,7 +82631,10 @@ PARCELS = {
       ],
       "id": "14-149",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -42.00435630072525
+      ],
+      "sqarcities": [
         0.457278939697758
       ],
       "usage": "22"
@@ -79164,7 +82685,10 @@ PARCELS = {
       ],
       "id": "14-150",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -36.075954335430374
+      ],
+      "sqarcities": [
         0.5382761916188359
       ],
       "usage": "11"
@@ -79219,7 +82743,10 @@ PARCELS = {
       ],
       "id": "14-151",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.36379900316934
+      ],
+      "sqarcities": [
         0.5998241837353332
       ],
       "usage": "11"
@@ -79270,7 +82797,10 @@ PARCELS = {
       ],
       "id": "14-184",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.454039361043598
+      ],
+      "sqarcities": [
         0.48201863264098005
       ],
       "usage": "22"
@@ -79313,7 +82843,10 @@ PARCELS = {
       ],
       "id": "14-202",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.15433644333529
+      ],
+      "sqarcities": [
         0.5713295844744635
       ],
       "usage": "22"
@@ -79356,7 +82889,10 @@ PARCELS = {
       ],
       "id": "14-222",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.581760862786851
+      ],
+      "sqarcities": [
         0.7700174898638807
       ],
       "usage": "11"
@@ -79403,7 +82939,10 @@ PARCELS = {
       ],
       "id": "14-224",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.369414511215766
+      ],
+      "sqarcities": [
         0.7687167447278014
       ],
       "usage": "22"
@@ -79450,7 +82989,10 @@ PARCELS = {
       ],
       "id": "14-233",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -49.579187060320784
+      ],
+      "sqarcities": [
         0.7169110275817084
       ],
       "usage": "22"
@@ -79497,7 +83039,10 @@ PARCELS = {
       ],
       "id": "14-254",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.235595247950386
+      ],
+      "sqarcities": [
         0.712984122732945
       ],
       "usage": "22"
@@ -79544,7 +83089,10 @@ PARCELS = {
       ],
       "id": "14-257",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.24031615793635
+      ],
+      "sqarcities": [
         0.7383187037757607
       ],
       "usage": "22"
@@ -79591,7 +83139,10 @@ PARCELS = {
       ],
       "id": "14-258",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.24031615793635
+      ],
+      "sqarcities": [
         0.7098489718617268
       ],
       "usage": "22"
@@ -79634,7 +83185,10 @@ PARCELS = {
       ],
       "id": "14-269",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.10551245573575
+      ],
+      "sqarcities": [
         0.7653652345368165
       ],
       "usage": "22"
@@ -79685,7 +83239,10 @@ PARCELS = {
       ],
       "id": "14-267",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.14203981233018
+      ],
+      "sqarcities": [
         0.7397445021932542
       ],
       "usage": "22"
@@ -79732,7 +83289,10 @@ PARCELS = {
       ],
       "id": "14-273",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.77710065549272
+      ],
+      "sqarcities": [
         0.7569931707524125
       ],
       "usage": "22"
@@ -79775,7 +83335,10 @@ PARCELS = {
       ],
       "id": "14-298",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.15154631408672
+      ],
+      "sqarcities": [
         0.7465184260420221
       ],
       "usage": "27"
@@ -79830,7 +83393,10 @@ PARCELS = {
       ],
       "id": "14-300",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.30279623529346
+      ],
+      "sqarcities": [
         0.7162423824443143
       ],
       "usage": "22"
@@ -79881,7 +83447,10 @@ PARCELS = {
       ],
       "id": "14-304",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.35803996364021
+      ],
+      "sqarcities": [
         0.6471142247777966
       ],
       "usage": "22"
@@ -79936,7 +83505,10 @@ PARCELS = {
       ],
       "id": "14-305",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.93313823245846
+      ],
+      "sqarcities": [
         0.7291289586617742
       ],
       "usage": "22"
@@ -80003,7 +83575,10 @@ PARCELS = {
       ],
       "id": "14-307",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.49935770584525
+      ],
+      "sqarcities": [
         0.6230071417975264
       ],
       "usage": "19"
@@ -80058,7 +83633,10 @@ PARCELS = {
       ],
       "id": "14-320",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.50733028457742
+      ],
+      "sqarcities": [
         0.7590104682225677
       ],
       "usage": "22"
@@ -80101,7 +83679,10 @@ PARCELS = {
       ],
       "id": "14-324",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.12804441746181
+      ],
+      "sqarcities": [
         0.6626653669571183
       ],
       "usage": "22"
@@ -80152,7 +83733,10 @@ PARCELS = {
       ],
       "id": "14-325",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.12804441746181
+      ],
+      "sqarcities": [
         0.6594246778220915
       ],
       "usage": "22"
@@ -80215,7 +83799,10 @@ PARCELS = {
       ],
       "id": "14-328",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.49956900278717
+      ],
+      "sqarcities": [
         0.549001741176242
       ],
       "usage": "22"
@@ -80266,7 +83853,10 @@ PARCELS = {
       ],
       "id": "14-333",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.41696265030501
+      ],
+      "sqarcities": [
         0.7874635264187826
       ],
       "usage": "22"
@@ -80313,7 +83903,10 @@ PARCELS = {
       ],
       "id": "14-334",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.41696265030501
+      ],
+      "sqarcities": [
         0.7626127268278586
       ],
       "usage": "22"
@@ -80360,7 +83953,10 @@ PARCELS = {
       ],
       "id": "14-348",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.747640059767363
+      ],
+      "sqarcities": [
         0.7823104735467021
       ],
       "usage": "22"
@@ -80411,7 +84007,10 @@ PARCELS = {
       ],
       "id": "14-354",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.9274214299965138
+      ],
+      "sqarcities": [
         0.7388189751308857
       ],
       "usage": "22"
@@ -80458,7 +84057,10 @@ PARCELS = {
       ],
       "id": "14-355",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.01134483981531
+      ],
+      "sqarcities": [
         0.7680103063371098
       ],
       "usage": "11"
@@ -80533,7 +84135,10 @@ PARCELS = {
       ],
       "id": "14-374",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.1531615806341
+      ],
+      "sqarcities": [
         0.729372916266095
       ],
       "usage": "22"
@@ -80584,7 +84189,10 @@ PARCELS = {
       ],
       "id": "14-383",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.50223742278487
+      ],
+      "sqarcities": [
         0.6465119835512891
       ],
       "usage": "22"
@@ -80635,7 +84243,10 @@ PARCELS = {
       ],
       "id": "14-499",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.14821876791885
+      ],
+      "sqarcities": [
         0.7315585468890865
       ],
       "usage": "22"
@@ -80702,7 +84313,10 @@ PARCELS = {
       ],
       "id": "14-510",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.011141551030335
+      ],
+      "sqarcities": [
         0.433651402642529
       ],
       "usage": "22"
@@ -80753,7 +84367,10 @@ PARCELS = {
       ],
       "id": "14-512",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.59520296632252
+      ],
+      "sqarcities": [
         0.6150546540435008
       ],
       "usage": "22"
@@ -80840,7 +84457,10 @@ PARCELS = {
       ],
       "id": "15-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.07593249333678
+      ],
+      "sqarcities": [
         0.5068401418221689
       ],
       "usage": "19"
@@ -80983,7 +84603,10 @@ PARCELS = {
       ],
       "id": "15-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.44349477149004
+      ],
+      "sqarcities": [
         0.5000088295411057
       ],
       "usage": "22"
@@ -81030,7 +84653,10 @@ PARCELS = {
       ],
       "id": "15-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.27926051270127
+      ],
+      "sqarcities": [
         0.3910473661270544
       ],
       "usage": "22"
@@ -81085,7 +84711,10 @@ PARCELS = {
       ],
       "id": "15-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.31702072060456
+      ],
+      "sqarcities": [
         0.37005404836658684
       ],
       "usage": "22"
@@ -81132,7 +84761,10 @@ PARCELS = {
       ],
       "id": "15-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.661574289650247
+      ],
+      "sqarcities": [
         0.3969839501615813
       ],
       "usage": "22"
@@ -81195,7 +84827,10 @@ PARCELS = {
       ],
       "id": "15-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.181896166529512
+      ],
+      "sqarcities": [
         0.29916962240181116
       ],
       "usage": "22"
@@ -81258,7 +84893,10 @@ PARCELS = {
       ],
       "id": "15-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.21578047700535
+      ],
+      "sqarcities": [
         0.6817901811875691
       ],
       "usage": "22"
@@ -81445,7 +85083,10 @@ PARCELS = {
       ],
       "id": "15-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.069221551497819
+      ],
+      "sqarcities": [
         0.41500412652398905
       ],
       "usage": "11"
@@ -81520,7 +85161,10 @@ PARCELS = {
       ],
       "id": "15-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.50543763738588
+      ],
+      "sqarcities": [
         0.5584874677406398
       ],
       "usage": "19"
@@ -81599,7 +85243,10 @@ PARCELS = {
       ],
       "id": "15-58-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.820260834859226
+      ],
+      "sqarcities": [
         0.460074464739484
       ],
       "usage": "22"
@@ -81678,7 +85325,10 @@ PARCELS = {
       ],
       "id": "15-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.35978500645271
+      ],
+      "sqarcities": [
         0.7682409626374164
       ],
       "usage": "19"
@@ -81745,7 +85395,10 @@ PARCELS = {
       ],
       "id": "15-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.09291813519188
+      ],
+      "sqarcities": [
         0.4902645472201898
       ],
       "usage": "11"
@@ -82012,7 +85665,10 @@ PARCELS = {
       ],
       "id": "15-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.7807928973163
+      ],
+      "sqarcities": [
         0.48271532742880463
       ],
       "usage": "11"
@@ -82167,7 +85823,10 @@ PARCELS = {
       ],
       "id": "15-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.08957676035019801
+      ],
+      "sqarcities": [
         0.658783006476225
       ],
       "usage": "11"
@@ -82215,7 +85874,10 @@ PARCELS = {
       ],
       "id": "15-107-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.0091667670496
+      ],
+      "sqarcities": [
         0.6582158016172976
       ],
       "usage": "22"
@@ -82274,7 +85936,10 @@ PARCELS = {
       ],
       "id": "15-117",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.6347804578455225
+      ],
+      "sqarcities": [
         0.49600228457282897
       ],
       "usage": "19"
@@ -82373,7 +86038,10 @@ PARCELS = {
       ],
       "id": "15-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.36117141141034
+      ],
+      "sqarcities": [
         0.6326369655348989
       ],
       "usage": "19"
@@ -82428,7 +86096,10 @@ PARCELS = {
       ],
       "id": "15-135",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.15036802550742
+      ],
+      "sqarcities": [
         0.7463634700756039
       ],
       "usage": "22"
@@ -82479,7 +86150,10 @@ PARCELS = {
       ],
       "id": "15-136",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.92074729148125
+      ],
+      "sqarcities": [
         0.7952547170138763
       ],
       "usage": "22"
@@ -82562,7 +86236,10 @@ PARCELS = {
       ],
       "id": "15-154",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.682072265170873
+      ],
+      "sqarcities": [
         0.4093070963736616
       ],
       "usage": "27"
@@ -82609,7 +86286,10 @@ PARCELS = {
       ],
       "id": "15-147",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.43456068976292
+      ],
+      "sqarcities": [
         0.7798250340445397
       ],
       "usage": "22"
@@ -82676,7 +86356,10 @@ PARCELS = {
       ],
       "id": "15-153",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.82218276839856
+      ],
+      "sqarcities": [
         0.6159310599494696
       ],
       "usage": "22"
@@ -82783,7 +86466,10 @@ PARCELS = {
       ],
       "id": "15-155",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.649598248511296
+      ],
+      "sqarcities": [
         0.6241330752559954
       ],
       "usage": "22"
@@ -82826,7 +86512,10 @@ PARCELS = {
       ],
       "id": "16-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.459967147104734
+      ],
+      "sqarcities": [
         0.7019603233761509
       ],
       "usage": "11"
@@ -82873,7 +86562,10 @@ PARCELS = {
       ],
       "id": "16-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.24161800831874
+      ],
+      "sqarcities": [
         0.7514200629520881
       ],
       "usage": "22"
@@ -82920,7 +86612,10 @@ PARCELS = {
       ],
       "id": "16-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.55573835541616
+      ],
+      "sqarcities": [
         0.6784333770290059
       ],
       "usage": "22"
@@ -82975,7 +86670,10 @@ PARCELS = {
       ],
       "id": "16-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.41913564271148
+      ],
+      "sqarcities": [
         0.5694937415629139
       ],
       "usage": "22"
@@ -83030,7 +86728,10 @@ PARCELS = {
       ],
       "id": "16-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.5373850691664614
+      ],
+      "sqarcities": [
         0.5906943541661275
       ],
       "usage": "22"
@@ -83073,7 +86774,10 @@ PARCELS = {
       ],
       "id": "16-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.86486389907792
+      ],
+      "sqarcities": [
         0.6344144734602298
       ],
       "usage": "27"
@@ -83136,7 +86840,10 @@ PARCELS = {
       ],
       "id": "16-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        36.57237947866942
+      ],
+      "sqarcities": [
         0.354961556654417
       ],
       "usage": "27"
@@ -83247,7 +86954,10 @@ PARCELS = {
       ],
       "id": "16-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.72256371282023
+      ],
+      "sqarcities": [
         0.6846299481158842
       ],
       "usage": "19"
@@ -83338,7 +87048,10 @@ PARCELS = {
       ],
       "id": "16-70-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.24485811720248
+      ],
+      "sqarcities": [
         0.30672773222705907
       ],
       "usage": "19"
@@ -83397,7 +87110,10 @@ PARCELS = {
       ],
       "id": "16-70-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.28938877945431
+      ],
+      "sqarcities": [
         0.3097336079405781
       ],
       "usage": "19"
@@ -83464,7 +87180,10 @@ PARCELS = {
       ],
       "id": "16-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.8118897791243995
+      ],
+      "sqarcities": [
         0.4785977126935739
       ],
       "usage": "11"
@@ -83583,7 +87302,10 @@ PARCELS = {
       ],
       "id": "16-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.8113261665972
+      ],
+      "sqarcities": [
         0.4046360939794364
       ],
       "usage": "19"
@@ -83638,7 +87360,10 @@ PARCELS = {
       ],
       "id": "16-77-06",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.37338514467007
+      ],
+      "sqarcities": [
         0.4868779798080147
       ],
       "usage": "19"
@@ -83693,7 +87418,10 @@ PARCELS = {
       ],
       "id": "16-77-07",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.32717649977943
+      ],
+      "sqarcities": [
         0.2454913034019373
       ],
       "usage": "19"
@@ -83740,7 +87468,10 @@ PARCELS = {
       ],
       "id": "16-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -59.3187500602761
+      ],
+      "sqarcities": [
         0.7196887749352892
       ],
       "usage": "22"
@@ -83814,7 +87545,11 @@ PARCELS = {
       ],
       "id": "16-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.68686136955151,
+        5.489335142634019
+      ],
+      "sqarcities": [
         0.6080519914502583,
         0.34164986885785187
       ],
@@ -83902,7 +87637,10 @@ PARCELS = {
       ],
       "id": "16-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.96137166890175
+      ],
+      "sqarcities": [
         0.42691713999310826
       ],
       "usage": "11"
@@ -83949,7 +87687,10 @@ PARCELS = {
       ],
       "id": "16-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.370779276512422
+      ],
+      "sqarcities": [
         0.27297331727336377
       ],
       "usage": "22"
@@ -84000,7 +87741,10 @@ PARCELS = {
       ],
       "id": "16-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.456803667076329
+      ],
+      "sqarcities": [
         0.40066894780679263
       ],
       "usage": "22"
@@ -84051,7 +87795,10 @@ PARCELS = {
       ],
       "id": "16-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.05413763273395
+      ],
+      "sqarcities": [
         0.2892356640351393
       ],
       "usage": "27"
@@ -84098,7 +87845,10 @@ PARCELS = {
       ],
       "id": "16-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        41.724511942770675
+      ],
+      "sqarcities": [
         0.34194614939200185
       ],
       "usage": "22"
@@ -84153,7 +87903,10 @@ PARCELS = {
       ],
       "id": "16-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.413031231585876
+      ],
+      "sqarcities": [
         0.3124898566913082
       ],
       "usage": "22"
@@ -84204,7 +87957,10 @@ PARCELS = {
       ],
       "id": "16-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.413031231585876
+      ],
+      "sqarcities": [
         0.3378666004576146
       ],
       "usage": "22"
@@ -84259,7 +88015,10 @@ PARCELS = {
       ],
       "id": "16-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.518859996172267
+      ],
+      "sqarcities": [
         0.2820277096291608
       ],
       "usage": "22"
@@ -84382,7 +88141,10 @@ PARCELS = {
       ],
       "id": "16-115",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -27.82224176435259
+      ],
+      "sqarcities": [
         0.7579857928363299
       ],
       "usage": "19"
@@ -84437,7 +88199,10 @@ PARCELS = {
       ],
       "id": "16-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.431091599544814
+      ],
+      "sqarcities": [
         0.44059904264648486
       ],
       "usage": "22"
@@ -84504,7 +88269,10 @@ PARCELS = {
       ],
       "id": "16-122",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.376251839221922
+      ],
+      "sqarcities": [
         0.5749746023872598
       ],
       "usage": "11"
@@ -84551,7 +88319,10 @@ PARCELS = {
       ],
       "id": "16-131-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.635517664500526
+      ],
+      "sqarcities": [
         0.6312108398808728
       ],
       "usage": "22"
@@ -84662,7 +88433,10 @@ PARCELS = {
       ],
       "id": "16-127",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.29506046639621
+      ],
+      "sqarcities": [
         0.501361287494472
       ],
       "usage": "11"
@@ -84737,7 +88511,10 @@ PARCELS = {
       ],
       "id": "16-131-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.858665765207874
+      ],
+      "sqarcities": [
         0.6622654574741691
       ],
       "usage": "11"
@@ -84808,7 +88585,10 @@ PARCELS = {
       ],
       "id": "17-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.92762440144969
+      ],
+      "sqarcities": [
         0.48964437142566036
       ],
       "usage": "19"
@@ -84887,7 +88667,10 @@ PARCELS = {
       ],
       "id": "17-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.66568280302225
+      ],
+      "sqarcities": [
         0.5964074645099944
       ],
       "usage": "19"
@@ -84966,7 +88749,10 @@ PARCELS = {
       ],
       "id": "17-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.66568280302225
+      ],
+      "sqarcities": [
         0.5957248916324566
       ],
       "usage": "19"
@@ -85021,7 +88807,10 @@ PARCELS = {
       ],
       "id": "17-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.67884899400022
+      ],
+      "sqarcities": [
         0.5981784472062744
       ],
       "usage": "11"
@@ -85124,7 +88913,10 @@ PARCELS = {
       ],
       "id": "17-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.98806118656599
+      ],
+      "sqarcities": [
         0.6509957379056461
       ],
       "usage": "19"
@@ -85251,7 +89043,10 @@ PARCELS = {
       ],
       "id": "17-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.659749767345488
+      ],
+      "sqarcities": [
         0.6131290070701203
       ],
       "usage": "19"
@@ -85458,7 +89253,10 @@ PARCELS = {
       ],
       "id": "17-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.9469043612079
+      ],
+      "sqarcities": [
         0.546025654356071
       ],
       "usage": "22"
@@ -85509,7 +89307,10 @@ PARCELS = {
       ],
       "id": "17-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.83545107903876
+      ],
+      "sqarcities": [
         0.7442888554720682
       ],
       "usage": "22"
@@ -85568,7 +89369,10 @@ PARCELS = {
       ],
       "id": "18-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.6922765851672636
+      ],
+      "sqarcities": [
         0.5009039811846145
       ],
       "usage": "19"
@@ -85611,7 +89415,10 @@ PARCELS = {
       ],
       "id": "18-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.7994614602735
+      ],
+      "sqarcities": [
         0.6882559244129182
       ],
       "usage": "19"
@@ -85658,7 +89465,10 @@ PARCELS = {
       ],
       "id": "22-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.1266484237579
+      ],
+      "sqarcities": [
         0.7815186003358705
       ],
       "usage": "22"
@@ -85733,7 +89543,10 @@ PARCELS = {
       ],
       "id": "20-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.829047567435808
+      ],
+      "sqarcities": [
         0.70442589321745
       ],
       "usage": "22"
@@ -85848,7 +89661,10 @@ PARCELS = {
       ],
       "id": "20-126",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.2154681949102155
+      ],
+      "sqarcities": [
         0.6726492304726546
       ],
       "usage": "19"
@@ -85939,7 +89755,10 @@ PARCELS = {
       ],
       "id": "20-122",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.614444362801578
+      ],
+      "sqarcities": [
         0.26083590453791794
       ],
       "usage": "19"
@@ -85998,7 +89817,10 @@ PARCELS = {
       ],
       "id": "20-128",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.98348202725467
+      ],
+      "sqarcities": [
         0.6788412147777231
       ],
       "usage": "19"
@@ -86057,7 +89879,10 @@ PARCELS = {
       ],
       "id": "20-149",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.6179392399784
+      ],
+      "sqarcities": [
         0.6882327657140801
       ],
       "usage": "11"
@@ -86216,7 +90041,10 @@ PARCELS = {
       ],
       "id": "20-169",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.379525191824754
+      ],
+      "sqarcities": [
         0.39381224145855925
       ],
       "usage": "11"
@@ -86287,7 +90115,10 @@ PARCELS = {
       ],
       "id": "20-172",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.10638558053744
+      ],
+      "sqarcities": [
         0.4889428620419282
       ],
       "usage": "22"
@@ -86366,7 +90197,10 @@ PARCELS = {
       ],
       "id": "20-178",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.434736894353847
+      ],
+      "sqarcities": [
         0.3922478671204999
       ],
       "usage": "22"
@@ -86425,7 +90259,10 @@ PARCELS = {
       ],
       "id": "20-179",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.434736894353847
+      ],
+      "sqarcities": [
         0.4651476068145523
       ],
       "usage": "22"
@@ -86496,7 +90333,10 @@ PARCELS = {
       ],
       "id": "20-185",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.54428663538664
+      ],
+      "sqarcities": [
         0.2971096360490344
       ],
       "usage": "22"
@@ -86579,7 +90419,10 @@ PARCELS = {
       ],
       "id": "21-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.58865264705038
+      ],
+      "sqarcities": [
         0.5313518702779677
       ],
       "usage": "11"
@@ -86682,7 +90525,10 @@ PARCELS = {
       ],
       "id": "21-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.35283067796483
+      ],
+      "sqarcities": [
         0.7428614926379628
       ],
       "usage": "19"
@@ -86737,7 +90583,10 @@ PARCELS = {
       ],
       "id": "21-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.8682233779049
+      ],
+      "sqarcities": [
         0.672157599798475
       ],
       "usage": "22"
@@ -86912,7 +90761,10 @@ PARCELS = {
       ],
       "id": "21-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.25672047503842
+      ],
+      "sqarcities": [
         0.42011309098970173
       ],
       "usage": "19"
@@ -86967,7 +90819,10 @@ PARCELS = {
       ],
       "id": "22-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.00433753893496
+      ],
+      "sqarcities": [
         0.7610030339239747
       ],
       "usage": "26"
@@ -87014,7 +90869,10 @@ PARCELS = {
       ],
       "id": "22-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.15299018170481
+      ],
+      "sqarcities": [
         0.7813812345213323
       ],
       "usage": "22"
@@ -87117,7 +90975,10 @@ PARCELS = {
       ],
       "id": "22-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.242216375039888
+      ],
+      "sqarcities": [
         0.5554878028745834
       ],
       "usage": "11"
@@ -87160,7 +91021,10 @@ PARCELS = {
       ],
       "id": "22-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.00363599022363
+      ],
+      "sqarcities": [
         0.566079325956391
       ],
       "usage": "19"
@@ -87227,7 +91091,10 @@ PARCELS = {
       ],
       "id": "22-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.02865121117563
+      ],
+      "sqarcities": [
         0.6914186333629128
       ],
       "usage": "27"
@@ -87274,7 +91141,10 @@ PARCELS = {
       ],
       "id": "22-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.05396203591215
+      ],
+      "sqarcities": [
         0.4604898344871966
       ],
       "usage": "19"
@@ -87333,7 +91203,10 @@ PARCELS = {
       ],
       "id": "22-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.79603441403583
+      ],
+      "sqarcities": [
         0.5792810033418301
       ],
       "usage": "27"
@@ -87424,7 +91297,10 @@ PARCELS = {
       ],
       "id": "23-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.86405156877694
+      ],
+      "sqarcities": [
         0.534697518602508
       ],
       "usage": "19"
@@ -87502,7 +91378,11 @@ PARCELS = {
       ],
       "id": "22-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.023918683083764,
+        79.82866604942001
+      ],
+      "sqarcities": [
         0.533779129725415,
         0.29712402452138226
       ],
@@ -87566,7 +91446,10 @@ PARCELS = {
       ],
       "id": "23-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.74301896037909
+      ],
+      "sqarcities": [
         0.3592124423463201
       ],
       "usage": "19"
@@ -87629,7 +91512,10 @@ PARCELS = {
       ],
       "id": "23-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.523710003293488
+      ],
+      "sqarcities": [
         0.37876150927456265
       ],
       "usage": "22"
@@ -87672,7 +91558,10 @@ PARCELS = {
       ],
       "id": "23-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.66401936942694
+      ],
+      "sqarcities": [
         0.7582315400588256
       ],
       "usage": "22"
@@ -87755,7 +91644,10 @@ PARCELS = {
       ],
       "id": "23-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.11345056153783
+      ],
+      "sqarcities": [
         0.6015612555563432
       ],
       "usage": "27"
@@ -87802,7 +91694,10 @@ PARCELS = {
       ],
       "id": "23-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.97547685401598
+      ],
+      "sqarcities": [
         0.6832844868835276
       ],
       "usage": "19"
@@ -87869,7 +91764,10 @@ PARCELS = {
       ],
       "id": "23-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.97547685401598
+      ],
+      "sqarcities": [
         0.5111553357238094
       ],
       "usage": "19"
@@ -87912,7 +91810,10 @@ PARCELS = {
       ],
       "id": "24-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.59230278975717
+      ],
+      "sqarcities": [
         0.6742212889378806
       ],
       "usage": "22"
@@ -87955,7 +91856,10 @@ PARCELS = {
       ],
       "id": "24-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -33.63002297896319
+      ],
+      "sqarcities": [
         0.7340202925721026
       ],
       "usage": "22"
@@ -87998,7 +91902,10 @@ PARCELS = {
       ],
       "id": "24-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.926530370688482
+      ],
+      "sqarcities": [
         0.6117683055790794
       ],
       "usage": "22"
@@ -88045,7 +91952,10 @@ PARCELS = {
       ],
       "id": "24-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.648610915133915
+      ],
+      "sqarcities": [
         0.7630716798913627
       ],
       "usage": "22"
@@ -88100,7 +92010,10 @@ PARCELS = {
       ],
       "id": "24-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.782071864531673
+      ],
+      "sqarcities": [
         0.6997877936650708
       ],
       "usage": "22"
@@ -88163,7 +92076,10 @@ PARCELS = {
       ],
       "id": "24-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.470845611810546
+      ],
+      "sqarcities": [
         0.454597594354654
       ],
       "usage": "19"
@@ -88258,7 +92174,10 @@ PARCELS = {
       ],
       "id": "24-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.00322727324206
+      ],
+      "sqarcities": [
         0.53011149596472
       ],
       "usage": "11"
@@ -88309,7 +92228,10 @@ PARCELS = {
       ],
       "id": "24-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.65819268283354
+      ],
+      "sqarcities": [
         0.5830971956819382
       ],
       "usage": "22"
@@ -88356,7 +92278,10 @@ PARCELS = {
       ],
       "id": "24-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.01519307354181
+      ],
+      "sqarcities": [
         0.528716566736534
       ],
       "usage": "22"
@@ -88407,7 +92332,10 @@ PARCELS = {
       ],
       "id": "24-88",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.299799357640453
+      ],
+      "sqarcities": [
         0.450479713260456
       ],
       "usage": "22"
@@ -88466,7 +92394,10 @@ PARCELS = {
       ],
       "id": "24-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.241356297790304
+      ],
+      "sqarcities": [
         0.7407453752904339
       ],
       "usage": "19"
@@ -88509,7 +92440,10 @@ PARCELS = {
       ],
       "id": "24-120-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.117523906443886
+      ],
+      "sqarcities": [
         0.7212942847518053
       ],
       "usage": "22"
@@ -88608,7 +92542,10 @@ PARCELS = {
       ],
       "id": "24-130",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.564736568331142
+      ],
+      "sqarcities": [
         0.7172684636989002
       ],
       "usage": "19"
@@ -88767,7 +92704,10 @@ PARCELS = {
       ],
       "id": "24-131",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.67841394066177
+      ],
+      "sqarcities": [
         0.5407147282222982
       ],
       "usage": "19"
@@ -88810,7 +92750,10 @@ PARCELS = {
       ],
       "id": "25-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.98129836960176
+      ],
+      "sqarcities": [
         0.7762382153512185
       ],
       "usage": "22"
@@ -88861,7 +92804,10 @@ PARCELS = {
       ],
       "id": "25-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.71196431331191
+      ],
+      "sqarcities": [
         0.7633789704377348
       ],
       "usage": "22"
@@ -88908,7 +92854,10 @@ PARCELS = {
       ],
       "id": "25-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.51448353102676
+      ],
+      "sqarcities": [
         0.617120205239567
       ],
       "usage": "22"
@@ -88955,7 +92904,10 @@ PARCELS = {
       ],
       "id": "25-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.499738904013256
+      ],
+      "sqarcities": [
         0.6628058614737494
       ],
       "usage": "22"
@@ -88998,7 +92950,10 @@ PARCELS = {
       ],
       "id": "25-15-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.62756468673155
+      ],
+      "sqarcities": [
         0.5315071462252318
       ],
       "usage": "27"
@@ -89057,7 +93012,10 @@ PARCELS = {
       ],
       "id": "25-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.19549623963726
+      ],
+      "sqarcities": [
         0.539632603629143
       ],
       "usage": "22"
@@ -89128,7 +93086,10 @@ PARCELS = {
       ],
       "id": "25-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -82.3467308097616
+      ],
+      "sqarcities": [
         0.5689945463186544
       ],
       "usage": "22"
@@ -89175,7 +93136,10 @@ PARCELS = {
       ],
       "id": "25-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.044804830772605
+      ],
+      "sqarcities": [
         0.4302379529193318
       ],
       "usage": "22"
@@ -89234,7 +93198,10 @@ PARCELS = {
       ],
       "id": "25-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.47505378483853
+      ],
+      "sqarcities": [
         0.5149419176145429
       ],
       "usage": "27"
@@ -89281,7 +93248,10 @@ PARCELS = {
       ],
       "id": "25-56-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.58150986702847
+      ],
+      "sqarcities": [
         0.5403836358046001
       ],
       "usage": "27"
@@ -89432,7 +93402,10 @@ PARCELS = {
       ],
       "id": "25-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.4887812528292
+      ],
+      "sqarcities": [
         0.520464130885983
       ],
       "usage": "22"
@@ -89475,7 +93448,10 @@ PARCELS = {
       ],
       "id": "25-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.755227919054946
+      ],
+      "sqarcities": [
         0.39587319335450816
       ],
       "usage": "22"
@@ -89761,7 +93737,11 @@ PARCELS = {
       ],
       "id": "11-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -37.05742565174437,
+        -7.4974063806489255
+      ],
+      "sqarcities": [
         0.27730839733073936,
         0.5303815542584713
       ],
@@ -89817,7 +93797,10 @@ PARCELS = {
       ],
       "id": "11-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.84758326049112
+      ],
+      "sqarcities": [
         0.5496673787472884
       ],
       "usage": "22"
@@ -89896,7 +93879,10 @@ PARCELS = {
       ],
       "id": "12-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.2226550312829971
+      ],
+      "sqarcities": [
         0.4733808655153405
       ],
       "usage": "11"
@@ -89975,7 +93961,10 @@ PARCELS = {
       ],
       "id": "12-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.7307942640147616
+      ],
+      "sqarcities": [
         0.6992809970279155
       ],
       "usage": "11"
@@ -90074,7 +94063,10 @@ PARCELS = {
       ],
       "id": "15-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.5921069130944
+      ],
+      "sqarcities": [
         0.4461601886350839
       ],
       "usage": "11"
@@ -90173,7 +94165,10 @@ PARCELS = {
       ],
       "id": "15-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.22217968144864
+      ],
+      "sqarcities": [
         0.4405336689111956
       ],
       "usage": "11"
@@ -90264,7 +94259,10 @@ PARCELS = {
       ],
       "id": "19-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.9272818121538933
+      ],
+      "sqarcities": [
         0.794829235896273
       ],
       "usage": "22"
@@ -90399,7 +94397,10 @@ PARCELS = {
       ],
       "id": "1-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.64600867533713
+      ],
+      "sqarcities": [
         0.33834365516259207
       ],
       "usage": "100"
@@ -90542,7 +94543,10 @@ PARCELS = {
       ],
       "id": "4-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.550346555226284
+      ],
+      "sqarcities": [
         0.7571982610759939
       ],
       "usage": "22"
@@ -91045,7 +95049,10 @@ PARCELS = {
       ],
       "id": "14-398",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.33931232924003
+      ],
+      "sqarcities": [
         0.3610773372202895
       ],
       "usage": "19"
@@ -91112,7 +95119,10 @@ PARCELS = {
       ],
       "id": "20-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.128867845218238
+      ],
+      "sqarcities": [
         0.7564472853778107
       ],
       "usage": "22"
@@ -91151,7 +95161,10 @@ PARCELS = {
       ],
       "id": "8-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.835341826708685
+      ],
+      "sqarcities": [
         0.5077791647742783
       ],
       "usage": "19"
@@ -91194,7 +95207,10 @@ PARCELS = {
       ],
       "id": "9-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.343825967900315
+      ],
+      "sqarcities": [
         0.7059693522159484
       ],
       "usage": "19"
@@ -91237,7 +95253,10 @@ PARCELS = {
       ],
       "id": "7-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        89.13690048823904
+      ],
+      "sqarcities": [
         0.5524059427256014
       ],
       "usage": "22"
@@ -91284,7 +95303,10 @@ PARCELS = {
       ],
       "id": "7-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.516755031360404
+      ],
+      "sqarcities": [
         0.5902714498963253
       ],
       "usage": "22"
@@ -91327,7 +95349,10 @@ PARCELS = {
       ],
       "id": "14-452-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.668152972755138
+      ],
+      "sqarcities": [
         0.5815240853787753
       ],
       "usage": "22"
@@ -91394,7 +95419,10 @@ PARCELS = {
       ],
       "id": "6-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.47520707394581
+      ],
+      "sqarcities": [
         0.43872971801812227
       ],
       "usage": "19"
@@ -91441,7 +95469,10 @@ PARCELS = {
       ],
       "id": "6-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -75.2735259965943
+      ],
+      "sqarcities": [
         0.4616865632460753
       ],
       "usage": "19"
@@ -91488,7 +95519,10 @@ PARCELS = {
       ],
       "id": "7-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.329530830552216
+      ],
+      "sqarcities": [
         0.5143917973322689
       ],
       "usage": "22"
@@ -91539,7 +95573,10 @@ PARCELS = {
       ],
       "id": "6-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.40424327281028
+      ],
+      "sqarcities": [
         0.5169503940671866
       ],
       "usage": "19"
@@ -91594,7 +95631,10 @@ PARCELS = {
       ],
       "id": "7-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.812179925013794
+      ],
+      "sqarcities": [
         0.5123978509361153
       ],
       "usage": "22"
@@ -91749,7 +95789,10 @@ PARCELS = {
       ],
       "id": "1-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.64020718902536
+      ],
+      "sqarcities": [
         0.6930164092072862
       ],
       "usage": "19"
@@ -91900,7 +95943,10 @@ PARCELS = {
       ],
       "id": "1-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.23703727697578
+      ],
+      "sqarcities": [
         0.7169610830164196
       ],
       "usage": "19"
@@ -91959,7 +96005,10 @@ PARCELS = {
       ],
       "id": "2-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.55611283110775
+      ],
+      "sqarcities": [
         0.5312890422785859
       ],
       "usage": "19"
@@ -92098,7 +96147,10 @@ PARCELS = {
       ],
       "id": "2-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.55611283110775
+      ],
+      "sqarcities": [
         0.6688719360332566
       ],
       "usage": "19"
@@ -92205,7 +96257,10 @@ PARCELS = {
       ],
       "id": "2-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.5772235315325
+      ],
+      "sqarcities": [
         0.49675465435142574
       ],
       "usage": "101"
@@ -92380,7 +96435,10 @@ PARCELS = {
       ],
       "id": "6-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.306205935001316
+      ],
+      "sqarcities": [
         0.7262911033234895
       ],
       "usage": "19"
@@ -92511,7 +96569,10 @@ PARCELS = {
       ],
       "id": "3-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.43570425031534
+      ],
+      "sqarcities": [
         0.7591974965896575
       ],
       "usage": "22"
@@ -92590,7 +96651,10 @@ PARCELS = {
       ],
       "id": "3-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.30820741694015
+      ],
+      "sqarcities": [
         0.31196925004323556
       ],
       "usage": "19"
@@ -92725,7 +96789,10 @@ PARCELS = {
       ],
       "id": "3-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.99953627476437
+      ],
+      "sqarcities": [
         0.7682004227427729
       ],
       "usage": "19"
@@ -92836,7 +96903,10 @@ PARCELS = {
       ],
       "id": "4-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.64837818803366
+      ],
+      "sqarcities": [
         0.6959159584994943
       ],
       "usage": "100"
@@ -92951,7 +97021,10 @@ PARCELS = {
       ],
       "id": "4-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.2121011241255
+      ],
+      "sqarcities": [
         0.5222840540949695
       ],
       "usage": "19"
@@ -93070,7 +97143,10 @@ PARCELS = {
       ],
       "id": "6-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.36885311573966817
+      ],
+      "sqarcities": [
         0.4986951199147069
       ],
       "usage": "22"
@@ -93641,7 +97717,10 @@ PARCELS = {
       ],
       "id": "4-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.59525638514525
+      ],
+      "sqarcities": [
         0.2967784005489174
       ],
       "usage": "11"
@@ -94120,7 +98199,10 @@ PARCELS = {
       ],
       "id": "4-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.838512246682129
+      ],
+      "sqarcities": [
         0.5300567903509753
       ],
       "usage": "100"
@@ -94255,7 +98337,10 @@ PARCELS = {
       ],
       "id": "7-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.289980842303521
+      ],
+      "sqarcities": [
         0.4819420154163169
       ],
       "usage": "19"
@@ -94310,7 +98395,10 @@ PARCELS = {
       ],
       "id": "7-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -34.10489711415878
+      ],
+      "sqarcities": [
         0.5870879121957819
       ],
       "usage": "27"
@@ -94381,7 +98469,10 @@ PARCELS = {
       ],
       "id": "7-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.85105972383076
+      ],
+      "sqarcities": [
         0.7978937717919558
       ],
       "usage": "19"
@@ -95052,7 +99143,10 @@ PARCELS = {
       ],
       "id": "4-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.26976677388658743
+      ],
+      "sqarcities": [
         0.6582870160781783
       ],
       "usage": "100"
@@ -95103,7 +99197,10 @@ PARCELS = {
       ],
       "id": "8-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.013381025311872
+      ],
+      "sqarcities": [
         0.4822278352508154
       ],
       "usage": "19"
@@ -95782,7 +99879,10 @@ PARCELS = {
       ],
       "id": "5-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.764614643752353
+      ],
+      "sqarcities": [
         0.24813243827694478
       ],
       "usage": "19"
@@ -96053,7 +100153,10 @@ PARCELS = {
       ],
       "id": "5-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.24043104664622
+      ],
+      "sqarcities": [
         0.49770672847116815
       ],
       "usage": "19"
@@ -96356,7 +100459,10 @@ PARCELS = {
       ],
       "id": "6-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.022257875776034552
+      ],
+      "sqarcities": [
         0.5766068173116387
       ],
       "usage": "19"
@@ -96499,7 +100605,10 @@ PARCELS = {
       ],
       "id": "7-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.75702050682733
+      ],
+      "sqarcities": [
         0.6090078843320567
       ],
       "usage": "19"
@@ -96646,7 +100755,10 @@ PARCELS = {
       ],
       "id": "7-7-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.156013838395154
+      ],
+      "sqarcities": [
         0.4236487965347393
       ],
       "usage": "19"
@@ -96693,7 +100805,10 @@ PARCELS = {
       ],
       "id": "7-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        29.875790317242007
+      ],
+      "sqarcities": [
         0.5083699194133883
       ],
       "usage": "19"
@@ -96752,7 +100867,10 @@ PARCELS = {
       ],
       "id": "7-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.14120030681508
+      ],
+      "sqarcities": [
         0.4698594033915203
       ],
       "usage": "22"
@@ -97351,7 +101469,10 @@ PARCELS = {
       ],
       "id": "8-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.764614643752353
+      ],
+      "sqarcities": [
         0.2960818764172837
       ],
       "usage": "19"
@@ -97426,7 +101547,10 @@ PARCELS = {
       ],
       "id": "8-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.53136433505429
+      ],
+      "sqarcities": [
         0.7604011021888283
       ],
       "usage": "19"
@@ -97501,7 +101625,10 @@ PARCELS = {
       ],
       "id": "8-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.19432859889197
+      ],
+      "sqarcities": [
         0.7604255348983123
       ],
       "usage": "19"
@@ -97572,7 +101699,10 @@ PARCELS = {
       ],
       "id": "8-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.16429602105433
+      ],
+      "sqarcities": [
         0.7323275985964207
       ],
       "usage": "19"
@@ -97627,7 +101757,10 @@ PARCELS = {
       ],
       "id": "8-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.87568809444508
+      ],
+      "sqarcities": [
         0.5583102519901604
       ],
       "usage": "11"
@@ -97690,7 +101823,10 @@ PARCELS = {
       ],
       "id": "8-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.87568809444508
+      ],
+      "sqarcities": [
         0.5930035374930587
       ],
       "usage": "22"
@@ -97757,7 +101893,10 @@ PARCELS = {
       ],
       "id": "8-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.18179335676715
+      ],
+      "sqarcities": [
         0.6016239238939171
       ],
       "usage": "100"
@@ -97960,7 +102099,10 @@ PARCELS = {
       ],
       "id": "8-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.18179335676715
+      ],
+      "sqarcities": [
         0.27982937329803015
       ],
       "usage": "100"
@@ -98055,7 +102197,10 @@ PARCELS = {
       ],
       "id": "8-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.89099132133748
+      ],
+      "sqarcities": [
         0.6970149374022473
       ],
       "usage": "19"
@@ -98134,7 +102279,10 @@ PARCELS = {
       ],
       "id": "9-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.92058581311372
+      ],
+      "sqarcities": [
         0.598070307694317
       ],
       "usage": "19"
@@ -98181,7 +102329,10 @@ PARCELS = {
       ],
       "id": "9-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.29084824485446
+      ],
+      "sqarcities": [
         0.5327133970697995
       ],
       "usage": "19"
@@ -98244,7 +102395,10 @@ PARCELS = {
       ],
       "id": "9-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.92960786856386
+      ],
+      "sqarcities": [
         0.5243337220136411
       ],
       "usage": "22"
@@ -98355,7 +102509,10 @@ PARCELS = {
       ],
       "id": "9-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.499728554259562
+      ],
+      "sqarcities": [
         0.19023363872131577
       ],
       "usage": "27"
@@ -98466,7 +102623,10 @@ PARCELS = {
       ],
       "id": "9-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.02894963973104
+      ],
+      "sqarcities": [
         0.6060248181134247
       ],
       "usage": "22"
@@ -98569,7 +102729,10 @@ PARCELS = {
       ],
       "id": "9-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.93168743035291
+      ],
+      "sqarcities": [
         0.546615537799377
       ],
       "usage": "27"
@@ -98636,7 +102799,10 @@ PARCELS = {
       ],
       "id": "9-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.73693830221515
+      ],
+      "sqarcities": [
         0.7312746726997192
       ],
       "usage": "22"
@@ -98695,7 +102861,10 @@ PARCELS = {
       ],
       "id": "9-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        42.73522122405291
+      ],
+      "sqarcities": [
         0.6680149001468696
       ],
       "usage": "22"
@@ -98750,7 +102919,10 @@ PARCELS = {
       ],
       "id": "9-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -89.84935952010783
+      ],
+      "sqarcities": [
         0.42630248144437966
       ],
       "usage": "27"
@@ -98797,7 +102969,10 @@ PARCELS = {
       ],
       "id": "9-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.099611229447966
+      ],
+      "sqarcities": [
         0.7093881471131637
       ],
       "usage": "22"
@@ -98856,7 +103031,10 @@ PARCELS = {
       ],
       "id": "9-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.36569916062932
+      ],
+      "sqarcities": [
         0.4992704564807201
       ],
       "usage": "19"
@@ -98911,7 +103089,10 @@ PARCELS = {
       ],
       "id": "9-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.07580764550829
+      ],
+      "sqarcities": [
         0.3616478026949828
       ],
       "usage": "22"
@@ -98954,7 +103135,10 @@ PARCELS = {
       ],
       "id": "9-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.97343892187206
+      ],
+      "sqarcities": [
         0.5624639663140396
       ],
       "usage": "22"
@@ -99013,7 +103197,10 @@ PARCELS = {
       ],
       "id": "9-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.54337134710437
+      ],
+      "sqarcities": [
         0.5426105027007916
       ],
       "usage": "22"
@@ -99084,7 +103271,10 @@ PARCELS = {
       ],
       "id": "9-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.71867399312427
+      ],
+      "sqarcities": [
         0.39007428367647984
       ],
       "usage": "19"
@@ -99147,7 +103337,10 @@ PARCELS = {
       ],
       "id": "9-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -80.67203174883196
+      ],
+      "sqarcities": [
         0.6954002811587754
       ],
       "usage": "19"
@@ -99194,7 +103387,10 @@ PARCELS = {
       ],
       "id": "9-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.8753332365194808
+      ],
+      "sqarcities": [
         0.6063884732714478
       ],
       "usage": "19"
@@ -99237,7 +103433,10 @@ PARCELS = {
       ],
       "id": "9-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.34795167844263
+      ],
+      "sqarcities": [
         0.2711542055574429
       ],
       "usage": "22"
@@ -99284,7 +103483,10 @@ PARCELS = {
       ],
       "id": "10-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.449781150321641
+      ],
+      "sqarcities": [
         0.653085546792664
       ],
       "usage": "11"
@@ -99379,7 +103581,10 @@ PARCELS = {
       ],
       "id": "10-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.45996115847463
+      ],
+      "sqarcities": [
         0.5575530425884965
       ],
       "usage": "19"
@@ -99590,7 +103795,10 @@ PARCELS = {
       ],
       "id": "10-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.89422476759489
+      ],
+      "sqarcities": [
         0.5429811737913831
       ],
       "usage": "22"
@@ -99877,7 +104085,10 @@ PARCELS = {
       ],
       "id": "10-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        88.05633420068597
+      ],
+      "sqarcities": [
         0.613906571060619
       ],
       "usage": "101"
@@ -100104,7 +104315,10 @@ PARCELS = {
       ],
       "id": "10-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.81967805880574
+      ],
+      "sqarcities": [
         0.5589256671403153
       ],
       "usage": "19"
@@ -100159,7 +104373,10 @@ PARCELS = {
       ],
       "id": "10-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.69421995921354
+      ],
+      "sqarcities": [
         0.6829115930149341
       ],
       "usage": "22"
@@ -100214,7 +104431,10 @@ PARCELS = {
       ],
       "id": "10-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.53338414861742
+      ],
+      "sqarcities": [
         0.5486813135058282
       ],
       "usage": "22"
@@ -100273,7 +104493,10 @@ PARCELS = {
       ],
       "id": "10-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        34.2905974963555
+      ],
+      "sqarcities": [
         0.3340809309007226
       ],
       "usage": "22"
@@ -100340,7 +104563,10 @@ PARCELS = {
       ],
       "id": "10-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        34.2905974963555
+      ],
+      "sqarcities": [
         0.4231413684977875
       ],
       "usage": "22"
@@ -100391,7 +104617,10 @@ PARCELS = {
       ],
       "id": "10-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.149333230810356
+      ],
+      "sqarcities": [
         0.5238824885877367
       ],
       "usage": "22"
@@ -100442,7 +104671,10 @@ PARCELS = {
       ],
       "id": "10-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.9243330014737978
+      ],
+      "sqarcities": [
         0.47733220499055856
       ],
       "usage": "22"
@@ -100501,7 +104733,10 @@ PARCELS = {
       ],
       "id": "10-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.5118026885363
+      ],
+      "sqarcities": [
         0.7438766165823769
       ],
       "usage": "22"
@@ -100552,7 +104787,10 @@ PARCELS = {
       ],
       "id": "10-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.84343109790355
+      ],
+      "sqarcities": [
         0.6335490238693101
       ],
       "usage": "22"
@@ -100607,7 +104845,10 @@ PARCELS = {
       ],
       "id": "10-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.84343109790355
+      ],
+      "sqarcities": [
         0.689679997754194
       ],
       "usage": "22"
@@ -100654,7 +104895,10 @@ PARCELS = {
       ],
       "id": "10-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.98361863605696
+      ],
+      "sqarcities": [
         0.5046439199303595
       ],
       "usage": "22"
@@ -100701,7 +104945,10 @@ PARCELS = {
       ],
       "id": "10-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.843851997132262
+      ],
+      "sqarcities": [
         0.4463329743093343
       ],
       "usage": "22"
@@ -100756,7 +105003,10 @@ PARCELS = {
       ],
       "id": "10-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.456900315880844
+      ],
+      "sqarcities": [
         0.6989930099495257
       ],
       "usage": "22"
@@ -100799,7 +105049,10 @@ PARCELS = {
       ],
       "id": "10-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.93883294964067
+      ],
+      "sqarcities": [
         0.35344305708736934
       ],
       "usage": "22"
@@ -100842,7 +105095,10 @@ PARCELS = {
       ],
       "id": "10-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.10323287082359
+      ],
+      "sqarcities": [
         0.41709443490930664
       ],
       "usage": "22"
@@ -100893,7 +105149,10 @@ PARCELS = {
       ],
       "id": "10-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        26.9357804104163
+      ],
+      "sqarcities": [
         0.6444723544296148
       ],
       "usage": "22"
@@ -100936,7 +105195,10 @@ PARCELS = {
       ],
       "id": "10-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        26.9357804104163
+      ],
+      "sqarcities": [
         0.4563837145597148
       ],
       "usage": "22"
@@ -100979,7 +105241,10 @@ PARCELS = {
       ],
       "id": "14-453",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.074120207600416
+      ],
+      "sqarcities": [
         0.4742360539716594
       ],
       "usage": "19"
@@ -101042,7 +105307,10 @@ PARCELS = {
       ],
       "id": "10-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.88619820032244
+      ],
+      "sqarcities": [
         0.6663846014686607
       ],
       "usage": "22"
@@ -101089,7 +105357,10 @@ PARCELS = {
       ],
       "id": "10-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -82.78550758998466
+      ],
+      "sqarcities": [
         0.26305836627562706
       ],
       "usage": "22"
@@ -101168,7 +105439,10 @@ PARCELS = {
       ],
       "id": "11-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -2.811366454391475
+      ],
+      "sqarcities": [
         0.6603395420210677
       ],
       "usage": "19"
@@ -101227,7 +105501,10 @@ PARCELS = {
       ],
       "id": "11-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.35731789904438
+      ],
+      "sqarcities": [
         0.627106284378447
       ],
       "usage": "22"
@@ -101318,7 +105595,10 @@ PARCELS = {
       ],
       "id": "11-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.3073141748788
+      ],
+      "sqarcities": [
         0.7876813446148463
       ],
       "usage": "19"
@@ -101393,7 +105673,10 @@ PARCELS = {
       ],
       "id": "11-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.428731653846114
+      ],
+      "sqarcities": [
         0.7168484136073126
       ],
       "usage": "19"
@@ -101464,7 +105747,10 @@ PARCELS = {
       ],
       "id": "11-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.70732902052384
+      ],
+      "sqarcities": [
         0.8184741315702889
       ],
       "usage": "11"
@@ -101519,7 +105805,10 @@ PARCELS = {
           "rotate": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        86.33198236629676
+      ],
+      "sqarcities": [
         0.42374360426748575
       ],
       "usage": "19"
@@ -101646,7 +105935,10 @@ PARCELS = {
       ],
       "id": "11-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.91983058017672
+      ],
+      "sqarcities": [
         0.37862616002968597
       ],
       "usage": "11"
@@ -101701,7 +105993,10 @@ PARCELS = {
       ],
       "id": "11-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.98119913198451
+      ],
+      "sqarcities": [
         0.7676272466316792
       ],
       "usage": "11"
@@ -101776,7 +106071,10 @@ PARCELS = {
           "split": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        -26.042278728230528
+      ],
+      "sqarcities": [
         0.5428831246078396
       ],
       "usage": "11"
@@ -101831,7 +106129,10 @@ PARCELS = {
       ],
       "id": "11-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.80229237660771
+      ],
+      "sqarcities": [
         0.7858851419694611
       ],
       "usage": "11"
@@ -101946,7 +106247,10 @@ PARCELS = {
       ],
       "id": "11-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.1874168768561
+      ],
+      "sqarcities": [
         0.4843668362744751
       ],
       "usage": "19"
@@ -102009,7 +106313,10 @@ PARCELS = {
       ],
       "id": "11-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -87.41965757338296
+      ],
+      "sqarcities": [
         0.7772010681921669
       ],
       "usage": "19"
@@ -102068,7 +106375,10 @@ PARCELS = {
       ],
       "id": "11-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.277137329446674
+      ],
+      "sqarcities": [
         0.6477970377471115
       ],
       "usage": "22"
@@ -102116,7 +106426,10 @@ PARCELS = {
       ],
       "id": "11-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.29882518043544
+      ],
+      "sqarcities": [
         0.618002602374219
       ],
       "usage": "22"
@@ -102167,7 +106480,10 @@ PARCELS = {
       ],
       "id": "11-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.849684511176775
+      ],
+      "sqarcities": [
         0.6501575220385075
       ],
       "usage": "11"
@@ -102218,7 +106534,10 @@ PARCELS = {
       ],
       "id": "11-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.05867741966392
+      ],
+      "sqarcities": [
         0.6712906813738743
       ],
       "usage": "19"
@@ -102266,7 +106585,10 @@ PARCELS = {
       ],
       "id": "11-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        33.12735540673806
+      ],
+      "sqarcities": [
         0.3934442361771529
       ],
       "usage": "22"
@@ -102318,7 +106640,10 @@ PARCELS = {
       ],
       "id": "11-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        33.12735540673806
+      ],
+      "sqarcities": [
         0.7846494805553641
       ],
       "usage": "11"
@@ -102365,7 +106690,10 @@ PARCELS = {
       ],
       "id": "11-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -57.044086128988845
+      ],
+      "sqarcities": [
         0.6402735233966667
       ],
       "usage": "22"
@@ -102452,7 +106780,10 @@ PARCELS = {
       ],
       "id": "11-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.32231100011245
+      ],
+      "sqarcities": [
         0.5460412662984855
       ],
       "usage": "19"
@@ -102508,7 +106839,10 @@ PARCELS = {
       ],
       "id": "11-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.64779210126645
+      ],
+      "sqarcities": [
         0.7590974204786868
       ],
       "usage": "27"
@@ -102570,8 +106904,15 @@ PARCELS = {
         }
       ],
       "id": "11-69-01",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "split": true
+        }
+      ],
+      "orientations": [
+        -65.10609808215952
+      ],
+      "sqarcities": [
         0.5869158231645024
       ],
       "usage": "19"
@@ -102618,7 +106959,10 @@ PARCELS = {
       ],
       "id": "11-69-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.26856862988822
+      ],
+      "sqarcities": [
         0.794186042130694
       ],
       "usage": "19"
@@ -102665,7 +107009,10 @@ PARCELS = {
       ],
       "id": "14-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.34385081445816
+      ],
+      "sqarcities": [
         0.7732458132550633
       ],
       "usage": "22"
@@ -102796,7 +107143,10 @@ PARCELS = {
       ],
       "id": "11-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.81967805880574
+      ],
+      "sqarcities": [
         0.700004838315573
       ],
       "usage": "19"
@@ -102847,7 +107197,10 @@ PARCELS = {
       ],
       "id": "11-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.30810459882679
+      ],
+      "sqarcities": [
         0.6562048782450558
       ],
       "usage": "19"
@@ -102895,7 +107248,10 @@ PARCELS = {
       ],
       "id": "11-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.20754262994876
+      ],
+      "sqarcities": [
         0.5781153434761618
       ],
       "usage": "27"
@@ -103346,7 +107702,10 @@ PARCELS = {
       ],
       "id": "12-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.84477446871765
+      ],
+      "sqarcities": [
         0.5313885624110369
       ],
       "usage": "19"
@@ -103409,7 +107768,10 @@ PARCELS = {
       ],
       "id": "12-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -80.91289978290163
+      ],
+      "sqarcities": [
         0.43227696547283606
       ],
       "usage": "22"
@@ -103524,7 +107886,10 @@ PARCELS = {
       ],
       "id": "12-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        30.617005291901208
+      ],
+      "sqarcities": [
         0.46784170239356715
       ],
       "usage": "11"
@@ -104099,7 +108464,10 @@ PARCELS = {
       ],
       "id": "12-2-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.48976848018995
+      ],
+      "sqarcities": [
         0.4618823639496018
       ],
       "usage": "22"
@@ -104158,7 +108526,10 @@ PARCELS = {
       ],
       "id": "12-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.311237706691756
+      ],
+      "sqarcities": [
         0.6852703467799117
       ],
       "usage": "11"
@@ -104201,7 +108572,10 @@ PARCELS = {
       ],
       "id": "12-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.586443094869736
+      ],
+      "sqarcities": [
         0.7857926790920416
       ],
       "usage": "22"
@@ -104260,7 +108634,10 @@ PARCELS = {
       ],
       "id": "12-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.22723214271181
+      ],
+      "sqarcities": [
         0.5894838022371779
       ],
       "usage": "11"
@@ -104303,7 +108680,10 @@ PARCELS = {
       ],
       "id": "24-120-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.117523906443886
+      ],
+      "sqarcities": [
         0.6787863530245679
       ],
       "usage": "22"
@@ -104358,7 +108738,10 @@ PARCELS = {
       ],
       "id": "12-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.8165087482364
+      ],
+      "sqarcities": [
         0.6863292389390119
       ],
       "usage": "19"
@@ -104409,7 +108792,10 @@ PARCELS = {
       ],
       "id": "12-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.8165087482364
+      ],
+      "sqarcities": [
         0.7258285548289951
       ],
       "usage": "11"
@@ -104464,7 +108850,10 @@ PARCELS = {
       ],
       "id": "12-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.23999253374475
+      ],
+      "sqarcities": [
         0.7180230898280505
       ],
       "usage": "11"
@@ -104515,7 +108904,10 @@ PARCELS = {
       ],
       "id": "12-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.23999253374475
+      ],
+      "sqarcities": [
         0.7268966396481601
       ],
       "usage": "11"
@@ -104578,7 +108970,10 @@ PARCELS = {
       ],
       "id": "12-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -81.22658103787411
+      ],
+      "sqarcities": [
         0.7719509047112317
       ],
       "usage": "11"
@@ -104645,7 +109040,10 @@ PARCELS = {
       ],
       "id": "12-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -80.54509654949065
+      ],
+      "sqarcities": [
         0.777493401683222
       ],
       "usage": "11"
@@ -104696,7 +109094,10 @@ PARCELS = {
       ],
       "id": "12-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.898741591083905
+      ],
+      "sqarcities": [
         0.7672030988477013
       ],
       "usage": "11"
@@ -104743,7 +109144,10 @@ PARCELS = {
       ],
       "id": "12-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.82759678000014
+      ],
+      "sqarcities": [
         0.7710729003185697
       ],
       "usage": "22"
@@ -104798,7 +109202,10 @@ PARCELS = {
       ],
       "id": "12-40",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.230782676236345
+      ],
+      "sqarcities": [
         0.7560601213036743
       ],
       "usage": "11"
@@ -104841,7 +109248,10 @@ PARCELS = {
       ],
       "id": "12-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.49592568858752
+      ],
+      "sqarcities": [
         0.7833261773199456
       ],
       "usage": "22"
@@ -104984,7 +109394,10 @@ PARCELS = {
       ],
       "id": "12-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.6214603753049204
+      ],
+      "sqarcities": [
         0.5118762699962633
       ],
       "usage": "22"
@@ -105079,7 +109492,10 @@ PARCELS = {
       ],
       "id": "12-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.6214603753049204
+      ],
+      "sqarcities": [
         0.5199650575172483
       ],
       "usage": "22"
@@ -105194,7 +109610,10 @@ PARCELS = {
       ],
       "id": "12-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.2310737790994608
+      ],
+      "sqarcities": [
         0.5156752523139237
       ],
       "usage": "11"
@@ -105269,7 +109688,10 @@ PARCELS = {
       ],
       "id": "12-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.4163603023806246
+      ],
+      "sqarcities": [
         0.3268802303979394
       ],
       "usage": "19"
@@ -105360,7 +109782,10 @@ PARCELS = {
       ],
       "id": "12-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.850598799559705
+      ],
+      "sqarcities": [
         0.6471765762689344
       ],
       "usage": "11"
@@ -105427,7 +109852,10 @@ PARCELS = {
       ],
       "id": "12-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.96680598478295
+      ],
+      "sqarcities": [
         0.30226654198922276
       ],
       "usage": "22"
@@ -105945,7 +110373,11 @@ PARCELS = {
       ],
       "id": "12-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -50.88918511149773,
+        87.72950744213372
+      ],
+      "sqarcities": [
         0.34791828814091064,
         0.352707181822316
       ],
@@ -105989,7 +110421,10 @@ PARCELS = {
       ],
       "id": "12-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.208364484606321
+      ],
+      "sqarcities": [
         0.6218458678782206
       ],
       "usage": "11"
@@ -106032,7 +110467,10 @@ PARCELS = {
       ],
       "id": "12-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.045779987371091
+      ],
+      "sqarcities": [
         0.46733553860395066
       ],
       "usage": "19"
@@ -106075,7 +110513,10 @@ PARCELS = {
       ],
       "id": "12-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.46395828047666
+      ],
+      "sqarcities": [
         0.6358285010529452
       ],
       "usage": "11"
@@ -106118,7 +110559,10 @@ PARCELS = {
       ],
       "id": "12-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.46395828047666
+      ],
+      "sqarcities": [
         0.6516635438513987
       ],
       "usage": "22"
@@ -106201,7 +110645,10 @@ PARCELS = {
       ],
       "id": "12-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.2310640052567265
+      ],
+      "sqarcities": [
         0.3419188330309331
       ],
       "usage": "11"
@@ -106572,7 +111019,10 @@ PARCELS = {
       ],
       "id": "12-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.0188465565449
+      ],
+      "sqarcities": [
         0.24466962267682607
       ],
       "usage": "19"
@@ -106703,7 +111153,10 @@ PARCELS = {
       ],
       "id": "12-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.855224353013767
+      ],
+      "sqarcities": [
         0.6938598065305152
       ],
       "usage": "19"
@@ -106802,7 +111255,10 @@ PARCELS = {
       ],
       "id": "12-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.28912851884087
+      ],
+      "sqarcities": [
         0.42289282228284486
       ],
       "usage": "19"
@@ -106853,7 +111309,10 @@ PARCELS = {
       ],
       "id": "12-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.36236960983706
+      ],
+      "sqarcities": [
         0.5207890585633956
       ],
       "usage": "11"
@@ -107012,7 +111471,10 @@ PARCELS = {
       ],
       "id": "12-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.571138819420554
+      ],
+      "sqarcities": [
         0.5299514674987504
       ],
       "usage": "27"
@@ -107055,7 +111517,10 @@ PARCELS = {
       ],
       "id": "12-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.96680598478295
+      ],
+      "sqarcities": [
         0.4092462900249685
       ],
       "usage": "22"
@@ -107142,7 +111607,10 @@ PARCELS = {
       ],
       "id": "12-121",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.41243339282832
+      ],
+      "sqarcities": [
         0.591818460443673
       ],
       "usage": "22"
@@ -107273,7 +111741,10 @@ PARCELS = {
       ],
       "id": "12-122",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        51.805267533177386
+      ],
+      "sqarcities": [
         0.524421452007986
       ],
       "usage": "22"
@@ -107376,7 +111847,10 @@ PARCELS = {
       ],
       "id": "12-153-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.40675533675697
+      ],
+      "sqarcities": [
         0.6742032369112871
       ],
       "usage": "11"
@@ -107655,7 +112129,10 @@ PARCELS = {
       ],
       "id": "12-124",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.16863858568752
+      ],
+      "sqarcities": [
         0.3746722661552965
       ],
       "usage": "19"
@@ -107722,7 +112199,10 @@ PARCELS = {
       ],
       "id": "12-125",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        13.102311343390056
+      ],
+      "sqarcities": [
         0.42104637329589173
       ],
       "usage": "22"
@@ -107817,7 +112297,10 @@ PARCELS = {
       ],
       "id": "12-126",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.27726803611074
+      ],
+      "sqarcities": [
         0.41463329754026246
       ],
       "usage": "22"
@@ -107868,7 +112351,10 @@ PARCELS = {
       ],
       "id": "12-128",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        12.03220612676813
+      ],
+      "sqarcities": [
         0.6660857847256342
       ],
       "usage": "22"
@@ -107915,7 +112401,10 @@ PARCELS = {
       ],
       "id": "12-139",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.053438670517522
+      ],
+      "sqarcities": [
         0.4240973544502087
       ],
       "usage": "22"
@@ -107970,7 +112459,10 @@ PARCELS = {
       ],
       "id": "12-151",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.66125088084091
+      ],
+      "sqarcities": [
         0.5321782045299532
       ],
       "usage": "19"
@@ -108077,7 +112569,10 @@ PARCELS = {
       ],
       "id": "12-152",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.7695454172154
+      ],
+      "sqarcities": [
         0.30507373151250694
       ],
       "usage": "19"
@@ -108304,7 +112799,10 @@ PARCELS = {
       ],
       "id": "12-154",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.16654255278954
+      ],
+      "sqarcities": [
         0.3871290970074492
       ],
       "usage": "19"
@@ -108347,7 +112845,10 @@ PARCELS = {
       ],
       "id": "12-161",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -84.06915052343054
+      ],
+      "sqarcities": [
         0.6389856027876472
       ],
       "usage": "22"
@@ -108398,7 +112899,10 @@ PARCELS = {
       ],
       "id": "12-163",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.807346401524484
+      ],
+      "sqarcities": [
         0.7821652583516945
       ],
       "usage": "22"
@@ -108441,7 +112945,10 @@ PARCELS = {
       ],
       "id": "13-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.10153259973244
+      ],
+      "sqarcities": [
         0.7717804250337075
       ],
       "usage": "19"
@@ -108484,7 +112991,10 @@ PARCELS = {
       ],
       "id": "12-165",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.886961893313952
+      ],
+      "sqarcities": [
         0.7710199023575866
       ],
       "usage": "22"
@@ -108527,7 +113037,10 @@ PARCELS = {
       ],
       "id": "12-166",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.33671880764247
+      ],
+      "sqarcities": [
         0.7738889491653556
       ],
       "usage": "22"
@@ -108570,7 +113083,10 @@ PARCELS = {
       ],
       "id": "12-167",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.69609781717152
+      ],
+      "sqarcities": [
         0.7854983840161942
       ],
       "usage": "22"
@@ -108617,7 +113133,10 @@ PARCELS = {
       ],
       "id": "12-168",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.720873420551413
+      ],
+      "sqarcities": [
         0.779157737805658
       ],
       "usage": "22"
@@ -108664,7 +113183,10 @@ PARCELS = {
       ],
       "id": "12-171",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.881744355715696
+      ],
+      "sqarcities": [
         0.7324738591773103
       ],
       "usage": "22"
@@ -108719,7 +113241,10 @@ PARCELS = {
       ],
       "id": "12-172",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.23765829089625
+      ],
+      "sqarcities": [
         0.5904952645079209
       ],
       "usage": "22"
@@ -108786,7 +113311,10 @@ PARCELS = {
       ],
       "id": "12-173",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.62104164337575
+      ],
+      "sqarcities": [
         0.5450153772101871
       ],
       "usage": "22"
@@ -108845,7 +113373,10 @@ PARCELS = {
       ],
       "id": "12-181",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.818015825001865
+      ],
+      "sqarcities": [
         0.8445936456284975
       ],
       "usage": "19"
@@ -108892,7 +113423,10 @@ PARCELS = {
       ],
       "id": "12-181-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.08756542987156
+      ],
+      "sqarcities": [
         0.6063339680619483
       ],
       "usage": "19"
@@ -109079,7 +113613,10 @@ PARCELS = {
       ],
       "id": "12-191",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.14342139596451
+      ],
+      "sqarcities": [
         0.38602803808616754
       ],
       "usage": "19"
@@ -109142,7 +113679,10 @@ PARCELS = {
       ],
       "id": "12-192",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.11144342249253
+      ],
+      "sqarcities": [
         0.26490273674442477
       ],
       "usage": "19"
@@ -109245,7 +113785,10 @@ PARCELS = {
       ],
       "id": "12-189",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.238770244823485
+      ],
+      "sqarcities": [
         0.7650089390290599
       ],
       "usage": "22"
@@ -109780,7 +114323,10 @@ PARCELS = {
       ],
       "id": "12-183",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.669338697594696
+      ],
+      "sqarcities": [
         0.18576072391723328
       ],
       "usage": "27"
@@ -109839,7 +114385,10 @@ PARCELS = {
       ],
       "id": "12-184",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.23674347985985
+      ],
+      "sqarcities": [
         0.5772343170052606
       ],
       "usage": "27"
@@ -109934,7 +114483,10 @@ PARCELS = {
       ],
       "id": "12-186",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.455131620191153
+      ],
+      "sqarcities": [
         0.5977437692140423
       ],
       "usage": "27"
@@ -110261,7 +114813,10 @@ PARCELS = {
       ],
       "id": "12-188",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -35.119104017590125
+      ],
+      "sqarcities": [
         0.46637475818684104
       ],
       "usage": "19"
@@ -110348,7 +114903,10 @@ PARCELS = {
       ],
       "id": "12-190",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.92583577429008
+      ],
+      "sqarcities": [
         0.7873753580330917
       ],
       "usage": "19"
@@ -110432,7 +114990,10 @@ PARCELS = {
       ],
       "id": "12-193",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.90415993950356
+      ],
+      "sqarcities": [
         0.477623071616602
       ],
       "usage": "27"
@@ -110484,7 +115045,10 @@ PARCELS = {
       ],
       "id": "12-196",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.36343824976465
+      ],
+      "sqarcities": [
         0.7529363581256592
       ],
       "usage": "27"
@@ -110531,7 +115095,10 @@ PARCELS = {
       ],
       "id": "12-197",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.83093200441286
+      ],
+      "sqarcities": [
         0.6970368594906806
       ],
       "usage": "22"
@@ -110578,7 +115145,10 @@ PARCELS = {
       ],
       "id": "12-199",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.6050183534765665
+      ],
+      "sqarcities": [
         0.3552388845052993
       ],
       "usage": "19"
@@ -110693,7 +115263,10 @@ PARCELS = {
       ],
       "id": "12-201",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        35.20212985058673
+      ],
+      "sqarcities": [
         0.3949099557766776
       ],
       "usage": "22"
@@ -110804,7 +115377,10 @@ PARCELS = {
       ],
       "id": "12-205",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.121666105955164
+      ],
+      "sqarcities": [
         0.1474079622819525
       ],
       "usage": "27"
@@ -110867,7 +115443,10 @@ PARCELS = {
       ],
       "id": "12-206",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -54.32624161430568
+      ],
+      "sqarcities": [
         0.7809017679209155
       ],
       "usage": "22"
@@ -111074,7 +115653,10 @@ PARCELS = {
       ],
       "id": "13-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.360668630498253
+      ],
+      "sqarcities": [
         0.45829890203005275
       ],
       "usage": "27"
@@ -111229,7 +115811,10 @@ PARCELS = {
       ],
       "id": "13-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.8984882243950949
+      ],
+      "sqarcities": [
         0.32909475033324087
       ],
       "usage": "22"
@@ -111328,7 +115913,10 @@ PARCELS = {
       ],
       "id": "13-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        72.75158557053109
+      ],
+      "sqarcities": [
         0.26771146440858823
       ],
       "usage": "22"
@@ -111371,7 +115959,10 @@ PARCELS = {
       ],
       "id": "13-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.17346159611436
+      ],
+      "sqarcities": [
         0.7663186046563877
       ],
       "usage": "19"
@@ -111414,7 +116005,10 @@ PARCELS = {
       ],
       "id": "13-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -75.26651146549588
+      ],
+      "sqarcities": [
         0.7649766139918671
       ],
       "usage": "19"
@@ -111457,7 +116051,10 @@ PARCELS = {
       ],
       "id": "13-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.14060670225054
+      ],
+      "sqarcities": [
         0.765251238749999
       ],
       "usage": "19"
@@ -111500,7 +116097,10 @@ PARCELS = {
       ],
       "id": "13-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.14060670225054
+      ],
+      "sqarcities": [
         0.7611271095916098
       ],
       "usage": "19"
@@ -111547,7 +116147,10 @@ PARCELS = {
       ],
       "id": "13-37",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.8173029313179
+      ],
+      "sqarcities": [
         0.7462109212877707
       ],
       "usage": "19"
@@ -111810,7 +116413,10 @@ PARCELS = {
       ],
       "id": "13-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -55.3604236076062
+      ],
+      "sqarcities": [
         0.3635608705280054
       ],
       "usage": "22"
@@ -111861,7 +116467,10 @@ PARCELS = {
       ],
       "id": "13-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        39.766203115496495
+      ],
+      "sqarcities": [
         0.6502719371033072
       ],
       "usage": "22"
@@ -111916,7 +116525,10 @@ PARCELS = {
       ],
       "id": "14-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        27.324271818955168
+      ],
+      "sqarcities": [
         0.5627424462920285
       ],
       "usage": "22"
@@ -111967,7 +116579,10 @@ PARCELS = {
       ],
       "id": "14-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.239276204413883
+      ],
+      "sqarcities": [
         0.5656140538860012
       ],
       "usage": "22"
@@ -112018,7 +116633,10 @@ PARCELS = {
       ],
       "id": "14-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.341318852930158
+      ],
+      "sqarcities": [
         0.747581288837344
       ],
       "usage": "22"
@@ -112069,7 +116687,10 @@ PARCELS = {
       ],
       "id": "14-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.49549944735358
+      ],
+      "sqarcities": [
         0.7144912670387418
       ],
       "usage": "22"
@@ -112120,7 +116741,10 @@ PARCELS = {
       ],
       "id": "14-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.8607931061795
+      ],
+      "sqarcities": [
         0.6707916971490686
       ],
       "usage": "22"
@@ -112167,7 +116791,10 @@ PARCELS = {
       ],
       "id": "14-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.16620103290967
+      ],
+      "sqarcities": [
         0.7673967227234155
       ],
       "usage": "22"
@@ -112214,7 +116841,10 @@ PARCELS = {
       ],
       "id": "14-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.44790900249117
+      ],
+      "sqarcities": [
         0.7753954615766255
       ],
       "usage": "22"
@@ -112261,7 +116891,10 @@ PARCELS = {
       ],
       "id": "14-122",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.39325037423407
+      ],
+      "sqarcities": [
         0.7696954236880744
       ],
       "usage": "22"
@@ -112312,7 +116945,10 @@ PARCELS = {
       ],
       "id": "14-135",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.08443004115307
+      ],
+      "sqarcities": [
         0.6207329970147725
       ],
       "usage": "27"
@@ -112375,7 +117011,10 @@ PARCELS = {
       ],
       "id": "14-187",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.9348531873151
+      ],
+      "sqarcities": [
         0.524967082093467
       ],
       "usage": "22"
@@ -112454,7 +117093,10 @@ PARCELS = {
       ],
       "id": "14-197",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.65195116679747
+      ],
+      "sqarcities": [
         0.37113126065800145
       ],
       "usage": "22"
@@ -112505,7 +117147,10 @@ PARCELS = {
       ],
       "id": "14-205",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.376566942093461
+      ],
+      "sqarcities": [
         0.5715381718405586
       ],
       "usage": "11"
@@ -112552,7 +117197,10 @@ PARCELS = {
       ],
       "id": "14-225",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.279765656105283
+      ],
+      "sqarcities": [
         0.7595508334304669
       ],
       "usage": "22"
@@ -112599,7 +117247,10 @@ PARCELS = {
       ],
       "id": "14-261",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.09994492405585
+      ],
+      "sqarcities": [
         0.7403228958790056
       ],
       "usage": "22"
@@ -112642,7 +117293,10 @@ PARCELS = {
       ],
       "id": "14-268",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.43456068976292
+      ],
+      "sqarcities": [
         0.7783076284155915
       ],
       "usage": "22"
@@ -112689,7 +117343,10 @@ PARCELS = {
       ],
       "id": "14-270",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.7217436696358
+      ],
+      "sqarcities": [
         0.8002961348492781
       ],
       "usage": "22"
@@ -112736,7 +117393,10 @@ PARCELS = {
       ],
       "id": "14-271",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.7217436696358
+      ],
+      "sqarcities": [
         0.7884826438718363
       ],
       "usage": "22"
@@ -112783,7 +117443,10 @@ PARCELS = {
       ],
       "id": "14-277",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -64.47004617715385
+      ],
+      "sqarcities": [
         0.60422725201076
       ],
       "usage": "22"
@@ -112830,7 +117493,10 @@ PARCELS = {
       ],
       "id": "14-278",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.11184859036932
+      ],
+      "sqarcities": [
         0.6261315178967517
       ],
       "usage": "22"
@@ -112889,7 +117555,10 @@ PARCELS = {
       ],
       "id": "14-281",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.652197153787867
+      ],
+      "sqarcities": [
         0.7356920207115529
       ],
       "usage": "22"
@@ -112940,7 +117609,10 @@ PARCELS = {
       ],
       "id": "14-301",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.20642783562248
+      ],
+      "sqarcities": [
         0.6752168091071573
       ],
       "usage": "22"
@@ -112987,7 +117659,10 @@ PARCELS = {
       ],
       "id": "14-302",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.18827731602211
+      ],
+      "sqarcities": [
         0.5726938112537581
       ],
       "usage": "22"
@@ -113034,7 +117709,10 @@ PARCELS = {
       ],
       "id": "14-309",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        37.23885382555606
+      ],
+      "sqarcities": [
         0.7613685776181831
       ],
       "usage": "11"
@@ -113085,7 +117763,10 @@ PARCELS = {
       ],
       "id": "14-312",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        27.863919025990754
+      ],
+      "sqarcities": [
         0.7763852226887845
       ],
       "usage": "22"
@@ -113128,7 +117809,10 @@ PARCELS = {
       ],
       "id": "14-314",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.207025069250165
+      ],
+      "sqarcities": [
         0.7612147696951391
       ],
       "usage": "22"
@@ -113195,7 +117879,10 @@ PARCELS = {
       ],
       "id": "14-327",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.19149670702285
+      ],
+      "sqarcities": [
         0.6254946361697487
       ],
       "usage": "22"
@@ -113242,7 +117929,10 @@ PARCELS = {
       ],
       "id": "14-336",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.32954656480716
+      ],
+      "sqarcities": [
         0.7923304079662582
       ],
       "usage": "22"
@@ -113313,7 +118003,10 @@ PARCELS = {
       ],
       "id": "14-356",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        87.40440099855934
+      ],
+      "sqarcities": [
         0.6852610378078352
       ],
       "usage": "11"
@@ -113364,7 +118057,10 @@ PARCELS = {
       ],
       "id": "14-360",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.91943641497673
+      ],
+      "sqarcities": [
         0.7337798381351388
       ],
       "usage": "22"
@@ -113411,7 +118107,10 @@ PARCELS = {
       ],
       "id": "14-415",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.162504127874257
+      ],
+      "sqarcities": [
         0.48681351352619456
       ],
       "usage": "22"
@@ -113486,7 +118185,10 @@ PARCELS = {
       ],
       "id": "14-364",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -47.08604403385543
+      ],
+      "sqarcities": [
         0.7309692840692877
       ],
       "usage": "22"
@@ -113553,7 +118255,10 @@ PARCELS = {
       ],
       "id": "14-380",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8164460082778078
+      ],
+      "sqarcities": [
         0.7437110558396245
       ],
       "usage": "22"
@@ -113616,7 +118321,10 @@ PARCELS = {
       ],
       "id": "14-387",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        88.12677601562058
+      ],
+      "sqarcities": [
         0.818527029015341
       ],
       "usage": "22"
@@ -113671,7 +118379,10 @@ PARCELS = {
       ],
       "id": "14-390",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.79845392707389
+      ],
+      "sqarcities": [
         0.6664223452487951
       ],
       "usage": "22"
@@ -113726,7 +118437,10 @@ PARCELS = {
       ],
       "id": "14-391",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        28.305198403633838
+      ],
+      "sqarcities": [
         0.5700137122365464
       ],
       "usage": "22"
@@ -113777,7 +118491,10 @@ PARCELS = {
       ],
       "id": "14-392",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        28.305198403633838
+      ],
+      "sqarcities": [
         0.5268395822831704
       ],
       "usage": "22"
@@ -113824,7 +118541,10 @@ PARCELS = {
       ],
       "id": "14-393",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.78345469917842
+      ],
+      "sqarcities": [
         0.5885722469080209
       ],
       "usage": "22"
@@ -113883,7 +118603,10 @@ PARCELS = {
       ],
       "id": "14-394",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.26150562441657
+      ],
+      "sqarcities": [
         0.6272135132644425
       ],
       "usage": "22"
@@ -113942,7 +118665,10 @@ PARCELS = {
       ],
       "id": "14-395",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.26150562441657
+      ],
+      "sqarcities": [
         0.608417331765004
       ],
       "usage": "22"
@@ -114193,7 +118919,10 @@ PARCELS = {
       ],
       "id": "14-396",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.725541793563877
+      ],
+      "sqarcities": [
         0.5030357413989024
       ],
       "usage": "19"
@@ -114248,7 +118977,10 @@ PARCELS = {
       ],
       "id": "14-397",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.8024182938113
+      ],
+      "sqarcities": [
         0.45360706640884757
       ],
       "usage": "19"
@@ -114311,7 +119043,10 @@ PARCELS = {
       ],
       "id": "14-399",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.48877776696128
+      ],
+      "sqarcities": [
         0.6153101040066924
       ],
       "usage": "19"
@@ -114378,7 +119113,10 @@ PARCELS = {
       ],
       "id": "14-400",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.73850484763781
+      ],
+      "sqarcities": [
         0.5992917607529288
       ],
       "usage": "101"
@@ -114425,7 +119163,10 @@ PARCELS = {
       ],
       "id": "14-427",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.075202812141882
+      ],
+      "sqarcities": [
         0.6488607014312325
       ],
       "usage": "22"
@@ -114472,7 +119213,10 @@ PARCELS = {
       ],
       "id": "14-428",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.460782153909449
+      ],
+      "sqarcities": [
         0.622977648836552
       ],
       "usage": "22"
@@ -114542,8 +119286,15 @@ PARCELS = {
         }
       ],
       "id": "14-430",
-      "labels": [],
-      "shapeIndices": [
+      "labels": [
+        {
+          "split": true
+        }
+      ],
+      "orientations": [
+        66.6221019079673
+      ],
+      "sqarcities": [
         0.47763622355580626
       ],
       "usage": "22"
@@ -114610,7 +119361,10 @@ PARCELS = {
       ],
       "id": "14-431",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.6688586713469
+      ],
+      "sqarcities": [
         0.6807359137174765
       ],
       "usage": "11"
@@ -114673,7 +119427,10 @@ PARCELS = {
       ],
       "id": "14-432",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.38668292916844
+      ],
+      "sqarcities": [
         0.7264121172469341
       ],
       "usage": "19"
@@ -114716,7 +119473,10 @@ PARCELS = {
       ],
       "id": "14-436",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.55387812914512
+      ],
+      "sqarcities": [
         0.7177057536590296
       ],
       "usage": "19"
@@ -114763,7 +119523,10 @@ PARCELS = {
       ],
       "id": "14-437",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.37488468403629
+      ],
+      "sqarcities": [
         0.7540245183259396
       ],
       "usage": "19"
@@ -114806,7 +119569,10 @@ PARCELS = {
       ],
       "id": "14-438",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.76449930391448
+      ],
+      "sqarcities": [
         0.7594101567086272
       ],
       "usage": "11"
@@ -114913,7 +119679,10 @@ PARCELS = {
       ],
       "id": "14-439",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.94497784920412
+      ],
+      "sqarcities": [
         0.5383343516483986
       ],
       "usage": "19"
@@ -115144,7 +119913,10 @@ PARCELS = {
       ],
       "id": "14-441",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.2814990768735
+      ],
+      "sqarcities": [
         0.5372575035337394
       ],
       "usage": "22"
@@ -115339,7 +120111,10 @@ PARCELS = {
       ],
       "id": "14-442",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.696200811503005
+      ],
+      "sqarcities": [
         0.3977114763242284
       ],
       "usage": "22"
@@ -115470,7 +120245,10 @@ PARCELS = {
       ],
       "id": "14-443",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.142388253868546
+      ],
+      "sqarcities": [
         0.5950573662732613
       ],
       "usage": "11"
@@ -115537,7 +120315,10 @@ PARCELS = {
       ],
       "id": "14-444",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.5109706964938
+      ],
+      "sqarcities": [
         0.7439023296556977
       ],
       "usage": "22"
@@ -115588,7 +120369,10 @@ PARCELS = {
       ],
       "id": "14-445",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.5109706964938
+      ],
+      "sqarcities": [
         0.7673910661990907
       ],
       "usage": "19"
@@ -115639,7 +120423,10 @@ PARCELS = {
       ],
       "id": "14-446",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.43936929593187
+      ],
+      "sqarcities": [
         0.6424870499618861
       ],
       "usage": "19"
@@ -115686,7 +120473,10 @@ PARCELS = {
       ],
       "id": "14-447",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.676278988993545
+      ],
+      "sqarcities": [
         0.6159332737646251
       ],
       "usage": "19"
@@ -115737,7 +120527,10 @@ PARCELS = {
       ],
       "id": "14-448",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.327579811627196
+      ],
+      "sqarcities": [
         0.6081682373425403
       ],
       "usage": "19"
@@ -115784,7 +120577,10 @@ PARCELS = {
       ],
       "id": "14-449",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.08798676747264
+      ],
+      "sqarcities": [
         0.7925243459097879
       ],
       "usage": "19"
@@ -115835,7 +120631,10 @@ PARCELS = {
       ],
       "id": "14-450",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.07051245472423
+      ],
+      "sqarcities": [
         0.3778517623401479
       ],
       "usage": "19"
@@ -115878,7 +120677,10 @@ PARCELS = {
       ],
       "id": "14-451",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.865807541662576
+      ],
+      "sqarcities": [
         0.6216693634374876
       ],
       "usage": "19"
@@ -115933,7 +120735,10 @@ PARCELS = {
       ],
       "id": "14-452",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.368711036723639
+      ],
+      "sqarcities": [
         0.7300493693569984
       ],
       "usage": "11"
@@ -116000,7 +120805,10 @@ PARCELS = {
       ],
       "id": "14-454",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.27700822887389
+      ],
+      "sqarcities": [
         0.5253099595122235
       ],
       "usage": "22"
@@ -116067,7 +120875,10 @@ PARCELS = {
       ],
       "id": "14-454-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.27700822887389
+      ],
+      "sqarcities": [
         0.578705458326533
       ],
       "usage": "22"
@@ -116126,7 +120937,10 @@ PARCELS = {
       ],
       "id": "14-454-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.669541759701758
+      ],
+      "sqarcities": [
         0.7644730818337508
       ],
       "usage": "22"
@@ -116185,7 +120999,10 @@ PARCELS = {
       ],
       "id": "14-454-08",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.669541759701758
+      ],
+      "sqarcities": [
         0.7479558035266234
       ],
       "usage": "19"
@@ -116228,7 +121045,10 @@ PARCELS = {
       ],
       "id": "14-455",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.86177089828831
+      ],
+      "sqarcities": [
         0.7803890418536843
       ],
       "usage": "22"
@@ -116283,7 +121103,10 @@ PARCELS = {
       ],
       "id": "14-457",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.58575006144218
+      ],
+      "sqarcities": [
         0.554959668023579
       ],
       "usage": "17"
@@ -116378,7 +121201,10 @@ PARCELS = {
       ],
       "id": "14-462",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.151201148266452
+      ],
+      "sqarcities": [
         0.46972266351604375
       ],
       "usage": "19"
@@ -116565,7 +121391,10 @@ PARCELS = {
       ],
       "id": "14-466",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.151201148266452
+      ],
+      "sqarcities": [
         0.22136289357096092
       ],
       "usage": "19"
@@ -116660,7 +121489,10 @@ PARCELS = {
       ],
       "id": "14-485",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.9628559254042557
+      ],
+      "sqarcities": [
         0.6332477109949403
       ],
       "usage": "19"
@@ -117067,7 +121899,10 @@ PARCELS = {
       ],
       "id": "14-469",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.65038135084099
+      ],
+      "sqarcities": [
         0.2065266219159529
       ],
       "usage": "22"
@@ -117114,7 +121949,10 @@ PARCELS = {
       ],
       "id": "14-471",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.97448295140848
+      ],
+      "sqarcities": [
         0.6267677568496116
       ],
       "usage": "19"
@@ -117161,7 +121999,10 @@ PARCELS = {
       ],
       "id": "14-472",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.53684944105714
+      ],
+      "sqarcities": [
         0.6802981596917763
       ],
       "usage": "22"
@@ -117204,7 +122045,10 @@ PARCELS = {
       ],
       "id": "14-473",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        71.4606400301156
+      ],
+      "sqarcities": [
         0.7530597234267504
       ],
       "usage": "11"
@@ -117251,7 +122095,10 @@ PARCELS = {
       ],
       "id": "14-474",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.79155657881287
+      ],
+      "sqarcities": [
         0.7256534421609726
       ],
       "usage": "22"
@@ -117350,7 +122197,10 @@ PARCELS = {
       ],
       "id": "14-475",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.17259574975592784
+      ],
+      "sqarcities": [
         0.6121574264107741
       ],
       "usage": "22"
@@ -117393,7 +122243,10 @@ PARCELS = {
       ],
       "id": "14-492",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.24158527941817
+      ],
+      "sqarcities": [
         0.6782316403213853
       ],
       "usage": "11"
@@ -117564,7 +122417,10 @@ PARCELS = {
       ],
       "id": "14-476",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.61851031396452
+      ],
+      "sqarcities": [
         0.6461716161035621
       ],
       "usage": "22"
@@ -117611,7 +122467,10 @@ PARCELS = {
       ],
       "id": "14-477",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.201127860258865
+      ],
+      "sqarcities": [
         0.7488975091783977
       ],
       "usage": "22"
@@ -117654,7 +122513,10 @@ PARCELS = {
       ],
       "id": "14-478",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.409650171580296
+      ],
+      "sqarcities": [
         0.526008187218797
       ],
       "usage": "19"
@@ -117701,7 +122563,10 @@ PARCELS = {
       ],
       "id": "14-479",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.72843190986103
+      ],
+      "sqarcities": [
         0.6981087953710172
       ],
       "usage": "22"
@@ -117756,7 +122621,10 @@ PARCELS = {
       ],
       "id": "14-480",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.22534439110589
+      ],
+      "sqarcities": [
         0.8322503284743618
       ],
       "usage": "19"
@@ -117807,7 +122675,10 @@ PARCELS = {
       ],
       "id": "14-481",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.07756779407538
+      ],
+      "sqarcities": [
         0.6545690863915182
       ],
       "usage": "19"
@@ -117858,7 +122729,10 @@ PARCELS = {
       ],
       "id": "14-482",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.69753087235046
+      ],
+      "sqarcities": [
         0.6729921319536568
       ],
       "usage": "22"
@@ -117913,7 +122787,10 @@ PARCELS = {
       ],
       "id": "14-483",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.62958646570775
+      ],
+      "sqarcities": [
         0.7463612829779595
       ],
       "usage": "19"
@@ -118080,7 +122957,10 @@ PARCELS = {
       ],
       "id": "14-487",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.545581584092432
+      ],
+      "sqarcities": [
         0.6610304321129223
       ],
       "usage": "19"
@@ -118383,7 +123263,10 @@ PARCELS = {
       ],
       "id": "14-488",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.99177196200338
+      ],
+      "sqarcities": [
         0.2107841283130623
       ],
       "usage": "19"
@@ -118462,7 +123345,10 @@ PARCELS = {
       ],
       "id": "14-488-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.9700092729387677
+      ],
+      "sqarcities": [
         0.43715148346721666
       ],
       "usage": "22"
@@ -118533,7 +123419,10 @@ PARCELS = {
       ],
       "id": "14-489",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.68455062167702
+      ],
+      "sqarcities": [
         0.689566257096999
       ],
       "usage": "11"
@@ -118584,7 +123473,10 @@ PARCELS = {
       ],
       "id": "15-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.221678127249177
+      ],
+      "sqarcities": [
         0.2740079909716449
       ],
       "usage": "22"
@@ -118671,7 +123563,10 @@ PARCELS = {
       ],
       "id": "14-490",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.147157161122621
+      ],
+      "sqarcities": [
         0.3846753348762023
       ],
       "usage": "27"
@@ -118730,7 +123625,10 @@ PARCELS = {
       ],
       "id": "14-491",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.68455062167702
+      ],
+      "sqarcities": [
         0.6601970280913373
       ],
       "usage": "19"
@@ -118817,7 +123715,10 @@ PARCELS = {
       ],
       "id": "14-495",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -80.06516170204651
+      ],
+      "sqarcities": [
         0.41981055898620595
       ],
       "usage": "11"
@@ -118860,7 +123761,10 @@ PARCELS = {
       ],
       "id": "14-496",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.72843190986103
+      ],
+      "sqarcities": [
         0.6083380962341763
       ],
       "usage": "22"
@@ -118907,7 +123811,10 @@ PARCELS = {
       ],
       "id": "14-500",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.865807541662576
+      ],
+      "sqarcities": [
         0.5642578385458175
       ],
       "usage": "22"
@@ -118966,7 +123873,10 @@ PARCELS = {
       ],
       "id": "14-501",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        35.82038303035482
+      ],
+      "sqarcities": [
         0.45645770662092483
       ],
       "usage": "27"
@@ -119025,7 +123935,10 @@ PARCELS = {
       ],
       "id": "14-502",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.50661829297344
+      ],
+      "sqarcities": [
         0.4454076065432953
       ],
       "usage": "27"
@@ -119068,7 +123981,10 @@ PARCELS = {
       ],
       "id": "14-503",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.898581539435554
+      ],
+      "sqarcities": [
         0.6557838424848562
       ],
       "usage": "19"
@@ -119115,7 +124031,10 @@ PARCELS = {
       ],
       "id": "14-504",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.63555407785691
+      ],
+      "sqarcities": [
         0.6899340202141429
       ],
       "usage": "22"
@@ -119234,7 +124153,10 @@ PARCELS = {
       ],
       "id": "14-506",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.011141551030335
+      ],
+      "sqarcities": [
         0.49296231187190065
       ],
       "usage": "27"
@@ -119277,7 +124199,10 @@ PARCELS = {
       ],
       "id": "14-507",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.1317771591689
+      ],
+      "sqarcities": [
         0.7196203420839219
       ],
       "usage": "22"
@@ -119320,7 +124245,10 @@ PARCELS = {
       ],
       "id": "14-508",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        35.75521284496861
+      ],
+      "sqarcities": [
         0.5845211997969028
       ],
       "usage": "19"
@@ -119379,7 +124307,10 @@ PARCELS = {
       ],
       "id": "15-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.030929423086974
+      ],
+      "sqarcities": [
         0.23805522039541552
       ],
       "usage": "19"
@@ -119442,7 +124373,10 @@ PARCELS = {
       ],
       "id": "15-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.776997299892486
+      ],
+      "sqarcities": [
         0.3296345596641439
       ],
       "usage": "19"
@@ -119533,7 +124467,10 @@ PARCELS = {
       ],
       "id": "15-41",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.291466471717484
+      ],
+      "sqarcities": [
         0.4680417049321329
       ],
       "usage": "19"
@@ -119704,7 +124641,10 @@ PARCELS = {
       ],
       "id": "15-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.079933096090045
+      ],
+      "sqarcities": [
         0.5928021071832343
       ],
       "usage": "19"
@@ -119763,7 +124703,10 @@ PARCELS = {
       ],
       "id": "15-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.84381085487195
+      ],
+      "sqarcities": [
         0.7791447884282265
       ],
       "usage": "22"
@@ -119810,7 +124753,10 @@ PARCELS = {
       ],
       "id": "15-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.14924606469256
+      ],
+      "sqarcities": [
         0.6336422456678905
       ],
       "usage": "22"
@@ -119865,7 +124811,10 @@ PARCELS = {
       ],
       "id": "15-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.14924606469256
+      ],
+      "sqarcities": [
         0.5668318657025461
       ],
       "usage": "22"
@@ -119956,7 +124905,10 @@ PARCELS = {
       ],
       "id": "15-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.37215172023261
+      ],
+      "sqarcities": [
         0.4596855569937462
       ],
       "usage": "11"
@@ -120003,7 +124955,10 @@ PARCELS = {
       ],
       "id": "15-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.37215172023261
+      ],
+      "sqarcities": [
         0.6442521463025853
       ],
       "usage": "11"
@@ -120070,7 +125025,10 @@ PARCELS = {
       ],
       "id": "15-48-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.290069718286162
+      ],
+      "sqarcities": [
         0.5428894838338795
       ],
       "usage": "19"
@@ -120145,7 +125103,10 @@ PARCELS = {
       ],
       "id": "15-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.27539461796906
+      ],
+      "sqarcities": [
         0.6182610565670374
       ],
       "usage": "22"
@@ -120284,7 +125245,10 @@ PARCELS = {
       ],
       "id": "15-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.4330458227845355
+      ],
+      "sqarcities": [
         0.4729920513611888
       ],
       "usage": "19"
@@ -120435,7 +125399,10 @@ PARCELS = {
       ],
       "id": "15-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -80.5457188129316
+      ],
+      "sqarcities": [
         0.7245865231125331
       ],
       "usage": "11"
@@ -120482,7 +125449,10 @@ PARCELS = {
       ],
       "id": "15-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.005289399867507
+      ],
+      "sqarcities": [
         0.7289082129749329
       ],
       "usage": "19"
@@ -121037,7 +126007,10 @@ PARCELS = {
       ],
       "id": "15-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.9445681167562867
+      ],
+      "sqarcities": [
         0.47140114037471353
       ],
       "usage": "33"
@@ -121256,7 +126229,10 @@ PARCELS = {
       ],
       "id": "15-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.258360473534296
+      ],
+      "sqarcities": [
         0.5491422642901774
       ],
       "usage": "19"
@@ -121559,7 +126535,10 @@ PARCELS = {
       ],
       "id": "15-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.18971850498704
+      ],
+      "sqarcities": [
         0.5501784589901298
       ],
       "usage": "22"
@@ -121642,7 +126621,10 @@ PARCELS = {
       ],
       "id": "15-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        52.82433397485602
+      ],
+      "sqarcities": [
         0.49667862113673755
       ],
       "usage": "11"
@@ -121733,7 +126715,10 @@ PARCELS = {
           "rotate": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        76.50306673475447
+      ],
+      "sqarcities": [
         0.2647168080209326
       ],
       "usage": "19"
@@ -121824,7 +126809,10 @@ PARCELS = {
           "rotate": true
         }
       ],
-      "shapeIndices": [
+      "orientations": [
+        69.50861820656044
+      ],
+      "sqarcities": [
         0.37387352248846417
       ],
       "usage": "11"
@@ -121979,7 +126967,10 @@ PARCELS = {
       ],
       "id": "15-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.6420728130434
+      ],
+      "sqarcities": [
         0.36276030201661064
       ],
       "usage": "19"
@@ -122134,7 +127125,10 @@ PARCELS = {
       ],
       "id": "15-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.648024989493706
+      ],
+      "sqarcities": [
         0.3522303414724308
       ],
       "usage": "11"
@@ -122241,7 +127235,10 @@ PARCELS = {
       ],
       "id": "15-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.92192427150889
+      ],
+      "sqarcities": [
         0.3714175333020133
       ],
       "usage": "11"
@@ -122308,7 +127305,10 @@ PARCELS = {
       ],
       "id": "15-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.49513402032767
+      ],
+      "sqarcities": [
         0.6217511993730369
       ],
       "usage": "19"
@@ -122407,7 +127407,10 @@ PARCELS = {
       ],
       "id": "15-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.60182191752136
+      ],
+      "sqarcities": [
         0.6708634963264992
       ],
       "usage": "11"
@@ -122458,7 +127461,10 @@ PARCELS = {
       ],
       "id": "15-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.0562994071037
+      ],
+      "sqarcities": [
         0.6903489522222929
       ],
       "usage": "19"
@@ -122513,7 +127519,10 @@ PARCELS = {
       ],
       "id": "15-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.63184086478563
+      ],
+      "sqarcities": [
         0.7338388851261638
       ],
       "usage": "11"
@@ -122560,7 +127569,10 @@ PARCELS = {
       ],
       "id": "15-73",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.14322469613415
+      ],
+      "sqarcities": [
         0.713596276862513
       ],
       "usage": "19"
@@ -122635,7 +127647,10 @@ PARCELS = {
       ],
       "id": "15-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -34.04491315942042
+      ],
+      "sqarcities": [
         0.5728555724230331
       ],
       "usage": "11"
@@ -122683,7 +127698,10 @@ PARCELS = {
       ],
       "id": "15-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.06847623744497
+      ],
+      "sqarcities": [
         0.6350408428139687
       ],
       "usage": "22"
@@ -122739,7 +127757,10 @@ PARCELS = {
       ],
       "id": "15-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.70038532995965
+      ],
+      "sqarcities": [
         0.48746814158964813
       ],
       "usage": "22"
@@ -122798,7 +127819,10 @@ PARCELS = {
       ],
       "id": "15-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.98166048705662
+      ],
+      "sqarcities": [
         0.6940066747559164
       ],
       "usage": "22"
@@ -122846,7 +127870,10 @@ PARCELS = {
       ],
       "id": "15-82-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.285350328860886
+      ],
+      "sqarcities": [
         0.7463430158413356
       ],
       "usage": "22"
@@ -122894,7 +127921,10 @@ PARCELS = {
       ],
       "id": "15-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.638442741582324
+      ],
+      "sqarcities": [
         0.7584610921166592
       ],
       "usage": "22"
@@ -123129,7 +128159,10 @@ PARCELS = {
       ],
       "id": "15-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.4701657146557
+      ],
+      "sqarcities": [
         0.5273533929262744
       ],
       "usage": "22"
@@ -123181,7 +128214,10 @@ PARCELS = {
       ],
       "id": "15-88-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.17211751861497
+      ],
+      "sqarcities": [
         0.5219827742678536
       ],
       "usage": "22"
@@ -123233,7 +128269,10 @@ PARCELS = {
       ],
       "id": "15-88-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.800900727438716
+      ],
+      "sqarcities": [
         0.7520370026973116
       ],
       "usage": "22"
@@ -123285,7 +128324,10 @@ PARCELS = {
       ],
       "id": "15-88-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.47594207441381
+      ],
+      "sqarcities": [
         0.796289892424915
       ],
       "usage": "22"
@@ -123420,7 +128462,10 @@ PARCELS = {
       ],
       "id": "15-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.09291813519188
+      ],
+      "sqarcities": [
         0.6466066892342505
       ],
       "usage": "19"
@@ -123471,7 +128516,10 @@ PARCELS = {
       ],
       "id": "16-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.483590326264334
+      ],
+      "sqarcities": [
         0.75455202048447
       ],
       "usage": "22"
@@ -123762,7 +128810,10 @@ PARCELS = {
       ],
       "id": "15-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.7807928973163
+      ],
+      "sqarcities": [
         0.5485021624744641
       ],
       "usage": "19"
@@ -123845,7 +128896,10 @@ PARCELS = {
       ],
       "id": "15-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -8.991652866039928
+      ],
+      "sqarcities": [
         0.5981765476811999
       ],
       "usage": "22"
@@ -123888,7 +128942,10 @@ PARCELS = {
       ],
       "id": "15-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.69184133985866
+      ],
+      "sqarcities": [
         0.6344077946735078
       ],
       "usage": "11"
@@ -123931,7 +128988,10 @@ PARCELS = {
       ],
       "id": "15-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.80171820400824
+      ],
+      "sqarcities": [
         0.700975979935629
       ],
       "usage": "19"
@@ -123978,7 +129038,10 @@ PARCELS = {
       ],
       "id": "15-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.007692084197075
+      ],
+      "sqarcities": [
         0.8101203327956683
       ],
       "usage": "22"
@@ -124026,7 +129089,10 @@ PARCELS = {
       ],
       "id": "15-111-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -61.20337278491491
+      ],
+      "sqarcities": [
         0.7147801018920045
       ],
       "usage": "22"
@@ -124113,7 +129179,10 @@ PARCELS = {
       ],
       "id": "15-137",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.92074729148125
+      ],
+      "sqarcities": [
         0.7711845975933485
       ],
       "usage": "22"
@@ -124188,7 +129257,10 @@ PARCELS = {
       ],
       "id": "15-143",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.56372551118224
+      ],
+      "sqarcities": [
         0.5400151532456576
       ],
       "usage": "22"
@@ -124243,7 +129315,10 @@ PARCELS = {
       ],
       "id": "15-157",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.682072265170873
+      ],
+      "sqarcities": [
         0.41161248339180284
       ],
       "usage": "22"
@@ -124318,7 +129393,10 @@ PARCELS = {
       ],
       "id": "15-159",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.002661387976445
+      ],
+      "sqarcities": [
         0.4033486037053253
       ],
       "usage": "22"
@@ -124389,7 +129467,10 @@ PARCELS = {
       ],
       "id": "15-160",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.68854997401631
+      ],
+      "sqarcities": [
         0.48693756114758846
       ],
       "usage": "19"
@@ -124444,7 +129525,10 @@ PARCELS = {
       ],
       "id": "15-161",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        20.182328004879935
+      ],
+      "sqarcities": [
         0.4499106757525325
       ],
       "usage": "22"
@@ -124511,7 +129595,10 @@ PARCELS = {
       ],
       "id": "15-163",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.354641085999916
+      ],
+      "sqarcities": [
         0.5827994779263082
       ],
       "usage": "11"
@@ -124566,7 +129653,10 @@ PARCELS = {
       ],
       "id": "15-164",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.291466471717484
+      ],
+      "sqarcities": [
         0.46990081649761245
       ],
       "usage": "19"
@@ -124625,7 +129715,10 @@ PARCELS = {
       ],
       "id": "15-165",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        43.68467148582599
+      ],
+      "sqarcities": [
         0.4577852965322707
       ],
       "usage": "19"
@@ -124672,7 +129765,10 @@ PARCELS = {
       ],
       "id": "15-166",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.305068697176836
+      ],
+      "sqarcities": [
         0.5796354530785836
       ],
       "usage": "22"
@@ -124743,7 +129839,10 @@ PARCELS = {
       ],
       "id": "15-167",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        52.82433397485602
+      ],
+      "sqarcities": [
         0.8181506108432515
       ],
       "usage": "11"
@@ -124791,7 +129890,10 @@ PARCELS = {
       ],
       "id": "15-171",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -38.744801981230175
+      ],
+      "sqarcities": [
         0.541046843570502
       ],
       "usage": "22"
@@ -124839,7 +129941,10 @@ PARCELS = {
       ],
       "id": "15-172",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.126246659751168
+      ],
+      "sqarcities": [
         0.6139609165729819
       ],
       "usage": "22"
@@ -124887,7 +129992,10 @@ PARCELS = {
       ],
       "id": "15-173",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.631765489275367
+      ],
+      "sqarcities": [
         0.5296784062667261
       ],
       "usage": "22"
@@ -125170,7 +130278,10 @@ PARCELS = {
       ],
       "id": "16-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -35.60528383877624
+      ],
+      "sqarcities": [
         0.43298394205828755
       ],
       "usage": "11"
@@ -125221,7 +130332,10 @@ PARCELS = {
       ],
       "id": "16-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.420869202966145
+      ],
+      "sqarcities": [
         0.6699802685093131
       ],
       "usage": "22"
@@ -125264,7 +130378,10 @@ PARCELS = {
       ],
       "id": "16-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.420869202966145
+      ],
+      "sqarcities": [
         0.7308439905322495
       ],
       "usage": "22"
@@ -125679,7 +130796,10 @@ PARCELS = {
       ],
       "id": "16-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.996931091322665
+      ],
+      "sqarcities": [
         0.41698272981680345
       ],
       "usage": "22"
@@ -125722,7 +130842,10 @@ PARCELS = {
       ],
       "id": "16-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.9392850523668
+      ],
+      "sqarcities": [
         0.5595280974125649
       ],
       "usage": "22"
@@ -125865,7 +130988,10 @@ PARCELS = {
       ],
       "id": "16-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.080304522957775
+      ],
+      "sqarcities": [
         0.5404067468674265
       ],
       "usage": "19"
@@ -126056,7 +131182,10 @@ PARCELS = {
       ],
       "id": "16-7-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.06025168973
+      ],
+      "sqarcities": [
         0.23052650360540775
       ],
       "usage": "19"
@@ -126179,7 +131308,10 @@ PARCELS = {
       ],
       "id": "16-7-05",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.62577066117082
+      ],
+      "sqarcities": [
         0.4447888742820643
       ],
       "usage": "19"
@@ -126222,7 +131354,10 @@ PARCELS = {
       ],
       "id": "16-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.928769163988
+      ],
+      "sqarcities": [
         0.6277034819463813
       ],
       "usage": "22"
@@ -126269,7 +131404,10 @@ PARCELS = {
       ],
       "id": "16-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        46.215885209875694
+      ],
+      "sqarcities": [
         0.7705069291702998
       ],
       "usage": "22"
@@ -126312,7 +131450,10 @@ PARCELS = {
       ],
       "id": "16-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.28874191356520384
+      ],
+      "sqarcities": [
         0.5802032225536925
       ],
       "usage": "22"
@@ -126367,7 +131508,10 @@ PARCELS = {
       ],
       "id": "16-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.63486547687927
+      ],
+      "sqarcities": [
         0.7743790051631187
       ],
       "usage": "22"
@@ -126458,7 +131602,10 @@ PARCELS = {
       ],
       "id": "16-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.99701235484977
+      ],
+      "sqarcities": [
         0.4748967236495006
       ],
       "usage": "19"
@@ -126565,7 +131712,10 @@ PARCELS = {
       ],
       "id": "16-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.8925731370384256
+      ],
+      "sqarcities": [
         0.491956420631521
       ],
       "usage": "19"
@@ -126780,7 +131930,10 @@ PARCELS = {
       ],
       "id": "16-49-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.99701235484977
+      ],
+      "sqarcities": [
         0.5726471283209681
       ],
       "usage": "19"
@@ -126867,7 +132020,10 @@ PARCELS = {
       ],
       "id": "16-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.2737601940221
+      ],
+      "sqarcities": [
         0.6874515396880962
       ],
       "usage": "11"
@@ -126946,7 +132102,10 @@ PARCELS = {
       ],
       "id": "16-51-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.302947771165009
+      ],
+      "sqarcities": [
         0.7587419448731082
       ],
       "usage": "19"
@@ -127037,7 +132196,10 @@ PARCELS = {
       ],
       "id": "16-51-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.83663092216597
+      ],
+      "sqarcities": [
         0.6170824368234787
       ],
       "usage": "22"
@@ -127092,7 +132254,10 @@ PARCELS = {
       ],
       "id": "16-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.82411311402233
+      ],
+      "sqarcities": [
         0.6704774853157318
       ],
       "usage": "11"
@@ -127139,7 +132304,10 @@ PARCELS = {
       ],
       "id": "16-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.1147145745628
+      ],
+      "sqarcities": [
         0.7590495306551771
       ],
       "usage": "19"
@@ -127186,7 +132354,10 @@ PARCELS = {
       ],
       "id": "16-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.407422526146064
+      ],
+      "sqarcities": [
         0.6923920360399356
       ],
       "usage": "22"
@@ -127233,7 +132404,10 @@ PARCELS = {
       ],
       "id": "16-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.095981392569712
+      ],
+      "sqarcities": [
         0.7831677552611752
       ],
       "usage": "17"
@@ -127340,7 +132514,10 @@ PARCELS = {
       ],
       "id": "16-61-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.98806118656599
+      ],
+      "sqarcities": [
         0.5775142819097915
       ],
       "usage": "11"
@@ -127391,7 +132568,10 @@ PARCELS = {
       ],
       "id": "16-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.74525369189297
+      ],
+      "sqarcities": [
         0.761305043418323
       ],
       "usage": "27"
@@ -127466,7 +132646,10 @@ PARCELS = {
       ],
       "id": "16-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.1349862566087
+      ],
+      "sqarcities": [
         0.32777899704335284
       ],
       "usage": "19"
@@ -127521,7 +132704,10 @@ PARCELS = {
       ],
       "id": "16-64",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.54037527208226
+      ],
+      "sqarcities": [
         0.6246083017882536
       ],
       "usage": "19"
@@ -127564,7 +132750,10 @@ PARCELS = {
       ],
       "id": "16-70-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.8118897791243995
+      ],
+      "sqarcities": [
         0.49203922969311065
       ],
       "usage": "19"
@@ -127623,7 +132812,10 @@ PARCELS = {
       ],
       "id": "16-70-06",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.948023748814954
+      ],
+      "sqarcities": [
         0.403639890187211
       ],
       "usage": "19"
@@ -127710,7 +132902,10 @@ PARCELS = {
       ],
       "id": "16-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.66123014004762
+      ],
+      "sqarcities": [
         0.4931669902301073
       ],
       "usage": "19"
@@ -127753,7 +132948,10 @@ PARCELS = {
       ],
       "id": "16-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.28959217619928
+      ],
+      "sqarcities": [
         0.450320501031402
       ],
       "usage": "22"
@@ -127896,7 +133094,10 @@ PARCELS = {
       ],
       "id": "16-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.695690506424114
+      ],
+      "sqarcities": [
         0.4336336976344314
       ],
       "usage": "19"
@@ -127971,7 +133172,10 @@ PARCELS = {
       ],
       "id": "16-70-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.3876702792203
+      ],
+      "sqarcities": [
         0.5052138609582557
       ],
       "usage": "27"
@@ -128026,7 +133230,10 @@ PARCELS = {
       ],
       "id": "16-70-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -49.216102248792595
+      ],
+      "sqarcities": [
         0.45877705747205944
       ],
       "usage": "27"
@@ -128069,7 +133276,10 @@ PARCELS = {
       ],
       "id": "16-70-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -49.216102248792595
+      ],
+      "sqarcities": [
         0.40788735601808707
       ],
       "usage": "19"
@@ -128172,7 +133382,10 @@ PARCELS = {
       ],
       "id": "16-70-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.061677975897105
+      ],
+      "sqarcities": [
         0.49189802144625944
       ],
       "usage": "19"
@@ -128231,7 +133444,10 @@ PARCELS = {
       ],
       "id": "16-70-05",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -51.061677975897105
+      ],
+      "sqarcities": [
         0.3594068428917159
       ],
       "usage": "19"
@@ -128314,7 +133530,10 @@ PARCELS = {
       ],
       "id": "16-70-07",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.920986748951655
+      ],
+      "sqarcities": [
         0.3526520152725116
       ],
       "usage": "19"
@@ -128357,7 +133576,10 @@ PARCELS = {
       ],
       "id": "16-70-08",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.562824489983853
+      ],
+      "sqarcities": [
         0.4158366782207911
       ],
       "usage": "19"
@@ -128408,7 +133630,10 @@ PARCELS = {
       ],
       "id": "16-70-09",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.603200693268747
+      ],
+      "sqarcities": [
         0.45027515985454314
       ],
       "usage": "19"
@@ -128459,7 +133684,10 @@ PARCELS = {
       ],
       "id": "16-70-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.632326676157845
+      ],
+      "sqarcities": [
         0.4890832123609349
       ],
       "usage": "19"
@@ -128510,7 +133738,10 @@ PARCELS = {
       ],
       "id": "16-70-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        39.89728448186355
+      ],
+      "sqarcities": [
         0.7568494740124339
       ],
       "usage": "19"
@@ -128581,7 +133812,10 @@ PARCELS = {
       ],
       "id": "16-70-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.24485811720248
+      ],
+      "sqarcities": [
         0.2966956463544557
       ],
       "usage": "19"
@@ -128664,7 +133898,10 @@ PARCELS = {
       ],
       "id": "16-70-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.144327380433964
+      ],
+      "sqarcities": [
         0.48129233548121586
       ],
       "usage": "19"
@@ -128815,7 +134052,10 @@ PARCELS = {
       ],
       "id": "16-70-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.04283396676101
+      ],
+      "sqarcities": [
         0.5619290568787593
       ],
       "usage": "19"
@@ -128910,7 +134150,10 @@ PARCELS = {
       ],
       "id": "16-70-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.04283396676101
+      ],
+      "sqarcities": [
         0.48748064054435164
       ],
       "usage": "19"
@@ -129001,7 +134244,10 @@ PARCELS = {
       ],
       "id": "16-70-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.51389339111742
+      ],
+      "sqarcities": [
         0.3464423497955582
       ],
       "usage": "19"
@@ -129052,7 +134298,10 @@ PARCELS = {
       ],
       "id": "16-77-09",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.73667474855776
+      ],
+      "sqarcities": [
         0.3465694525709887
       ],
       "usage": "19"
@@ -129139,7 +134388,10 @@ PARCELS = {
       ],
       "id": "16-70-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.54506587206785
+      ],
+      "sqarcities": [
         0.25413698339604357
       ],
       "usage": "19"
@@ -129206,7 +134458,10 @@ PARCELS = {
       ],
       "id": "16-70-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.63621413182668
+      ],
+      "sqarcities": [
         0.2532769400952075
       ],
       "usage": "19"
@@ -129313,7 +134568,10 @@ PARCELS = {
       ],
       "id": "16-70-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.63621413182668
+      ],
+      "sqarcities": [
         0.276121837601195
       ],
       "usage": "19"
@@ -129364,7 +134622,10 @@ PARCELS = {
       ],
       "id": "16-70-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.6406795587078
+      ],
+      "sqarcities": [
         0.25953008748594003
       ],
       "usage": "19"
@@ -129415,7 +134676,10 @@ PARCELS = {
       ],
       "id": "16-70-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.67549839352161
+      ],
+      "sqarcities": [
         0.25027164117465855
       ],
       "usage": "19"
@@ -129470,7 +134734,10 @@ PARCELS = {
       ],
       "id": "16-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.7901106367313
+      ],
+      "sqarcities": [
         0.30807079848247926
       ],
       "usage": "22"
@@ -129533,7 +134800,10 @@ PARCELS = {
       ],
       "id": "16-70-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.68184909589127
+      ],
+      "sqarcities": [
         0.37557268446713543
       ],
       "usage": "19"
@@ -129584,7 +134854,10 @@ PARCELS = {
       ],
       "id": "16-77-08",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.32717649977943
+      ],
+      "sqarcities": [
         0.3053079684234845
       ],
       "usage": "19"
@@ -129639,7 +134912,10 @@ PARCELS = {
       ],
       "id": "16-77-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.74006121412094
+      ],
+      "sqarcities": [
         0.35959927657269314
       ],
       "usage": "19"
@@ -129690,7 +134966,10 @@ PARCELS = {
       ],
       "id": "16-77-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.19089631147568
+      ],
+      "sqarcities": [
         0.5764818998234451
       ],
       "usage": "19"
@@ -129745,7 +135024,10 @@ PARCELS = {
       ],
       "id": "16-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.69553606785206
+      ],
+      "sqarcities": [
         0.345131655823783
       ],
       "usage": "22"
@@ -129796,7 +135078,10 @@ PARCELS = {
       ],
       "id": "16-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -54.343000950622546
+      ],
+      "sqarcities": [
         0.3226291154977094
       ],
       "usage": "22"
@@ -129839,7 +135124,10 @@ PARCELS = {
       ],
       "id": "16-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        78.75306310577358
+      ],
+      "sqarcities": [
         0.31371518897729395
       ],
       "usage": "22"
@@ -129882,7 +135170,10 @@ PARCELS = {
       ],
       "id": "16-106",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        65.7485305357406
+      ],
+      "sqarcities": [
         0.3671135051167401
       ],
       "usage": "22"
@@ -129941,7 +135232,10 @@ PARCELS = {
       ],
       "id": "16-131-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -10.635517664500526
+      ],
+      "sqarcities": [
         0.48736391715847915
       ],
       "usage": "11"
@@ -129992,7 +135286,10 @@ PARCELS = {
       ],
       "id": "16-132",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.165871580540767
+      ],
+      "sqarcities": [
         0.7720037973516771
       ],
       "usage": "19"
@@ -130043,7 +135340,10 @@ PARCELS = {
       ],
       "id": "16-133",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        44.695690506424114
+      ],
+      "sqarcities": [
         0.743648699124881
       ],
       "usage": "19"
@@ -130122,7 +135422,10 @@ PARCELS = {
       ],
       "id": "17-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.484587793566575
+      ],
+      "sqarcities": [
         0.7569777535683357
       ],
       "usage": "19"
@@ -130301,7 +135604,10 @@ PARCELS = {
       ],
       "id": "17-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.31936390604307
+      ],
+      "sqarcities": [
         0.6581663131684579
       ],
       "usage": "19"
@@ -130364,7 +135670,10 @@ PARCELS = {
       ],
       "id": "17-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.59500600470321
+      ],
+      "sqarcities": [
         0.6960500800928231
       ],
       "usage": "19"
@@ -130415,7 +135724,10 @@ PARCELS = {
       ],
       "id": "17-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.96832728961519
+      ],
+      "sqarcities": [
         0.5108572823590932
       ],
       "usage": "19"
@@ -130462,7 +135774,10 @@ PARCELS = {
       ],
       "id": "20-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        57.41800585515779
+      ],
+      "sqarcities": [
         0.7159361398595182
       ],
       "usage": "11"
@@ -130509,7 +135824,10 @@ PARCELS = {
       ],
       "id": "18-3-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.315793554454274
+      ],
+      "sqarcities": [
         0.6939018359192181
       ],
       "usage": "19"
@@ -130591,7 +135909,11 @@ PARCELS = {
       ],
       "id": "17-38",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        48.699753126173334,
+        58.04381152881473
+      ],
+      "sqarcities": [
         0.7554867896798951,
         0.7278945403404573
       ],
@@ -130635,7 +135957,10 @@ PARCELS = {
       ],
       "id": "19-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.9272818121538933
+      ],
+      "sqarcities": [
         0.45021014545665017
       ],
       "usage": "22"
@@ -130694,7 +136019,10 @@ PARCELS = {
       ],
       "id": "17-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        59.847519329264
+      ],
+      "sqarcities": [
         0.7352870055317623
       ],
       "usage": "22"
@@ -130917,7 +136245,10 @@ PARCELS = {
       ],
       "id": "17-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.70572201655118
+      ],
+      "sqarcities": [
         0.7485308491344171
       ],
       "usage": "19"
@@ -130960,7 +136291,10 @@ PARCELS = {
       ],
       "id": "17-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        32.899246534064716
+      ],
+      "sqarcities": [
         0.7424484959569985
       ],
       "usage": "19"
@@ -131211,7 +136545,10 @@ PARCELS = {
       ],
       "id": "18-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.1496816820597218
+      ],
+      "sqarcities": [
         0.5787823579674083
       ],
       "usage": "19"
@@ -131254,7 +136591,10 @@ PARCELS = {
       ],
       "id": "18-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.52303864026036
+      ],
+      "sqarcities": [
         0.6750660187752646
       ],
       "usage": "19"
@@ -131297,7 +136637,10 @@ PARCELS = {
       ],
       "id": "18-11-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.2251789524448
+      ],
+      "sqarcities": [
         0.660167564464324
       ],
       "usage": "19"
@@ -131372,7 +136715,10 @@ PARCELS = {
       ],
       "id": "18-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.61426417593024
+      ],
+      "sqarcities": [
         0.6862005911817616
       ],
       "usage": "19"
@@ -131547,7 +136893,10 @@ PARCELS = {
       ],
       "id": "18-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.9315102786414
+      ],
+      "sqarcities": [
         0.5309693043912076
       ],
       "usage": "22"
@@ -131618,7 +136967,10 @@ PARCELS = {
       ],
       "id": "18-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.07761808473867
+      ],
+      "sqarcities": [
         0.5900284731795812
       ],
       "usage": "22"
@@ -131673,7 +137025,10 @@ PARCELS = {
       ],
       "id": "18-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -45.51106490315949
+      ],
+      "sqarcities": [
         0.6391139155701202
       ],
       "usage": "22"
@@ -131988,7 +137343,10 @@ PARCELS = {
       ],
       "id": "18-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.7994614602735
+      ],
+      "sqarcities": [
         0.2889004462432756
       ],
       "usage": "101"
@@ -132039,7 +137397,10 @@ PARCELS = {
       ],
       "id": "18-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        4.678903416742699
+      ],
+      "sqarcities": [
         0.7430685404093054
       ],
       "usage": "19"
@@ -132130,7 +137491,10 @@ PARCELS = {
       ],
       "id": "18-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.830654868297401
+      ],
+      "sqarcities": [
         0.5783031838902887
       ],
       "usage": "19"
@@ -132257,7 +137621,10 @@ PARCELS = {
       ],
       "id": "18-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.830654868297401
+      ],
+      "sqarcities": [
         0.25343455205806553
       ],
       "usage": "19"
@@ -132384,7 +137751,10 @@ PARCELS = {
       ],
       "id": "18-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.696200811503005
+      ],
+      "sqarcities": [
         0.5132815906491988
       ],
       "usage": "22"
@@ -132447,7 +137817,10 @@ PARCELS = {
       ],
       "id": "18-11-02",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        16.47063317025203
+      ],
+      "sqarcities": [
         0.7603595828910037
       ],
       "usage": "22"
@@ -132494,7 +137867,10 @@ PARCELS = {
       ],
       "id": "18-11-05",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.82600710300751
+      ],
+      "sqarcities": [
         0.7837936172208047
       ],
       "usage": "22"
@@ -132549,7 +137925,10 @@ PARCELS = {
       ],
       "id": "18-11-08",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        15.652538187412603
+      ],
+      "sqarcities": [
         0.625091846573532
       ],
       "usage": "22"
@@ -132608,7 +137987,10 @@ PARCELS = {
       ],
       "id": "18-11-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.18700961983401
+      ],
+      "sqarcities": [
         0.7805211735541231
       ],
       "usage": "22"
@@ -132823,7 +138205,10 @@ PARCELS = {
       ],
       "id": "18-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        76.9761046496663
+      ],
+      "sqarcities": [
         0.36800119384026686
       ],
       "usage": "19"
@@ -132882,7 +138267,10 @@ PARCELS = {
       ],
       "id": "18-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.89202265080433
+      ],
+      "sqarcities": [
         0.6734560167897031
       ],
       "usage": "19"
@@ -132945,7 +138333,10 @@ PARCELS = {
       ],
       "id": "18-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        31.201127860258865
+      ],
+      "sqarcities": [
         0.592975053517536
       ],
       "usage": "19"
@@ -132992,7 +138383,10 @@ PARCELS = {
       ],
       "id": "18-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.627103256575595
+      ],
+      "sqarcities": [
         0.7478747333264022
       ],
       "usage": "19"
@@ -133047,7 +138441,10 @@ PARCELS = {
       ],
       "id": "18-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.42660028102466
+      ],
+      "sqarcities": [
         0.5814327310750449
       ],
       "usage": "19"
@@ -133102,7 +138499,10 @@ PARCELS = {
       ],
       "id": "18-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        55.01540607834397
+      ],
+      "sqarcities": [
         0.6745216282305585
       ],
       "usage": "19"
@@ -133157,7 +138557,10 @@ PARCELS = {
       ],
       "id": "18-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.38828483513828
+      ],
+      "sqarcities": [
         0.6577647026280906
       ],
       "usage": "19"
@@ -133208,7 +138611,10 @@ PARCELS = {
       ],
       "id": "18-29-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -62.95625750264281
+      ],
+      "sqarcities": [
         0.42047749156313635
       ],
       "usage": "22"
@@ -133263,7 +138669,10 @@ PARCELS = {
       ],
       "id": "18-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        54.32660869365313
+      ],
+      "sqarcities": [
         0.6503442238728282
       ],
       "usage": "11"
@@ -133310,7 +138719,10 @@ PARCELS = {
       ],
       "id": "20-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        66.54028119118655
+      ],
+      "sqarcities": [
         0.7834045138037498
       ],
       "usage": "22"
@@ -133381,7 +138793,10 @@ PARCELS = {
       ],
       "id": "18-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        53.918297154311944
+      ],
+      "sqarcities": [
         0.646857496919103
       ],
       "usage": "11"
@@ -133480,7 +138895,10 @@ PARCELS = {
       ],
       "id": "18-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.38710884803301
+      ],
+      "sqarcities": [
         0.6135702465424336
       ],
       "usage": "19"
@@ -133559,7 +138977,10 @@ PARCELS = {
       ],
       "id": "18-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -74.38710884803301
+      ],
+      "sqarcities": [
         0.5022567444418065
       ],
       "usage": "19"
@@ -133622,7 +139043,10 @@ PARCELS = {
       ],
       "id": "18-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.88373919336647
+      ],
+      "sqarcities": [
         0.6320007163300819
       ],
       "usage": "19"
@@ -133709,7 +139133,10 @@ PARCELS = {
       ],
       "id": "18-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        58.86638877255507
+      ],
+      "sqarcities": [
         0.47051186518827653
       ],
       "usage": "19"
@@ -133756,7 +139183,10 @@ PARCELS = {
       ],
       "id": "18-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.92180561687628
+      ],
+      "sqarcities": [
         0.7697738396917423
       ],
       "usage": "19"
@@ -133815,7 +139245,10 @@ PARCELS = {
       ],
       "id": "18-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.12453435104086
+      ],
+      "sqarcities": [
         0.6358220493130504
       ],
       "usage": "19"
@@ -133862,7 +139295,10 @@ PARCELS = {
       ],
       "id": "18-29-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.34315476161308
+      ],
+      "sqarcities": [
         0.7169950305001868
       ],
       "usage": "11"
@@ -133925,7 +139361,10 @@ PARCELS = {
       ],
       "id": "18-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.00067841131445
+      ],
+      "sqarcities": [
         0.5810671831703287
       ],
       "usage": "19"
@@ -134004,7 +139443,10 @@ PARCELS = {
       ],
       "id": "18-35",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.886624955503748
+      ],
+      "sqarcities": [
         0.3006780896082645
       ],
       "usage": "17"
@@ -134055,7 +139497,10 @@ PARCELS = {
       ],
       "id": "18-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.00067841131445
+      ],
+      "sqarcities": [
         0.47898296577633204
       ],
       "usage": "19"
@@ -134110,7 +139555,10 @@ PARCELS = {
       ],
       "id": "19-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.49099491821427
+      ],
+      "sqarcities": [
         0.42029895669849104
       ],
       "usage": "22"
@@ -134165,7 +139613,10 @@ PARCELS = {
       ],
       "id": "19-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.214179606731136
+      ],
+      "sqarcities": [
         0.5661688222189122
       ],
       "usage": "22"
@@ -134224,7 +139675,10 @@ PARCELS = {
       ],
       "id": "19-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.744027993953253
+      ],
+      "sqarcities": [
         0.608626519920152
       ],
       "usage": "22"
@@ -134291,7 +139745,10 @@ PARCELS = {
       ],
       "id": "19-10",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.112936156608939
+      ],
+      "sqarcities": [
         0.5820061326944536
       ],
       "usage": "22"
@@ -134406,7 +139863,10 @@ PARCELS = {
       ],
       "id": "19-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.648514132509419
+      ],
+      "sqarcities": [
         0.7791943854421762
       ],
       "usage": "19"
@@ -134469,7 +139929,10 @@ PARCELS = {
       ],
       "id": "19-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8864792615241583
+      ],
+      "sqarcities": [
         0.47572155192795557
       ],
       "usage": "22"
@@ -134528,7 +139991,10 @@ PARCELS = {
       ],
       "id": "19-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.571918801248117
+      ],
+      "sqarcities": [
         0.3818039046524787
       ],
       "usage": "22"
@@ -134587,7 +140053,10 @@ PARCELS = {
       ],
       "id": "19-13",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8285662153615476
+      ],
+      "sqarcities": [
         0.3652102567774159
       ],
       "usage": "22"
@@ -134646,7 +140115,10 @@ PARCELS = {
       ],
       "id": "19-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8336430168945554
+      ],
+      "sqarcities": [
         0.3715290782973845
       ],
       "usage": "22"
@@ -134693,7 +140165,10 @@ PARCELS = {
       ],
       "id": "19-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.883648348666455
+      ],
+      "sqarcities": [
         0.37084864531400324
       ],
       "usage": "22"
@@ -134748,7 +140223,10 @@ PARCELS = {
       ],
       "id": "19-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8550400191562773
+      ],
+      "sqarcities": [
         0.3874828270794942
       ],
       "usage": "22"
@@ -134803,7 +140281,10 @@ PARCELS = {
       ],
       "id": "19-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.8560099659792684
+      ],
+      "sqarcities": [
         0.39771183413573274
       ],
       "usage": "22"
@@ -134862,7 +140343,10 @@ PARCELS = {
       ],
       "id": "19-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.7461907015721465
+      ],
+      "sqarcities": [
         0.31151247943703275
       ],
       "usage": "19"
@@ -134921,7 +140405,10 @@ PARCELS = {
       ],
       "id": "20-7",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.09466778319704
+      ],
+      "sqarcities": [
         0.7225084145138952
       ],
       "usage": "22"
@@ -134996,7 +140483,10 @@ PARCELS = {
       ],
       "id": "19-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.907455202173267
+      ],
+      "sqarcities": [
         0.25227216236319017
       ],
       "usage": "22"
@@ -135143,7 +140633,10 @@ PARCELS = {
       ],
       "id": "19-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.567655630448499
+      ],
+      "sqarcities": [
         0.476958694978589
       ],
       "usage": "19"
@@ -135222,7 +140715,10 @@ PARCELS = {
       ],
       "id": "19-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.25544894642061
+      ],
+      "sqarcities": [
         0.7552633271132558
       ],
       "usage": "19"
@@ -135265,7 +140761,10 @@ PARCELS = {
       ],
       "id": "19-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.68114013483651
+      ],
+      "sqarcities": [
         0.7671796539647946
       ],
       "usage": "19"
@@ -135308,7 +140807,10 @@ PARCELS = {
       ],
       "id": "19-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        69.66991147814795
+      ],
+      "sqarcities": [
         0.7662292139519531
       ],
       "usage": "19"
@@ -135367,7 +140869,10 @@ PARCELS = {
       ],
       "id": "19-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        68.27013620141358
+      ],
+      "sqarcities": [
         0.5039470086545859
       ],
       "usage": "19"
@@ -135422,7 +140927,10 @@ PARCELS = {
       ],
       "id": "20-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.442361723364101
+      ],
+      "sqarcities": [
         0.7988246673415821
       ],
       "usage": "19"
@@ -135536,7 +141044,11 @@ PARCELS = {
       ],
       "id": "20-9",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.619552865374303,
+        -29.014123170298113
+      ],
+      "sqarcities": [
         0.2834122284160006,
         0.34019541920275603
       ],
@@ -135692,7 +141204,10 @@ PARCELS = {
       ],
       "id": "19-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.567655630448499
+      ],
+      "sqarcities": [
         0.5995936001636638
       ],
       "usage": "19"
@@ -135735,7 +141250,10 @@ PARCELS = {
       ],
       "id": "19-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.7436402671313687
+      ],
+      "sqarcities": [
         0.6372817449449881
       ],
       "usage": "19"
@@ -135778,7 +141296,10 @@ PARCELS = {
       ],
       "id": "19-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.36680326372256
+      ],
+      "sqarcities": [
         0.7662514799382504
       ],
       "usage": "22"
@@ -135841,7 +141362,10 @@ PARCELS = {
       ],
       "id": "20-1",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.79147108959855
+      ],
+      "sqarcities": [
         0.7801816941030288
       ],
       "usage": "11"
@@ -135948,7 +141472,10 @@ PARCELS = {
       ],
       "id": "20-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -71.96005997132622
+      ],
+      "sqarcities": [
         0.3463760220716653
       ],
       "usage": "22"
@@ -135999,7 +141526,10 @@ PARCELS = {
       ],
       "id": "20-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.43989775543989
+      ],
+      "sqarcities": [
         0.66985647843613
       ],
       "usage": "11"
@@ -136050,7 +141580,10 @@ PARCELS = {
       ],
       "id": "20-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.47387678614689
+      ],
+      "sqarcities": [
         0.666102570271504
       ],
       "usage": "22"
@@ -136113,7 +141646,10 @@ PARCELS = {
       ],
       "id": "20-6",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        10.76888813596149
+      ],
+      "sqarcities": [
         0.7964143267560344
       ],
       "usage": "19"
@@ -136160,7 +141696,10 @@ PARCELS = {
       ],
       "id": "20-12",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.919971128775757
+      ],
+      "sqarcities": [
         0.7632223557991145
       ],
       "usage": "11"
@@ -136223,7 +141762,10 @@ PARCELS = {
       ],
       "id": "20-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.65562458071345
+      ],
+      "sqarcities": [
         0.7168844076633186
       ],
       "usage": "19"
@@ -136270,7 +141812,10 @@ PARCELS = {
       ],
       "id": "20-15",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.88413381029119
+      ],
+      "sqarcities": [
         0.6377594440689148
       ],
       "usage": "22"
@@ -136325,7 +141870,10 @@ PARCELS = {
       ],
       "id": "20-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        61.91509923263848
+      ],
+      "sqarcities": [
         0.3500314114626783
       ],
       "usage": "22"
@@ -136368,7 +141916,10 @@ PARCELS = {
       ],
       "id": "20-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.652728898439108
+      ],
+      "sqarcities": [
         0.7203093021588818
       ],
       "usage": "19"
@@ -136419,7 +141970,10 @@ PARCELS = {
       ],
       "id": "20-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        70.53020073167932
+      ],
+      "sqarcities": [
         0.6399049188152051
       ],
       "usage": "19"
@@ -136486,7 +142040,10 @@ PARCELS = {
       ],
       "id": "20-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.84005330858325
+      ],
+      "sqarcities": [
         0.3619208435439807
       ],
       "usage": "22"
@@ -136541,7 +142098,10 @@ PARCELS = {
       ],
       "id": "20-21",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -12.45485381744514
+      ],
+      "sqarcities": [
         0.6331510327976619
       ],
       "usage": "19"
@@ -136620,7 +142180,10 @@ PARCELS = {
       ],
       "id": "20-22",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.450968824534584
+      ],
+      "sqarcities": [
         0.1872882114700242
       ],
       "usage": "22"
@@ -136667,7 +142230,10 @@ PARCELS = {
       ],
       "id": "20-23",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -43.65399294013504
+      ],
+      "sqarcities": [
         0.5342719007943366
       ],
       "usage": "19"
@@ -136710,7 +142276,10 @@ PARCELS = {
       ],
       "id": "20-24",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.367849468867732
+      ],
+      "sqarcities": [
         0.45296315003855075
       ],
       "usage": "19"
@@ -136765,7 +142334,10 @@ PARCELS = {
       ],
       "id": "20-25",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.367849468867732
+      ],
+      "sqarcities": [
         0.6085188702638084
       ],
       "usage": "19"
@@ -136816,7 +142388,10 @@ PARCELS = {
       ],
       "id": "20-26",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.4509776315081
+      ],
+      "sqarcities": [
         0.6354008498255129
       ],
       "usage": "22"
@@ -136859,7 +142434,10 @@ PARCELS = {
       ],
       "id": "20-27",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.11312694191075
+      ],
+      "sqarcities": [
         0.7345845704831223
       ],
       "usage": "22"
@@ -136930,7 +142508,10 @@ PARCELS = {
       ],
       "id": "20-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        74.08751878874429
+      ],
+      "sqarcities": [
         0.565484080851447
       ],
       "usage": "19"
@@ -136985,7 +142566,10 @@ PARCELS = {
       ],
       "id": "20-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.992407095301516
+      ],
+      "sqarcities": [
         0.7831344439214976
       ],
       "usage": "22"
@@ -137032,7 +142616,10 @@ PARCELS = {
       ],
       "id": "20-30",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.9998616509412
+      ],
+      "sqarcities": [
         0.6464665335334937
       ],
       "usage": "22"
@@ -137075,7 +142662,10 @@ PARCELS = {
       ],
       "id": "20-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.311686067992127
+      ],
+      "sqarcities": [
         0.6922499766076622
       ],
       "usage": "19"
@@ -137126,7 +142716,10 @@ PARCELS = {
       ],
       "id": "20-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.617535328132874
+      ],
+      "sqarcities": [
         0.6366673865969077
       ],
       "usage": "22"
@@ -137169,7 +142762,10 @@ PARCELS = {
       ],
       "id": "20-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -16.38384030660822
+      ],
+      "sqarcities": [
         0.6373959550175728
       ],
       "usage": "22"
@@ -137212,7 +142808,10 @@ PARCELS = {
       ],
       "id": "20-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -15.900004517395985
+      ],
+      "sqarcities": [
         0.6609892954950625
       ],
       "usage": "22"
@@ -137275,7 +142874,10 @@ PARCELS = {
       ],
       "id": "20-39",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        77.4698861749105
+      ],
+      "sqarcities": [
         0.516070625053824
       ],
       "usage": "19"
@@ -137322,7 +142924,10 @@ PARCELS = {
       ],
       "id": "20-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.38848729734994
+      ],
+      "sqarcities": [
         0.7826466023269387
       ],
       "usage": "19"
@@ -137389,7 +142994,10 @@ PARCELS = {
       ],
       "id": "20-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.309998076604337
+      ],
+      "sqarcities": [
         0.40232871945967
       ],
       "usage": "11"
@@ -137520,7 +143128,10 @@ PARCELS = {
       ],
       "id": "20-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.140718443528826
+      ],
+      "sqarcities": [
         0.5683358106896211
       ],
       "usage": "11"
@@ -137587,7 +143198,10 @@ PARCELS = {
       ],
       "id": "20-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -20.44084818929646
+      ],
+      "sqarcities": [
         0.5981786980464938
       ],
       "usage": "22"
@@ -137686,7 +143300,10 @@ PARCELS = {
       ],
       "id": "20-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.99040966339231
+      ],
+      "sqarcities": [
         0.7268521770892099
       ],
       "usage": "22"
@@ -137793,7 +143410,10 @@ PARCELS = {
       ],
       "id": "20-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -86.99040966339231
+      ],
+      "sqarcities": [
         0.5997674462584136
       ],
       "usage": "22"
@@ -137868,7 +143488,10 @@ PARCELS = {
       ],
       "id": "20-51",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.10827619041805
+      ],
+      "sqarcities": [
         0.6909356870920569
       ],
       "usage": "11"
@@ -137939,7 +143562,10 @@ PARCELS = {
       ],
       "id": "20-53",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.09112821004304
+      ],
+      "sqarcities": [
         0.683400412582258
       ],
       "usage": "19"
@@ -138018,7 +143644,10 @@ PARCELS = {
       ],
       "id": "20-54",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.5581926421500754
+      ],
+      "sqarcities": [
         0.4539636915334209
       ],
       "usage": "11"
@@ -138073,7 +143702,10 @@ PARCELS = {
       ],
       "id": "20-55",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.07169280971128
+      ],
+      "sqarcities": [
         0.6683453822232917
       ],
       "usage": "19"
@@ -138124,7 +143756,10 @@ PARCELS = {
       ],
       "id": "20-56",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.51985951424338
+      ],
+      "sqarcities": [
         0.6530186147289864
       ],
       "usage": "11"
@@ -138167,7 +143802,10 @@ PARCELS = {
       ],
       "id": "20-57",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.51985951424338
+      ],
+      "sqarcities": [
         0.580954193636655
       ],
       "usage": "11"
@@ -138234,7 +143872,10 @@ PARCELS = {
       ],
       "id": "20-58",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.63578568791417
+      ],
+      "sqarcities": [
         0.5571605475558025
       ],
       "usage": "19"
@@ -138297,7 +143938,10 @@ PARCELS = {
       ],
       "id": "20-59",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -66.34571200869482
+      ],
+      "sqarcities": [
         0.5255743531028769
       ],
       "usage": "22"
@@ -138352,7 +143996,10 @@ PARCELS = {
       ],
       "id": "20-78",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.49486294111084
+      ],
+      "sqarcities": [
         0.6233707621796649
       ],
       "usage": "22"
@@ -138439,7 +144086,10 @@ PARCELS = {
       ],
       "id": "20-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.19351113207492
+      ],
+      "sqarcities": [
         0.6325928683038118
       ],
       "usage": "11"
@@ -138498,7 +144148,10 @@ PARCELS = {
       ],
       "id": "20-61",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.19351113207492
+      ],
+      "sqarcities": [
         0.4871237222089799
       ],
       "usage": "22"
@@ -138541,7 +144194,10 @@ PARCELS = {
       ],
       "id": "20-62",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.47854124289842
+      ],
+      "sqarcities": [
         0.6615610221562409
       ],
       "usage": "22"
@@ -138592,7 +144248,10 @@ PARCELS = {
       ],
       "id": "20-63",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.47854124289842
+      ],
+      "sqarcities": [
         0.5829939017814191
       ],
       "usage": "22"
@@ -138663,7 +144322,10 @@ PARCELS = {
       ],
       "id": "20-65",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.068249305879519
+      ],
+      "sqarcities": [
         0.648604247200908
       ],
       "usage": "11"
@@ -138714,7 +144376,10 @@ PARCELS = {
       ],
       "id": "20-103",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.380492621488443
+      ],
+      "sqarcities": [
         0.4967973077142935
       ],
       "usage": "22"
@@ -138821,7 +144486,10 @@ PARCELS = {
       ],
       "id": "20-66",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        7.068249305879519
+      ],
+      "sqarcities": [
         0.6367031055475654
       ],
       "usage": "11"
@@ -138892,7 +144560,10 @@ PARCELS = {
       ],
       "id": "20-67",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.49486294111084
+      ],
+      "sqarcities": [
         0.6797785416496374
       ],
       "usage": "11"
@@ -138975,7 +144646,10 @@ PARCELS = {
       ],
       "id": "20-68",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.734225582392966
+      ],
+      "sqarcities": [
         0.6682832101902889
       ],
       "usage": "22"
@@ -139050,7 +144724,10 @@ PARCELS = {
       ],
       "id": "20-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        14.734225582392966
+      ],
+      "sqarcities": [
         0.7906553378964125
       ],
       "usage": "11"
@@ -139133,7 +144810,10 @@ PARCELS = {
       ],
       "id": "20-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.7446873199437
+      ],
+      "sqarcities": [
         0.7398875312794614
       ],
       "usage": "22"
@@ -139216,7 +144896,10 @@ PARCELS = {
       ],
       "id": "20-71",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.7446873199437
+      ],
+      "sqarcities": [
         0.6264501286307936
       ],
       "usage": "22"
@@ -139275,7 +144958,10 @@ PARCELS = {
       ],
       "id": "20-72",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.1381705030401
+      ],
+      "sqarcities": [
         0.6308920354952744
       ],
       "usage": "22"
@@ -139386,7 +145072,10 @@ PARCELS = {
       ],
       "id": "20-74",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        42.299748258713294
+      ],
+      "sqarcities": [
         0.4196138211510759
       ],
       "usage": "19"
@@ -139465,7 +145154,10 @@ PARCELS = {
       ],
       "id": "20-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.75300327724281
+      ],
+      "sqarcities": [
         0.6794773783537333
       ],
       "usage": "22"
@@ -139532,7 +145224,10 @@ PARCELS = {
       ],
       "id": "20-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.75300327724281
+      ],
+      "sqarcities": [
         0.7882060446630245
       ],
       "usage": "22"
@@ -139595,7 +145290,10 @@ PARCELS = {
       ],
       "id": "20-77",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.109685448910241
+      ],
+      "sqarcities": [
         0.8126145734695696
       ],
       "usage": "22"
@@ -139658,7 +145356,10 @@ PARCELS = {
       ],
       "id": "20-79",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.8664533875205
+      ],
+      "sqarcities": [
         0.7533465032274247
       ],
       "usage": "22"
@@ -139729,7 +145430,10 @@ PARCELS = {
       ],
       "id": "20-80",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.688229616912253
+      ],
+      "sqarcities": [
         0.7019145353122505
       ],
       "usage": "19"
@@ -139804,7 +145508,10 @@ PARCELS = {
       ],
       "id": "20-81",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.9990127808874405
+      ],
+      "sqarcities": [
         0.690026628303375
       ],
       "usage": "22"
@@ -139875,7 +145582,10 @@ PARCELS = {
       ],
       "id": "20-82",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.21166720095043
+      ],
+      "sqarcities": [
         0.5180592768132709
       ],
       "usage": "19"
@@ -139950,7 +145660,10 @@ PARCELS = {
       ],
       "id": "20-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.296660922504643
+      ],
+      "sqarcities": [
         0.5551968601848608
       ],
       "usage": "11"
@@ -140025,7 +145738,10 @@ PARCELS = {
       ],
       "id": "20-84",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.198314316737807
+      ],
+      "sqarcities": [
         0.5334212472158569
       ],
       "usage": "11"
@@ -140092,7 +145808,10 @@ PARCELS = {
       ],
       "id": "20-85",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.198314316737807
+      ],
+      "sqarcities": [
         0.5605098234388669
       ],
       "usage": "22"
@@ -140155,7 +145874,10 @@ PARCELS = {
       ],
       "id": "20-86",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.793570973354079
+      ],
+      "sqarcities": [
         0.6675955366419893
       ],
       "usage": "11"
@@ -140246,7 +145968,10 @@ PARCELS = {
       ],
       "id": "20-88",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        23.582286930748637
+      ],
+      "sqarcities": [
         0.7292427524325851
       ],
       "usage": "22"
@@ -140313,7 +146038,10 @@ PARCELS = {
       ],
       "id": "20-89",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.88479447273313
+      ],
+      "sqarcities": [
         0.6423062149656025
       ],
       "usage": "11"
@@ -140376,7 +146104,10 @@ PARCELS = {
       ],
       "id": "20-111",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -77.991513843736
+      ],
+      "sqarcities": [
         0.7511125145018407
       ],
       "usage": "11"
@@ -140575,7 +146306,10 @@ PARCELS = {
       ],
       "id": "20-90",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.88479447273313
+      ],
+      "sqarcities": [
         0.3772956096537365
       ],
       "usage": "22"
@@ -140642,7 +146376,10 @@ PARCELS = {
       ],
       "id": "20-91",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.801623622784987
+      ],
+      "sqarcities": [
         0.6827071430447983
       ],
       "usage": "11"
@@ -140737,7 +146474,10 @@ PARCELS = {
       ],
       "id": "20-92",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.801623622784987
+      ],
+      "sqarcities": [
         0.4330155900576096
       ],
       "usage": "19"
@@ -140780,7 +146520,10 @@ PARCELS = {
       ],
       "id": "20-95",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.692448415499186
+      ],
+      "sqarcities": [
         0.6154718484978341
       ],
       "usage": "22"
@@ -140823,7 +146566,10 @@ PARCELS = {
       ],
       "id": "20-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -27.884858681528364
+      ],
+      "sqarcities": [
         0.7174633566734102
       ],
       "usage": "17"
@@ -140870,7 +146616,10 @@ PARCELS = {
       ],
       "id": "20-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -28.715820805553363
+      ],
+      "sqarcities": [
         0.504580288156985
       ],
       "usage": "19"
@@ -140921,7 +146670,10 @@ PARCELS = {
       ],
       "id": "20-99",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        73.9589136749315
+      ],
+      "sqarcities": [
         0.7311219574779129
       ],
       "usage": "19"
@@ -140988,7 +146740,10 @@ PARCELS = {
       ],
       "id": "20-100",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -23.81558803226092
+      ],
+      "sqarcities": [
         0.4924504694615686
       ],
       "usage": "22"
@@ -141031,7 +146786,10 @@ PARCELS = {
       ],
       "id": "20-101",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.286079417216982
+      ],
+      "sqarcities": [
         0.7012668474986107
       ],
       "usage": "27"
@@ -141078,7 +146836,10 @@ PARCELS = {
       ],
       "id": "20-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.767118617071134
+      ],
+      "sqarcities": [
         0.5855022187581413
       ],
       "usage": "22"
@@ -141133,7 +146894,10 @@ PARCELS = {
       ],
       "id": "20-104",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -31.380492621488443
+      ],
+      "sqarcities": [
         0.5976702358899633
       ],
       "usage": "19"
@@ -141180,7 +146944,10 @@ PARCELS = {
       ],
       "id": "20-106",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        63.638592165325605
+      ],
+      "sqarcities": [
         0.7328720090108931
       ],
       "usage": "22"
@@ -141247,7 +147014,10 @@ PARCELS = {
       ],
       "id": "20-108",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.331429576523718
+      ],
+      "sqarcities": [
         0.601236231434183
       ],
       "usage": "19"
@@ -141286,7 +147056,10 @@ PARCELS = {
       ],
       "id": "20-109",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.30088184037944643
+      ],
+      "sqarcities": [
         0.59962704645497
       ],
       "usage": "11"
@@ -141337,7 +147110,10 @@ PARCELS = {
       ],
       "id": "20-110",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.0777775919422936
+      ],
+      "sqarcities": [
         0.7476322663394518
       ],
       "usage": "22"
@@ -141496,7 +147272,10 @@ PARCELS = {
       ],
       "id": "20-113",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        38.25772140095603
+      ],
+      "sqarcities": [
         0.4751620011088259
       ],
       "usage": "19"
@@ -141599,7 +147378,10 @@ PARCELS = {
       ],
       "id": "20-114",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.961235658542378
+      ],
+      "sqarcities": [
         0.7334854944135937
       ],
       "usage": "22"
@@ -141654,7 +147436,10 @@ PARCELS = {
       ],
       "id": "20-115",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        84.1605901350946
+      ],
+      "sqarcities": [
         0.7253852072559945
       ],
       "usage": "22"
@@ -141785,7 +147570,10 @@ PARCELS = {
       ],
       "id": "20-117",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.44021012949733
+      ],
+      "sqarcities": [
         0.7285121971444206
       ],
       "usage": "22"
@@ -141904,7 +147692,10 @@ PARCELS = {
       ],
       "id": "20-118",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        67.44021012949733
+      ],
+      "sqarcities": [
         0.6497357238507169
       ],
       "usage": "22"
@@ -142039,7 +147830,10 @@ PARCELS = {
       ],
       "id": "20-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.46645756113733
+      ],
+      "sqarcities": [
         0.21938549927765313
       ],
       "usage": "11"
@@ -142162,7 +147956,10 @@ PARCELS = {
       ],
       "id": "20-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -65.46645756113733
+      ],
+      "sqarcities": [
         0.3191909054233763
       ],
       "usage": "11"
@@ -142221,7 +148018,10 @@ PARCELS = {
       ],
       "id": "20-127",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.10765142309492
+      ],
+      "sqarcities": [
         0.5475990920570825
       ],
       "usage": "22"
@@ -142264,7 +148064,10 @@ PARCELS = {
       ],
       "id": "25-18",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -1.4007665774535951
+      ],
+      "sqarcities": [
         0.7870095392004733
       ],
       "usage": "22"
@@ -142311,7 +148114,10 @@ PARCELS = {
       ],
       "id": "24-44",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        17.4256670734286
+      ],
+      "sqarcities": [
         0.6983223434144418
       ],
       "usage": "22"
@@ -142662,7 +148468,10 @@ PARCELS = {
       ],
       "id": "20-121-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -22.219202663011103
+      ],
+      "sqarcities": [
         0.30794941105177387
       ],
       "usage": "27"
@@ -142745,7 +148554,10 @@ PARCELS = {
       ],
       "id": "20-121-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.553462944887954
+      ],
+      "sqarcities": [
         0.4458629960776266
       ],
       "usage": "11"
@@ -142808,7 +148620,10 @@ PARCELS = {
       ],
       "id": "20-121-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -34.139241070341555
+      ],
+      "sqarcities": [
         0.505998949600776
       ],
       "usage": "11"
@@ -142963,7 +148778,10 @@ PARCELS = {
       ],
       "id": "20-121-05",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -9.91984988638319
+      ],
+      "sqarcities": [
         0.35354979006680043
       ],
       "usage": "11"
@@ -143018,7 +148836,10 @@ PARCELS = {
       ],
       "id": "20-155",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.47557921903973
+      ],
+      "sqarcities": [
         0.6537515259411532
       ],
       "usage": "19"
@@ -143097,7 +148918,10 @@ PARCELS = {
       ],
       "id": "20-123",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.614444362801578
+      ],
+      "sqarcities": [
         0.25379292459050284
       ],
       "usage": "19"
@@ -143172,7 +148996,10 @@ PARCELS = {
       ],
       "id": "20-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.71093961318999
+      ],
+      "sqarcities": [
         0.6719058818554526
       ],
       "usage": "11"
@@ -143239,7 +149066,10 @@ PARCELS = {
       ],
       "id": "20-130",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        60.71093961318999
+      ],
+      "sqarcities": [
         0.5422062395948172
       ],
       "usage": "19"
@@ -143302,7 +149132,10 @@ PARCELS = {
       ],
       "id": "20-131",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        62.13615389741443
+      ],
+      "sqarcities": [
         0.6647684654378564
       ],
       "usage": "22"
@@ -143353,7 +149186,10 @@ PARCELS = {
       ],
       "id": "20-133",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        2.0777775919422936
+      ],
+      "sqarcities": [
         0.6117764502061925
       ],
       "usage": "19"
@@ -143476,7 +149312,10 @@ PARCELS = {
       ],
       "id": "20-156",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.47557921903973
+      ],
+      "sqarcities": [
         0.42552969117286843
       ],
       "usage": "19"
@@ -143555,7 +149394,10 @@ PARCELS = {
       ],
       "id": "20-151",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.229650270297483
+      ],
+      "sqarcities": [
         0.29303664649603417
       ],
       "usage": "19"
@@ -143594,7 +149436,10 @@ PARCELS = {
       ],
       "id": "24-45",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -14.912323777823687
+      ],
+      "sqarcities": [
         0.4953840811050514
       ],
       "usage": "22"
@@ -143833,7 +149678,10 @@ PARCELS = {
       ],
       "id": "20-144",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.501172693709933
+      ],
+      "sqarcities": [
         0.24093738451090443
       ],
       "usage": "11"
@@ -143980,7 +149828,10 @@ PARCELS = {
       ],
       "id": "20-145",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -18.501172693709933
+      ],
+      "sqarcities": [
         0.26037993973279233
       ],
       "usage": "11"
@@ -144131,7 +149982,10 @@ PARCELS = {
       ],
       "id": "20-146",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -70.81847482264081
+      ],
+      "sqarcities": [
         0.48098554850694586
       ],
       "usage": "19"
@@ -144214,7 +150068,10 @@ PARCELS = {
       ],
       "id": "20-147",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        56.84428714405098
+      ],
+      "sqarcities": [
         0.582943001976712
       ],
       "usage": "11"
@@ -144285,7 +150142,10 @@ PARCELS = {
       ],
       "id": "20-148",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        39.78571010341966
+      ],
+      "sqarcities": [
         0.6978427017918772
       ],
       "usage": "11"
@@ -144340,7 +150200,10 @@ PARCELS = {
       ],
       "id": "20-152",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.72773866163638
+      ],
+      "sqarcities": [
         0.726459077075614
       ],
       "usage": "22"
@@ -144431,7 +150294,10 @@ PARCELS = {
       ],
       "id": "20-153",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -52.730394321602866
+      ],
+      "sqarcities": [
         0.5139798748330182
       ],
       "usage": "19"
@@ -144526,7 +150392,10 @@ PARCELS = {
       ],
       "id": "20-154",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        19.229650270297483
+      ],
+      "sqarcities": [
         0.2647155164204117
       ],
       "usage": "19"
@@ -144589,7 +150458,10 @@ PARCELS = {
       ],
       "id": "20-157",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.79759068934292
+      ],
+      "sqarcities": [
         0.6416614518238557
       ],
       "usage": "11"
@@ -144664,7 +150536,10 @@ PARCELS = {
       ],
       "id": "20-158",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.11773722531098
+      ],
+      "sqarcities": [
         0.5304888139746385
       ],
       "usage": "11"
@@ -144731,7 +150606,10 @@ PARCELS = {
       ],
       "id": "20-159",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        81.30132262495843
+      ],
+      "sqarcities": [
         0.6186571912522635
       ],
       "usage": "27"
@@ -144778,7 +150656,10 @@ PARCELS = {
       ],
       "id": "20-160",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        5.174449386587199
+      ],
+      "sqarcities": [
         0.7092741269715136
       ],
       "usage": "19"
@@ -144845,7 +150726,10 @@ PARCELS = {
       ],
       "id": "20-161",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.94995693934152
+      ],
+      "sqarcities": [
         0.78256605772182
       ],
       "usage": "11"
@@ -144904,7 +150788,10 @@ PARCELS = {
       ],
       "id": "20-181",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.93793145756537
+      ],
+      "sqarcities": [
         0.31110941616416454
       ],
       "usage": "22"
@@ -145007,7 +150894,10 @@ PARCELS = {
       ],
       "id": "20-162",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        3.9626956441685195
+      ],
+      "sqarcities": [
         0.622730275973299
       ],
       "usage": "19"
@@ -145086,7 +150976,10 @@ PARCELS = {
       ],
       "id": "20-163",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -5.953323459528278
+      ],
+      "sqarcities": [
         0.4229507294539384
       ],
       "usage": "22"
@@ -145145,7 +151038,10 @@ PARCELS = {
       ],
       "id": "20-164",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -21.740276012816295
+      ],
+      "sqarcities": [
         0.6999896780423182
       ],
       "usage": "22"
@@ -145196,7 +151092,10 @@ PARCELS = {
       ],
       "id": "20-166",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        52.940915922692426
+      ],
+      "sqarcities": [
         0.5373516994100017
       ],
       "usage": "11"
@@ -145243,7 +151142,10 @@ PARCELS = {
       ],
       "id": "20-167",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -13.617535328132874
+      ],
+      "sqarcities": [
         0.6560961403647939
       ],
       "usage": "17"
@@ -145306,7 +151208,10 @@ PARCELS = {
       ],
       "id": "20-168",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.379525191824754
+      ],
+      "sqarcities": [
         0.49146334889196047
       ],
       "usage": "22"
@@ -145425,7 +151330,10 @@ PARCELS = {
       ],
       "id": "20-176",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.174309572146186
+      ],
+      "sqarcities": [
         0.5653598624674715
       ],
       "usage": "22"
@@ -145480,7 +151388,10 @@ PARCELS = {
       ],
       "id": "20-180",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.376001452774048
+      ],
+      "sqarcities": [
         0.5010121010180425
       ],
       "usage": "22"
@@ -145543,7 +151454,10 @@ PARCELS = {
       ],
       "id": "20-182",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        11.93793145756537
+      ],
+      "sqarcities": [
         0.29996392917994236
       ],
       "usage": "22"
@@ -145602,7 +151516,10 @@ PARCELS = {
       ],
       "id": "20-187",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.2771340564839164
+      ],
+      "sqarcities": [
         0.3020839056146596
       ],
       "usage": "22"
@@ -145657,7 +151574,10 @@ PARCELS = {
       ],
       "id": "20-188",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.384667056196932
+      ],
+      "sqarcities": [
         0.6586664261529016
       ],
       "usage": "22"
@@ -145700,7 +151620,10 @@ PARCELS = {
       ],
       "id": "20-189",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.36974182654389
+      ],
+      "sqarcities": [
         0.7548966437807636
       ],
       "usage": "22"
@@ -145771,7 +151694,10 @@ PARCELS = {
       ],
       "id": "20-190",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.4038888794130884
+      ],
+      "sqarcities": [
         0.5271682222085982
       ],
       "usage": "22"
@@ -145826,7 +151752,10 @@ PARCELS = {
       ],
       "id": "20-191",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        79.50214751347013
+      ],
+      "sqarcities": [
         0.3035149718492292
       ],
       "usage": "11"
@@ -145881,7 +151810,10 @@ PARCELS = {
       ],
       "id": "20-192",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.55265634812918
+      ],
+      "sqarcities": [
         0.4371394730415347
       ],
       "usage": "22"
@@ -145936,7 +151868,10 @@ PARCELS = {
       ],
       "id": "21-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -56.52982597989584
+      ],
+      "sqarcities": [
         0.5175911514266184
       ],
       "usage": "22"
@@ -146035,7 +151970,10 @@ PARCELS = {
       ],
       "id": "21-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.92189056707315
+      ],
+      "sqarcities": [
         0.47947881316061475
       ],
       "usage": "19"
@@ -146094,7 +152032,10 @@ PARCELS = {
       ],
       "id": "21-3-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.01381360007974
+      ],
+      "sqarcities": [
         0.50937155527437
       ],
       "usage": "19"
@@ -146213,7 +152154,10 @@ PARCELS = {
       ],
       "id": "21-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.724412995554587
+      ],
+      "sqarcities": [
         0.5739569111442101
       ],
       "usage": "19"
@@ -146272,7 +152216,10 @@ PARCELS = {
       ],
       "id": "21-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -69.68931648621586
+      ],
+      "sqarcities": [
         0.7579062263168667
       ],
       "usage": "19"
@@ -146407,7 +152354,10 @@ PARCELS = {
       ],
       "id": "21-11",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -79.2806707031095
+      ],
+      "sqarcities": [
         0.7891557416580944
       ],
       "usage": "19"
@@ -146462,7 +152412,10 @@ PARCELS = {
       ],
       "id": "21-14",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -78.32178200258564
+      ],
+      "sqarcities": [
         0.7518217737731003
       ],
       "usage": "22"
@@ -146545,7 +152498,10 @@ PARCELS = {
       ],
       "id": "22-3",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        83.13257983831858
+      ],
+      "sqarcities": [
         0.5572166448695813
       ],
       "usage": "22"
@@ -146604,7 +152560,10 @@ PARCELS = {
       ],
       "id": "24-43",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -73.61266105300399
+      ],
+      "sqarcities": [
         0.30120764972521774
       ],
       "usage": "27"
@@ -146723,7 +152682,10 @@ PARCELS = {
       ],
       "id": "22-5",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        80.48976848018995
+      ],
+      "sqarcities": [
         0.5395144858665031
       ],
       "usage": "22"
@@ -146770,7 +152732,10 @@ PARCELS = {
       ],
       "id": "22-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        64.20584048347152
+      ],
+      "sqarcities": [
         0.7240982529487483
       ],
       "usage": "22"
@@ -146809,7 +152774,10 @@ PARCELS = {
       ],
       "id": "22-70",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        49.78534632310004
+      ],
+      "sqarcities": [
         0.3365666349580378
       ],
       "usage": "27"
@@ -146880,7 +152848,10 @@ PARCELS = {
       ],
       "id": "23-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        26.981377447400817
+      ],
+      "sqarcities": [
         0.4894026357080481
       ],
       "usage": "22"
@@ -146975,7 +152946,10 @@ PARCELS = {
       ],
       "id": "23-33",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -68.11345056153783
+      ],
+      "sqarcities": [
         0.4875508476842303
       ],
       "usage": "22"
@@ -147018,7 +152992,10 @@ PARCELS = {
       ],
       "id": "24-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.74978859693789
+      ],
+      "sqarcities": [
         0.6451026931730435
       ],
       "usage": "22"
@@ -147329,7 +153306,10 @@ PARCELS = {
       ],
       "id": "24-36",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.55565111632005
+      ],
+      "sqarcities": [
         0.31727865831593594
       ],
       "usage": "22"
@@ -147372,7 +153352,10 @@ PARCELS = {
       ],
       "id": "24-47",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -75.07517906365082
+      ],
+      "sqarcities": [
         0.6011910992621865
       ],
       "usage": "22"
@@ -147415,7 +153398,10 @@ PARCELS = {
       ],
       "id": "24-48",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.44925913020488
+      ],
+      "sqarcities": [
         0.5642210247809413
       ],
       "usage": "22"
@@ -147466,7 +153452,10 @@ PARCELS = {
       ],
       "id": "24-49",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        35.66002725574643
+      ],
+      "sqarcities": [
         0.4790576224588703
       ],
       "usage": "22"
@@ -147525,7 +153514,10 @@ PARCELS = {
       ],
       "id": "24-50",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.461983475070255
+      ],
+      "sqarcities": [
         0.5850218583599823
       ],
       "usage": "11"
@@ -147580,7 +153572,10 @@ PARCELS = {
       ],
       "id": "24-83",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        22.85576770400131
+      ],
+      "sqarcities": [
         0.7121242444285157
       ],
       "usage": "22"
@@ -147631,7 +153626,10 @@ PARCELS = {
       ],
       "id": "24-97",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -36.031860918681026
+      ],
+      "sqarcities": [
         0.6230548232974676
       ],
       "usage": "22"
@@ -147690,7 +153688,10 @@ PARCELS = {
       ],
       "id": "24-98",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.633431494148766
+      ],
+      "sqarcities": [
         0.46415421793394057
       ],
       "usage": "22"
@@ -147737,7 +153738,10 @@ PARCELS = {
       ],
       "id": "24-106",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -32.635811437015064
+      ],
+      "sqarcities": [
         0.6343801484524434
       ],
       "usage": "22"
@@ -147828,7 +153832,10 @@ PARCELS = {
       ],
       "id": "24-116",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        45.62378022354031
+      ],
+      "sqarcities": [
         0.7410523367199447
       ],
       "usage": "17"
@@ -147875,7 +153882,10 @@ PARCELS = {
       ],
       "id": "24-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -4.55152035575658
+      ],
+      "sqarcities": [
         0.7417016080673384
       ],
       "usage": "22"
@@ -147922,7 +153932,10 @@ PARCELS = {
       ],
       "id": "24-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -26.704187340191055
+      ],
+      "sqarcities": [
         0.36390541461215453
       ],
       "usage": "22"
@@ -147981,7 +153994,10 @@ PARCELS = {
       ],
       "id": "24-120-03",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -25.431768643325995
+      ],
+      "sqarcities": [
         0.5875165131178695
       ],
       "usage": "22"
@@ -148032,7 +154048,10 @@ PARCELS = {
       ],
       "id": "24-120-04",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.00820070489344
+      ],
+      "sqarcities": [
         0.714733417728528
       ],
       "usage": "22"
@@ -148075,7 +154094,10 @@ PARCELS = {
       ],
       "id": "24-122",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.92366292819601
+      ],
+      "sqarcities": [
         0.663717265551395
       ],
       "usage": "22"
@@ -148122,7 +154144,10 @@ PARCELS = {
       ],
       "id": "24-123",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.92366292819601
+      ],
+      "sqarcities": [
         0.6863264722727543
       ],
       "usage": "22"
@@ -148205,7 +154230,10 @@ PARCELS = {
       ],
       "id": "24-128",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -11.170054720125222
+      ],
+      "sqarcities": [
         0.6690772710417371
       ],
       "usage": "19"
@@ -148284,7 +154312,10 @@ PARCELS = {
       ],
       "id": "24-129",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        18.197644057576383
+      ],
+      "sqarcities": [
         0.6760545457201059
       ],
       "usage": "19"
@@ -148343,7 +154374,10 @@ PARCELS = {
       ],
       "id": "24-133",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.3986715457956
+      ],
+      "sqarcities": [
         0.8154186799612362
       ],
       "usage": "11"
@@ -148390,7 +154424,10 @@ PARCELS = {
       ],
       "id": "24-136",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        36.190206805727925
+      ],
+      "sqarcities": [
         0.7271395551582406
       ],
       "usage": "11"
@@ -148429,7 +154466,10 @@ PARCELS = {
       ],
       "id": "24-139",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -41.30068800745721
+      ],
+      "sqarcities": [
         0.4528483409786477
       ],
       "usage": "22"
@@ -148472,7 +154512,10 @@ PARCELS = {
       ],
       "id": "25-16",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.62756468673155
+      ],
+      "sqarcities": [
         0.5996306017032715
       ],
       "usage": "19"
@@ -148535,7 +154578,10 @@ PARCELS = {
       ],
       "id": "25-17",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.51448353102676
+      ],
+      "sqarcities": [
         0.6558141144158155
       ],
       "usage": "22"
@@ -148578,7 +154624,10 @@ PARCELS = {
       ],
       "id": "25-19",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -3.4745811414468335
+      ],
+      "sqarcities": [
         0.7863018176893821
       ],
       "usage": "22"
@@ -148625,7 +154674,10 @@ PARCELS = {
       ],
       "id": "25-20",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        86.5730369860344
+      ],
+      "sqarcities": [
         0.6527361631373163
       ],
       "usage": "19"
@@ -148672,7 +154724,10 @@ PARCELS = {
       ],
       "id": "25-28",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        42.040845077783274
+      ],
+      "sqarcities": [
         0.7035133884125795
       ],
       "usage": "22"
@@ -148715,7 +154770,10 @@ PARCELS = {
       ],
       "id": "25-29",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        50.27330942363909
+      ],
+      "sqarcities": [
         0.640269120176246
       ],
       "usage": "22"
@@ -148758,7 +154816,10 @@ PARCELS = {
       ],
       "id": "25-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -44.449370758255796
+      ],
+      "sqarcities": [
         0.7388002873301501
       ],
       "usage": "22"
@@ -148805,7 +154866,10 @@ PARCELS = {
       ],
       "id": "25-32",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        21.515502237720497
+      ],
+      "sqarcities": [
         0.768499930921009
       ],
       "usage": "22"
@@ -148856,7 +154920,10 @@ PARCELS = {
       ],
       "id": "25-69",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        40.34719527350833
+      ],
+      "sqarcities": [
         0.8055030223906199
       ],
       "usage": "22"
@@ -148903,7 +154970,10 @@ PARCELS = {
       ],
       "id": "25-75",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -46.60705433555123
+      ],
+      "sqarcities": [
         0.6146100634553119
       ],
       "usage": "22"
@@ -148946,7 +155016,10 @@ PARCELS = {
       ],
       "id": "25-76",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.89121614365381
+      ],
+      "sqarcities": [
         0.759776008338592
       ],
       "usage": "22"
@@ -149005,7 +155078,10 @@ PARCELS = {
       ],
       "id": "25-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.464719002480635
+      ],
+      "sqarcities": [
         0.7138154161539099
       ],
       "usage": "22"
@@ -149116,7 +155192,10 @@ PARCELS = {
       ],
       "id": "25-102",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        6.827215102307363
+      ],
+      "sqarcities": [
         0.5188402902910493
       ],
       "usage": "22"
@@ -149163,7 +155242,10 @@ PARCELS = {
       ],
       "id": "25-119",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -76.73726066445313
+      ],
+      "sqarcities": [
         0.6579996191179474
       ],
       "usage": "22"
@@ -149210,7 +155292,10 @@ PARCELS = {
       ],
       "id": "25-120",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        0.8392735927966726
+      ],
+      "sqarcities": [
         0.7005064600451408
       ],
       "usage": "22"
@@ -149261,7 +155346,10 @@ PARCELS = {
       ],
       "id": "20-96",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -30.692448415499186
+      ],
+      "sqarcities": [
         0.5779736282674321
       ],
       "usage": "19"
@@ -149316,7 +155404,10 @@ PARCELS = {
       ],
       "id": "5-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.78236254332512
+      ],
+      "sqarcities": [
         0.4480040371010463
       ],
       "usage": "100"
@@ -149354,7 +155445,12 @@ PARCELS = {
           }
         ]
       ],
-      "callouts": [],
+      "callouts": [
+        {
+          "lat": 43.147235760468575,
+          "lon": -72.15177192305977
+        }
+      ],
       "centers": [
         {
           "lat": 43.1467297524211,
@@ -149363,7 +155459,10 @@ PARCELS = {
       ],
       "id": "18-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -59.435348055790655
+      ],
+      "sqarcities": [
         0.5485221982168123
       ],
       "usage": "22"
@@ -149426,7 +155525,10 @@ PARCELS = {
       ],
       "id": "20-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -72.44039155514031
+      ],
+      "sqarcities": [
         0.5201766056673868
       ],
       "usage": "22"
@@ -149497,7 +155599,10 @@ PARCELS = {
       ],
       "id": "3-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -40.336789520989875
+      ],
+      "sqarcities": [
         0.6144033261350327
       ],
       "usage": "19"
@@ -149596,7 +155701,10 @@ PARCELS = {
       ],
       "id": "7-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -6.358028207990586
+      ],
+      "sqarcities": [
         0.48168651887554853
       ],
       "usage": "19"
@@ -149699,7 +155807,10 @@ PARCELS = {
       ],
       "id": "11-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -24.904411405122985
+      ],
+      "sqarcities": [
         0.5851259157978741
       ],
       "usage": "11"
@@ -149770,7 +155881,10 @@ PARCELS = {
       ],
       "id": "20-87",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -58.3898740996996
+      ],
+      "sqarcities": [
         0.3594504490509511
       ],
       "usage": "22"
@@ -149881,7 +155995,10 @@ PARCELS = {
       ],
       "id": "20-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -0.1526478678463974
+      ],
+      "sqarcities": [
         0.3632365529342795
       ],
       "usage": "22"
@@ -150016,7 +156133,10 @@ PARCELS = {
       ],
       "id": "11-42",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -19.967993099707755
+      ],
+      "sqarcities": [
         0.2723508421437507
       ],
       "usage": "11"
@@ -150063,7 +156183,10 @@ PARCELS = {
       ],
       "id": "20-107",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        88.59357650406173
+      ],
+      "sqarcities": [
         0.7608762991817937
       ],
       "usage": "22"
@@ -150406,7 +156529,10 @@ PARCELS = {
       ],
       "id": "3-4",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        85.09423230472143
+      ],
+      "sqarcities": [
         0.6247916445811557
       ],
       "usage": "19"
@@ -150957,7 +157083,10 @@ PARCELS = {
       ],
       "id": "5-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -40.336789520989875
+      ],
+      "sqarcities": [
         0.3863385287231424
       ],
       "usage": "100"
@@ -151064,7 +157193,10 @@ PARCELS = {
       ],
       "id": "6-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -17.285097951631272
+      ],
+      "sqarcities": [
         0.6223199805573646
       ],
       "usage": "19"
@@ -151159,7 +157291,10 @@ PARCELS = {
       ],
       "id": "7-2",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        75.1625670348551
+      ],
+      "sqarcities": [
         0.6252783815560232
       ],
       "usage": "19"
@@ -151218,7 +157353,10 @@ PARCELS = {
       ],
       "id": "11-46",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        82.64779210126645
+      ],
+      "sqarcities": [
         0.7437303975370786
       ],
       "usage": "22"
@@ -151345,7 +157483,10 @@ PARCELS = {
       ],
       "id": "15-60",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        47.5921069130944
+      ],
+      "sqarcities": [
         0.5379721363929623
       ],
       "usage": "11"
@@ -151400,7 +157541,10 @@ PARCELS = {
       ],
       "id": "16-77-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        9.984367237795865
+      ],
+      "sqarcities": [
         0.48319470124563035
       ],
       "usage": "19"
@@ -151503,7 +157647,10 @@ PARCELS = {
       ],
       "id": "16-77-01",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -67.9112685371067
+      ],
+      "sqarcities": [
         0.5608893352516479
       ],
       "usage": "19"
@@ -151553,7 +157700,12 @@ PARCELS = {
           }
         ]
       ],
-      "callouts": [],
+      "callouts": [
+        {
+          "lat": 43.147235760468575,
+          "lon": -72.15177192305977
+        }
+      ],
       "centers": [
         {
           "lat": 43.14683773210379,
@@ -151562,7 +157714,10 @@ PARCELS = {
       ],
       "id": "18-31",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -60.23640233535628
+      ],
+      "sqarcities": [
         0.2738086942530917
       ],
       "usage": "22"
@@ -151605,7 +157760,10 @@ PARCELS = {
       ],
       "id": "19-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        1.1403321936743112
+      ],
+      "sqarcities": [
         0.5505632150127943
       ],
       "usage": "19"
@@ -151652,7 +157810,10 @@ PARCELS = {
       ],
       "id": "19-34",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -83.94026120488098
+      ],
+      "sqarcities": [
         0.6779870724198578
       ],
       "usage": "19"
@@ -151719,7 +157880,10 @@ PARCELS = {
       ],
       "id": "20-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -7.3399105121182515
+      ],
+      "sqarcities": [
         0.6820875362058771
       ],
       "usage": "22"
@@ -151778,7 +157942,10 @@ PARCELS = {
       ],
       "id": "20-52",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -29.1381705030401
+      ],
+      "sqarcities": [
         0.7204083073978815
       ],
       "usage": "22"
@@ -151941,7 +158108,10 @@ PARCELS = {
       ],
       "id": "21-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        8.336193280592923
+      ],
+      "sqarcities": [
         0.4557659367775763
       ],
       "usage": "19"
@@ -152176,7 +158346,10 @@ PARCELS = {
       ],
       "id": "21-8",
       "labels": [],
-      "shapeIndices": [
+      "orientations": [
+        -53.10049178113232
+      ],
+      "sqarcities": [
         0.493673626948196
       ],
       "usage": "19"

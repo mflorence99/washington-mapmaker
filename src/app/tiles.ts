@@ -20,14 +20,13 @@ export function makeTileParams(params: TileParams): TileParams {
 }
 
 export interface TileParams {
-  alpha?: number;
   filter?: string;
   ix: number;
   iy: number;
   ready$?: Subject<ImageBitmap>;
   src: string;
   threshold?: number;
-  transparent?: number[];
+  transparencies?: number[][];
 }
 
 @Component({

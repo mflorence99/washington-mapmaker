@@ -15,9 +15,11 @@ import { Component } from '@angular/core';
   >
     <ng-container *ngFor="let lot of parcels.parcels.lots">
       <ng-container *ngFor="let boundary of lot.boundaries">
-        <g><path class="black" [attr.d]="path(boundary)" /></g>
+        <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
+          <path class="black" [attr.d]="path(boundary)" />
+        </g>
 
-        <g>
+        <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
           <path
             class="white u{{ lot.usage }}"
             [attr.d]="path(boundary)"

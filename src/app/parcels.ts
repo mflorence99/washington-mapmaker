@@ -19,8 +19,10 @@ export interface Lot {
   centers: Point[];
   id: string;
   labels: LotLabel[];
-  // NOTE 1 is more square, 0 more elongated
-  shapeIndices: number[];
+  // NOTE: lot orientation in degrees
+  orientations: number[];
+  // NOTE 1 means lot is more square, 0 more elongated
+  sqarcities: number[];
   usage: string;
 }
 
