@@ -72,7 +72,7 @@ export class Geometry {
     numXTiles: 0,
     numYTiles: 0
   };
-  focus: Point = { lat: 43.176086457408914, lon: -72.0965696751637 };
+  focus: Point = { lat: 43.13578822979971, lon: -72.11240543718763 };
   legendOnly = false;
   parcelsOnly = false;
   profile = 'washington';

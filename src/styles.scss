@@ -200,6 +200,7 @@ map-root {
           width: calc(var(--thumbnail-cxNominal));
 
           map-boundary,
+          map-defs,
           map-grid,
           map-street,
           map-tiles,
@@ -266,7 +267,8 @@ map-root {
 
           map-washington {
             fill: rgba(var(--rgb-teal-900), 0.1);
-            stroke: none;
+            stroke: rgba(var(--rgb-teal-900), 0.5);
+            stroke-width: 2;
           }
         }
       }
@@ -408,6 +410,7 @@ map-root {
 
         map-boundary,
         map-clip,
+        map-defs,
         map-grid,
         map-lot-labels,
         map-lots,
@@ -457,13 +460,12 @@ map-root {
             }
 
             text {
-              fill: var(--mat-gray-600);
+              fill: var(--mat-gray-800);
               font-family: 'Ubuntu', sans-serif;
             }
 
             text tspan.area {
               font-size: 0.8em;
-              font-style: italic;
             }
 
             text tspan.id {
@@ -473,21 +475,26 @@ map-root {
           }
 
           g.z15 {
+            line.a0,
+            line.a1 {
+              display: none;
+            }
+
             text.a0,
             text.a1 {
               display: none;
             }
 
             text.a2 {
-              font-size: 8px;
-            }
-
-            text.a5 {
               font-size: 9px;
             }
 
-            text.a10 {
+            text.a5 {
               font-size: 10px;
+            }
+
+            text.a10 {
+              font-size: 11px;
             }
 
             text.a25 {
@@ -582,47 +589,58 @@ map-root {
           // @see https://www.gismanual.com/style/ColorConventions.pdf
 
           g path.white.u11 /* Single family */ {
-            fill: rgba(var(--shade-u11), 0.5);
+            // fill: rgba(var(--shade-u11), 0.5);
+            fill: url(#halftone-u11);
           }
 
           g path.white.u12 /* Multi family */ {
-            fill: rgba(var(--shade-u12), 0.5);
+            // fill: rgba(var(--shade-u12), 0.5);
+            fill: url(#halftone-u12);
           }
 
           g path.white.u17 /* Manufacturing */ {
-            fill: rgba(var(--shade-u17), 0.5);
+            // fill: rgba(var(--shade-u17), 0.5);
+            fill: url(#halftone-u17);
           }
 
           g path.white.u19 /* Improved residential */ {
-            fill: rgba(var(--shade-u19), 0.5);
+            // fill: rgba(var(--shade-u19), 0.5);
+            fill: url(#halftone-u19);
           }
 
           g path.white.u22 /* Residential land */ {
-            fill: rgba(var(--shade-u22), 0.5);
+            // fill: rgba(var(--shade-u22), 0.5);
+            fill: url(#halftone-u22);
           }
 
           g path.white.u26 /* Mixed use */ {
-            fill: rgba(var(--shade-u26), 0.5);
+            // fill: rgba(var(--shade-u26), 0.5);
+            fill: url(#halftone-u26);
           }
 
           g path.white.u27 /* Unclassified */ {
-            fill: rgba(var(--shade-u27), 0.5);
+            // fill: rgba(var(--shade-u27), 0.5);
+            fill: url(#halftone-u27);
           }
 
           g path.white.u33 /* Commercial */ {
-            fill: rgba(var(--shade-u33), 0.5);
+            // fill: rgba(var(--shade-u33), 0.5);
+            fill: url(#halftone-u33);
           }
 
           g path.white.u58 /* Garage */ {
-            fill: rgba(var(--shade-u58), 0.5);
+            // fill: rgba(var(--shade-u58), 0.5);
+            fill: url(#halftone-u58);
           }
 
           g path.white.u100 /* State Park */ {
-            fill: rgba(var(--shade-u100), 0.5);
+            // fill: rgba(var(--shade-u100), 0.5);
+            fill: url(#halftone-u100);
           }
 
           g path.white.u101 /* Town Forest */ {
-            fill: rgba(var(--shade-u101), 1);
+            // fill: rgba(var(--shade-u101), 1);
+            fill: url(#halftone-u101);
           }
         }
 

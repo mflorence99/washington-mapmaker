@@ -26,6 +26,7 @@ import domtoimage from 'dom-to-image';
           <div class="border-3">
             <section (contextmenu)="logLocation($event)" (dblclick)="print()">
               <figure>
+                <map-defs></map-defs>
                 <map-clip></map-clip>
                 <map-topo
                   *ngIf="!geometry.parcelsOnly"

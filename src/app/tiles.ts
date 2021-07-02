@@ -9,10 +9,14 @@ import { Observable } from 'rxjs';
 import { Subject } from 'rxjs';
 
 import { catchError } from 'rxjs/operators';
-import { concat } from 'rxjs';
 import { forkJoin } from 'rxjs';
+import { merge } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 import { of } from 'rxjs';
+
+// NOTE: tune this to balance load time against the problem that too many
+// concurrent XHR requests chokes the browser
+const CONCURRENCY = 10;
 
 export function makeTileParams(params: TileParams): TileParams {
   params.ready$ = new Subject<ImageBitmap>();
@@ -53,8 +57,12 @@ export class TilesComponent implements AfterViewInit {
         of(params)
       );
     });
-    concat(...requests).subscribe({
-      complete: () => console.log(`${this.tag} completed`),
+    merge(...requests, CONCURRENCY).subscribe({
+      complete: () =>
+        console.log(
+          `%c ${this.tag} completed`,
+          'color: light-blue; font-weight: bold'
+        ),
       next: ([bitmap, params]) => {
         if (bitmap) {
           params.ready$.next(bitmap);

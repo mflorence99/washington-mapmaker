@@ -1,5 +1,6 @@
 import { BoundaryComponent } from './boundary';
 import { ClipComponent } from './clip';
+import { DefsComponent } from './defs';
 import { GridComponent } from './grid';
 import { IndicesComponent } from './indices';
 import { LegendComponent } from './legend';
@@ -37,6 +38,7 @@ class IconsModule {
 const COMPONENTS = [
   BoundaryComponent,
   ClipComponent,
+  DefsComponent,
   GridComponent,
   IndicesComponent,
   LegendComponent,

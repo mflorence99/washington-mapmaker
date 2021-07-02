@@ -41,7 +41,7 @@ export const PROFILES: Record<string, Profile> = {
     cxGrid: 1320,
     cyGrid: 1320,
     focus: { lat: 43.14561248715164, lon: -72.09940208788343 },
-    origin: { lat: 43.15099392748455, lon: -72.11347832079359 },
+    origin: { lat: 43.157376566018925, lon: -72.10798515673109 },
     title: 'Highland Lake',
     zoom: 17
   },

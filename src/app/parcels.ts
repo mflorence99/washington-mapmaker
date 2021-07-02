@@ -7,6 +7,7 @@ import { Injectable } from '@angular/core';
 declare const PARCELS: Lots;
 
 export interface LotLabel {
+  clazz?: string;
   rotate?: boolean;
   split?: boolean;
 }
@@ -18,7 +19,7 @@ export interface Lot {
   callouts: Point[];
   centers: Point[];
   id: string;
-  labels: LotLabel[];
+  labels?: LotLabel[];
   // NOTE: lot orientation in degrees
   orientations: number[];
   // NOTE 1 means lot is more square, 0 more elongated

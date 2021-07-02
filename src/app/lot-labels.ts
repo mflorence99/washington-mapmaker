@@ -27,10 +27,11 @@ import { Component } from '@angular/core';
                 [attr.y1]="pq[1]"
                 [attr.x2]="xy[0]"
                 [attr.y2]="xy[1]"
+                [ngClass]="classOf(lot, ix)"
               ></line>
               <text
                 [attr.transform]="'translate(' + xy[0] + ',' + xy[1] + ')'"
-                [ngClass]="'a' + quantize(lot.areas[ix])"
+                [ngClass]="classOf(lot, ix)"
                 text-anchor="middle"
               >
                 <tspan class="id">
@@ -57,7 +58,7 @@ import { Component } from '@angular/core';
                 rotation(lot, ix) +
                 ')'
               "
-              [ngClass]="'a' + quantize(lot.areas[ix])"
+              [ngClass]="classOf(lot, ix)"
               text-anchor="middle"
             >
               <tspan [attr.dy]="'0.25em'" class="id">
@@ -85,6 +86,12 @@ import { Component } from '@angular/core';
 })
 export class LotLabelsComponent {
   constructor(public geometry: Geometry, public parcels: Parcels) {}
+
+  classOf(lot: Lot, ix: number): string {
+    const area = lot.areas[ix];
+    const label = lot.labels?.[ix];
+    return label?.clazz ?? `a${this.quantize(area)}`;
+  }
 
   quantize(area: number): number {
     if (area >= 500) return 500;
