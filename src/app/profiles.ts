@@ -29,7 +29,7 @@ export const PROFILES: Record<string, Profile> = {
     cyFeet: 10560,
     cxGrid: 1320,
     cyGrid: 1320,
-    focus: { lat: 43.190478681555064, lon: -72.01769127245375 },
+    focus: { lat: 43.19207281777971, lon: -72.02382878892247 },
     origin: { lat: 43.21047135814069, lon: -72.04833282823988 },
     title: 'East Washinghton',
     zoom: 17
@@ -40,7 +40,7 @@ export const PROFILES: Record<string, Profile> = {
     cyFeet: 10560,
     cxGrid: 1320,
     cyGrid: 1320,
-    focus: { lat: 43.14561248715164, lon: -72.09940208788343 },
+    focus: { lat: 43.13539201633708, lon: -72.07166316923501 },
     origin: { lat: 43.157376566018925, lon: -72.10798515673109 },
     title: 'Highland Lake',
     zoom: 17
@@ -51,7 +51,7 @@ export const PROFILES: Record<string, Profile> = {
     cyFeet: 10560,
     cxGrid: 1320,
     cyGrid: 1320,
-    focus: { lat: 43.184326988305294, lon: -72.07153993170851 },
+    focus: { lat: 43.169945926164075, lon: -72.0709605745613 },
     origin: { lat: 43.188444997708324, lon: -72.07845939989515 },
     title: 'Island Pond',
     zoom: 17
