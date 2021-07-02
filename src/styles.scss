@@ -42,6 +42,7 @@
   --thumbnail-numXTiles: 0;
   --thumbnail-numYTiles: 0;
   // land use color shading
+  // @see https://www.gismanual.com/style/ColorConventions.pdf
   --shade-u11: var(--rgb-brown-300);
   --shade-u12: var(--rgb-brown-500);
   --shade-u17: var(--rgb-red-200);
@@ -580,67 +581,98 @@ map-root {
 
           g.z15 path {
             stroke-width: 2;
+
+            &.white.u11 /* Single family */ {
+              fill: rgba(var(--shade-u11), 0.5);
+            }
+
+            &.white.u12 /* Multi family */ {
+              fill: rgba(var(--shade-u12), 0.5);
+            }
+
+            &.white.u17 /* Manufacturing */ {
+              fill: rgba(var(--shade-u17), 0.5);
+            }
+
+            &.white.u19 /* Improved residential */ {
+              fill: rgba(var(--shade-u19), 0.5);
+            }
+
+            &.white.u22 /* Residential land */ {
+              fill: rgba(var(--shade-u22), 0.5);
+            }
+
+            &.white.u26 /* Mixed use */ {
+              fill: rgba(var(--shade-u26), 0.5);
+            }
+
+            &.white.u27 /* Unclassified */ {
+              fill: rgba(var(--shade-u27), 0.5);
+            }
+
+            &.white.u33 /* Commercial */ {
+              fill: rgba(var(--shade-u33), 0.5);
+            }
+
+            &.white.u58 /* Garage */ {
+              fill: rgba(var(--shade-u58), 0.5);
+            }
+
+            &.white.u100 /* State Park */ {
+              fill: rgba(var(--shade-u100), 0.5);
+            }
+
+            &.white.u101 /* Town Forest */ {
+              fill: rgba(var(--shade-u101), 1);
+            }
           }
 
           g.z17 path {
             stroke-width: 3;
-          }
 
-          // @see https://www.gismanual.com/style/ColorConventions.pdf
+            &.white.u11 /* Single family */ {
+              fill: url(#halftone-u11);
+            }
 
-          g path.white.u11 /* Single family */ {
-            // fill: rgba(var(--shade-u11), 0.5);
-            fill: url(#halftone-u11);
-          }
+            &.white.u12 /* Multi family */ {
+              fill: url(#halftone-u12);
+            }
 
-          g path.white.u12 /* Multi family */ {
-            // fill: rgba(var(--shade-u12), 0.5);
-            fill: url(#halftone-u12);
-          }
+            &.white.u17 /* Manufacturing */ {
+              fill: url(#halftone-u17);
+            }
 
-          g path.white.u17 /* Manufacturing */ {
-            // fill: rgba(var(--shade-u17), 0.5);
-            fill: url(#halftone-u17);
-          }
+            &.white.u19 /* Improved residential */ {
+              fill: url(#halftone-u19);
+            }
 
-          g path.white.u19 /* Improved residential */ {
-            // fill: rgba(var(--shade-u19), 0.5);
-            fill: url(#halftone-u19);
-          }
+            &.white.u22 /* Residential land */ {
+              fill: url(#halftone-u22);
+            }
 
-          g path.white.u22 /* Residential land */ {
-            // fill: rgba(var(--shade-u22), 0.5);
-            fill: url(#halftone-u22);
-          }
+            &.white.u26 /* Mixed use */ {
+              fill: url(#halftone-u26);
+            }
 
-          g path.white.u26 /* Mixed use */ {
-            // fill: rgba(var(--shade-u26), 0.5);
-            fill: url(#halftone-u26);
-          }
+            &.white.u27 /* Unclassified */ {
+              fill: url(#halftone-u27);
+            }
 
-          g path.white.u27 /* Unclassified */ {
-            // fill: rgba(var(--shade-u27), 0.5);
-            fill: url(#halftone-u27);
-          }
+            &.white.u33 /* Commercial */ {
+              fill: url(#halftone-u33);
+            }
 
-          g path.white.u33 /* Commercial */ {
-            // fill: rgba(var(--shade-u33), 0.5);
-            fill: url(#halftone-u33);
-          }
+            &.white.u58 /* Garage */ {
+              fill: url(#halftone-u58);
+            }
 
-          g path.white.u58 /* Garage */ {
-            // fill: rgba(var(--shade-u58), 0.5);
-            fill: url(#halftone-u58);
-          }
+            &.white.u100 /* State Park */ {
+              fill: url(#halftone-u100);
+            }
 
-          g path.white.u100 /* State Park */ {
-            // fill: rgba(var(--shade-u100), 0.5);
-            fill: url(#halftone-u100);
-          }
-
-          g path.white.u101 /* Town Forest */ {
-            // fill: rgba(var(--shade-u101), 1);
-            fill: url(#halftone-u101);
+            &.white.u101 /* Town Forest */ {
+              fill: url(#halftone-u101);
+            }
           }
         }
 
