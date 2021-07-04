@@ -40,6 +40,10 @@ const M2TOACRES = 4047;
 
 // extract data from original
 county.features
+  .map((feature) => {
+    if (feature.properties.zoning) console.log(feature);
+    return feature;
+  })
   .filter(
     (feature) =>
       feature.properties.displayid && feature.properties.city === 'washington'

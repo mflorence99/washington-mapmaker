@@ -8,8 +8,6 @@ import { ElementRef } from '@angular/core';
 import { HostBinding } from '@angular/core';
 import { ViewChild } from '@angular/core';
 
-import { saveAs } from 'file-saver';
-
 import domtoimage from 'dom-to-image';
 
 @Component({
@@ -19,8 +17,7 @@ import domtoimage from 'dom-to-image';
     { provide: 'params', useValue: { thumbnail: false } }
   ],
   selector: 'map-root',
-  template: `
-    <main *ngIf="geometry.ready$ | async" #theMap>
+  template: ` <main *ngIf="geometry.ready$ | async">
       <div *ngIf="!geometry.legendOnly" class="border-1">
         <div class="border-2">
           <div class="border-3">
@@ -66,13 +63,14 @@ import domtoimage from 'dom-to-image';
     <aside *ngIf="geometry.profile === 'washington'">
       <map-legend></map-legend>
     </aside>
-  `
+
+    <a #saver hidden></a>`
 })
 export class RootComponent implements AfterViewInit {
   @HostBinding('class.dragging') dragging = false;
   @HostBinding('class.printing') printing = false;
 
-  @ViewChild('theMap', { static: false }) theMap: ElementRef;
+  @ViewChild('saver', { static: false }) saver: ElementRef;
 
   today = new Date();
 
@@ -124,10 +122,16 @@ export class RootComponent implements AfterViewInit {
       // a little later, fire up the print
       setTimeout(() => {
         domtoimage
-          .toBlob(this.host.nativeElement as HTMLElement, { bgcolor: 'white ' })
-          .then((blob) => {
-            saveAs(blob, `${this.geometry.profile}.png`);
+          .toJpeg(this.host.nativeElement as HTMLElement, {
+            bgcolor: 'white',
+            quality: 0.95
+          })
+          .then((dataURL) => {
+            this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
+            this.saver.nativeElement.href = dataURL;
+            this.saver.nativeElement.click();
             // back to our normal programming
+            this.saver.nativeElement.href = null;
             this.printing = false;
             this.cdf.markForCheck();
           });
