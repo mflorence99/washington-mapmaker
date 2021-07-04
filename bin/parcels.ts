@@ -151,6 +151,12 @@ county.features
     }
   });
 
+console.log(
+  `Processed ${Object.keys(overrides).length} overrides to ${
+    washington.lots.length
+  } lots`
+);
+
 writeFileSync(
   'src/assets/data/parcels.js',
   'PARCELS = ' + JSON.stringify(washington, null, 2) + ';'

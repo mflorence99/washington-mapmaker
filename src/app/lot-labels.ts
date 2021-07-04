@@ -37,6 +37,9 @@ import { Component } from '@angular/core';
                 <tspan class="id">
                   {{ lot.id }}
                 </tspan>
+                <tspan *ngIf="!smallLot(lot, ix)" class="area">
+                  &nbsp;{{ round(lot.area) }} ac
+                </tspan>
               </text>
             </g>
           </g>
