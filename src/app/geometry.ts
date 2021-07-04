@@ -74,6 +74,7 @@ export class Geometry {
   };
   focus: Point = { lat: 43.198144105285074, lon: -72.0962263524098 };
   legendOnly = false;
+  mapOnly = false;
   parcelsOnly = false;
   profile = 'washington';
   ready$ = new Subject<boolean>();
@@ -91,6 +92,7 @@ export class Geometry {
   constructor(public gpsData: GpsData, @Inject('params') params: GeoParams) {
     const searchParams = this.parseInitialSearchParams();
     this.legendOnly = searchParams?.legendOnly ?? this.legendOnly;
+    this.mapOnly = searchParams?.mapOnly ?? this.mapOnly;
     this.parcelsOnly = searchParams?.parcelsOnly ?? this.parcelsOnly;
     this.profile = searchParams?.profile ?? this.profile;
     // profile values override "washington" defaults

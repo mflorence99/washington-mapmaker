@@ -390,6 +390,14 @@ map-root {
       padding: calc(var(--map-cyNominal) / 200) calc(var(--map-cxNominal) / 200);
     }
 
+    .border-1.mapOnly,
+    .border-2.mapOnly,
+    .border-3.mapOnly {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+
     section {
       display: block;
       height: calc(var(--map-clip-cy));

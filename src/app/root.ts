@@ -18,9 +18,13 @@ import domtoimage from 'dom-to-image';
   ],
   selector: 'map-root',
   template: ` <main *ngIf="geometry.ready$ | async">
-      <div *ngIf="!geometry.legendOnly" class="border-1">
-        <div class="border-2">
-          <div class="border-3">
+      <div
+        *ngIf="!geometry.legendOnly"
+        [ngClass]="{ mapOnly: geometry.mapOnly }"
+        class="border-1"
+      >
+        <div [ngClass]="{ mapOnly: geometry.mapOnly }" class="border-2">
+          <div [ngClass]="{ mapOnly: geometry.mapOnly }" class="border-3">
             <section (contextmenu)="logLocation($event)" (dblclick)="print()">
               <figure>
                 <map-defs></map-defs>
@@ -60,7 +64,7 @@ import domtoimage from 'dom-to-image';
       </div>
     </main>
 
-    <aside *ngIf="geometry.profile === 'washington'">
+    <aside *ngIf="geometry.profile === 'washington' && !geometry.mapOnly">
       <map-legend></map-legend>
     </aside>
 
