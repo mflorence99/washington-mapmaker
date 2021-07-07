@@ -133,7 +133,7 @@ export class RootComponent implements AfterViewInit {
       let blob = new Blob([thePaths.innerHTML], {
         type: 'text/plain;charset=utf-8'
       });
-      saveAs(blob, 'paths.svg');
+      saveAs(blob, `${this.geometry.profile}.svg`);
       // save the parcels index
       const index = this.parcels.parcels.lots.reduce((acc, lot) => {
         acc[lot.id] = {

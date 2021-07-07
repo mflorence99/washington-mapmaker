@@ -176,6 +176,7 @@ export class Geometry {
       this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
       this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
       // log some useful data
+      console.table(this.clip);
       console.table(this.dims);
       // set CSS variables
       const style = document.body.style;
