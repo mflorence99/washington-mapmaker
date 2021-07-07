@@ -1,10 +1,8 @@
-import '../assets/data/parcels.js';
-
 import { Point } from './geometry';
 
-import { Injectable } from '@angular/core';
+import { landgrid } from './landgrid';
 
-declare const PARCELS: Lots;
+import { Injectable } from '@angular/core';
 
 export interface LotLabel {
   clazz?: string;
@@ -13,6 +11,7 @@ export interface LotLabel {
 }
 
 export interface Lot {
+  address: string;
   area: number;
   areas: number[];
   boundaries: Point[][];
@@ -37,5 +36,5 @@ export interface Lots {
 
 @Injectable({ providedIn: 'root' })
 export class Parcels {
-  parcels: Lots = PARCELS;
+  parcels: Lots = landgrid;
 }

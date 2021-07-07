@@ -127,6 +127,7 @@ county.features
 
       // initialize the lot
       const lot = {
+        address: feature.properties.address,
         area: feature.properties.ll_gisacre as number,
         areas: areas,
         boundaries: boundaries,
@@ -162,8 +163,8 @@ console.log(
 );
 
 writeFileSync(
-  'src/assets/data/parcels.js',
-  'PARCELS = ' + JSON.stringify(washington, null, 2) + ';'
+  'src/app/landgrid.ts',
+  'export const landgrid = ' + JSON.stringify(washington, null, 2) + ';'
 );
 
 // helpers

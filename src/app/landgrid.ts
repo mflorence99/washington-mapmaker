@@ -1,4 +1,4 @@
-PARCELS = {
+export const landgrid = {
   "areaByUsage": {
     "11": 5703.094609999997,
     "12": 14.00537,
@@ -40,6 +40,7 @@ PARCELS = {
   },
   "lots": [
     {
+      "address": "342 LONG POND ROAD",
       "area": 0.56261,
       "areas": [
         0.5632588362356747
@@ -106,6 +107,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "296 MARTIN RD",
       "area": 10.10923,
       "areas": [
         10.111481064737633
@@ -152,6 +154,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 1.94544,
       "areas": [
         1.945951355001439
@@ -215,6 +218,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BACK MT RD",
       "area": 146.91279,
       "areas": [
         146.9444243829864
@@ -269,6 +273,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KING ST",
       "area": 0.55395,
       "areas": [
         0.5541126566159172
@@ -324,6 +329,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "265 WASHINGTON HGTS RD",
       "area": 6.58218,
       "areas": [
         6.584025646109359
@@ -378,6 +384,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "10 MARYS LN",
       "area": 2.84222,
       "areas": [
         2.84323640585803
@@ -444,6 +451,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "66 MARYS LN",
       "area": 2.47806,
       "areas": [
         2.468641094968049
@@ -502,6 +510,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "NO MAIN ST",
       "area": 4.62385,
       "areas": [
         4.625063086971838
@@ -556,6 +565,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "601 NO MAIN ST",
       "area": 50.71678,
       "areas": [
         50.720666606205626
@@ -662,6 +672,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "892 LEMPSTER MT RD",
       "area": 2.76149,
       "areas": [
         2.764709178757766
@@ -712,6 +723,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1222 HALFMOON PD RD",
       "area": 7.55203,
       "areas": [
         7.552937201459732
@@ -770,6 +782,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1289 HALFMOON PD RD",
       "area": 2.97243,
       "areas": [
         2.973140248154725
@@ -828,6 +841,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 5.90976,
       "areas": [
         5.911188774861056
@@ -874,6 +888,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1662 HALFMOON PD RD",
       "area": 7.20291,
       "areas": [
         7.208282643527061
@@ -924,6 +939,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1530 HALFMOON PD RD",
       "area": 10.78102,
       "areas": [
         10.783613674983846
@@ -982,6 +998,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "271 MARTIN RD",
       "area": 7.32718,
       "areas": [
         7.328836978576948
@@ -1036,6 +1053,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "371 MARTIN RD",
       "area": 8.12673,
       "areas": [
         8.128544303338947
@@ -1082,6 +1100,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "256 MARTIN RD",
       "area": 8.96104,
       "areas": [
         8.963092888678228
@@ -1136,6 +1155,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2570 E WASHINGTON RD",
       "area": 1.23966,
       "areas": [
         1.239332095599493
@@ -1206,6 +1226,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "AYERS POND RD",
       "area": 29.30013,
       "areas": [
         29.305826873400544
@@ -1316,6 +1337,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "983 ASHUELOT DR",
       "area": 1.80466,
       "areas": [
         1.8052427496293884
@@ -1382,6 +1404,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "849 ASHUELOT DR",
       "area": 1.47845,
       "areas": [
         1.478923109400311
@@ -1440,6 +1463,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "547 LEMPSTER MT RD",
       "area": 25.42653,
       "areas": [
         25.42391506372735
@@ -1542,6 +1566,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "673 LEMPSTER MT RD",
       "area": 7.97979,
       "areas": [
         7.9799664081318875
@@ -1616,6 +1641,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "646 MILLEN POND RD",
       "area": 0.40324,
       "areas": [
         0.3824820593359844,
@@ -1705,6 +1731,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "648 MILLEN POND RD",
       "area": 0.41563,
       "areas": [
         0.38950576610946164,
@@ -1798,6 +1825,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "320 FAXON HILL RD",
       "area": 4.2791,
       "areas": [
         4.291418595260269
@@ -1876,6 +1904,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "152 VALLEY RD",
       "area": 1.81976,
       "areas": [
         1.8261930765823737
@@ -1934,6 +1963,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "78 VALLEY RD",
       "area": 2.3762,
       "areas": [
         2.383539726289642
@@ -1984,6 +2014,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "141 HALFMOON PD RD",
       "area": 0.38116,
       "areas": [
         0.3812538827896428
@@ -2034,6 +2065,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1024 HALFMOON PD RD",
       "area": 0.61582,
       "areas": [
         0.6159630855496717
@@ -2088,6 +2120,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1406 LOVELL MT RD",
       "area": 8.84216,
       "areas": [
         8.844245126652462
@@ -2154,6 +2187,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "707 WASHINGTON DR",
       "area": 0.59811,
       "areas": [
         0.5982419410954929
@@ -2212,6 +2246,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "699 WASHINGTON DR",
       "area": 0.48025,
       "areas": [
         0.4803567280887437
@@ -2266,6 +2301,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 0.42007,
       "areas": [
         0.4208053775813226
@@ -2320,6 +2356,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "23 WALNUT CIR",
       "area": 1.48738,
       "areas": [
         1.491675030827257
@@ -2442,6 +2479,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "549 WASHINGTON DR",
       "area": 0.50614,
       "areas": [
         0.5062112557525164
@@ -2492,6 +2530,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 0.09021,
       "areas": [
         0.09022791088321884
@@ -2543,6 +2582,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 4.35386,
       "areas": [
         4.356174198332863
@@ -2593,6 +2633,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "491 WASHINGTON DR",
       "area": 0.65442,
       "areas": [
         0.6543347006083071
@@ -2647,6 +2688,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "469 WASHINGTON DR",
       "area": 0.61398,
       "areas": [
         0.6141226200036706
@@ -2713,6 +2755,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 1.53339,
       "areas": [
         1.5352758905819057
@@ -2787,6 +2830,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "415 WASHINGTON DR",
       "area": 1.38866,
       "areas": [
         1.3926420442914316
@@ -2861,6 +2905,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "289 WASHINGTON DR",
       "area": 0.91123,
       "areas": [
         0.9079991022714563
@@ -2935,6 +2980,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "243 WASHINGTON DR",
       "area": 0.2651,
       "areas": [
         0.26515652198844775
@@ -2993,6 +3039,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "235 WASHINGTON DR",
       "area": 0.47945,
       "areas": [
         0.4810708105487882
@@ -3051,6 +3098,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "330 WASHINGTON DR",
       "area": 3.56397,
       "areas": [
         3.564769922367725
@@ -3121,6 +3169,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "448 WASHINGTON DR",
       "area": 4.61835,
       "areas": [
         4.619325297061096
@@ -3175,6 +3224,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "500 WASHINGTON DR",
       "area": 2.93148,
       "areas": [
         2.932170333192421
@@ -3221,6 +3271,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "650 WASHINGTON DR",
       "area": 2.9039,
       "areas": [
         2.90271009599109
@@ -3271,6 +3322,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.63548,
       "areas": [
         3.6362738890456603
@@ -3325,6 +3377,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "180 ISLAND POND RD",
       "area": 0.41763,
       "areas": [
         0.41803530118505006
@@ -3403,6 +3456,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "160 ISLAND POND RD",
       "area": 10.33539,
       "areas": [
         10.337833374163255
@@ -3481,6 +3535,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "104 ISLAND POND RD",
       "area": 0.05651,
       "areas": [
         0.0563596941560159
@@ -3532,6 +3587,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "143 VALLEY RD",
       "area": 2.94442,
       "areas": [
         2.9451773548310096
@@ -3578,6 +3634,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "248 SO MAIN ST",
       "area": 13.58305,
       "areas": [
         13.581073923766436
@@ -3713,6 +3770,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 49.66186,
       "areas": [
         49.640377553243184
@@ -3843,6 +3901,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 7.83964,
       "areas": [
         7.840374359453736
@@ -3945,6 +4004,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 12.24151,
       "areas": [
         12.245595401144142
@@ -4015,6 +4075,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 103.33807,
       "areas": [
         103.35921752908303
@@ -4285,6 +4346,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 9.81087,
       "areas": [
         9.812799559765606
@@ -4339,6 +4401,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.92889,
       "areas": [
         2.94357225742631
@@ -4393,6 +4456,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "663 ASHUELOT DR",
       "area": 1.75383,
       "areas": [
         1.7543634598695776
@@ -4455,6 +4519,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "138 HARRISON RD",
       "area": 1.24401,
       "areas": [
         1.2442528374167547
@@ -4521,6 +4586,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "150 HARRISON RD",
       "area": 1.33058,
       "areas": [
         1.33100114253849
@@ -4591,6 +4657,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "93 HARRISON RD",
       "area": 1.10863,
       "areas": [
         1.108976328171467
@@ -4641,6 +4708,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "536 ASHUELOT DR",
       "area": 1.46766,
       "areas": [
         1.468117395422378
@@ -4691,6 +4759,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.10949,
       "areas": [
         1.109836533741498
@@ -4741,6 +4810,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "497 ASHUELOT DR",
       "area": 1.26019,
       "areas": [
         1.2605841480613647
@@ -4803,6 +4873,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "101 TAYLOR CIR",
       "area": 2.3875,
       "areas": [
         2.3882478790149393
@@ -4877,6 +4948,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "263 STOWELL RD",
       "area": 5.83595,
       "areas": [
         5.831645854614859
@@ -4951,6 +5023,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "STOWELL RD",
       "area": 1.09739,
       "areas": [
         1.0977338700843622
@@ -5001,6 +5074,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "159 JEFFERSON DR",
       "area": 0.72184,
       "areas": [
         0.7220679902322511
@@ -5051,6 +5125,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "40 MADISON DR",
       "area": 0.78828,
       "areas": [
         0.7885208402779601
@@ -5105,6 +5180,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.79285,
       "areas": [
         0.7898908102119249
@@ -5155,6 +5231,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "108 MADISON DR",
       "area": 0.66438,
       "areas": [
         0.6645874616883652
@@ -5205,6 +5282,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "178 MADISON DR",
       "area": 0.62439,
       "areas": [
         0.6245815734717282
@@ -5255,6 +5333,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "374 ASHUELOT DR",
       "area": 0.78381,
       "areas": [
         0.7840579801784617
@@ -5305,6 +5384,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "77 MADISON DR",
       "area": 1.66597,
       "areas": [
         1.6664857718123005
@@ -5355,6 +5435,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "330 ASHUELOT DR",
       "area": 0.93871,
       "areas": [
         0.9389994246147019
@@ -5405,6 +5486,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 0.70564,
       "areas": [
         0.7058632628423221
@@ -5455,6 +5537,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "397 ASHUELOT DR",
       "area": 0.71999,
       "areas": [
         0.7202196422563426
@@ -5513,6 +5596,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "307 ASHUELOT DR",
       "area": 0.60538,
       "areas": [
         0.6055694534921443
@@ -5563,6 +5647,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "249 ASHUELOT DR",
       "area": 0.74227,
       "areas": [
         0.7424980245496114
@@ -5617,6 +5702,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "177 ASHUELOT DR",
       "area": 0.69133,
       "areas": [
         0.6915431875611322
@@ -5679,6 +5765,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "165 ASHUELOT DR",
       "area": 0.66554,
       "areas": [
         0.6648526359391291
@@ -5733,6 +5820,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "121 ASHUELOT DR",
       "area": 0.65993,
       "areas": [
         0.6601391388201845
@@ -5791,6 +5879,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "113 ASHUELOT DR",
       "area": 1.01246,
       "areas": [
         1.0127739257671493
@@ -5849,6 +5938,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "35 ASHUELOT DR",
       "area": 0.92931,
       "areas": [
         0.9296000547638912
@@ -5903,6 +5993,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "25 ASHUELOT DR",
       "area": 0.95494,
       "areas": [
         0.952282075917635
@@ -5949,6 +6040,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "14 VAN BUREN CIR",
       "area": 0.98014,
       "areas": [
         0.9824082510584878
@@ -5999,6 +6091,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 VAN BUREN CIR",
       "area": 0.80711,
       "areas": [
         0.8073596395854146
@@ -6077,6 +6170,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "25 VAN BUREN CIR",
       "area": 0.83229,
       "areas": [
         0.8308888649819185
@@ -6147,6 +6241,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "183 MCKINLEY DR",
       "area": 0.88695,
       "areas": [
         0.887224402984233
@@ -6209,6 +6304,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 GARFIELD DR",
       "area": 1.1794,
       "areas": [
         1.1789209412321147
@@ -6291,6 +6387,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "38 GARFIELD DR",
       "area": 1.04967,
       "areas": [
         1.0499857713467626
@@ -6349,6 +6446,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "76 GARFIELD DR",
       "area": 0.84852,
       "areas": [
         0.8503547670983318
@@ -6399,6 +6497,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "170 ASHUELOT DR",
       "area": 0.742,
       "areas": [
         0.742233491750353
@@ -6449,6 +6548,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "TAFT RD",
       "area": 0.69883,
       "areas": [
         0.6990438430681857
@@ -6499,6 +6599,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAFT RD",
       "area": 0.71856,
       "areas": [
         0.7187821125574338
@@ -6549,6 +6650,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "54 HAYES RD",
       "area": 0.71095,
       "areas": [
         0.7111704736057184
@@ -6595,6 +6697,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "42 HAYES RD",
       "area": 0.65079,
       "areas": [
         0.65099623537469
@@ -6645,6 +6748,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "9 HARDING RD",
       "area": 0.77197,
       "areas": [
         0.7722113847601612
@@ -6691,6 +6795,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "31 HARDING RD",
       "area": 0.74361,
       "areas": [
         0.7438358791595497
@@ -6737,6 +6842,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 ASHUELOT DR",
       "area": 1.0373,
       "areas": [
         1.0391892040551807
@@ -6787,6 +6893,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "136 MCKINLEY DR",
       "area": 1.45444,
       "areas": [
         1.4548811981016152
@@ -6853,6 +6960,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "110 MCKINLEY DR",
       "area": 1.07537,
       "areas": [
         1.0756947720819774
@@ -6911,6 +7019,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "69 MCKINLEY DR",
       "area": 0.74521,
       "areas": [
         0.7454392451261417
@@ -6957,6 +7066,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "43 MONROE CIR",
       "area": 2.77031,
       "areas": [
         2.7732717841128744
@@ -7035,6 +7145,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "81 LINCOLN DR",
       "area": 0.85076,
       "areas": [
         0.8510227242347324
@@ -7089,6 +7200,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "99 LINCOLN DR",
       "area": 1.02135,
       "areas": [
         1.0226799607696244
@@ -7143,6 +7255,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "229 LINCOLN DR",
       "area": 0.88798,
       "areas": [
         0.8882538283438185
@@ -7193,6 +7306,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "102 LINCOLN DR",
       "area": 0.81229,
       "areas": [
         0.8125404271076488
@@ -7251,6 +7365,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "LINCOLN DR",
       "area": 1.31618,
       "areas": [
         1.3234945522184907
@@ -7309,6 +7424,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "84 JACKSON DR",
       "area": 0.83132,
       "areas": [
         0.8376792329460192
@@ -7359,6 +7475,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "20 LINCOLN DR",
       "area": 1.56297,
       "areas": [
         1.5634439020874225
@@ -7413,6 +7530,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "322 PRESIDENTIAL DR",
       "area": 1.01222,
       "areas": [
         1.0125210643707647
@@ -7463,6 +7581,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "94 COOLIDGE DR",
       "area": 1.16253,
       "areas": [
         1.1628821541176986
@@ -7513,6 +7632,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "269 COOLIDGE DR",
       "area": 1.62928,
       "areas": [
         1.6297639882681951
@@ -7559,6 +7679,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 2.63059,
       "areas": [
         2.6313799245324736
@@ -7633,6 +7754,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "59 BUCHANAN CIR",
       "area": 1.63861,
       "areas": [
         1.6391078718783612
@@ -7699,6 +7821,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "81 COOLIDGE DR",
       "area": 1.21716,
       "areas": [
         1.217525389190649
@@ -7749,6 +7872,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.47075,
       "areas": [
         5.44448619518242
@@ -7799,6 +7923,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.25241,
       "areas": [
         5.253813048320964
@@ -7845,6 +7970,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "959 VALLEY RD",
       "area": 5.20839,
       "areas": [
         5.213062388268623
@@ -7899,6 +8025,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1022 VALLEY RD",
       "area": 12.04686,
       "areas": [
         12.052553801682459
@@ -7969,6 +8096,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "576 VALLEY RD",
       "area": 11.32519,
       "areas": [
         11.328259360504441
@@ -8047,6 +8175,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1012 FAXON HILL RD",
       "area": 6.43795,
       "areas": [
         6.445698236565763
@@ -8137,6 +8266,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "825 MILLEN POND RD",
       "area": 0.11786,
       "areas": [
         0.11789295387121261
@@ -8188,6 +8318,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1021 MILLEN POND RD",
       "area": 0.34684,
       "areas": [
         0.3504931052336625
@@ -8238,6 +8369,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "882 MILLEN POND RD",
       "area": 0.35952,
       "areas": [
         0.3596206115191198
@@ -8292,6 +8424,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "808 MILLEN POND RD",
       "area": 0.32988,
       "areas": [
         0.2596188482293989,
@@ -8381,6 +8514,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "756 MILLEN POND RD",
       "area": 0.41312,
       "areas": [
         0.40909271769546623
@@ -8431,6 +8565,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "273 PRESIDENTIAL DR",
       "area": 1.00943,
       "areas": [
         1.0097365725695449
@@ -8481,6 +8616,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.75984,
       "areas": [
         0.7619133339323569
@@ -8559,6 +8695,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.77831,
       "areas": [
         0.7799606061031954
@@ -8617,6 +8754,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.8967,
       "areas": [
         0.8978690912707966
@@ -8679,6 +8817,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "46 POINT RD",
       "area": 82.1373,
       "areas": [
         82.22931498706882
@@ -8909,6 +9048,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "596 HIGHLAND HAVEN RD",
       "area": 0.26616,
       "areas": [
         0.2662330547104038
@@ -8959,6 +9099,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "580 HIGHLAND HAVEN RD",
       "area": 0.29723,
       "areas": [
         0.2973050883640632
@@ -9009,6 +9150,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "COVE RD",
       "area": 33.99125,
       "areas": [
         33.99970518790059
@@ -9231,6 +9373,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "463 HIGHLAND HAVEN RD",
       "area": 0.75058,
       "areas": [
         0.7507700371244325
@@ -9285,6 +9428,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "39 MAPLE WAY",
       "area": 0.65103,
       "areas": [
         0.6506032344954669
@@ -9335,6 +9479,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "386 HIGHLAND HAVEN RD",
       "area": 1.78594,
       "areas": [
         1.7862927683679566
@@ -9405,6 +9550,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 0.47496,
       "areas": [
         0.4750803469280913
@@ -9451,6 +9597,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "522 HIGHLAND HAVEN RD",
       "area": 2.5605,
       "areas": [
         2.5611580435266466
@@ -9509,6 +9656,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1191 SO MAIN ST",
       "area": 1.30777,
       "areas": [
         1.3109805563840997
@@ -9563,6 +9711,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "58 MILL ST",
       "area": 4.3469,
       "areas": [
         4.342729608413198
@@ -9625,6 +9774,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "36 WASHINGTON DR",
       "area": 2.21025,
       "areas": [
         2.2107494077616523
@@ -9675,6 +9825,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4100 E WASHINGTON RD",
       "area": 3.29035,
       "areas": [
         3.2910761307265326
@@ -9725,6 +9876,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": null,
       "area": 3.17205,
       "areas": [
         3.1727532213457277
@@ -9771,6 +9923,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "576 HIGHLAND HAVEN RD",
       "area": 0.75472,
       "areas": [
         0.7549145743070049
@@ -9829,6 +9982,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "186 WILD ACRE DR",
       "area": 1.04361,
       "areas": [
         0.9538287766201526,
@@ -9913,6 +10067,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "214 WILD ACRE DR",
       "area": 2.89952,
       "areas": [
         2.9001251268145043
@@ -9959,6 +10114,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WILD ACRE DR",
       "area": 6.54286,
       "areas": [
         6.549320363971616
@@ -10093,6 +10249,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "219 SMITH POND RD",
       "area": 2.33486,
       "areas": [
         2.3353461678668666
@@ -10147,6 +10304,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "678 HIGHLAND HAVEN RD",
       "area": 0.69486,
       "areas": [
         0.6962055959781757
@@ -10229,6 +10387,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "669 HIGHLAND HAVEN RD",
       "area": 1.08824,
       "areas": [
         1.0935531218464094
@@ -10275,6 +10434,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "704 HIGHLAND HAVEN RD",
       "area": 0.88244,
       "areas": [
         0.8827152529561731
@@ -10349,6 +10509,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "407 DOLE SCHOOL HOUSE RD",
       "area": 0.61227,
       "areas": [
         0.6124070961992317
@@ -10408,6 +10569,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "262 NO MAIN ST",
       "area": 0.90748,
       "areas": [
         0.9077147841271669
@@ -10454,6 +10616,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "371 DOLE SCHOOL HOUSE RD",
       "area": 11.94828,
       "areas": [
         11.955533798715173
@@ -10528,6 +10691,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "46 NO MAIN ST",
       "area": 0.11793,
       "areas": [
         0.11795834942366717
@@ -10578,6 +10742,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "36 HALFMOON PD RD",
       "area": 0.40013,
       "areas": [
         0.40023709999975854
@@ -10628,6 +10793,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "112 NO MAIN ST",
       "area": 0.24174,
       "areas": [
         0.2418011510178149
@@ -10674,6 +10840,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "37 HALFMOON PD RD",
       "area": 4.54947,
       "areas": [
         4.540724020940236
@@ -10768,6 +10935,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "59 HALFMOON PD RD",
       "area": 0.62042,
       "areas": [
         0.620577363361573
@@ -10830,6 +10998,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.04746,
       "areas": [
         0.047474643611068325
@@ -10885,6 +11054,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "100 HALFMOON PD RD",
       "area": 0.19444,
       "areas": [
         0.19449342199096195
@@ -10931,6 +11101,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "90 SO MAIN ST",
       "area": 3.45305,
       "areas": [
         3.4539438170773558
@@ -10993,6 +11164,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "34 SO MAIN ST",
       "area": 1.60265,
       "areas": [
         1.5913838544378598
@@ -11043,6 +11215,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 7.63637,
       "areas": [
         7.638366791008645
@@ -11146,6 +11319,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "71 FAXON HILL RD",
       "area": 0.22645,
       "areas": [
         0.22650720971765695
@@ -11201,6 +11375,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "VALLEY RD",
       "area": 2.65092,
       "areas": [
         2.6409107596387753
@@ -11255,6 +11430,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 1.05432,
       "areas": [
         1.0509531218002734
@@ -11337,6 +11513,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "21 NO MAIN ST",
       "area": 0.25244,
       "areas": [
         0.25250979895963915
@@ -11387,6 +11564,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 LEMPSTER MT RD",
       "area": 2.62481,
       "areas": [
         2.6255028889171994
@@ -11445,6 +11623,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "64 LEMPSTER MT RD",
       "area": 1.74824,
       "areas": [
         1.7486972575266029
@@ -11503,6 +11682,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "143 NO MAIN ST",
       "area": 0.52397,
       "areas": [
         0.5241042042359797
@@ -11561,6 +11741,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2310 E WASHINGTON RD",
       "area": 0.49268,
       "areas": [
         0.483361713098581
@@ -11615,6 +11796,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2278 E WASHINGTON RD",
       "area": 0.32339,
       "areas": [
         0.32345362017266266
@@ -11661,6 +11843,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "SO MAIN ST",
       "area": 1.38741,
       "areas": [
         1.390809369787999
@@ -11715,6 +11898,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "180 BRADFORD SPRINGS RD",
       "area": 14.69755,
       "areas": [
         14.712925051346957
@@ -11789,6 +11973,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD HILLSBORO RD",
       "area": 17.46729,
       "areas": [
         17.469897882608482
@@ -11847,6 +12032,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD HILLSBORO RD",
       "area": 1.61157,
       "areas": [
         1.6118549067190646
@@ -11905,6 +12091,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.65768,
       "areas": [
         3.658324489845291
@@ -11992,6 +12179,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "PURLING BECK RD",
       "area": 0.23095,
       "areas": [
         0.2332429146382496
@@ -12046,6 +12234,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 0.16782,
       "areas": [
         0.1708012168723787
@@ -12104,6 +12293,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.4857,
       "areas": [
         0.4858255545607672
@@ -12150,6 +12340,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2399 E WASHINGTON RD",
       "area": 4.88116,
       "areas": [
         4.88715900338108
@@ -12228,6 +12419,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1173 VALLEY RD",
       "area": 0.67508,
       "areas": [
         0.6752560819768253
@@ -12274,6 +12466,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 8.7747,
       "areas": [
         8.766651582662774
@@ -12368,6 +12561,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1178 VALLEY RD",
       "area": 1.32739,
       "areas": [
         1.327153679892253
@@ -12426,6 +12620,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1200 VALLEY RD",
       "area": 0.71918,
       "areas": [
         0.7204732019054885
@@ -12476,6 +12671,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1262 VALLEY RD",
       "area": 0.59419,
       "areas": [
         0.5954412466871257
@@ -12522,6 +12718,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.68641,
       "areas": [
         0.6880668014126564
@@ -12576,6 +12773,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1253 VALLEY RD",
       "area": 0.73341,
       "areas": [
         0.7336050886755983
@@ -12630,6 +12828,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.24099,
       "areas": [
         0.2410508972263906
@@ -12676,6 +12875,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1318 VALLEY RD",
       "area": 0.28675,
       "areas": [
         0.2868264902261301
@@ -12734,6 +12934,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1476 VALLEY RD",
       "area": 0.25364,
       "areas": [
         0.25370835546201775
@@ -12780,6 +12981,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1597 VALLEY RD",
       "area": 1.42961,
       "areas": [
         1.4299656856408676
@@ -12830,6 +13032,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "34 LOOKOUT POINT RD",
       "area": 0.24939,
       "areas": [
         0.2500033259365939
@@ -12884,6 +13087,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "24 LOOKOUT POINT RD",
       "area": 0.38482,
       "areas": [
         0.22306757098690683,
@@ -12983,6 +13187,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "38 LAKEVIEW TERR",
       "area": 0.76337,
       "areas": [
         0.7635211632433397
@@ -13081,6 +13286,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2 BEECH WAY",
       "area": 0.2098,
       "areas": [
         0.20985644979806925
@@ -13135,6 +13341,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "38 BEECH WAY",
       "area": 0.44992,
       "areas": [
         0.448616454585002
@@ -13205,6 +13412,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "44 BIRCH POINT WAY",
       "area": 0.35767,
       "areas": [
         0.35742735713382273
@@ -13259,6 +13467,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 BIRCH POINT WAY",
       "area": 0.24404,
       "areas": [
         0.24402620701726285
@@ -13309,6 +13518,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "126 COVE RD",
       "area": 0.16601,
       "areas": [
         0.16605695878538498
@@ -13363,6 +13573,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1666 VALLEY RD",
       "area": 0.10281,
       "areas": [
         0.10283315623898248
@@ -13409,6 +13620,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1764 VALLEY RD",
       "area": 0.10219,
       "areas": [
         0.10221295752178168
@@ -13451,6 +13663,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1814 VALLEY RD",
       "area": 1.14631,
       "areas": [
         1.1466063609355586
@@ -13525,6 +13738,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2194 VALLEY RD",
       "area": 0.51819,
       "areas": [
         0.5183231270464389
@@ -13575,6 +13789,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2193 VALLEY RD",
       "area": 0.53694,
       "areas": [
         0.5353211402550883
@@ -13637,6 +13852,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2191 VALLEY RD",
       "area": 0.20393,
       "areas": [
         0.20254791806723266
@@ -13687,6 +13903,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2153 VALLEY RD",
       "area": 0.19255,
       "areas": [
         0.1931807800202987
@@ -13737,6 +13954,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2117 VALLEY RD",
       "area": 0.23715,
       "areas": [
         0.2368037937316301
@@ -13803,6 +14021,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2113 VALLEY RD",
       "area": 0.1864,
       "areas": [
         0.186733457125719
@@ -13861,6 +14080,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2109 VALLEY RD",
       "area": 0.18024,
       "areas": [
         0.18024592374136794
@@ -13911,6 +14131,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2090 VALLEY RD",
       "area": 0.34531,
       "areas": [
         0.34539901530018485
@@ -13965,6 +14186,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2096 VALLEY RD",
       "area": 0.16786,
       "areas": [
         0.16790060016221037
@@ -14011,6 +14233,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2168 VALLEY RD",
       "area": 0.35936,
       "areas": [
         0.3594482886847449
@@ -14057,6 +14280,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2180 VALLEY RD",
       "area": 0.35731,
       "areas": [
         0.35739958408240685
@@ -14103,6 +14327,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2188 VALLEY RD",
       "area": 0.59312,
       "areas": [
         0.5932719492943297
@@ -14153,6 +14378,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1903 VALLEY RD",
       "area": 0.82444,
       "areas": [
         0.8278137731918951
@@ -14255,6 +14481,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.41434,
       "areas": [
         0.4144280427222444
@@ -14345,6 +14572,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1827 VALLEY RD",
       "area": 0.32279,
       "areas": [
         0.32132030779936155
@@ -14435,6 +14663,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1769 VALLEY RD",
       "area": 0.21246,
       "areas": [
         0.2124205025161388
@@ -14493,6 +14722,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1763 VALLEY RD",
       "area": 0.39403,
       "areas": [
         0.3945587039948944
@@ -14575,6 +14805,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1733 VALLEY RD",
       "area": 0.4577,
       "areas": [
         0.46020014809330256
@@ -14637,6 +14868,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1701 VALLEY RD",
       "area": 0.367,
       "areas": [
         0.3668436901921397
@@ -14695,6 +14927,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1693 VALLEY RD",
       "area": 0.59401,
       "areas": [
         0.5941830566207184
@@ -14765,6 +14998,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "AYERS POND RD",
       "area": 1.13004,
       "areas": [
         1.1326709791705454
@@ -14831,6 +15065,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "372 BAILEY RD",
       "area": 2.36607,
       "areas": [
         2.3660797840267436
@@ -14885,6 +15120,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "553 MILLEN POND RD",
       "area": 3.05965,
       "areas": [
         3.057129957091885
@@ -14935,6 +15171,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "523 MILLEN POND RD",
       "area": 1.11556,
       "areas": [
         1.1158769146164995
@@ -15009,6 +15246,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "523 MILLEN POND RD",
       "area": 2.79369,
       "areas": [
         2.792038355378617
@@ -15059,6 +15297,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "553 MILLEN POND RD",
       "area": 1.35191,
       "areas": [
         1.3562486701397412
@@ -15149,6 +15388,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "339 LONG POND RD",
       "area": 0.26049,
       "areas": [
         0.26057210664717506
@@ -15195,6 +15435,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "378 WASHINGTON DR",
       "area": 5.77733,
       "areas": [
         5.778610298527712
@@ -15241,6 +15482,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "179 MADISON DR",
       "area": 0.73222,
       "areas": [
         0.7324502557699935
@@ -15291,6 +15533,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "875 VALLEY RD",
       "area": 5.1495,
       "areas": [
         5.150873987639861
@@ -15337,6 +15580,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "949 N MAIN ST",
       "area": 3.74045,
       "areas": [
         3.7414882070437314
@@ -15403,6 +15647,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "28 HAYES RD",
       "area": 0.65561,
       "areas": [
         0.6558181763183559
@@ -15453,6 +15698,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "819 N MAIN ST",
       "area": 4.34761,
       "areas": [
         4.348779911564271
@@ -15503,6 +15749,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "93 WASHINGTON HEIGHTS RD",
       "area": 2.9907,
       "areas": [
         2.984905454796179
@@ -15561,6 +15808,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "192 WASHINGTON HEIGHTS RD",
       "area": 5.24404,
       "areas": [
         5.238853698601836
@@ -15611,6 +15859,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "56 PIERCE RD",
       "area": 0.74354,
       "areas": [
         0.7437631051906118
@@ -15661,6 +15910,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "989 LEMPSTER MOUNTAIN RD",
       "area": 10.86265,
       "areas": [
         10.878770305562949
@@ -15735,6 +15985,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "980 LEMPSTER MOUNTAIN RD",
       "area": 45.12672,
       "areas": [
         45.13939140639763
@@ -15801,6 +16052,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "926 LEMPSTER MOUNTAIN RD",
       "area": 18.0139,
       "areas": [
         18.018897381840873
@@ -15859,6 +16111,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "427 OLD BURBANK RD",
       "area": 58.78132,
       "areas": [
         58.78883125677372
@@ -15989,6 +16242,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "781 LEMPSTER MOUNTAIN RD",
       "area": 2.16709,
       "areas": [
         2.1677477173700073
@@ -16043,6 +16297,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "93 TWIN BRIDGE RD",
       "area": 13.50244,
       "areas": [
         13.501445244694635
@@ -16149,6 +16404,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "215 WASHINGTON HEIGHTS RD",
       "area": 6.71587,
       "areas": [
         6.71759963699686
@@ -16199,6 +16455,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "29 WASHINGTON HEIGHTS RD",
       "area": 2.57462,
       "areas": [
         2.572124021801088
@@ -16273,6 +16530,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "121 MARYS LN",
       "area": 3.04771,
       "areas": [
         3.0485396998582495
@@ -16335,6 +16593,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "134 WASHINGTON HEIGHTS RD",
       "area": 5.04307,
       "areas": [
         5.044451898398411
@@ -16389,6 +16648,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "220 WASHINGTON HEIGHTS RD",
       "area": 5.10794,
       "areas": [
         5.109313230061729
@@ -16447,6 +16707,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "783 N MAIN ST",
       "area": 4.35668,
       "areas": [
         4.3578376720509135
@@ -16497,6 +16758,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "749 N MAIN ST",
       "area": 22.84902,
       "areas": [
         22.848616228244598
@@ -16587,6 +16849,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "576 N MAIN ST",
       "area": 36.45492,
       "areas": [
         36.452389277611786
@@ -16729,6 +16992,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "658 N MAIN ST",
       "area": 0.82203,
       "areas": [
         0.8222470172218274
@@ -16796,6 +17060,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "736 N MAIN ST",
       "area": 1.87909,
       "areas": [
         1.8795881224735205
@@ -16855,6 +17120,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1052 LEMPSTER MOUNTAIN RD",
       "area": 5.27523,
       "areas": [
         5.2830078997404835
@@ -16917,6 +17183,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "828 LEMPSTER MOUNTAIN RD",
       "area": 3.10043,
       "areas": [
         3.101301364733972
@@ -16967,6 +17234,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "786 LEMPSTER MOUNTAIN RD",
       "area": 3.20318,
       "areas": [
         3.204071551583208
@@ -17017,6 +17285,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1180 HALFMOON POND RD",
       "area": 7.20022,
       "areas": [
         7.185480356832781
@@ -17075,6 +17344,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1227 HALFMOON POND RD",
       "area": 34.02237,
       "areas": [
         34.02756285973082
@@ -17185,6 +17455,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1132 HALFMOON POND RD",
       "area": 4.91061,
       "areas": [
         4.911793419549836
@@ -17235,6 +17506,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1166 HALFMOON POND RD",
       "area": 21.27034,
       "areas": [
         21.27535393571184
@@ -17349,6 +17621,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1262 HALFMOON POND RD",
       "area": 9.205,
       "areas": [
         9.214199933674793
@@ -17407,6 +17680,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1412 HALFMOON POND RD",
       "area": 127.95138,
       "areas": [
         83.95119451877926,
@@ -17742,6 +18016,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1632 HALFMOON POND RD",
       "area": 8.99908,
       "areas": [
         9.001221689051523
@@ -17808,6 +18083,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 MARTIN RD",
       "area": 4.59913,
       "areas": [
         4.600265901427482
@@ -17882,6 +18158,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "127 MARTIN RD",
       "area": 13.05868,
       "areas": [
         13.061719479521377
@@ -17956,6 +18233,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "179 MARTIN RD",
       "area": 7.86168,
       "areas": [
         7.863524649006746
@@ -18022,6 +18300,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "211 MARTIN RD",
       "area": 7.05488,
       "areas": [
         7.056484648922164
@@ -18076,6 +18355,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "317 MARTIN RD",
       "area": 7.497,
       "areas": [
         7.498670296006328
@@ -18138,6 +18418,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "312 MARTIN RD",
       "area": 12.90172,
       "areas": [
         12.901855925031276
@@ -18196,6 +18477,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "202 MARTIN RD",
       "area": 9.36502,
       "areas": [
         9.371384944309133
@@ -18274,6 +18556,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1618 HALFMOON POND RD",
       "area": 0.09479,
       "areas": [
         0.09480924683805285
@@ -18320,6 +18603,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1307 HALFMOON POND RD",
       "area": 7.62035,
       "areas": [
         7.625403878191934
@@ -18394,6 +18678,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1129 HALFMOON POND RD",
       "area": 2.02113,
       "areas": [
         2.0216144333683066
@@ -18452,6 +18737,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "484 AYERS POND RD",
       "area": 29.83735,
       "areas": [
         29.84640155716223
@@ -18522,6 +18808,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "410 AYERS POND RD",
       "area": 55.26563,
       "areas": [
         55.2747869363498
@@ -18632,6 +18919,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "269 DEER VALLEY RD",
       "area": 23.6123,
       "areas": [
         23.614596005578058
@@ -18706,6 +18994,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "161 BRADFORD SPRINGS RD",
       "area": 4.43641,
       "areas": [
         4.438566121938021
@@ -18768,6 +19057,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2402 E WASHINGTON RD",
       "area": 56.00002,
       "areas": [
         48.36403058239,
@@ -18915,6 +19205,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2494 E WASHINGTON RD",
       "area": 20.75134,
       "areas": [
         20.76310614509695
@@ -19005,6 +19296,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "182 AYERS POND RD",
       "area": 0.71519,
       "areas": [
         0.7153292648163481
@@ -19051,6 +19343,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2528 E WASHINGTON RD",
       "area": 8.4439,
       "areas": [
         8.445464953942759
@@ -19133,6 +19426,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2581 E WASHINGTON RD",
       "area": 5.68169,
       "areas": [
         5.682782660543454
@@ -19199,6 +19493,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2616 E WASHINGTON RD",
       "area": 2.56176,
       "areas": [
         2.5611288286815386
@@ -19261,6 +19556,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "100 SUGAR HOUSE RD",
       "area": 2.19927,
       "areas": [
         2.199713050286738
@@ -19311,6 +19607,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "325 AYERS POND RD",
       "area": 4.42423,
       "areas": [
         2.5782184059361586,
@@ -19454,6 +19751,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "77 BERGWEG RD",
       "area": 5.33962,
       "areas": [
         5.340669288563087
@@ -19508,6 +19806,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "693 AYERS POND RD",
       "area": 45.96053,
       "areas": [
         45.98787593648351
@@ -19742,6 +20041,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "663 AYERS POND RD",
       "area": 15.18063,
       "areas": [
         15.180477118116436
@@ -19844,6 +20144,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "177 ULRICH RD",
       "area": 163.39379,
       "areas": [
         163.4391143802314
@@ -20190,6 +20491,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "81 SANDY KNOLLS RD",
       "area": 59.33249,
       "areas": [
         59.34432024048556
@@ -20356,6 +20658,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "51 SANDY KNOLLS RD",
       "area": 2.78414,
       "areas": [
         2.784695763313268
@@ -20410,6 +20713,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "118 LOVELL MOUNTAIN RD",
       "area": 11.19671,
       "areas": [
         11.213694013224965
@@ -20540,6 +20844,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "76 BERGWEG RD",
       "area": 6.50552,
       "areas": [
         6.506820385266152
@@ -20602,6 +20907,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2734 E WASHINGTON RD",
       "area": 0.55139,
       "areas": [
         0.551501024290797
@@ -20652,6 +20958,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "57 LOVELL MOUNTAIN RD",
       "area": 5.24599,
       "areas": [
         5.249450992240906
@@ -20742,6 +21049,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "30 SUGAR HOUSE RD",
       "area": 5.25206,
       "areas": [
         5.2531696176482425
@@ -20796,6 +21104,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "95 LOVELL MOUNTAIN RD",
       "area": 2.28389,
       "areas": [
         2.284358654672631
@@ -20874,6 +21183,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "123 LOVELL MOUNTAIN RD",
       "area": 5.05703,
       "areas": [
         5.050835950126853
@@ -20952,6 +21262,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "126 SUGAR HOUSE RD",
       "area": 2.96183,
       "areas": [
         2.9624401197232264
@@ -20998,6 +21309,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2700 E WASHINGTON RD",
       "area": 3.81065,
       "areas": [
         3.809795143601885
@@ -21052,6 +21364,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1025 ASHUELOT DR",
       "area": 12.00134,
       "areas": [
         12.00649048550702
@@ -21154,6 +21467,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1037 ASHUELOT DR",
       "area": 1.7884,
       "areas": [
         1.7862715574034278
@@ -21212,6 +21526,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "995 ASHUELOT DR",
       "area": 1.87966,
       "areas": [
         1.8802424543639207
@@ -21270,6 +21585,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "973 ASHUELOT DR",
       "area": 3.61419,
       "areas": [
         3.618476207051269
@@ -21332,6 +21648,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "959 ASHUELOT DR",
       "area": 7.01089,
       "areas": [
         7.008354085754862
@@ -21406,6 +21723,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "917 ASHUELOT DR",
       "area": 1.42261,
       "areas": [
         1.4220873479079688
@@ -21460,6 +21778,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "884 ASHUELOT DR",
       "area": 3.02646,
       "areas": [
         3.027395266555359
@@ -21514,6 +21833,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "16 MCKINNON RD",
       "area": 2.12036,
       "areas": [
         2.1242090668828846
@@ -21728,6 +22048,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "795 ASHUELOT DR",
       "area": 1.29812,
       "areas": [
         1.2985261984928071
@@ -21782,6 +22103,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "785 ASHUELOT DR",
       "area": 1.14897,
       "areas": [
         1.1467272976711098
@@ -21832,6 +22154,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "861 ASHUELOT DR",
       "area": 1.80146,
       "areas": [
         1.8020156530985296
@@ -21898,6 +22221,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "851 ASHUELOT DR",
       "area": 1.75167,
       "areas": [
         1.7522121807540736
@@ -21956,6 +22280,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "827 ASHUELOT DR",
       "area": 1.52558,
       "areas": [
         1.5260394881780495
@@ -22014,6 +22339,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "821 ASHUELOT DR",
       "area": 1.29632,
       "areas": [
         1.298500561011923
@@ -22068,6 +22394,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "90 OLD BURBANK RD",
       "area": 4.85028,
       "areas": [
         4.850217983337304
@@ -22150,6 +22477,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "141 OLD BURBANK RD",
       "area": 47.77004,
       "areas": [
         47.80762544584201
@@ -22336,6 +22664,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "790 MILLEN POND RD",
       "area": 29.98815,
       "areas": [
         30.022762980391146,
@@ -22489,6 +22818,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "304 OLD MARLOW RD",
       "area": 13.08357,
       "areas": [
         13.08620658115601
@@ -22583,6 +22913,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "391 LEMPSTER MOUNTAIN RD",
       "area": 19.31298,
       "areas": [
         19.319730808237082
@@ -22721,6 +23052,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "232 LEMPSTER MOUNTAIN RD",
       "area": 13.59168,
       "areas": [
         13.597195891767397
@@ -22803,6 +23135,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "563 N MAIN ST",
       "area": 0.49595,
       "areas": [
         0.5070642014413473
@@ -22857,6 +23190,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "276 N MAIN ST",
       "area": 16.67374,
       "areas": [
         16.686148251732153
@@ -22919,6 +23253,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "38 AMES RD",
       "area": 2.37217,
       "areas": [
         2.3785980930958663
@@ -23009,6 +23344,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "7 AMES RD",
       "area": 2.76668,
       "areas": [
         2.759313797857856
@@ -23071,6 +23407,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "313 OLD MARLOW RD",
       "area": 40.21219,
       "areas": [
         40.23058913453086
@@ -23213,6 +23550,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "284 MILLEN POND RD",
       "area": 7.82777,
       "areas": [
         7.830258694359914
@@ -23287,6 +23625,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "724 MILLEN POND RD",
       "area": 0.95369,
       "areas": [
         0.9542556077839884
@@ -23337,6 +23676,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "207 MILLEN POND RD",
       "area": 5.17989,
       "areas": [
         5.174145225050377
@@ -23439,6 +23779,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "400 FAXON HILL RD",
       "area": 49.81238,
       "areas": [
         49.83400897610058
@@ -23625,6 +23966,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "394 FAXON HILL RD",
       "area": 1.84176,
       "areas": [
         1.8328669225622205
@@ -23675,6 +24017,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "453 FAXON HILL RD",
       "area": 22.8249,
       "areas": [
         22.835861424565966
@@ -23777,6 +24120,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "393 FAXON HILL RD",
       "area": 12.14364,
       "areas": [
         12.152481922189732
@@ -23859,6 +24203,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "96 VALLEY RD",
       "area": 1.69701,
       "areas": [
         1.6967687774951734
@@ -23909,6 +24254,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "59 OLD MARLOW RD",
       "area": 1.56832,
       "areas": [
         1.5773274751358617
@@ -23979,6 +24325,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "83 OLD MARLOW RD",
       "area": 0.56225,
       "areas": [
         0.5631142344184682
@@ -24045,6 +24392,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "690 MILLEN POND RD",
       "area": 2.08518,
       "areas": [
         2.085784608007118
@@ -24111,6 +24459,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "217 HALFMOON POND RD",
       "area": 6.75654,
       "areas": [
         6.765420538171341
@@ -24189,6 +24538,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "181 HALFMOON POND RD",
       "area": 3.07129,
       "areas": [
         1.8700824347349922,
@@ -24288,6 +24638,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "291 HALFMOON POND RD",
       "area": 8.51577,
       "areas": [
         8.5179212650065
@@ -24394,6 +24745,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "415 HALFMOON POND RD",
       "area": 0.3202,
       "areas": [
         0.3202787441633543
@@ -24444,6 +24796,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "437 HALFMOON POND RD",
       "area": 0.82134,
       "areas": [
         0.8215456643448644
@@ -24490,6 +24843,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "807 HALFMOON POND RD",
       "area": 1.94479,
       "areas": [
         1.7938570913924623,
@@ -24688,6 +25042,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "855 HALFMOON POND RD",
       "area": 0.54046,
       "areas": [
         0.5404881646478303
@@ -24762,6 +25117,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "863 HALFMOON POND RD",
       "area": 37.27573,
       "areas": [
         37.27396698854807
@@ -25092,6 +25448,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1045 HALFMOON POND RD",
       "area": 3.06258,
       "areas": [
         3.0633173449742013
@@ -25138,6 +25495,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "770 HALFMOON POND RD",
       "area": 89.48239,
       "areas": [
         89.50313466921297
@@ -25336,6 +25694,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "56 JEFFERSON DR",
       "area": 0.67112,
       "areas": [
         0.6713318267384301
@@ -25382,6 +25741,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "729 WASHINGTON DR",
       "area": 0.53678,
       "areas": [
         0.5367553955188035
@@ -25436,6 +25796,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "512 HALFMOON POND RD",
       "area": 2.70152,
       "areas": [
         2.699997644755377
@@ -25506,6 +25867,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "114 MILL ST",
       "area": 5.08779,
       "areas": [
         5.089033770571249
@@ -25588,6 +25950,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "835 WASHINGTON DR",
       "area": 1.26035,
       "areas": [
         1.2626926283317121
@@ -25658,6 +26021,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "783 WASHINGTON DR",
       "area": 0.7606,
       "areas": [
         0.7607680598905847
@@ -25708,6 +26072,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "771 WASHINGTON DR",
       "area": 0.70996,
       "areas": [
         0.7101239943848576
@@ -25754,6 +26119,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "763 WASHINGTON DR",
       "area": 0.77137,
       "areas": [
         0.7725913559415524
@@ -25808,6 +26174,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "743 WASHINGTON DR",
       "area": 1.47989,
       "areas": [
         1.4802191696680376
@@ -25870,6 +26237,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "735 WASHINGTON DR",
       "area": 0.62896,
       "areas": [
         0.6290972099845284
@@ -25924,6 +26292,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "715 WASHINGTON DR",
       "area": 0.40272,
       "areas": [
         0.40262803531789765
@@ -25982,6 +26351,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "693 WASHINGTON DR",
       "area": 0.46883,
       "areas": [
         0.46790994300067706
@@ -26032,6 +26402,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "685 WASHINGTON DR",
       "area": 0.88685,
       "areas": [
         0.88588518965468
@@ -26098,6 +26469,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "677 WASHINGTON DR",
       "area": 0.48155,
       "areas": [
         0.48165372541886703
@@ -26152,6 +26524,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "20 WALNUT CIR",
       "area": 0.6556,
       "areas": [
         0.6557417107238809
@@ -26226,6 +26599,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 WALNUT CIR",
       "area": 0.99581,
       "areas": [
         0.9912717107015544
@@ -26344,6 +26718,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "653 WASHINGTON DR",
       "area": 0.72957,
       "areas": [
         0.7287293827466874
@@ -26410,6 +26785,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "633 WASHINGTON DR",
       "area": 0.61464,
       "areas": [
         0.6151753282764832
@@ -26472,6 +26848,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "625 WASHINGTON DR",
       "area": 0.34242,
       "areas": [
         0.34249072006649933
@@ -26530,6 +26907,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "611 WASHINGTON DR",
       "area": 0.91194,
       "areas": [
         0.9120903917620335
@@ -26612,6 +26990,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "581 WASHINGTON DR",
       "area": 0.47813,
       "areas": [
         0.4782366014617372
@@ -26674,6 +27053,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "561 WASHINGTON DR",
       "area": 0.69224,
       "areas": [
         0.6929574280865909
@@ -26732,6 +27112,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "541 WASHINGTON DR",
       "area": 0.29883,
       "areas": [
         0.29889871887254515
@@ -26782,6 +27163,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "533 WASHINGTON DR",
       "area": 0.40116,
       "areas": [
         0.40150837505394427
@@ -26832,6 +27214,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "515 WASHINGTON DR",
       "area": 1.57362,
       "areas": [
         1.572686175779243
@@ -26910,6 +27293,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "499 WASHINGTON DR",
       "area": 0.53097,
       "areas": [
         0.5310925406247872
@@ -26964,6 +27348,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "378 WASHINGTON DR",
       "area": 0.496,
       "areas": [
         0.49556634821578954
@@ -27018,6 +27403,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "455 WASHINGTON DR",
       "area": 0.70355,
       "areas": [
         0.701410500314723
@@ -27076,6 +27462,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "453 WASHINGTON DR",
       "area": 0.52813,
       "areas": [
         0.5282533223821285
@@ -27122,6 +27509,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "439 WASHINGTON DR",
       "area": 1.0377,
       "areas": [
         1.0374568422107155
@@ -27192,6 +27580,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "355 WASHINGTON DR",
       "area": 1.30063,
       "areas": [
         1.305334961589634
@@ -27282,6 +27671,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "305 WASHINGTON DR",
       "area": 0.57791,
       "areas": [
         0.5788388498751305
@@ -27332,6 +27722,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "249 WASHINGTON DR",
       "area": 0.42424,
       "areas": [
         0.4243314682333193
@@ -27410,6 +27801,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "231 WASHINGTON DR",
       "area": 4.03322,
       "areas": [
         4.033104921584409
@@ -27488,6 +27880,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "394 WASHINGTON DR",
       "area": 4.77919,
       "areas": [
         4.781506539567072
@@ -27542,6 +27935,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "416 WASHINGTON DR",
       "area": 3.73616,
       "areas": [
         3.7369293578538367
@@ -27596,6 +27990,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "488 WASHINGTON DR",
       "area": 3.80758,
       "areas": [
         3.8084178051042112
@@ -27646,6 +28041,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "574 WASHINGTON DR",
       "area": 2.87199,
       "areas": [
         2.8726667490332485
@@ -27692,6 +28088,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "608 WASHINGTON DR",
       "area": 2.66106,
       "areas": [
         2.6616584807015573
@@ -27742,6 +28139,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "632 WASHINGTON DR",
       "area": 2.97692,
       "areas": [
         2.9775724292821146
@@ -27792,6 +28190,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "716 WASHINGTON DR",
       "area": 3.24569,
       "areas": [
         3.2464327391995926
@@ -27838,6 +28237,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "756 WASHINGTON DR",
       "area": 3.32877,
       "areas": [
         3.3295150478954163
@@ -27896,6 +28296,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "780 WASHINGTON DR",
       "area": 3.24701,
       "areas": [
         3.2477244506279668
@@ -27946,6 +28347,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "139 WASHINGTON DR",
       "area": 12.98922,
       "areas": [
         12.994908456285113
@@ -28092,6 +28494,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "158 WINDING WAY",
       "area": 7.81925,
       "areas": [
         7.826240669841142
@@ -28190,6 +28593,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "156 WINDING WAY",
       "area": 6.40594,
       "areas": [
         6.40738571483422
@@ -28284,6 +28688,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "108 ISLAND POND RD",
       "area": 4.49812,
       "areas": [
         4.495195814161828
@@ -28442,6 +28847,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "77 ISLAND POND RD",
       "area": 0.28479,
       "areas": [
         0.2847659709456738
@@ -28512,6 +28918,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "339 WASHINGTON DR",
       "area": 0.78215,
       "areas": [
         0.7825595701045837
@@ -28582,6 +28989,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3068 E WASHINGTON RD",
       "area": 4.91911,
       "areas": [
         4.914930826891757
@@ -28632,6 +29040,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "151 MILL ST",
       "area": 8.65834,
       "areas": [
         8.65861259617434
@@ -29050,6 +29459,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "148 HALFMOON POND RD",
       "area": 5.00731,
       "areas": [
         5.008605539497412
@@ -29112,6 +29522,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "242 S MAIN ST",
       "area": 1.49794,
       "areas": [
         1.4970293513647317
@@ -29154,6 +29565,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "83 VALLEY RD",
       "area": 2.98459,
       "areas": [
         2.9772416525206205
@@ -29208,6 +29620,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "117 VALLEY RD",
       "area": 2.59686,
       "areas": [
         2.5975358705682865
@@ -29258,6 +29671,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "430 HALFMOON POND RD",
       "area": 1.10488,
       "areas": [
         1.1087399467446017
@@ -29328,6 +29742,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "108 GRANT RD",
       "area": 1.51579,
       "areas": [
         1.5162567262164282
@@ -29382,6 +29797,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3170 E WASHINGTON RD",
       "area": 8.55472,
       "areas": [
         8.556465794948787
@@ -29472,6 +29888,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3272 E WASHINGTON RD",
       "area": 192.19318,
       "areas": [
         192.24027137491345
@@ -29586,6 +30003,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3430 E WASHINGTON RD",
       "area": 7.8044,
       "areas": [
         7.806017754634486
@@ -29672,6 +30090,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3554 E WASHINGTON RD",
       "area": 22.62511,
       "areas": [
         22.63510984783305
@@ -29930,6 +30349,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "683 ASHUELOT DR",
       "area": 3.1421,
       "areas": [
         3.1434989054494045
@@ -29988,6 +30408,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3545 E WASHINGTON RD",
       "area": 5.5136,
       "areas": [
         5.518992490740601
@@ -30142,6 +30563,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3661 E WASHINGTON RD",
       "area": 2.71442,
       "areas": [
         2.7150059888822926
@@ -30244,6 +30666,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3587 E WASHINGTON RD",
       "area": 48.14239,
       "areas": [
         48.15852891670937
@@ -30426,6 +30849,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3245 E WASHINGTON RD",
       "area": 3.98726,
       "areas": [
         3.9796276250264535
@@ -30480,6 +30904,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3145 E WASHINGTON RD",
       "area": 62.97518,
       "areas": [
         62.97691718654837
@@ -30586,6 +31011,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3015 E WASHINGTON RD",
       "area": 0.69097,
       "areas": [
         0.6867126429144822
@@ -30636,6 +31062,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "20 HARRISON RD",
       "area": 2.42528,
       "areas": [
         2.42604011336026
@@ -30706,6 +31133,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3133 E WASHINGTON RD",
       "area": 58.93898,
       "areas": [
         58.883405536492454
@@ -30980,6 +31408,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2667 E WASHINGTON RD",
       "area": 0.9869,
       "areas": [
         0.9870974580422689
@@ -31030,6 +31459,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "526 ASHUELOT DR",
       "area": 1.46112,
       "areas": [
         1.461579889090405
@@ -31076,6 +31506,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2607 E WASHINGTON RD",
       "area": 7.13169,
       "areas": [
         7.133089705006999
@@ -31146,6 +31577,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "3094 E WASHINGTON RD",
       "area": 4.09313,
       "areas": [
         4.0834730533068715
@@ -31204,6 +31636,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3112 E WASHINGTON RD",
       "area": 3.97965,
       "areas": [
         3.9804500982451314
@@ -31282,6 +31715,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3000 E WASHINGTON RD",
       "area": 6.0283,
       "areas": [
         6.0166364799657215
@@ -31332,6 +31766,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "82 HARRISON RD",
       "area": 5.35953,
       "areas": [
         5.362999183999289
@@ -31430,6 +31865,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "158 HARRISON RD",
       "area": 1.21227,
       "areas": [
         1.2117835857935388
@@ -31500,6 +31936,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "166 HARRISON RD",
       "area": 1.16556,
       "areas": [
         1.1659268016322542
@@ -31566,6 +32003,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "182 HARRISON RD",
       "area": 2.4367,
       "areas": [
         2.4359785193352472
@@ -31652,6 +32090,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "135 HARRISON RD",
       "area": 1.03389,
       "areas": [
         1.034217021785202
@@ -31710,6 +32149,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "117 HARRISON RD",
       "area": 1.1133,
       "areas": [
         1.1136538239727312
@@ -31760,6 +32200,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "71 HARRISON RD",
       "area": 1.12056,
       "areas": [
         1.1209150197408766
@@ -31810,6 +32251,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "23 HARRISON RD",
       "area": 2.57245,
       "areas": [
         1.4480840452858734,
@@ -31897,6 +32339,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "585 ASHUELOT DR",
       "area": 2.49323,
       "areas": [
         2.4940054828001084
@@ -31963,6 +32406,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "547 ASHUELOT DR",
       "area": 1.20752,
       "areas": [
         1.2078938792498608
@@ -32013,6 +32457,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "562 ASHUELOT DR",
       "area": 2.84521,
       "areas": [
         2.846100276106216
@@ -32075,6 +32520,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "652 ASHUELOT DR",
       "area": 1.21648,
       "areas": [
         1.213586421327191
@@ -32141,6 +32587,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "676 ASHUELOT DR",
       "area": 1.41268,
       "areas": [
         1.4131182407626
@@ -32199,6 +32646,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "116 TAYLOR CIR",
       "area": 3.00359,
       "areas": [
         3.004511203929551
@@ -32249,6 +32697,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "40 TAYLOR CIR",
       "area": 3.31073,
       "areas": [
         3.315110756072625
@@ -32307,6 +32756,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "10 TAYLOR CIR",
       "area": 2.80677,
       "areas": [
         2.8076358661876575
@@ -32385,6 +32835,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "219 STOWELL RD",
       "area": 1.59981,
       "areas": [
         1.6003135141606353
@@ -32439,6 +32890,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 GRANT RD",
       "area": 1.28275,
       "areas": [
         1.2831505140267154
@@ -32497,6 +32949,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "80 GRANT RD",
       "area": 1.39088,
       "areas": [
         1.3941790179789457
@@ -32551,6 +33004,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "468 ASHUELOT DR",
       "area": 1.19128,
       "areas": [
         1.1916510024768163
@@ -32601,6 +33055,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "89 GRANT RD",
       "area": 2.3549,
       "areas": [
         2.377991351007863
@@ -32655,6 +33110,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "107 STOWELL RD",
       "area": 5.06067,
       "areas": [
         5.051777504907246
@@ -32725,6 +33181,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "83 STOWELL RD",
       "area": 1.18886,
       "areas": [
         1.1892209061013514
@@ -32787,6 +33244,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 JEFFERSON DR",
       "area": 0.64844,
       "areas": [
         0.6486366295128949
@@ -32833,6 +33291,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "84 JEFFERSON DR",
       "area": 1.3436,
       "areas": [
         1.344013305035777
@@ -32887,6 +33346,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "173 JEFFERSON DR",
       "area": 0.85613,
       "areas": [
         0.8563948813231588
@@ -32937,6 +33397,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "125 JEFFERSON DR",
       "area": 0.75069,
       "areas": [
         0.7495387124478498
@@ -32983,6 +33444,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "85 JEFFERSON DR",
       "area": 0.84878,
       "areas": [
         0.8490460000983491
@@ -33033,6 +33495,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "49 JEFFERSON DR",
       "area": 0.7871,
       "areas": [
         0.7873417708659961
@@ -33083,6 +33546,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "77 STOWELL RD",
       "area": 2.01112,
       "areas": [
         2.0117377599909307
@@ -33157,6 +33621,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "462 PRESIDENTIAL DR",
       "area": 1.46516,
       "areas": [
         1.4656091016641757
@@ -33211,6 +33676,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 MADISON DR",
       "area": 0.776,
       "areas": [
         0.7762414904752534
@@ -33261,6 +33727,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "78 MADISON DR",
       "area": 0.76801,
       "areas": [
         0.7682462201177699
@@ -33311,6 +33778,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "128 MADISON DR",
       "area": 1.40275,
       "areas": [
         1.4031804861765036
@@ -33373,6 +33841,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "150 MADISON DR",
       "area": 1.31321,
       "areas": [
         1.3128052336535176
@@ -33427,6 +33896,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "145 MADISON DR",
       "area": 2.21018,
       "areas": [
         2.2062459872437845
@@ -33477,6 +33947,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "53 MADISON DR",
       "area": 0.84069,
       "areas": [
         0.8409520517334634
@@ -33527,6 +33998,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "616 PRESIDENTIAL DR",
       "area": 2.03357,
       "areas": [
         2.0342065494597406
@@ -33606,6 +34078,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "630 PRESIDENTIAL DR",
       "area": 0.67642,
       "areas": [
         0.6766259864306857
@@ -33656,6 +34129,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "642 PRESIDENTIAL DR",
       "area": 0.66715,
       "areas": [
         0.6673559992383283
@@ -33706,6 +34180,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "682 PRESIDENTIAL DR",
       "area": 0.73378,
       "areas": [
         0.7340102792545812
@@ -33752,6 +34227,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "314 ASHUELOT DR",
       "area": 0.81763,
       "areas": [
         0.8178873111640584
@@ -33802,6 +34278,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "292 ASHUELOT DR",
       "area": 0.84852,
       "areas": [
         0.8487838694080453
@@ -33848,6 +34325,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "278 ASHUELOT DR",
       "area": 0.93776,
       "areas": [
         0.9380499033650015
@@ -33894,6 +34372,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "258 ASHUELOT DR",
       "area": 0.86187,
       "areas": [
         0.862140161147174
@@ -33952,6 +34431,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "377 ASHUELOT DR",
       "area": 1.2276,
       "areas": [
         1.231885209205047
@@ -34010,6 +34490,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "351 ASHUELOT DR",
       "area": 0.65802,
       "areas": [
         0.6582315606905431
@@ -34060,6 +34541,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "341 ASHUELOT DR",
       "area": 0.71765,
       "areas": [
         0.7178716287144755
@@ -34114,6 +34596,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "327 ASHUELOT DR",
       "area": 0.62928,
       "areas": [
         0.6294784192251065
@@ -34160,6 +34643,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "315 ASHUELOT DR",
       "area": 0.69421,
       "areas": [
         0.6944295719198782
@@ -34210,6 +34694,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "291 ASHUELOT DR",
       "area": 0.69428,
       "areas": [
         0.6940413502708864
@@ -34260,6 +34745,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "283 ASHUELOT DR",
       "area": 0.71032,
       "areas": [
         0.7105450813585865
@@ -34310,6 +34796,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "265 ASHUELOT DR",
       "area": 0.63105,
       "areas": [
         0.631243153707717
@@ -34360,6 +34847,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "263 ASHUELOT DR",
       "area": 3.05673,
       "areas": [
         3.0555024565960758
@@ -34462,6 +34950,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "22 HARDING RD",
       "area": 0.7144,
       "areas": [
         0.7164847217221019
@@ -34508,6 +34997,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "237 ASHUELOT DR",
       "area": 0.66849,
       "areas": [
         0.6686991838802258
@@ -34562,6 +35052,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "223 ASHUELOT DR",
       "area": 0.65685,
       "areas": [
         0.6607103621561212
@@ -34612,6 +35103,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "215 ASHUELOT DR",
       "area": 0.69918,
       "areas": [
         0.6979493230028692
@@ -34662,6 +35154,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "193 ASHUELOT DR",
       "area": 0.65921,
       "areas": [
         0.6557671747714643
@@ -34716,6 +35209,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "157 ASHUELOT DR",
       "area": 1.61449,
       "areas": [
         1.614990621900936
@@ -34794,6 +35288,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "87 ASHUELOT DR",
       "area": 0.98718,
       "areas": [
         0.9859172445165064
@@ -34848,6 +35343,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "65 ASHUELOT DR",
       "area": 0.96302,
       "areas": [
         0.9633164176387206
@@ -34902,6 +35398,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "53 ASHUELOT DR",
       "area": 0.90605,
       "areas": [
         0.9063274086679852
@@ -34952,6 +35449,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "21 ASHUELOT DR",
       "area": 0.97951,
       "areas": [
         0.9798116383994235
@@ -35002,6 +35500,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "26 VAN BUREN CIR",
       "area": 0.81129,
       "areas": [
         0.8110627674882116
@@ -35084,6 +35583,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "29 VAN BUREN CIR",
       "area": 0.61962,
       "areas": [
         0.6185709301438662
@@ -35154,6 +35654,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "173 MCKINLEY DR",
       "area": 0.75697,
       "areas": [
         0.7572009430178446
@@ -35212,6 +35713,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "147 MCKINLEY DR",
       "area": 1.23478,
       "areas": [
         1.2348036901114066
@@ -35274,6 +35776,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "105 MCKINLEY DR",
       "area": 0.70179,
       "areas": [
         0.7020073108454122
@@ -35320,6 +35823,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 GARFIELD RD",
       "area": 0.97263,
       "areas": [
         0.972933555128984
@@ -35374,6 +35878,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "86 GARFIELD RD",
       "area": 0.89017,
       "areas": [
         0.891842913384461
@@ -35420,6 +35925,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "224 ASHUELOT DR",
       "area": 0.75699,
       "areas": [
         0.757230458986927
@@ -35466,6 +35972,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 TAFT RD",
       "area": 0.79563,
       "areas": [
         0.7958823762960333
@@ -35516,6 +36023,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 TAFT RD",
       "area": 0.72972,
       "areas": [
         0.7299502152806339
@@ -35566,6 +36074,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "14 TAFT RD",
       "area": 0.90357,
       "areas": [
         0.9038497993295208
@@ -35612,6 +36121,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "631 PRESIDENTIAL DR",
       "area": 0.78639,
       "areas": [
         0.7866302442352088
@@ -35658,6 +36168,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "55 TAFT RD",
       "area": 1.36489,
       "areas": [
         1.3656787303608011
@@ -35708,6 +36219,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "188 ASHUELOT DR",
       "area": 0.80141,
       "areas": [
         0.8016648876748297
@@ -35754,6 +36266,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "623 PRESIDENTIAL DR",
       "area": 0.72886,
       "areas": [
         0.7290822683081349
@@ -35804,6 +36317,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "29 HAYES RD",
       "area": 0.65661,
       "areas": [
         0.6568118418013827
@@ -35854,6 +36368,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "67 HAYES RD",
       "area": 1.46042,
       "areas": [
         1.460873187215891
@@ -35924,6 +36439,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "50 HARDING RD",
       "area": 0.72539,
       "areas": [
         0.7256160293290869
@@ -35974,6 +36490,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "47 HARDING RD",
       "area": 0.75843,
       "areas": [
         0.7586686941029441
@@ -36020,6 +36537,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "108 ASHUELOT DR",
       "area": 0.77883,
       "areas": [
         0.7790706013352785
@@ -36066,6 +36584,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "96 ASHUELOT DR",
       "area": 0.73345,
       "areas": [
         0.733679408840914
@@ -36124,6 +36643,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "36 ASHUELOT DR",
       "area": 1.72037,
       "areas": [
         1.7209000000630719
@@ -36174,6 +36694,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "10 ASHUELOT DR",
       "area": 0.76431,
       "areas": [
         0.7645477904757833
@@ -36228,6 +36749,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "116 MCKINLEY DR",
       "area": 0.83237,
       "areas": [
         0.8326257472397017
@@ -36278,6 +36800,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "72 MCKINLEY DR",
       "area": 1.25703,
       "areas": [
         1.2574133385672617
@@ -36340,6 +36863,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "38 MCKINLEY DR",
       "area": 1.7125,
       "areas": [
         1.7130184803849686
@@ -36406,6 +36930,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "28 MCKINLEY DR",
       "area": 0.82606,
       "areas": [
         0.8312075875186294
@@ -36456,6 +36981,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "98 ADAMS DR",
       "area": 0.78462,
       "areas": [
         0.7848525888349256
@@ -36514,6 +37040,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "126 ADAMS DR",
       "area": 0.88324,
       "areas": [
         0.8835099101394779
@@ -36572,6 +37099,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "23 MCKINLEY DR",
       "area": 0.84547,
       "areas": [
         0.8398825544657803
@@ -36618,6 +37146,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 MONROE CIR",
       "area": 0.76899,
       "areas": [
         0.7692250866576649
@@ -36668,6 +37197,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "31 MONROE CIR",
       "area": 0.82851,
       "areas": [
         0.8287622376973965
@@ -36722,6 +37252,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "51 LINCOLN DR",
       "area": 0.76909,
       "areas": [
         0.7693272028484152
@@ -36780,6 +37311,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "111 LINCOLN DR",
       "area": 1.40944,
       "areas": [
         1.409863665010639
@@ -36838,6 +37370,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "141 LINCOLN DR",
       "area": 1.75162,
       "areas": [
         1.7521571383874155
@@ -36896,6 +37429,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "207 LINCOLN DR",
       "area": 0.80914,
       "areas": [
         0.8093915938004299
@@ -36946,6 +37480,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "219 LINCOLN DR",
       "area": 0.87459,
       "areas": [
         0.874859913171855
@@ -36996,6 +37531,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "232 LINCOLN DR",
       "area": 0.63287,
       "areas": [
         0.6330613822639335
@@ -37046,6 +37582,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "210 LINCOLN DR",
       "area": 0.68645,
       "areas": [
         0.6866600422200693
@@ -37096,6 +37633,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "152 LINCOLN DR",
       "area": 0.65703,
       "areas": [
         0.6600362387860543
@@ -37142,6 +37680,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "132 LINCOLN DR",
       "area": 0.67864,
       "areas": [
         0.678846696147234
@@ -37192,6 +37731,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "116 LINCOLN DR",
       "area": 0.71421,
       "areas": [
         0.7144250588257081
@@ -37242,6 +37782,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "76 LINCOLN DR",
       "area": 0.85471,
       "areas": [
         0.8549695718417998
@@ -37288,6 +37829,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "70 LINCOLN DR",
       "area": 0.80501,
       "areas": [
         0.8052576092415726
@@ -37338,6 +37880,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 LINCOLN DR",
       "area": 1.82795,
       "areas": [
         1.82850184825847
@@ -37412,6 +37955,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 CLEVELAND CIR",
       "area": 1.13326,
       "areas": [
         1.1333408785896266
@@ -37466,6 +38010,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "24 CLEVELAND CIR",
       "area": 0.88867,
       "areas": [
         0.8889440378736438
@@ -37520,6 +38065,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "399 PRESIDENTIAL DR",
       "area": 1.11941,
       "areas": [
         1.1257242073688611
@@ -37566,6 +38112,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "25 JACKSON DR",
       "area": 0.69707,
       "areas": [
         0.6972826288233996
@@ -37624,6 +38171,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "59 JACKSON DR",
       "area": 0.63691,
       "areas": [
         0.6371077155451147
@@ -37678,6 +38226,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "83 JACKSON DR",
       "area": 0.81066,
       "areas": [
         0.8074980847540567
@@ -37728,6 +38277,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "139 JACKSON DR",
       "area": 0.71166,
       "areas": [
         0.7118741470243436
@@ -37778,6 +38328,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "353 PRESIDENTIAL DR",
       "area": 2.55415,
       "areas": [
         2.5611795218565603
@@ -37852,6 +38403,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "390 PRESIDENTIAL DR",
       "area": 1.13981,
       "areas": [
         1.1401551020113037
@@ -37902,6 +38454,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "54 COOLIDGE DR",
       "area": 1.07126,
       "areas": [
         1.0715908488734411
@@ -37964,6 +38517,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "80 COOLIDGE DR",
       "area": 1.04613,
       "areas": [
         1.046443676313784
@@ -38014,6 +38568,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "110 COOLIDGE DR",
       "area": 1.32547,
       "areas": [
         1.3258655922194216
@@ -38072,6 +38627,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "170 COOLIDGE DR",
       "area": 3.15432,
       "areas": [
         3.157727557078458
@@ -38134,6 +38690,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "216 COOLIDGE DR",
       "area": 3.35618,
       "areas": [
         3.351604163597185
@@ -38196,6 +38753,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "290 COOLIDGE DR",
       "area": 2.24525,
       "areas": [
         2.245918909118272
@@ -38242,6 +38800,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "306 COOLIDGE DR",
       "area": 2.74752,
       "areas": [
         2.7483461276713474
@@ -38296,6 +38855,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "328 COOLIDGE DR",
       "area": 2.13725,
       "areas": [
         2.1378972558282983
@@ -38342,6 +38902,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "20 STOWELL RD",
       "area": 2.38041,
       "areas": [
         2.381141858628918
@@ -38400,6 +38961,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "27 COOLIDGE DR",
       "area": 1.18958,
       "areas": [
         1.1914936915028747
@@ -38454,6 +39016,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "53 COOLIDGE DR",
       "area": 1.01774,
       "areas": [
         1.0180506498767083
@@ -38508,6 +39071,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "103 COOLIDGE DR",
       "area": 1.04094,
       "areas": [
         1.0412555865487432
@@ -38562,6 +39126,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "47 BUCHANAN CIR",
       "area": 1.53549,
       "areas": [
         1.535951923334956
@@ -38620,6 +39185,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "500 COOLIDGE DR",
       "area": 1.5178,
       "areas": [
         1.5113380189302064
@@ -38710,6 +39276,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "90 STOWELL RD",
       "area": 1.87641,
       "areas": [
         1.8758968277974932
@@ -38776,6 +39343,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 COOLIDGE DR",
       "area": 0.98026,
       "areas": [
         0.9805567559584027
@@ -38826,6 +39394,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "74 BUCHANAN CIR",
       "area": 3.78124,
       "areas": [
         3.788650770750273
@@ -38900,6 +39469,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "67 LANG RD",
       "area": 1.29686,
       "areas": [
         1.297283059973583
@@ -38966,6 +39536,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "223 VALLEY RD",
       "area": 1.29968,
       "areas": [
         1.3000177863426186
@@ -39016,6 +39587,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "231 VALLEY RD",
       "area": 12.23097,
       "areas": [
         12.234799588849103
@@ -39110,6 +39682,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "393 VALLEY RD",
       "area": 0.43607,
       "areas": [
         0.4361866370688774
@@ -39160,6 +39733,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "649 VALLEY RD",
       "area": 40.19674,
       "areas": [
         40.20540654571513
@@ -39270,6 +39844,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "719 VALLEY RD",
       "area": 5.01438,
       "areas": [
         5.009578737366865
@@ -39332,6 +39907,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "737 VALLEY RD",
       "area": 4.89143,
       "areas": [
         4.892693941816372
@@ -39390,6 +39966,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "791 VALLEY RD",
       "area": 5.15593,
       "areas": [
         5.157292970209099
@@ -39448,6 +40025,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "811 VALLEY RD",
       "area": 44.79536,
       "areas": [
         44.82026963179014
@@ -39642,6 +40220,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "813 VALLEY RD",
       "area": 37.43021,
       "areas": [
         37.45449684264898
@@ -39800,6 +40379,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "893 VALLEY RD",
       "area": 5.45071,
       "areas": [
         5.445939198194821
@@ -39846,6 +40426,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "935 VALLEY RD",
       "area": 5.11267,
       "areas": [
         5.114024794163805
@@ -39896,6 +40477,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "973 VALLEY RD",
       "area": 5.4709,
       "areas": [
         5.472264473886832
@@ -39950,6 +40532,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1025 VALLEY RD",
       "area": 5.18725,
       "areas": [
         5.187273010094452
@@ -40008,6 +40591,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1040 VALLEY RD",
       "area": 13.45447,
       "areas": [
         13.46112288833792
@@ -40070,6 +40654,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "776 VALLEY RD",
       "area": 7.48911,
       "areas": [
         7.491216345747136
@@ -40124,6 +40709,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "658 VALLEY RD",
       "area": 47.83017,
       "areas": [
         47.860614615589085
@@ -40246,6 +40832,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "494 VALLEY RD",
       "area": 0.66983,
       "areas": [
         0.6700070108963033
@@ -40300,6 +40887,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "524 VALLEY RD",
       "area": 4.72008,
       "areas": [
         4.72134077229292
@@ -40362,6 +40950,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "511 FAXON HILL RD",
       "area": 17.38956,
       "areas": [
         17.403242712640086
@@ -40452,6 +41041,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1035 FAXON HILL RD",
       "area": 2.81223,
       "areas": [
         2.813008234781323
@@ -40502,6 +41092,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1124 FAXON HILL RD",
       "area": 2.43142,
       "areas": [
         2.432481983967596
@@ -40592,6 +41183,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1040 FAXON HILL RD",
       "area": 7.09215,
       "areas": [
         7.094442827636301
@@ -40730,6 +41322,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "968 FAXON HILL RD",
       "area": 2.33479,
       "areas": [
         2.3354535017908353
@@ -40788,6 +41381,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "857 MILLEN POND RD",
       "area": 0.4183,
       "areas": [
         0.417238252843392
@@ -40854,6 +41448,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "919 MILLEN POND RD",
       "area": 0.27465,
       "areas": [
         0.2747336125771829
@@ -40924,6 +41519,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1035 MILLEN POND RD",
       "area": 0.46622,
       "areas": [
         0.46485996616047626
@@ -40986,6 +41582,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1244 FAXON HILL RD",
       "area": 0.52168,
       "areas": [
         0.5209539912360148
@@ -41044,6 +41641,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "164 PRESIDENTIAL DR",
       "area": 5.92062,
       "areas": [
         5.915952622099686
@@ -41126,6 +41724,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "70 PRESIDENTIAL DR",
       "area": 5.23057,
       "areas": [
         5.238899052341792
@@ -41200,6 +41799,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "8 FARNSWORTH HILL RD",
       "area": 5.0691,
       "areas": [
         4.739720080298547,
@@ -41359,6 +41959,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "836 MILLEN POND RD",
       "area": 2.50728,
       "areas": [
         2.512873458179092
@@ -41421,6 +42022,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "818 MILLEN POND RD",
       "area": 3.55494,
       "areas": [
         3.555964756819931
@@ -41483,6 +42085,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "798 MILLEN POND RD",
       "area": 0.55728,
       "areas": [
         0.44944672671356717,
@@ -41562,6 +42165,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "768 MILLEN POND RD",
       "area": 0.82989,
       "areas": [
         0.8318385100503624
@@ -41624,6 +42228,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1478 S MAIN ST",
       "area": 8.30612,
       "areas": [
         8.308005831735377
@@ -41670,6 +42275,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "738 MILLEN POND RD",
       "area": 0.68836,
       "areas": [
         0.6885536107385632
@@ -41728,6 +42334,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "102 FARNSWORTH HILL RD",
       "area": 0.35292,
       "areas": [
         0.3530225749919508
@@ -41774,6 +42381,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "262 PRESIDENTIAL DR",
       "area": 1.2139,
       "areas": [
         1.214262322506995
@@ -41824,6 +42432,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "286 PRESIDENTIAL DR",
       "area": 2.05293,
       "areas": [
         2.0535470550467227
@@ -41894,6 +42503,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "27 ADAMS DR",
       "area": 0.74036,
       "areas": [
         0.7405857872472397
@@ -41956,6 +42566,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "37 ADAMS DR",
       "area": 1.4568,
       "areas": [
         1.4572402727448353
@@ -42018,6 +42629,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "135 ADAMS DR",
       "area": 2.36385,
       "areas": [
         2.3588593362878325
@@ -42108,6 +42720,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "245 ADAMS DR",
       "area": 4.23627,
       "areas": [
         4.24097094463706
@@ -42318,6 +42931,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "250 ADAMS DR",
       "area": 0.82187,
       "areas": [
         0.8221143933288092
@@ -42372,6 +42986,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "224 ADAMS DR",
       "area": 1.54044,
       "areas": [
         1.5409079008761015
@@ -42438,6 +43053,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "196 ADAMS DR",
       "area": 0.79205,
       "areas": [
         0.7922888799303471
@@ -42484,6 +43100,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "182 ADAMS DR",
       "area": 1.47163,
       "areas": [
         1.4720739841006831
@@ -42538,6 +43155,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "707 VALLEY RD",
       "area": 1.12056,
       "areas": [
         1.1112082569615571
@@ -42584,6 +43202,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "193 VALLEY RD",
       "area": 4.16047,
       "areas": [
         4.161542576217308
@@ -42670,6 +43289,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "434 S MAIN ST",
       "area": 12.03316,
       "areas": [
         12.050556301825642
@@ -42820,6 +43440,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "254 HIGHLAND HAVEN RD",
       "area": 14.96336,
       "areas": [
         14.933407592955577
@@ -42894,6 +43515,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "324 HIGHLAND HAVEN RD",
       "area": 14.81938,
       "areas": [
         14.822927845146872
@@ -42976,6 +43598,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "85 POINT RD",
       "area": 0.53012,
       "areas": [
         0.5291144393478535
@@ -43054,6 +43677,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "67 POINT RD",
       "area": 0.82709,
       "areas": [
         0.8273030220445773
@@ -43120,6 +43744,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "43 POINT RD",
       "area": 0.87289,
       "areas": [
         0.872192617624407
@@ -43222,6 +43847,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4786 E WASHINGTON RD",
       "area": 4.99983,
       "areas": [
         5.001063979106454
@@ -43280,6 +43906,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "552 HIGHLAND HAVEN RD",
       "area": 0.7238,
       "areas": [
         0.723986055553397
@@ -43358,6 +43985,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "588 HIGHLAND HAVEN RD",
       "area": 0.22863,
       "areas": [
         0.22868681979796904
@@ -43408,6 +44036,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "604 HIGHLAND HAVEN RD",
       "area": 0.31728,
       "areas": [
         0.3145495403323543
@@ -43462,6 +44091,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4 MAPLE WAY",
       "area": 0.74547,
       "areas": [
         0.7456549432097128
@@ -43520,6 +44150,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "557 HIGHLAND HAVEN RD",
       "area": 0.23449,
       "areas": [
         0.23455060258240934
@@ -43566,6 +44197,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "501 HIGHLAND HAVEN RD",
       "area": 1.11783,
       "areas": [
         1.1181209467627367
@@ -43612,6 +44244,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "447 HIGHLAND HAVEN RD",
       "area": 0.75701,
       "areas": [
         0.757207742124744
@@ -43658,6 +44291,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "439 HIGHLAND HAVEN RD",
       "area": 0.44408,
       "areas": [
         0.44418931117695215
@@ -43704,6 +44338,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "101 POINT RD",
       "area": 0.43564,
       "areas": [
         0.43727014525679936
@@ -43774,6 +44409,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "494 HIGHLAND HAVEN RD",
       "area": 2.1396,
       "areas": [
         2.1401430530115864
@@ -43824,6 +44460,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "512 HIGHLAND HAVEN RD",
       "area": 2.01433,
       "areas": [
         2.0148471923248463
@@ -43874,6 +44511,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1158 S MAIN ST",
       "area": 13.82727,
       "areas": [
         13.827406438326792
@@ -44000,6 +44638,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1388 S MAIN ST",
       "area": 27.31652,
       "areas": [
         27.31900986844864
@@ -44078,6 +44717,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3859 E WASHINGTON RD",
       "area": 13.71917,
       "areas": [
         13.72222110934282
@@ -44160,6 +44800,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4627 E WASHINGTON RD",
       "area": 5.1463,
       "areas": [
         5.144235805583913
@@ -44278,6 +44919,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1107 S MAIN ST",
       "area": 74.89841,
       "areas": [
         74.90643814199943
@@ -44428,6 +45070,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "132 WASHINGTON DR",
       "area": 3.05009,
       "areas": [
         3.0508009164369683
@@ -44482,6 +45125,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "479 S MAIN ST",
       "area": 10.75053,
       "areas": [
         10.754909305108228
@@ -44564,6 +45208,7 @@ PARCELS = {
       "usage": "58"
     },
     {
+      "address": "60 MILL ST",
       "area": 4.9012,
       "areas": [
         4.90243762930694
@@ -44614,6 +45259,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4812 E WASHINGTON RD",
       "area": 5.36538,
       "areas": [
         5.374796537458524
@@ -44660,6 +45306,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "4610 E WASHINGTON RD",
       "area": 3.28312,
       "areas": [
         3.2987168961980133
@@ -44798,6 +45445,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4550 E WASHINGTON RD",
       "area": 1.73461,
       "areas": [
         1.7322122899504306
@@ -44924,6 +45572,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "23 ISLAND POND RD",
       "area": 2.75745,
       "areas": [
         2.751250557457193
@@ -45054,6 +45703,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "92 WASHINGTON DR",
       "area": 3.28581,
       "areas": [
         3.286537965448268
@@ -45104,6 +45754,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 WASHINGTON DR",
       "area": 3.10491,
       "areas": [
         3.105625514506805
@@ -45162,6 +45813,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4210 E WASHINGTON RD",
       "area": 2.90956,
       "areas": [
         2.9039842335914137
@@ -45212,6 +45864,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4126 E WASHINGTON RD",
       "area": 3.07056,
       "areas": [
         3.0712439132250045
@@ -45262,6 +45915,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4070 E WASHINGTON RD",
       "area": 4.2325,
       "areas": [
         4.233406918173866
@@ -45320,6 +45974,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "3912 E WASHINGTON RD",
       "area": 2.67476,
       "areas": [
         2.6753499767434583
@@ -45366,6 +46021,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3824 E WASHINGTON RD",
       "area": 4.91439,
       "areas": [
         4.917897538872684
@@ -45428,6 +46084,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3756 E WASHINGTON RD",
       "area": 4.7075,
       "areas": [
         4.70853133071052
@@ -45502,6 +46159,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1514 S MAIN ST",
       "area": 7.63373,
       "areas": [
         7.643865487583406
@@ -45548,6 +46206,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "381 HIGHLAND HAVEN RD",
       "area": 1.81213,
       "areas": [
         1.813725402629811
@@ -45630,6 +46289,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 BEAVER BROOK RD",
       "area": 6.6442,
       "areas": [
         6.636320528532602
@@ -45724,6 +46384,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "608 HIGHLAND HAVEN RD",
       "area": 0.24662,
       "areas": [
         0.24668017122512195
@@ -45778,6 +46439,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1516 S MAIN ST",
       "area": 6.75191,
       "areas": [
         6.752855401956144
@@ -45832,6 +46494,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1480 S MAIN ST",
       "area": 6.28838,
       "areas": [
         6.2898662883988266
@@ -45878,6 +46541,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "27 BEAVER BROOK RD",
       "area": 5.01715,
       "areas": [
         5.018429102988593
@@ -45940,6 +46604,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "51 BEAVER BROOK RD",
       "area": 13.02349,
       "areas": [
         13.049459544908716
@@ -46010,6 +46675,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "289 SMITH POND RD",
       "area": 172.70229,
       "areas": [
         172.78002665421886
@@ -46128,6 +46794,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "269 SMITH POND RD",
       "area": 4.84238,
       "areas": [
         4.843380121641606
@@ -46174,6 +46841,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "241 SMITH POND RD",
       "area": 8.21218,
       "areas": [
         8.213808150649113
@@ -46244,6 +46912,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "181 SMITH POND RD",
       "area": 20.12437,
       "areas": [
         20.05069739162576
@@ -46306,6 +46975,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "256 SMITH POND RD",
       "area": 1.6167,
       "areas": [
         1.6144601624204018
@@ -46377,6 +47047,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "302 SMITH POND RD",
       "area": 2.01625,
       "areas": [
         2.0142743657565982
@@ -46431,6 +47102,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "107 WILD ACRE DR",
       "area": 3.3839,
       "areas": [
         3.3912198265310045
@@ -46497,6 +47169,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "77 WILD ACRE DR",
       "area": 2.17487,
       "areas": [
         1.792718400026496,
@@ -46600,6 +47273,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "56 WILD ACRE DR",
       "area": 4.13458,
       "areas": [
         4.1354346766198224
@@ -46654,6 +47328,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "90 WILD ACRE DR",
       "area": 1.08463,
       "areas": [
         0.8319685980594055,
@@ -46742,6 +47417,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "158 WILD ACRE DR",
       "area": 1.15416,
       "areas": [
         0.7800214243793473,
@@ -46838,6 +47514,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "168 WILD ACRE DR",
       "area": 1.28997,
       "areas": [
         1.0041576017633034,
@@ -46946,6 +47623,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "223 WILD ACRE DR",
       "area": 2.66069,
       "areas": [
         2.658876429214534
@@ -47004,6 +47682,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "202 N MAIN ST",
       "area": 2.10307,
       "areas": [
         2.1036211079087757
@@ -47050,6 +47729,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "361 SMITH POND RD",
       "area": 13.79881,
       "areas": [
         13.795435770972956
@@ -47200,6 +47880,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "58 WILD ACRE DR",
       "area": 14.00537,
       "areas": [
         13.44436460033485,
@@ -47331,6 +48012,7 @@ PARCELS = {
       "usage": "12"
     },
     {
+      "address": "1137 VALLEY RD",
       "area": 7.11558,
       "areas": [
         7.117427069798207
@@ -47397,6 +48079,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "160 DOLE SCHOOL HOUSE RD",
       "area": 5.05103,
       "areas": [
         5.04989049527209
@@ -47451,6 +48134,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "212 BEAVER BROOK RD",
       "area": 1.07435,
       "areas": [
         1.0741039403211257
@@ -47533,6 +48217,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "211 BEAVER BROOK RD",
       "area": 8.7371,
       "areas": [
         8.706546539077081
@@ -47611,6 +48296,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "642 HIGHLAND HAVEN RD",
       "area": 0.66688,
       "areas": [
         0.6676534545940893
@@ -47689,6 +48375,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "656 HIGHLAND HAVEN RD",
       "area": 0.27106,
       "areas": [
         0.272016595664967
@@ -47743,6 +48430,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "664 HIGHLAND HAVEN RD",
       "area": 0.26447,
       "areas": [
         0.2635642893657538
@@ -47797,6 +48485,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "672 HIGHLAND HAVEN RD",
       "area": 0.31728,
       "areas": [
         0.31702179886368853
@@ -47851,6 +48540,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "696 HIGHLAND HAVEN RD",
       "area": 0.40192,
       "areas": [
         0.40241573664835273
@@ -47909,6 +48599,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "236 DOLE SCHOOL HOUSE RD",
       "area": 5.0224,
       "areas": [
         5.019041032993931
@@ -47975,6 +48666,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "130 N MAIN ST",
       "area": 1.97999,
       "areas": [
         1.9805004242767226
@@ -48029,6 +48721,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "68 BEAVER BROOK RD",
       "area": 4.43621,
       "areas": [
         4.448908856126553
@@ -48107,6 +48800,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "130 BEAVER BROOK RD",
       "area": 3.23221,
       "areas": [
         3.2321192577071156
@@ -48177,6 +48871,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "158 BEAVER BROOK RD",
       "area": 2.38132,
       "areas": [
         2.381733679757441
@@ -48247,6 +48942,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "198 BEAVER BROOK RD",
       "area": 1.7868,
       "areas": [
         1.7974354768160066
@@ -48313,6 +49009,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "141 BEAVER BROOK RD",
       "area": 7.64155,
       "areas": [
         7.667088186616041
@@ -48387,6 +49084,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "93 BEAVER BROOK RD",
       "area": 9.56107,
       "areas": [
         9.595701786647947
@@ -48453,6 +49151,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "564 DOLE SCHOOL HOUSE RD",
       "area": 54.97314,
       "areas": [
         54.98649765624869
@@ -48559,6 +49258,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "88 HALFMOON POND RD",
       "area": 0.11937,
       "areas": [
         0.11896945829604441
@@ -48605,6 +49305,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "422 DOLE SCHOOL HOUSE RD",
       "area": 2.19295,
       "areas": [
         2.1905289988026895
@@ -48704,6 +49405,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "536 DOLE SCHOOL HOUSE RD",
       "area": 12.19886,
       "areas": [
         12.201914596201814
@@ -48754,6 +49456,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "485 DOLE SCHOOL HOUSE RD",
       "area": 37.21419,
       "areas": [
         37.22237819964815
@@ -48832,6 +49535,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "476 DOLE SCHOOL HOUSE RD",
       "area": 7.2606,
       "areas": [
         7.262154348774773
@@ -48886,6 +49590,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "492 DOLE SCHOOL HOUSE RD",
       "area": 7.04336,
       "areas": [
         7.044906742508105
@@ -48944,6 +49649,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "506 DOLE SCHOOL HOUSE RD",
       "area": 6.99988,
       "areas": [
         7.001444481245417
@@ -48994,6 +49700,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "446 DOLE SCHOOL HOUSE RD",
       "area": 9.83983,
       "areas": [
         9.841966215623986
@@ -49072,6 +49779,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "280 N MAIN ST",
       "area": 1.47521,
       "areas": [
         1.4756044468811302
@@ -49122,6 +49830,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "32 N MAIN ST",
       "area": 1.82541,
       "areas": [
         1.8256575934491108
@@ -49200,6 +49909,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "26 N MAIN ST",
       "area": 1.82012,
       "areas": [
         1.8171906572393115
@@ -49274,6 +49984,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "7 HALFMOON POND RD",
       "area": 3.28054,
       "areas": [
         3.28236864335282
@@ -49356,6 +50067,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "85 HALFMOON POND RD",
       "area": 3.35857,
       "areas": [
         3.359427508915865
@@ -49442,6 +50154,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "95 HALFMOON POND RD",
       "area": 0.95074,
       "areas": [
         0.9509756470716472
@@ -49500,6 +50213,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "101 HALFMOON POND RD",
       "area": 0.32087,
       "areas": [
         0.3209524955434434
@@ -49554,6 +50268,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "163 S MAIN ST",
       "area": 5.75543,
       "areas": [
         5.756916915098989
@@ -49648,6 +50363,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "94 HALFMOON POND RD",
       "area": 0.10894,
       "areas": [
         0.10896520493044545
@@ -49694,6 +50410,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "64 HALFMOON POND RD",
       "area": 0.52519,
       "areas": [
         0.5259039864537818
@@ -49756,6 +50473,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 CROSS RD",
       "area": 0.28962,
       "areas": [
         0.2896913740536263
@@ -49802,6 +50520,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "127 S MAIN ST",
       "area": 1.10207,
       "areas": [
         1.102351150908421
@@ -49856,6 +50575,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "122 S MAIN ST",
       "area": 1.45429,
       "areas": [
         1.4623062703959562
@@ -49902,6 +50622,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "56 SYMONDS LN",
       "area": 9.34215,
       "areas": [
         9.339508496216094
@@ -49996,6 +50717,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1 FAXON HILL RD",
       "area": 0.67527,
       "areas": [
         0.675445723157328
@@ -50050,6 +50772,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "3 FAXON HILL RD",
       "area": 2.535,
       "areas": [
         2.535281675321255
@@ -50116,6 +50839,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "37 SYMONDS LN",
       "area": 1.70528,
       "areas": [
         1.7056803684714648
@@ -50198,6 +50922,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "55 FAXON HILL RD",
       "area": 0.2126,
       "areas": [
         0.20399709123109258
@@ -50245,6 +50970,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "203 FAXON HILL RD",
       "area": 27.7912,
       "areas": [
         27.789749456879402
@@ -50419,6 +51145,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2 FAXON HILL RD",
       "area": 0.42166,
       "areas": [
         0.4217652053397349
@@ -50481,6 +51208,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 MILLEN POND RD",
       "area": 4.14722,
       "areas": [
         4.158387652181983
@@ -50543,6 +51271,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1 OLD MARLOW RD",
       "area": 9.12361,
       "areas": [
         9.127180790476553
@@ -50641,6 +51370,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "96 FAXON HILL RD",
       "area": 1.39929,
       "areas": [
         1.4133235325905618
@@ -50703,6 +51433,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "32 FAXON HILL RD",
       "area": 0.3158,
       "areas": [
         0.3154453366571298
@@ -50753,6 +51484,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "29 N MAIN ST",
       "area": 1.10908,
       "areas": [
         1.1093668256340394
@@ -50819,6 +51551,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "72 OLD MARLOW RD",
       "area": 8.41268,
       "areas": [
         8.410019867937503
@@ -50877,6 +51610,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "150 LEMPSTER MOUNTAIN RD",
       "area": 3.7317,
       "areas": [
         3.7326868332058885
@@ -50939,6 +51673,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "80 LEMPSTER MOUNTAIN RD",
       "area": 3.48846,
       "areas": [
         3.489394669496405
@@ -50993,6 +51728,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "173 N MAIN ST",
       "area": 2.77132,
       "areas": [
         2.765947397751559
@@ -51047,6 +51783,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "36 LEMPSTER MOUNTAIN RD",
       "area": 0.27342,
       "areas": [
         0.27164257939266845
@@ -51102,6 +51839,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "28 LEMPSTER MOUNTAIN RD",
       "area": 1.50053,
       "areas": [
         1.5009279702802032
@@ -51164,6 +51902,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "56 FAXON HILL RD",
       "area": 0.11194,
       "areas": [
         0.10947260031181831
@@ -51214,6 +51953,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "105 BRADFORD SPRINGS RD",
       "area": 1.00556,
       "areas": [
         1.0057456275552374
@@ -51264,6 +52004,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "85 BRADFORD SPRINGS RD",
       "area": 1.09366,
       "areas": [
         1.0870699408221212
@@ -51310,6 +52051,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "43 BRADFORD SPRINGS RD",
       "area": 2.77251,
       "areas": [
         2.762572339586816
@@ -51372,6 +52114,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "28 BRADFORD SPRINGS RD",
       "area": 1.40874,
       "areas": [
         1.4089890648671073
@@ -51426,6 +52169,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "34 BRADFORD SPRINGS RD",
       "area": 1.28947,
       "areas": [
         1.2897025440707124
@@ -51472,6 +52216,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 BRADFORD SPRINGS RD",
       "area": 2.12489,
       "areas": [
         2.1252791435905287
@@ -51518,6 +52263,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2485 E WASHINGTON RD",
       "area": 0.60228,
       "areas": [
         0.6023998086326429
@@ -51564,6 +52310,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "142 BRADFORD SPRINGS RD",
       "area": 6.13485,
       "areas": [
         6.1334788711276484
@@ -51638,6 +52385,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "23 OLD HILLSBOROUGH RD",
       "area": 0.83025,
       "areas": [
         0.8303998012098862
@@ -51688,6 +52436,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 OLD HILLSBOROUGH RD",
       "area": 0.71905,
       "areas": [
         0.7225538945935075
@@ -51738,6 +52487,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2232 E WASHINGTON RD",
       "area": 0.45203,
       "areas": [
         0.45211123061493874
@@ -51784,6 +52534,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2230 E WASHINGTON RD",
       "area": 0.43394,
       "areas": [
         0.43547423198998697
@@ -51858,6 +52609,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2234 E WASHINGTON RD",
       "area": 0.89504,
       "areas": [
         0.895205967858003
@@ -51916,6 +52668,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "2184 E WASHINGTON RD",
       "area": 0.89999,
       "areas": [
         0.8967195910533821
@@ -51974,6 +52727,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 OLD HILLSBOROUGH RD",
       "area": 1.94186,
       "areas": [
         1.94255836021796
@@ -52048,6 +52802,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2146 E WASHINGTON RD",
       "area": 0.30082,
       "areas": [
         0.2991758619916194
@@ -52094,6 +52849,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2128 E WASHINGTON RD",
       "area": 0.36443,
       "areas": [
         0.3638817662241951
@@ -52144,6 +52900,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2114 E WASHINGTON RD",
       "area": 0.12826,
       "areas": [
         0.1282829470820626
@@ -52194,6 +52951,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2110 E WASHINGTON RD",
       "area": 1.46605,
       "areas": [
         1.4641542410768744
@@ -52252,6 +53010,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2072 E WASHINGTON RD",
       "area": 1.06176,
       "areas": [
         1.064771458859312
@@ -52314,6 +53073,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2046 E WASHINGTON RD",
       "area": 1.94277,
       "areas": [
         1.9495174876695986
@@ -52364,6 +53124,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "43 BEAR HILL RD",
       "area": 6.59078,
       "areas": [
         6.593259900403081
@@ -52422,6 +53183,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "54 BEAR HILL RD",
       "area": 2.48113,
       "areas": [
         2.4834453735938586
@@ -52488,6 +53250,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "116 PURLING BECK RD",
       "area": 3.03881,
       "areas": [
         3.0307870664599723
@@ -52542,6 +53305,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2093 E WASHINGTON RD",
       "area": 35.39973,
       "areas": [
         35.40973707030782
@@ -52624,6 +53388,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "116 PURLING BECK RD",
       "area": 1.63582,
       "areas": [
         1.6421693635305612
@@ -52714,6 +53479,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "66 PURLING BECK RD",
       "area": 9.64098,
       "areas": [
         7.598999658296607,
@@ -52873,6 +53639,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2291 E WASHINGTON RD",
       "area": 1.41872,
       "areas": [
         1.419734697276603
@@ -52963,6 +53730,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1234 VALLEY RD",
       "area": 0.42942,
       "areas": [
         0.43159817506056375
@@ -53021,6 +53789,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "2381 E WASHINGTON RD",
       "area": 6.85227,
       "areas": [
         6.850858101377855
@@ -53183,6 +53952,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "146 PURLING BECK RD",
       "area": 12.11807,
       "areas": [
         12.103948252501771
@@ -53313,6 +54083,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "178 BRADFORD SPRINGS RD",
       "area": 4.87525,
       "areas": [
         4.869879710633212
@@ -53359,6 +54130,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2236 E WASHINGTON RD",
       "area": 0.85952,
       "areas": [
         0.8596734220055035
@@ -53413,6 +54185,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "143 BEAR HILL RD",
       "area": 4.2391,
       "areas": [
         4.251084590384236
@@ -53463,6 +54236,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1170 VALLEY RD",
       "area": 0.72121,
       "areas": [
         0.7201858847412372
@@ -53581,6 +54355,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1224 VALLEY RD",
       "area": 0.85918,
       "areas": [
         0.8593751617866139
@@ -53647,6 +54422,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1358 VALLEY RD",
       "area": 0.41515,
       "areas": [
         0.41526075995542844
@@ -53705,6 +54481,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1238 VALLEY RD",
       "area": 1.21225,
       "areas": [
         1.2118558039415013
@@ -53767,6 +54544,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1199 VALLEY RD",
       "area": 0.40682,
       "areas": [
         0.4069264873788787
@@ -53813,6 +54591,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1207 VALLEY RD",
       "area": 0.38396,
       "areas": [
         0.3840613656214479
@@ -53859,6 +54638,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1219 VALLEY RD",
       "area": 0.50444,
       "areas": [
         0.5045782156275361
@@ -53905,6 +54685,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1243 VALLEY RD",
       "area": 0.23682,
       "areas": [
         0.23688125823029021
@@ -53951,6 +54732,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1278 VALLEY RD",
       "area": 2.65597,
       "areas": [
         2.6596912316886763
@@ -54109,6 +54891,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1292 VALLEY RD",
       "area": 0.87864,
       "areas": [
         0.878872127774563
@@ -54171,6 +54954,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1362 VALLEY RD",
       "area": 0.23001,
       "areas": [
         0.23007365632079158
@@ -54217,6 +55001,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1372 VALLEY RD",
       "area": 0.46247,
       "areas": [
         0.4625895550123188
@@ -54279,6 +55064,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1394 VALLEY RD",
       "area": 0.39654,
       "areas": [
         0.3966477550794975
@@ -54325,6 +55111,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1406 VALLEY RD",
       "area": 0.19366,
       "areas": [
         0.1916872535591157
@@ -54371,6 +55158,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1509 VALLEY RD",
       "area": 0.63734,
       "areas": [
         0.6347610739063687
@@ -54421,6 +55209,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1547 VALLEY RD",
       "area": 0.66539,
       "areas": [
         0.6683103145333411
@@ -54475,6 +55264,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1561 VALLEY RD",
       "area": 1.75433,
       "areas": [
         1.7547886103731454
@@ -54549,6 +55339,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "46 LOOKOUT POINT RD",
       "area": 0.33585,
       "areas": [
         0.335978069764049
@@ -54619,6 +55410,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2120 VALLEY RD",
       "area": 0.16304,
       "areas": [
         0.1630802950429701
@@ -54669,6 +55461,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "38 LOOKOUT POINT RD",
       "area": 0.1193,
       "areas": [
         0.11940990360095546
@@ -54715,6 +55508,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "18 LOOKOUT POINT RD",
       "area": 0.17333,
       "areas": [
         0.17334712280523157
@@ -54765,6 +55559,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1445 VALLEY RD",
       "area": 2.51635,
       "areas": [
         2.517783686770963
@@ -54939,6 +55734,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "84 LAKEVIEW TER",
       "area": 0.77018,
       "areas": [
         0.7641482019760085
@@ -55085,6 +55881,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1361 VALLEY RD",
       "area": 3.56747,
       "areas": [
         3.5740380395488156
@@ -55287,6 +56084,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1750 VALLEY RD",
       "area": 0.53765,
       "areas": [
         0.537784155304483
@@ -55341,6 +56139,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 BEECH WAY",
       "area": 0.42883,
       "areas": [
         0.4280983741108472
@@ -55415,6 +56214,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "54 BEECH WAY",
       "area": 0.25713,
       "areas": [
         0.25534149800156797
@@ -55477,6 +56277,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "66 BEECH WAY",
       "area": 1.01874,
       "areas": [
         1.0228582587896378
@@ -55583,6 +56384,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "62 BIRCH POINT WAY",
       "area": 0.77364,
       "areas": [
         0.7726415853921622
@@ -55705,6 +56507,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "92 COVE RD",
       "area": 0.58283,
       "areas": [
         0.5824182510257462
@@ -55787,6 +56590,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "93 COVE RD",
       "area": 0.4596,
       "areas": [
         0.45971810610086133
@@ -55837,6 +56641,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "188 COVE RD",
       "area": 0.47026,
       "areas": [
         0.47038501223654
@@ -55903,6 +56708,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 COVE RD",
       "area": 21.93201,
       "areas": [
         21.938702527611934
@@ -56041,6 +56847,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1538 VALLEY RD",
       "area": 0.97749,
       "areas": [
         0.9777504352505113
@@ -56099,6 +56906,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1548 VALLEY RD",
       "area": 0.21111,
       "areas": [
         0.2111615294882586
@@ -56145,6 +56953,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1578 VALLEY RD",
       "area": 0.20666,
       "areas": [
         0.20671365839810132
@@ -56195,6 +57004,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1600 VALLEY RD",
       "area": 0.38834,
       "areas": [
         0.38843740824710576
@@ -56241,6 +57051,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1700 VALLEY RD",
       "area": 0.87389,
       "areas": [
         0.8751543425568717
@@ -56311,6 +57122,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1704 VALLEY RD",
       "area": 0.40696,
       "areas": [
         0.4060057993933527
@@ -56369,6 +57181,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1736 VALLEY RD",
       "area": 0.57119,
       "areas": [
         0.571335570115921
@@ -56431,6 +57244,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1788 VALLEY RD",
       "area": 0.90253,
       "areas": [
         0.9027641473259209
@@ -56481,6 +57295,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1892 VALLEY RD",
       "area": 0.63415,
       "areas": [
         0.6380778690537513
@@ -56555,6 +57370,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2042 VALLEY RD",
       "area": 0.52148,
       "areas": [
         0.5254334540828893
@@ -56601,6 +57417,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2050 VALLEY RD",
       "area": 1.7309,
       "areas": [
         1.7246480474914427
@@ -56655,6 +57472,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2181 VALLEY RD",
       "area": 0.19732,
       "areas": [
         0.19768166304310436
@@ -56705,6 +57523,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2171 VALLEY RD",
       "area": 0.19474,
       "areas": [
         0.19559331178350198
@@ -56755,6 +57574,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2163 VALLEY RD",
       "area": 0.20803,
       "areas": [
         0.20948796173072604
@@ -56805,6 +57625,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2157 VALLEY RD",
       "area": 0.38916,
       "areas": [
         0.38933072409094915
@@ -56883,6 +57704,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2143 VALLEY RD",
       "area": 0.41573,
       "areas": [
         0.4146960724218493
@@ -56969,6 +57791,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2123 VALLEY RD",
       "area": 0.43823,
       "areas": [
         0.43689988465546337
@@ -57067,6 +57890,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2115 VALLEY RD",
       "area": 0.2212,
       "areas": [
         0.22148713433735992
@@ -57141,6 +57965,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2105 VALLEY RD",
       "area": 0.18266,
       "areas": [
         0.1827069484303765
@@ -57191,6 +58016,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2097 VALLEY RD",
       "area": 0.49098,
       "areas": [
         0.4923965174121195
@@ -57253,6 +58079,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2081 VALLEY RD",
       "area": 0.54769,
       "areas": [
         0.5473008209564063
@@ -57315,6 +58142,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2080 VALLEY RD",
       "area": 0.18784,
       "areas": [
         0.1878840248407719
@@ -57361,6 +58189,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2134 VALLEY RD",
       "area": 0.33387,
       "areas": [
         0.3339524119787398
@@ -57411,6 +58240,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "58 HEMLOCK DR",
       "area": 0.20902,
       "areas": [
         0.2090719510625984
@@ -57461,6 +58291,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2154 VALLEY RD",
       "area": 0.11943,
       "areas": [
         0.11946192468511913
@@ -57507,6 +58338,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2041 VALLEY RD",
       "area": 0.35455,
       "areas": [
         0.3546415603522473
@@ -57569,6 +58401,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2005 VALLEY RD",
       "area": 0.63218,
       "areas": [
         0.6311372675130515
@@ -57667,6 +58500,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1993 VALLEY RD",
       "area": 0.63698,
       "areas": [
         0.6399238952052476
@@ -57777,6 +58611,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1949 VALLEY RD",
       "area": 1.07756,
       "areas": [
         1.0799284386387202
@@ -57871,6 +58706,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1927 VALLEY RD",
       "area": 1.21391,
       "areas": [
         1.2159101853015872
@@ -57965,6 +58801,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1821 VALLEY RD",
       "area": 0.17757,
       "areas": [
         0.17460254024037875
@@ -58067,6 +58904,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1795 VALLEY RD",
       "area": 0.91137,
       "areas": [
         0.9095049231618255
@@ -58137,6 +58975,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1787 VALLEY RD",
       "area": 0.84626,
       "areas": [
         0.8462316770181769
@@ -58223,6 +59062,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1773 VALLEY RD",
       "area": 0.46507,
       "areas": [
         0.46455741955259144
@@ -58301,6 +59141,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1747 VALLEY RD",
       "area": 0.31062,
       "areas": [
         0.30969789799055963
@@ -58355,6 +59196,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1705 VALLEY RD",
       "area": 0.36427,
       "areas": [
         0.36451224309404784
@@ -58429,6 +59271,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1703 VALLEY RD",
       "area": 0.36105,
       "areas": [
         0.36173801201381284
@@ -58499,6 +59342,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1681 VALLEY RD",
       "area": 1.12875,
       "areas": [
         1.1151392865746066
@@ -58601,6 +59445,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1669 VALLEY RD",
       "area": 0.47719,
       "areas": [
         0.47915454445326017
@@ -58675,6 +59520,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "81 POINT RD",
       "area": 1.94629,
       "areas": [
         1.946797018317712
@@ -58737,6 +59583,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2766 E WASHINGTON RD",
       "area": 91.38193,
       "areas": [
         91.45204594103753
@@ -58867,6 +59714,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2766 E WASHINGTON RD",
       "area": 28.92649,
       "areas": [
         28.953073793885398
@@ -58989,6 +59837,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "521 MILLEN POND RD",
       "area": 2.46088,
       "areas": [
         2.461579056922277
@@ -59043,6 +59892,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "521 MILLEN POND RD",
       "area": 0.59308,
       "areas": [
         0.5932512787045641
@@ -59117,6 +59967,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "447 HALFMOON POND RD",
       "area": 15.70475,
       "areas": [
         15.70994936887312
@@ -59651,6 +60502,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "447 HALFMOON POND RD",
       "area": 12.27877,
       "areas": [
         12.27851532027657
@@ -59841,6 +60693,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "546 WASHINGTON DR",
       "area": 0.08641,
       "areas": [
         0.0864258203888273
@@ -59887,6 +60740,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "546 WASHINGTON DR",
       "area": 2.98163,
       "areas": [
         2.9822336322915532
@@ -59953,6 +60807,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "81 POINT RD",
       "area": 0.87788,
       "areas": [
         0.8704084251424754
@@ -60023,6 +60878,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2372 E WASHINGTON RD",
       "area": 0.23744,
       "areas": [
         0.23628606824703863
@@ -60117,6 +60973,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2372 E WASHINGTON RD",
       "area": 16.60402,
       "areas": [
         16.59979693768057
@@ -60239,6 +61096,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "68 ASHUELOT ACRE RD",
       "area": 0.41568,
       "areas": [
         0.4158117878335976
@@ -60301,6 +61159,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1554 VALLEY RD",
       "area": 0.41618,
       "areas": [
         0.4162845726555818
@@ -60351,6 +61210,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "374 MARTIN RD",
       "area": 11.04207,
       "areas": [
         11.044544411172907
@@ -60397,6 +61257,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "315 WASHINGTON HGTS RD",
       "area": 4.78291,
       "areas": [
         4.784206191196919
@@ -60443,6 +61304,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "179 WASHINGTON HGTS RD",
       "area": 5.12567,
       "areas": [
         5.1282671068636025
@@ -60489,6 +61351,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "117 WASHINGTON HGTS RD",
       "area": 5.28106,
       "areas": [
         5.282480436444078
@@ -60543,6 +61406,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "94 WASHINGTON HGTS RD",
       "area": 5.87788,
       "areas": [
         5.879410957881217
@@ -60605,6 +61469,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "188 WASHINGTON HGTS RD",
       "area": 5.0302,
       "areas": [
         5.031569635439346
@@ -60663,6 +61528,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "294 WASHINGTON HGTS RD",
       "area": 6.37579,
       "areas": [
         6.377533904640127
@@ -60709,6 +61575,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "322 WASHINGTON HGTS RD",
       "area": 6.10808,
       "areas": [
         6.10973714947397
@@ -60755,6 +61622,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "341 WASHINGTON HGTS RD",
       "area": 9.13749,
       "areas": [
         9.139931260008519
@@ -60837,6 +61705,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "919 NO MAIN ST",
       "area": 4.74104,
       "areas": [
         4.737519152780953
@@ -60887,6 +61756,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "253 MARTIN RD",
       "area": 6.99127,
       "areas": [
         6.99284816384324
@@ -60937,6 +61807,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "372 MARTIN RD",
       "area": 12.12154,
       "areas": [
         12.126952415443244
@@ -60987,6 +61858,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "231 DEER VALLEY RD",
       "area": 3.01214,
       "areas": [
         3.015713938360881
@@ -61045,6 +61917,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "301 AYERS POND RD",
       "area": 11.14761,
       "areas": [
         5.5886853430727985,
@@ -61179,6 +62052,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2527 E WASHINGTON RD",
       "area": 4.97625,
       "areas": [
         4.979984307499902
@@ -61245,6 +62119,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2560 E WASHINGTON RD",
       "area": 0.19481,
       "areas": [
         0.1948482754993979
@@ -61295,6 +62170,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "799 ASHUELOT DR",
       "area": 1.2866,
       "areas": [
         1.287003281583664
@@ -61349,6 +62225,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "769 ASHUELOT DR",
       "area": 1.22137,
       "areas": [
         1.2211497096949537
@@ -61407,6 +62284,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "147 TAYLOR CIR",
       "area": 3.75358,
       "areas": [
         3.754742310661805
@@ -61485,6 +62363,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "26 OLD BURBANK RD",
       "area": 4.76627,
       "areas": [
         4.7683305953728805
@@ -61539,6 +62418,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "686 MILLEN POND RD",
       "area": 12.63203,
       "areas": [
         12.62634753187225
@@ -61593,6 +62473,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "626 MILLEN POND RD",
       "area": 69.40589,
       "areas": [
         69.43135796115678
@@ -61727,6 +62608,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "221 LEMPSTER MT RD",
       "area": 6.53343,
       "areas": [
         6.536813469730404
@@ -61801,6 +62683,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "600 LEMPSTER MT RD",
       "area": 4.77016,
       "areas": [
         4.771458651302547
@@ -61875,6 +62758,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "674 MILLEN POND RD",
       "area": 0.37333,
       "areas": [
         0.3734424120272327
@@ -61925,6 +62809,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "704 MILLEN POND RD",
       "area": 2.36263,
       "areas": [
         2.099646417500209,
@@ -62036,6 +62921,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "18 WOLF WAY",
       "area": 114.4215,
       "areas": [
         114.45193354485971
@@ -62670,6 +63556,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "821 WASHINGTON DR",
       "area": 0.77492,
       "areas": [
         0.7777460627139718
@@ -62716,6 +63603,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "730 HALFMOON PD RD",
       "area": 1.10323,
       "areas": [
         1.057063376522102,
@@ -62801,6 +63689,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "528 HALFMOON PD RD",
       "area": 9.92114,
       "areas": [
         9.923609156495319
@@ -62851,6 +63740,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "795 WASHINGTON DR",
       "area": 0.8362,
       "areas": [
         0.8378689867573247
@@ -62901,6 +63791,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "261 WASHINGTON DR",
       "area": 0.78085,
       "areas": [
         0.7810279005215726
@@ -62991,6 +63882,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "255 WASHINGTON DR",
       "area": 0.44994,
       "areas": [
         0.4492665500710213
@@ -63045,6 +63937,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "21 ISLAND POND RD",
       "area": 0.02376,
       "areas": [
         0.024296905356875547
@@ -63096,6 +63989,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "731 ASHUELOT DR",
       "area": 1.87283,
       "areas": [
         1.8734198860806515
@@ -63154,6 +64048,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "707 ASHUELOT DR",
       "area": 3.09547,
       "areas": [
         1.6779557236079639,
@@ -63233,6 +64128,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "679 ASHUELOT DR",
       "area": 1.5798,
       "areas": [
         1.5809054564674248
@@ -63287,6 +64183,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "651 ASHUELOT DR",
       "area": 1.50662,
       "areas": [
         1.5070815270456228
@@ -63345,6 +64242,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "124 HARRISON RD",
       "area": 1.07171,
       "areas": [
         1.0720499323880321
@@ -63395,6 +64293,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "126 HARRISON RD",
       "area": 1.34414,
       "areas": [
         1.3445666056761738
@@ -63445,6 +64344,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "69 TAYLOR CIR",
       "area": 1.25812,
       "areas": [
         1.2585071083051267
@@ -63503,6 +64403,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "189 STOWELL RD",
       "area": 1.26936,
       "areas": [
         1.2697552950648177
@@ -63557,6 +64458,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "357 ASHUELOT DR",
       "area": 0.66434,
       "areas": [
         0.6626764202365673
@@ -63607,6 +64509,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "123 MCKINLEY DR",
       "area": 1.4572,
       "areas": [
         1.4615258277519187
@@ -63669,6 +64572,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "66 TAFT RD",
       "area": 0.82705,
       "areas": [
         0.827306392296734
@@ -63715,6 +64619,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "66 ASHUELOT DR",
       "area": 1.653,
       "areas": [
         1.6535045932287478
@@ -63781,6 +64686,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "13 CLEVELAND CIR",
       "area": 1.29171,
       "areas": [
         1.2918327064932842
@@ -63847,6 +64753,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "187 COOLIDGE DR",
       "area": 3.57139,
       "areas": [
         3.5607033765020315
@@ -63909,6 +64816,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "42 BUCHANAN CIR",
       "area": 2.49571,
       "areas": [
         2.4964631169582865
@@ -63979,6 +64887,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "50 ASHUELOT ACRE RD",
       "area": 0.46806,
       "areas": [
         0.46821112947289373
@@ -64041,6 +64950,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "42 ASHUELOT ACRE RD",
       "area": 0.13282,
       "areas": [
         0.13285970232487795
@@ -64087,6 +64997,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "32 ASHUELOT ACRE RD",
       "area": 0.30649,
       "areas": [
         0.3065905413421061
@@ -64133,6 +65044,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "24 ASHUELOT ACRE RD",
       "area": 0.28378,
       "areas": [
         0.28387263422982223
@@ -64191,6 +65103,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "14 ASHUELOT ACRE RD",
       "area": 0.17102,
       "areas": [
         0.17107749262645658
@@ -64241,6 +65154,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "154 ASHUELOT ACRE RD",
       "area": 0.31609,
       "areas": [
         0.3170250437139527
@@ -64291,6 +65205,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "142 ASHUELOT ACRE RD",
       "area": 0.36656,
       "areas": [
         0.3666772207502922
@@ -64349,6 +65264,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "136 ASHUELOT ACRE RD",
       "area": 0.37762,
       "areas": [
         0.3772875121772964
@@ -64399,6 +65315,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "130 ASHUELOT ACRE RD",
       "area": 0.19009,
       "areas": [
         0.19015398597270788
@@ -64449,6 +65366,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "124 ASHUELOT ACRE RD",
       "area": 0.29873,
       "areas": [
         0.2971795686087044
@@ -64503,6 +65421,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "104 ASHUELOT ACRE RD",
       "area": 0.3266,
       "areas": [
         0.32571023876961913
@@ -64557,6 +65476,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "579 MARLOW RD",
       "area": 0.39122,
       "areas": [
         0.3913457469192052
@@ -64607,6 +65527,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "88 ASHUELOT ACRE RD",
       "area": 0.2735,
       "areas": [
         0.27358894020810426
@@ -64661,6 +65582,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "82 ASHUELOT ACRE RD",
       "area": 0.20318,
       "areas": [
         0.2032430526291865
@@ -64711,6 +65633,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2 ASHUELOT ACRE RD",
       "area": 0.5154,
       "areas": [
         0.5155611504344493
@@ -64781,6 +65704,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "637 MARLOW RD",
       "area": 0.29772,
       "areas": [
         0.29781624341923774
@@ -64831,6 +65755,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "646 MARLOW RD",
       "area": 10.26978,
       "areas": [
         10.273220167290312
@@ -65089,6 +66014,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "15 ASHUELOT ACRE RD",
       "area": 0.3094,
       "areas": [
         0.309502061375142
@@ -65139,6 +66065,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "27 ASHUELOT ACRE RD",
       "area": 0.24203,
       "areas": [
         0.24210562289817683
@@ -65193,6 +66120,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "35 ASHUELOT ACRE RD",
       "area": 0.22133,
       "areas": [
         0.22140196379074148
@@ -65243,6 +66171,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "51 ASHUELOT ACRE RD",
       "area": 0.21375,
       "areas": [
         0.21382084731939055
@@ -65297,6 +66226,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "61 ASHUELOT ACRE RD",
       "area": 0.22202,
       "areas": [
         0.22208650594857152
@@ -65347,6 +66277,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "69 ASHUELOT ACRE RD",
       "area": 0.23922,
       "areas": [
         0.2392986121714955
@@ -65393,6 +66324,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "603 MARLOW RD",
       "area": 0.51138,
       "areas": [
         0.5115443203799971
@@ -65447,6 +66379,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "569 MARLOW RD",
       "area": 0.78007,
       "areas": [
         0.784527493173856
@@ -65513,6 +66446,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "97 HUNTLEY MT RD",
       "area": 1.06296,
       "areas": [
         1.0633056859834646
@@ -65559,6 +66493,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "87 HUNTLEY MT RD",
       "area": 1.00061,
       "areas": [
         1.0009405739830508
@@ -65605,6 +66540,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "65 HUNTLEY MT RD",
       "area": 0.95344,
       "areas": [
         0.9537467350814647
@@ -65651,6 +66587,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "49 HUNTLEY MT RD",
       "area": 0.79889,
       "areas": [
         0.7960565682396791
@@ -65697,6 +66634,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "15 HUNTLEY MT RD",
       "area": 0.31091,
       "areas": [
         0.31101424636778346
@@ -65743,6 +66681,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "7 HUNTLEY MT RD",
       "area": 0.3108,
       "areas": [
         0.3109064250797961
@@ -65793,6 +66732,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "419 MARLOW RD",
       "area": 17.74231,
       "areas": [
         17.74843259581978
@@ -65947,6 +66887,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "317 MARLOW RD",
       "area": 3.1417,
       "areas": [
         3.1430650013018857
@@ -66017,6 +66958,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "363 MARLOW RD",
       "area": 2.68217,
       "areas": [
         2.6806102884304757
@@ -66103,6 +67045,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "228 MARLOW RD",
       "area": 5.40875,
       "areas": [
         5.410519029019989
@@ -66149,6 +67092,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "234 MARLOW RD",
       "area": 8.10105,
       "areas": [
         8.103721408944288
@@ -66227,6 +67171,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1065 VALLEY RD",
       "area": 5.15369,
       "areas": [
         5.1549658204671545
@@ -66285,6 +67230,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "930 VALLEY RD",
       "area": 47.08994,
       "areas": [
         47.10948690123621
@@ -66399,6 +67345,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "1574 VALLEY RD",
       "area": 14.11806,
       "areas": [
         14.121796326281952
@@ -66469,6 +67416,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "869 MILLEN POND RD",
       "area": 0.22922,
       "areas": [
         0.23004997507239186
@@ -66527,6 +67475,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "881 MILLEN POND RD",
       "area": 0.17182,
       "areas": [
         0.17031321316229006
@@ -66577,6 +67526,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1230 FAXON HILL RD",
       "area": 1.24184,
       "areas": [
         1.2421812891880348
@@ -66679,6 +67629,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1168 FAXON HILL RD",
       "area": 0.54145,
       "areas": [
         0.5433743503839126
@@ -66773,6 +67724,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "854 MILLEN POND RD",
       "area": 1.98727,
       "areas": [
         1.9908003462418247
@@ -66847,6 +67799,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "704 VALLEY RD",
       "area": 0.5119,
       "areas": [
         0.5120342034457059
@@ -66901,6 +67854,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "163 VALLEY RD",
       "area": 58.65582,
       "areas": [
         58.61712239044309
@@ -67175,6 +68129,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "18 MAPLE WAY",
       "area": 0.68985,
       "areas": [
         0.6900262433588408
@@ -67221,6 +68176,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "573 HIGHLAND HAVEN RD",
       "area": 0.3925,
       "areas": [
         0.3924396132946097
@@ -67267,6 +68223,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "541 HIGHLAND HAVEN RD",
       "area": 0.71887,
       "areas": [
         0.7190506416673574
@@ -67321,6 +68278,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1429 SO MAIN ST",
       "area": 0.7237,
       "areas": [
         0.7238639048893077
@@ -67375,6 +68333,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1415 SO MAIN ST",
       "area": 0.49404,
       "areas": [
         0.4941516721375885
@@ -67425,6 +68384,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "4644 E WASHINGTON RD",
       "area": 4.69198,
       "areas": [
         4.69318469483442
@@ -67479,6 +68439,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "152 WASHINGTON DR",
       "area": 3.92773,
       "areas": [
         3.927416367337665
@@ -67537,6 +68498,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4200 E WASHINGTON RD",
       "area": 2.85262,
       "areas": [
         2.8532506891995926
@@ -67591,6 +68553,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "4078 E WASHINGTON RD",
       "area": 7.14349,
       "areas": [
         7.146477601075443
@@ -67653,6 +68616,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "3996 E WASHINGTON RD",
       "area": 2.84378,
       "areas": [
         2.8443981930904387
@@ -67699,6 +68663,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "3964 E WASHINGTON RD",
       "area": 3.22529,
       "areas": [
         3.2259908387131926
@@ -67745,6 +68710,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "201 WILD ACRE DR",
       "area": 0.24864,
       "areas": [
         0.24550922564055067
@@ -67800,6 +68766,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "197 WILD ACRE DR",
       "area": 0.27359,
       "areas": [
         0.2736412586842679
@@ -67863,6 +68830,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1428 VALLEY RD",
       "area": 272.86321,
       "areas": [
         272.922277354285
@@ -68709,6 +69677,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1066 VALLEY RD",
       "area": 6.74989,
       "areas": [
         6.751670987250135
@@ -68759,6 +69728,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "419 BAILEY RD",
       "area": 1.04888,
       "areas": [
         1.0491302577214434
@@ -68805,6 +69775,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "451 BAILEY RD",
       "area": 1.21369,
       "areas": [
         1.2139737176636782
@@ -68851,6 +69822,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "405 BAILEY RD",
       "area": 2.89863,
       "areas": [
         2.012286859293562,
@@ -68930,6 +69902,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "482 BAILEY RD",
       "area": 11.09444,
       "areas": [
         11.109468753756095
@@ -69016,6 +69989,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "400 BAILEY RD",
       "area": 6.70198,
       "areas": [
         6.700883086923747
@@ -69074,6 +70048,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "37 WOODPECKER RD",
       "area": 3.31408,
       "areas": [
         3.3181045157747726
@@ -69168,6 +70143,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "178 DOLE SCHOOL HOUSE RD",
       "area": 4.96519,
       "areas": [
         4.966010660025715
@@ -69218,6 +70194,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "22 WOODPECKER RD",
       "area": 4.22378,
       "areas": [
         4.2105958047032015
@@ -69320,6 +70297,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "622 HIGHLAND HAVEN RD",
       "area": 0.78967,
       "areas": [
         0.7908911803982809
@@ -69418,6 +70396,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "137 BEAVER BROOK RD",
       "area": 7.55683,
       "areas": [
         7.52588567076446
@@ -69468,6 +70447,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "98 NO MAIN ST",
       "area": 2.42808,
       "areas": [
         2.4287189244962644
@@ -69530,6 +70510,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "62 NO MAIN ST",
       "area": 2.30957,
       "areas": [
         2.308738123367698
@@ -69592,6 +70573,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "74 HALFMOON PD RD",
       "area": 2.94032,
       "areas": [
         2.942201981345931
@@ -69678,6 +70660,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "31 LEMPSTER MT RD",
       "area": 0.43018,
       "areas": [
         0.42890252734049755
@@ -69724,6 +70707,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "75 LEMPSTER MT RD",
       "area": 1.86276,
       "areas": [
         1.861935842973777
@@ -69778,6 +70762,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1479 VALLEY RD",
       "area": 0.3829,
       "areas": [
         0.3860229468142624
@@ -69848,6 +70833,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "94 LOOKOUT POINT RD",
       "area": 0.12532,
       "areas": [
         0.12535216415950826
@@ -69910,6 +70896,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "90 LOOKOUT POINT RD",
       "area": 0.27678,
       "areas": [
         0.2758151098456006
@@ -69972,6 +70959,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "80 LOOKOUT POINT RD",
       "area": 0.27136,
       "areas": [
         0.27029136262042885
@@ -70038,6 +71026,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "70 LOOKOUT POINT RD",
       "area": 0.27454,
       "areas": [
         0.27461028860416625
@@ -70100,6 +71089,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "22 LOOKOUT POINT RD",
       "area": 0.1398,
       "areas": [
         0.1400574174632431
@@ -70146,6 +71136,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "14 LOOKOUT POINT RD",
       "area": 0.19662,
       "areas": [
         0.19650894301252217
@@ -70204,6 +71195,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2 LOOKOUT POINT RD",
       "area": 0.48491,
       "areas": [
         0.4842911442675679
@@ -70270,6 +71262,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "26 LAKEVIEW TERR",
       "area": 1.71243,
       "areas": [
         1.712874806039735
@@ -70356,6 +71349,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "40 LAKEVIEW TERR",
       "area": 0.92951,
       "areas": [
         0.9302172673463663
@@ -70450,6 +71444,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "54 LAKEVIEW TERR",
       "area": 0.35361,
       "areas": [
         0.3537004834840739
@@ -70512,6 +71507,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "62 LAKEVIEW TERR",
       "area": 0.44498,
       "areas": [
         0.44516894575640953
@@ -70562,6 +71558,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "70 LAKEVIEW TERR",
       "area": 0.24919,
       "areas": [
         0.24926438434086198
@@ -70608,6 +71605,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "74 LAKEVIEW TERR",
       "area": 0.32078,
       "areas": [
         0.3208625700721538
@@ -70686,6 +71684,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "54 BIRCH POINT WAY",
       "area": 0.21975,
       "areas": [
         0.2217091515149443
@@ -70736,6 +71735,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "51 BIRCH POINT WAY",
       "area": 0.61866,
       "areas": [
         0.6188514920701419
@@ -70826,6 +71826,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "21 BIRCH POINT WAY",
       "area": 0.28844,
       "areas": [
         0.288559072747189
@@ -70880,6 +71881,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "11 BIRCH POINT WAY",
       "area": 0.37206,
       "areas": [
         0.3734662508401933
@@ -70934,6 +71936,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "48 COVE RD",
       "area": 0.11862,
       "areas": [
         0.1186507432945901
@@ -70984,6 +71987,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "52 COVE RD",
       "area": 0.12355,
       "areas": [
         0.12248167347302452
@@ -71038,6 +72042,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "58 COVE RD",
       "area": 0.10727,
       "areas": [
         0.10727531876015022
@@ -71092,6 +72097,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "62 COVE RD",
       "area": 0.10274,
       "areas": [
         0.10184603616629784
@@ -71138,6 +72144,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "70 COVE RD",
       "area": 0.16465,
       "areas": [
         0.1638752037026986
@@ -71188,6 +72195,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "80 COVE RD",
       "area": 0.15027,
       "areas": [
         0.15173504910488259
@@ -71242,6 +72250,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "140 COVE RD",
       "area": 0.19478,
       "areas": [
         0.19483288409058144
@@ -71304,6 +72313,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "146 COVE RD",
       "area": 0.19055,
       "areas": [
         0.1902671798104472
@@ -71354,6 +72364,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "156 COVE RD",
       "area": 0.48067,
       "areas": [
         0.47971413356132125
@@ -71412,6 +72423,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "166 COVE RD",
       "area": 0.23385,
       "areas": [
         0.23324258618233973
@@ -71478,6 +72490,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "178 COVE RD",
       "area": 0.15476,
       "areas": [
         0.15479930200019695
@@ -71528,6 +72541,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "175 COVE RD",
       "area": 0.27631,
       "areas": [
         0.27638636077462597
@@ -71578,6 +72592,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "53 COVE RD",
       "area": 0.31591,
       "areas": [
         0.31598975421851117
@@ -71624,6 +72639,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "3 POINT ISLAND",
       "area": 0.23307,
       "areas": [
         0.22825079975460166
@@ -71710,6 +72726,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2 POINT ISLAND",
       "area": 0.41721,
       "areas": [
         0.419026124658707
@@ -71836,6 +72853,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1 POINT ISLAND",
       "area": 0.3801,
       "areas": [
         0.37776988693819835
@@ -71930,6 +72948,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1652 VALLEY RD",
       "area": 0.25783,
       "areas": [
         0.2578982004875956
@@ -71988,6 +73007,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1854 VALLEY RD",
       "area": 0.45623,
       "areas": [
         0.4563460585798524
@@ -72038,6 +73058,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2020 VALLEY RD",
       "area": 0.33305,
       "areas": [
         0.333139712173303
@@ -72084,6 +73105,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2060 VALLEY RD",
       "area": 0.38195,
       "areas": [
         0.38204877712599755
@@ -72134,6 +73156,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2078 VALLEY RD",
       "area": 0.25765,
       "areas": [
         0.25633340123069326
@@ -72180,6 +73203,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "24 HEMLOCK CIR",
       "area": 1.21406,
       "areas": [
         1.2143747495514692
@@ -72234,6 +73258,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2183 VALLEY RD",
       "area": 0.17716,
       "areas": [
         0.17715699088994888
@@ -72284,6 +73309,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2167 VALLEY RD",
       "area": 0.24351,
       "areas": [
         0.2431657307457927
@@ -72342,6 +73368,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2127 VALLEY RD",
       "area": 0.21578,
       "areas": [
         0.21399157602176652
@@ -72396,6 +73423,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "49 HEMLOCK CIR",
       "area": 0.16372,
       "areas": [
         0.16376157946556616
@@ -72442,6 +73470,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "41 HEMLOCK CIR",
       "area": 0.1673,
       "areas": [
         0.16734651289528457
@@ -72492,6 +73521,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2027 VALLEY RD",
       "area": 0.29544,
       "areas": [
         0.2959219035325775
@@ -72550,6 +73580,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2017 VALLEY RD",
       "area": 1.13987,
       "areas": [
         1.1429643898393709
@@ -72676,6 +73707,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1901 VALLEY RD",
       "area": 0.82907,
       "areas": [
         0.8314592856866881
@@ -72738,6 +73770,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1891 VALLEY RD",
       "area": 1.0044,
       "areas": [
         0.9899596030054754
@@ -72916,6 +73949,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1883 VALLEY RD",
       "area": 0.50961,
       "areas": [
         0.5099342049593777
@@ -72978,6 +74012,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1853 VALLEY RD",
       "area": 0.33693,
       "areas": [
         0.33672689615007734
@@ -73048,6 +74083,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1841 VALLEY RD",
       "area": 0.28389,
       "areas": [
         0.28328275044881235
@@ -73114,6 +74150,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "2133 VALLEY RD",
       "area": 0.10705,
       "areas": [
         0.10662492467201985
@@ -73168,6 +74205,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "660 MILLEN POND RD",
       "area": 0.83935,
       "areas": [
         0.8399028472230833
@@ -73230,6 +74268,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "660 MILLEN POND RD",
       "area": 0.06287,
       "areas": [
         0.06583067680067578
@@ -73292,6 +74331,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.71431,
       "areas": [
         0.7145354627218504
@@ -73338,6 +74378,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HUNTLEY MT RD",
       "area": 0.98691,
       "areas": [
         0.9872365303081783
@@ -73384,6 +74425,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "AYERS POND RD",
       "area": 20.07908,
       "areas": [
         20.082737108845826
@@ -73434,6 +74476,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 55.11641,
       "areas": [
         55.1279089416246
@@ -73536,6 +74579,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "TWIN BRIDGE RD",
       "area": 36.95532,
       "areas": [
         28.905566248864442,
@@ -73711,6 +74755,7 @@ PARCELS = {
       "usage": "101"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 12.48361,
       "areas": [
         12.477515273550663
@@ -73777,6 +74822,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON HGTS RD",
       "area": 9.12439,
       "areas": [
         9.12702602676424
@@ -73827,6 +74873,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARYS LN",
       "area": 2.30041,
       "areas": [
         2.301039881534122
@@ -73881,6 +74928,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON HGTS RD",
       "area": 6.30419,
       "areas": [
         6.2989122104521345
@@ -73927,6 +74975,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 36.03258,
       "areas": [
         36.04584814611731
@@ -74013,6 +75062,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 16.05699,
       "areas": [
         16.056653400806805
@@ -74087,6 +75137,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 3.00885,
       "areas": [
         3.0096725090836776
@@ -74137,6 +75188,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 10.58516,
       "areas": [
         10.590493916065823
@@ -74195,6 +75247,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 12.72092,
       "areas": [
         12.724000324984665
@@ -74253,6 +75306,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "11 MARTIN RD",
       "area": 5.13263,
       "areas": [
         5.13030347443701
@@ -74323,6 +75377,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 6.30076,
       "areas": [
         6.299786069600944
@@ -74381,6 +75436,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARTIN RD",
       "area": 13.66595,
       "areas": [
         13.676232311758996
@@ -74435,6 +75491,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARTIN RD",
       "area": 12.6836,
       "areas": [
         12.686483026062815
@@ -74481,6 +75538,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 78.17996,
       "areas": [
         78.19671757148397
@@ -74615,6 +75673,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 120.30063,
       "areas": [
         120.34049170051013
@@ -74769,6 +75828,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 59.69914,
       "areas": [
         59.709883201051944
@@ -74851,6 +75911,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 13.21212,
       "areas": [
         13.208032977553483
@@ -74917,6 +75978,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 12.1001,
       "areas": [
         12.102400114552259
@@ -75047,6 +76109,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 20.35994,
       "areas": [
         20.370790641323747
@@ -75197,6 +76260,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "54 AYERS POND RD",
       "area": 10.77745,
       "areas": [
         10.776796379062278
@@ -75267,6 +76331,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.02297,
       "areas": [
         2.0217915855939896
@@ -75321,6 +76386,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 19.03311,
       "areas": [
         19.03454911239863
@@ -75451,6 +76517,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 15.63133,
       "areas": [
         15.641679236458916
@@ -75541,6 +76608,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 10.04843,
       "areas": [
         10.044671869893444
@@ -75675,6 +76743,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "487 AYERS POND RD",
       "area": 22.29617,
       "areas": [
         22.293476333297555
@@ -75809,6 +76878,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OFF SUGAR HOUSE RD",
       "area": 122.48208,
       "areas": [
         122.51270105366535
@@ -75879,6 +76949,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SUGAR HOUSE RD",
       "area": 2.26711,
       "areas": [
         2.267841239629914
@@ -75933,6 +77004,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 53.96015,
       "areas": [
         53.97380159555921
@@ -76107,6 +77179,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "211 LOVELL MT RD",
       "area": 4.04963,
       "areas": [
         4.048978107525832
@@ -76157,6 +77230,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SUGAR HOUSE RD",
       "area": 7.66291,
       "areas": [
         7.664475762310688
@@ -76215,6 +77289,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 18.60913,
       "areas": [
         18.60087113578496
@@ -76369,6 +77444,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.34835,
       "areas": [
         1.3487495069966802
@@ -76419,6 +77495,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.54426,
       "areas": [
         1.544782335039018
@@ -76477,6 +77554,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 3.0879,
       "areas": [
         3.088804725126871
@@ -76535,6 +77613,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCKINNON RD",
       "area": 3.05919,
       "areas": [
         3.0605090822986627
@@ -76701,6 +77780,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MCKINNON RD",
       "area": 17.09253,
       "areas": [
         17.100961392648983
@@ -76839,6 +77919,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MCKINNON RD",
       "area": 46.08978,
       "areas": [
         46.108709598444925
@@ -76965,6 +78046,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MCKINNON RD",
       "area": 79.0784,
       "areas": [
         79.10337327394578
@@ -77251,6 +78333,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MCKINNON RD",
       "area": 2.05213,
       "areas": [
         2.0494412716557466
@@ -77329,6 +78412,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.58275,
       "areas": [
         1.5832339824814492
@@ -77379,6 +78463,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "324 OLD BURBANK RD",
       "area": 12.51525,
       "areas": [
         12.543753650932873
@@ -77433,6 +78518,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD BURBANK RD",
       "area": 29.8671,
       "areas": [
         29.81574454249806
@@ -77547,6 +78633,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 266.26217,
       "areas": [
         266.3096455946577
@@ -77661,6 +78748,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 12.11655,
       "areas": [
         12.120004515941423
@@ -77719,6 +78807,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 22.53502,
       "areas": [
         22.554967186611833
@@ -77869,6 +78958,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 20.49636,
       "areas": [
         20.50173472336345
@@ -77955,6 +79045,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "398 NO MAIN ST",
       "area": 40.30319,
       "areas": [
         40.33604019094232
@@ -78057,6 +79148,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "121 OLD MARLOW RD",
       "area": 2.44042,
       "areas": [
         2.4441621933698787
@@ -78143,6 +79235,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 21.85503,
       "areas": [
         21.856062914552023
@@ -78245,6 +79338,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 24.93222,
       "areas": [
         24.933613138401153
@@ -78319,6 +79413,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SYMONDS LN",
       "area": 64.81041,
       "areas": [
         64.80591690223916
@@ -78533,6 +79628,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AMES RD",
       "area": 75.30476,
       "areas": [
         75.32355711349037
@@ -78647,6 +79743,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 1.35297,
       "areas": [
         1.353334216264054
@@ -78693,6 +79790,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "690 OLD MARLOW RD",
       "area": 6.30441,
       "areas": [
         6.306094877905667
@@ -78787,6 +79885,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 23.24631,
       "areas": [
         23.262312987163092
@@ -78857,6 +79956,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 15.4814,
       "areas": [
         15.484953018069563
@@ -78951,6 +80051,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.41693,
       "areas": [
         0.4170328852392702
@@ -79013,6 +80114,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "667 HALFMOON PD RD",
       "area": 6.26751,
       "areas": [
         6.270696382098313
@@ -79095,6 +80197,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "693 HALFMOON PD RD",
       "area": 0.28434,
       "areas": [
         0.2844118700867301
@@ -79157,6 +80260,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.44998,
       "areas": [
         0.4541828336323189
@@ -79219,6 +80323,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 106.98961,
       "areas": [
         107.00957109511783
@@ -79373,6 +80478,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "684 HALFMOON PD RD",
       "area": 20.76995,
       "areas": [
         20.77818821949658
@@ -79455,6 +80561,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 32.04211,
       "areas": [
         32.05065774963024
@@ -79537,6 +80644,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 124.29698,
       "areas": [
         124.3274011850308
@@ -79859,6 +80967,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 1.24818,
       "areas": [
         1.248642387547897
@@ -79917,6 +81026,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.74863,
       "areas": [
         3.7494537468257843
@@ -79967,6 +81077,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.81125,
       "areas": [
         3.8120049626501142
@@ -80017,6 +81128,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.77924,
       "areas": [
         2.7800595165836635
@@ -80095,6 +81207,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.82615,
       "areas": [
         3.8258060859799015
@@ -80149,6 +81262,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.11514,
       "areas": [
         3.115828194860059
@@ -80199,6 +81313,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "808 WASHINGTON DR",
       "area": 5.10126,
       "areas": [
         5.10245328168493
@@ -80257,6 +81372,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 9.00689,
       "areas": [
         9.005184984424465
@@ -80351,6 +81467,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 6.69158,
       "areas": [
         6.692918749507391
@@ -80425,6 +81542,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.05804,
       "areas": [
         0.05820311814600449
@@ -80488,6 +81606,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.12444,
       "areas": [
         0.12382563120459641
@@ -80539,6 +81658,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.03361,
       "areas": [
         0.03405517274236419
@@ -80590,6 +81710,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "230 HALFMOON PD RD",
       "area": 7.51376,
       "areas": [
         7.515619144842448
@@ -80669,6 +81790,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 17.79109,
       "areas": [
         17.789429345503518
@@ -80815,6 +81937,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ISLAND POND BOAT ACC",
       "area": 0.04673,
       "areas": [
         0.046900464402497254
@@ -80866,6 +81989,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BULMAN ISLAND",
       "area": 0.04158,
       "areas": [
         0.04135151077273044
@@ -80936,6 +82060,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HELENS ISLAND",
       "area": 0.11827,
       "areas": [
         0.11664883421898277
@@ -81006,6 +82131,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.04149,
       "areas": [
         4.030033333490831
@@ -81060,6 +82186,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 13.14795,
       "areas": [
         13.148141389171537
@@ -81186,6 +82313,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 76.23897,
       "areas": [
         76.26204814481942
@@ -81308,6 +82436,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 21.30324,
       "areas": [
         21.30731329907309
@@ -81358,6 +82487,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HARRISON RD",
       "area": 1.20481,
       "areas": [
         1.2051865135775532
@@ -81408,6 +82538,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "306 STOWELL RD",
       "area": 1.44267,
       "areas": [
         1.4431149017555998
@@ -81462,6 +82593,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.35512,
       "areas": [
         1.3570485550489937
@@ -81520,6 +82652,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.20317,
       "areas": [
         1.2035467901119095
@@ -81578,6 +82711,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.98588,
       "areas": [
         1.989051394903734
@@ -81628,6 +82762,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.70934,
       "areas": [
         1.709867607062895
@@ -81682,6 +82817,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 1.27901,
       "areas": [
         1.2783775882000215
@@ -81732,6 +82868,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 1.64531,
       "areas": [
         1.6454540451438402
@@ -81790,6 +82927,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 1.29725,
       "areas": [
         1.2976454268229691
@@ -81844,6 +82982,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 1.51595,
       "areas": [
         1.5164238240478713
@@ -81898,6 +83037,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "STOWELL RD",
       "area": 0.91467,
       "areas": [
         0.9149442904899686
@@ -81944,6 +83084,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OFF JEFFERSON DR",
       "area": 0.65025,
       "areas": [
         0.6504508339695262
@@ -81990,6 +83131,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.73972,
       "areas": [
         0.7399482821120738
@@ -82040,6 +83182,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 2.2492,
       "areas": [
         2.2499014299203703
@@ -82123,6 +83266,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "150 JEFFERSON DR",
       "area": 2.17842,
       "areas": [
         2.169502875825854
@@ -82177,6 +83321,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MADISON DR",
       "area": 0.74915,
       "areas": [
         0.7493820398666102
@@ -82227,6 +83372,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MADISON DR",
       "area": 0.78001,
       "areas": [
         0.7802537099024414
@@ -82277,6 +83423,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MADISON DR",
       "area": 0.6869,
       "areas": [
         0.6871172500857871
@@ -82327,6 +83474,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MADISON DR",
       "area": 0.88945,
       "areas": [
         0.8897290111993832
@@ -82381,6 +83529,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MADISON DR",
       "area": 1.69888,
       "areas": [
         1.6993969186483568
@@ -82451,6 +83600,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 0.75337,
       "areas": [
         0.753604002193687
@@ -82501,6 +83651,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "HARDING RD",
       "area": 0.771,
       "areas": [
         0.7712400357723923
@@ -82551,6 +83702,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 2.36768,
       "areas": [
         2.367910839272672
@@ -82777,6 +83929,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.07159,
       "areas": [
         1.0719246771010291
@@ -82835,6 +83988,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "417 ASHUELOT DR",
       "area": 0.83752,
       "areas": [
         0.8377856457785041
@@ -82889,6 +84043,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "407 ASHUELOT DR",
       "area": 0.62838,
       "areas": [
         0.6285748385543495
@@ -82947,6 +84102,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.00019,
       "areas": [
         1.0004954359465101
@@ -83001,6 +84157,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GARFIELD DR",
       "area": 0.79529,
       "areas": [
         0.7984372087899517
@@ -83047,6 +84204,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "587 PRESIDENTIAL DR",
       "area": 0.77404,
       "areas": [
         0.7742799436317152
@@ -83093,6 +84251,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HAYES RD",
       "area": 0.75919,
       "areas": [
         0.7594203811151096
@@ -83143,6 +84302,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HARDING RD",
       "area": 0.76993,
       "areas": [
         0.770165154123114
@@ -83193,6 +84353,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCKINLEY DR",
       "area": 0.90203,
       "areas": [
         0.9022990628222264
@@ -83243,6 +84404,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GARFIELD DR",
       "area": 0.84117,
       "areas": [
         0.8414211449682254
@@ -83293,6 +84455,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MONROE CIR",
       "area": 0.80153,
       "areas": [
         0.8017751307166543
@@ -83343,6 +84506,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PIERCE RD",
       "area": 0.8665,
       "areas": [
         0.8667610160526178
@@ -83389,6 +84553,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PIERCE RD",
       "area": 0.73686,
       "areas": [
         0.7370779469892635
@@ -83443,6 +84608,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 0.78318,
       "areas": [
         0.7834155755693107
@@ -83493,6 +84659,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JACKSON DR",
       "area": 0.74078,
       "areas": [
         0.7410095374574357
@@ -83539,6 +84706,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "JACKSON DR",
       "area": 0.89874,
       "areas": [
         0.8990107223062007
@@ -83597,6 +84765,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "CLEVELAND CIR",
       "area": 0.92239,
       "areas": [
         0.9207782940289889
@@ -83651,6 +84820,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 0.68956,
       "areas": [
         0.6897706535832684
@@ -83709,6 +84879,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "475 PRESIDENTIAL DR",
       "area": 2.36902,
       "areas": [
         2.3679209661682146
@@ -83779,6 +84950,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JACKSON DR",
       "area": 0.83258,
       "areas": [
         0.832835331356404
@@ -83837,6 +85009,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.78734,
       "areas": [
         0.7875729323134342
@@ -83883,6 +85056,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.98901,
       "areas": [
         0.9893070044546904
@@ -83937,6 +85111,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 1.58047,
       "areas": [
         1.5841560019117273
@@ -84003,6 +85178,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 1.16083,
       "areas": [
         1.1611767950787892
@@ -84057,6 +85233,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 1.08005,
       "areas": [
         1.0803788789173687
@@ -84107,6 +85284,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 2.72939,
       "areas": [
         2.730205815557423
@@ -84157,6 +85335,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 3.93775,
       "areas": [
         3.938937531690825
@@ -84211,6 +85390,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "400 COOLIDGE DR",
       "area": 1.83069,
       "areas": [
         1.831252138687095
@@ -84261,6 +85441,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.00633,
       "areas": [
         1.0066283165094354
@@ -84339,6 +85520,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BUCHANAN CIR",
       "area": 1.51472,
       "areas": [
         1.51608697557229
@@ -84393,6 +85575,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LANG RD",
       "area": 0.42038,
       "areas": [
         0.42051370967913754
@@ -84447,6 +85630,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.26628,
       "areas": [
         0.2663632286639461
@@ -84517,6 +85701,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.61175,
       "areas": [
         0.611944496122915
@@ -84571,6 +85756,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 12.77574,
       "areas": [
         12.779137941890871
@@ -84661,6 +85847,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 82.79727,
       "areas": [
         82.79149783075614
@@ -84807,6 +85994,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.2758,
       "areas": [
         5.271964516760389
@@ -84857,6 +86045,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.4481,
       "areas": [
         5.448479095467082
@@ -84915,6 +86104,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.07253,
       "areas": [
         5.072223362936054
@@ -84965,6 +86155,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 7.75294,
       "areas": [
         7.754987280326319
@@ -85031,6 +86222,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 20.00168,
       "areas": [
         20.00709570327597
@@ -85097,6 +86289,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "290 VALLEY RD",
       "area": 53.38945,
       "areas": [
         53.40299950586042
@@ -85287,6 +86480,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "935 FAXON HILL RD",
       "area": 27.45908,
       "areas": [
         27.46705296781365
@@ -85365,6 +86559,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 3.94215,
       "areas": [
         3.9386344093132237
@@ -85447,6 +86642,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1 ANDERSON ISLAND",
       "area": 0.11246,
       "areas": [
         0.11308304712024053
@@ -85529,6 +86725,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1183 FAXON HILL RD",
       "area": 1.08113,
       "areas": [
         1.081442790158708
@@ -85599,6 +86796,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1139 FAXON HILL RD",
       "area": 40.18317,
       "areas": [
         40.20122780486959
@@ -85869,6 +87067,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FARNSWORTH HILL RD",
       "area": 105.63373,
       "areas": [
         105.67218317078178
@@ -86027,6 +87226,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.02074,
       "areas": [
         0.02074961817942095
@@ -86078,6 +87278,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "112 FARNSWORTH HILL RD",
       "area": 0.66713,
       "areas": [
         0.6673251127954822
@@ -86140,6 +87341,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 7.88377,
       "areas": [
         7.8861251280001925
@@ -86242,6 +87444,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.79696,
       "areas": [
         0.7953731205810901
@@ -86300,6 +87503,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 0.85851,
       "areas": [
         0.857885080180887
@@ -86354,6 +87558,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "153 KING ST",
       "area": 17.78296,
       "areas": [
         17.787354648261452
@@ -86440,6 +87645,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "PIERCE RD",
       "area": 0.84925,
       "areas": [
         0.8475429431401694
@@ -86490,6 +87696,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PINE POINT RD",
       "area": 0.44909,
       "areas": [
         0.4524872896527802
@@ -86560,6 +87767,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 12.10615,
       "areas": [
         12.111022948029232
@@ -86670,6 +87878,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "744 SO MAIN ST",
       "area": 4.04513,
       "areas": [
         4.036746760674179
@@ -86716,6 +87925,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "OAK TERR",
       "area": 0.7202,
       "areas": [
         0.7203828475444181
@@ -86766,6 +87976,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OAK TERR",
       "area": 0.91699,
       "areas": [
         0.9172276022727175
@@ -86816,6 +88027,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 2.72995,
       "areas": [
         2.7306345958410145
@@ -86874,6 +88086,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 4.54611,
       "areas": [
         4.547263181533003
@@ -86932,6 +88145,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 0.16017,
       "areas": [
         0.1602093655794416
@@ -86978,6 +88192,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "952 SO MAIN ST",
       "area": 4.08019,
       "areas": [
         4.055809706071477
@@ -87044,6 +88259,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 22.89552,
       "areas": [
         22.89551975643887
@@ -87158,6 +88374,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 11.6336,
       "areas": [
         11.620220284005294
@@ -87252,6 +88469,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.46383,
       "areas": [
         5.466229821087344
@@ -87314,6 +88532,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "4773 E WASHINGTON RD",
       "area": 3.37894,
       "areas": [
         3.3772984489193996
@@ -87384,6 +88603,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILL ST",
       "area": 1.64186,
       "areas": [
         1.6358321445871633
@@ -87506,6 +88726,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.02244,
       "areas": [
         5.023695036534868
@@ -87564,6 +88785,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.59188,
       "areas": [
         4.595122154170937
@@ -87622,6 +88844,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.06916,
       "areas": [
         0.06917313833750816
@@ -87677,6 +88900,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 1.18088,
       "areas": [
         0.8755379920845066,
@@ -87756,6 +88980,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "81 WASHINGTON DR",
       "area": 4.14316,
       "areas": [
         4.140178755545443
@@ -87846,6 +89071,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.05451,
       "areas": [
         2.057994911125967
@@ -87896,6 +89122,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.98492,
       "areas": [
         2.9855757499210753
@@ -87950,6 +89177,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.07897,
       "areas": [
         3.0796293223423583
@@ -88004,6 +89232,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.80824,
       "areas": [
         2.8088471271180784
@@ -88054,6 +89283,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.62544,
       "areas": [
         2.6260186801285132
@@ -88112,6 +89342,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.77573,
       "areas": [
         2.776370071860539
@@ -88166,6 +89397,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.46261,
       "areas": [
         3.463415284175169
@@ -88224,6 +89456,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 19.29605,
       "areas": [
         19.277818943543693
@@ -88350,6 +89583,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BEAVER BROOK RD",
       "area": 1.89677,
       "areas": [
         1.8988293385489186
@@ -88408,6 +89642,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "28 DOLE SCHOOL HOUSE RD",
       "area": 6.21834,
       "areas": [
         6.226831822581945
@@ -88478,6 +89713,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BAILEY RD",
       "area": 5.10953,
       "areas": [
         5.1079009731543055
@@ -88528,6 +89764,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "93 BAILEY RD",
       "area": 14.7441,
       "areas": [
         14.74785816861383
@@ -88642,6 +89879,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "102 BAILEY RD",
       "area": 5.27812,
       "areas": [
         5.281586310253625
@@ -88720,6 +89958,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 101.08932,
       "areas": [
         101.18595189795532
@@ -88794,6 +90033,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 45.84354,
       "areas": [
         45.85466179548658
@@ -88876,6 +90116,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 26.65825,
       "areas": [
         26.660695685174478
@@ -88958,6 +90199,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "9 KINGSBURY HILL RD",
       "area": 5.77633,
       "areas": [
         5.7741194281588255
@@ -89016,6 +90258,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SO MAIN ST",
       "area": 108.2405,
       "areas": [
         108.24591602168513
@@ -89122,6 +90365,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 53.32471,
       "areas": [
         53.33206307753306
@@ -89252,6 +90496,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SMITH POND RD",
       "area": 148.06271,
       "areas": [
         148.09409734840213
@@ -89462,6 +90707,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WILD ACRE DR",
       "area": 0.3178,
       "areas": [
         0.3189668476461726
@@ -89525,6 +90771,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JEFTS RD",
       "area": 26.9699,
       "areas": [
         26.97850804863992
@@ -89587,6 +90834,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JEFTS RD",
       "area": 80.03155,
       "areas": [
         80.05840632635481
@@ -89633,6 +90881,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.11731,
       "areas": [
         0.11733623037075319
@@ -89683,6 +90932,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 2.35649,
       "areas": [
         2.3600867764256614
@@ -89761,6 +91011,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "238 WOODPECKER RD",
       "area": 1.97648,
       "areas": [
         1.9770825124361229
@@ -89879,6 +91130,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FOX RUN RD",
       "area": 6.21031,
       "areas": [
         6.162777867917648
@@ -89973,6 +91225,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "192 WOODPECKER RD",
       "area": 2.14878,
       "areas": [
         2.1493050818870985
@@ -90035,6 +91288,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "530 LONG POND RD",
       "area": 0.96968,
       "areas": [
         0.9613666794826119
@@ -90097,6 +91351,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "700 HIGHLAND HAVEN RD",
       "area": 2.95761,
       "areas": [
         2.9596125401082674
@@ -90259,6 +91514,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BEAVER BROOK RD",
       "area": 3.79158,
       "areas": [
         3.78760176438841
@@ -90333,6 +91589,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 9.01675,
       "areas": [
         9.018617784789122
@@ -90415,6 +91672,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 7.56497,
       "areas": [
         7.566907842790053
@@ -90477,6 +91735,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BEAVER BROOK RD",
       "area": 8.85189,
       "areas": [
         8.85149833383085
@@ -90551,6 +91810,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1810 SO MAIN ST",
       "area": 27.83757,
       "areas": [
         27.814719316273916
@@ -90637,6 +91897,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 48.48367,
       "areas": [
         48.50793727250887
@@ -90743,6 +92004,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 0.58461,
       "areas": [
         0.5847420050808496
@@ -90810,6 +92072,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "25 DOLE SCHOOL HOUSE RD",
       "area": 61.0189,
       "areas": [
         61.07805906875924
@@ -90988,6 +92251,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.19161,
       "areas": [
         0.1914314848818598
@@ -91046,6 +92310,7 @@ PARCELS = {
       "usage": "26"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.1549,
       "areas": [
         0.15550997778980563
@@ -91096,6 +92361,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "126 SYMONDS LN",
       "area": 5.40235,
       "areas": [
         5.405359188239249
@@ -91202,6 +92468,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "17 MILLEN POND RD",
       "area": 0.3895,
       "areas": [
         0.39370484137972506
@@ -91248,6 +92515,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 7.89916,
       "areas": [
         7.90298695079444
@@ -91318,6 +92586,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 1.9373,
       "areas": [
         1.9405416933690751
@@ -91368,6 +92637,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 1.00989,
       "areas": [
         1.010121486198235
@@ -91430,6 +92700,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "BEAR HILL RD",
       "area": 17.84126,
       "areas": [
         17.856444610762797
@@ -91524,6 +92795,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 0.12732,
       "areas": [
         0.06673342767575799,
@@ -91607,6 +92879,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "OLD HILLSBORO RD",
       "area": 8.69457,
       "areas": [
         8.695888070947495
@@ -91673,6 +92946,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 0.68389,
       "areas": [
         0.6843313042226682
@@ -91739,6 +93013,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 0.04915,
       "areas": [
         0.049162839305040035
@@ -91785,6 +93060,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 1.47632,
       "areas": [
         1.4725063647108096
@@ -91871,6 +93147,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "BEAR HILL RD",
       "area": 6.87638,
       "areas": [
         6.877605647764322
@@ -91921,6 +93198,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BEAR HILL RD",
       "area": 5.34295,
       "areas": [
         5.353547906939818
@@ -91991,6 +93269,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.2129,
       "areas": [
         0.2102050192219017
@@ -92037,6 +93316,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.26208,
       "areas": [
         0.2621498508611349
@@ -92083,6 +93363,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.21458,
       "areas": [
         0.21463464333865873
@@ -92129,6 +93410,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.37038,
       "areas": [
         0.370477128673786
@@ -92179,6 +93461,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 1.0571,
       "areas": [
         1.0573758541250835
@@ -92237,6 +93520,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "79 LOOKOUT POINT RD",
       "area": 0.18091,
       "areas": [
         0.18037859927351158
@@ -92303,6 +93587,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "104 LOOKOUT POINT RD",
       "area": 0.40497,
       "areas": [
         0.4096098935421439
@@ -92401,6 +93686,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BEECH WAY",
       "area": 0.39165,
       "areas": [
         0.3930807521338799
@@ -92455,6 +93741,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BEECH WAY",
       "area": 0.42552,
       "areas": [
         0.42419107814257356
@@ -92505,6 +93792,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BIRCH POINT WAY",
       "area": 0.27925,
       "areas": [
         0.27931048327665553
@@ -92559,6 +93847,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.31637,
       "areas": [
         0.31645309866006105
@@ -92621,6 +93910,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "COVE RD",
       "area": 0.3534,
       "areas": [
         0.35528001623513455
@@ -92667,6 +93957,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1 HERMIT ISLAND",
       "area": 0.28618,
       "areas": [
         0.2856199017498616
@@ -92769,6 +94060,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1 MOODY ISLAND",
       "area": 0.85701,
       "areas": [
         0.8582935515223378
@@ -92931,6 +94223,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.38625,
       "areas": [
         0.386349191350817
@@ -92977,6 +94270,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.40247,
       "areas": [
         0.40257644639135376
@@ -93031,6 +94325,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.62378,
       "areas": [
         0.6239461648397674
@@ -93081,6 +94376,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCQUADE RD",
       "area": 0.16525,
       "areas": [
         0.16528758429902163
@@ -93131,6 +94427,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCQUADE RD",
       "area": 0.1236,
       "areas": [
         0.12222916650084835
@@ -93177,6 +94474,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.19522,
       "areas": [
         0.1950009392476632
@@ -93239,6 +94537,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.42066,
       "areas": [
         0.41684813772911483
@@ -93313,6 +94612,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.17717,
       "areas": [
         0.1772134879847592
@@ -93363,6 +94663,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.20668,
       "areas": [
         0.20673689299415496
@@ -93425,6 +94726,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.1015,
       "areas": [
         0.10254327930063944
@@ -93475,6 +94777,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ISLAND OFF VALLEY RD",
       "area": 0.43689,
       "areas": [
         0.4329388986003218
@@ -93629,6 +94932,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.2327,
       "areas": [
         0.23276118692548428
@@ -93675,6 +94979,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 121.09286,
       "areas": [
         88.5924583272849,
@@ -93966,6 +95271,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 3.45592,
       "areas": [
         3.4584769039395087
@@ -94024,6 +95330,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "378 MCLAUGHLIN RD",
       "area": 10.15915,
       "areas": [
         10.159813539842423
@@ -94106,6 +95413,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "378 MCLAUGHLIN RD",
       "area": 3.27724,
       "areas": [
         3.2772300789198616
@@ -94188,6 +95496,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "122 OLD HAYING RD",
       "area": 2.77416,
       "areas": [
         2.7744674926359485
@@ -94290,6 +95599,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "122 OLD HAYING RD",
       "area": 1.89932,
       "areas": [
         1.8978666824401196
@@ -94392,6 +95702,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 10.90704,
       "areas": [
         10.91742613139485
@@ -94486,6 +95797,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 53.22006,
       "areas": [
         53.24087430170537
@@ -94624,6 +95936,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "NO MAIN ST",
       "area": 62.2705,
       "areas": [
         62.28798633976061
@@ -94770,6 +96083,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 146.75902,
       "areas": [
         146.78983608386193
@@ -95276,6 +96590,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E SHORE DR",
       "area": 5.08687,
       "areas": [
         5.0881181165204055
@@ -95346,6 +96661,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 15.26646,
       "areas": [
         15.269607607241053
@@ -95388,6 +96704,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 9.03537,
       "areas": [
         9.037218682240878
@@ -95434,6 +96751,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON HGTS RD",
       "area": 4.7652,
       "areas": [
         4.7665016198349415
@@ -95480,6 +96798,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 4.8169,
       "areas": [
         4.818197319712206
@@ -95530,6 +96849,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BRENDA LN",
       "area": 0.1479,
       "areas": [
         0.14794496958695444
@@ -95576,6 +96896,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "AYERS POND RD",
       "area": 19.58091,
       "areas": [
         19.585297805449322
@@ -95646,6 +96967,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "960 AYERS POND RD",
       "area": 4.01555,
       "areas": [
         4.016350754729284
@@ -95696,6 +97018,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 4.41703,
       "areas": [
         4.4182182837577
@@ -95746,6 +97069,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "AYERS POND RD",
       "area": 7.52479,
       "areas": [
         7.540122480683345
@@ -95800,6 +97124,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "179 WASHINGTON HGTS",
       "area": 5.29603,
       "areas": [
         5.297460246335183
@@ -95858,6 +97183,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 78.28341,
       "areas": [
         78.32719392903213
@@ -96016,6 +97342,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 111.24539,
       "areas": [
         111.2763404593503
@@ -96170,6 +97497,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BACK MT RD",
       "area": 95.78175,
       "areas": [
         95.80408343873141
@@ -96232,6 +97560,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BACK MT RD",
       "area": 472.88271,
       "areas": [
         472.9901927225872
@@ -96374,6 +97703,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BACK MT RD",
       "area": 66.31779,
       "areas": [
         66.33131218861524
@@ -96484,6 +97814,7 @@ PARCELS = {
       "usage": "101"
     },
     {
+      "address": "AYERS POND RD",
       "area": 129.52799,
       "areas": [
         129.47090900875756
@@ -96662,6 +97993,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BACK MT RD",
       "area": 110.45279,
       "areas": [
         110.4642835847715
@@ -96796,6 +98128,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BACK MT RD",
       "area": 19.25694,
       "areas": [
         19.262318415522138
@@ -96878,6 +98211,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BACK MT RD",
       "area": 48.67901,
       "areas": [
         48.69630590325578
@@ -97016,6 +98350,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 71.71271,
       "areas": [
         71.74145846846534
@@ -97130,6 +98465,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "1915 NO MAIN ST",
       "area": 4.10218,
       "areas": [
         4.098619563837307
@@ -97248,6 +98584,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 20.06303,
       "areas": [
         20.061536327045946
@@ -97370,6 +98707,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1983 NO MAIN ST",
       "area": 64.65545,
       "areas": [
         64.65960463720721
@@ -97944,6 +99282,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "NO MAIN ST",
       "area": 58.56647,
       "areas": [
         58.57187115848678
@@ -98426,6 +99765,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "1141 NO MAIN ST",
       "area": 60.05301,
       "areas": [
         60.06178138977331
@@ -98564,6 +99904,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 1.93336,
       "areas": [
         1.9329921110884853
@@ -98631,6 +99972,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "TWIN BRIDGE RD",
       "area": 20.46194,
       "areas": [
         20.455006619837203
@@ -98705,6 +100047,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "100 PILLSBURY STATE PARK",
       "area": 3634.30687,
       "areas": [
         3635.322712871199
@@ -99379,6 +100722,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "1704 HALFMOON PD RD",
       "area": 4.91421,
       "areas": [
         4.915388644656688
@@ -99433,6 +100777,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 969.46951,
       "areas": [
         969.6950828307238
@@ -100115,6 +101460,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 300.03651,
       "areas": [
         300.09707943473904
@@ -100389,6 +101735,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "919 AYERS POND RD",
       "area": 156.65243,
       "areas": [
         156.67585811962388
@@ -100695,6 +102042,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "NO MAIN ST",
       "area": 182.2172,
       "areas": [
         182.25398114130738
@@ -100841,6 +102189,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LEMPSTER MT RD",
       "area": 18.55528,
       "areas": [
         18.568132794518114
@@ -100995,6 +102344,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON HGTS RD",
       "area": 5.27206,
       "areas": [
         5.273528547792541
@@ -101045,6 +102395,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON HGTS RD",
       "area": 6.89713,
       "areas": [
         6.904951390591875
@@ -101107,6 +102458,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 541.68727,
       "areas": [
         541.7461907247381
@@ -101709,6 +103061,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARTIN RD",
       "area": 21.40579,
       "areas": [
         21.41049394221325
@@ -101787,6 +103140,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARTIN RD",
       "area": 163.22378,
       "areas": [
         163.26034279883135
@@ -101865,6 +103219,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARTIN RD",
       "area": 20.66406,
       "areas": [
         20.66866458985866
@@ -101939,6 +103294,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "134 MARTIN RD",
       "area": 9.46851,
       "areas": [
         9.476184322107448
@@ -101997,6 +103353,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "112 MARTIN RD",
       "area": 11.40211,
       "areas": [
         11.389904802500773
@@ -102063,6 +103420,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 181.92116,
       "areas": [
         181.96759826944555
@@ -102133,6 +103491,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 326.8124,
       "areas": [
         326.8718081849743
@@ -102339,6 +103698,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 123.76963,
       "areas": [
         123.86501735177542
@@ -102437,6 +103797,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 32.63705,
       "areas": [
         32.64378529429056
@@ -102519,6 +103880,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "AYERS POND RD",
       "area": 7.62615,
       "areas": [
         7.627715469376196
@@ -102569,6 +103931,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "DEER VALLEY RD",
       "area": 3.4917,
       "areas": [
         3.4900768423108754
@@ -102635,6 +103998,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 0.98928,
       "areas": [
         0.9894854610907949
@@ -102749,6 +104113,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 24.94237,
       "areas": [
         24.953512692494808
@@ -102863,6 +104228,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SANDY KNOLLS RD",
       "area": 7.87567,
       "areas": [
         7.881472947435833
@@ -102969,6 +104335,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 6.10914,
       "areas": [
         6.110384849027178
@@ -103039,6 +104406,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 3.73996,
       "areas": [
         3.7383155307504254
@@ -103101,6 +104469,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SUGAR HOUSE RD",
       "area": 2.56074,
       "areas": [
         2.565265153473371
@@ -103163,6 +104532,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "SUGAR HOUSE RD",
       "area": 2.33433,
       "areas": [
         2.3348160885464226
@@ -103213,6 +104583,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SUGAR HOUSE RD",
       "area": 5.59465,
       "areas": [
         5.595845484780824
@@ -103275,6 +104646,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SANDY KNOLLS RD",
       "area": 2.59589,
       "areas": [
         2.5963969411031056
@@ -103333,6 +104705,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "514 AYERS POND RD",
       "area": 5.39685,
       "areas": [
         5.39819930701643
@@ -103379,6 +104752,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "DEER VALLEY RD",
       "area": 10.10013,
       "areas": [
         10.095111353070646
@@ -103441,6 +104815,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "AYERS POND RD",
       "area": 2.24499,
       "areas": [
         2.241531902300198
@@ -103515,6 +104890,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 4.1939,
       "areas": [
         4.192705030954449
@@ -103581,6 +104957,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ULRICH RD",
       "area": 13.63722,
       "areas": [
         13.639968336244655
@@ -103631,6 +105008,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BRADFORD SPRINGS RD",
       "area": 2.6377,
       "areas": [
         2.6381515891548166
@@ -103677,6 +105055,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "70 SISTERS WAY",
       "area": 74.38703,
       "areas": [
         74.41011132404228
@@ -103727,6 +105106,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SISTERS WAY",
       "area": 51.43797,
       "areas": [
         51.45027196758154
@@ -103825,6 +105205,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 61.69071,
       "areas": [
         61.71494109205964
@@ -104039,6 +105420,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 154.02945,
       "areas": [
         154.0851585923646
@@ -104329,6 +105711,7 @@ PARCELS = {
       "usage": "101"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 153.96338,
       "areas": [
         154.01266780785824
@@ -104559,6 +105942,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 4.43196,
       "areas": [
         4.433585415000643
@@ -104617,6 +106001,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.57854,
       "areas": [
         1.5790307243145778
@@ -104675,6 +106060,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 2.71155,
       "areas": [
         2.7123969112667843
@@ -104737,6 +106123,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 3.20508,
       "areas": [
         3.2057084544872914
@@ -104807,6 +106194,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.52581,
       "areas": [
         1.5250790398013072
@@ -104861,6 +106249,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.49392,
       "areas": [
         1.4943830367686313
@@ -104915,6 +106304,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.31746,
       "areas": [
         1.3229559443241272
@@ -104977,6 +106367,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.0291,
       "areas": [
         1.029414643420217
@@ -105031,6 +106422,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.29832,
       "areas": [
         1.298728232787752
@@ -105089,6 +106481,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.95471,
       "areas": [
         1.9553065774041998
@@ -105139,6 +106532,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.72926,
       "areas": [
         1.7297932345269569
@@ -105189,6 +106583,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 4.12735,
       "areas": [
         4.130655630585194
@@ -105247,6 +106642,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.10402,
       "areas": [
         1.1043573220380831
@@ -105293,6 +106689,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.46924,
       "areas": [
         1.4696760373878779
@@ -105339,6 +106736,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 3.39026,
       "areas": [
         3.390819603346555
@@ -105393,6 +106791,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 1.65906,
       "areas": [
         1.6556272362909443
@@ -105439,6 +106838,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "76 ASHUELOT POND",
       "area": 0.20042,
       "areas": [
         0.20048751302254647
@@ -105485,6 +106885,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 2.87075,
       "areas": [
         2.8716589118267515
@@ -105551,6 +106952,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT DR",
       "area": 0.48467,
       "areas": [
         0.4848243214150922
@@ -105601,6 +107003,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD BURBANK RD",
       "area": 3.24329,
       "areas": [
         3.237856429675183
@@ -105683,6 +107086,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD BURBANK RD",
       "area": 1.77315,
       "areas": [
         1.7736466988907007
@@ -105745,6 +107149,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 89.77944,
       "areas": [
         89.79600361117136
@@ -105839,6 +107244,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 41.30215,
       "areas": [
         41.31376545193174
@@ -105917,6 +107323,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "468 OLD MARLOW RD",
       "area": 6.16975,
       "areas": [
         6.1714504817563
@@ -105991,6 +107398,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "277 OLD MARLOW RD",
       "area": 5.12935,
       "areas": [
         5.13078145270591
@@ -106049,6 +107457,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "426 OLD MARLOW RD",
       "area": 56.15408,
       "areas": [
         56.17451706088387
@@ -106179,6 +107588,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "190 OLD MARLOW RD",
       "area": 4.83462,
       "areas": [
         4.832287314812202
@@ -106237,6 +107647,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "146 OLD MARLOW RD",
       "area": 3.08116,
       "areas": [
         3.0819756038862955
@@ -106315,6 +107726,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "419 NO MAIN ST",
       "area": 4.44282,
       "areas": [
         4.443998030170815
@@ -106373,6 +107785,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "141 OLD MARLOW RD",
       "area": 21.13895,
       "areas": [
         21.144617778778066
@@ -106491,6 +107904,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 16.24824,
       "areas": [
         16.255835414579686
@@ -106557,6 +107971,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 4.55149,
       "areas": [
         4.546735273873566
@@ -106619,6 +108034,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.0517,
       "areas": [
         0.05171255539685078
@@ -106670,6 +108086,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "699 MILLEN POND RD",
       "area": 0.15375,
       "areas": [
         0.15551311363374673
@@ -106724,6 +108141,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "689 MILLEN POND RD",
       "area": 0.1647,
       "areas": [
         0.16500606860613248
@@ -106778,6 +108196,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.02172,
       "areas": [
         0.021655684109041357
@@ -106829,6 +108248,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "685 MILLEN POND RD",
       "area": 0.10405,
       "areas": [
         0.10468286503756595
@@ -106884,6 +108304,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.1593,
       "areas": [
         0.1590673209949367
@@ -106934,6 +108355,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "611 MILLEN POND RD",
       "area": 0.87771,
       "areas": [
         0.8779419990893121
@@ -107024,6 +108446,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.18719,
       "areas": [
         0.18724726076937478
@@ -107083,6 +108506,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 2.14599,
       "areas": [
         2.1465537077257095
@@ -107153,6 +108577,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 2.18913,
       "areas": [
         2.189721968909736
@@ -107203,6 +108628,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.72507,
       "areas": [
         0.7252931755495277
@@ -107253,6 +108679,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "127 FARNSWORTH HILL RD",
       "area": 193.45693,
       "areas": [
         193.56569267837338
@@ -107387,6 +108814,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "639 MILLEN POND RD",
       "area": 0.13058,
       "areas": [
         0.13302765807351027
@@ -107441,6 +108869,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 0.04976,
       "areas": [
         0.05131423632176914
@@ -107492,6 +108921,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "NO MAIN ST",
       "area": 100.38222,
       "areas": [
         100.39595803923918
@@ -107946,6 +109376,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SNOW RD",
       "area": 1.16386,
       "areas": [
         1.1641481952080637
@@ -108012,6 +109443,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "78 SNOW RD",
       "area": 0.92079,
       "areas": [
         0.9217589691433288
@@ -108130,6 +109562,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 122.43402,
       "areas": [
         122.4682976133868
@@ -108708,6 +110141,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "507 HALFMOON PD RD",
       "area": 0.38535,
       "areas": [
         0.3898807587435009
@@ -108770,6 +110204,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SNOW RD",
       "area": 0.25356,
       "areas": [
         0.25362600774179345
@@ -108816,6 +110251,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "41 SNOW RD",
       "area": 1.23879,
       "areas": [
         1.2390963344817778
@@ -108878,6 +110314,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "COVE RD",
       "area": 0.39463,
       "areas": [
         0.3947364833117243
@@ -108924,6 +110361,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "70 SNOW RD",
       "area": 0.45825,
       "areas": [
         0.45601941491734893
@@ -108982,6 +110420,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "56 SNOW RD",
       "area": 0.35369,
       "areas": [
         0.3554348116125559
@@ -109036,6 +110475,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "42 SNOW RD",
       "area": 0.35297,
       "areas": [
         0.35424528286186563
@@ -109094,6 +110534,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "36 SNOW RD",
       "area": 0.42397,
       "areas": [
         0.4244033453737075
@@ -109148,6 +110589,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "20 SNOW RD",
       "area": 0.49208,
       "areas": [
         0.48737043085096476
@@ -109214,6 +110656,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "14 SNOW RD",
       "area": 0.66243,
       "areas": [
         0.6625875512358513
@@ -109284,6 +110727,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "727 HALFMOON PD RD",
       "area": 0.35167,
       "areas": [
         0.3501446089135282
@@ -109338,6 +110782,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.33565,
       "areas": [
         0.3384726077066412
@@ -109388,6 +110833,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "696 HALFMOON PD RD",
       "area": 1.99706,
       "areas": [
         1.9975492390009963
@@ -109446,6 +110892,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.21823,
       "areas": [
         0.2182813179102037
@@ -109492,6 +110939,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 60.87353,
       "areas": [
         60.89228351423573
@@ -109638,6 +111086,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "390 HALFMOON PD RD",
       "area": 51.75844,
       "areas": [
         51.77092065450794
@@ -109736,6 +111185,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "105 ISLAND POND",
       "area": 24.58645,
       "areas": [
         24.592251526184903
@@ -109854,6 +111304,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "129 ISLAND POND",
       "area": 9.12597,
       "areas": [
         9.128070342080724
@@ -109932,6 +111383,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "147 ISLAND POND",
       "area": 33.65019,
       "areas": [
         33.65959214090952
@@ -110026,6 +111478,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.52231,
       "areas": [
         3.5231508267634335
@@ -110096,6 +111549,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "294 MCLAUGHLIN RD",
       "area": 59.09176,
       "areas": [
         30.177419418486387,
@@ -110615,6 +112069,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "94 MCLAUGHLIN RD",
       "area": 1.26425,
       "areas": [
         1.2645452850078946
@@ -110661,6 +112116,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "11 MCLAUGHLIN RD",
       "area": 0.66966,
       "areas": [
         0.6698158711000994
@@ -110707,6 +112163,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "96 MCLAUGHLIN RD",
       "area": 1.46882,
       "areas": [
         1.4636168357945942
@@ -110753,6 +112210,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ISLAND POND",
       "area": 1.38065,
       "areas": [
         1.3809754252928357
@@ -110799,6 +112257,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "379 MCLAUGHLIN RD",
       "area": 13.40899,
       "areas": [
         13.413506594747846
@@ -110885,6 +112344,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "221 ISLAND POND",
       "area": 13.12249,
       "areas": [
         13.127620812331463
@@ -111259,6 +112719,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "247 ISLAND POND",
       "area": 30.06215,
       "areas": [
         30.069866204241045
@@ -111393,6 +112854,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOVELL MT RD",
       "area": 21.01625,
       "areas": [
         21.021325541747032
@@ -111495,6 +112957,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "856 WASHINGTON DR",
       "area": 0.27921,
       "areas": [
         0.27927181881829505
@@ -111549,6 +113012,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.41283,
       "areas": [
         2.414188727966536
@@ -111711,6 +113175,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.93289,
       "areas": [
         2.9335567964049996
@@ -111757,6 +113222,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.39683,
       "areas": [
         3.397491295089347
@@ -111847,6 +113313,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 7.75094,
       "areas": [
         7.750852377603872
@@ -111981,6 +113448,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "155 WINDRUN RD",
       "area": 13.94543,
       "areas": [
         13.939883462303213
@@ -112087,6 +113555,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 17.6725,
       "areas": [
         17.669846023163004
@@ -112373,6 +113842,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.94486,
       "areas": [
         4.945491870392099
@@ -112443,6 +113913,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.71788,
       "areas": [
         3.717465011543382
@@ -112541,6 +114012,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 4.39611,
       "areas": [
         4.397088034856243
@@ -112595,6 +114067,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.62365,
       "areas": [
         2.6242537238454062
@@ -112645,6 +114118,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 2.84278,
       "areas": [
         2.8434252413833514
@@ -112703,6 +114177,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 56.5807,
       "areas": [
         56.58837624715074
@@ -112813,6 +114288,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "56 ISLAND POND BOAT ACC",
       "area": 25.02025,
       "areas": [
         25.001581256189155
@@ -113043,6 +114519,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.02077,
       "areas": [
         0.0210633516766268
@@ -113094,6 +114571,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.05623,
       "areas": [
         0.05627837138929555
@@ -113153,6 +114631,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FIELDS WAY",
       "area": 0.92965,
       "areas": [
         0.9298471266431519
@@ -113199,6 +114678,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.06289,
       "areas": [
         0.06433430932630942
@@ -113245,6 +114725,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "105 ISLAND POND RD",
       "area": 0.04204,
       "areas": [
         0.0428690485467821
@@ -113291,6 +114772,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "56 ISLAND POND RD",
       "area": 0.05512,
       "areas": [
         0.053934575969233046
@@ -113337,6 +114819,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.05044,
       "areas": [
         0.05008156750331353
@@ -113392,6 +114875,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.02863,
       "areas": [
         0.028640072151008666
@@ -113447,6 +114931,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "125 ISLAND POND RD",
       "area": 0.04583,
       "areas": [
         0.04532260652749027
@@ -113510,6 +114995,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.04816,
       "areas": [
         0.049239654691350124
@@ -113580,6 +115066,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 7.80648,
       "areas": [
         7.808495167011662
@@ -113642,6 +115129,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 4.97094,
       "areas": [
         4.972171059095914
@@ -113692,6 +115180,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "749 HALFMOON PD RD",
       "area": 1.78357,
       "areas": [
         1.7836447784986846
@@ -113882,6 +115371,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILL ST",
       "area": 0.16966,
       "areas": [
         0.17096786413378087
@@ -113948,6 +115438,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1 PETERSON ISLAND",
       "area": 0.46563,
       "areas": [
         0.46536121567823757
@@ -114054,6 +115545,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 6.16545,
       "areas": [
         6.168088343277832
@@ -114592,6 +116084,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.73505,
       "areas": [
         0.7369591392170584
@@ -114654,6 +116147,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.77212,
       "areas": [
         0.7739242906877448
@@ -114752,6 +116246,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1 SPENCERS ISLAND",
       "area": 7.38708,
       "areas": [
         7.390256452051781
@@ -115082,6 +116577,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1 OEHLSCHLAEGER ISLAND",
       "area": 0.19776,
       "areas": [
         0.19561519056309024
@@ -115172,6 +116668,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILL ST",
       "area": 0.45194,
       "areas": [
         0.4512449839188545
@@ -115259,6 +116756,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 0.23515,
       "areas": [
         0.2352639834376745
@@ -115314,6 +116812,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.08587,
       "areas": [
         0.08621331995905684
@@ -115364,6 +116863,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 10.32735,
       "areas": [
         10.330169583441759
@@ -115414,6 +116914,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 11.51343,
       "areas": [
         11.500570910928133
@@ -115532,6 +117033,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ISLAND POND RD",
       "area": 0.21136,
       "areas": [
         0.21137920236999488
@@ -115651,6 +117153,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "1 POLLACK ISLAND",
       "area": 0.03301,
       "areas": [
         0.03301982577682025
@@ -115717,6 +117220,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 81.29012,
       "areas": [
         81.28502789584581
@@ -115927,6 +117431,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 27.75109,
       "areas": [
         27.79105231541004
@@ -116085,6 +117590,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FIELDS WAY",
       "area": 16.06343,
       "areas": [
         16.06306980520709
@@ -116187,6 +117693,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FIELDS WAY",
       "area": 0.8949,
       "areas": [
         0.8950901807403544
@@ -116233,6 +117740,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FIELDS WAY",
       "area": 0.87669,
       "areas": [
         0.8768788213477487
@@ -116279,6 +117787,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FIELDS WAY",
       "area": 0.92442,
       "areas": [
         0.924619209759429
@@ -116325,6 +117834,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FIELDS WAY",
       "area": 0.91875,
       "areas": [
         0.9189426085157028
@@ -116371,6 +117881,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 8.00198,
       "areas": [
         8.003596576807464
@@ -116421,6 +117932,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 141.70694,
       "areas": [
         141.71630558858382
@@ -116687,6 +118199,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.91795,
       "areas": [
         5.919086257350596
@@ -116741,6 +118254,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HARRISON RD",
       "area": 1.16073,
       "areas": [
         1.1610977045637767
@@ -116799,6 +118313,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HARRISON RD",
       "area": 1.37855,
       "areas": [
         1.3779809005545849
@@ -116853,6 +118368,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.21353,
       "areas": [
         1.2139081164162742
@@ -116907,6 +118423,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "TAYLOR CIR",
       "area": 1.18583,
       "areas": [
         1.1890742637546998
@@ -116961,6 +118478,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "GRANT RD",
       "area": 1.72981,
       "areas": [
         1.73679875577982
@@ -117015,6 +118533,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.75263,
       "areas": [
         0.7528673785440514
@@ -117065,6 +118584,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JEFFERSON DR",
       "area": 0.8557,
       "areas": [
         0.8559656660466478
@@ -117115,6 +118635,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MADISON DR",
       "area": 0.757,
       "areas": [
         0.7572360886177157
@@ -117165,6 +118686,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 2.22625,
       "areas": [
         2.226947599742483
@@ -117219,6 +118741,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "VAN BUREN CIR",
       "area": 0.14636,
       "areas": [
         0.1438059965981708
@@ -117285,6 +118808,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCKINLEY DR",
       "area": 0.98583,
       "areas": [
         0.9861288293098722
@@ -117367,6 +118891,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "104 GARFIELD DR",
       "area": 1.09571,
       "areas": [
         1.096044355967371
@@ -117421,6 +118946,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "HAYES RD",
       "area": 0.63964,
       "areas": [
         0.6398386640711202
@@ -117471,6 +118997,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 1.07012,
       "areas": [
         1.0712351450376183
@@ -117521,6 +119048,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PIERCE RD",
       "area": 0.83697,
       "areas": [
         0.8372268677833639
@@ -117567,6 +119095,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 0.80182,
       "areas": [
         0.8020579310792956
@@ -117617,6 +119146,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 0.72356,
       "areas": [
         0.723780036332623
@@ -117667,6 +119197,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 1.71608,
       "areas": [
         1.7166141451357397
@@ -117717,6 +119248,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 1.13014,
       "areas": [
         1.130487549094998
@@ -117767,6 +119299,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LINCOLN DR",
       "area": 1.7055,
       "areas": [
         1.7060246156741328
@@ -117829,6 +119362,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JACKSON DR",
       "area": 1.04458,
       "areas": [
         1.045848051010872
@@ -117883,6 +119417,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JACKSON DR",
       "area": 1.10308,
       "areas": [
         1.1067047464931579
@@ -117933,6 +119468,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "421 PRESIDENTIAL DR",
       "area": 1.05881,
       "areas": [
         1.0575320550878513
@@ -117983,6 +119519,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "CLEVELAND CIR",
       "area": 1.01604,
       "areas": [
         1.0163517888680857
@@ -118037,6 +119574,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JACKSON DR",
       "area": 0.79192,
       "areas": [
         0.7921651727554653
@@ -118083,6 +119621,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 1.65035,
       "areas": [
         1.6508496250192297
@@ -118153,6 +119692,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 1.19346,
       "areas": [
         1.1938252489656047
@@ -118203,6 +119743,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "418 COOLIDGE DR",
       "area": 5.23832,
       "areas": [
         5.24580503616461
@@ -118277,6 +119818,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.41122,
       "areas": [
         1.4116477490066912
@@ -118331,6 +119873,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT ACRE RD",
       "area": 0.19517,
       "areas": [
         0.19523286421031666
@@ -118381,6 +119924,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 0.87051,
       "areas": [
         0.8721627676971077
@@ -118459,6 +120003,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BUCHANAN CIR",
       "area": 2.76273,
       "areas": [
         2.7556904985947703
@@ -118529,6 +120074,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 4.66312,
       "areas": [
         4.664540493918257
@@ -118595,6 +120141,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 3.07922,
       "areas": [
         3.0801662151058466
@@ -118653,6 +120200,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 2.13441,
       "areas": [
         2.135069088216391
@@ -118711,6 +120259,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.69128,
       "areas": [
         1.691786840171692
@@ -118765,6 +120314,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.40473,
       "areas": [
         1.4051576987103427
@@ -118815,6 +120365,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.7365,
       "areas": [
         1.741644775819608
@@ -118877,6 +120428,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COOLIDGE DR",
       "area": 1.6838,
       "areas": [
         1.6903491771711106
@@ -118939,6 +120491,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 22.95543,
       "areas": [
         22.942447958457915
@@ -119193,6 +120746,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD MARLOW RD",
       "area": 10.94346,
       "areas": [
         10.94654702452018
@@ -119251,6 +120805,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HUNTLEY MT RD",
       "area": 23.03779,
       "areas": [
         23.045185397123728
@@ -119317,6 +120872,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HUNTLEY MT RD",
       "area": 129.86146,
       "areas": [
         129.8761491753836
@@ -119387,6 +120943,7 @@ PARCELS = {
       "usage": "101"
     },
     {
+      "address": "ASHUELOT ACRE RD",
       "area": 0.54823,
       "areas": [
         0.5484081304465038
@@ -119437,6 +120994,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT ACRE RD",
       "area": 1.14088,
       "areas": [
         1.1412422982870236
@@ -119487,6 +121045,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LANG RD",
       "area": 2.93664,
       "areas": [
         2.9375853581630045
@@ -119565,6 +121124,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "51 COTTAGE LN",
       "area": 1.23762,
       "areas": [
         1.2380147756403994
@@ -119635,6 +121195,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "30 COTTAGE LN",
       "area": 0.53638,
       "areas": [
         0.5362135714512559
@@ -119701,6 +121262,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "31 LANG RD",
       "area": 0.3875,
       "areas": [
         0.3876238507059433
@@ -119747,6 +121309,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "41 LANG RD",
       "area": 0.2481,
       "areas": [
         0.24818196336703538
@@ -119797,6 +121360,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "530 MARLOW RD",
       "area": 0.33311,
       "areas": [
         0.33322032813506536
@@ -119843,6 +121407,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MARLOW RD",
       "area": 15.55167,
       "areas": [
         15.561567802403992
@@ -119953,6 +121518,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 7.0065,
       "areas": [
         7.008158187131094
@@ -120187,6 +121753,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 12.4197,
       "areas": [
         12.415901143297368
@@ -120385,6 +121952,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "30 ASHUELOT POND",
       "area": 1.65212,
       "areas": [
         1.6537062247588963
@@ -120519,6 +122087,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.56421,
       "areas": [
         0.5689347483631391
@@ -120589,6 +122158,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "48 ASHUELOT POND",
       "area": 0.43,
       "areas": [
         0.43290461003160857
@@ -120643,6 +122213,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "52 ASHUELOT POND",
       "area": 0.16298,
       "areas": [
         0.16303078293749823
@@ -120697,6 +122268,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "66 ASHUELOT POND",
       "area": 0.15305,
       "areas": [
         0.15309788892967918
@@ -120747,6 +122319,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "56 ASHUELOT POND",
       "area": 0.18331,
       "areas": [
         0.18336907622294724
@@ -120801,6 +122374,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "62 ASHUELOT POND",
       "area": 0.06462,
       "areas": [
         0.06400487097010145
@@ -120851,6 +122425,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "64 ASHUELOT POND",
       "area": 0.12002,
       "areas": [
         0.12005626466586189
@@ -120905,6 +122480,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "70 ASHUELOT POND",
       "area": 0.16477,
       "areas": [
         0.16482287345040517
@@ -120951,6 +122527,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "74 BRENDA LN",
       "area": 0.3652,
       "areas": [
         0.36378181087169875
@@ -121009,6 +122586,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BRENDA LN",
       "area": 0.76135,
       "areas": [
         0.7625473108825569
@@ -121079,6 +122657,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KAREN LN",
       "area": 0.76516,
       "areas": [
         0.7663349351494613
@@ -121149,6 +122728,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BRENDA LN",
       "area": 0.59314,
       "areas": [
         0.5885929762070368
@@ -121211,6 +122791,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "72 BRENDA LN",
       "area": 0.53063,
       "areas": [
         0.532329342826934
@@ -121273,6 +122854,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HUNTLEY MT RD",
       "area": 1.13286,
       "areas": [
         1.1332292432207292
@@ -121319,6 +122901,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "34 HUNTLEY MT RD",
       "area": 1.93501,
       "areas": [
         1.9356381525336561
@@ -121377,6 +122960,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "MARLOW RD",
       "area": 42.29616,
       "areas": [
         42.31056454067299
@@ -121475,6 +123059,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARLOW RD",
       "area": 15.10484,
       "areas": [
         15.107392320053249
@@ -121665,6 +123250,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "270 ASHUELOT POND",
       "area": 0.8457,
       "areas": [
         0.8473231894520828
@@ -121763,6 +123349,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "95 MARLOW RD",
       "area": 13.59249,
       "areas": [
         13.601888426634243
@@ -122173,6 +123760,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "578 MARLOW RD",
       "area": 0.25993,
       "areas": [
         0.26001391543142083
@@ -122223,6 +123811,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.31013,
       "areas": [
         0.3102347733888997
@@ -122273,6 +123862,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "594 MARLOW RD",
       "area": 0.34984,
       "areas": [
         0.353889877360482
@@ -122319,6 +123909,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.31805,
       "areas": [
         0.317356421463262
@@ -122369,6 +123960,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 4.86392,
       "areas": [
         4.857702063005724
@@ -122471,6 +124063,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "184 MARLOW RD",
       "area": 6.1013,
       "areas": [
         6.103304350564407
@@ -122517,6 +124110,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "RUSSELL MILLPOND RD",
       "area": 10.03349,
       "areas": [
         10.038792857273373
@@ -122691,6 +124285,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "180 ASHUELOT POND",
       "area": 0.2284,
       "areas": [
         0.2284698244496982
@@ -122741,6 +124336,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "182 ASHUELOT POND",
       "area": 0.09829,
       "areas": [
         0.09831844239655753
@@ -122787,6 +124383,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "188 ASHUELOT POND",
       "area": 0.29172,
       "areas": [
         0.2918098612727029
@@ -122837,6 +124434,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "196 ASHUELOT POND",
       "area": 0.35493,
       "areas": [
         0.3550371574994068
@@ -122895,6 +124493,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "204 ASHUELOT POND",
       "area": 0.47748,
       "areas": [
         0.47796568314751847
@@ -122949,6 +124548,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "208 ASHUELOT POND",
       "area": 0.2891,
       "areas": [
         0.2891930010705037
@@ -123003,6 +124603,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "214 ASHUELOT POND",
       "area": 0.40684,
       "areas": [
         0.408596125877824
@@ -123061,6 +124662,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "GARFIELD DR",
       "area": 9.6933,
       "areas": [
         9.70336434799894
@@ -123231,6 +124833,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARLOW RD",
       "area": 33.04971,
       "areas": [
         33.04952362305619
@@ -123537,6 +125140,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MARLOW RD",
       "area": 3.27194,
       "areas": [
         3.272996045807466
@@ -123619,6 +125223,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "138 MARLOW RD",
       "area": 9.31169,
       "areas": [
         9.314778808690148
@@ -123693,6 +125298,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "VALLEY RD",
       "area": 7.93552,
       "areas": [
         7.939629386322096
@@ -123747,6 +125353,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "14 PENINSULA DR",
       "area": 0.78266,
       "areas": [
         0.782915603985718
@@ -123837,6 +125444,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "MARLOW RD",
       "area": 8.32699,
       "areas": [
         8.329803948104745
@@ -123899,6 +125507,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2 MARLOW RD",
       "area": 57.24706,
       "areas": [
         57.27982096353557
@@ -123989,6 +125598,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.15519,
       "areas": [
         0.15524126726751059
@@ -124035,6 +125645,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.14156,
       "areas": [
         0.14160934323308277
@@ -124085,6 +125696,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.31164,
       "areas": [
         0.3117402442160368
@@ -124147,6 +125759,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "MARLOW RD",
       "area": 1.00015,
       "areas": [
         1.000488640190432
@@ -124209,6 +125822,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ASHUELOT ACRE RD",
       "area": 0.13063,
       "areas": [
         0.13067034661066634
@@ -124255,6 +125869,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT ACRE RD",
       "area": 0.18875,
       "areas": [
         0.18880954635507868
@@ -124305,6 +125920,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 1.48196,
       "areas": [
         1.4849684509227044
@@ -124427,6 +126043,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.15584,
       "areas": [
         0.15589490387082702
@@ -124473,6 +126090,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MARLOW RD",
       "area": 0.05058,
       "areas": [
         0.05056217359297309
@@ -124519,6 +126137,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 7.27185,
       "areas": [
         7.273987976744126
@@ -124581,6 +126200,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.4974,
       "areas": [
         5.499005540352639
@@ -124647,6 +126267,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 21.07622,
       "areas": [
         21.083010492759268
@@ -124741,6 +126362,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 247.76984,
       "areas": [
         247.88033226267936
@@ -124915,6 +126537,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "719 FAXON HILL RD",
       "area": 10.00947,
       "areas": [
         10.012261123438266
@@ -124977,6 +126600,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "773 FAXON HILL RD",
       "area": 6.4444,
       "areas": [
         6.446224879123701
@@ -125027,6 +126651,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 5.45499,
       "areas": [
         5.456511449695765
@@ -125085,6 +126710,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "861 FAXON HILL RD",
       "area": 9.05073,
       "areas": [
         9.05331878218163
@@ -125179,6 +126805,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "889 FAXON HILL RD",
       "area": 4.65125,
       "areas": [
         4.652540193497607
@@ -125229,6 +126856,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 11.85258,
       "areas": [
         11.856000831601339
@@ -125299,6 +126927,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 12.05192,
       "areas": [
         12.060547863306795
@@ -125377,6 +127006,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KING ST",
       "area": 207.20398,
       "areas": [
         207.25527801692456
@@ -125519,6 +127149,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "333 KING ST",
       "area": 46.45094,
       "areas": [
         46.4636432401137
@@ -125673,6 +127304,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "413 KING ST",
       "area": 0.95039,
       "areas": [
         0.9484030388782325
@@ -125732,6 +127364,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "436 KING ST",
       "area": 150.10414,
       "areas": [
         150.1877127324293
@@ -126290,6 +127923,7 @@ PARCELS = {
       "usage": "33"
     },
     {
+      "address": "KING ST",
       "area": 59.36241,
       "areas": [
         59.42593613079451
@@ -126512,6 +128146,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 38.13161,
       "areas": [
         38.150485379597846
@@ -126818,6 +128453,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "114 OLD HAYING RD",
       "area": 0.52724,
       "areas": [
         0.5303237715218053
@@ -126904,6 +128540,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "OLD HAYING RD",
       "area": 5.74466,
       "areas": [
         5.779822742869148
@@ -126998,6 +128635,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "15 OLD HAYING RD",
       "area": 6.32208,
       "areas": [
         6.31357319643391
@@ -127092,6 +128730,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "PINE POINT RD",
       "area": 17.16427,
       "areas": [
         17.173324316415584
@@ -127250,6 +128889,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "152 PINE POINT RD",
       "area": 2.34773,
       "areas": [
         2.3464937516218005
@@ -127408,6 +129048,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "140 PINE POINT RD",
       "area": 2.12417,
       "areas": [
         2.120600029068169
@@ -127518,6 +129159,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "PINE POINT RD",
       "area": 2.18786,
       "areas": [
         2.1897694136579076
@@ -127588,6 +129230,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "758 FAXON HILL RD",
       "area": 27.74565,
       "areas": [
         27.71453110453297
@@ -127690,6 +129333,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 4.29155,
       "areas": [
         4.293855627601203
@@ -127744,6 +129388,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "19 PINE POINT RD",
       "area": 3.65601,
       "areas": [
         3.65134490363294
@@ -127802,6 +129447,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 3.51776,
       "areas": [
         3.5106365851285406
@@ -127852,6 +129498,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "739 MILLEN POND RD",
       "area": 0.40537,
       "areas": [
         0.4085123284071873
@@ -127930,6 +129577,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.04031,
       "areas": [
         0.04032217218992828
@@ -127981,6 +129629,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "791 MILLEN POND RD",
       "area": 0.10181,
       "areas": [
         0.10183893893356234
@@ -128040,6 +129689,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.11593,
       "areas": [
         0.11596546174533423
@@ -128102,6 +129752,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.01049,
       "areas": [
         0.01048939808731147
@@ -128153,6 +129804,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.00919,
       "areas": [
         0.009195026923474294
@@ -128204,6 +129856,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 3.85482,
       "areas": [
         3.858027914930247
@@ -128442,6 +130095,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.04026,
       "areas": [
         0.039624980803803014
@@ -128497,6 +130151,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.03086,
       "areas": [
         0.030224923072650896
@@ -128552,6 +130207,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.0321,
       "areas": [
         0.033579970193860866
@@ -128607,6 +130263,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 10.55383,
       "areas": [
         10.55823274609057
@@ -128745,6 +130402,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OAK TERR",
       "area": 1.37615,
       "areas": [
         1.3765051878938386
@@ -128799,6 +130457,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 54.1484,
       "areas": [
         54.14601920289991
@@ -129093,6 +130752,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "PRESIDENTIAL DR",
       "area": 4.44697,
       "areas": [
         4.451281958076004
@@ -129179,6 +130839,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1004 MILLEN POND RD",
       "area": 0.36878,
       "areas": [
         0.3688899261956625
@@ -129225,6 +130886,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1002 MILLEN POND RD",
       "area": 0.49494,
       "areas": [
         0.4950857333179682
@@ -129271,6 +130933,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.30183,
       "areas": [
         0.3008784870802534
@@ -129321,6 +130984,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.0113,
       "areas": [
         0.011307154132518933
@@ -129372,6 +131036,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 1.78838,
       "areas": [
         1.7904083696663742
@@ -129462,6 +131127,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ADAMS DR",
       "area": 1.27803,
       "areas": [
         1.2800112487278106
@@ -129540,6 +131206,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KING ST",
       "area": 18.11346,
       "areas": [
         18.11028866671129
@@ -129598,6 +131265,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "177 KING ST",
       "area": 10.01545,
       "areas": [
         10.015551189004459
@@ -129676,6 +131344,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KING ST",
       "area": 7.58011,
       "areas": [
         7.559338800176661
@@ -129750,6 +131419,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KING ST",
       "area": 17.4626,
       "areas": [
         17.461499760042063
@@ -129808,6 +131478,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "116 OLD HAYING RD",
       "area": 0.59893,
       "areas": [
         0.5991016088780784
@@ -129878,6 +131549,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 20.32986,
       "areas": [
         20.33488338703474
@@ -129936,6 +131608,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 14.43518,
       "areas": [
         14.439069667962022
@@ -129998,6 +131671,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FAXON HILL RD",
       "area": 18.05766,
       "areas": [
         18.041994761179225
@@ -130048,6 +131722,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "112 OLD HAYING RD",
       "area": 0.77698,
       "areas": [
         0.7781452995375653
@@ -130122,6 +131797,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.04349,
       "areas": [
         0.04349754079429874
@@ -130173,6 +131849,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.02226,
       "areas": [
         0.022270501225667674
@@ -130224,6 +131901,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.02065,
       "areas": [
         0.020655146918831715
@@ -130275,6 +131953,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "504 SO MAIN ST",
       "area": 84.76315,
       "areas": [
         84.78781961655872
@@ -130561,6 +132240,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MAPLE WAY",
       "area": 1.22794,
       "areas": [
         1.2282578739551895
@@ -130615,6 +132295,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MAPLE WAY",
       "area": 0.69779,
       "areas": [
         0.6979659845092836
@@ -130661,6 +132342,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "800 SO MAIN ST",
       "area": 109.37188,
       "areas": [
         109.34298857017066
@@ -131079,6 +132761,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MAPLE WAY",
       "area": 0.7143,
       "areas": [
         0.7144818006929049
@@ -131125,6 +132808,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 43.24421,
       "areas": [
         43.270408377267024
@@ -131271,6 +132955,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "175 HIGHLAND HAVEN RD",
       "area": 11.82039,
       "areas": [
         11.816558066120571
@@ -131465,6 +133150,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 4.34521,
       "areas": [
         4.349897075766298
@@ -131591,6 +133277,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 0.70415,
       "areas": [
         0.7000909601059615
@@ -131637,6 +133324,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 0.58628,
       "areas": [
         0.586427161953697
@@ -131687,6 +133375,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MAPLE WAY",
       "area": 0.61082,
       "areas": [
         0.61098088118116
@@ -131733,6 +133422,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 2.24128,
       "areas": [
         2.241852061141997
@@ -131791,6 +133481,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 61.8575,
       "areas": [
         61.88330819814637
@@ -131885,6 +133576,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 42.06783,
       "areas": [
         42.089707418553004
@@ -131995,6 +133687,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1074 SO MAIN ST",
       "area": 122.70264,
       "areas": [
         122.72157460301322
@@ -132213,6 +133906,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1258 SO MAIN ST",
       "area": 8.09243,
       "areas": [
         8.093736390604652
@@ -132303,6 +133997,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SO MAIN ST",
       "area": 5.70016,
       "areas": [
         5.693904213115237
@@ -132385,6 +134080,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "1251 SO MAIN ST",
       "area": 71.10387,
       "areas": [
         71.16633209886153
@@ -132479,6 +134175,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "79 BAILEY RD",
       "area": 2.01466,
       "areas": [
         2.0183357096386114
@@ -132537,6 +134234,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BAILEY RD",
       "area": 0.81383,
       "areas": [
         0.8137124503967788
@@ -132587,6 +134285,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2 DOLE SCHOOL HOUSE RD",
       "area": 0.39295,
       "areas": [
         0.39420911437844613
@@ -132637,6 +134336,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "1399 SO MAIN ST",
       "area": 0.25348,
       "areas": [
         0.2535363609982755
@@ -132687,6 +134387,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "1693 SO MAIN ST",
       "area": 201.82133,
       "areas": [
         201.8136198218351
@@ -132797,6 +134498,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SO MAIN ST",
       "area": 10.23594,
       "areas": [
         10.239987241683378
@@ -132851,6 +134553,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "SO MAIN ST",
       "area": 17.46621,
       "areas": [
         17.470192606953038
@@ -132929,6 +134632,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 20.17355,
       "areas": [
         20.177963693494302
@@ -132987,6 +134691,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 4.80028,
       "areas": [
         4.801486239492639
@@ -133033,6 +134738,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 17.45285,
       "areas": [
         17.430932329525035
@@ -133095,6 +134801,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 57.74908,
       "areas": [
         57.77781217334988
@@ -133185,6 +134892,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "4003 E WASHINGTON RD",
       "area": 3.45505,
       "areas": [
         3.4558283486134718
@@ -133231,6 +134939,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 94.15486,
       "areas": [
         94.16755022195109
@@ -133377,6 +135086,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "963 SO MAIN ST",
       "area": 28.52138,
       "areas": [
         28.52791481991845
@@ -133455,6 +135165,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "961 SO MAIN ST",
       "area": 21.23641,
       "areas": [
         21.241189408753236
@@ -133513,6 +135224,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "SO MAIN ST",
       "area": 13.21521,
       "areas": [
         13.166982168325141
@@ -133559,6 +135271,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 20.83368,
       "areas": [
         20.892402802191565
@@ -133665,6 +135378,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 13.47568,
       "areas": [
         13.46604148984638
@@ -133727,6 +135441,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 16.4377,
       "areas": [
         16.430010396251706
@@ -133813,6 +135528,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 10.08846,
       "areas": [
         10.090255073944775
@@ -133859,6 +135575,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 10.39922,
       "areas": [
         10.401823190585374
@@ -133913,6 +135630,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 10.31636,
       "areas": [
         10.32433681469292
@@ -133967,6 +135685,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 5.25575,
       "areas": [
         5.257053600423637
@@ -134021,6 +135740,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 6.83884,
       "areas": [
         6.84353732963452
@@ -134095,6 +135815,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 7.31126,
       "areas": [
         7.314860519323819
@@ -134181,6 +135902,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 9.98413,
       "areas": [
         9.98927139301678
@@ -134335,6 +136057,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.74441,
       "areas": [
         5.749625961216071
@@ -134433,6 +136156,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.74677,
       "areas": [
         4.7501099949307966
@@ -134527,6 +136251,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.17844,
       "areas": [
         5.179445372061843
@@ -134581,6 +136306,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 7.51728,
       "areas": [
         7.519525375933927
@@ -134671,6 +136397,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 9.40806,
       "areas": [
         9.409231352544452
@@ -134741,6 +136468,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 18.7229,
       "areas": [
         18.746745450445225
@@ -134851,6 +136579,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 14.3587,
       "areas": [
         14.267293174563198
@@ -134905,6 +136634,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 14.22319,
       "areas": [
         14.244809415519196
@@ -134959,6 +136689,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.8797,
       "areas": [
         2.8803630227120314
@@ -135017,6 +136748,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 22.12708,
       "areas": [
         22.120784833260547
@@ -135083,6 +136815,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 5.20873,
       "areas": [
         5.210025630033821
@@ -135137,6 +136870,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.55149,
       "areas": [
         4.552638506124092
@@ -135195,6 +136929,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 4.55259,
       "areas": [
         4.553709790056503
@@ -135249,6 +136984,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WASHINGTON DR",
       "area": 3.64525,
       "areas": [
         3.6460754050683417
@@ -135307,6 +137043,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.21469,
       "areas": [
         3.215425087383379
@@ -135361,6 +137098,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 2.83828,
       "areas": [
         2.8460033801625646
@@ -135407,6 +137145,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 3.05888,
       "areas": [
         3.0595537208673473
@@ -135453,6 +137192,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "138 BAILEY RD",
       "area": 6.02166,
       "areas": [
         6.022203949765671
@@ -135515,6 +137255,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SO MAIN ST",
       "area": 9.54053,
       "areas": [
         9.52897398972901
@@ -135569,6 +137310,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 73.27985,
       "areas": [
         73.29852012819592
@@ -135623,6 +137365,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 77.70671,
       "areas": [
         77.7191479927751
@@ -135705,6 +137448,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 86.22805,
       "areas": [
         86.25407755658702
@@ -135887,6 +137631,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 94.43108,
       "areas": [
         94.44580129512096
@@ -135953,6 +137698,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 48.16421,
       "areas": [
         48.14076859162961
@@ -136007,6 +137753,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "62 SWEENEY RD",
       "area": 0.3608,
       "areas": [
         0.360887035804432
@@ -136057,6 +137804,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "964 JEFTS RD",
       "area": 2.78484,
       "areas": [
         2.7857474930819
@@ -136107,6 +137855,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WILD ACRE DR",
       "area": 1.02499,
       "areas": [
         0.6578859764874673,
@@ -136203,6 +137952,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "44 BARDEN POND RD",
       "area": 3.82489,
       "areas": [
         3.8259383663655204
@@ -136249,6 +137999,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WILD ACRE DR",
       "area": 0.30862,
       "areas": [
         0.30868537215664693
@@ -136320,6 +138071,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KINGSBURY HILL RD",
       "area": 138.01624,
       "areas": [
         138.04228964443462
@@ -136546,6 +138298,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SMITH POND RD",
       "area": 2.16454,
       "areas": [
         2.1649901152784405
@@ -136592,6 +138345,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JEFTS RD",
       "area": 789.24884,
       "areas": [
         789.5098056763251
@@ -136846,6 +138600,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "926 JEFTS RD",
       "area": 2.71263,
       "areas": [
         2.7135166916520967
@@ -136892,6 +138647,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KAREN LN",
       "area": 0.19613,
       "areas": [
         0.19618999157216443
@@ -136938,6 +138694,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "990 JEFTS RD",
       "area": 90.66227,
       "areas": [
         90.67799764226817
@@ -137016,6 +138773,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JEFTS RD",
       "area": 21.80387,
       "areas": [
         21.804184167947096
@@ -137194,6 +138952,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 1.62911,
       "areas": [
         1.6316733639525005
@@ -137268,6 +139027,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.6751,
       "areas": [
         0.6762852894355165
@@ -137326,6 +139086,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JEFTS RD",
       "area": 191.77856,
       "areas": [
         191.78411553674968
@@ -137644,6 +139405,7 @@ PARCELS = {
       "usage": "101"
     },
     {
+      "address": "RUSSELL MILLPOND RD",
       "area": 23.0718,
       "areas": [
         23.079358899200578
@@ -137698,6 +139460,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "RUSSELL MILLPOND RD",
       "area": 121.28357,
       "areas": [
         121.26944040159434
@@ -137792,6 +139555,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "34 RUSSELL MILLPOND RD",
       "area": 17.38749,
       "areas": [
         17.39716445128315
@@ -137922,6 +139686,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "70 RUSSELL MILLPOND RD",
       "area": 45.83789,
       "areas": [
         45.86676902974206
@@ -138052,6 +139817,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KAREN LN",
       "area": 0.87266,
       "areas": [
         0.871346266654755
@@ -138118,6 +139884,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KAREN LN",
       "area": 0.48177,
       "areas": [
         0.4803273877269316
@@ -138168,6 +139935,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KAREN LN",
       "area": 0.63365,
       "areas": [
         0.6337079492574036
@@ -138226,6 +139994,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "KAREN LN",
       "area": 0.53247,
       "areas": [
         0.5327478811996115
@@ -138288,6 +140057,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JEFTS RD",
       "area": 80.70483,
       "areas": [
         80.7213233786055
@@ -138506,6 +140276,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "162 ASHUELOT POND",
       "area": 1.21117,
       "areas": [
         1.2115503359470214
@@ -138568,6 +140339,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "176 ASHUELOT POND",
       "area": 0.38281,
       "areas": [
         0.3845024547257143
@@ -138634,6 +140406,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "170 ASHUELOT POND",
       "area": 0.25099,
       "areas": [
         0.2513310379035801
@@ -138684,6 +140457,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.53479,
       "areas": [
         0.5383138867961963
@@ -138742,6 +140516,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "154 ASHUELOT POND",
       "area": 0.66577,
       "areas": [
         0.6663977276312407
@@ -138800,6 +140575,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "148 ASHUELOT POND",
       "area": 0.61369,
       "areas": [
         0.6162470025862824
@@ -138858,6 +140634,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KAREN LN",
       "area": 0.18809,
       "areas": [
         0.18815105292967219
@@ -138912,6 +140689,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "144 ASHUELOT POND",
       "area": 0.68012,
       "areas": [
         0.6834000185625959
@@ -138970,6 +140748,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "32 SWEENEY RD",
       "area": 0.46863,
       "areas": [
         0.46874199239299225
@@ -139020,6 +140799,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "140 ASHUELOT POND",
       "area": 0.66761,
       "areas": [
         0.6673586348242342
@@ -139094,6 +140874,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 1.23887,
       "areas": [
         1.2358565484571595
@@ -139196,6 +140977,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "128 ASHUELOT POND",
       "area": 0.50013,
       "areas": [
         0.5002872977483971
@@ -139278,6 +141060,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "124 ASHUELOT POND",
       "area": 0.6328,
       "areas": [
         0.632348842065543
@@ -139344,6 +141127,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "114 ASHUELOT POND",
       "area": 1.01126,
       "areas": [
         1.0174570776971246
@@ -139434,6 +141218,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "104 ASHUELOT POND",
       "area": 0.60456,
       "areas": [
         0.60108407127215
@@ -139484,6 +141269,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "90 ASHUELOT POND",
       "area": 0.28629,
       "areas": [
         0.2863799537955972
@@ -139546,6 +141332,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "96 KAREN LN",
       "area": 0.4666,
       "areas": [
         0.47423379261240406
@@ -139596,6 +141383,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "88 ASHUELOT POND",
       "area": 0.41639,
       "areas": [
         0.41529848438837613
@@ -139662,6 +141450,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "166 ASHUELOT POND",
       "area": 0.56849,
       "areas": [
         0.5643639817793579
@@ -139744,6 +141533,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "84 ASHUELOT POND",
       "area": 0.28272,
       "areas": [
         0.28219215766567457
@@ -139798,6 +141588,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 5.73454,
       "areas": [
         5.735525318036194
@@ -139856,6 +141647,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 4.98051,
       "areas": [
         4.975417169250822
@@ -139914,6 +141706,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.02933,
       "areas": [
         5.034100783844243
@@ -139976,6 +141769,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.1973,
       "areas": [
         5.198907277511051
@@ -140046,6 +141840,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 103.78427,
       "areas": [
         103.81657379960821
@@ -140164,6 +141959,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.41968,
       "areas": [
         5.4211341437520915
@@ -140230,6 +142026,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.22469,
       "areas": [
         5.226082680056364
@@ -140292,6 +142089,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.85773,
       "areas": [
         5.846249298706543
@@ -140354,6 +142152,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 6.05743,
       "areas": [
         6.02705430427248
@@ -140416,6 +142215,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.45451,
       "areas": [
         5.447504611503843
@@ -140466,6 +142266,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.3474,
       "areas": [
         5.346606048602368
@@ -140524,6 +142325,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 5.36205,
       "areas": [
         5.3533792766372335
@@ -140582,6 +142384,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "50 BARDEN POND RD",
       "area": 4.43415,
       "areas": [
         4.4580569360657
@@ -140644,6 +142447,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SWEENEY RD",
       "area": 3.28617,
       "areas": [
         3.2800652319478916
@@ -140706,6 +142510,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 4.38714,
       "areas": [
         4.3883331172509035
@@ -140784,6 +142589,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "613 KING ST",
       "area": 359.20455,
       "areas": [
         359.285592679307
@@ -140934,6 +142740,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "467 KING ST",
       "area": 21.58723,
       "areas": [
         21.593105829198688
@@ -141016,6 +142823,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "851 KING ST",
       "area": 0.21945,
       "areas": [
         0.21951860763122524
@@ -141071,6 +142879,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "859 KING ST",
       "area": 0.20589,
       "areas": [
         0.2059515283906283
@@ -141126,6 +142935,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "893 KING ST",
       "area": 1.3594,
       "areas": [
         1.3597963366585721
@@ -141197,6 +143007,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "47 SWEENEY RD",
       "area": 0.79764,
       "areas": [
         0.7977693943423655
@@ -141255,6 +143066,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "17 SWEENEY RD",
       "area": 1.72869,
       "areas": [
         1.1898156204587689,
@@ -141374,6 +143186,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "1021 KING ST",
       "area": 352.96971,
       "areas": [
         353.04701978270987
@@ -141532,6 +143345,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 12.04193,
       "areas": [
         12.04544409075968
@@ -141578,6 +143392,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "KING ST",
       "area": 0.57154,
       "areas": [
         0.5717049411461357
@@ -141633,6 +143448,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "129 BAILEY RD",
       "area": 2.77009,
       "areas": [
         2.770754016814851
@@ -141699,6 +143515,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BAILEY RD",
       "area": 4.26096,
       "areas": [
         4.2619691776489255
@@ -141809,6 +143626,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "35 SWEENEY RD",
       "area": 0.59411,
       "areas": [
         0.5942544767791336
@@ -141863,6 +143681,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "SWEENEY RD",
       "area": 0.9301,
       "areas": [
         0.9303202956961814
@@ -141917,6 +143736,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "49 SWEENEY RD",
       "area": 1.1843,
       "areas": [
         1.1862555227128473
@@ -141983,6 +143803,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "42 SWEENEY RD",
       "area": 0.62324,
       "areas": [
         0.623367599432988
@@ -142033,6 +143854,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "76 JUNIPER DR",
       "area": 3.41086,
       "areas": [
         3.4000328538420934
@@ -142099,6 +143921,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SWEENEY RD",
       "area": 1.50938,
       "areas": [
         1.5097419195704034
@@ -142149,6 +143972,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OFF SWEENEY RD",
       "area": 0.86609,
       "areas": [
         0.8674488350424493
@@ -142207,6 +144031,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "269 BAILEY RD",
       "area": 0.33891,
       "areas": [
         0.33899212212451985
@@ -142253,6 +144078,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "283 BAILEY RD",
       "area": 1.27218,
       "areas": [
         1.2745637027596672
@@ -142307,6 +144133,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BAILEY RD",
       "area": 0.93647,
       "areas": [
         0.9398134672986853
@@ -142377,6 +144204,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "27 JUNIPER DR",
       "area": 1.87572,
       "areas": [
         1.8659163275999564
@@ -142435,6 +144263,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JUNIPER DR",
       "area": 1.46005,
       "areas": [
         1.4528092157287564
@@ -142517,6 +144346,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "62 JUNIPER DR",
       "area": 0.92282,
       "areas": [
         0.926968995133914
@@ -142567,6 +144397,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "50 JUNIPER DR",
       "area": 1.0873,
       "areas": [
         1.087561382095918
@@ -142613,6 +144444,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "48 JUNIPER DR",
       "area": 2.95795,
       "areas": [
         2.958638190125725
@@ -142671,6 +144503,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JUNIPER DR",
       "area": 2.21364,
       "areas": [
         2.2143985391227856
@@ -142725,6 +144558,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.7516,
       "areas": [
         1.7521007388018077
@@ -142771,6 +144605,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "40 JUNIPER DR",
       "area": 2.80021,
       "areas": [
         2.799649415805671
@@ -142845,6 +144680,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "JUNIPER DR",
       "area": 0.67692,
       "areas": [
         0.6772199828909916
@@ -142903,6 +144739,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "JUNIPER DR",
       "area": 0.39258,
       "areas": [
         0.392530377001587
@@ -142953,6 +144790,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "369 BAILEY RD",
       "area": 0.34456,
       "areas": [
         0.34474061798761724
@@ -142999,6 +144837,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "379 BAILEY RD",
       "area": 1.01702,
       "areas": [
         1.0172678525585837
@@ -143053,6 +144892,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.09901,
       "areas": [
         1.099270886667496
@@ -143099,6 +144939,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.0929,
       "areas": [
         1.0931562998299555
@@ -143145,6 +144986,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "525 BAILEY RD",
       "area": 2.33056,
       "areas": [
         2.3226938454217327
@@ -143211,6 +145053,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "561 BAILEY RD",
       "area": 0.98826,
       "areas": [
         0.9884924560315177
@@ -143261,6 +145104,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "577 BAILEY RD",
       "area": 4.44945,
       "areas": [
         4.449113138010859
@@ -143331,6 +145175,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "679 BAILEY RD",
       "area": 77.9249,
       "areas": [
         77.95753125900686
@@ -143465,6 +145310,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 3.90081,
       "areas": [
         3.913826046750148
@@ -143535,6 +145381,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "679 BAILEY RD",
       "area": 65.275,
       "areas": [
         65.28422843228286
@@ -143637,6 +145484,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 41.4297,
       "areas": [
         41.44741386751749
@@ -143747,6 +145595,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "57 LONG POND RD",
       "area": 9.23752,
       "areas": [
         9.233114118554116
@@ -143825,6 +145674,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MUD POND RD",
       "area": 31.38314,
       "areas": [
         31.417438985814258
@@ -143899,6 +145749,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "632 BAILEY RD",
       "area": 53.21869,
       "areas": [
         53.23104827289104
@@ -143981,6 +145832,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "FOREST RD",
       "area": 39.72104,
       "areas": [
         39.73044985054585
@@ -144039,6 +145891,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "194 FOREST RD",
       "area": 10.94719,
       "areas": [
         10.949702254395133
@@ -144093,6 +145946,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "150 FOREST RD",
       "area": 8.8833,
       "areas": [
         8.879588005949163
@@ -144139,6 +145993,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "108 FOREST RD",
       "area": 7.92873,
       "areas": [
         7.930627619477194
@@ -144209,6 +146064,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FOREST RD",
       "area": 7.59807,
       "areas": [
         7.599906223371802
@@ -144275,6 +146131,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 7.52859,
       "areas": [
         7.530404487314738
@@ -144333,6 +146190,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "2 FOREST RD",
       "area": 13.89225,
       "areas": [
         13.896689485309947
@@ -144423,6 +146281,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BALSAM CIR",
       "area": 6.79904,
       "areas": [
         6.800741187383448
@@ -144485,6 +146344,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 6.7939,
       "areas": [
         6.799917545569902
@@ -144531,6 +146391,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "355 BALSAM CIR",
       "area": 5.85672,
       "areas": [
         5.855838624364096
@@ -144585,6 +146446,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "253 E SHORE DR",
       "area": 5.17292,
       "areas": [
         5.175402334034663
@@ -144659,6 +146521,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "318 BAILEY RD",
       "area": 0.93064,
       "areas": [
         0.9308663051092949
@@ -144713,6 +146576,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "431 BALSAM CIR",
       "area": 7.95408,
       "areas": [
         7.954974039696083
@@ -144823,6 +146687,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "482 BALSAM CIRCLE",
       "area": 5.35813,
       "areas": [
         5.35947522297791
@@ -144897,6 +146762,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "69 E SHORE DR",
       "area": 5.27609,
       "areas": [
         5.277297740899039
@@ -144983,6 +146849,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "17 E SHORE DR",
       "area": 5.02897,
       "areas": [
         5.022888540062529
@@ -145061,6 +146928,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "8 BALSAM CIR",
       "area": 7.68481,
       "areas": [
         7.683165938977536
@@ -145147,6 +147015,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "87 LONG POND RD",
       "area": 5.11214,
       "areas": [
         5.116972911950318
@@ -145233,6 +147102,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 5.77143,
       "areas": [
         5.7855933419307775
@@ -145295,6 +147165,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FOREST RD",
       "area": 6.76045,
       "areas": [
         6.763585575871353
@@ -145409,6 +147280,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BALSAM CIR",
       "area": 5.19096,
       "areas": [
         5.192222206556907
@@ -145491,6 +147363,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 6.42438,
       "areas": [
         6.425896191145024
@@ -145561,6 +147434,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 7.52522,
       "areas": [
         7.518652101052751
@@ -145627,6 +147501,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 5.44674,
       "areas": [
         5.452937668831368
@@ -145693,6 +147568,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "23 CHESTNUT RD",
       "area": 6.54827,
       "areas": [
         6.549887082681024
@@ -145767,6 +147643,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E SHORE DR",
       "area": 7.05263,
       "areas": [
         7.054360178302636
@@ -145845,6 +147722,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E SHORE DR",
       "area": 5.7102,
       "areas": [
         5.708654080211613
@@ -145919,6 +147797,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "186 E SHORE DR",
       "area": 6.77471,
       "areas": [
         6.77408673171152
@@ -145997,6 +147876,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "136 E SHORE DR",
       "area": 6.1996,
       "areas": [
         6.204471095453242
@@ -146075,6 +147955,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "E SHORE DR",
       "area": 6.8098,
       "areas": [
         6.8114884117025465
@@ -146145,6 +148026,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "343 LONG POND RD",
       "area": 7.87617,
       "areas": [
         7.878178241126359
@@ -146211,6 +148093,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "247 LONG POND RD",
       "area": 8.16495,
       "areas": [
         8.168024301593123
@@ -146305,6 +148188,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "226 LONG POND RD",
       "area": 11.35658,
       "areas": [
         11.354608274903645
@@ -146375,6 +148259,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "228 BAILEY RD",
       "area": 2.94723,
       "areas": [
         2.946191681310717
@@ -146441,6 +148326,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "LONG POND RD",
       "area": 29.83727,
       "areas": [
         29.814725319518026
@@ -146643,6 +148529,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "110 LONG POND RD",
       "area": 8.08383,
       "areas": [
         8.099590118642336
@@ -146713,6 +148600,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "100 LONG POND RD",
       "area": 14.18121,
       "areas": [
         14.187806412057052
@@ -146811,6 +148699,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BAILEY RD",
       "area": 0.94463,
       "areas": [
         0.9403150195630985
@@ -146857,6 +148746,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "358 BAILEY RD",
       "area": 0.69359,
       "areas": [
         0.6918140410753355
@@ -146903,6 +148793,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "360 BAILEY RD",
       "area": 1.77172,
       "areas": [
         1.7721546769180363
@@ -146953,6 +148844,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "276 BAILEY RD",
       "area": 1.17918,
       "areas": [
         1.1794990158895975
@@ -147007,6 +148899,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BAILEY RD",
       "area": 3.0967,
       "areas": [
         3.0974555933990033
@@ -147077,6 +148970,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.16087,
       "areas": [
         1.161117264773854
@@ -147123,6 +149017,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "330 BAILEY RD",
       "area": 0.91301,
       "areas": [
         0.9132254485650042
@@ -147173,6 +149068,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "302 BAILEY RD",
       "area": 1.32591,
       "areas": [
         1.3262352960174317
@@ -147231,6 +149127,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "280 BAILEY RD",
       "area": 0.97195,
       "areas": [
         0.9721928297139354
@@ -147281,6 +149178,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "272 BAILEY RD",
       "area": 1.2433,
       "areas": [
         1.2443848464692715
@@ -147351,6 +149249,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "254 BAILEY RD",
       "area": 1.03704,
       "areas": [
         1.0235091369440477
@@ -147393,6 +149292,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BAILEY RD",
       "area": 2.39387,
       "areas": [
         2.3953417881615304
@@ -147447,6 +149347,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "131 WOODPECKER RD",
       "area": 3.69331,
       "areas": [
         3.6926184627276477
@@ -147609,6 +149510,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WOODPECKER RD",
       "area": 2.01047,
       "areas": [
         2.009892056130243
@@ -147715,6 +149617,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 4.20489,
       "areas": [
         4.205916180547372
@@ -147773,6 +149676,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WOODPECKER RD",
       "area": 3.18858,
       "areas": [
         3.1887814924877897
@@ -147907,6 +149811,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "WOODPECKER RD",
       "area": 3.07134,
       "areas": [
         3.0788336611871956
@@ -148029,6 +149934,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "113 PHEASANT LN",
       "area": 11.22817,
       "areas": [
         11.183326413765101
@@ -148167,6 +150073,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "120 PHEASANT LN",
       "area": 11.16174,
       "areas": [
         11.194731418326821
@@ -148293,6 +150200,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "WOODPECKER RD",
       "area": 1.73907,
       "areas": [
         1.7394942474285406
@@ -148355,6 +150263,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "32 MCQUADE RD",
       "area": 0.4677,
       "areas": [
         0.46781940477455175
@@ -148401,6 +150310,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOOKOUT POINT RD",
       "area": 0.1738,
       "areas": [
         0.17677307530602002
@@ -148451,6 +150361,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NUTHATCH WAY",
       "area": 24.37673,
       "areas": [
         24.38785077745581
@@ -148810,6 +150721,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "53 NUTHATCH WAY",
       "area": 1.5814,
       "areas": [
         1.5840572750677726
@@ -148896,6 +150808,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "59 NUTHATCH WAY",
       "area": 1.80319,
       "areas": [
         1.8054291359940366
@@ -148962,6 +150875,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "75 NUTHATCH WAY",
       "area": 2.52594,
       "areas": [
         2.530106631415568
@@ -149120,6 +151034,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "475 LONG POND RD",
       "area": 0.37264,
       "areas": [
         0.37179262189488566
@@ -149178,6 +151093,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "FOX RUN RD",
       "area": 6.02941,
       "areas": [
         6.037095159477411
@@ -149260,6 +151176,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "138 WOODPECKER RD",
       "area": 6.62015,
       "areas": [
         6.617274709545774
@@ -149338,6 +151255,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "106 WOODPECKER RD",
       "area": 3.438,
       "areas": [
         3.4387603703624974
@@ -149408,6 +151326,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "WOODPECKER RD",
       "area": 3.22437,
       "areas": [
         3.22516329843876
@@ -149474,6 +151393,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "178 BAILEY RD",
       "area": 1.04379,
       "areas": [
         1.0440362976125641
@@ -149528,6 +151448,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "467 LONG POND RD",
       "area": 0.4832,
       "areas": [
         0.48277307920647244
@@ -149654,6 +151575,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "522 LONG POND RD",
       "area": 1.67082,
       "areas": [
         1.6710539676000804
@@ -149736,6 +151658,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "LOOKOUT POINT RD",
       "area": 0.08975,
       "areas": [
         0.08976859027624325
@@ -149778,6 +151701,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "138 PHEASANT LN",
       "area": 3.38535,
       "areas": [
         3.3909796130985246
@@ -150020,6 +151944,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "139 PHEASANT LN",
       "area": 2.54723,
       "areas": [
         2.541888685081252
@@ -150170,6 +152095,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "LONG POND RD",
       "area": 46.50878,
       "areas": [
         46.55623597795033
@@ -150324,6 +152250,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "549 LONG POND RD",
       "area": 1.21667,
       "areas": [
         1.216214200616696
@@ -150410,6 +152337,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "545 LONG POND RD",
       "area": 0.55408,
       "areas": [
         0.555256730558423
@@ -150484,6 +152412,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "493 LONG POND RD",
       "area": 0.19745,
       "areas": [
         0.1974775790774263
@@ -150542,6 +152471,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "491 LONG POND RD",
       "area": 0.51744,
       "areas": [
         0.5178321484118655
@@ -150636,6 +152566,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "487 LONG POND RD",
       "area": 0.97975,
       "areas": [
         0.9809395621780536
@@ -150734,6 +152665,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "461 LONG POND RD",
       "area": 0.41778,
       "areas": [
         0.4180402923997221
@@ -150800,6 +152732,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "445 LONG POND RD",
       "area": 1.88487,
       "areas": [
         1.8871360555226742
@@ -150878,6 +152811,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "CHESTNUT RD",
       "area": 0.90628,
       "areas": [
         0.9076200871087411
@@ -150948,6 +152882,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "85 CHESTNUT RD",
       "area": 0.26407,
       "areas": [
         0.2611991124668426
@@ -150998,6 +152933,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "E SHORE DR",
       "area": 0.83464,
       "areas": [
         0.8331664117397886
@@ -151068,6 +153004,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BEAVER BROOK RD",
       "area": 7.14966,
       "areas": [
         7.113264805907015
@@ -151130,6 +153067,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "39 BOW RUN TERR",
       "area": 0.45509,
       "areas": [
         0.45459571718165165
@@ -151236,6 +153174,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 5.06429,
       "areas": [
         5.071266371488207
@@ -151318,6 +153257,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.67955,
       "areas": [
         1.679977514627295
@@ -151380,6 +153320,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "46 JUNIPER DR",
       "area": 1.02986,
       "areas": [
         1.0300966553569555
@@ -151434,6 +153375,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "387 BAILEY RD",
       "area": 1.13709,
       "areas": [
         1.136964397765137
@@ -151484,6 +153426,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "HIGHLAND HAVEN RD",
       "area": 2.65571,
       "areas": [
         2.6577008110331937
@@ -151550,6 +153493,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "0 BEAVER BROOK RD",
       "area": 1.85331,
       "areas": [
         1.8464834838641138
@@ -151672,6 +153616,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 5.7175,
       "areas": [
         5.719618486235568
@@ -151730,6 +153675,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BEAVER BROOK RD",
       "area": 7.06157,
       "areas": [
         7.067430029546636
@@ -151796,6 +153742,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FOX RUN RD",
       "area": 2.1335,
       "areas": [
         2.132932549883119
@@ -151858,6 +153805,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FOX RUN RD",
       "area": 1.06102,
       "areas": [
         1.0612826822922699
@@ -151916,6 +153864,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FOX RUN RD",
       "area": 1.06354,
       "areas": [
         1.0605824530889232
@@ -151962,6 +153911,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "FOX RUN RD",
       "area": 0.95087,
       "areas": [
         0.9531600948528031
@@ -152036,6 +153986,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "527 BAILEY RD",
       "area": 1.14273,
       "areas": [
         1.1389302702696626
@@ -152094,6 +154045,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BAILEY RD",
       "area": 1.30591,
       "areas": [
         1.298445813965601
@@ -152152,6 +154104,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 10.13171,
       "areas": [
         10.133626995980231
@@ -152210,6 +154163,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 8.89737,
       "areas": [
         8.887976156501493
@@ -152312,6 +154266,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 1.594,
       "areas": [
         1.5940786341708455
@@ -152383,6 +154338,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "SO MAIN ST",
       "area": 79.07832,
       "areas": [
         79.17314245208172
@@ -152505,6 +154461,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 55.42505,
       "areas": [
         55.436756955241734
@@ -152567,6 +154524,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 40.74411,
       "areas": [
         40.75212861864733
@@ -152705,6 +154663,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "DOLE SCHOOL HOUSE RD",
       "area": 20.00597,
       "areas": [
         20.010301001278524
@@ -152763,6 +154722,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 22.91265,
       "areas": [
         22.918632891188157
@@ -152849,6 +154809,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.41715,
       "areas": [
         0.41725030992582535
@@ -152911,6 +154872,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "NO MAIN ST",
       "area": 73.83533,
       "areas": [
         73.85503619978387
@@ -153033,6 +154995,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "NO MAIN ST",
       "area": 2.50717,
       "areas": [
         2.5078223027200712
@@ -153083,6 +155046,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "SO MAIN ST",
       "area": 0.13989,
       "areas": [
         0.1399215240305534
@@ -153125,6 +155089,7 @@ PARCELS = {
       "usage": "27"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 0.63411,
       "areas": [
         0.6352267891600141
@@ -153199,6 +155164,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "E WASHINGTON RD",
       "area": 1.60841,
       "areas": [
         1.6045352113616176
@@ -153297,6 +155263,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.22,
       "areas": [
         0.22005582565066711
@@ -153343,6 +155310,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 7.90795,
       "areas": [
         7.912468890051558
@@ -153661,6 +155629,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOOKOUT POINT RD",
       "area": 0.18248,
       "areas": [
         0.18239764486460452
@@ -153707,6 +155676,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "39 LOOKOUT POINT RD",
       "area": 0.15383,
       "areas": [
         0.15387339767143077
@@ -153753,6 +155723,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LOOKOUT POINT RD",
       "area": 0.86013,
       "areas": [
         0.860357833817439
@@ -153807,6 +155778,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "73 LOOKOUT POINT RD",
       "area": 0.28234,
       "areas": [
         0.28431662986249834
@@ -153869,6 +155841,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "BEECH WAY",
       "area": 0.17582,
       "areas": [
         0.1758682303218794
@@ -153927,6 +155900,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BEECH WAY",
       "area": 0.52625,
       "areas": [
         0.5263835463448768
@@ -153981,6 +155955,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BIRCH POINT WAY",
       "area": 0.87716,
       "areas": [
         0.8773808129373223
@@ -154043,6 +156018,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.20043,
       "areas": [
         0.2016020625443492
@@ -154093,6 +156069,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "216 COVE RD",
       "area": 0.74988,
       "areas": [
         0.7489528713118843
@@ -154187,6 +156164,7 @@ PARCELS = {
       "usage": "17"
     },
     {
+      "address": "COVE RD",
       "area": 0.24225,
       "areas": [
         0.2423182887619557
@@ -154237,6 +156215,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.31064,
       "areas": [
         0.3107193374807453
@@ -154287,6 +156266,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.33985,
       "areas": [
         0.34100048077275247
@@ -154349,6 +156329,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.17006,
       "areas": [
         0.1695943747006174
@@ -154407,6 +156388,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.48442,
       "areas": [
         0.4845509895155526
@@ -154453,6 +156435,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "COVE RD",
       "area": 0.3746,
       "areas": [
         0.37470187888489825
@@ -154503,6 +156486,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "3 HERMIT ISLAND",
       "area": 0.332,
       "areas": [
         0.3320287845503689
@@ -154589,6 +156573,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "2 HERMIT ISLAND",
       "area": 0.3191,
       "areas": [
         0.3173345520322347
@@ -154671,6 +156656,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "39 LAKEVIEW TERR",
       "area": 0.58712,
       "areas": [
         0.5862016192487083
@@ -154733,6 +156719,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "45 LAKEVIEW TERR",
       "area": 0.20958,
       "areas": [
         0.20963355751014862
@@ -154783,6 +156770,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "LOOKOUT POINT RD",
       "area": 0.10504,
       "areas": [
         0.10506538413725916
@@ -154825,6 +156813,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "22 MCQUADE RD",
       "area": 0.16689,
       "areas": [
         0.16693050411203544
@@ -154871,6 +156860,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "40 MCQUADE RD",
       "area": 0.99384,
       "areas": [
         0.9940555882377938
@@ -154937,6 +156927,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "MCQUADE RD",
       "area": 0.47496,
       "areas": [
         0.47507980372547837
@@ -154983,6 +156974,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "23 MCQUADE RD",
       "area": 0.17871,
       "areas": [
         0.17875798070840185
@@ -155033,6 +157025,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.35126,
       "areas": [
         0.34987988821178606
@@ -155083,6 +157076,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.21829,
       "areas": [
         0.21834594781404984
@@ -155129,6 +157123,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.60312,
       "areas": [
         0.6032795921450832
@@ -155175,6 +157170,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.40502,
       "areas": [
         0.4051235512814772
@@ -155225,6 +157221,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.29806,
       "areas": [
         0.2977358346600082
@@ -155279,6 +157276,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HEMLOCK CIR",
       "area": 0.23334,
       "areas": [
         0.2334043528402936
@@ -155329,6 +157327,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "HEMLOCK CIR",
       "area": 0.14925,
       "areas": [
         0.148178634634635
@@ -155375,6 +157374,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.43849,
       "areas": [
         0.43934555412377935
@@ -155437,6 +157437,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.56014,
       "areas": [
         0.5607868896155459
@@ -155551,6 +157552,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 0.42014,
       "areas": [
         0.42024972779482217
@@ -155601,6 +157603,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "VALLEY RD",
       "area": 1.28609,
       "areas": [
         1.286422634917408
@@ -155651,6 +157654,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "372 BAILEY RD",
       "area": 0.75444,
       "areas": [
         0.7546198823007281
@@ -155705,6 +157709,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 19.16284,
       "areas": [
         19.16682366220232
@@ -155763,6 +157768,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.15149,
       "areas": [
         0.15153599789741753
@@ -155818,6 +157824,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "LONG POND RD",
       "area": 2.35125,
       "areas": [
         2.3512794910845454
@@ -155884,6 +157891,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BACK MT RD",
       "area": 9.60669,
       "areas": [
         9.607294069631644
@@ -155958,6 +157966,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "TWIN BRIDGE RD",
       "area": 14.64028,
       "areas": [
         14.652390284146536
@@ -156060,6 +158069,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "494 MILLEN POND RD",
       "area": 16.83979,
       "areas": [
         16.853066242918096
@@ -156166,6 +158176,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "LONG POND RD",
       "area": 2.83699,
       "areas": [
         2.837635135544916
@@ -156240,6 +158251,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "274 BAILEY RD",
       "area": 5.32126,
       "areas": [
         5.33638071417648
@@ -156354,6 +158366,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "494 MILLEN POND RD",
       "area": 1.23317,
       "areas": [
         1.2367519034766414
@@ -156492,6 +158505,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "274 BAILEY RD",
       "area": 0.93796,
       "areas": [
         0.938160169218805
@@ -156542,6 +158556,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BACK MT RD",
       "area": 547.49239,
       "areas": [
         547.5293511766992
@@ -156888,6 +158903,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "HALFMOON PD RD",
       "area": 648.53921,
       "areas": [
         648.7006424587308
@@ -157442,6 +159458,7 @@ PARCELS = {
       "usage": "100"
     },
     {
+      "address": "AYERS POND RD",
       "area": 42.4898,
       "areas": [
         42.50132534658153
@@ -157552,6 +159569,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "TWIN BRIDGE RD",
       "area": 24.11446,
       "areas": [
         24.130381548081655
@@ -157650,6 +159668,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILLEN POND RD",
       "area": 0.38061,
       "areas": [
         0.3860367415450039
@@ -157712,6 +159731,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "122 OLD HAYING RD",
       "area": 3.49964,
       "areas": [
         3.4977744045925374
@@ -157842,6 +159862,7 @@ PARCELS = {
       "usage": "11"
     },
     {
+      "address": "MILL ST",
       "area": 4.74386,
       "areas": [
         4.745084692760074
@@ -157900,6 +159921,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "MILL ST",
       "area": 0.69495,
       "areas": [
         0.6977328568052347
@@ -158006,6 +160028,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "ASHUELOT POND",
       "area": 0.1719,
       "areas": [
         0.1724089399458196
@@ -158073,6 +160096,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 18.2984,
       "areas": [
         18.330228008773727
@@ -158119,6 +160143,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BARDEN POND RD",
       "area": 2.09632,
       "areas": [
         2.097124289655513
@@ -158169,6 +160194,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "BALSAM CIR",
       "area": 10.49755,
       "areas": [
         10.500070903336674
@@ -158239,6 +160265,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "BALSAM CIR",
       "area": 3.86387,
       "areas": [
         3.8647792008808546
@@ -158301,6 +160328,7 @@ PARCELS = {
       "usage": "22"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 98.43545,
       "areas": [
         98.45737985217625
@@ -158467,6 +160495,7 @@ PARCELS = {
       "usage": "19"
     },
     {
+      "address": "OLD COUNTY RD",
       "area": 60.3599,
       "areas": [
         60.37822949753177

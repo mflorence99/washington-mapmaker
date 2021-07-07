@@ -423,6 +423,7 @@ map-root {
         map-grid,
         map-lot-labels,
         map-lots,
+        map-paths,
         map-street,
         map-tiles,
         map-topo {
@@ -436,7 +437,8 @@ map-root {
         map-clip,
         map-grid,
         map-lot-labels,
-        map-lots {
+        map-lots,
+        map-paths {
           svg {
             height: 100%;
             width: 100%;
@@ -681,6 +683,13 @@ map-root {
             &.white.u101 /* Town Forest */ {
               fill: url(#halftone-u101);
             }
+          }
+        }
+
+        map-paths {
+          g path {
+            fill: none;
+            stroke: none;
           }
         }
 

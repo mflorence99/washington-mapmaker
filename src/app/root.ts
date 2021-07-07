@@ -1,4 +1,5 @@
 import { Geometry } from './geometry';
+import { Parcels } from './parcels';
 
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
 import { ElementRef } from '@angular/core';
 import { HostBinding } from '@angular/core';
 import { ViewChild } from '@angular/core';
+
+import { saveAs } from 'file-saver';
 
 import domtoimage from 'dom-to-image';
 
@@ -43,6 +46,7 @@ import domtoimage from 'dom-to-image';
                 <map-lot-labels></map-lot-labels>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
+                <map-paths id="thePaths"></map-paths>
               </figure>
 
               <figcaption>
@@ -81,7 +85,8 @@ export class RootComponent implements AfterViewInit {
   constructor(
     private cdf: ChangeDetectorRef,
     private host: ElementRef,
-    public geometry: Geometry
+    public geometry: Geometry,
+    private parcels: Parcels
   ) {}
 
   // NOTE: we know layerX, layerY is non-standard, but
@@ -123,6 +128,26 @@ export class RootComponent implements AfterViewInit {
       // NOTE: necessary for print to show entire extent
       this.printing = true;
       this.cdf.markForCheck();
+      // save all the paths
+      const thePaths = document.getElementById('thePaths');
+      let blob = new Blob([thePaths.innerHTML], {
+        type: 'text/plain;charset=utf-8'
+      });
+      saveAs(blob, 'paths.svg');
+      // save the parcels index
+      const index = this.parcels.parcels.lots.reduce((acc, lot) => {
+        acc[lot.id] = {
+          address: lot.address
+        };
+        return acc;
+      }, {});
+      blob = new Blob(
+        ['export const lots = ', JSON.stringify(index, null, 2), ';'],
+        {
+          type: 'text/plain;charset=utf-8'
+        }
+      );
+      saveAs(blob, 'lots.ts');
       // a little later, fire up the print
       setTimeout(() => {
         domtoimage
@@ -131,6 +156,7 @@ export class RootComponent implements AfterViewInit {
             quality: 0.95
           })
           .then((dataURL) => {
+            //  save the map itself
             this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
             this.saver.nativeElement.href = dataURL;
             this.saver.nativeElement.click();
