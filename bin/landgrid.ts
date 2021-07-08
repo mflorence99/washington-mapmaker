@@ -164,7 +164,7 @@ console.log(
 
 writeFileSync(
   'src/app/landgrid.ts',
-  'export const landgrid = ' + JSON.stringify(washington, null, 2) + ';'
+  'export const LANDGRID = ' + JSON.stringify(washington, null, 2) + ';'
 );
 
 // helpers

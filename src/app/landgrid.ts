@@ -1,4 +1,4 @@
-export const landgrid = {
+export const LANDGRID = {
   "areaByUsage": {
     "11": 5703.094609999997,
     "12": 14.00537,

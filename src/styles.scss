@@ -390,9 +390,9 @@ map-root {
       padding: calc(var(--map-cyNominal) / 200) calc(var(--map-cxNominal) / 200);
     }
 
-    .border-1.mapOnly,
-    .border-2.mapOnly,
-    .border-3.mapOnly {
+    .border-1.hidden,
+    .border-2.hidden,
+    .border-3.hidden {
       border: none;
       margin: 0;
       padding: 0;
@@ -423,7 +423,7 @@ map-root {
         map-grid,
         map-lot-labels,
         map-lots,
-        map-paths,
+        map-polygons,
         map-street,
         map-tiles,
         map-topo {
@@ -685,11 +685,17 @@ map-root {
           }
         }
 
-        map-paths {
-          g path {
+        map-polygons {
+          g polygon {
             fill: none;
             stroke: none;
           }
+
+          // NOTE: just for testing
+          // g polygon[id='12-46'] {
+          //   fill: red;
+          //   stroke: none;
+          // }
         }
 
         map-tile {

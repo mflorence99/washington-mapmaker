@@ -1,6 +1,5 @@
+import { LANDGRID } from './landgrid';
 import { Point } from './geometry';
-
-import { landgrid } from './landgrid';
 
 import { Injectable } from '@angular/core';
 
@@ -36,5 +35,5 @@ export interface Lots {
 
 @Injectable({ providedIn: 'root' })
 export class Parcels {
-  parcels: Lots = landgrid;
+  parcels: Lots = LANDGRID;
 }

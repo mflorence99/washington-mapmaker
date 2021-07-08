@@ -1,5 +1,6 @@
 import { Geometry } from './geometry';
 import { Parcels } from './parcels';
+import { PolygonsComponent } from './polygons';
 
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -23,11 +24,17 @@ import domtoimage from 'dom-to-image';
   template: ` <main *ngIf="geometry.ready$ | async">
       <div
         *ngIf="!geometry.legendOnly"
-        [ngClass]="{ mapOnly: geometry.mapOnly }"
+        [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
         class="border-1"
       >
-        <div [ngClass]="{ mapOnly: geometry.mapOnly }" class="border-2">
-          <div [ngClass]="{ mapOnly: geometry.mapOnly }" class="border-3">
+        <div
+          [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
+          class="border-2"
+        >
+          <div
+            [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
+            class="border-3"
+          >
             <section (contextmenu)="logLocation($event)" (dblclick)="print()">
               <figure>
                 <map-defs></map-defs>
@@ -46,12 +53,12 @@ import domtoimage from 'dom-to-image';
                 <map-lot-labels></map-lot-labels>
                 <map-boundary></map-boundary>
                 <map-grid></map-grid>
-                <map-paths id="thePaths"></map-paths>
+                <map-polygons #polygons></map-polygons>
               </figure>
 
               <figcaption>
                 <map-indices
-                  *ngIf="geometry.profile == 'washington'"
+                  *ngIf="geometry.profile === 'washington'"
                 ></map-indices>
 
                 <footer>
@@ -68,7 +75,13 @@ import domtoimage from 'dom-to-image';
       </div>
     </main>
 
-    <aside *ngIf="geometry.profile === 'washington' && !geometry.mapOnly">
+    <aside
+      *ngIf="
+        geometry.profile === 'washington' &&
+        !geometry.mapOnly &&
+        !geometry.parcelsOnly
+      "
+    >
       <map-legend></map-legend>
     </aside>
 
@@ -78,6 +91,8 @@ export class RootComponent implements AfterViewInit {
   @HostBinding('class.dragging') dragging = false;
   @HostBinding('class.printing') printing = false;
 
+  // eslint-disable-next-line @typescript-eslint/member-ordering
+  @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
   @ViewChild('saver', { static: false }) saver: ElementRef;
 
   today = new Date();
@@ -123,14 +138,13 @@ export class RootComponent implements AfterViewInit {
   }
 
   print(): void {
-    if (!this.printing) {
+    if (!this.printing && !this.geometry.legendOnly) {
       // effect of "printing" will be to make overflow: unset
       // NOTE: necessary for print to show entire extent
       this.printing = true;
       this.cdf.markForCheck();
-      // save all the paths
-      const thePaths = document.getElementById('thePaths');
-      let blob = new Blob([thePaths.innerHTML], {
+      // save all the lot polygons
+      let blob = new Blob([this.polygons.nativeElement().innerHTML], {
         type: 'text/plain;charset=utf-8'
       });
       saveAs(blob, `${this.geometry.profile}.svg`);
@@ -142,30 +156,32 @@ export class RootComponent implements AfterViewInit {
         return acc;
       }, {});
       blob = new Blob(
-        ['export const lots = ', JSON.stringify(index, null, 2), ';'],
+        ['export const LOTS = ', JSON.stringify(index, null, 2), ';'],
         {
           type: 'text/plain;charset=utf-8'
         }
       );
       saveAs(blob, 'lots.ts');
       // a little later, fire up the print
-      setTimeout(() => {
-        domtoimage
-          .toJpeg(this.host.nativeElement as HTMLElement, {
-            bgcolor: 'white',
-            quality: 0.95
-          })
-          .then((dataURL) => {
-            //  save the map itself
-            this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
-            this.saver.nativeElement.href = dataURL;
-            this.saver.nativeElement.click();
-            // back to our normal programming
-            this.saver.nativeElement.href = null;
-            this.printing = false;
-            this.cdf.markForCheck();
-          });
-      }, 100);
+      if (!this.geometry.parcelsOnly) {
+        setTimeout(() => {
+          domtoimage
+            .toJpeg(this.host.nativeElement as HTMLElement, {
+              bgcolor: 'white',
+              quality: 0.95
+            })
+            .then((dataURL) => {
+              //  save the map itself
+              this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
+              this.saver.nativeElement.href = dataURL;
+              this.saver.nativeElement.click();
+              // back to our normal programming
+              this.saver.nativeElement.href = null;
+              this.printing = false;
+              this.cdf.markForCheck();
+            });
+        }, 100);
+      }
     }
   }
 }

@@ -6,7 +6,7 @@ import { IndicesComponent } from './indices';
 import { LegendComponent } from './legend';
 import { LotLabelsComponent } from './lot-labels';
 import { LotsComponent } from './lots';
-import { PathsComponent } from './paths';
+import { PolygonsComponent } from './polygons';
 import { RootComponent } from './root';
 import { StreetComponent } from './street';
 import { ThumbnailComponent } from './thumbnail';
@@ -45,7 +45,7 @@ const COMPONENTS = [
   LegendComponent,
   LotLabelsComponent,
   LotsComponent,
-  PathsComponent,
+  PolygonsComponent,
   RootComponent,
   StreetComponent,
   ThumbnailComponent,
