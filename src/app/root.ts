@@ -151,12 +151,21 @@ export class RootComponent implements AfterViewInit {
       // save the parcels index
       const index = this.parcels.parcels.lots.reduce((acc, lot) => {
         acc[lot.id] = {
-          address: lot.address
+          address: lot.address,
+          area: lot.area,
+          usage: lot.usage
         };
         return acc;
       }, {});
       blob = new Blob(
-        ['export const LOTS = ', JSON.stringify(index, null, 2), ';'],
+        [
+          'export const DESC_BY_USAGE = ',
+          JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
+          ';\n\n',
+          'export const LOTS = ',
+          JSON.stringify(index, null, 2),
+          ';\n\n'
+        ],
         {
           type: 'text/plain;charset=utf-8'
         }
