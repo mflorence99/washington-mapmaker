@@ -72,7 +72,7 @@ export class Geometry {
     numXTiles: 0,
     numYTiles: 0
   };
-  focus: Point = { lat: 43.198144105285074, lon: -72.0962263524098 };
+  focus: Point = { lat: 43.1762428946279, lon: -72.09665550585218 };
   legendOnly = false;
   mapOnly = false;
   parcelsOnly = false;
@@ -178,6 +178,11 @@ export class Geometry {
       // log some useful data
       console.table(this.clip);
       console.table(this.dims);
+      let [fx, fy] = this.point2xy(this.focus);
+      // NOTE: need to adjust so that the clip rectangle is the origin
+      fx -= this.clip.x;
+      fy -= this.clip.y;
+      console.log(`focus: [${fx}, ${fy}]`);
       // set CSS variables
       const style = document.body.style;
       const pfx = params.thumbnail ? 'thumbnail' : 'map';
