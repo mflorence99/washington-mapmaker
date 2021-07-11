@@ -22,7 +22,12 @@ export interface Lot {
   orientations: number[];
   // NOTE 1 means lot is more square, 0 more elongated
   sqarcities: number[];
+  updatedAt: string;
   usage: string;
+  valueOfImprovement: number;
+  valueOfLand: number;
+  valueOfParcel: number;
+  yearOfCAMA: number;
 }
 
 export interface Lots {

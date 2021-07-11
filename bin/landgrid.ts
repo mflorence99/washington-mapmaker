@@ -37,11 +37,12 @@ const duplicates = new Set(['11-27']);
 const ids = new Set();
 
 const M2TOACRES = 4047;
+const parvals = new Set();
 
 // extract data from original
 county.features
   .map((feature) => {
-    if (feature.properties.zoning) console.log(feature);
+    if (feature.properties.agval) console.log(feature);
     return feature;
   })
   .filter(
@@ -55,6 +56,10 @@ county.features
     const id = ['0', '00', '000', '0000', '00000', '000000'].includes(parts[2])
       ? base
       : `${base}-${parts[2]}`;
+
+    if (id === '9-7') console.log(feature);
+
+    parvals.add(feature.properties.parvaltype);
 
     // eliminate duplicates
     if (!ids.has(id)) {
@@ -137,12 +142,17 @@ county.features
         labels: override?.labels ?? [],
         orientations: override?.orientations ?? orientations,
         sqarcities: override?.sqarcities ?? sqarcities,
+        updatedAt: feature.properties.ll_updated_at,
         usage:
           // NOTE: fold 57 and 27 together
           override?.usage ??
           (feature.properties.usecode === '57'
             ? '27'
-            : feature.properties.usecode ?? '27')
+            : feature.properties.usecode ?? '27'),
+        valueOfImprovement: feature.properties.improvval,
+        valueOfLand: feature.properties.landval,
+        valueOfParcel: feature.properties.parval,
+        yearOfCAMA: feature.properties.camayear
       };
       washington.lots.push(lot);
 
@@ -155,6 +165,8 @@ county.features
       }
     }
   });
+
+console.log(parvals);
 
 console.log(
   `Processed ${Object.keys(overrides).length} overrides to ${

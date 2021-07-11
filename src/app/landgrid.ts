@@ -104,7 +104,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6054149081529634
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 50900,
+      "valueOfLand": 119200,
+      "valueOfParcel": 170100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "296 MARTIN RD",
@@ -151,7 +156,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.517455108957281
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 3700,
+      "valueOfLand": 37800,
+      "valueOfParcel": 41500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -215,7 +225,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7725568468636957
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22700,
+      "valueOfParcel": 22700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -270,7 +285,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.752068556648982
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3443,
+      "valueOfParcel": 3443,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -326,7 +346,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5937673217054725
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12100,
+      "valueOfParcel": 12100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "265 WASHINGTON HGTS RD",
@@ -381,7 +406,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6252268674968802
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 95700,
+      "valueOfLand": 31800,
+      "valueOfParcel": 127500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "10 MARYS LN",
@@ -448,7 +478,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6330584059710863
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 184500,
+      "valueOfLand": 29600,
+      "valueOfParcel": 214100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 MARYS LN",
@@ -507,7 +542,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6686196313614684
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 156300,
+      "valueOfLand": 62400,
+      "valueOfParcel": 218700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -562,7 +602,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5372993776988602
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 386,
+      "valueOfParcel": 386,
+      "yearOfCAMA": 2020
     },
     {
       "address": "601 NO MAIN ST",
@@ -669,7 +714,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.717535316927051
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 125200,
+      "valueOfLand": 39381,
+      "valueOfParcel": 164581,
+      "yearOfCAMA": 2020
     },
     {
       "address": "892 LEMPSTER MT RD",
@@ -720,7 +770,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6666052973715629
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25900,
+      "valueOfParcel": 25900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1222 HALFMOON PD RD",
@@ -779,7 +834,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6935321910277079
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 56100,
+      "valueOfLand": 49100,
+      "valueOfParcel": 105200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1289 HALFMOON PD RD",
@@ -838,7 +898,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6297040009848252
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 37200,
+      "valueOfLand": 34000,
+      "valueOfParcel": 71200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -885,7 +950,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45792742291805605
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 100,
+      "valueOfLand": 27600,
+      "valueOfParcel": 27700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1662 HALFMOON PD RD",
@@ -936,7 +1006,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44711486485023033
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 29700,
+      "valueOfParcel": 29700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1530 HALFMOON PD RD",
@@ -995,7 +1070,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.506460792610063
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 30200,
+      "valueOfLand": 35400,
+      "valueOfParcel": 65600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "271 MARTIN RD",
@@ -1050,7 +1130,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5927095318098026
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "371 MARTIN RD",
@@ -1097,7 +1182,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5534830036957672
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 27800,
+      "valueOfLand": 27200,
+      "valueOfParcel": 55000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "256 MARTIN RD",
@@ -1152,7 +1242,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5684160439212074
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 20400,
+      "valueOfLand": 30000,
+      "valueOfParcel": 50400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2570 E WASHINGTON RD",
@@ -1223,7 +1318,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7619902678889857
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "33",
+      "valueOfImprovement": 40600,
+      "valueOfLand": 39000,
+      "valueOfParcel": 79600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -1334,7 +1434,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5246980888963996
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3037,
+      "valueOfParcel": 3037,
+      "yearOfCAMA": 2020
     },
     {
       "address": "983 ASHUELOT DR",
@@ -1401,7 +1506,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35813293424856857
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 155100,
+      "valueOfLand": 86200,
+      "valueOfParcel": 241300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "849 ASHUELOT DR",
@@ -1460,7 +1570,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33274852233732916
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 126100,
+      "valueOfLand": 192200,
+      "valueOfParcel": 318300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "547 LEMPSTER MT RD",
@@ -1563,7 +1678,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5871599944886053
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 202000,
+      "valueOfLand": 55111,
+      "valueOfParcel": 257111,
+      "yearOfCAMA": 2020
     },
     {
       "address": "673 LEMPSTER MT RD",
@@ -1638,7 +1758,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.757564499735903
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 24200,
+      "valueOfLand": 33018,
+      "valueOfParcel": 57218,
+      "yearOfCAMA": 2020
     },
     {
       "address": "646 MILLEN POND RD",
@@ -1728,7 +1853,12 @@ export const LANDGRID = {
         0.48179776359542886,
         0.7255346046165213
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 40200,
+      "valueOfLand": 151400,
+      "valueOfParcel": 191600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "648 MILLEN POND RD",
@@ -1822,7 +1952,12 @@ export const LANDGRID = {
         0.47585717798243654,
         0.5811734244583048
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 150400,
+      "valueOfLand": 150200,
+      "valueOfParcel": 300600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "320 FAXON HILL RD",
@@ -1901,7 +2036,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4256655036472525
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 78300,
+      "valueOfLand": 45600,
+      "valueOfParcel": 123900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "152 VALLEY RD",
@@ -1960,7 +2100,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7213948114214294
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25200,
+      "valueOfParcel": 25200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "78 VALLEY RD",
@@ -2011,7 +2156,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7852155736491003
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 61200,
+      "valueOfLand": 42400,
+      "valueOfParcel": 103600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "141 HALFMOON PD RD",
@@ -2062,7 +2212,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7137471311931087
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 37300,
+      "valueOfLand": 39900,
+      "valueOfParcel": 77200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1024 HALFMOON PD RD",
@@ -2117,7 +2272,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4168712933713229
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18800,
+      "valueOfParcel": 18800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1406 LOVELL MT RD",
@@ -2184,7 +2344,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8033377329170506
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 10800,
+      "valueOfLand": 51500,
+      "valueOfParcel": 62300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "707 WASHINGTON DR",
@@ -2243,7 +2408,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5570915348304599
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 96100,
+      "valueOfLand": 220400,
+      "valueOfParcel": 316500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "699 WASHINGTON DR",
@@ -2298,7 +2468,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48835359396642886
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 109900,
+      "valueOfLand": 219900,
+      "valueOfParcel": 329800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -2353,7 +2528,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5668977111706397
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 146800,
+      "valueOfParcel": 146800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 WALNUT CIR",
@@ -2476,7 +2656,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4651928707852878
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 136800,
+      "valueOfLand": 299600,
+      "valueOfParcel": 436400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "549 WASHINGTON DR",
@@ -2527,7 +2712,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6588510447128005
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 66300,
+      "valueOfLand": 215000,
+      "valueOfParcel": 281300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -2579,7 +2769,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2501734003790601
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 54800,
+      "valueOfParcel": 54800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -2630,7 +2825,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4179561603085905
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 198,
+      "valueOfParcel": 198,
+      "yearOfCAMA": 2020
     },
     {
       "address": "491 WASHINGTON DR",
@@ -2685,7 +2885,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6078305501653563
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 119700,
+      "valueOfLand": 226100,
+      "valueOfParcel": 345800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "469 WASHINGTON DR",
@@ -2752,7 +2957,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7815461155950386
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 63900,
+      "valueOfLand": 226300,
+      "valueOfParcel": 290200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -2827,7 +3037,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7115762024910087
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 8800,
+      "valueOfLand": 189500,
+      "valueOfParcel": 198300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "415 WASHINGTON DR",
@@ -2902,7 +3117,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5546778970609043
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 109600,
+      "valueOfLand": 224500,
+      "valueOfParcel": 334100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "289 WASHINGTON DR",
@@ -2977,7 +3197,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6702063580388383
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 144500,
+      "valueOfLand": 196700,
+      "valueOfParcel": 341200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "243 WASHINGTON DR",
@@ -3036,7 +3261,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5737998708607357
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 101000,
+      "valueOfLand": 209000,
+      "valueOfParcel": 310000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "235 WASHINGTON DR",
@@ -3095,7 +3325,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5397923984738102
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 51400,
+      "valueOfLand": 215200,
+      "valueOfParcel": 266600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "330 WASHINGTON DR",
@@ -3166,7 +3401,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6189974311402676
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 41500,
+      "valueOfLand": 46700,
+      "valueOfParcel": 88200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "448 WASHINGTON DR",
@@ -3221,7 +3461,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33572532140808053
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33300,
+      "valueOfParcel": 33300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "500 WASHINGTON DR",
@@ -3268,7 +3513,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.20698200293261773
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 28900,
+      "valueOfParcel": 28900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "650 WASHINGTON DR",
@@ -3319,7 +3569,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42757925284685844
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 96000,
+      "valueOfLand": 72000,
+      "valueOfParcel": 168000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -3374,7 +3629,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4266701680269181
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33000,
+      "valueOfParcel": 33000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "180 ISLAND POND RD",
@@ -3453,7 +3713,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6446239188332292
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 51000,
+      "valueOfLand": 185500,
+      "valueOfParcel": 236500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "160 ISLAND POND RD",
@@ -3532,7 +3797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5466436448723186
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 145100,
+      "valueOfLand": 261280,
+      "valueOfParcel": 406380,
+      "yearOfCAMA": 2020
     },
     {
       "address": "104 ISLAND POND RD",
@@ -3584,7 +3854,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7783211744990303
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 9400,
+      "valueOfLand": 25300,
+      "valueOfParcel": 34700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "143 VALLEY RD",
@@ -3631,7 +3906,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5102974629337453
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 309,
+      "valueOfParcel": 309,
+      "yearOfCAMA": 2020
     },
     {
       "address": "248 SO MAIN ST",
@@ -3767,7 +4047,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4033600390235364
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 46900,
+      "valueOfParcel": 46900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -3898,7 +4183,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3410079303702881
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1903,
+      "valueOfParcel": 1903,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -4001,7 +4291,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6864388990005577
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 391,
+      "valueOfParcel": 391,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -4072,7 +4367,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6626231928556925
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 687,
+      "valueOfParcel": 687,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -4343,7 +4643,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.584662194570078
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2011,
+      "valueOfParcel": 2011,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -4398,7 +4703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.790001725911582
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 491,
+      "valueOfParcel": 491,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -4453,7 +4763,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6231617011361154
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 38400,
+      "valueOfParcel": 38400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "663 ASHUELOT DR",
@@ -4516,7 +4831,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.36418078513924934
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 176800,
+      "valueOfLand": 197300,
+      "valueOfParcel": 374100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "138 HARRISON RD",
@@ -4583,7 +4903,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6353517336680914
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 75000,
+      "valueOfLand": 206700,
+      "valueOfParcel": 281700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "150 HARRISON RD",
@@ -4654,7 +4979,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6121337088196126
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 192200,
+      "valueOfLand": 211600,
+      "valueOfParcel": 403800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 HARRISON RD",
@@ -4705,7 +5035,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7816662266498198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 94500,
+      "valueOfLand": 41600,
+      "valueOfParcel": 136100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "536 ASHUELOT DR",
@@ -4756,7 +5091,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.694163319439271
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14400,
+      "valueOfParcel": 14400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -4807,7 +5147,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.788089491288028
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "497 ASHUELOT DR",
@@ -4870,7 +5215,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7977154153465588
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 142700,
+      "valueOfLand": 40800,
+      "valueOfParcel": 183500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "101 TAYLOR CIR",
@@ -4945,7 +5295,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.464850151925021
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 120800,
+      "valueOfLand": 42400,
+      "valueOfParcel": 163200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "263 STOWELL RD",
@@ -5020,7 +5375,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7239107929102934
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 127100,
+      "valueOfLand": 48000,
+      "valueOfParcel": 175100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "STOWELL RD",
@@ -5071,7 +5431,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7402168618628882
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "159 JEFFERSON DR",
@@ -5122,7 +5487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7687374365696058
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 211300,
+      "valueOfLand": 10900,
+      "valueOfParcel": 222200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "40 MADISON DR",
@@ -5177,7 +5547,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7744114932343673
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 114500,
+      "valueOfLand": 35400,
+      "valueOfParcel": 149900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -5228,7 +5603,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7804941905383782
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "108 MADISON DR",
@@ -5279,7 +5659,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7806759673976719
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 160700,
+      "valueOfLand": 38800,
+      "valueOfParcel": 199500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "178 MADISON DR",
@@ -5330,7 +5715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7835702893625515
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 103800,
+      "valueOfLand": 38800,
+      "valueOfParcel": 142600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "374 ASHUELOT DR",
@@ -5381,7 +5771,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7702917358158882
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 79300,
+      "valueOfLand": 38800,
+      "valueOfParcel": 118100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "77 MADISON DR",
@@ -5432,7 +5827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7298111255496031
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 105700,
+      "valueOfLand": 41400,
+      "valueOfParcel": 147100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "330 ASHUELOT DR",
@@ -5483,7 +5883,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7897436119348884
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 91200,
+      "valueOfLand": 39400,
+      "valueOfParcel": 130600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -5534,7 +5939,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7755250397249323
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13000,
+      "valueOfParcel": 13000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "397 ASHUELOT DR",
@@ -5593,7 +6003,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.742150986967314
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 160100,
+      "valueOfLand": 203600,
+      "valueOfParcel": 363700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "307 ASHUELOT DR",
@@ -5644,7 +6059,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6257452560082386
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 284200,
+      "valueOfLand": 228500,
+      "valueOfParcel": 512700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "249 ASHUELOT DR",
@@ -5699,7 +6119,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6642984103802603
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 132200,
+      "valueOfLand": 213600,
+      "valueOfParcel": 345800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "177 ASHUELOT DR",
@@ -5762,7 +6187,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7403543844331436
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 133900,
+      "valueOfLand": 223600,
+      "valueOfParcel": 357500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "165 ASHUELOT DR",
@@ -5817,7 +6247,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6896209669443085
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 233300,
+      "valueOfLand": 213600,
+      "valueOfParcel": 446900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "121 ASHUELOT DR",
@@ -5876,7 +6311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6230079091173337
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 59700,
+      "valueOfLand": 213600,
+      "valueOfParcel": 273300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "113 ASHUELOT DR",
@@ -5935,7 +6375,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6671170941331448
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 77100,
+      "valueOfLand": 181900,
+      "valueOfParcel": 259000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "35 ASHUELOT DR",
@@ -5990,7 +6435,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5085385887401804
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 218200,
+      "valueOfLand": 225000,
+      "valueOfParcel": 443200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "25 ASHUELOT DR",
@@ -6037,7 +6487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46957314798332594
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 185400,
+      "valueOfLand": 215100,
+      "valueOfParcel": 400500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 VAN BUREN CIR",
@@ -6088,7 +6543,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5465832751185292
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 236700,
+      "valueOfLand": 219300,
+      "valueOfParcel": 456000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 VAN BUREN CIR",
@@ -6167,7 +6627,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6640730059793034
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 208600,
+      "valueOfLand": 260000,
+      "valueOfParcel": 468600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "25 VAN BUREN CIR",
@@ -6238,7 +6703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6480876923978687
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 108900,
+      "valueOfLand": 225400,
+      "valueOfParcel": 334300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "183 MCKINLEY DR",
@@ -6301,7 +6771,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6756673190936336
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 119300,
+      "valueOfLand": 236700,
+      "valueOfParcel": 356000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 GARFIELD DR",
@@ -6384,7 +6859,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4497325536636159
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 113200,
+      "valueOfLand": 206100,
+      "valueOfParcel": 319300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 GARFIELD DR",
@@ -6443,7 +6923,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5619828121022159
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 140800,
+      "valueOfLand": 220700,
+      "valueOfParcel": 361500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "76 GARFIELD DR",
@@ -6494,7 +6979,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5851209410342881
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 98500,
+      "valueOfLand": 215100,
+      "valueOfParcel": 313600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "170 ASHUELOT DR",
@@ -6545,7 +7035,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.772865837716849
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84200,
+      "valueOfLand": 39000,
+      "valueOfParcel": 123200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAFT RD",
@@ -6596,7 +7091,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7586938894594877
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAFT RD",
@@ -6647,7 +7147,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7660093773739288
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 HAYES RD",
@@ -6694,7 +7199,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7831827100294615
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 88100,
+      "valueOfLand": 38600,
+      "valueOfParcel": 126700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "42 HAYES RD",
@@ -6745,7 +7255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7857485933931774
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 69900,
+      "valueOfLand": 38600,
+      "valueOfParcel": 108500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "9 HARDING RD",
@@ -6792,7 +7307,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.786851507085557
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 82500,
+      "valueOfLand": 39400,
+      "valueOfParcel": 121900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "31 HARDING RD",
@@ -6839,7 +7359,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7848543972236066
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 82400,
+      "valueOfLand": 39300,
+      "valueOfParcel": 121700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 ASHUELOT DR",
@@ -6890,7 +7415,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6675942329174115
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 55800,
+      "valueOfLand": 43900,
+      "valueOfParcel": 99700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "136 MCKINLEY DR",
@@ -6957,7 +7487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6034567236594219
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 180300,
+      "valueOfLand": 45700,
+      "valueOfParcel": 226000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "110 MCKINLEY DR",
@@ -7016,7 +7551,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7510188437253866
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 207400,
+      "valueOfLand": 44900,
+      "valueOfParcel": 252300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "69 MCKINLEY DR",
@@ -7063,7 +7603,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7742844929568584
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 140800,
+      "valueOfLand": 41500,
+      "valueOfParcel": 182300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "43 MONROE CIR",
@@ -7142,7 +7687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6679112487896128
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 142300,
+      "valueOfLand": 46800,
+      "valueOfParcel": 189100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 LINCOLN DR",
@@ -7197,7 +7747,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6452440090903894
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 116800,
+      "valueOfLand": 39500,
+      "valueOfParcel": 156300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "99 LINCOLN DR",
@@ -7252,7 +7807,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.594893359020393
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 86300,
+      "valueOfLand": 40500,
+      "valueOfParcel": 126800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "229 LINCOLN DR",
@@ -7303,7 +7863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7922145997718896
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 85200,
+      "valueOfLand": 39300,
+      "valueOfParcel": 124500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "102 LINCOLN DR",
@@ -7362,7 +7927,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7135414031620613
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 86600,
+      "valueOfLand": 39600,
+      "valueOfParcel": 126200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -7421,7 +7991,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7248301333878341
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "84 JACKSON DR",
@@ -7472,7 +8047,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7451837817509804
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 96800,
+      "valueOfLand": 43100,
+      "valueOfParcel": 139900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "20 LINCOLN DR",
@@ -7527,7 +8107,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7017902457224925
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 83900,
+      "valueOfLand": 39300,
+      "valueOfParcel": 123200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "322 PRESIDENTIAL DR",
@@ -7578,7 +8163,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7856567046659679
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 67100,
+      "valueOfLand": 41600,
+      "valueOfParcel": 108700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "94 COOLIDGE DR",
@@ -7629,7 +8219,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7557359305177771
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9100,
+      "valueOfParcel": 9100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "269 COOLIDGE DR",
@@ -7676,7 +8271,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6350315395943847
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 104100,
+      "valueOfLand": 41800,
+      "valueOfParcel": 145900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -7751,7 +8351,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7531445015063364
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11900,
+      "valueOfParcel": 11900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "59 BUCHANAN CIR",
@@ -7818,7 +8423,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5509502729825317
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 80100,
+      "valueOfLand": 41200,
+      "valueOfParcel": 121300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 COOLIDGE DR",
@@ -7869,7 +8479,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6911203153814571
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 146200,
+      "valueOfLand": 42500,
+      "valueOfParcel": 188700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -7920,7 +8535,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3975332753613962
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 800,
+      "valueOfLand": 30200,
+      "valueOfParcel": 31000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -7967,7 +8587,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.390632194016272
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23400,
+      "valueOfParcel": 23400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "959 VALLEY RD",
@@ -8022,7 +8647,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3919689348056832
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23400,
+      "valueOfParcel": 23400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1022 VALLEY RD",
@@ -8093,7 +8723,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5394188251694568
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 103700,
+      "valueOfLand": 52700,
+      "valueOfParcel": 156400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "576 VALLEY RD",
@@ -8172,7 +8807,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49192269739105626
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 19300,
+      "valueOfLand": 43900,
+      "valueOfParcel": 63200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1012 FAXON HILL RD",
@@ -8263,7 +8903,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6109048610128471
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 53200,
+      "valueOfLand": 180600,
+      "valueOfParcel": 233800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "825 MILLEN POND RD",
@@ -8315,7 +8960,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48464881832114254
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84600,
+      "valueOfLand": 218800,
+      "valueOfParcel": 303400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1021 MILLEN POND RD",
@@ -8366,7 +9016,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7079308088430862
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 42500,
+      "valueOfLand": 145900,
+      "valueOfParcel": 188400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "882 MILLEN POND RD",
@@ -8421,7 +9076,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5423179545698777
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 67700,
+      "valueOfLand": 49900,
+      "valueOfParcel": 117600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "808 MILLEN POND RD",
@@ -8511,7 +9171,12 @@ export const LANDGRID = {
         0.5898644795432353,
         0.5212105256926862
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 13100,
+      "valueOfLand": 33700,
+      "valueOfParcel": 46800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "756 MILLEN POND RD",
@@ -8562,7 +9227,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7330481812163105
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 86000,
+      "valueOfLand": 58600,
+      "valueOfParcel": 144600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "273 PRESIDENTIAL DR",
@@ -8613,7 +9283,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7925658963724818
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 146400,
+      "valueOfLand": 39000,
+      "valueOfParcel": 185400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -8692,7 +9367,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5798937840579823
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 300,
+      "valueOfLand": 10900,
+      "valueOfParcel": 11200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -8751,7 +9431,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.754922054256686
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -8814,7 +9499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6577413171978919
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "46 POINT RD",
@@ -9045,7 +9735,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6010822908598742
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "17",
+      "valueOfImprovement": 600,
+      "valueOfLand": 36621,
+      "valueOfParcel": 37221,
+      "yearOfCAMA": 2020
     },
     {
       "address": "596 HIGHLAND HAVEN RD",
@@ -9096,7 +9791,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6997870193273168
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 50200,
+      "valueOfLand": 165000,
+      "valueOfParcel": 215200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "580 HIGHLAND HAVEN RD",
@@ -9147,7 +9847,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6884020669162422
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 162700,
+      "valueOfLand": 144800,
+      "valueOfParcel": 307500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -9370,7 +10075,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6145131616434081
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 77200,
+      "valueOfParcel": 77200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "463 HIGHLAND HAVEN RD",
@@ -9425,7 +10135,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7566452874156674
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21100,
+      "valueOfParcel": 21100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "39 MAPLE WAY",
@@ -9476,7 +10191,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7704658136080382
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 115300,
+      "valueOfLand": 36400,
+      "valueOfParcel": 151700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "386 HIGHLAND HAVEN RD",
@@ -9547,7 +10267,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6770108701748484
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 94800,
+      "valueOfLand": 37800,
+      "valueOfParcel": 132600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -9594,7 +10319,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6944331395803455
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14900,
+      "valueOfParcel": 14900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "522 HIGHLAND HAVEN RD",
@@ -9653,7 +10383,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.592227455382578
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17100,
+      "valueOfParcel": 17100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1191 SO MAIN ST",
@@ -9708,7 +10443,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7314542676968285
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 12000,
+      "valueOfLand": 32900,
+      "valueOfParcel": 44900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "58 MILL ST",
@@ -9771,7 +10511,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.450202726218546
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25800,
+      "valueOfParcel": 25800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "36 WASHINGTON DR",
@@ -9822,7 +10567,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41407550564289985
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 82300,
+      "valueOfLand": 42500,
+      "valueOfParcel": 124800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4100 E WASHINGTON RD",
@@ -9873,7 +10623,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.317528851158052
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13200,
+      "valueOfParcel": 13200,
+      "yearOfCAMA": 2020
     },
     {
       "address": null,
@@ -9920,7 +10675,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4045265804839257
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-04T17:50:27.865Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13200,
+      "valueOfParcel": 13200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "576 HIGHLAND HAVEN RD",
@@ -9979,7 +10739,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8238712237611802
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "186 WILD ACRE DR",
@@ -10064,7 +10829,12 @@ export const LANDGRID = {
         0.652081449471706,
         0.6563471690147272
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 85900,
+      "valueOfLand": 103900,
+      "valueOfParcel": 189800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "214 WILD ACRE DR",
@@ -10111,7 +10881,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5695813045370084
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 71400,
+      "valueOfLand": 72100,
+      "valueOfParcel": 143500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WILD ACRE DR",
@@ -10246,7 +11021,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5643744706496554
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1100,
+      "valueOfLand": 52142,
+      "valueOfParcel": 53242,
+      "yearOfCAMA": 2020
     },
     {
       "address": "219 SMITH POND RD",
@@ -10301,7 +11081,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6939400122751862
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 4900,
+      "valueOfLand": 19000,
+      "valueOfParcel": 23900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "678 HIGHLAND HAVEN RD",
@@ -10384,7 +11169,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7712410165209725
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 68900,
+      "valueOfLand": 188100,
+      "valueOfParcel": 257000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "669 HIGHLAND HAVEN RD",
@@ -10431,7 +11221,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7616143989687263
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 80400,
+      "valueOfLand": 49900,
+      "valueOfParcel": 130300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "704 HIGHLAND HAVEN RD",
@@ -10506,7 +11301,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6443522809791151
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 139100,
+      "valueOfParcel": 139100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "407 DOLE SCHOOL HOUSE RD",
@@ -10566,7 +11366,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8015022393112489
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 33900,
+      "valueOfLand": 30400,
+      "valueOfParcel": 64300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "262 NO MAIN ST",
@@ -10613,7 +11418,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7508206316589987
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 22300,
+      "valueOfLand": 32400,
+      "valueOfParcel": 54700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "371 DOLE SCHOOL HOUSE RD",
@@ -10688,7 +11498,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6671146364067659
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 41400,
+      "valueOfLand": 33323,
+      "valueOfParcel": 74723,
+      "yearOfCAMA": 2020
     },
     {
       "address": "46 NO MAIN ST",
@@ -10739,7 +11554,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7951776636746991
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 197800,
+      "valueOfLand": 37800,
+      "valueOfParcel": 235600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "36 HALFMOON PD RD",
@@ -10790,7 +11610,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6496317984798301
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 163400,
+      "valueOfLand": 29500,
+      "valueOfParcel": 192900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "112 NO MAIN ST",
@@ -10837,7 +11662,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7559448469169461
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17200,
+      "valueOfParcel": 17200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "37 HALFMOON PD RD",
@@ -10932,7 +11762,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.415359999658627
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 236200,
+      "valueOfLand": 40400,
+      "valueOfParcel": 276600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "59 HALFMOON PD RD",
@@ -10995,7 +11830,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48967873318927724
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 123800,
+      "valueOfLand": 35000,
+      "valueOfParcel": 158800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -11051,7 +11891,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6865692474988107
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 7100,
+      "valueOfLand": 8300,
+      "valueOfParcel": 15400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "100 HALFMOON PD RD",
@@ -11098,7 +11943,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7730733975406296
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "33",
+      "valueOfImprovement": 51600,
+      "valueOfLand": 39500,
+      "valueOfParcel": 91100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 SO MAIN ST",
@@ -11161,7 +12011,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8170304583460133
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "33",
+      "valueOfImprovement": 559800,
+      "valueOfLand": 72800,
+      "valueOfParcel": 632600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "34 SO MAIN ST",
@@ -11212,7 +12067,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6195274859374738
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 189200,
+      "valueOfLand": 35400,
+      "valueOfParcel": 224600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -11316,7 +12176,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3607709722349974
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6000,
+      "valueOfParcel": 6000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "71 FAXON HILL RD",
@@ -11372,7 +12237,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7646464165868547
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 68200,
+      "valueOfLand": 31500,
+      "valueOfParcel": 99700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -11427,7 +12297,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7269818404861923
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1100,
+      "valueOfLand": 24300,
+      "valueOfParcel": 25400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -11510,7 +12385,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6456950256433441
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9100,
+      "valueOfParcel": 9100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "21 NO MAIN ST",
@@ -11561,7 +12441,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7413063527403642
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 112600,
+      "valueOfLand": 25100,
+      "valueOfParcel": 137700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 LEMPSTER MT RD",
@@ -11620,7 +12505,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6498747679750502
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 39100,
+      "valueOfLand": 34000,
+      "valueOfParcel": 73100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "64 LEMPSTER MT RD",
@@ -11679,7 +12569,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.751532526673041
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 224100,
+      "valueOfLand": 41600,
+      "valueOfParcel": 265700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "143 NO MAIN ST",
@@ -11738,7 +12633,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6292486505952593
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 94400,
+      "valueOfLand": 37500,
+      "valueOfParcel": 131900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2310 E WASHINGTON RD",
@@ -11793,7 +12693,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4289376780127841
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 86800,
+      "valueOfLand": 44600,
+      "valueOfParcel": 131400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2278 E WASHINGTON RD",
@@ -11840,7 +12745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6460672845071466
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "33",
+      "valueOfImprovement": 68200,
+      "valueOfLand": 38500,
+      "valueOfParcel": 106700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -11895,7 +12805,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7845162691750739
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18200,
+      "valueOfParcel": 18200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "180 BRADFORD SPRINGS RD",
@@ -11970,7 +12885,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42582989893615486
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 6900,
+      "valueOfLand": 27741,
+      "valueOfParcel": 34641,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD HILLSBORO RD",
@@ -12029,7 +12949,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5900562879641684
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 49800,
+      "valueOfParcel": 49800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD HILLSBORO RD",
@@ -12088,7 +13013,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6279081791039934
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25800,
+      "valueOfParcel": 25800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -12176,7 +13106,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.36987866275144515
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21000,
+      "valueOfParcel": 21000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PURLING BECK RD",
@@ -12231,7 +13166,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6101567131421661
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 31800,
+      "valueOfParcel": 31800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -12290,7 +13230,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6090740112041013
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11900,
+      "valueOfParcel": 11900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -12337,7 +13282,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7621474802933481
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26400,
+      "valueOfParcel": 26400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2399 E WASHINGTON RD",
@@ -12416,7 +13366,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7159213086368896
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26983,
+      "valueOfParcel": 26983,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1173 VALLEY RD",
@@ -12463,7 +13418,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6825842613569942
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 5600,
+      "valueOfLand": 38600,
+      "valueOfParcel": 44200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -12558,7 +13518,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.695328297401268
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 598,
+      "valueOfParcel": 598,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1178 VALLEY RD",
@@ -12617,7 +13582,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7538987996946729
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 45000,
+      "valueOfLand": 41000,
+      "valueOfParcel": 86000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1200 VALLEY RD",
@@ -12668,7 +13638,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6116648200125427
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 12700,
+      "valueOfLand": 38900,
+      "valueOfParcel": 51600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1262 VALLEY RD",
@@ -12715,7 +13690,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4062498074006874
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 800,
+      "valueOfLand": 30900,
+      "valueOfParcel": 31700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -12770,7 +13750,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44785954990857674
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 30900,
+      "valueOfParcel": 30900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1253 VALLEY RD",
@@ -12825,7 +13810,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7463098830746946
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 81700,
+      "valueOfLand": 40600,
+      "valueOfParcel": 122300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -12872,7 +13862,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6923159075076457
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14100,
+      "valueOfParcel": 14100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1318 VALLEY RD",
@@ -12931,7 +13926,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7313159364868124
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 5700,
+      "valueOfLand": 14100,
+      "valueOfParcel": 19800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1476 VALLEY RD",
@@ -12978,7 +13978,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6870044261024298
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 600,
+      "valueOfLand": 14100,
+      "valueOfParcel": 14700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1597 VALLEY RD",
@@ -13029,7 +14034,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5123991515435043
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21300,
+      "valueOfParcel": 21300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "34 LOOKOUT POINT RD",
@@ -13084,7 +14094,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8033450022611925
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 70700,
+      "valueOfLand": 179700,
+      "valueOfParcel": 250400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "24 LOOKOUT POINT RD",
@@ -13184,7 +14199,12 @@ export const LANDGRID = {
         0.724822592164784,
         0.5527295478080483
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 62800,
+      "valueOfLand": 198900,
+      "valueOfParcel": 261700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 LAKEVIEW TERR",
@@ -13283,7 +14303,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47156278593835715
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 53300,
+      "valueOfLand": 180700,
+      "valueOfParcel": 234000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 BEECH WAY",
@@ -13338,7 +14363,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5510315996504848
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 30300,
+      "valueOfLand": 22700,
+      "valueOfParcel": 53000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 BEECH WAY",
@@ -13409,7 +14439,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5504226831063418
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 14900,
+      "valueOfLand": 85900,
+      "valueOfParcel": 100800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "44 BIRCH POINT WAY",
@@ -13464,7 +14499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5478230765789891
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 83100,
+      "valueOfLand": 160800,
+      "valueOfParcel": 243900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 BIRCH POINT WAY",
@@ -13515,7 +14555,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46630677663654846
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 39300,
+      "valueOfLand": 170000,
+      "valueOfParcel": 209300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "126 COVE RD",
@@ -13570,7 +14615,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6560930789946742
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 102300,
+      "valueOfLand": 155000,
+      "valueOfParcel": 257300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1666 VALLEY RD",
@@ -13617,7 +14667,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7655068978299057
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 43400,
+      "valueOfLand": 20000,
+      "valueOfParcel": 63400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1764 VALLEY RD",
@@ -13660,7 +14715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5629769382565181
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 34400,
+      "valueOfLand": 27000,
+      "valueOfParcel": 61400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1814 VALLEY RD",
@@ -13735,7 +14795,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5919239508409617
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 89800,
+      "valueOfLand": 41100,
+      "valueOfParcel": 130900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2194 VALLEY RD",
@@ -13786,7 +14851,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7037169732680744
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84100,
+      "valueOfLand": 35300,
+      "valueOfParcel": 119400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2193 VALLEY RD",
@@ -13849,7 +14919,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7129179113605689
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 73700,
+      "valueOfLand": 163100,
+      "valueOfParcel": 236800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2191 VALLEY RD",
@@ -13900,7 +14975,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5543697520526066
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 114500,
+      "valueOfParcel": 114500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2153 VALLEY RD",
@@ -13951,7 +15031,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49270759372382217
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 32800,
+      "valueOfLand": 175200,
+      "valueOfParcel": 208000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2117 VALLEY RD",
@@ -14018,7 +15103,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5482799395645632
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 81400,
+      "valueOfLand": 148000,
+      "valueOfParcel": 229400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2113 VALLEY RD",
@@ -14077,7 +15167,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5377062776904169
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 23800,
+      "valueOfLand": 131600,
+      "valueOfParcel": 155400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2109 VALLEY RD",
@@ -14128,7 +15223,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5154751975930058
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 45000,
+      "valueOfLand": 142000,
+      "valueOfParcel": 187000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2090 VALLEY RD",
@@ -14183,7 +15283,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.439507793010317
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 62500,
+      "valueOfLand": 37900,
+      "valueOfParcel": 100400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2096 VALLEY RD",
@@ -14230,7 +15335,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7399871135141298
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 19800,
+      "valueOfLand": 25000,
+      "valueOfParcel": 44800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2168 VALLEY RD",
@@ -14277,7 +15387,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6822989762963327
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 54300,
+      "valueOfLand": 35700,
+      "valueOfParcel": 90000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2180 VALLEY RD",
@@ -14324,7 +15439,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6997512656355908
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 20800,
+      "valueOfLand": 20300,
+      "valueOfParcel": 41100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2188 VALLEY RD",
@@ -14375,7 +15495,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7816412342053165
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 46600,
+      "valueOfLand": 35400,
+      "valueOfParcel": 82000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1903 VALLEY RD",
@@ -14478,7 +15603,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4862541707022932
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 157000,
+      "valueOfLand": 199500,
+      "valueOfParcel": 356500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -14569,7 +15699,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4616968659260349
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33700,
+      "valueOfParcel": 33700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1827 VALLEY RD",
@@ -14660,7 +15795,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6444483843636785
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84100,
+      "valueOfLand": 166600,
+      "valueOfParcel": 250700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1769 VALLEY RD",
@@ -14719,7 +15859,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5144391555653208
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 34300,
+      "valueOfLand": 173100,
+      "valueOfParcel": 207400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1763 VALLEY RD",
@@ -14802,7 +15947,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.652484524684834
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 87000,
+      "valueOfLand": 197100,
+      "valueOfParcel": 284100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1733 VALLEY RD",
@@ -14865,7 +16015,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7371932039255198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 70300,
+      "valueOfLand": 208700,
+      "valueOfParcel": 279000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1701 VALLEY RD",
@@ -14924,7 +16079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33884071025498197
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 3000,
+      "valueOfLand": 118800,
+      "valueOfParcel": 121800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1693 VALLEY RD",
@@ -14995,7 +16155,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43360915629898406
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 65400,
+      "valueOfLand": 188900,
+      "valueOfParcel": 254300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -15062,7 +16227,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5292612313242664
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6449,
+      "valueOfParcel": 6449,
+      "yearOfCAMA": 2020
     },
     {
       "address": "372 BAILEY RD",
@@ -15117,7 +16287,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41507745815884034
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 15200,
+      "valueOfLand": 28400,
+      "valueOfParcel": 43600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "553 MILLEN POND RD",
@@ -15168,7 +16343,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5188378654155067
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 41900,
+      "valueOfLand": 230800,
+      "valueOfParcel": 272700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "523 MILLEN POND RD",
@@ -15243,7 +16423,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8023768274613272
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 44000,
+      "valueOfLand": 209300,
+      "valueOfParcel": 253300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "523 MILLEN POND RD",
@@ -15294,7 +16479,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5187840101001375
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 44000,
+      "valueOfLand": 209300,
+      "valueOfParcel": 253300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "553 MILLEN POND RD",
@@ -15385,7 +16575,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7835294073446935
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 41900,
+      "valueOfLand": 230800,
+      "valueOfParcel": 272700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "339 LONG POND RD",
@@ -15432,7 +16627,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5013415397426835
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 63600,
+      "valueOfLand": 46500,
+      "valueOfParcel": 110100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "378 WASHINGTON DR",
@@ -15479,7 +16679,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7143097250440681
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 187900,
+      "valueOfLand": 73977,
+      "valueOfParcel": 261877,
+      "yearOfCAMA": 2020
     },
     {
       "address": "179 MADISON DR",
@@ -15530,7 +16735,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7715573397082119
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 182800,
+      "valueOfLand": 38800,
+      "valueOfParcel": 221600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "875 VALLEY RD",
@@ -15577,7 +16787,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3836215698955077
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26300,
+      "valueOfParcel": 26300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "949 N MAIN ST",
@@ -15644,7 +16859,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4943132520892976
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137900,
+      "valueOfLand": 47400,
+      "valueOfParcel": 185300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "28 HAYES RD",
@@ -15695,7 +16915,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7983321208134143
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133100,
+      "valueOfLand": 38600,
+      "valueOfParcel": 171700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "819 N MAIN ST",
@@ -15746,7 +16971,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4923422561265404
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110100,
+      "valueOfLand": 42500,
+      "valueOfParcel": 152600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 WASHINGTON HEIGHTS RD",
@@ -15805,7 +17035,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6895669533744007
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101900,
+      "valueOfLand": 26000,
+      "valueOfParcel": 127900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "192 WASHINGTON HEIGHTS RD",
@@ -15856,7 +17091,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3975261715196838
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 165200,
+      "valueOfLand": 27400,
+      "valueOfParcel": 192600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 PIERCE RD",
@@ -15907,7 +17147,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7843398823991555
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 248500,
+      "valueOfLand": 43000,
+      "valueOfParcel": 291500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "989 LEMPSTER MOUNTAIN RD",
@@ -15982,7 +17227,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5821476194441371
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 125800,
+      "valueOfLand": 35336,
+      "valueOfParcel": 161136,
+      "yearOfCAMA": 2020
     },
     {
       "address": "980 LEMPSTER MOUNTAIN RD",
@@ -16049,7 +17299,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6030002977545748
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 124000,
+      "valueOfLand": 46236,
+      "valueOfParcel": 170236,
+      "yearOfCAMA": 2020
     },
     {
       "address": "926 LEMPSTER MOUNTAIN RD",
@@ -16108,7 +17363,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.621245244421383
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143700,
+      "valueOfLand": 34272,
+      "valueOfParcel": 177972,
+      "yearOfCAMA": 2020
     },
     {
       "address": "427 OLD BURBANK RD",
@@ -16239,7 +17499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.518075516425663
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 315100,
+      "valueOfLand": 45126,
+      "valueOfParcel": 360226,
+      "yearOfCAMA": 2020
     },
     {
       "address": "781 LEMPSTER MOUNTAIN RD",
@@ -16294,7 +17559,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6797948292742083
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147100,
+      "valueOfLand": 32000,
+      "valueOfParcel": 179100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 TWIN BRIDGE RD",
@@ -16401,7 +17671,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4230284892403641
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99200,
+      "valueOfLand": 29543,
+      "valueOfParcel": 128743,
+      "yearOfCAMA": 2020
     },
     {
       "address": "215 WASHINGTON HEIGHTS RD",
@@ -16452,7 +17727,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46662144376140413
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 145200,
+      "valueOfLand": 31800,
+      "valueOfParcel": 177000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "29 WASHINGTON HEIGHTS RD",
@@ -16527,7 +17807,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5041835410430895
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 23300,
+      "valueOfLand": 24300,
+      "valueOfParcel": 47600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "121 MARYS LN",
@@ -16590,7 +17875,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7952248486817984
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137300,
+      "valueOfLand": 65600,
+      "valueOfParcel": 202900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "134 WASHINGTON HEIGHTS RD",
@@ -16645,7 +17935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.52917958471198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 153000,
+      "valueOfLand": 28700,
+      "valueOfParcel": 181700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "220 WASHINGTON HEIGHTS RD",
@@ -16704,7 +17999,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33882166768426264
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 90600,
+      "valueOfLand": 28500,
+      "valueOfParcel": 119100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "783 N MAIN ST",
@@ -16755,7 +18055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49632889649884715
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 154000,
+      "valueOfLand": 38000,
+      "valueOfParcel": 192000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "749 N MAIN ST",
@@ -16846,7 +18151,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7737702302096042
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 168300,
+      "valueOfLand": 33737,
+      "valueOfParcel": 202037,
+      "yearOfCAMA": 2020
     },
     {
       "address": "576 N MAIN ST",
@@ -16989,7 +18299,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6943993425172486
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 184000,
+      "valueOfLand": 34261,
+      "valueOfParcel": 218261,
+      "yearOfCAMA": 2020
     },
     {
       "address": "658 N MAIN ST",
@@ -17057,7 +18372,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6918484487844885
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 59500,
+      "valueOfLand": 34600,
+      "valueOfParcel": 94100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "736 N MAIN ST",
@@ -17117,7 +18437,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.790817364227994
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 35000,
+      "valueOfLand": 35300,
+      "valueOfParcel": 70300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1052 LEMPSTER MOUNTAIN RD",
@@ -17180,7 +18505,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4808013298099137
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 19700,
+      "valueOfLand": 34100,
+      "valueOfParcel": 53800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "828 LEMPSTER MOUNTAIN RD",
@@ -17231,7 +18561,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5202092788734494
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 170700,
+      "valueOfLand": 35000,
+      "valueOfParcel": 205700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "786 LEMPSTER MOUNTAIN RD",
@@ -17282,7 +18617,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5007632985541877
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 169100,
+      "valueOfLand": 35000,
+      "valueOfParcel": 204100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1180 HALFMOON POND RD",
@@ -17341,7 +18681,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6915828938233078
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 106300,
+      "valueOfLand": 45000,
+      "valueOfParcel": 151300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1227 HALFMOON POND RD",
@@ -17452,7 +18797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6884876791301712
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134900,
+      "valueOfLand": 38907,
+      "valueOfParcel": 173807,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1132 HALFMOON POND RD",
@@ -17503,7 +18853,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7340400008426691
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 97300,
+      "valueOfLand": 42000,
+      "valueOfParcel": 139300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1166 HALFMOON POND RD",
@@ -17618,7 +18973,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5492849833249888
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 247400,
+      "valueOfLand": 37270,
+      "valueOfParcel": 284670,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1262 HALFMOON POND RD",
@@ -17677,7 +19037,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6965085472636406
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 153200,
+      "valueOfLand": 47800,
+      "valueOfParcel": 201000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1412 HALFMOON POND RD",
@@ -18013,7 +19378,12 @@ export const LANDGRID = {
         0.7847933865155015,
         0.561996855979444
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 154400,
+      "valueOfLand": 54295,
+      "valueOfParcel": 208695,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1632 HALFMOON POND RD",
@@ -18080,7 +19450,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4416973298158336
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80200,
+      "valueOfLand": 34225,
+      "valueOfParcel": 114425,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 MARTIN RD",
@@ -18155,7 +19530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5345120650593284
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 15500,
+      "valueOfLand": 33900,
+      "valueOfParcel": 49400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "127 MARTIN RD",
@@ -18230,7 +19610,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5515791070079499
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84100,
+      "valueOfLand": 48000,
+      "valueOfParcel": 132100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "179 MARTIN RD",
@@ -18297,7 +19682,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4591361344155348
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 64700,
+      "valueOfLand": 40200,
+      "valueOfParcel": 104900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "211 MARTIN RD",
@@ -18352,7 +19742,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6057579425281137
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 181700,
+      "valueOfLand": 36300,
+      "valueOfParcel": 218000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "317 MARTIN RD",
@@ -18415,7 +19810,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5598794751002323
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 56700,
+      "valueOfLand": 35400,
+      "valueOfParcel": 92100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "312 MARTIN RD",
@@ -18474,7 +19874,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5240518374735368
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 142300,
+      "valueOfLand": 44100,
+      "valueOfParcel": 186400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "202 MARTIN RD",
@@ -18553,7 +19958,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5274870173070844
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 136200,
+      "valueOfLand": 38200,
+      "valueOfParcel": 174400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1618 HALFMOON POND RD",
@@ -18600,7 +20010,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7832302456818292
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 76800,
+      "valueOfLand": 32000,
+      "valueOfParcel": 108800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1307 HALFMOON POND RD",
@@ -18675,7 +20090,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6068216271974999
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 173800,
+      "valueOfLand": 42400,
+      "valueOfParcel": 216200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1129 HALFMOON POND RD",
@@ -18734,7 +20154,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7282096985308384
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 122400,
+      "valueOfLand": 34000,
+      "valueOfParcel": 156400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "484 AYERS POND RD",
@@ -18805,7 +20230,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5984727814377713
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 183500,
+      "valueOfLand": 88346,
+      "valueOfParcel": 271846,
+      "yearOfCAMA": 2020
     },
     {
       "address": "410 AYERS POND RD",
@@ -18916,7 +20346,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6038836721020574
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 304000,
+      "valueOfLand": 49517,
+      "valueOfParcel": 353517,
+      "yearOfCAMA": 2020
     },
     {
       "address": "269 DEER VALLEY RD",
@@ -18991,7 +20426,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5874349760012851
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151700,
+      "valueOfLand": 33703,
+      "valueOfParcel": 185403,
+      "yearOfCAMA": 2020
     },
     {
       "address": "161 BRADFORD SPRINGS RD",
@@ -19054,7 +20494,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6011679301617485
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80600,
+      "valueOfLand": 45700,
+      "valueOfParcel": 126300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2402 E WASHINGTON RD",
@@ -19202,7 +20647,12 @@ export const LANDGRID = {
         0.590616632473299,
         0.5302724677353999
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 337500,
+      "valueOfLand": 57100,
+      "valueOfParcel": 394600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2494 E WASHINGTON RD",
@@ -19293,7 +20743,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4168587961714744
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 131900,
+      "valueOfLand": 44371,
+      "valueOfParcel": 176271,
+      "yearOfCAMA": 2020
     },
     {
       "address": "182 AYERS POND RD",
@@ -19340,7 +20795,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7684453025416348
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86600,
+      "valueOfLand": 53400,
+      "valueOfParcel": 140000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2528 E WASHINGTON RD",
@@ -19423,7 +20883,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49231095271359615
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 188000,
+      "valueOfLand": 42752,
+      "valueOfParcel": 230752,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2581 E WASHINGTON RD",
@@ -19490,7 +20955,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7441672057564134
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 140200,
+      "valueOfLand": 42500,
+      "valueOfParcel": 182700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2616 E WASHINGTON RD",
@@ -19553,7 +21023,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7443825376452734
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 185000,
+      "valueOfLand": 47700,
+      "valueOfParcel": 232700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "100 SUGAR HOUSE RD",
@@ -19604,7 +21079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.72737807811494
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110800,
+      "valueOfLand": 47300,
+      "valueOfParcel": 158100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "325 AYERS POND RD",
@@ -19748,7 +21228,12 @@ export const LANDGRID = {
         0.7415779019256105,
         0.62503064847469
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121700,
+      "valueOfLand": 36900,
+      "valueOfParcel": 158600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "77 BERGWEG RD",
@@ -19803,7 +21288,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5428391290216052
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 176200,
+      "valueOfLand": 43100,
+      "valueOfParcel": 219300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "693 AYERS POND RD",
@@ -20038,7 +21528,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6396947211617179
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 154500,
+      "valueOfLand": 39079,
+      "valueOfParcel": 193579,
+      "yearOfCAMA": 2020
     },
     {
       "address": "663 AYERS POND RD",
@@ -20141,7 +21636,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6876828661589393
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 173000,
+      "valueOfLand": 34262,
+      "valueOfParcel": 207262,
+      "yearOfCAMA": 2020
     },
     {
       "address": "177 ULRICH RD",
@@ -20488,7 +21988,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5463748885669825
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134000,
+      "valueOfLand": 48534,
+      "valueOfParcel": 182534,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 SANDY KNOLLS RD",
@@ -20655,7 +22160,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.352901394998824
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 158300,
+      "valueOfLand": 55512,
+      "valueOfParcel": 213812,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 SANDY KNOLLS RD",
@@ -20710,7 +22220,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42544447890357534
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84100,
+      "valueOfLand": 43300,
+      "valueOfParcel": 127400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "118 LOVELL MOUNTAIN RD",
@@ -20841,7 +22356,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7435200532777791
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 153600,
+      "valueOfLand": 54400,
+      "valueOfParcel": 208000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "76 BERGWEG RD",
@@ -20904,7 +22424,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7987942680884088
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116800,
+      "valueOfLand": 68400,
+      "valueOfParcel": 185200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2734 E WASHINGTON RD",
@@ -20955,7 +22480,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7371405548650626
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134400,
+      "valueOfLand": 41600,
+      "valueOfParcel": 176000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "57 LOVELL MOUNTAIN RD",
@@ -21046,7 +22576,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6784799973901572
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 43200,
+      "valueOfParcel": 43200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 SUGAR HOUSE RD",
@@ -21101,7 +22636,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4699744170197022
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 20200,
+      "valueOfLand": 30300,
+      "valueOfParcel": 50500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "95 LOVELL MOUNTAIN RD",
@@ -21180,7 +22720,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5638070673691206
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 117700,
+      "valueOfLand": 44300,
+      "valueOfParcel": 162000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "123 LOVELL MOUNTAIN RD",
@@ -21259,7 +22804,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6850676849744182
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24900,
+      "valueOfParcel": 24900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "126 SUGAR HOUSE RD",
@@ -21306,7 +22856,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6990940654934559
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133100,
+      "valueOfLand": 39400,
+      "valueOfParcel": 172500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2700 E WASHINGTON RD",
@@ -21361,7 +22916,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.790413266373333
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 156100,
+      "valueOfLand": 49600,
+      "valueOfParcel": 205700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1025 ASHUELOT DR",
@@ -21464,7 +23024,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4887976333907097
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 24000,
+      "valueOfLand": 45959,
+      "valueOfParcel": 69959,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1037 ASHUELOT DR",
@@ -21523,7 +23088,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4449111669013724
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143700,
+      "valueOfLand": 60500,
+      "valueOfParcel": 204200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "995 ASHUELOT DR",
@@ -21582,7 +23152,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6443576204764768
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 184900,
+      "valueOfLand": 65300,
+      "valueOfParcel": 250200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "973 ASHUELOT DR",
@@ -21645,7 +23220,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4862182039032677
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 168800,
+      "valueOfLand": 109100,
+      "valueOfParcel": 277900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "959 ASHUELOT DR",
@@ -21720,7 +23300,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6163637314767564
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 173800,
+      "valueOfLand": 123000,
+      "valueOfParcel": 296800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "917 ASHUELOT DR",
@@ -21775,7 +23360,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7692060561782992
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115400,
+      "valueOfLand": 190700,
+      "valueOfParcel": 306100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "884 ASHUELOT DR",
@@ -21830,7 +23420,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6371377633503301
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129800,
+      "valueOfLand": 42100,
+      "valueOfParcel": 171900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "16 MCKINNON RD",
@@ -22045,7 +23640,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.15651645205111647
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 150300,
+      "valueOfLand": 187800,
+      "valueOfParcel": 338100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "795 ASHUELOT DR",
@@ -22100,7 +23700,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5454287035884468
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 148100,
+      "valueOfLand": 198100,
+      "valueOfParcel": 346200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "785 ASHUELOT DR",
@@ -22151,7 +23756,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5644137604255557
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 586200,
+      "valueOfLand": 201600,
+      "valueOfParcel": 787800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "861 ASHUELOT DR",
@@ -22218,7 +23828,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.27877480484562184
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 126900,
+      "valueOfLand": 192800,
+      "valueOfParcel": 319700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "851 ASHUELOT DR",
@@ -22277,7 +23892,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33476465635484
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 132600,
+      "valueOfLand": 192600,
+      "valueOfParcel": 325200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "827 ASHUELOT DR",
@@ -22336,7 +23956,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40339386265376487
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 111700,
+      "valueOfLand": 191900,
+      "valueOfParcel": 303600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "821 ASHUELOT DR",
@@ -22391,7 +24016,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4804916581236381
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 415300,
+      "valueOfLand": 214300,
+      "valueOfParcel": 629600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 OLD BURBANK RD",
@@ -22474,7 +24104,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3918009243425201
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 139700,
+      "valueOfLand": 42000,
+      "valueOfParcel": 181700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "141 OLD BURBANK RD",
@@ -22661,7 +24296,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4036996273719078
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 256400,
+      "valueOfLand": 113832,
+      "valueOfParcel": 370232,
+      "yearOfCAMA": 2020
     },
     {
       "address": "790 MILLEN POND RD",
@@ -22815,7 +24455,12 @@ export const LANDGRID = {
         0.5252401323255003,
         0.6507364782026499
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115700,
+      "valueOfLand": 47421,
+      "valueOfParcel": 163121,
+      "yearOfCAMA": 2020
     },
     {
       "address": "304 OLD MARLOW RD",
@@ -22910,7 +24555,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6477780615647456
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 170500,
+      "valueOfLand": 62464,
+      "valueOfParcel": 232964,
+      "yearOfCAMA": 2020
     },
     {
       "address": "391 LEMPSTER MOUNTAIN RD",
@@ -23049,7 +24699,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3589676712634389
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 27500,
+      "valueOfLand": 53417,
+      "valueOfParcel": 80917,
+      "yearOfCAMA": 2020
     },
     {
       "address": "232 LEMPSTER MOUNTAIN RD",
@@ -23132,7 +24787,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6522928764700475
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 236400,
+      "valueOfLand": 42363,
+      "valueOfParcel": 278763,
+      "yearOfCAMA": 2020
     },
     {
       "address": "563 N MAIN ST",
@@ -23187,7 +24847,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5304546404555202
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 59600,
+      "valueOfLand": 38100,
+      "valueOfParcel": 97700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "276 N MAIN ST",
@@ -23250,7 +24915,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7504775740001517
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 76500,
+      "valueOfLand": 38002,
+      "valueOfParcel": 114502,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 AMES RD",
@@ -23341,7 +25011,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37048670190176747
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 11200,
+      "valueOfLand": 30900,
+      "valueOfParcel": 42100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "7 AMES RD",
@@ -23404,7 +25079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7631742590010905
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 50500,
+      "valueOfLand": 32600,
+      "valueOfParcel": 83100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "313 OLD MARLOW RD",
@@ -23547,7 +25227,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4192091620402734
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 214300,
+      "valueOfLand": 43434,
+      "valueOfParcel": 257734,
+      "yearOfCAMA": 2020
     },
     {
       "address": "284 MILLEN POND RD",
@@ -23622,7 +25307,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4108241525503572
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 193200,
+      "valueOfLand": 50600,
+      "valueOfParcel": 243800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "724 MILLEN POND RD",
@@ -23673,7 +25363,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.616883828826526
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 242200,
+      "valueOfLand": 52400,
+      "valueOfParcel": 294600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "207 MILLEN POND RD",
@@ -23776,7 +25471,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4633710967148473
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 77200,
+      "valueOfLand": 45500,
+      "valueOfParcel": 122700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "400 FAXON HILL RD",
@@ -23963,7 +25663,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.428707921207384
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147300,
+      "valueOfLand": 47567,
+      "valueOfParcel": 194867,
+      "yearOfCAMA": 2020
     },
     {
       "address": "394 FAXON HILL RD",
@@ -24014,7 +25719,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6589519659465373
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 146800,
+      "valueOfLand": 41600,
+      "valueOfParcel": 188400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "453 FAXON HILL RD",
@@ -24117,7 +25827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4412499816102909
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 74900,
+      "valueOfLand": 42980,
+      "valueOfParcel": 117880,
+      "yearOfCAMA": 2020
     },
     {
       "address": "393 FAXON HILL RD",
@@ -24200,7 +25915,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6918115618002979
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137600,
+      "valueOfLand": 41416,
+      "valueOfParcel": 179016,
+      "yearOfCAMA": 2020
     },
     {
       "address": "96 VALLEY RD",
@@ -24251,7 +25971,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7311874479951446
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 19100,
+      "valueOfLand": 37300,
+      "valueOfParcel": 56400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "59 OLD MARLOW RD",
@@ -24322,7 +26047,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5513270322176169
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 149300,
+      "valueOfLand": 52100,
+      "valueOfParcel": 201400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "83 OLD MARLOW RD",
@@ -24389,7 +26119,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6538866140632822
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 89900,
+      "valueOfLand": 37600,
+      "valueOfParcel": 127500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "690 MILLEN POND RD",
@@ -24456,7 +26191,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42442706179979095
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 226000,
+      "valueOfLand": 57800,
+      "valueOfParcel": 283800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "217 HALFMOON POND RD",
@@ -24535,7 +26275,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5566482662269298
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 251400,
+      "valueOfLand": 62560,
+      "valueOfParcel": 313960,
+      "yearOfCAMA": 2020
     },
     {
       "address": "181 HALFMOON POND RD",
@@ -24635,7 +26380,12 @@ export const LANDGRID = {
         0.5145587464057775,
         0.6364540322180453
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 172700,
+      "valueOfLand": 43800,
+      "valueOfParcel": 216500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "291 HALFMOON POND RD",
@@ -24742,7 +26492,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5670632732509368
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147400,
+      "valueOfLand": 47900,
+      "valueOfParcel": 195300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "415 HALFMOON POND RD",
@@ -24793,7 +26548,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7060309153791318
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 141500,
+      "valueOfLand": 35500,
+      "valueOfParcel": 177000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "437 HALFMOON POND RD",
@@ -24840,7 +26600,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7532781916668734
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129900,
+      "valueOfLand": 39200,
+      "valueOfParcel": 169100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "807 HALFMOON POND RD",
@@ -25039,7 +26804,12 @@ export const LANDGRID = {
         0.5143832893633858,
         0.468707331932419
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 161600,
+      "valueOfLand": 200400,
+      "valueOfParcel": 362000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "855 HALFMOON POND RD",
@@ -25114,7 +26884,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5892956088941711
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86900,
+      "valueOfLand": 158700,
+      "valueOfParcel": 245600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "863 HALFMOON POND RD",
@@ -25445,7 +27220,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2674452490010578
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88900,
+      "valueOfLand": 160087,
+      "valueOfParcel": 248987,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1045 HALFMOON POND RD",
@@ -25492,7 +27272,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7511265982375187
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 63500,
+      "valueOfLand": 42000,
+      "valueOfParcel": 105500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "770 HALFMOON POND RD",
@@ -25691,7 +27476,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5489437926513532
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 353200,
+      "valueOfLand": 455847,
+      "valueOfParcel": 809047,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 JEFFERSON DR",
@@ -25738,7 +27528,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7758925807022633
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 87000,
+      "valueOfLand": 38700,
+      "valueOfParcel": 125700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "729 WASHINGTON DR",
@@ -25793,7 +27588,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5441712739260932
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 57000,
+      "valueOfLand": 215600,
+      "valueOfParcel": 272600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "512 HALFMOON POND RD",
@@ -25864,7 +27664,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7884422510118094
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 135000,
+      "valueOfLand": 42000,
+      "valueOfParcel": 177000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "114 MILL ST",
@@ -25947,7 +27752,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5948234017664017
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18486,
+      "valueOfParcel": 18486,
+      "yearOfCAMA": 2020
     },
     {
       "address": "835 WASHINGTON DR",
@@ -26018,7 +27828,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7602131060236385
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120000,
+      "valueOfLand": 248900,
+      "valueOfParcel": 368900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "783 WASHINGTON DR",
@@ -26069,7 +27884,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5688261988852523
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 166000,
+      "valueOfLand": 148500,
+      "valueOfParcel": 314500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "771 WASHINGTON DR",
@@ -26116,7 +27936,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5104941635782582
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 191100,
+      "valueOfLand": 217100,
+      "valueOfParcel": 408200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "763 WASHINGTON DR",
@@ -26171,7 +27996,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47436329700487073
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 243600,
+      "valueOfLand": 311700,
+      "valueOfParcel": 555300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "743 WASHINGTON DR",
@@ -26234,7 +28064,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6858300795079985
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 178800,
+      "valueOfLand": 239600,
+      "valueOfParcel": 418400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "735 WASHINGTON DR",
@@ -26289,7 +28124,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5046911722959784
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 205400,
+      "valueOfLand": 220700,
+      "valueOfParcel": 426100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "715 WASHINGTON DR",
@@ -26348,7 +28188,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49318976085574046
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 114500,
+      "valueOfLand": 228700,
+      "valueOfParcel": 343200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "693 WASHINGTON DR",
@@ -26399,7 +28244,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5458301349141093
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 122200,
+      "valueOfLand": 214600,
+      "valueOfParcel": 336800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "685 WASHINGTON DR",
@@ -26466,7 +28316,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6920131617198875
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 225300,
+      "valueOfLand": 238300,
+      "valueOfParcel": 463600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "677 WASHINGTON DR",
@@ -26521,7 +28376,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5325608648569552
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 112600,
+      "valueOfLand": 215600,
+      "valueOfParcel": 328200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "20 WALNUT CIR",
@@ -26596,7 +28456,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6394269843128254
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 117800,
+      "valueOfLand": 231100,
+      "valueOfParcel": 348900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 WALNUT CIR",
@@ -26715,7 +28580,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6162642428619468
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 127700,
+      "valueOfLand": 262700,
+      "valueOfParcel": 390400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "653 WASHINGTON DR",
@@ -26782,7 +28652,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.609773756023536
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 94300,
+      "valueOfLand": 201500,
+      "valueOfParcel": 295800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "633 WASHINGTON DR",
@@ -26845,7 +28720,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5870674214728
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 122500,
+      "valueOfLand": 197000,
+      "valueOfParcel": 319500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "625 WASHINGTON DR",
@@ -26904,7 +28784,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.565911554049597
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 130400,
+      "valueOfLand": 194800,
+      "valueOfParcel": 325200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "611 WASHINGTON DR",
@@ -26987,7 +28872,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7347561723289266
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 239300,
+      "valueOfLand": 218800,
+      "valueOfParcel": 458100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "581 WASHINGTON DR",
@@ -27050,7 +28940,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6314112370115688
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 102600,
+      "valueOfLand": 200600,
+      "valueOfParcel": 303200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "561 WASHINGTON DR",
@@ -27109,7 +29004,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7061427225535954
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 213100,
+      "valueOfLand": 221700,
+      "valueOfParcel": 434800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "541 WASHINGTON DR",
@@ -27160,7 +29060,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46759060317505374
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 163300,
+      "valueOfLand": 214400,
+      "valueOfParcel": 377700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "533 WASHINGTON DR",
@@ -27211,7 +29116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44276238658796757
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115700,
+      "valueOfLand": 212700,
+      "valueOfParcel": 328400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "515 WASHINGTON DR",
@@ -27290,7 +29200,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.743228971670786
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 123500,
+      "valueOfLand": 254700,
+      "valueOfParcel": 378200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "499 WASHINGTON DR",
@@ -27345,7 +29260,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5408434685555041
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 172200,
+      "valueOfLand": 220300,
+      "valueOfParcel": 392500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "378 WASHINGTON DR",
@@ -27400,7 +29320,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6152607816529172
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 61200,
+      "valueOfParcel": 61200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "455 WASHINGTON DR",
@@ -27459,7 +29384,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7024424062071624
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 215000,
+      "valueOfLand": 226500,
+      "valueOfParcel": 441500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "453 WASHINGTON DR",
@@ -27506,7 +29436,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5372574141415869
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 136900,
+      "valueOfLand": 206700,
+      "valueOfParcel": 343600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "439 WASHINGTON DR",
@@ -27577,7 +29512,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6226560277532259
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 162700,
+      "valueOfLand": 224000,
+      "valueOfParcel": 386700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "355 WASHINGTON DR",
@@ -27668,7 +29608,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.642645951635116
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 107600,
+      "valueOfLand": 224000,
+      "valueOfParcel": 331600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "305 WASHINGTON DR",
@@ -27719,7 +29664,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6555297671854001
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 186300,
+      "valueOfLand": 220600,
+      "valueOfParcel": 406900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "249 WASHINGTON DR",
@@ -27798,7 +29748,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5324124170611271
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 71300,
+      "valueOfLand": 210100,
+      "valueOfParcel": 281400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "231 WASHINGTON DR",
@@ -27877,7 +29832,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4820159231919306
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86700,
+      "valueOfLand": 217900,
+      "valueOfParcel": 304600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "394 WASHINGTON DR",
@@ -27932,7 +29892,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6448561544907792
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 107300,
+      "valueOfLand": 80600,
+      "valueOfParcel": 187900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "416 WASHINGTON DR",
@@ -27987,7 +29952,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4550977608640088
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 314400,
+      "valueOfLand": 139400,
+      "valueOfParcel": 453800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "488 WASHINGTON DR",
@@ -28038,7 +30008,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2633752454751305
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 98200,
+      "valueOfLand": 78700,
+      "valueOfParcel": 176900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "574 WASHINGTON DR",
@@ -28085,7 +30060,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3454098688823603
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86900,
+      "valueOfLand": 76400,
+      "valueOfParcel": 163300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "608 WASHINGTON DR",
@@ -28136,7 +30116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5205315519697107
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 165000,
+      "valueOfLand": 66400,
+      "valueOfParcel": 231400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "632 WASHINGTON DR",
@@ -28187,7 +30172,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5386298576080255
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 96400,
+      "valueOfLand": 71800,
+      "valueOfParcel": 168200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "716 WASHINGTON DR",
@@ -28234,7 +30224,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4177817563528627
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 85300,
+      "valueOfLand": 72500,
+      "valueOfParcel": 157800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "756 WASHINGTON DR",
@@ -28293,7 +30288,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3956504435514387
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 61600,
+      "valueOfLand": 72400,
+      "valueOfParcel": 134000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "780 WASHINGTON DR",
@@ -28344,7 +30344,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3796673576728801
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 193500,
+      "valueOfLand": 69800,
+      "valueOfParcel": 263300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "139 WASHINGTON DR",
@@ -28491,7 +30496,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.21325117929485357
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 201800,
+      "valueOfLand": 225328,
+      "valueOfParcel": 427128,
+      "yearOfCAMA": 2020
     },
     {
       "address": "158 WINDING WAY",
@@ -28590,7 +30600,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30724119279645856
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 198600,
+      "valueOfLand": 222800,
+      "valueOfParcel": 421400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "156 WINDING WAY",
@@ -28685,7 +30700,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.22433090362643068
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 180300,
+      "valueOfLand": 223400,
+      "valueOfParcel": 403700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "108 ISLAND POND RD",
@@ -28844,7 +30864,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3336411011568361
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 69800,
+      "valueOfLand": 65800,
+      "valueOfParcel": 135600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "77 ISLAND POND RD",
@@ -28915,7 +30940,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7698112466042514
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80200,
+      "valueOfLand": 157000,
+      "valueOfParcel": 237200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "339 WASHINGTON DR",
@@ -28986,7 +31016,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7160972695677631
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 283900,
+      "valueOfLand": 206900,
+      "valueOfParcel": 490800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3068 E WASHINGTON RD",
@@ -29037,7 +31072,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.538152454188427
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 163400,
+      "valueOfLand": 46500,
+      "valueOfParcel": 209900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "151 MILL ST",
@@ -29456,7 +31496,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3386192347120052
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95600,
+      "valueOfLand": 51500,
+      "valueOfParcel": 147100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "148 HALFMOON POND RD",
@@ -29519,7 +31564,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6974209566023398
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 64400,
+      "valueOfLand": 33900,
+      "valueOfParcel": 98300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "242 S MAIN ST",
@@ -29562,7 +31612,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.422997597249909
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 85600,
+      "valueOfLand": 36500,
+      "valueOfParcel": 122100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "83 VALLEY RD",
@@ -29617,7 +31672,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3664517398471535
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147500,
+      "valueOfLand": 35800,
+      "valueOfParcel": 183300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "117 VALLEY RD",
@@ -29668,7 +31728,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4804150469743008
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 491,
+      "valueOfParcel": 491,
+      "yearOfCAMA": 2020
     },
     {
       "address": "430 HALFMOON POND RD",
@@ -29739,7 +31804,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5761433587916137
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 145500,
+      "valueOfLand": 31400,
+      "valueOfParcel": 176900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "108 GRANT RD",
@@ -29794,7 +31864,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.756180877939564
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 162600,
+      "valueOfLand": 41100,
+      "valueOfParcel": 203700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3170 E WASHINGTON RD",
@@ -29885,7 +31960,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7573804493169599
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 174300,
+      "valueOfLand": 43900,
+      "valueOfParcel": 218200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3272 E WASHINGTON RD",
@@ -30000,7 +32080,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7252939704106497
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 77000,
+      "valueOfLand": 56928,
+      "valueOfParcel": 133928,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3430 E WASHINGTON RD",
@@ -30087,7 +32172,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5578533142622745
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 178500,
+      "valueOfLand": 43343,
+      "valueOfParcel": 221843,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3554 E WASHINGTON RD",
@@ -30346,7 +32436,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31358701851126786
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 248200,
+      "valueOfLand": 54393,
+      "valueOfParcel": 302593,
+      "yearOfCAMA": 2020
     },
     {
       "address": "683 ASHUELOT DR",
@@ -30405,7 +32500,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6112368558631452
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134400,
+      "valueOfLand": 192200,
+      "valueOfParcel": 326600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3545 E WASHINGTON RD",
@@ -30560,7 +32660,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46073021056056923
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 164500,
+      "valueOfLand": 70500,
+      "valueOfParcel": 235000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3661 E WASHINGTON RD",
@@ -30663,7 +32768,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5878257890176315
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100300,
+      "valueOfLand": 41300,
+      "valueOfParcel": 141600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3587 E WASHINGTON RD",
@@ -30846,7 +32956,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6881031227494884
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 315200,
+      "valueOfLand": 48074,
+      "valueOfParcel": 363274,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3245 E WASHINGTON RD",
@@ -30901,7 +33016,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5317727738744421
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133200,
+      "valueOfLand": 45600,
+      "valueOfParcel": 178800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3145 E WASHINGTON RD",
@@ -31008,7 +33128,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4474553812965356
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 92600,
+      "valueOfLand": 45072,
+      "valueOfParcel": 137672,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3015 E WASHINGTON RD",
@@ -31059,7 +33184,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6634794931675891
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 107600,
+      "valueOfLand": 34400,
+      "valueOfParcel": 142000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "20 HARRISON RD",
@@ -31130,7 +33260,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5435711271818242
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 139700,
+      "valueOfLand": 182500,
+      "valueOfParcel": 322200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3133 E WASHINGTON RD",
@@ -31405,7 +33540,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5270042073598005
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 2700,
+      "valueOfLand": 30009,
+      "valueOfParcel": 32709,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2667 E WASHINGTON RD",
@@ -31456,7 +33596,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7369920628563597
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 103100,
+      "valueOfLand": 40500,
+      "valueOfParcel": 143600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "526 ASHUELOT DR",
@@ -31503,7 +33648,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7320942752822165
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 157200,
+      "valueOfLand": 45200,
+      "valueOfParcel": 202400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2607 E WASHINGTON RD",
@@ -31574,7 +33724,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43588060624215974
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 2200,
+      "valueOfLand": 51000,
+      "valueOfParcel": 53200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3094 E WASHINGTON RD",
@@ -31633,7 +33788,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5944840078681208
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134300,
+      "valueOfLand": 42800,
+      "valueOfParcel": 177100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3112 E WASHINGTON RD",
@@ -31712,7 +33872,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48317718001532
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 140800,
+      "valueOfLand": 45000,
+      "valueOfParcel": 185800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3000 E WASHINGTON RD",
@@ -31763,7 +33928,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7309722075090522
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 173800,
+      "valueOfLand": 54500,
+      "valueOfParcel": 228300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "82 HARRISON RD",
@@ -31862,7 +34032,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7169939569103851
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80000,
+      "valueOfLand": 176800,
+      "valueOfParcel": 256800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "158 HARRISON RD",
@@ -31933,7 +34108,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5722104188558517
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151400,
+      "valueOfLand": 221600,
+      "valueOfParcel": 373000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "166 HARRISON RD",
@@ -32000,7 +34180,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5997601102923483
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 169600,
+      "valueOfLand": 221700,
+      "valueOfParcel": 391300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "182 HARRISON RD",
@@ -32087,7 +34272,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5786599607380469
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 176500,
+      "valueOfLand": 163200,
+      "valueOfParcel": 339700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "135 HARRISON RD",
@@ -32146,7 +34336,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8230936388828465
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 93800,
+      "valueOfLand": 40700,
+      "valueOfParcel": 134500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "117 HARRISON RD",
@@ -32197,7 +34392,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7876209917798375
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 85700,
+      "valueOfLand": 40700,
+      "valueOfParcel": 126400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "71 HARRISON RD",
@@ -32248,7 +34448,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7759594523123338
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120700,
+      "valueOfLand": 40700,
+      "valueOfParcel": 161400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 HARRISON RD",
@@ -32336,7 +34541,12 @@ export const LANDGRID = {
         0.4825450907282862,
         0.7241935848930184
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 142400,
+      "valueOfLand": 115600,
+      "valueOfParcel": 258000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "585 ASHUELOT DR",
@@ -32403,7 +34613,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5568734732521247
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 89200,
+      "valueOfLand": 42600,
+      "valueOfParcel": 131800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "547 ASHUELOT DR",
@@ -32454,7 +34669,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7878357949650732
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 73900,
+      "valueOfLand": 40800,
+      "valueOfParcel": 114700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "562 ASHUELOT DR",
@@ -32517,7 +34737,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.768979452897954
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101900,
+      "valueOfLand": 47500,
+      "valueOfParcel": 149400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "652 ASHUELOT DR",
@@ -32584,7 +34809,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7275933944835961
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 51700,
+      "valueOfLand": 35000,
+      "valueOfParcel": 86700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "676 ASHUELOT DR",
@@ -32643,7 +34873,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6721314094186245
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 111800,
+      "valueOfLand": 40900,
+      "valueOfParcel": 152700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 TAYLOR CIR",
@@ -32694,7 +34929,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7650803655583712
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 83700,
+      "valueOfLand": 43400,
+      "valueOfParcel": 127100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "40 TAYLOR CIR",
@@ -32753,7 +34993,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7122532257007442
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137100,
+      "valueOfLand": 43900,
+      "valueOfParcel": 181000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "10 TAYLOR CIR",
@@ -32832,7 +35077,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5018094813331444
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 176100,
+      "valueOfLand": 42800,
+      "valueOfParcel": 218900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "219 STOWELL RD",
@@ -32887,7 +35137,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.670640162446125
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110200,
+      "valueOfLand": 41200,
+      "valueOfParcel": 151400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 GRANT RD",
@@ -32946,7 +35201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6773769642792755
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75700,
+      "valueOfLand": 41100,
+      "valueOfParcel": 116800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "80 GRANT RD",
@@ -33001,7 +35261,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6533084642362237
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 172500,
+      "valueOfLand": 39100,
+      "valueOfParcel": 211600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "468 ASHUELOT DR",
@@ -33052,7 +35317,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7416819623892558
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 81800,
+      "valueOfLand": 36600,
+      "valueOfParcel": 118400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "89 GRANT RD",
@@ -33107,7 +35377,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7690430309354092
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 74300,
+      "valueOfLand": 42500,
+      "valueOfParcel": 116800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "107 STOWELL RD",
@@ -33178,7 +35453,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5796014157473904
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108000,
+      "valueOfLand": 46800,
+      "valueOfParcel": 154800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "83 STOWELL RD",
@@ -33241,7 +35521,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8355789432447318
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75200,
+      "valueOfLand": 40600,
+      "valueOfParcel": 115800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 JEFFERSON DR",
@@ -33288,7 +35573,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7774415344718532
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86500,
+      "valueOfLand": 38700,
+      "valueOfParcel": 125200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "84 JEFFERSON DR",
@@ -33343,7 +35633,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7525287349795411
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 104300,
+      "valueOfLand": 41100,
+      "valueOfParcel": 145400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "173 JEFFERSON DR",
@@ -33394,7 +35689,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7824201879570986
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 67800,
+      "valueOfLand": 39000,
+      "valueOfParcel": 106800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "125 JEFFERSON DR",
@@ -33441,7 +35741,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7678810305734896
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 112200,
+      "valueOfLand": 39000,
+      "valueOfParcel": 151200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "85 JEFFERSON DR",
@@ -33492,7 +35797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7863861922741117
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118400,
+      "valueOfLand": 39300,
+      "valueOfParcel": 157700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "49 JEFFERSON DR",
@@ -33543,7 +35853,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7813577442135082
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 81600,
+      "valueOfLand": 39300,
+      "valueOfParcel": 120900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "77 STOWELL RD",
@@ -33618,7 +35933,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6638744171460012
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 175800,
+      "valueOfLand": 42000,
+      "valueOfParcel": 217800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "462 PRESIDENTIAL DR",
@@ -33673,7 +35993,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8219076780976331
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 157200,
+      "valueOfLand": 40800,
+      "valueOfParcel": 198000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 MADISON DR",
@@ -33724,7 +36049,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7901988959002
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 146900,
+      "valueOfLand": 39300,
+      "valueOfParcel": 186200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "78 MADISON DR",
@@ -33775,7 +36105,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7789192945196273
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100300,
+      "valueOfLand": 39300,
+      "valueOfParcel": 139600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "128 MADISON DR",
@@ -33838,7 +36173,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5706428031533737
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 42200,
+      "valueOfLand": 41200,
+      "valueOfParcel": 83400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "150 MADISON DR",
@@ -33893,7 +36233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7554793728848269
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 85700,
+      "valueOfLand": 41100,
+      "valueOfParcel": 126800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "145 MADISON DR",
@@ -33944,7 +36289,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6760319004146689
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95200,
+      "valueOfLand": 42200,
+      "valueOfParcel": 137400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "53 MADISON DR",
@@ -33995,7 +36345,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7904197110377528
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120800,
+      "valueOfLand": 37300,
+      "valueOfParcel": 158100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "616 PRESIDENTIAL DR",
@@ -34075,7 +36430,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4059192998299335
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 159600,
+      "valueOfLand": 42200,
+      "valueOfParcel": 201800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "630 PRESIDENTIAL DR",
@@ -34126,7 +36486,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7727421741765421
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 114100,
+      "valueOfLand": 46600,
+      "valueOfParcel": 160700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "642 PRESIDENTIAL DR",
@@ -34177,7 +36542,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7762713992651942
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101300,
+      "valueOfLand": 46600,
+      "valueOfParcel": 147900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "682 PRESIDENTIAL DR",
@@ -34224,7 +36594,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7797581907913791
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 106100,
+      "valueOfLand": 42600,
+      "valueOfParcel": 148700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "314 ASHUELOT DR",
@@ -34275,7 +36650,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7825759941958764
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 139000,
+      "valueOfLand": 39300,
+      "valueOfParcel": 178300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "292 ASHUELOT DR",
@@ -34322,7 +36702,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.77387994968857
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 177100,
+      "valueOfLand": 39400,
+      "valueOfParcel": 216500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "278 ASHUELOT DR",
@@ -34369,7 +36754,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7820508073584371
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 112500,
+      "valueOfLand": 39400,
+      "valueOfParcel": 151900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "258 ASHUELOT DR",
@@ -34428,7 +36818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8168589337380777
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129200,
+      "valueOfLand": 68800,
+      "valueOfParcel": 198000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "377 ASHUELOT DR",
@@ -34487,7 +36882,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7862327074318032
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 198000,
+      "valueOfLand": 236000,
+      "valueOfParcel": 434000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "351 ASHUELOT DR",
@@ -34538,7 +36938,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.696894874309594
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120500,
+      "valueOfLand": 213500,
+      "valueOfParcel": 334000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "341 ASHUELOT DR",
@@ -34593,7 +36998,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6902489274861736
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 228500,
+      "valueOfLand": 228400,
+      "valueOfParcel": 456900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "327 ASHUELOT DR",
@@ -34640,7 +37050,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6603395988065663
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 97000,
+      "valueOfLand": 218600,
+      "valueOfParcel": 315600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "315 ASHUELOT DR",
@@ -34691,7 +37106,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7090660248976303
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 148300,
+      "valueOfLand": 213600,
+      "valueOfParcel": 361900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "291 ASHUELOT DR",
@@ -34742,7 +37162,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6445877328509055
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 66200,
+      "valueOfLand": 213500,
+      "valueOfParcel": 279700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "283 ASHUELOT DR",
@@ -34793,7 +37218,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6625006036867175
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119400,
+      "valueOfLand": 213500,
+      "valueOfParcel": 332900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "265 ASHUELOT DR",
@@ -34844,7 +37274,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.64374615053146
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133100,
+      "valueOfLand": 213600,
+      "valueOfParcel": 346700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "263 ASHUELOT DR",
@@ -34947,7 +37382,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7543600155337167
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 HARDING RD",
@@ -34994,7 +37434,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7857778702753513
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 130100,
+      "valueOfLand": 38700,
+      "valueOfParcel": 168800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "237 ASHUELOT DR",
@@ -35049,7 +37494,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6686752809126196
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 131100,
+      "valueOfLand": 213600,
+      "valueOfParcel": 344700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "223 ASHUELOT DR",
@@ -35100,7 +37550,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6776716371042382
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 113100,
+      "valueOfLand": 209800,
+      "valueOfParcel": 322900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "215 ASHUELOT DR",
@@ -35151,7 +37606,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7053830647429524
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 124100,
+      "valueOfLand": 223600,
+      "valueOfParcel": 347700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "193 ASHUELOT DR",
@@ -35206,7 +37666,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7181487462397705
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 188800,
+      "valueOfLand": 228600,
+      "valueOfParcel": 417400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "157 ASHUELOT DR",
@@ -35285,7 +37750,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7699894049223133
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 97900,
+      "valueOfLand": 237000,
+      "valueOfParcel": 334900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "87 ASHUELOT DR",
@@ -35340,7 +37810,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5840750309260186
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 237800,
+      "valueOfLand": 214900,
+      "valueOfParcel": 452700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "65 ASHUELOT DR",
@@ -35395,7 +37870,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.563286630831948
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 201400,
+      "valueOfLand": 245500,
+      "valueOfParcel": 446900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "53 ASHUELOT DR",
@@ -35446,7 +37926,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5684495341847701
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99300,
+      "valueOfLand": 215500,
+      "valueOfParcel": 314800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "21 ASHUELOT DR",
@@ -35497,7 +37982,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45675291219080943
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 174500,
+      "valueOfLand": 201200,
+      "valueOfParcel": 375700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "26 VAN BUREN CIR",
@@ -35580,7 +38070,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.420817214644957
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 192900,
+      "valueOfLand": 244300,
+      "valueOfParcel": 437200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "29 VAN BUREN CIR",
@@ -35651,7 +38146,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7201067694935813
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119800,
+      "valueOfLand": 244300,
+      "valueOfParcel": 364100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "173 MCKINLEY DR",
@@ -35710,7 +38210,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.670602258385086
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 162800,
+      "valueOfLand": 244000,
+      "valueOfParcel": 406800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "147 MCKINLEY DR",
@@ -35773,7 +38278,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7366526152185375
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 181000,
+      "valueOfLand": 216800,
+      "valueOfParcel": 397800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "105 MCKINLEY DR",
@@ -35820,7 +38330,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7736257999734613
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 124800,
+      "valueOfLand": 39200,
+      "valueOfParcel": 164000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 GARFIELD RD",
@@ -35875,7 +38390,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6244765753790609
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 199500,
+      "valueOfLand": 215300,
+      "valueOfParcel": 414800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "86 GARFIELD RD",
@@ -35922,7 +38442,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5651627123944302
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 237800,
+      "valueOfLand": 215300,
+      "valueOfParcel": 453100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "224 ASHUELOT DR",
@@ -35969,7 +38494,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7841557712476758
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119600,
+      "valueOfLand": 59000,
+      "valueOfParcel": 178600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 TAFT RD",
@@ -36020,7 +38550,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7912270666116293
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 85500,
+      "valueOfLand": 39500,
+      "valueOfParcel": 125000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 TAFT RD",
@@ -36071,7 +38606,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7938724106085081
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110600,
+      "valueOfLand": 39400,
+      "valueOfParcel": 150000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 TAFT RD",
@@ -36118,7 +38658,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7855035146377702
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100400,
+      "valueOfLand": 39300,
+      "valueOfParcel": 139700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "631 PRESIDENTIAL DR",
@@ -36165,7 +38710,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7714039452589815
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 140400,
+      "valueOfLand": 38600,
+      "valueOfParcel": 179000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "55 TAFT RD",
@@ -36216,7 +38766,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7747222827103053
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99000,
+      "valueOfLand": 51300,
+      "valueOfParcel": 150300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "188 ASHUELOT DR",
@@ -36263,7 +38818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7553991346302368
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 109500,
+      "valueOfLand": 39200,
+      "valueOfParcel": 148700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "623 PRESIDENTIAL DR",
@@ -36314,7 +38874,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7938680118768295
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 61600,
+      "valueOfLand": 38500,
+      "valueOfParcel": 100100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "29 HAYES RD",
@@ -36365,7 +38930,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.740442078505063
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 104000,
+      "valueOfLand": 38800,
+      "valueOfParcel": 142800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "67 HAYES RD",
@@ -36436,7 +39006,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5407288707475387
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 237600,
+      "valueOfLand": 41400,
+      "valueOfParcel": 279000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "50 HARDING RD",
@@ -36487,7 +39062,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7911832230717676
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 112800,
+      "valueOfLand": 38700,
+      "valueOfParcel": 151500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "47 HARDING RD",
@@ -36534,7 +39114,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7835722577236461
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 114400,
+      "valueOfLand": 39300,
+      "valueOfParcel": 153700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "108 ASHUELOT DR",
@@ -36581,7 +39166,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7098875528681479
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 128000,
+      "valueOfLand": 39300,
+      "valueOfParcel": 167300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "96 ASHUELOT DR",
@@ -36640,7 +39230,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6534329778390858
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 51600,
+      "valueOfLand": 40400,
+      "valueOfParcel": 92000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "36 ASHUELOT DR",
@@ -36691,7 +39286,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7751385494984336
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129700,
+      "valueOfLand": 45800,
+      "valueOfParcel": 175500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "10 ASHUELOT DR",
@@ -36746,7 +39346,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7909408589049022
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 104800,
+      "valueOfLand": 47700,
+      "valueOfParcel": 152500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 MCKINLEY DR",
@@ -36797,7 +39402,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6451915217153129
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80300,
+      "valueOfLand": 43800,
+      "valueOfParcel": 124100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "72 MCKINLEY DR",
@@ -36860,7 +39470,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7798320609447591
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 135700,
+      "valueOfLand": 40800,
+      "valueOfParcel": 176500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 MCKINLEY DR",
@@ -36927,7 +39542,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7201180378315337
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116200,
+      "valueOfLand": 41400,
+      "valueOfParcel": 157600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "28 MCKINLEY DR",
@@ -36978,7 +39598,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7969980912792182
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 149300,
+      "valueOfLand": 39400,
+      "valueOfParcel": 188700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "98 ADAMS DR",
@@ -37037,7 +39662,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7378291446429688
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115100,
+      "valueOfLand": 37500,
+      "valueOfParcel": 152600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "126 ADAMS DR",
@@ -37096,7 +39726,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6780738662394662
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10000,
+      "valueOfParcel": 10000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 MCKINLEY DR",
@@ -37143,7 +39778,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6827574222065105
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 155300,
+      "valueOfLand": 39800,
+      "valueOfParcel": 195100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 MONROE CIR",
@@ -37194,7 +39834,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6965735091427617
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110300,
+      "valueOfLand": 39400,
+      "valueOfParcel": 149700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "31 MONROE CIR",
@@ -37249,7 +39894,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7575773214572121
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137800,
+      "valueOfLand": 39100,
+      "valueOfParcel": 176900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 LINCOLN DR",
@@ -37308,7 +39958,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.809857654530138
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 152300,
+      "valueOfLand": 39300,
+      "valueOfParcel": 191600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "111 LINCOLN DR",
@@ -37367,7 +40022,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5681533316090482
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129600,
+      "valueOfLand": 36800,
+      "valueOfParcel": 166400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "141 LINCOLN DR",
@@ -37426,7 +40086,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7385524739245152
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119800,
+      "valueOfLand": 41500,
+      "valueOfParcel": 161300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "207 LINCOLN DR",
@@ -37477,7 +40142,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7171322783484966
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116100,
+      "valueOfLand": 35500,
+      "valueOfParcel": 151600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "219 LINCOLN DR",
@@ -37528,7 +40198,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7745903275719207
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 144200,
+      "valueOfLand": 35500,
+      "valueOfParcel": 179700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "232 LINCOLN DR",
@@ -37579,7 +40254,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6845768877010968
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151700,
+      "valueOfLand": 37300,
+      "valueOfParcel": 189000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "210 LINCOLN DR",
@@ -37630,7 +40310,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7604842227912847
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 124700,
+      "valueOfLand": 33400,
+      "valueOfParcel": 158100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "152 LINCOLN DR",
@@ -37677,7 +40362,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7866936402211017
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147500,
+      "valueOfLand": 39200,
+      "valueOfParcel": 186700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "132 LINCOLN DR",
@@ -37728,7 +40418,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8024100494305706
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118000,
+      "valueOfLand": 37200,
+      "valueOfParcel": 155200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 LINCOLN DR",
@@ -37779,7 +40474,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7282019673602309
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 82300,
+      "valueOfLand": 35500,
+      "valueOfParcel": 117800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "76 LINCOLN DR",
@@ -37826,7 +40526,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7280035367564882
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80400,
+      "valueOfLand": 43600,
+      "valueOfParcel": 124000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 LINCOLN DR",
@@ -37877,7 +40582,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7586395552063422
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 74100,
+      "valueOfLand": 43300,
+      "valueOfParcel": 117400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 LINCOLN DR",
@@ -37952,7 +40662,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7315902505437253
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 87800,
+      "valueOfLand": 42200,
+      "valueOfParcel": 130000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 CLEVELAND CIR",
@@ -38007,7 +40722,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.706635294100894
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95200,
+      "valueOfLand": 35400,
+      "valueOfParcel": 130600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "24 CLEVELAND CIR",
@@ -38062,7 +40782,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6302051805825198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 140000,
+      "valueOfLand": 36500,
+      "valueOfParcel": 176500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "399 PRESIDENTIAL DR",
@@ -38109,7 +40834,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7763465384389556
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118300,
+      "valueOfLand": 40000,
+      "valueOfParcel": 158300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "25 JACKSON DR",
@@ -38168,7 +40898,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6406179786577746
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119100,
+      "valueOfLand": 39000,
+      "valueOfParcel": 158100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "59 JACKSON DR",
@@ -38223,7 +40958,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8007247463515224
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116600,
+      "valueOfLand": 39000,
+      "valueOfParcel": 155600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "83 JACKSON DR",
@@ -38274,7 +41014,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7746445127410359
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143500,
+      "valueOfLand": 39500,
+      "valueOfParcel": 183000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "139 JACKSON DR",
@@ -38325,7 +41070,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7381299947802603
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 131600,
+      "valueOfLand": 39000,
+      "valueOfParcel": 170600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "353 PRESIDENTIAL DR",
@@ -38400,7 +41150,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6533382764862806
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 169700,
+      "valueOfLand": 43400,
+      "valueOfParcel": 213100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "390 PRESIDENTIAL DR",
@@ -38451,7 +41206,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7706655204791227
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 73600,
+      "valueOfLand": 41600,
+      "valueOfParcel": 115200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 COOLIDGE DR",
@@ -38514,7 +41274,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7674455791366139
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110100,
+      "valueOfLand": 40600,
+      "valueOfParcel": 150700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "80 COOLIDGE DR",
@@ -38565,7 +41330,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7606064844214414
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 97300,
+      "valueOfLand": 40700,
+      "valueOfParcel": 138000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "110 COOLIDGE DR",
@@ -38624,7 +41394,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7341424310883093
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137700,
+      "valueOfLand": 40900,
+      "valueOfParcel": 178600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "170 COOLIDGE DR",
@@ -38687,7 +41462,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7455086862166437
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 38900,
+      "valueOfLand": 40200,
+      "valueOfParcel": 79100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "216 COOLIDGE DR",
@@ -38750,7 +41530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6632172968171438
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 51000,
+      "valueOfLand": 35500,
+      "valueOfParcel": 86500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "290 COOLIDGE DR",
@@ -38797,7 +41582,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6330520123894596
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 177500,
+      "valueOfLand": 40400,
+      "valueOfParcel": 217900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "306 COOLIDGE DR",
@@ -38852,7 +41642,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6523334419512362
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 147400,
+      "valueOfLand": 41200,
+      "valueOfParcel": 188600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "328 COOLIDGE DR",
@@ -38899,7 +41694,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6339264457397727
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 150300,
+      "valueOfLand": 42900,
+      "valueOfParcel": 193200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "20 STOWELL RD",
@@ -38958,7 +41758,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7868283356389044
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129800,
+      "valueOfLand": 42600,
+      "valueOfParcel": 172400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "27 COOLIDGE DR",
@@ -39013,7 +41818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6606772038399863
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 127900,
+      "valueOfLand": 40900,
+      "valueOfParcel": 168800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "53 COOLIDGE DR",
@@ -39068,7 +41878,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7358244467170794
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 166900,
+      "valueOfLand": 40700,
+      "valueOfParcel": 207600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "103 COOLIDGE DR",
@@ -39123,7 +41938,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.651797691479391
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 127200,
+      "valueOfLand": 40700,
+      "valueOfParcel": 167900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "47 BUCHANAN CIR",
@@ -39182,7 +42002,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7233275904612831
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 170100,
+      "valueOfLand": 41000,
+      "valueOfParcel": 211100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "500 COOLIDGE DR",
@@ -39273,7 +42098,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6952269394576227
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 187400,
+      "valueOfLand": 41300,
+      "valueOfParcel": 228700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 STOWELL RD",
@@ -39340,7 +42170,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6959551021355788
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 142600,
+      "valueOfLand": 41800,
+      "valueOfParcel": 184400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 COOLIDGE DR",
@@ -39391,7 +42226,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7022231802838916
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 190100,
+      "valueOfLand": 42500,
+      "valueOfParcel": 232600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "74 BUCHANAN CIR",
@@ -39466,7 +42306,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7784727055656677
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 167000,
+      "valueOfLand": 44800,
+      "valueOfParcel": 211800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "67 LANG RD",
@@ -39533,7 +42378,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46884474332838155
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 174000,
+      "valueOfLand": 131834,
+      "valueOfParcel": 305834,
+      "yearOfCAMA": 2020
     },
     {
       "address": "223 VALLEY RD",
@@ -39584,7 +42434,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7227319079606382
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 63,
+      "valueOfParcel": 63,
+      "yearOfCAMA": 2020
     },
     {
       "address": "231 VALLEY RD",
@@ -39679,7 +42534,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45089360107135784
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 221600,
+      "valueOfLand": 49299,
+      "valueOfParcel": 270899,
+      "yearOfCAMA": 2020
     },
     {
       "address": "393 VALLEY RD",
@@ -39730,7 +42590,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7724599122422562
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 58900,
+      "valueOfLand": 33800,
+      "valueOfParcel": 92700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "649 VALLEY RD",
@@ -39841,7 +42706,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.661936918692811
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151300,
+      "valueOfLand": 88671,
+      "valueOfParcel": 239971,
+      "yearOfCAMA": 2020
     },
     {
       "address": "719 VALLEY RD",
@@ -39904,7 +42774,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3671170109281897
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 48900,
+      "valueOfLand": 38300,
+      "valueOfParcel": 87200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "737 VALLEY RD",
@@ -39963,7 +42838,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.363240830225643
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 38600,
+      "valueOfLand": 40300,
+      "valueOfParcel": 78900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "791 VALLEY RD",
@@ -40022,7 +42902,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3773120796336824
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88600,
+      "valueOfLand": 42300,
+      "valueOfParcel": 130900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "811 VALLEY RD",
@@ -40217,7 +43102,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.32609582995296227
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 142500,
+      "valueOfLand": 42470,
+      "valueOfParcel": 184970,
+      "yearOfCAMA": 2020
     },
     {
       "address": "813 VALLEY RD",
@@ -40376,7 +43266,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.333105694414132
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 131900,
+      "valueOfLand": 39674,
+      "valueOfParcel": 171574,
+      "yearOfCAMA": 2020
     },
     {
       "address": "893 VALLEY RD",
@@ -40423,7 +43318,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39730630951915524
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 15000,
+      "valueOfLand": 42300,
+      "valueOfParcel": 57300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "935 VALLEY RD",
@@ -40474,7 +43374,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.392292124313552
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 158100,
+      "valueOfLand": 67300,
+      "valueOfParcel": 225400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "973 VALLEY RD",
@@ -40529,7 +43434,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3608323384184002
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 3200,
+      "valueOfLand": 34200,
+      "valueOfParcel": 37400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1025 VALLEY RD",
@@ -40588,7 +43498,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.392509342193884
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 159100,
+      "valueOfLand": 42300,
+      "valueOfParcel": 201400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1040 VALLEY RD",
@@ -40651,7 +43566,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.551864035746617
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115100,
+      "valueOfLand": 50500,
+      "valueOfParcel": 165600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "776 VALLEY RD",
@@ -40706,7 +43626,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.27370883602885
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 107200,
+      "valueOfLand": 41500,
+      "valueOfParcel": 148700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "658 VALLEY RD",
@@ -40829,7 +43754,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.488361130117972
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 69400,
+      "valueOfLand": 37919,
+      "valueOfParcel": 107319,
+      "yearOfCAMA": 2020
     },
     {
       "address": "494 VALLEY RD",
@@ -40884,7 +43814,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5043710762459805
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 46000,
+      "valueOfLand": 31800,
+      "valueOfParcel": 77800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "524 VALLEY RD",
@@ -40947,7 +43882,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5425252938888852
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 38300,
+      "valueOfParcel": 38300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "511 FAXON HILL RD",
@@ -41038,7 +43978,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5661006139452051
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 196000,
+      "valueOfLand": 34877,
+      "valueOfParcel": 230877,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1035 FAXON HILL RD",
@@ -41089,7 +44034,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5315621115271335
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84700,
+      "valueOfLand": 47500,
+      "valueOfParcel": 132200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1124 FAXON HILL RD",
@@ -41180,7 +44130,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5979819763486892
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 126800,
+      "valueOfLand": 168500,
+      "valueOfParcel": 295300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1040 FAXON HILL RD",
@@ -41319,7 +44274,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5677704113525109
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 161400,
+      "valueOfLand": 228059,
+      "valueOfParcel": 389459,
+      "yearOfCAMA": 2020
     },
     {
       "address": "968 FAXON HILL RD",
@@ -41378,7 +44338,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5937205140100863
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 112000,
+      "valueOfLand": 42000,
+      "valueOfParcel": 154000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "857 MILLEN POND RD",
@@ -41445,7 +44410,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6012783662430251
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 132700,
+      "valueOfLand": 213700,
+      "valueOfParcel": 346400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "919 MILLEN POND RD",
@@ -41516,7 +44486,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39816411773811583
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 56900,
+      "valueOfLand": 217900,
+      "valueOfParcel": 274800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1035 MILLEN POND RD",
@@ -41579,7 +44554,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7618610207684051
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 141500,
+      "valueOfLand": 140300,
+      "valueOfParcel": 281800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1244 FAXON HILL RD",
@@ -41638,7 +44618,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7439027735076781
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 132500,
+      "valueOfLand": 161000,
+      "valueOfParcel": 293500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "164 PRESIDENTIAL DR",
@@ -41721,7 +44706,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6481089898801711
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88800,
+      "valueOfLand": 48000,
+      "valueOfParcel": 136800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 PRESIDENTIAL DR",
@@ -41796,7 +44786,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6133594092424711
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116000,
+      "valueOfLand": 46600,
+      "valueOfParcel": 162600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "8 FARNSWORTH HILL RD",
@@ -41956,7 +44951,12 @@ export const LANDGRID = {
         0.5026156207069606,
         0.5549931554697716
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 146100,
+      "valueOfLand": 178284,
+      "valueOfParcel": 324384,
+      "yearOfCAMA": 2020
     },
     {
       "address": "836 MILLEN POND RD",
@@ -42019,7 +45019,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5087724382806423
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129100,
+      "valueOfLand": 132300,
+      "valueOfParcel": 261400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "818 MILLEN POND RD",
@@ -42082,7 +45087,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5293672676695201
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 150300,
+      "valueOfLand": 61300,
+      "valueOfParcel": 211600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "798 MILLEN POND RD",
@@ -42162,7 +45172,12 @@ export const LANDGRID = {
         0.6396545205812743,
         0.6531882099234099
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75500,
+      "valueOfLand": 44400,
+      "valueOfParcel": 119900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "768 MILLEN POND RD",
@@ -42225,7 +45240,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.631781175994841
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 114600,
+      "valueOfLand": 45100,
+      "valueOfParcel": 159700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1478 S MAIN ST",
@@ -42272,7 +45292,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.38747689676525215
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 148400,
+      "valueOfLand": 49600,
+      "valueOfParcel": 198000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "738 MILLEN POND RD",
@@ -42331,7 +45356,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7997465194961837
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 126800,
+      "valueOfLand": 58500,
+      "valueOfParcel": 185300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "102 FARNSWORTH HILL RD",
@@ -42378,7 +45408,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7458419395957464
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 60800,
+      "valueOfLand": 32100,
+      "valueOfParcel": 92900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "262 PRESIDENTIAL DR",
@@ -42429,7 +45464,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7275327724989055
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 124700,
+      "valueOfLand": 40700,
+      "valueOfParcel": 165400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "286 PRESIDENTIAL DR",
@@ -42500,7 +45540,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.768812176973151
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11800,
+      "valueOfParcel": 11800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "27 ADAMS DR",
@@ -42563,7 +45608,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7125962727863189
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 74400,
+      "valueOfLand": 39000,
+      "valueOfParcel": 113400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "37 ADAMS DR",
@@ -42626,7 +45676,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7877151815425978
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80400,
+      "valueOfLand": 37100,
+      "valueOfParcel": 117500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "135 ADAMS DR",
@@ -42717,7 +45772,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6181683450998223
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133800,
+      "valueOfLand": 42400,
+      "valueOfParcel": 176200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "245 ADAMS DR",
@@ -42928,7 +45988,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.396392119586307
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 153400,
+      "valueOfLand": 46000,
+      "valueOfParcel": 199400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "250 ADAMS DR",
@@ -42983,7 +46048,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5489806886218371
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 178400,
+      "valueOfLand": 39000,
+      "valueOfParcel": 217400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "224 ADAMS DR",
@@ -43050,7 +46120,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8165109630301999
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 201200,
+      "valueOfLand": 41300,
+      "valueOfParcel": 242500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "196 ADAMS DR",
@@ -43097,7 +46172,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7162114220827651
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118000,
+      "valueOfLand": 35100,
+      "valueOfParcel": 153100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "182 ADAMS DR",
@@ -43152,7 +46232,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7602234453911643
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 98500,
+      "valueOfLand": 39200,
+      "valueOfParcel": 137700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "707 VALLEY RD",
@@ -43199,7 +46284,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6353238686580814
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 11100,
+      "valueOfLand": 28900,
+      "valueOfParcel": 40000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "193 VALLEY RD",
@@ -43286,7 +46376,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3230046289678358
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 91800,
+      "valueOfLand": 38000,
+      "valueOfParcel": 129800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "434 S MAIN ST",
@@ -43437,7 +46532,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5201709127014053
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 160900,
+      "valueOfLand": 38915,
+      "valueOfParcel": 199815,
+      "yearOfCAMA": 2020
     },
     {
       "address": "254 HIGHLAND HAVEN RD",
@@ -43512,7 +46612,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6705533205320836
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 131300,
+      "valueOfLand": 34507,
+      "valueOfParcel": 165807,
+      "yearOfCAMA": 2020
     },
     {
       "address": "324 HIGHLAND HAVEN RD",
@@ -43595,7 +46700,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5937532868576757
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 178300,
+      "valueOfLand": 35780,
+      "valueOfParcel": 214080,
+      "yearOfCAMA": 2020
     },
     {
       "address": "85 POINT RD",
@@ -43674,7 +46784,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6001707664128413
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 67500,
+      "valueOfLand": 206300,
+      "valueOfParcel": 273800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "67 POINT RD",
@@ -43741,7 +46856,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6803184128125759
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 190900,
+      "valueOfLand": 210000,
+      "valueOfParcel": 400900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "43 POINT RD",
@@ -43844,7 +46964,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7403928951747399
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 157400,
+      "valueOfLand": 224300,
+      "valueOfParcel": 381700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4786 E WASHINGTON RD",
@@ -43903,7 +47028,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5095042065978456
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 177600,
+      "valueOfLand": 46100,
+      "valueOfParcel": 223700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "552 HIGHLAND HAVEN RD",
@@ -43982,7 +47112,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6329843084447927
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 71300,
+      "valueOfLand": 162900,
+      "valueOfParcel": 234200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "588 HIGHLAND HAVEN RD",
@@ -44033,7 +47168,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6770702393119233
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 61100,
+      "valueOfLand": 151500,
+      "valueOfParcel": 212600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "604 HIGHLAND HAVEN RD",
@@ -44088,7 +47228,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7436626830992799
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 104600,
+      "valueOfLand": 170300,
+      "valueOfParcel": 274900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4 MAPLE WAY",
@@ -44147,7 +47292,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8107012901008822
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 51300,
+      "valueOfLand": 39000,
+      "valueOfParcel": 90300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "557 HIGHLAND HAVEN RD",
@@ -44194,7 +47344,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7349821242385947
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 53800,
+      "valueOfLand": 43800,
+      "valueOfParcel": 97600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "501 HIGHLAND HAVEN RD",
@@ -44241,7 +47396,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7433469012654007
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 107200,
+      "valueOfLand": 36700,
+      "valueOfParcel": 143900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "447 HIGHLAND HAVEN RD",
@@ -44288,7 +47448,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7759430265444769
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99700,
+      "valueOfLand": 35200,
+      "valueOfParcel": 134900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "439 HIGHLAND HAVEN RD",
@@ -44335,7 +47500,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.687587561923332
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 62300,
+      "valueOfLand": 33300,
+      "valueOfParcel": 95600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "101 POINT RD",
@@ -44406,7 +47576,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5735627519947415
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 42100,
+      "valueOfLand": 161500,
+      "valueOfParcel": 203600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "494 HIGHLAND HAVEN RD",
@@ -44457,7 +47632,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5764182982876161
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 197700,
+      "valueOfLand": 38700,
+      "valueOfParcel": 236400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "512 HIGHLAND HAVEN RD",
@@ -44508,7 +47688,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.621098601776337
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 108000,
+      "valueOfLand": 37800,
+      "valueOfParcel": 145800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1158 S MAIN ST",
@@ -44635,7 +47820,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5463863188596353
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134500,
+      "valueOfLand": 45473,
+      "valueOfParcel": 179973,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1388 S MAIN ST",
@@ -44714,7 +47904,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7267690519848234
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 135600,
+      "valueOfLand": 65300,
+      "valueOfParcel": 200900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3859 E WASHINGTON RD",
@@ -44797,7 +47992,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7301165895631694
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 94700,
+      "valueOfLand": 37532,
+      "valueOfParcel": 132232,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4627 E WASHINGTON RD",
@@ -44916,7 +48116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6020106204229158
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 163,
+      "valueOfParcel": 163,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1107 S MAIN ST",
@@ -45067,7 +48272,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6739676621146966
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 213100,
+      "valueOfLand": 85962,
+      "valueOfParcel": 299062,
+      "yearOfCAMA": 2020
     },
     {
       "address": "132 WASHINGTON DR",
@@ -45122,7 +48332,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31435887035307286
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84100,
+      "valueOfLand": 44700,
+      "valueOfParcel": 128800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "479 S MAIN ST",
@@ -45205,7 +48420,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6513756635934721
       ],
-      "usage": "58"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "58",
+      "valueOfImprovement": 52600,
+      "valueOfLand": 78500,
+      "valueOfParcel": 131100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "60 MILL ST",
@@ -45256,7 +48476,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4604834958893708
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101200,
+      "valueOfLand": 41300,
+      "valueOfParcel": 142500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4812 E WASHINGTON RD",
@@ -45303,7 +48528,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4659082127266287
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 22500,
+      "valueOfLand": 46600,
+      "valueOfParcel": 69100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4610 E WASHINGTON RD",
@@ -45442,7 +48672,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.461666695264681
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 138700,
+      "valueOfLand": 40100,
+      "valueOfParcel": 178800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4550 E WASHINGTON RD",
@@ -45569,7 +48804,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6056293096937847
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "33",
+      "valueOfImprovement": 80600,
+      "valueOfLand": 36900,
+      "valueOfParcel": 117500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 ISLAND POND RD",
@@ -45700,7 +48940,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6842400625709951
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 102900,
+      "valueOfLand": 55500,
+      "valueOfParcel": 158400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "92 WASHINGTON DR",
@@ -45751,7 +48996,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3316752957019749
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 69400,
+      "valueOfLand": 43800,
+      "valueOfParcel": 113200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 WASHINGTON DR",
@@ -45810,7 +49060,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5913279118232346
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 234700,
+      "valueOfLand": 43400,
+      "valueOfParcel": 278100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4210 E WASHINGTON RD",
@@ -45861,7 +49116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26584812688121395
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 178500,
+      "valueOfLand": 41200,
+      "valueOfParcel": 219700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4126 E WASHINGTON RD",
@@ -45912,7 +49172,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3026519682494695
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101300,
+      "valueOfLand": 43800,
+      "valueOfParcel": 145100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4070 E WASHINGTON RD",
@@ -45971,7 +49236,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.34897130004416577
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 49500,
+      "valueOfLand": 44000,
+      "valueOfParcel": 93500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3912 E WASHINGTON RD",
@@ -46018,7 +49288,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3388551554085636
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118800,
+      "valueOfLand": 43200,
+      "valueOfParcel": 162000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3824 E WASHINGTON RD",
@@ -46081,7 +49356,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.28576524600110287
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 115500,
+      "valueOfLand": 44700,
+      "valueOfParcel": 160200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3756 E WASHINGTON RD",
@@ -46156,7 +49436,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3709846192311013
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133700,
+      "valueOfLand": 42200,
+      "valueOfParcel": 175900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1514 S MAIN ST",
@@ -46203,7 +49488,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41919825284111584
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 45900,
+      "valueOfLand": 50400,
+      "valueOfParcel": 96300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "381 HIGHLAND HAVEN RD",
@@ -46286,7 +49576,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8059575717058954
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 162400,
+      "valueOfLand": 42000,
+      "valueOfParcel": 204400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 BEAVER BROOK RD",
@@ -46381,7 +49676,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.75429244490963
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 156600,
+      "valueOfLand": 48400,
+      "valueOfParcel": 205000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "608 HIGHLAND HAVEN RD",
@@ -46436,7 +49736,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7608571185414413
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 203700,
+      "valueOfLand": 170000,
+      "valueOfParcel": 373700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1516 S MAIN ST",
@@ -46491,7 +49796,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4189798540350404
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 23400,
+      "valueOfLand": 48900,
+      "valueOfParcel": 72300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1480 S MAIN ST",
@@ -46538,7 +49848,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33698212985126197
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 40400,
+      "valueOfLand": 48800,
+      "valueOfParcel": 89200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "27 BEAVER BROOK RD",
@@ -46601,7 +49916,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4943158425230967
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 111000,
+      "valueOfLand": 44300,
+      "valueOfParcel": 155300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 BEAVER BROOK RD",
@@ -46672,7 +49992,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29750333550926344
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 63700,
+      "valueOfLand": 51000,
+      "valueOfParcel": 114700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "289 SMITH POND RD",
@@ -46791,7 +50116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4357559293102792
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 351100,
+      "valueOfLand": 42632,
+      "valueOfParcel": 393732,
+      "yearOfCAMA": 2020
     },
     {
       "address": "269 SMITH POND RD",
@@ -46838,7 +50168,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6760402375340223
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134400,
+      "valueOfLand": 42000,
+      "valueOfParcel": 176400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "241 SMITH POND RD",
@@ -46909,7 +50244,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.400192773901024
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 127600,
+      "valueOfLand": 42500,
+      "valueOfParcel": 170100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "181 SMITH POND RD",
@@ -46972,7 +50312,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4538556229806663
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143800,
+      "valueOfLand": 34205,
+      "valueOfParcel": 178005,
+      "yearOfCAMA": 2020
     },
     {
       "address": "256 SMITH POND RD",
@@ -47044,7 +50389,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7761966766985735
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 138700,
+      "valueOfLand": 61000,
+      "valueOfParcel": 199700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "302 SMITH POND RD",
@@ -47099,7 +50449,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6270456703412802
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 158700,
+      "valueOfLand": 32200,
+      "valueOfParcel": 190900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "107 WILD ACRE DR",
@@ -47166,7 +50521,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6669817421988629
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151300,
+      "valueOfLand": 139600,
+      "valueOfParcel": 290900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "77 WILD ACRE DR",
@@ -47270,7 +50630,12 @@ export const LANDGRID = {
         0.6267860601987365,
         0.6897209630458833
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 159200,
+      "valueOfLand": 120500,
+      "valueOfParcel": 279700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 WILD ACRE DR",
@@ -47325,7 +50690,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5660770988719281
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 41700,
+      "valueOfLand": 40800,
+      "valueOfParcel": 82500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 WILD ACRE DR",
@@ -47414,7 +50784,12 @@ export const LANDGRID = {
         0.7887900127276846,
         0.7843318385407612
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 129600,
+      "valueOfLand": 104300,
+      "valueOfParcel": 233900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "158 WILD ACRE DR",
@@ -47511,7 +50886,12 @@ export const LANDGRID = {
         0.7396539328735089,
         0.7516250012591018
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 123500,
+      "valueOfLand": 119400,
+      "valueOfParcel": 242900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "168 WILD ACRE DR",
@@ -47620,7 +51000,12 @@ export const LANDGRID = {
         0.7526593040900316,
         0.6832085108118974
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108500,
+      "valueOfLand": 104500,
+      "valueOfParcel": 213000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "223 WILD ACRE DR",
@@ -47679,7 +51064,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5230640984622297
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 172400,
+      "valueOfLand": 139200,
+      "valueOfParcel": 311600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "202 N MAIN ST",
@@ -47726,7 +51116,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6000557965700086
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137500,
+      "valueOfLand": 42000,
+      "valueOfParcel": 179500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "361 SMITH POND RD",
@@ -47877,7 +51272,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5839319206663954
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 243400,
+      "valueOfLand": 139652,
+      "valueOfParcel": 383052,
+      "yearOfCAMA": 2020
     },
     {
       "address": "58 WILD ACRE DR",
@@ -48009,7 +51409,12 @@ export const LANDGRID = {
         0.6487453173833903,
         0.26691091209950246
       ],
-      "usage": "12"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "12",
+      "valueOfImprovement": 139300,
+      "valueOfLand": 33958,
+      "valueOfParcel": 173258,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1137 VALLEY RD",
@@ -48076,7 +51481,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6494771280505409
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84300,
+      "valueOfLand": 46500,
+      "valueOfParcel": 130800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "160 DOLE SCHOOL HOUSE RD",
@@ -48131,7 +51541,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6057677686780949
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 7900,
+      "valueOfLand": 22400,
+      "valueOfParcel": 30300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "212 BEAVER BROOK RD",
@@ -48214,7 +51629,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48517010838830843
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 212700,
+      "valueOfLand": 100900,
+      "valueOfParcel": 313600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "211 BEAVER BROOK RD",
@@ -48293,7 +51713,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3723043044703168
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 114400,
+      "valueOfLand": 50000,
+      "valueOfParcel": 164400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "642 HIGHLAND HAVEN RD",
@@ -48372,7 +51797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8001548184107558
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 127400,
+      "valueOfLand": 183100,
+      "valueOfParcel": 310500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "656 HIGHLAND HAVEN RD",
@@ -48427,7 +51857,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.65073306054899
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 162400,
+      "valueOfLand": 170500,
+      "valueOfParcel": 332900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "664 HIGHLAND HAVEN RD",
@@ -48482,7 +51917,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6221231362963189
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 70500,
+      "valueOfLand": 157000,
+      "valueOfParcel": 227500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "672 HIGHLAND HAVEN RD",
@@ -48537,7 +51977,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6447036177234163
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 117500,
+      "valueOfLand": 161000,
+      "valueOfParcel": 278500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "696 HIGHLAND HAVEN RD",
@@ -48596,7 +52041,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5984690770938619
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 45700,
+      "valueOfLand": 171000,
+      "valueOfParcel": 216700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "236 DOLE SCHOOL HOUSE RD",
@@ -48663,7 +52113,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49037234156405085
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119300,
+      "valueOfLand": 38600,
+      "valueOfParcel": 157900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "130 N MAIN ST",
@@ -48718,7 +52173,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6742227301187711
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 223300,
+      "valueOfLand": 37800,
+      "valueOfParcel": 261100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "68 BEAVER BROOK RD",
@@ -48797,7 +52257,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5441129022543653
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 111100,
+      "valueOfLand": 40100,
+      "valueOfParcel": 151200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "130 BEAVER BROOK RD",
@@ -48868,7 +52333,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.540209439065369
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 223900,
+      "valueOfLand": 159000,
+      "valueOfParcel": 382900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "158 BEAVER BROOK RD",
@@ -48939,7 +52409,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5310127474184783
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 256700,
+      "valueOfLand": 186900,
+      "valueOfParcel": 443600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "198 BEAVER BROOK RD",
@@ -49006,7 +52481,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6314095262701744
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108700,
+      "valueOfLand": 162000,
+      "valueOfParcel": 270700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "141 BEAVER BROOK RD",
@@ -49081,7 +52561,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3083874194841509
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 276000,
+      "valueOfLand": 51200,
+      "valueOfParcel": 327200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 BEAVER BROOK RD",
@@ -49148,7 +52633,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.262949768704132
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143700,
+      "valueOfLand": 47300,
+      "valueOfParcel": 191000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "564 DOLE SCHOOL HOUSE RD",
@@ -49255,7 +52745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6750061592122942
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 140000,
+      "valueOfLand": 36724,
+      "valueOfParcel": 176724,
+      "yearOfCAMA": 2020
     },
     {
       "address": "88 HALFMOON POND RD",
@@ -49302,7 +52797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.730437559067141
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 68400,
+      "valueOfLand": 16200,
+      "valueOfParcel": 84600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "422 DOLE SCHOOL HOUSE RD",
@@ -49402,7 +52902,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2826123831143071
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86500,
+      "valueOfLand": 33600,
+      "valueOfParcel": 120100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "536 DOLE SCHOOL HOUSE RD",
@@ -49453,7 +52958,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43087185521390414
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 168900,
+      "valueOfLand": 33717,
+      "valueOfParcel": 202617,
+      "yearOfCAMA": 2020
     },
     {
       "address": "485 DOLE SCHOOL HOUSE RD",
@@ -49532,7 +53042,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4285792042993443
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116100,
+      "valueOfLand": 35540,
+      "valueOfParcel": 151640,
+      "yearOfCAMA": 2020
     },
     {
       "address": "476 DOLE SCHOOL HOUSE RD",
@@ -49587,7 +53102,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31473724837011985
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 144400,
+      "valueOfLand": 36700,
+      "valueOfParcel": 181100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "492 DOLE SCHOOL HOUSE RD",
@@ -49646,7 +53166,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2585735493547076
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 39200,
+      "valueOfLand": 33100,
+      "valueOfParcel": 72300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "506 DOLE SCHOOL HOUSE RD",
@@ -49697,7 +53222,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.23932937472964547
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 136800,
+      "valueOfLand": 49600,
+      "valueOfParcel": 186400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "446 DOLE SCHOOL HOUSE RD",
@@ -49776,7 +53306,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47647654236429093
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 146700,
+      "valueOfLand": 41900,
+      "valueOfParcel": 188600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "280 N MAIN ST",
@@ -49827,7 +53362,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5997671461410607
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 66800,
+      "valueOfLand": 42000,
+      "valueOfParcel": 108800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "32 N MAIN ST",
@@ -49906,7 +53446,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35048056443588044
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 123600,
+      "valueOfLand": 37800,
+      "valueOfParcel": 161400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "26 N MAIN ST",
@@ -49981,7 +53526,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.495984935192594
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 192700,
+      "valueOfLand": 36000,
+      "valueOfParcel": 228700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "7 HALFMOON POND RD",
@@ -50064,7 +53614,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6404760762479568
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 581500,
+      "valueOfLand": 98600,
+      "valueOfParcel": 680100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "85 HALFMOON POND RD",
@@ -50151,7 +53706,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7164508942687767
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 151500,
+      "valueOfLand": 39100,
+      "valueOfParcel": 190600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "95 HALFMOON POND RD",
@@ -50210,7 +53770,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5106693426007068
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 116300,
+      "valueOfLand": 33000,
+      "valueOfParcel": 149300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "101 HALFMOON POND RD",
@@ -50265,7 +53830,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7459191618289106
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88600,
+      "valueOfLand": 34800,
+      "valueOfParcel": 123400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "163 S MAIN ST",
@@ -50360,7 +53930,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4808232418033112
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 180200,
+      "valueOfLand": 52900,
+      "valueOfParcel": 233100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "94 HALFMOON POND RD",
@@ -50407,7 +53982,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7508063371521514
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 33000,
+      "valueOfLand": 15100,
+      "valueOfParcel": 48100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "64 HALFMOON POND RD",
@@ -50470,7 +54050,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5542374306768869
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 92100,
+      "valueOfLand": 35700,
+      "valueOfParcel": 127800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 CROSS RD",
@@ -50517,7 +54102,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6868627930220086
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 63500,
+      "valueOfLand": 25600,
+      "valueOfParcel": 89100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "127 S MAIN ST",
@@ -50572,7 +54162,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.787422330190079
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99400,
+      "valueOfLand": 32800,
+      "valueOfParcel": 132200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "122 S MAIN ST",
@@ -50619,7 +54214,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7774764282004716
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 87200,
+      "valueOfLand": 36800,
+      "valueOfParcel": 124000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 SYMONDS LN",
@@ -50714,7 +54314,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5790195955889671
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 202700,
+      "valueOfLand": 31115,
+      "valueOfParcel": 233815,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 FAXON HILL RD",
@@ -50769,7 +54374,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5295428179427389
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137200,
+      "valueOfLand": 30400,
+      "valueOfParcel": 167600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3 FAXON HILL RD",
@@ -50836,7 +54446,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7287543967562609
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 136600,
+      "valueOfLand": 34500,
+      "valueOfParcel": 171100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "37 SYMONDS LN",
@@ -50919,7 +54534,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5082315106757822
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 92100,
+      "valueOfLand": 33500,
+      "valueOfParcel": 125600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "55 FAXON HILL RD",
@@ -50967,7 +54587,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.28072070751039124
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 79500,
+      "valueOfLand": 31800,
+      "valueOfParcel": 111300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "203 FAXON HILL RD",
@@ -51142,7 +54767,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4132033255199204
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 139100,
+      "valueOfLand": 52725,
+      "valueOfParcel": 191825,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 FAXON HILL RD",
@@ -51205,7 +54835,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6193187930700488
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 73600,
+      "valueOfLand": 29600,
+      "valueOfParcel": 103200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 MILLEN POND RD",
@@ -51268,7 +54903,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5137804383438876
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 110400,
+      "valueOfLand": 43800,
+      "valueOfParcel": 154200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 OLD MARLOW RD",
@@ -51367,7 +55007,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6570988368796938
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133900,
+      "valueOfLand": 36388,
+      "valueOfParcel": 170288,
+      "yearOfCAMA": 2020
     },
     {
       "address": "96 FAXON HILL RD",
@@ -51430,7 +55075,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41031103165052835
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84000,
+      "valueOfLand": 37400,
+      "valueOfParcel": 121400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "32 FAXON HILL RD",
@@ -51481,7 +55131,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7622059451746389
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 113600,
+      "valueOfLand": 30100,
+      "valueOfParcel": 143700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "29 N MAIN ST",
@@ -51548,7 +55203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6641608750629429
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "33",
+      "valueOfImprovement": 276200,
+      "valueOfLand": 52200,
+      "valueOfParcel": 328400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "72 OLD MARLOW RD",
@@ -51607,7 +55267,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7794764858130159
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 213900,
+      "valueOfLand": 50900,
+      "valueOfParcel": 264800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "150 LEMPSTER MOUNTAIN RD",
@@ -51670,7 +55335,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7556225473333567
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 103400,
+      "valueOfLand": 44300,
+      "valueOfParcel": 147700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "80 LEMPSTER MOUNTAIN RD",
@@ -51725,7 +55395,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5902034054090367
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 82700,
+      "valueOfLand": 44500,
+      "valueOfParcel": 127200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "173 N MAIN ST",
@@ -51780,7 +55455,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6211186286500741
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "33",
+      "valueOfImprovement": 138800,
+      "valueOfLand": 85800,
+      "valueOfParcel": 224600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "36 LEMPSTER MOUNTAIN RD",
@@ -51836,7 +55516,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.649343312155514
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 126400,
+      "valueOfLand": 32100,
+      "valueOfParcel": 158500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "28 LEMPSTER MOUNTAIN RD",
@@ -51899,7 +55584,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.60259734083099
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 180500,
+      "valueOfLand": 37800,
+      "valueOfParcel": 218300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 FAXON HILL RD",
@@ -51950,7 +55640,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5386259667309867
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 57700,
+      "valueOfLand": 19800,
+      "valueOfParcel": 77500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "105 BRADFORD SPRINGS RD",
@@ -52001,7 +55696,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.735758902472696
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121000,
+      "valueOfLand": 44600,
+      "valueOfParcel": 165600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "85 BRADFORD SPRINGS RD",
@@ -52048,7 +55748,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7520527869959918
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 161400,
+      "valueOfLand": 44600,
+      "valueOfParcel": 206000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "43 BRADFORD SPRINGS RD",
@@ -52111,7 +55816,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7486395701882809
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121700,
+      "valueOfLand": 47900,
+      "valueOfParcel": 169600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "28 BRADFORD SPRINGS RD",
@@ -52166,7 +55876,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6282628325313708
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 153400,
+      "valueOfLand": 45400,
+      "valueOfParcel": 198800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "34 BRADFORD SPRINGS RD",
@@ -52213,7 +55928,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6337403121784554
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108900,
+      "valueOfLand": 44600,
+      "valueOfParcel": 153500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 BRADFORD SPRINGS RD",
@@ -52260,7 +55980,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7355491885987151
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 193200,
+      "valueOfLand": 43100,
+      "valueOfParcel": 236300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2485 E WASHINGTON RD",
@@ -52307,7 +56032,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47230038263585544
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 145700,
+      "valueOfLand": 41300,
+      "valueOfParcel": 187000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "142 BRADFORD SPRINGS RD",
@@ -52382,7 +56112,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6464382456658899
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 137900,
+      "valueOfLand": 47600,
+      "valueOfParcel": 185500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 OLD HILLSBOROUGH RD",
@@ -52433,7 +56168,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7985040165443537
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 117000,
+      "valueOfLand": 40500,
+      "valueOfParcel": 157500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 OLD HILLSBOROUGH RD",
@@ -52484,7 +56224,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7883265745168082
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 134000,
+      "valueOfLand": 43100,
+      "valueOfParcel": 177100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2232 E WASHINGTON RD",
@@ -52531,7 +56276,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7673969282987778
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 148900,
+      "valueOfLand": 41300,
+      "valueOfParcel": 190200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2230 E WASHINGTON RD",
@@ -52606,7 +56356,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7245352386879093
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 122400,
+      "valueOfLand": 53600,
+      "valueOfParcel": 176000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2234 E WASHINGTON RD",
@@ -52665,7 +56420,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7400055112107661
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 192900,
+      "valueOfLand": 42600,
+      "valueOfParcel": 235500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2184 E WASHINGTON RD",
@@ -52724,7 +56484,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4084940315045054
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 170900,
+      "valueOfLand": 39600,
+      "valueOfParcel": 210500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 OLD HILLSBOROUGH RD",
@@ -52799,7 +56564,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6000734597680737
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 122900,
+      "valueOfLand": 41700,
+      "valueOfParcel": 164600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2146 E WASHINGTON RD",
@@ -52846,7 +56616,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7235625085857694
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 126600,
+      "valueOfLand": 33700,
+      "valueOfParcel": 160300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2128 E WASHINGTON RD",
@@ -52897,7 +56672,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6978601755661561
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 73500,
+      "valueOfLand": 33800,
+      "valueOfParcel": 107300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2114 E WASHINGTON RD",
@@ -52948,7 +56728,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7173466416211715
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121800,
+      "valueOfLand": 24300,
+      "valueOfParcel": 146100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2110 E WASHINGTON RD",
@@ -53007,7 +56792,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5435484764590922
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 270700,
+      "valueOfLand": 43700,
+      "valueOfParcel": 314400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2072 E WASHINGTON RD",
@@ -53070,7 +56860,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6721983081989258
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 37800,
+      "valueOfParcel": 37800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2046 E WASHINGTON RD",
@@ -53121,7 +56916,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40340885837493473
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 143300,
+      "valueOfLand": 42000,
+      "valueOfParcel": 185300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "43 BEAR HILL RD",
@@ -53180,7 +56980,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6117274733571101
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 379100,
+      "valueOfLand": 48500,
+      "valueOfParcel": 427600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 BEAR HILL RD",
@@ -53247,7 +57052,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5272971866353412
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 125800,
+      "valueOfLand": 52100,
+      "valueOfParcel": 177900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 PURLING BECK RD",
@@ -53302,7 +57112,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7420055277921805
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34900,
+      "valueOfParcel": 34900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2093 E WASHINGTON RD",
@@ -53385,7 +57200,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4917082306652521
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 188100,
+      "valueOfLand": 60615,
+      "valueOfParcel": 248715,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 PURLING BECK RD",
@@ -53476,7 +57296,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5711640376155913
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 280100,
+      "valueOfLand": 50900,
+      "valueOfParcel": 331000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 PURLING BECK RD",
@@ -53636,7 +57461,12 @@ export const LANDGRID = {
         0.5906885379427225,
         0.48454602306637434
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 188900,
+      "valueOfLand": 63600,
+      "valueOfParcel": 252500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2291 E WASHINGTON RD",
@@ -53727,7 +57557,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7923414211023778
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 233600,
+      "valueOfLand": 49900,
+      "valueOfParcel": 283500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1234 VALLEY RD",
@@ -53786,7 +57621,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47067250853381287
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "27",
+      "valueOfImprovement": 51200,
+      "valueOfLand": 36600,
+      "valueOfParcel": 87800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2381 E WASHINGTON RD",
@@ -53949,7 +57789,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6720441857078
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 196400,
+      "valueOfLand": 67200,
+      "valueOfParcel": 263600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "146 PURLING BECK RD",
@@ -54080,7 +57925,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5758234765559455
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 59600,
+      "valueOfLand": 74290,
+      "valueOfParcel": 133890,
+      "yearOfCAMA": 2020
     },
     {
       "address": "178 BRADFORD SPRINGS RD",
@@ -54127,7 +57977,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.639464573241047
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 99800,
+      "valueOfLand": 44893,
+      "valueOfParcel": 144693,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2236 E WASHINGTON RD",
@@ -54182,7 +58037,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7920042546356975
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100500,
+      "valueOfLand": 44600,
+      "valueOfParcel": 145100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "143 BEAR HILL RD",
@@ -54233,7 +58093,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5495555651040789
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 97700,
+      "valueOfLand": 51700,
+      "valueOfParcel": 149400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1170 VALLEY RD",
@@ -54352,7 +58217,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5305869485869492
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 56800,
+      "valueOfLand": 43800,
+      "valueOfParcel": 100600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1224 VALLEY RD",
@@ -54419,7 +58289,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6742977882494945
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 26300,
+      "valueOfLand": 40300,
+      "valueOfParcel": 66600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1358 VALLEY RD",
@@ -54478,7 +58353,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7347922555617555
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 34800,
+      "valueOfLand": 25700,
+      "valueOfParcel": 60500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1238 VALLEY RD",
@@ -54541,7 +58421,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6565955870172198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 150000,
+      "valueOfLand": 40800,
+      "valueOfParcel": 190800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1199 VALLEY RD",
@@ -54588,7 +58473,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5760285345771815
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121400,
+      "valueOfLand": 38300,
+      "valueOfParcel": 159700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1207 VALLEY RD",
@@ -54635,7 +58525,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7244051653087576
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 23400,
+      "valueOfLand": 36700,
+      "valueOfParcel": 60100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1219 VALLEY RD",
@@ -54682,7 +58577,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7203107084340881
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 121400,
+      "valueOfLand": 38000,
+      "valueOfParcel": 159400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1243 VALLEY RD",
@@ -54729,7 +58629,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6844119669795138
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 28200,
+      "valueOfParcel": 28200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1278 VALLEY RD",
@@ -54888,7 +58793,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5883919409213874
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 87600,
+      "valueOfLand": 42600,
+      "valueOfParcel": 130200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1292 VALLEY RD",
@@ -54951,7 +58861,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6701385709536312
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 56700,
+      "valueOfLand": 40400,
+      "valueOfParcel": 97100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1362 VALLEY RD",
@@ -54998,7 +58913,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6292799639058567
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13200,
+      "valueOfParcel": 13200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1372 VALLEY RD",
@@ -55061,7 +58981,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7814041946753001
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 102300,
+      "valueOfLand": 37200,
+      "valueOfParcel": 139500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1394 VALLEY RD",
@@ -55108,7 +59033,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7727131695206199
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 57500,
+      "valueOfLand": 36600,
+      "valueOfParcel": 94100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1406 VALLEY RD",
@@ -55155,7 +59085,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6290099227583283
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 50000,
+      "valueOfLand": 30000,
+      "valueOfParcel": 80000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1509 VALLEY RD",
@@ -55206,7 +59141,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7024242946541628
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 47300,
+      "valueOfLand": 35300,
+      "valueOfParcel": 82600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1547 VALLEY RD",
@@ -55261,7 +59201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7799680932187774
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 84400,
+      "valueOfLand": 38100,
+      "valueOfParcel": 122500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1561 VALLEY RD",
@@ -55336,7 +59281,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4557811654075755
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 42200,
+      "valueOfLand": 41400,
+      "valueOfParcel": 83600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "46 LOOKOUT POINT RD",
@@ -55407,7 +59357,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5773721160901271
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 44800,
+      "valueOfLand": 160700,
+      "valueOfParcel": 205500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2120 VALLEY RD",
@@ -55458,7 +59413,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6678692556207529
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 56100,
+      "valueOfLand": 35200,
+      "valueOfParcel": 91300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "38 LOOKOUT POINT RD",
@@ -55505,7 +59465,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6571826319292371
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 59200,
+      "valueOfLand": 158900,
+      "valueOfParcel": 218100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "18 LOOKOUT POINT RD",
@@ -55556,7 +59521,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5444630999556845
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 32400,
+      "valueOfLand": 160200,
+      "valueOfParcel": 192600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1445 VALLEY RD",
@@ -55731,7 +59701,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3206663776702323
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 334400,
+      "valueOfLand": 138500,
+      "valueOfParcel": 472900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "84 LAKEVIEW TER",
@@ -55878,7 +59853,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4009229862403926
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 82100,
+      "valueOfLand": 195000,
+      "valueOfParcel": 277100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1361 VALLEY RD",
@@ -56081,7 +60061,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4106808906391464
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 172000,
+      "valueOfLand": 149000,
+      "valueOfParcel": 321000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1750 VALLEY RD",
@@ -56136,7 +60121,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7985290334689786
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 128600,
+      "valueOfLand": 38300,
+      "valueOfParcel": 166900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 BEECH WAY",
@@ -56211,7 +60201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6985912962418172
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 78500,
+      "valueOfLand": 158700,
+      "valueOfParcel": 237200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 BEECH WAY",
@@ -56274,7 +60269,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5514977035102835
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 27700,
+      "valueOfLand": 157500,
+      "valueOfParcel": 185200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 BEECH WAY",
@@ -56381,7 +60381,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6846273342430778
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 130500,
+      "valueOfLand": 201500,
+      "valueOfParcel": 332000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 BIRCH POINT WAY",
@@ -56504,7 +60509,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5868510327071558
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 146200,
+      "valueOfLand": 247100,
+      "valueOfParcel": 393300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "92 COVE RD",
@@ -56587,7 +60597,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6330591351661451
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 114200,
+      "valueOfLand": 209200,
+      "valueOfParcel": 323400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 COVE RD",
@@ -56638,7 +60653,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6774844708803304
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108100,
+      "valueOfLand": 27000,
+      "valueOfParcel": 135100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "188 COVE RD",
@@ -56705,7 +60725,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7210122759353101
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 98300,
+      "valueOfLand": 180500,
+      "valueOfParcel": 278800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 COVE RD",
@@ -56844,7 +60869,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.641440458478937
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95900,
+      "valueOfLand": 34249,
+      "valueOfParcel": 130149,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1538 VALLEY RD",
@@ -56903,7 +60933,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6736787941134883
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75400,
+      "valueOfLand": 40800,
+      "valueOfParcel": 116200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1548 VALLEY RD",
@@ -56950,7 +60985,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6569426111601573
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 53900,
+      "valueOfLand": 34000,
+      "valueOfParcel": 87900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1578 VALLEY RD",
@@ -57001,7 +61041,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6837209086348008
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 86000,
+      "valueOfLand": 31000,
+      "valueOfParcel": 117000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1600 VALLEY RD",
@@ -57048,7 +61093,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.780012976783513
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 21500,
+      "valueOfLand": 29300,
+      "valueOfParcel": 50800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1700 VALLEY RD",
@@ -57119,7 +61169,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7019337023762228
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119300,
+      "valueOfLand": 40000,
+      "valueOfParcel": 159300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1704 VALLEY RD",
@@ -57178,7 +61233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.702181275787363
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "17",
+      "valueOfImprovement": 47700,
+      "valueOfLand": 37200,
+      "valueOfParcel": 84900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1736 VALLEY RD",
@@ -57241,7 +61301,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5249616116989161
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88800,
+      "valueOfLand": 38500,
+      "valueOfParcel": 127300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1788 VALLEY RD",
@@ -57292,7 +61357,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8130424263710716
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 66000,
+      "valueOfLand": 38600,
+      "valueOfParcel": 104600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1892 VALLEY RD",
@@ -57367,7 +61437,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5463152660624354
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 101700,
+      "valueOfLand": 38500,
+      "valueOfParcel": 140200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2042 VALLEY RD",
@@ -57414,7 +61489,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7658599853834132
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 76800,
+      "valueOfLand": 37900,
+      "valueOfParcel": 114700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2050 VALLEY RD",
@@ -57469,7 +61549,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40143534997503333
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 119900,
+      "valueOfLand": 41600,
+      "valueOfParcel": 161500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2181 VALLEY RD",
@@ -57520,7 +61605,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5112367843233948
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 62800,
+      "valueOfLand": 165600,
+      "valueOfParcel": 228400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2171 VALLEY RD",
@@ -57571,7 +61661,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4765358830188024
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75000,
+      "valueOfLand": 170000,
+      "valueOfParcel": 245000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2163 VALLEY RD",
@@ -57622,7 +61717,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4614056184768124
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120400,
+      "valueOfLand": 173000,
+      "valueOfParcel": 293400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2157 VALLEY RD",
@@ -57701,7 +61801,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6492288441483198
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 61100,
+      "valueOfLand": 186600,
+      "valueOfParcel": 247700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2143 VALLEY RD",
@@ -57788,7 +61893,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5837379745291774
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 109500,
+      "valueOfLand": 195900,
+      "valueOfParcel": 305400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2123 VALLEY RD",
@@ -57887,7 +61997,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6803366322092408
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 69300,
+      "valueOfLand": 222100,
+      "valueOfParcel": 291400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2115 VALLEY RD",
@@ -57962,7 +62077,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5358934798408136
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 57400,
+      "valueOfLand": 144000,
+      "valueOfParcel": 201400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2105 VALLEY RD",
@@ -58013,7 +62133,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.553015532202682
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 60200,
+      "valueOfLand": 142000,
+      "valueOfParcel": 202200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2097 VALLEY RD",
@@ -58076,7 +62201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7486839890259147
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 73500,
+      "valueOfLand": 177300,
+      "valueOfParcel": 250800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2081 VALLEY RD",
@@ -58139,7 +62269,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7645824125807114
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 69400,
+      "valueOfLand": 177100,
+      "valueOfParcel": 246500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2080 VALLEY RD",
@@ -58186,7 +62321,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7597834257695564
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 32600,
+      "valueOfLand": 27900,
+      "valueOfParcel": 60500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2134 VALLEY RD",
@@ -58237,7 +62377,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7686970458375787
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 67100,
+      "valueOfLand": 35900,
+      "valueOfParcel": 103000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "58 HEMLOCK DR",
@@ -58288,7 +62433,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6699466169578355
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 80300,
+      "valueOfLand": 33000,
+      "valueOfParcel": 113300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2154 VALLEY RD",
@@ -58335,7 +62485,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5383004889987942
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 65800,
+      "valueOfLand": 31000,
+      "valueOfParcel": 96800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2041 VALLEY RD",
@@ -58398,7 +62553,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7223982763894747
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 75600,
+      "valueOfLand": 34300,
+      "valueOfParcel": 109900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2005 VALLEY RD",
@@ -58497,7 +62657,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.485880950239055
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 55600,
+      "valueOfLand": 165900,
+      "valueOfParcel": 221500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1993 VALLEY RD",
@@ -58608,7 +62773,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5822727737250435
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 26500,
+      "valueOfLand": 189000,
+      "valueOfParcel": 215500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1949 VALLEY RD",
@@ -58703,7 +62873,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7189376123241886
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 118000,
+      "valueOfLand": 195900,
+      "valueOfParcel": 313900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1927 VALLEY RD",
@@ -58798,7 +62973,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7170115767890762
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 108500,
+      "valueOfLand": 186300,
+      "valueOfParcel": 294800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1821 VALLEY RD",
@@ -58901,7 +63081,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49132255914747125
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 88800,
+      "valueOfLand": 119700,
+      "valueOfParcel": 208500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1795 VALLEY RD",
@@ -58972,7 +63157,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6299396387128446
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 40500,
+      "valueOfLand": 220500,
+      "valueOfParcel": 261000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1787 VALLEY RD",
@@ -59059,7 +63249,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6228697889210646
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 56100,
+      "valueOfLand": 204300,
+      "valueOfParcel": 260400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1773 VALLEY RD",
@@ -59138,7 +63333,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43438259647423694
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 105100,
+      "valueOfLand": 195900,
+      "valueOfParcel": 301000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1747 VALLEY RD",
@@ -59193,7 +63393,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6942372903413812
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 113000,
+      "valueOfLand": 196000,
+      "valueOfParcel": 309000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1705 VALLEY RD",
@@ -59268,7 +63473,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47056635604516533
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 120400,
+      "valueOfLand": 186100,
+      "valueOfParcel": 306500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1703 VALLEY RD",
@@ -59339,7 +63549,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44580956584333414
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 19400,
+      "valueOfLand": 191300,
+      "valueOfParcel": 210700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1681 VALLEY RD",
@@ -59442,7 +63657,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5644891313503814
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "19",
+      "valueOfImprovement": 191200,
+      "valueOfLand": 237600,
+      "valueOfParcel": 428800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1669 VALLEY RD",
@@ -59517,7 +63737,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5136566725396855
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 144700,
+      "valueOfLand": 197400,
+      "valueOfParcel": 342100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 POINT RD",
@@ -59580,7 +63805,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7972861141721104
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100700,
+      "valueOfLand": 192000,
+      "valueOfParcel": 292700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2766 E WASHINGTON RD",
@@ -59711,7 +63941,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5525645639531911
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 335700,
+      "valueOfLand": 72747,
+      "valueOfParcel": 408447,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2766 E WASHINGTON RD",
@@ -59834,7 +64069,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7161400627729516
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 335700,
+      "valueOfLand": 72747,
+      "valueOfParcel": 408447,
+      "yearOfCAMA": 2020
     },
     {
       "address": "521 MILLEN POND RD",
@@ -59889,7 +64129,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5477910638483483
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133000,
+      "valueOfLand": 202900,
+      "valueOfParcel": 335900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "521 MILLEN POND RD",
@@ -59964,7 +64209,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.657166503404106
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 133000,
+      "valueOfLand": 202900,
+      "valueOfParcel": 335900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "447 HALFMOON POND RD",
@@ -60499,7 +64749,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2412934129903745
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 90600,
+      "valueOfLand": 39941,
+      "valueOfParcel": 130541,
+      "yearOfCAMA": 2020
     },
     {
       "address": "447 HALFMOON POND RD",
@@ -60690,7 +64945,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5113930915340628
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 90600,
+      "valueOfLand": 39941,
+      "valueOfParcel": 130541,
+      "yearOfCAMA": 2020
     },
     {
       "address": "546 WASHINGTON DR",
@@ -60737,7 +64997,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.24477325900421265
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 149400,
+      "valueOfLand": 101500,
+      "valueOfParcel": 250900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "546 WASHINGTON DR",
@@ -60804,7 +65069,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2854693462443197
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 149400,
+      "valueOfLand": 101500,
+      "valueOfParcel": 250900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 POINT RD",
@@ -60875,7 +65145,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8292822464699721
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 100700,
+      "valueOfLand": 192000,
+      "valueOfParcel": 292700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2372 E WASHINGTON RD",
@@ -60970,7 +65245,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.53531643593809
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95400,
+      "valueOfLand": 54894,
+      "valueOfParcel": 150294,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2372 E WASHINGTON RD",
@@ -61093,7 +65373,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44684453047673905
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:16.172Z",
+      "usage": "11",
+      "valueOfImprovement": 95400,
+      "valueOfLand": 54894,
+      "valueOfParcel": 150294,
+      "yearOfCAMA": 2020
     },
     {
       "address": "68 ASHUELOT ACRE RD",
@@ -61156,7 +65441,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7321424466125084
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 207900,
+      "valueOfLand": 192200,
+      "valueOfParcel": 400100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1554 VALLEY RD",
@@ -61207,7 +65497,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.759116886442755
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 3300,
+      "valueOfLand": 18600,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "374 MARTIN RD",
@@ -61254,7 +65549,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5589453793284093
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 1200,
+      "valueOfLand": 28300,
+      "valueOfParcel": 29500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "315 WASHINGTON HGTS RD",
@@ -61301,7 +65601,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5678081534557322
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 88100,
+      "valueOfLand": 28500,
+      "valueOfParcel": 116600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "179 WASHINGTON HGTS RD",
@@ -61348,7 +65653,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5681886587405902
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 76100,
+      "valueOfLand": 28800,
+      "valueOfParcel": 104900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "117 WASHINGTON HGTS RD",
@@ -61403,7 +65713,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6610778948254309
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 81300,
+      "valueOfLand": 36000,
+      "valueOfParcel": 117300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "94 WASHINGTON HGTS RD",
@@ -61466,7 +65781,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4751159456529213
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 92800,
+      "valueOfLand": 23631,
+      "valueOfParcel": 116431,
+      "yearOfCAMA": 2020
     },
     {
       "address": "188 WASHINGTON HGTS RD",
@@ -61525,7 +65845,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5138796330848249
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84900,
+      "valueOfLand": 28500,
+      "valueOfParcel": 113400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "294 WASHINGTON HGTS RD",
@@ -61572,7 +65897,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39855226349083184
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 16300,
+      "valueOfLand": 30600,
+      "valueOfParcel": 46900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "322 WASHINGTON HGTS RD",
@@ -61619,7 +65949,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3957182525822398
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 400,
+      "valueOfLand": 30200,
+      "valueOfParcel": 30600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "341 WASHINGTON HGTS RD",
@@ -61702,7 +66037,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29794843508163654
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 134100,
+      "valueOfLand": 36000,
+      "valueOfParcel": 170100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "919 NO MAIN ST",
@@ -61753,7 +66093,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5874301203436978
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 94400,
+      "valueOfLand": 38200,
+      "valueOfParcel": 132600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "253 MARTIN RD",
@@ -61804,7 +66149,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5925033565214208
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 1000,
+      "valueOfLand": 29400,
+      "valueOfParcel": 30400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "372 MARTIN RD",
@@ -61855,7 +66205,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5295314155851529
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 8400,
+      "valueOfLand": 16930,
+      "valueOfParcel": 25330,
+      "yearOfCAMA": 2020
     },
     {
       "address": "231 DEER VALLEY RD",
@@ -61914,7 +66269,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7294684518951351
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 17400,
+      "valueOfLand": 29387,
+      "valueOfParcel": 46787,
+      "yearOfCAMA": 2020
     },
     {
       "address": "301 AYERS POND RD",
@@ -62049,7 +66409,12 @@ export const LANDGRID = {
         0.32722882743534837,
         0.49084356848491484
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 134000,
+      "valueOfLand": 32339,
+      "valueOfParcel": 166339,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2527 E WASHINGTON RD",
@@ -62116,7 +66481,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8097078843521374
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 9200,
+      "valueOfLand": 3205,
+      "valueOfParcel": 12405,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2560 E WASHINGTON RD",
@@ -62167,7 +66537,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7517042062818085
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 16900,
+      "valueOfLand": 36100,
+      "valueOfParcel": 53000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "799 ASHUELOT DR",
@@ -62222,7 +66597,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5066645250559857
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 82300,
+      "valueOfLand": 193200,
+      "valueOfParcel": 275500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "769 ASHUELOT DR",
@@ -62281,7 +66661,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5251436547862834
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 81100,
+      "valueOfLand": 198000,
+      "valueOfParcel": 279100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "147 TAYLOR CIR",
@@ -62360,7 +66745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6577669515703675
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24000,
+      "valueOfParcel": 24000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "26 OLD BURBANK RD",
@@ -62415,7 +66805,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7827341415908344
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 146100,
+      "valueOfLand": 37600,
+      "valueOfParcel": 183700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "686 MILLEN POND RD",
@@ -62470,7 +66865,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5091436898770532
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 379800,
+      "valueOfLand": 40106,
+      "valueOfParcel": 419906,
+      "yearOfCAMA": 2020
     },
     {
       "address": "626 MILLEN POND RD",
@@ -62605,7 +67005,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6227001687368
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 78100,
+      "valueOfLand": 80095,
+      "valueOfParcel": 158195,
+      "yearOfCAMA": 2020
     },
     {
       "address": "221 LEMPSTER MT RD",
@@ -62680,7 +67085,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41204786488820627
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 55700,
+      "valueOfLand": 36804,
+      "valueOfParcel": 92504,
+      "yearOfCAMA": 2020
     },
     {
       "address": "600 LEMPSTER MT RD",
@@ -62755,7 +67165,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7154503408155379
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 146800,
+      "valueOfLand": 65500,
+      "valueOfParcel": 212300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "674 MILLEN POND RD",
@@ -62806,7 +67221,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6276261417073824
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 181500,
+      "valueOfLand": 50200,
+      "valueOfParcel": 231700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "704 MILLEN POND RD",
@@ -62918,7 +67338,12 @@ export const LANDGRID = {
         0.6727512847550178,
         0.6711353747137648
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 84500,
+      "valueOfLand": 190700,
+      "valueOfParcel": 275200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "18 WOLF WAY",
@@ -63553,7 +67978,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3148373148428222
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 323300,
+      "valueOfLand": 638900,
+      "valueOfParcel": 962200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "821 WASHINGTON DR",
@@ -63600,7 +68030,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6202315986686194
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 121000,
+      "valueOfLand": 221700,
+      "valueOfParcel": 342700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "730 HALFMOON PD RD",
@@ -63686,7 +68121,12 @@ export const LANDGRID = {
         0.6193767362383427,
         0.32318142672394756
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 130500,
+      "valueOfLand": 61000,
+      "valueOfParcel": 191500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "528 HALFMOON PD RD",
@@ -63737,7 +68177,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6318539226913137
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 32500,
+      "valueOfLand": 30767,
+      "valueOfParcel": 63267,
+      "yearOfCAMA": 2020
     },
     {
       "address": "795 WASHINGTON DR",
@@ -63788,7 +68233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6168231541956052
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 181300,
+      "valueOfLand": 222600,
+      "valueOfParcel": 403900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "261 WASHINGTON DR",
@@ -63879,7 +68329,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5947413138491676
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 70000,
+      "valueOfLand": 216500,
+      "valueOfParcel": 286500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "255 WASHINGTON DR",
@@ -63934,7 +68389,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46911587608849037
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 50400,
+      "valueOfLand": 211100,
+      "valueOfParcel": 261500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "21 ISLAND POND RD",
@@ -63986,7 +68446,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6919065919882793
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 3000,
+      "valueOfLand": 25300,
+      "valueOfParcel": 28300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "731 ASHUELOT DR",
@@ -64045,7 +68510,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4972188595889805
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 166200,
+      "valueOfLand": 197200,
+      "valueOfParcel": 363400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "707 ASHUELOT DR",
@@ -64125,7 +68595,12 @@ export const LANDGRID = {
         0.4673778829674686,
         0.670371162237581
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 171200,
+      "valueOfLand": 186100,
+      "valueOfParcel": 357300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "679 ASHUELOT DR",
@@ -64180,7 +68655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.34111037984273046
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 121900,
+      "valueOfLand": 201600,
+      "valueOfParcel": 323500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "651 ASHUELOT DR",
@@ -64239,7 +68719,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4113725496330543
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 125800,
+      "valueOfLand": 199100,
+      "valueOfParcel": 324900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "124 HARRISON RD",
@@ -64290,7 +68775,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5441120951936415
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 111500,
+      "valueOfLand": 194600,
+      "valueOfParcel": 306100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "126 HARRISON RD",
@@ -64341,7 +68831,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6498647919416342
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 89600,
+      "valueOfLand": 199700,
+      "valueOfParcel": 289300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "69 TAYLOR CIR",
@@ -64400,7 +68895,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7486349267849371
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 139300,
+      "valueOfLand": 40800,
+      "valueOfParcel": 180100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "189 STOWELL RD",
@@ -64455,7 +68955,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7894827934040961
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 161700,
+      "valueOfLand": 40700,
+      "valueOfParcel": 202400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "357 ASHUELOT DR",
@@ -64506,7 +69011,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7137030228462721
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 171700,
+      "valueOfLand": 203500,
+      "valueOfParcel": 375200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "123 MCKINLEY DR",
@@ -64569,7 +69079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6627119561403836
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 119900,
+      "valueOfLand": 226300,
+      "valueOfParcel": 346200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 TAFT RD",
@@ -64616,7 +69131,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7867788352589244
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 147400,
+      "valueOfLand": 39400,
+      "valueOfParcel": 186800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 ASHUELOT DR",
@@ -64683,7 +69203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7341329815618478
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 141800,
+      "valueOfLand": 45700,
+      "valueOfParcel": 187500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "13 CLEVELAND CIR",
@@ -64750,7 +69275,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5738434981936895
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 80200,
+      "valueOfLand": 41200,
+      "valueOfParcel": 121400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "187 COOLIDGE DR",
@@ -64813,7 +69343,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8259080639445946
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 104200,
+      "valueOfLand": 44600,
+      "valueOfParcel": 148800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "42 BUCHANAN CIR",
@@ -64884,7 +69419,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8616189353081384
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 139000,
+      "valueOfLand": 43100,
+      "valueOfParcel": 182100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "50 ASHUELOT ACRE RD",
@@ -64947,7 +69487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7861315820497438
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 251800,
+      "valueOfLand": 177500,
+      "valueOfParcel": 429300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "42 ASHUELOT ACRE RD",
@@ -64994,7 +69539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.59460278074453
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 101300,
+      "valueOfLand": 159400,
+      "valueOfParcel": 260700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "32 ASHUELOT ACRE RD",
@@ -65041,7 +69591,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7813822990425195
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 61700,
+      "valueOfLand": 178800,
+      "valueOfParcel": 240500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "24 ASHUELOT ACRE RD",
@@ -65100,7 +69655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6643576628644021
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 19200,
+      "valueOfLand": 178600,
+      "valueOfParcel": 197800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 ASHUELOT ACRE RD",
@@ -65151,7 +69711,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.577935915486977
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 69600,
+      "valueOfLand": 164300,
+      "valueOfParcel": 233900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "154 ASHUELOT ACRE RD",
@@ -65202,7 +69767,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7535000463864785
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 146100,
+      "valueOfLand": 182300,
+      "valueOfParcel": 328400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "142 ASHUELOT ACRE RD",
@@ -65261,7 +69831,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7103407015754702
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 25900,
+      "valueOfLand": 182300,
+      "valueOfParcel": 208200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "136 ASHUELOT ACRE RD",
@@ -65312,7 +69887,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7006574502811657
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 14700,
+      "valueOfLand": 175800,
+      "valueOfParcel": 190500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "130 ASHUELOT ACRE RD",
@@ -65363,7 +69943,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5658917186530835
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 90100,
+      "valueOfLand": 159800,
+      "valueOfParcel": 249900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "124 ASHUELOT ACRE RD",
@@ -65418,7 +70003,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6982435993872813
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 69400,
+      "valueOfLand": 178800,
+      "valueOfParcel": 248200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "104 ASHUELOT ACRE RD",
@@ -65473,7 +70063,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7140621595163329
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 48200,
+      "valueOfLand": 172900,
+      "valueOfParcel": 221100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "579 MARLOW RD",
@@ -65524,7 +70119,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6671680608357163
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 76900,
+      "valueOfLand": 31500,
+      "valueOfParcel": 108400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "88 ASHUELOT ACRE RD",
@@ -65579,7 +70179,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7448804093141491
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 29100,
+      "valueOfLand": 162200,
+      "valueOfParcel": 191300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "82 ASHUELOT ACRE RD",
@@ -65630,7 +70235,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6673796389131544
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 38100,
+      "valueOfLand": 167500,
+      "valueOfParcel": 205600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 ASHUELOT ACRE RD",
@@ -65701,7 +70311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7477618792448876
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 34700,
+      "valueOfLand": 173600,
+      "valueOfParcel": 208300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "637 MARLOW RD",
@@ -65752,7 +70367,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6914302345138197
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 70400,
+      "valueOfLand": 188600,
+      "valueOfParcel": 259000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "646 MARLOW RD",
@@ -66011,7 +70631,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.23932445687417658
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 162700,
+      "valueOfLand": 69572,
+      "valueOfParcel": 232272,
+      "yearOfCAMA": 2020
     },
     {
       "address": "15 ASHUELOT ACRE RD",
@@ -66062,7 +70687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6944179222085484
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 13900,
+      "valueOfLand": 19800,
+      "valueOfParcel": 33700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "27 ASHUELOT ACRE RD",
@@ -66117,7 +70747,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7890619381007734
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 48800,
+      "valueOfLand": 26400,
+      "valueOfParcel": 75200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "35 ASHUELOT ACRE RD",
@@ -66168,7 +70803,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7866242483460165
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 37500,
+      "valueOfLand": 26400,
+      "valueOfParcel": 63900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 ASHUELOT ACRE RD",
@@ -66223,7 +70863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7777688953799105
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 57100,
+      "valueOfLand": 26400,
+      "valueOfParcel": 83500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "61 ASHUELOT ACRE RD",
@@ -66274,7 +70919,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7826471954074954
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 148600,
+      "valueOfLand": 49500,
+      "valueOfParcel": 198100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "69 ASHUELOT ACRE RD",
@@ -66321,7 +70971,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7851167841318307
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 86400,
+      "valueOfLand": 43500,
+      "valueOfParcel": 129900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "603 MARLOW RD",
@@ -66376,7 +71031,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7445460870177159
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 147700,
+      "valueOfLand": 33900,
+      "valueOfParcel": 181600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "569 MARLOW RD",
@@ -66443,7 +71103,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7114181415373902
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 68800,
+      "valueOfLand": 30900,
+      "valueOfParcel": 99700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "97 HUNTLEY MT RD",
@@ -66490,7 +71155,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7786111397942871
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 68500,
+      "valueOfLand": 28400,
+      "valueOfParcel": 96900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "87 HUNTLEY MT RD",
@@ -66537,7 +71207,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7782097959349255
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 94700,
+      "valueOfLand": 28400,
+      "valueOfParcel": 123100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "65 HUNTLEY MT RD",
@@ -66584,7 +71259,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7849565830209336
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 90800,
+      "valueOfLand": 26900,
+      "valueOfParcel": 117700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "49 HUNTLEY MT RD",
@@ -66631,7 +71311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7675920803190533
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 18100,
+      "valueOfLand": 19800,
+      "valueOfParcel": 37900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "15 HUNTLEY MT RD",
@@ -66678,7 +71363,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6866467847882597
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 117800,
+      "valueOfLand": 25100,
+      "valueOfParcel": 142900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "7 HUNTLEY MT RD",
@@ -66729,7 +71419,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7647066191686113
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 4100,
+      "valueOfLand": 20100,
+      "valueOfParcel": 24200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "419 MARLOW RD",
@@ -66884,7 +71579,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5565121051494532
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 201100,
+      "valueOfLand": 33585,
+      "valueOfParcel": 234685,
+      "yearOfCAMA": 2020
     },
     {
       "address": "317 MARLOW RD",
@@ -66955,7 +71655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6638337485486902
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 191100,
+      "valueOfLand": 35000,
+      "valueOfParcel": 226100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "363 MARLOW RD",
@@ -67042,7 +71747,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6208360920641088
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "17",
+      "valueOfImprovement": 40400,
+      "valueOfLand": 34600,
+      "valueOfParcel": 75000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "228 MARLOW RD",
@@ -67089,7 +71799,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7513729295009501
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "17",
+      "valueOfImprovement": 26900,
+      "valueOfLand": 35900,
+      "valueOfParcel": 62800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "234 MARLOW RD",
@@ -67168,7 +71883,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6858398279303216
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 178900,
+      "valueOfLand": 40800,
+      "valueOfParcel": 219700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1065 VALLEY RD",
@@ -67227,7 +71947,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39584175102732877
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 79900,
+      "valueOfLand": 42300,
+      "valueOfParcel": 122200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "930 VALLEY RD",
@@ -67342,7 +72067,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7632749693643487
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "33",
+      "valueOfImprovement": 152000,
+      "valueOfLand": 82241,
+      "valueOfParcel": 234241,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1574 VALLEY RD",
@@ -67413,7 +72143,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5821610057401464
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1022,
+      "valueOfParcel": 1022,
+      "yearOfCAMA": 2020
     },
     {
       "address": "869 MILLEN POND RD",
@@ -67472,7 +72207,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7522252656901637
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 51900,
+      "valueOfLand": 172400,
+      "valueOfParcel": 224300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "881 MILLEN POND RD",
@@ -67523,7 +72263,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5672331880502173
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 49300,
+      "valueOfLand": 174800,
+      "valueOfParcel": 224100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1230 FAXON HILL RD",
@@ -67626,7 +72371,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6570987454917087
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 138700,
+      "valueOfLand": 178900,
+      "valueOfParcel": 317600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1168 FAXON HILL RD",
@@ -67721,7 +72471,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2713873251937266
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 1100,
+      "valueOfLand": 94900,
+      "valueOfParcel": 96000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "854 MILLEN POND RD",
@@ -67796,7 +72551,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5022949251837724
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 57900,
+      "valueOfLand": 50100,
+      "valueOfParcel": 108000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "704 VALLEY RD",
@@ -67851,7 +72611,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6827101458873168
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 35200,
+      "valueOfLand": 24300,
+      "valueOfParcel": 59500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "163 VALLEY RD",
@@ -68126,7 +72891,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3595124564333064
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 41400,
+      "valueOfLand": 36872,
+      "valueOfParcel": 78272,
+      "yearOfCAMA": 2020
     },
     {
       "address": "18 MAPLE WAY",
@@ -68173,7 +72943,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7353457109087662
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 80000,
+      "valueOfLand": 34800,
+      "valueOfParcel": 114800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "573 HIGHLAND HAVEN RD",
@@ -68220,7 +72995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7133762058397937
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 35800,
+      "valueOfLand": 45600,
+      "valueOfParcel": 81400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "541 HIGHLAND HAVEN RD",
@@ -68275,7 +73055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7849122109170502
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20900,
+      "valueOfParcel": 20900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1429 SO MAIN ST",
@@ -68330,7 +73115,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7528576041604473
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 33100,
+      "valueOfLand": 35100,
+      "valueOfParcel": 68200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1415 SO MAIN ST",
@@ -68381,7 +73171,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7185874506289366
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 23500,
+      "valueOfLand": 30700,
+      "valueOfParcel": 54200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4644 E WASHINGTON RD",
@@ -68436,7 +73231,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4597035250177304
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 7000,
+      "valueOfLand": 30641,
+      "valueOfParcel": 37641,
+      "yearOfCAMA": 2020
     },
     {
       "address": "152 WASHINGTON DR",
@@ -68495,7 +73295,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4195042842317729
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 132800,
+      "valueOfLand": 44700,
+      "valueOfParcel": 177500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4200 E WASHINGTON RD",
@@ -68550,7 +73355,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29370459732455734
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 42900,
+      "valueOfLand": 39000,
+      "valueOfParcel": 81900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4078 E WASHINGTON RD",
@@ -68613,7 +73423,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4992921545021435
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 1000,
+      "valueOfLand": 29900,
+      "valueOfParcel": 30900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3996 E WASHINGTON RD",
@@ -68660,7 +73475,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.28805095520434876
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 5000,
+      "valueOfLand": 26100,
+      "valueOfParcel": 31100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3964 E WASHINGTON RD",
@@ -68707,7 +73527,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3689924959533028
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 90400,
+      "valueOfLand": 39400,
+      "valueOfParcel": 129800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "201 WILD ACRE DR",
@@ -68763,7 +73588,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7645830100045296
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 45600,
+      "valueOfLand": 126500,
+      "valueOfParcel": 172100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "197 WILD ACRE DR",
@@ -68827,7 +73657,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8168381543111375
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 73000,
+      "valueOfLand": 131500,
+      "valueOfParcel": 204500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1428 VALLEY RD",
@@ -69674,7 +74509,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3841894947759789
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15807,
+      "valueOfParcel": 15807,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1066 VALLEY RD",
@@ -69725,7 +74565,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3162331797116649
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "17",
+      "valueOfImprovement": 800,
+      "valueOfLand": 29900,
+      "valueOfParcel": 30700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "419 BAILEY RD",
@@ -69772,7 +74617,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.645048607254781
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 136700,
+      "valueOfLand": 40100,
+      "valueOfParcel": 176800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "451 BAILEY RD",
@@ -69819,7 +74669,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7015545595302431
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16300,
+      "valueOfParcel": 16300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "405 BAILEY RD",
@@ -69899,7 +74754,12 @@ export const LANDGRID = {
         0.7494960504050308,
         0.7386244241403354
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 1600,
+      "valueOfLand": 17400,
+      "valueOfParcel": 19000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "482 BAILEY RD",
@@ -69986,7 +74846,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5886605509612628
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 114900,
+      "valueOfLand": 57000,
+      "valueOfParcel": 171900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "400 BAILEY RD",
@@ -70045,7 +74910,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7255809869199699
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 152100,
+      "valueOfLand": 45800,
+      "valueOfParcel": 197900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "37 WOODPECKER RD",
@@ -70140,7 +75010,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7246702765370887
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 31300,
+      "valueOfLand": 35600,
+      "valueOfParcel": 66900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "178 DOLE SCHOOL HOUSE RD",
@@ -70191,7 +75066,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5361843384342119
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21900,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 WOODPECKER RD",
@@ -70294,7 +75174,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5440120659844102
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 77400,
+      "valueOfLand": 28300,
+      "valueOfParcel": 105700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "622 HIGHLAND HAVEN RD",
@@ -70393,7 +75278,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7225101790464267
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 109000,
+      "valueOfLand": 199100,
+      "valueOfParcel": 308100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "137 BEAVER BROOK RD",
@@ -70444,7 +75334,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.28888350313256367
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 10500,
+      "valueOfLand": 44700,
+      "valueOfParcel": 55200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "98 NO MAIN ST",
@@ -70507,7 +75402,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6891335261064269
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 154900,
+      "valueOfLand": 36561,
+      "valueOfParcel": 191461,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 NO MAIN ST",
@@ -70570,7 +75470,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6889068378363545
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 4500,
+      "valueOfLand": 38300,
+      "valueOfParcel": 42800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "74 HALFMOON PD RD",
@@ -70657,7 +75562,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6562553197614853
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 146300,
+      "valueOfLand": 40200,
+      "valueOfParcel": 186500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "31 LEMPSTER MT RD",
@@ -70704,7 +75614,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7782219349460637
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 85400,
+      "valueOfLand": 37300,
+      "valueOfParcel": 122700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "75 LEMPSTER MT RD",
@@ -70759,7 +75674,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49757476449445015
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "27",
+      "valueOfImprovement": 281000,
+      "valueOfLand": 63600,
+      "valueOfParcel": 344600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1479 VALLEY RD",
@@ -70830,7 +75750,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6657914297432592
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18000,
+      "valueOfParcel": 18000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "94 LOOKOUT POINT RD",
@@ -70893,7 +75818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39217399784896717
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 1200,
+      "valueOfLand": 38400,
+      "valueOfParcel": 39600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 LOOKOUT POINT RD",
@@ -70956,7 +75886,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7412463520575082
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 34400,
+      "valueOfLand": 175300,
+      "valueOfParcel": 209700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "80 LOOKOUT POINT RD",
@@ -71023,7 +75958,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7187902295265237
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 40500,
+      "valueOfLand": 182300,
+      "valueOfParcel": 222800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 LOOKOUT POINT RD",
@@ -71086,7 +76026,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6648466369212598
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 87100,
+      "valueOfLand": 182700,
+      "valueOfParcel": 269800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 LOOKOUT POINT RD",
@@ -71133,7 +76078,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5555518171616093
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 43400,
+      "valueOfLand": 166500,
+      "valueOfParcel": 209900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 LOOKOUT POINT RD",
@@ -71192,7 +76142,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5098768244290007
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 83400,
+      "valueOfLand": 162900,
+      "valueOfParcel": 246300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 LOOKOUT POINT RD",
@@ -71259,7 +76214,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6973754317640662
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 14500,
+      "valueOfLand": 173600,
+      "valueOfParcel": 188100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "26 LAKEVIEW TERR",
@@ -71346,7 +76306,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6423964247112924
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 103200,
+      "valueOfParcel": 103200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "40 LAKEVIEW TERR",
@@ -71441,7 +76406,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5931714476154353
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 90800,
+      "valueOfLand": 213800,
+      "valueOfParcel": 304600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 LAKEVIEW TERR",
@@ -71504,7 +76474,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49717201723156307
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 65500,
+      "valueOfLand": 163200,
+      "valueOfParcel": 228700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 LAKEVIEW TERR",
@@ -71555,7 +76530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6872383643821256
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 95000,
+      "valueOfLand": 176700,
+      "valueOfParcel": 271700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 LAKEVIEW TERR",
@@ -71602,7 +76582,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.502495647679593
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 132600,
+      "valueOfLand": 158800,
+      "valueOfParcel": 291400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "74 LAKEVIEW TERR",
@@ -71681,7 +76666,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4794937329687053
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 35700,
+      "valueOfLand": 183400,
+      "valueOfParcel": 219100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 BIRCH POINT WAY",
@@ -71732,7 +76722,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5219001319164006
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 105900,
+      "valueOfLand": 155600,
+      "valueOfParcel": 261500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 BIRCH POINT WAY",
@@ -71823,7 +76818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.573056299708794
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 139700,
+      "valueOfLand": 206100,
+      "valueOfParcel": 345800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "21 BIRCH POINT WAY",
@@ -71878,7 +76878,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7379224239733538
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 28300,
+      "valueOfLand": 157800,
+      "valueOfParcel": 186100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 BIRCH POINT WAY",
@@ -71933,7 +76938,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7239444833826666
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 136000,
+      "valueOfLand": 147800,
+      "valueOfParcel": 283800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 COVE RD",
@@ -71984,7 +76994,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6339070569252034
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 65400,
+      "valueOfLand": 149100,
+      "valueOfParcel": 214500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 COVE RD",
@@ -72039,7 +77054,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6819191530001418
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 39600,
+      "valueOfLand": 150800,
+      "valueOfParcel": 190400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "58 COVE RD",
@@ -72094,7 +77114,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6192570091901608
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 29900,
+      "valueOfLand": 153400,
+      "valueOfParcel": 183300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 COVE RD",
@@ -72141,7 +77166,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6950948181858785
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 18900,
+      "valueOfLand": 143800,
+      "valueOfParcel": 162700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 COVE RD",
@@ -72192,7 +77222,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7632612870059917
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 34700,
+      "valueOfLand": 151600,
+      "valueOfParcel": 186300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "80 COVE RD",
@@ -72247,7 +77282,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7707146158747077
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 39400,
+      "valueOfLand": 147800,
+      "valueOfParcel": 187200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "140 COVE RD",
@@ -72310,7 +77350,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5650655924982444
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 87200,
+      "valueOfLand": 173700,
+      "valueOfParcel": 260900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "146 COVE RD",
@@ -72361,7 +77406,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6025021540873708
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 57600,
+      "valueOfLand": 154200,
+      "valueOfParcel": 211800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "156 COVE RD",
@@ -72420,7 +77470,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7686786141572375
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 162300,
+      "valueOfLand": 189400,
+      "valueOfParcel": 351700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "166 COVE RD",
@@ -72487,7 +77542,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6839677052915907
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 99300,
+      "valueOfLand": 179700,
+      "valueOfParcel": 279000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "178 COVE RD",
@@ -72538,7 +77598,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.647657623184866
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 99900,
+      "valueOfLand": 179700,
+      "valueOfParcel": 279600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "175 COVE RD",
@@ -72589,7 +77654,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7201361282677089
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15000,
+      "valueOfParcel": 15000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "53 COVE RD",
@@ -72636,7 +77706,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.750480855818814
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 2600,
+      "valueOfLand": 20100,
+      "valueOfParcel": 22700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3 POINT ISLAND",
@@ -72723,7 +77798,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7421486105413305
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 30900,
+      "valueOfLand": 121400,
+      "valueOfParcel": 152300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 POINT ISLAND",
@@ -72850,7 +77930,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5968190597591445
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 21400,
+      "valueOfLand": 121200,
+      "valueOfParcel": 142600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 POINT ISLAND",
@@ -72945,7 +78030,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6631940994300008
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 29400,
+      "valueOfLand": 122400,
+      "valueOfParcel": 151800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1652 VALLEY RD",
@@ -73004,7 +78094,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5728644558382676
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 13900,
+      "valueOfLand": 35300,
+      "valueOfParcel": 49200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1854 VALLEY RD",
@@ -73055,7 +78150,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7697458541236464
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18600,
+      "valueOfParcel": 18600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2020 VALLEY RD",
@@ -73102,7 +78202,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7496732720771896
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 19000,
+      "valueOfLand": 35800,
+      "valueOfParcel": 54800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2060 VALLEY RD",
@@ -73153,7 +78258,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6615213966840535
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 42700,
+      "valueOfLand": 38300,
+      "valueOfParcel": 81000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2078 VALLEY RD",
@@ -73200,7 +78310,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7200171494237398
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 3900,
+      "valueOfLand": 18000,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "24 HEMLOCK CIR",
@@ -73255,7 +78370,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7524701980221311
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 35900,
+      "valueOfLand": 36200,
+      "valueOfParcel": 72100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2183 VALLEY RD",
@@ -73306,7 +78426,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4949047030168871
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 53700,
+      "valueOfLand": 169000,
+      "valueOfParcel": 222700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2167 VALLEY RD",
@@ -73365,7 +78490,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5228462039021555
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 24900,
+      "valueOfLand": 181800,
+      "valueOfParcel": 206700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2127 VALLEY RD",
@@ -73420,7 +78550,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7680773954674764
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "17",
+      "valueOfImprovement": 14800,
+      "valueOfLand": 158400,
+      "valueOfParcel": 173200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "49 HEMLOCK CIR",
@@ -73467,7 +78602,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7679534426904007
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 7600,
+      "valueOfLand": 21600,
+      "valueOfParcel": 29200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "41 HEMLOCK CIR",
@@ -73518,7 +78658,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7728150112469382
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 91600,
+      "valueOfLand": 27000,
+      "valueOfParcel": 118600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2027 VALLEY RD",
@@ -73577,7 +78722,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7040632380602296
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 82100,
+      "valueOfLand": 38600,
+      "valueOfParcel": 120700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2017 VALLEY RD",
@@ -73704,7 +78854,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44512756064671194
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 41500,
+      "valueOfLand": 212500,
+      "valueOfParcel": 254000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1901 VALLEY RD",
@@ -73767,7 +78922,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5024270548748277
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 91000,
+      "valueOfLand": 174700,
+      "valueOfParcel": 265700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1891 VALLEY RD",
@@ -73946,7 +79106,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4576366620120874
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 101700,
+      "valueOfLand": 225800,
+      "valueOfParcel": 327500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1883 VALLEY RD",
@@ -74009,7 +79174,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7053366322841701
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 50800,
+      "valueOfLand": 151200,
+      "valueOfParcel": 202000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1853 VALLEY RD",
@@ -74080,7 +79250,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7570963472896058
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 64700,
+      "valueOfLand": 165000,
+      "valueOfParcel": 229700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1841 VALLEY RD",
@@ -74147,7 +79322,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7332210726088187
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "11",
+      "valueOfImprovement": 39800,
+      "valueOfLand": 153000,
+      "valueOfParcel": 192800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2133 VALLEY RD",
@@ -74202,7 +79382,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6540746306055485
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 91900,
+      "valueOfParcel": 91900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "660 MILLEN POND RD",
@@ -74265,7 +79450,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7832030021230709
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 28300,
+      "valueOfLand": 165200,
+      "valueOfParcel": 193500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "660 MILLEN POND RD",
@@ -74328,7 +79518,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2510076119213065
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:20.609Z",
+      "usage": "19",
+      "valueOfImprovement": 28300,
+      "valueOfLand": 165200,
+      "valueOfParcel": 193500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -74375,7 +79570,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7756433070133683
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HUNTLEY MT RD",
@@ -74422,7 +79622,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7847481522290369
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19800,
+      "valueOfParcel": 19800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -74473,7 +79678,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5508067867488722
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3611,
+      "valueOfParcel": 3611,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -74576,7 +79786,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6572564055130754
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2385,
+      "valueOfParcel": 2385,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TWIN BRIDGE RD",
@@ -74752,7 +79967,12 @@ export const LANDGRID = {
         0.5783430719131787,
         0.5676210429604962
       ],
-      "usage": "101"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "101",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3200,
+      "valueOfParcel": 3200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -74819,7 +80039,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3045711674066208
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1440,
+      "valueOfParcel": 1440,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON HGTS RD",
@@ -74870,7 +80095,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5732765348791193
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26900,
+      "valueOfParcel": 26900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARYS LN",
@@ -74925,7 +80155,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.685736841230009
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1400,
+      "valueOfLand": 22200,
+      "valueOfParcel": 23600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON HGTS RD",
@@ -74972,7 +80207,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.38227313821417386
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22400,
+      "valueOfParcel": 22400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -75059,7 +80299,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5102388783842712
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1708,
+      "valueOfParcel": 1708,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -75134,7 +80379,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35000593669523167
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1732,
+      "valueOfParcel": 1732,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -75185,7 +80435,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4505130703144588
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -75244,7 +80499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46174873829309787
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 371,
+      "valueOfParcel": 371,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -75303,7 +80563,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4427955551665685
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 300,
+      "valueOfLand": 627,
+      "valueOfParcel": 927,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 MARTIN RD",
@@ -75374,7 +80639,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6099903552060176
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 83400,
+      "valueOfLand": 38800,
+      "valueOfParcel": 122200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -75433,7 +80703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6387664220627906
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23400,
+      "valueOfParcel": 23400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARTIN RD",
@@ -75488,7 +80763,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5492934185425514
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 653,
+      "valueOfParcel": 653,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARTIN RD",
@@ -75535,7 +80815,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6805992879122243
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19887,
+      "valueOfParcel": 19887,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -75670,7 +80955,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5437576064866527
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2686,
+      "valueOfParcel": 2686,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -75825,7 +81115,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6065574024402296
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11244,
+      "valueOfParcel": 11244,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -75908,7 +81203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6825240616524669
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4404,
+      "valueOfParcel": 4404,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -75975,7 +81275,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7074930365748031
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 588,
+      "valueOfParcel": 588,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -76106,7 +81411,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4865749272577816
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 536,
+      "valueOfParcel": 536,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -76257,7 +81567,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5618314559760751
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3633,
+      "valueOfParcel": 3633,
+      "yearOfCAMA": 2020
     },
     {
       "address": "54 AYERS POND RD",
@@ -76328,7 +81643,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5846694707088038
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 13100,
+      "valueOfLand": 31747,
+      "valueOfParcel": 44847,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -76383,7 +81703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7177547266185313
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 750,
+      "valueOfParcel": 750,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -76514,7 +81839,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5071650978141508
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 1500,
+      "valueOfLand": 1177,
+      "valueOfParcel": 2677,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -76605,7 +81935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4555685184299786
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1137,
+      "valueOfParcel": 1137,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -76740,7 +82075,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6381292292014683
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1596,
+      "valueOfParcel": 1596,
+      "yearOfCAMA": 2020
     },
     {
       "address": "487 AYERS POND RD",
@@ -76875,7 +82215,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6076789160763656
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 20000,
+      "valueOfLand": 8079,
+      "valueOfParcel": 28079,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OFF SUGAR HOUSE RD",
@@ -76946,7 +82291,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6406164153586229
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4195,
+      "valueOfParcel": 4195,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SUGAR HOUSE RD",
@@ -77001,7 +82351,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5558072153304671
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34900,
+      "valueOfParcel": 34900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -77176,7 +82531,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6242150232906524
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3552,
+      "valueOfParcel": 3552,
+      "yearOfCAMA": 2020
     },
     {
       "address": "211 LOVELL MT RD",
@@ -77227,7 +82587,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5653158806885665
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 67200,
+      "valueOfLand": 40500,
+      "valueOfParcel": 107700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SUGAR HOUSE RD",
@@ -77286,7 +82651,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42278186000842194
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 483,
+      "valueOfParcel": 483,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -77441,7 +82811,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4109385169989831
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2103,
+      "valueOfParcel": 2103,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -77492,7 +82867,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5898378906003016
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17100,
+      "valueOfParcel": 17100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -77551,7 +82931,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4546625022864353
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 44400,
+      "valueOfParcel": 44400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -77610,7 +82995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39646254537544573
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 73100,
+      "valueOfParcel": 73100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINNON RD",
@@ -77777,7 +83167,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41978630865339217
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 62,
+      "valueOfParcel": 62,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINNON RD",
@@ -77916,7 +83311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4946978754829782
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1356,
+      "valueOfParcel": 1356,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINNON RD",
@@ -78043,7 +83443,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6211275484712421
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1343,
+      "valueOfParcel": 1343,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINNON RD",
@@ -78330,7 +83735,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6126377611610717
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3000,
+      "valueOfParcel": 3000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINNON RD",
@@ -78409,7 +83819,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2802467685817311
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 95100,
+      "valueOfParcel": 95100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -78460,7 +83875,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4167862186146812
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23700,
+      "valueOfParcel": 23700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "324 OLD BURBANK RD",
@@ -78515,7 +83935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7435552044321744
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 700,
+      "valueOfLand": 17818,
+      "valueOfParcel": 18518,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD BURBANK RD",
@@ -78630,7 +84055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7975059019225097
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 978,
+      "valueOfParcel": 978,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -78745,7 +84175,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5921761937262341
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8730,
+      "valueOfParcel": 8730,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -78804,7 +84239,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.686376462809882
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1425,
+      "valueOfParcel": 1425,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -78955,7 +84395,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48763927899648796
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2417,
+      "valueOfParcel": 2417,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -79042,7 +84487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6234087859792119
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1514,
+      "valueOfParcel": 1514,
+      "yearOfCAMA": 2020
     },
     {
       "address": "398 NO MAIN ST",
@@ -79145,7 +84595,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43656485104774695
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 24600,
+      "valueOfLand": 33903,
+      "valueOfParcel": 58503,
+      "yearOfCAMA": 2020
     },
     {
       "address": "121 OLD MARLOW RD",
@@ -79232,7 +84687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7022467409454297
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25700,
+      "valueOfParcel": 25700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -79335,7 +84795,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6481516519409785
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 57200,
+      "valueOfParcel": 57200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -79410,7 +84875,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5226995702778288
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1572,
+      "valueOfParcel": 1572,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SYMONDS LN",
@@ -79625,7 +85095,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47155182883021535
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3970,
+      "valueOfParcel": 3970,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AMES RD",
@@ -79740,7 +85215,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5455366642298043
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5119,
+      "valueOfParcel": 5119,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -79787,7 +85267,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7373494694089615
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2700,
+      "valueOfParcel": 2700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "690 OLD MARLOW RD",
@@ -79882,7 +85367,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6007664130084672
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 273,
+      "valueOfParcel": 273,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -79953,7 +85443,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6340771583127432
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1663,
+      "valueOfParcel": 1663,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -80048,7 +85543,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.542946366425855
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1280,
+      "valueOfParcel": 1280,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -80111,7 +85611,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5329244667935876
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9400,
+      "valueOfParcel": 9400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "667 HALFMOON PD RD",
@@ -80194,7 +85699,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5474901185663904
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 40100,
+      "valueOfLand": 52200,
+      "valueOfParcel": 92300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "693 HALFMOON PD RD",
@@ -80257,7 +85767,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7823553628615533
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 13800,
+      "valueOfLand": 123600,
+      "valueOfParcel": 137400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -80320,7 +85835,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7495060704215359
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 71300,
+      "valueOfParcel": 71300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -80475,7 +85995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7784985515142093
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4890,
+      "valueOfParcel": 4890,
+      "yearOfCAMA": 2020
     },
     {
       "address": "684 HALFMOON PD RD",
@@ -80558,7 +86083,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5816450271229021
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 166000,
+      "valueOfLand": 44518,
+      "valueOfParcel": 210518,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -80641,7 +86171,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5698671788264326
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2414,
+      "valueOfParcel": 2414,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -80964,7 +86499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5534215426169881
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3979,
+      "valueOfParcel": 3979,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81023,7 +86563,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6320337496669542
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 144800,
+      "valueOfParcel": 144800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81074,7 +86619,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4519134370506878
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 531,
+      "valueOfParcel": 531,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81125,7 +86675,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.34389756531803056
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33100,
+      "valueOfParcel": 33100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81204,7 +86759,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.19451312272201945
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33000,
+      "valueOfParcel": 33000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81259,7 +86819,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43119675903784227
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33000,
+      "valueOfParcel": 33000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -81310,7 +86875,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40783282911382035
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 32900,
+      "valueOfParcel": 32900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "808 WASHINGTON DR",
@@ -81369,7 +86939,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4809610481317094
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 64700,
+      "valueOfLand": 64077,
+      "valueOfParcel": 128777,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -81464,7 +87039,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3427650107995262
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 154300,
+      "valueOfParcel": 154300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -81539,7 +87119,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31180128506890414
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 112200,
+      "valueOfParcel": 112200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -81603,7 +87188,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4558555092479911
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5300,
+      "valueOfLand": 23000,
+      "valueOfParcel": 28300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -81655,7 +87245,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6935606677250875
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18800,
+      "valueOfParcel": 18800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -81707,7 +87302,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7041455579947211
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 11000,
+      "valueOfLand": 22700,
+      "valueOfParcel": 33700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "230 HALFMOON PD RD",
@@ -81787,7 +87387,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42119592852826465
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2200,
+      "valueOfLand": 16722,
+      "valueOfParcel": 18922,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -81934,7 +87539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.844298570446808
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 681,
+      "valueOfParcel": 681,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND BOAT ACC",
@@ -81986,7 +87596,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7777240282634524
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26000,
+      "valueOfParcel": 26000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BULMAN ISLAND",
@@ -82057,7 +87672,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7092750108332289
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10500,
+      "valueOfParcel": 10500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HELENS ISLAND",
@@ -82128,7 +87748,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.887167253962845
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11300,
+      "valueOfParcel": 11300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -82183,7 +87808,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4697108866021873
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21600,
+      "valueOfParcel": 21600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -82310,7 +87940,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41086518790277726
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 587,
+      "valueOfParcel": 587,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -82433,7 +88068,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6313734275758562
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1884,
+      "valueOfParcel": 1884,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -82484,7 +88124,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7386841734707015
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1765,
+      "valueOfParcel": 1765,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HARRISON RD",
@@ -82535,7 +88180,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5622966265627687
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2000,
+      "valueOfLand": 23,
+      "valueOfParcel": 2023,
+      "yearOfCAMA": 2020
     },
     {
       "address": "306 STOWELL RD",
@@ -82590,7 +88240,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7227022100245516
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10300,
+      "valueOfParcel": 10300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -82649,7 +88304,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7604198674415881
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -82708,7 +88368,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8042919588930313
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -82759,7 +88424,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7671509289850346
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11800,
+      "valueOfParcel": 11800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -82814,7 +88484,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.731046296308482
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11800,
+      "valueOfParcel": 11800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -82865,7 +88540,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6862532634606867
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -82924,7 +88604,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5700987352498048
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -82979,7 +88664,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.532194351745949
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -83034,7 +88724,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6090765937123076
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 41300,
+      "valueOfParcel": 41300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "STOWELL RD",
@@ -83081,7 +88776,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6928071232079009
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OFF JEFFERSON DR",
@@ -83128,7 +88828,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7179904472500729
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2700,
+      "valueOfParcel": 2700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -83179,7 +88884,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7845296998584488
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -83263,7 +88973,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4397557218367656
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14200,
+      "valueOfParcel": 14200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "150 JEFFERSON DR",
@@ -83318,7 +89033,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6718019517446071
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 75000,
+      "valueOfLand": 37900,
+      "valueOfParcel": 112900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -83369,7 +89089,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7130976542340284
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -83420,7 +89145,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7846741500234057
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -83471,7 +89201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7813300447546614
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -83526,7 +89261,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7588073692249522
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -83597,7 +89337,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6300492677344625
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -83648,7 +89393,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7790184000017145
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HARDING RD",
@@ -83699,7 +89449,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7835989036300178
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -83926,7 +89681,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.1353011138246534
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -83985,7 +89745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.457278939697758
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 124200,
+      "valueOfParcel": 124200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "417 ASHUELOT DR",
@@ -84040,7 +89805,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5382761916188359
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 134800,
+      "valueOfLand": 204800,
+      "valueOfParcel": 339600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "407 ASHUELOT DR",
@@ -84099,7 +89869,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5998241837353332
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 110600,
+      "valueOfLand": 203600,
+      "valueOfParcel": 314200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -84154,7 +89929,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48201863264098005
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 139000,
+      "valueOfParcel": 139000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GARFIELD DR",
@@ -84201,7 +89981,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5713295844744635
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 138900,
+      "valueOfParcel": 138900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "587 PRESIDENTIAL DR",
@@ -84248,7 +90033,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7700174898638807
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 57500,
+      "valueOfLand": 38800,
+      "valueOfParcel": 96300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HAYES RD",
@@ -84299,7 +90089,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7687167447278014
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HARDING RD",
@@ -84350,7 +90145,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7169110275817084
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9900,
+      "valueOfParcel": 9900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINLEY DR",
@@ -84401,7 +90201,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.712984122732945
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11200,
+      "valueOfParcel": 11200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GARFIELD DR",
@@ -84452,7 +90257,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7383187037757607
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MONROE CIR",
@@ -84503,7 +90313,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7098489718617268
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17400,
+      "valueOfParcel": 17400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PIERCE RD",
@@ -84550,7 +90365,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7653652345368165
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12600,
+      "valueOfParcel": 12600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PIERCE RD",
@@ -84605,7 +90425,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7397445021932542
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12100,
+      "valueOfParcel": 12100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -84656,7 +90481,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7569931707524125
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12100,
+      "valueOfParcel": 12100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -84703,7 +90533,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7465184260420221
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -84762,7 +90597,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7162423824443143
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "CLEVELAND CIR",
@@ -84817,7 +90657,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6471142247777966
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10200,
+      "valueOfParcel": 10200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -84876,7 +90721,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7291289586617742
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9900,
+      "valueOfParcel": 9900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "475 PRESIDENTIAL DR",
@@ -84947,7 +90797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6230071417975264
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 50400,
+      "valueOfLand": 42500,
+      "valueOfParcel": 92900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -85006,7 +90861,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7590104682225677
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -85053,7 +90913,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6626653669571183
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11100,
+      "valueOfParcel": 11100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -85108,7 +90973,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6594246778220915
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -85175,7 +91045,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.549001741176242
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 27300,
+      "valueOfParcel": 27300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -85230,7 +91105,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7874635264187826
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -85281,7 +91161,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7626127268278586
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10200,
+      "valueOfParcel": 10200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -85332,7 +91217,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7823104735467021
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -85387,7 +91277,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7388189751308857
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13500,
+      "valueOfParcel": 13500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "400 COOLIDGE DR",
@@ -85438,7 +91333,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7680103063371098
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 138600,
+      "valueOfLand": 38800,
+      "valueOfParcel": 177400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -85517,7 +91417,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.729372916266095
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11300,
+      "valueOfParcel": 11300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BUCHANAN CIR",
@@ -85572,7 +91477,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6465119835512891
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LANG RD",
@@ -85627,7 +91537,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7315585468890865
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18100,
+      "valueOfParcel": 18100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -85698,7 +91613,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.433651402642529
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14400,
+      "valueOfParcel": 14400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -85753,7 +91673,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6150546540435008
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 30500,
+      "valueOfParcel": 30500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -85844,7 +91769,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5068401418221689
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3342,
+      "valueOfParcel": 3342,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -85991,7 +91921,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5000088295411057
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3034,
+      "valueOfParcel": 3034,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -86042,7 +91977,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3910473661270544
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -86101,7 +92041,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37005404836658684
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -86152,7 +92097,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3969839501615813
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -86219,7 +92169,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29916962240181116
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 762,
+      "valueOfParcel": 762,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -86286,7 +92241,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6817901811875691
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1400,
+      "valueOfLand": 23464,
+      "valueOfParcel": 24864,
+      "yearOfCAMA": 2020
     },
     {
       "address": "290 VALLEY RD",
@@ -86477,7 +92437,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41500412652398905
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 273900,
+      "valueOfLand": 42004,
+      "valueOfParcel": 315904,
+      "yearOfCAMA": 2020
     },
     {
       "address": "935 FAXON HILL RD",
@@ -86556,7 +92521,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5584874677406398
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1890,
+      "valueOfParcel": 1890,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -86639,7 +92609,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.460074464739484
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 292,
+      "valueOfParcel": 292,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 ANDERSON ISLAND",
@@ -86722,7 +92697,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7682409626374164
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 14000,
+      "valueOfLand": 102000,
+      "valueOfParcel": 116000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1183 FAXON HILL RD",
@@ -86793,7 +92773,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4902645472201898
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 45900,
+      "valueOfLand": 37600,
+      "valueOfParcel": 83500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1139 FAXON HILL RD",
@@ -87064,7 +93049,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48271532742880463
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 41100,
+      "valueOfLand": 39083,
+      "valueOfParcel": 80183,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FARNSWORTH HILL RD",
@@ -87223,7 +93213,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.658783006476225
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 15000,
+      "valueOfLand": 28619,
+      "valueOfParcel": 43619,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -87275,7 +93270,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6582158016172976
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 45800,
+      "valueOfParcel": 45800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "112 FARNSWORTH HILL RD",
@@ -87338,7 +93338,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49600228457282897
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 20100,
+      "valueOfLand": 17300,
+      "valueOfParcel": 37400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -87441,7 +93446,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6326369655348989
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 354,
+      "valueOfParcel": 354,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -87500,7 +93510,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7463634700756039
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 7600,
+      "valueOfParcel": 7600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -87555,7 +93570,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7952547170138763
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 7700,
+      "valueOfParcel": 7700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "153 KING ST",
@@ -87642,7 +93662,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4093070963736616
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 108900,
+      "valueOfLand": 84300,
+      "valueOfParcel": 193200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PIERCE RD",
@@ -87693,7 +93718,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7798250340445397
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PINE POINT RD",
@@ -87764,7 +93794,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6159310599494696
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 132500,
+      "valueOfParcel": 132500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -87875,7 +93910,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6241330752559954
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34300,
+      "valueOfParcel": 34300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "744 SO MAIN ST",
@@ -87922,7 +93962,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7019603233761509
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 78300,
+      "valueOfLand": 45000,
+      "valueOfParcel": 123300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OAK TERR",
@@ -87973,7 +94018,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7514200629520881
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15600,
+      "valueOfParcel": 15600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OAK TERR",
@@ -88024,7 +94074,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6784333770290059
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16000,
+      "valueOfParcel": 16000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -88083,7 +94138,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5694937415629139
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17200,
+      "valueOfParcel": 17200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -88142,7 +94202,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5906943541661275
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18600,
+      "valueOfParcel": 18600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -88189,7 +94254,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6344144734602298
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9600,
+      "valueOfParcel": 9600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "952 SO MAIN ST",
@@ -88256,7 +94326,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.354961556654417
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3900,
+      "valueOfParcel": 3900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88371,7 +94446,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6846299481158842
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 570,
+      "valueOfParcel": 570,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88466,7 +94546,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30672773222705907
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 434,
+      "valueOfParcel": 434,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88529,7 +94614,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3097336079405781
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 193,
+      "valueOfParcel": 193,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4773 E WASHINGTON RD",
@@ -88600,7 +94690,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4785977126935739
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 24100,
+      "valueOfLand": 40500,
+      "valueOfParcel": 64600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILL ST",
@@ -88723,7 +94818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4046360939794364
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 256,
+      "valueOfParcel": 256,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88782,7 +94882,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4868779798080147
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 586,
+      "valueOfParcel": 586,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88841,7 +94946,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2454913034019373
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 603,
+      "valueOfParcel": 603,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -88897,7 +95007,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7196887749352892
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5700,
+      "valueOfLand": 12800,
+      "valueOfParcel": 18500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -88977,7 +95092,12 @@ export const LANDGRID = {
         0.6080519914502583,
         0.34164986885785187
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10000,
+      "valueOfParcel": 10000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "81 WASHINGTON DR",
@@ -89068,7 +95188,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42691713999310826
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 149500,
+      "valueOfLand": 45800,
+      "valueOfParcel": 195300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -89119,7 +95244,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.27297331727336377
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25100,
+      "valueOfParcel": 25100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -89174,7 +95304,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40066894780679263
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26400,
+      "valueOfParcel": 26400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89229,7 +95364,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2892356640351393
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13100,
+      "valueOfParcel": 13100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89280,7 +95420,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.34194614939200185
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20700,
+      "valueOfParcel": 20700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89339,7 +95484,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3124898566913082
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20500,
+      "valueOfParcel": 20500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89394,7 +95544,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3378666004576146
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20700,
+      "valueOfParcel": 20700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89453,7 +95608,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2820277096291608
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26000,
+      "valueOfParcel": 26000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -89580,7 +95740,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7579857928363299
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1544,
+      "valueOfParcel": 1544,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAVER BROOK RD",
@@ -89639,7 +95804,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.44059904264648486
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25400,
+      "valueOfParcel": 25400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "28 DOLE SCHOOL HOUSE RD",
@@ -89710,7 +95880,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5749746023872598
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 80600,
+      "valueOfLand": 44100,
+      "valueOfParcel": 124700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -89761,7 +95936,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6312108398808728
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 28500,
+      "valueOfParcel": 28500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "93 BAILEY RD",
@@ -89876,7 +96056,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.501361287494472
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 87700,
+      "valueOfLand": 37475,
+      "valueOfParcel": 125175,
+      "yearOfCAMA": 2020
     },
     {
       "address": "102 BAILEY RD",
@@ -89955,7 +96140,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6622654574741691
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 89800,
+      "valueOfLand": 46600,
+      "valueOfParcel": 136400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -90030,7 +96220,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48964437142566036
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2449,
+      "valueOfParcel": 2449,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -90113,7 +96308,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5964074645099944
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1688,
+      "valueOfParcel": 1688,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -90196,7 +96396,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5957248916324566
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 954,
+      "valueOfParcel": 954,
+      "yearOfCAMA": 2020
     },
     {
       "address": "9 KINGSBURY HILL RD",
@@ -90255,7 +96460,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5981784472062744
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 82400,
+      "valueOfLand": 39000,
+      "valueOfParcel": 121400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -90362,7 +96572,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6509957379056461
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3768,
+      "valueOfParcel": 3768,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -90493,7 +96708,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6131290070701203
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1830,
+      "valueOfParcel": 1830,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SMITH POND RD",
@@ -90704,7 +96924,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.546025654356071
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2000,
+      "valueOfLand": 8983,
+      "valueOfParcel": 10983,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WILD ACRE DR",
@@ -90768,7 +96993,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7442888554720682
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 51500,
+      "valueOfParcel": 51500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -90831,7 +97061,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5009039811846145
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2368,
+      "valueOfParcel": 2368,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -90878,7 +97113,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6882559244129182
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5267,
+      "valueOfParcel": 5267,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -90929,7 +97169,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7815186003358705
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1800,
+      "valueOfParcel": 1800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -91008,7 +97253,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.70442589321745
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17100,
+      "valueOfParcel": 17100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "238 WOODPECKER RD",
@@ -91127,7 +97377,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6726492304726546
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 40600,
+      "valueOfLand": 33900,
+      "valueOfParcel": 74500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -91222,7 +97477,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26083590453791794
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 589,
+      "valueOfParcel": 589,
+      "yearOfCAMA": 2020
     },
     {
       "address": "192 WOODPECKER RD",
@@ -91285,7 +97545,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6788412147777231
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16500,
+      "valueOfLand": 37900,
+      "valueOfParcel": 54400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "530 LONG POND RD",
@@ -91348,7 +97613,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6882327657140801
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 213700,
+      "valueOfLand": 174500,
+      "valueOfParcel": 388200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "700 HIGHLAND HAVEN RD",
@@ -91511,7 +97781,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39381224145855925
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 78900,
+      "valueOfLand": 246400,
+      "valueOfParcel": 325300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAVER BROOK RD",
@@ -91586,7 +97861,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4889428620419282
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 154400,
+      "valueOfParcel": 154400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -91669,7 +97949,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3922478671204999
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25900,
+      "valueOfParcel": 25900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -91732,7 +98017,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4651476068145523
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24400,
+      "valueOfParcel": 24400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAVER BROOK RD",
@@ -91807,7 +98097,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2971096360490344
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36000,
+      "valueOfParcel": 36000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1810 SO MAIN ST",
@@ -91894,7 +98189,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5313518702779677
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 123700,
+      "valueOfLand": 43735,
+      "valueOfParcel": 167435,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -92001,7 +98301,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7428614926379628
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1689,
+      "valueOfParcel": 1689,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -92069,7 +98374,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.672157599798475
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15800,
+      "valueOfParcel": 15800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "25 DOLE SCHOOL HOUSE RD",
@@ -92248,7 +98558,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42011309098970173
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2746,
+      "valueOfParcel": 2746,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -92307,7 +98622,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7610030339239747
       ],
-      "usage": "26"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "26",
+      "valueOfImprovement": 12300,
+      "valueOfLand": 18000,
+      "valueOfParcel": 30300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -92358,7 +98678,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7813812345213323
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9900,
+      "valueOfParcel": 9900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "126 SYMONDS LN",
@@ -92465,7 +98790,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5554878028745834
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 61200,
+      "valueOfLand": 38000,
+      "valueOfParcel": 99200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "17 MILLEN POND RD",
@@ -92512,7 +98842,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.566079325956391
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 36500,
+      "valueOfLand": 41300,
+      "valueOfParcel": 77800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -92583,7 +98918,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6914186333629128
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12700,
+      "valueOfParcel": 12700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -92634,7 +98974,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4604898344871966
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 405,
+      "valueOfParcel": 405,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -92697,7 +99042,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5792810033418301
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9400,
+      "valueOfParcel": 9400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAR HILL RD",
@@ -92792,7 +99142,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.534697518602508
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2207,
+      "valueOfParcel": 2207,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -92876,7 +99231,12 @@ export const LANDGRID = {
         0.533779129725415,
         0.29712402452138226
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 4700,
+      "valueOfLand": 3200,
+      "valueOfParcel": 7900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD HILLSBORO RD",
@@ -92943,7 +99303,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3592124423463201
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1258,
+      "valueOfParcel": 1258,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -93010,7 +99375,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37876150927456265
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8900,
+      "valueOfParcel": 8900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -93057,7 +99427,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7582315400588256
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2900,
+      "valueOfParcel": 2900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -93144,7 +99519,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6015612555563432
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12800,
+      "valueOfParcel": 12800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAR HILL RD",
@@ -93195,7 +99575,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6832844868835276
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 322,
+      "valueOfParcel": 322,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAR HILL RD",
@@ -93266,7 +99651,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5111553357238094
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 371,
+      "valueOfParcel": 371,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -93313,7 +99703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6742212889378806
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10800,
+      "valueOfParcel": 10800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -93360,7 +99755,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7340202925721026
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13600,
+      "valueOfParcel": 13600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -93407,7 +99807,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6117683055790794
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -93458,7 +99863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7630716798913627
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14600,
+      "valueOfParcel": 14600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -93517,7 +99927,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6997877936650708
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13200,
+      "valueOfParcel": 13200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "79 LOOKOUT POINT RD",
@@ -93584,7 +99999,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.454597594354654
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 18500,
+      "valueOfLand": 163000,
+      "valueOfParcel": 181500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "104 LOOKOUT POINT RD",
@@ -93683,7 +100103,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.53011149596472
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 74300,
+      "valueOfLand": 211100,
+      "valueOfParcel": 285400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEECH WAY",
@@ -93738,7 +100163,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5830971956819382
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22000,
+      "valueOfParcel": 22000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEECH WAY",
@@ -93789,7 +100219,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.528716566736534
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21800,
+      "valueOfParcel": 21800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BIRCH POINT WAY",
@@ -93844,7 +100279,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.450479713260456
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 104400,
+      "valueOfParcel": 104400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -93907,7 +100347,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7407453752904339
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 60200,
+      "valueOfLand": 119800,
+      "valueOfParcel": 180000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -93954,7 +100399,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7212942847518053
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 HERMIT ISLAND",
@@ -94057,7 +100507,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7172684636989002
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 18300,
+      "valueOfLand": 91000,
+      "valueOfParcel": 109300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 MOODY ISLAND",
@@ -94220,7 +100675,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5407147282222982
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 27700,
+      "valueOfLand": 92200,
+      "valueOfParcel": 119900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94267,7 +100727,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7762382153512185
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14600,
+      "valueOfParcel": 14600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94322,7 +100787,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7633789704377348
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14800,
+      "valueOfParcel": 14800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94373,7 +100843,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.617120205239567
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15600,
+      "valueOfParcel": 15600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCQUADE RD",
@@ -94424,7 +100899,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6628058614737494
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8800,
+      "valueOfParcel": 8800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCQUADE RD",
@@ -94471,7 +100951,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5315071462252318
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8300,
+      "valueOfParcel": 8300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94534,7 +101019,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.539632603629143
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94609,7 +101099,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5689945463186544
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14000,
+      "valueOfParcel": 14000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94660,7 +101155,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4302379529193318
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 118300,
+      "valueOfParcel": 118300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94723,7 +101223,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5149419176145429
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94774,7 +101279,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5403836358046001
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND OFF VALLEY RD",
@@ -94929,7 +101439,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.520464130885983
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 91100,
+      "valueOfParcel": 91100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -94976,7 +101491,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39587319335450816
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 107600,
+      "valueOfParcel": 107600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -95268,7 +101788,12 @@ export const LANDGRID = {
         0.27730839733073936,
         0.5303815542584713
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8547,
+      "valueOfParcel": 8547,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -95327,7 +101852,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5496673787472884
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 10000,
+      "valueOfLand": 76349,
+      "valueOfParcel": 86349,
+      "yearOfCAMA": 2020
     },
     {
       "address": "378 MCLAUGHLIN RD",
@@ -95410,7 +101940,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4733808655153405
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 145000,
+      "valueOfLand": 184557,
+      "valueOfParcel": 329557,
+      "yearOfCAMA": 2020
     },
     {
       "address": "378 MCLAUGHLIN RD",
@@ -95493,7 +102028,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6992809970279155
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 145000,
+      "valueOfLand": 184557,
+      "valueOfParcel": 329557,
+      "yearOfCAMA": 2020
     },
     {
       "address": "122 OLD HAYING RD",
@@ -95596,7 +102136,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4461601886350839
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 100100,
+      "valueOfLand": 213900,
+      "valueOfParcel": 314000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "122 OLD HAYING RD",
@@ -95699,7 +102244,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4405336689111956
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 100100,
+      "valueOfLand": 213900,
+      "valueOfParcel": 314000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -95794,7 +102344,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.794829235896273
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 30500,
+      "valueOfParcel": 30500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -95933,7 +102488,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.33834365516259207
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 103400,
+      "valueOfParcel": 103400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -96080,7 +102640,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7571982610759939
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4350,
+      "valueOfParcel": 4350,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -96587,7 +103152,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3610773372202895
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4466,
+      "valueOfParcel": 4466,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E SHORE DR",
@@ -96658,7 +103228,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7564472853778107
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19700,
+      "valueOfParcel": 19700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -96701,7 +103276,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5077791647742783
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 515,
+      "valueOfParcel": 515,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -96748,7 +103328,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7059693522159484
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 324,
+      "valueOfParcel": 324,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON HGTS RD",
@@ -96795,7 +103380,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5524059427256014
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1000,
+      "valueOfLand": 20400,
+      "valueOfParcel": 21400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -96846,7 +103436,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5902714498963253
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23400,
+      "valueOfParcel": 23400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BRENDA LN",
@@ -96893,7 +103488,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5815240853787753
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 43400,
+      "valueOfParcel": 43400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -96964,7 +103564,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43872971801812227
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 836,
+      "valueOfParcel": 836,
+      "yearOfCAMA": 2020
     },
     {
       "address": "960 AYERS POND RD",
@@ -97015,7 +103620,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4616865632460753
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 20000,
+      "valueOfLand": 25200,
+      "valueOfParcel": 45200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -97066,7 +103676,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5143917973322689
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 7000,
+      "valueOfParcel": 7000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -97121,7 +103736,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5169503940671866
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 988,
+      "valueOfParcel": 988,
+      "yearOfCAMA": 2020
     },
     {
       "address": "179 WASHINGTON HGTS",
@@ -97180,7 +103800,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5123978509361153
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21000,
+      "valueOfParcel": 21000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -97339,7 +103964,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6930164092072862
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1785,
+      "valueOfParcel": 1785,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -97494,7 +104124,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7169610830164196
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3452,
+      "valueOfParcel": 3452,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -97557,7 +104192,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5312890422785859
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2750,
+      "valueOfParcel": 2750,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -97700,7 +104340,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6688719360332566
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11668,
+      "valueOfParcel": 11668,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -97811,7 +104456,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49675465435142574
       ],
-      "usage": "101"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "101",
+      "valueOfImprovement": 0,
+      "valueOfLand": 76500,
+      "valueOfParcel": 76500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -97990,7 +104640,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7262911033234895
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5313,
+      "valueOfParcel": 5313,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -98125,7 +104780,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7591974965896575
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 58100,
+      "valueOfParcel": 58100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -98208,7 +104868,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31196925004323556
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 613,
+      "valueOfParcel": 613,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -98347,7 +105012,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7682004227427729
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2901,
+      "valueOfParcel": 2901,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -98462,7 +105132,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6959159584994943
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 126700,
+      "valueOfParcel": 126700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1915 NO MAIN ST",
@@ -98581,7 +105256,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5222840540949695
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 44100,
+      "valueOfLand": 43500,
+      "valueOfParcel": 87600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -98704,7 +105384,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4986951199147069
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1500,
+      "valueOfLand": 7815,
+      "valueOfParcel": 9315,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1983 NO MAIN ST",
@@ -99279,7 +105964,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2967784005489174
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 207300,
+      "valueOfLand": 40280,
+      "valueOfParcel": 247580,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -99762,7 +106452,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5300567903509753
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 118700,
+      "valueOfParcel": 118700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1141 NO MAIN ST",
@@ -99901,7 +106596,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4819420154163169
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 9600,
+      "valueOfLand": 50611,
+      "valueOfParcel": 60211,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -99969,7 +106669,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5870879121957819
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16500,
+      "valueOfParcel": 16500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TWIN BRIDGE RD",
@@ -100044,7 +106749,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7978937717919558
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1325,
+      "valueOfParcel": 1325,
+      "yearOfCAMA": 2020
     },
     {
       "address": "100 PILLSBURY STATE PARK",
@@ -100719,7 +107429,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6582870160781783
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1920700,
+      "valueOfParcel": 1920700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1704 HALFMOON PD RD",
@@ -100774,7 +107489,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4822278352508154
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 24700,
+      "valueOfLand": 33900,
+      "valueOfParcel": 58600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -101457,7 +108177,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.24813243827694478
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23146,
+      "valueOfParcel": 23146,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -101732,7 +108457,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49770672847116815
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9882,
+      "valueOfParcel": 9882,
+      "yearOfCAMA": 2020
     },
     {
       "address": "919 AYERS POND RD",
@@ -102039,7 +108769,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5766068173116387
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2071,
+      "valueOfParcel": 2071,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -102186,7 +108921,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6090078843320567
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10531,
+      "valueOfParcel": 10531,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LEMPSTER MT RD",
@@ -102341,7 +109081,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4236487965347393
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5786,
+      "valueOfParcel": 5786,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON HGTS RD",
@@ -102392,7 +109137,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5083699194133883
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 431,
+      "valueOfParcel": 431,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON HGTS RD",
@@ -102455,7 +109205,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4698594033915203
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23600,
+      "valueOfParcel": 23600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -103058,7 +109813,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2960818764172837
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19628,
+      "valueOfParcel": 19628,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARTIN RD",
@@ -103137,7 +109897,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7604011021888283
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1203,
+      "valueOfParcel": 1203,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARTIN RD",
@@ -103216,7 +109981,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7604255348983123
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4659,
+      "valueOfParcel": 4659,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARTIN RD",
@@ -103291,7 +110061,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7323275985964207
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1016,
+      "valueOfParcel": 1016,
+      "yearOfCAMA": 2020
     },
     {
       "address": "134 MARTIN RD",
@@ -103350,7 +110125,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5583102519901604
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 39400,
+      "valueOfLand": 30717,
+      "valueOfParcel": 70117,
+      "yearOfCAMA": 2020
     },
     {
       "address": "112 MARTIN RD",
@@ -103417,7 +110197,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5930035374930587
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19752,
+      "valueOfParcel": 19752,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -103488,7 +110273,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6016239238939171
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 73300,
+      "valueOfParcel": 73300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -103695,7 +110485,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.27982937329803015
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 136200,
+      "valueOfParcel": 136200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -103794,7 +110589,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6970149374022473
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6864,
+      "valueOfParcel": 6864,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -103877,7 +110677,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.598070307694317
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 695,
+      "valueOfParcel": 695,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -103928,7 +110733,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5327133970697995
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 503,
+      "valueOfParcel": 503,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DEER VALLEY RD",
@@ -103995,7 +110805,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5243337220136411
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18900,
+      "valueOfParcel": 18900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -104110,7 +110925,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.19023363872131577
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10100,
+      "valueOfParcel": 10100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -104225,7 +111045,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6060248181134247
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 840,
+      "valueOfParcel": 840,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SANDY KNOLLS RD",
@@ -104332,7 +111157,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.546615537799377
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 2100,
+      "valueOfLand": 51000,
+      "valueOfParcel": 53100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -104403,7 +111233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7312746726997192
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23100,
+      "valueOfParcel": 23100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -104466,7 +111301,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6680149001468696
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21400,
+      "valueOfParcel": 21400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SUGAR HOUSE RD",
@@ -104529,7 +111369,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42630248144437966
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20200,
+      "valueOfParcel": 20200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SUGAR HOUSE RD",
@@ -104580,7 +111425,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7093881471131637
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20500,
+      "valueOfParcel": 20500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SUGAR HOUSE RD",
@@ -104643,7 +111493,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4992704564807201
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 379,
+      "valueOfParcel": 379,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SANDY KNOLLS RD",
@@ -104702,7 +111557,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3616478026949828
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23200,
+      "valueOfParcel": 23200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "514 AYERS POND RD",
@@ -104749,7 +111609,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5624639663140396
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23400,
+      "valueOfParcel": 23400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DEER VALLEY RD",
@@ -104812,7 +111677,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5426105027007916
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 608,
+      "valueOfParcel": 608,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -104887,7 +111757,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39007428367647984
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36,
+      "valueOfParcel": 36,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -104954,7 +111829,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6954002811587754
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1380,
+      "valueOfParcel": 1380,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ULRICH RD",
@@ -105005,7 +111885,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6063884732714478
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 833,
+      "valueOfParcel": 833,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BRADFORD SPRINGS RD",
@@ -105052,7 +111937,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2711542055574429
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 304,
+      "valueOfParcel": 304,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 SISTERS WAY",
@@ -105103,7 +111993,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.653085546792664
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 140200,
+      "valueOfLand": 92247,
+      "valueOfParcel": 232447,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SISTERS WAY",
@@ -105202,7 +112097,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5575530425884965
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3381,
+      "valueOfParcel": 3381,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -105417,7 +112317,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5429811737913831
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 61400,
+      "valueOfParcel": 61400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -105708,7 +112613,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.613906571060619
       ],
-      "usage": "101"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "101",
+      "valueOfImprovement": 0,
+      "valueOfLand": 134800,
+      "valueOfParcel": 134800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -105939,7 +112849,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5589256671403153
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6179,
+      "valueOfParcel": 6179,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -105998,7 +112913,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6829115930149341
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 45000,
+      "valueOfParcel": 45000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106057,7 +112977,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5486813135058282
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 44600,
+      "valueOfParcel": 44600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106120,7 +113045,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3340809309007226
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 95400,
+      "valueOfParcel": 95400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106191,7 +113121,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4231413684977875
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 95200,
+      "valueOfParcel": 95200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106246,7 +113181,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5238824885877367
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 100900,
+      "valueOfParcel": 100900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106301,7 +113241,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47733220499055856
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 101200,
+      "valueOfParcel": 101200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -106364,7 +113309,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7438766165823769
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19600,
+      "valueOfParcel": 19600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -106419,7 +113369,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6335490238693101
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10300,
+      "valueOfParcel": 10300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -106478,7 +113433,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.689679997754194
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22300,
+      "valueOfParcel": 22300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106529,7 +113489,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5046439199303595
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10500,
+      "valueOfParcel": 10500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106580,7 +113545,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4463329743093343
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23800,
+      "valueOfParcel": 23800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106639,7 +113609,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6989930099495257
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 27300,
+      "valueOfParcel": 27300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106686,7 +113661,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35344305708736934
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33000,
+      "valueOfParcel": 33000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106733,7 +113713,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41709443490930664
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23700,
+      "valueOfParcel": 23700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106788,7 +113773,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6444723544296148
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10000,
+      "valueOfParcel": 10000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106835,7 +113825,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4563837145597148
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23800,
+      "valueOfParcel": 23800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "76 ASHUELOT POND",
@@ -106882,7 +113877,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4742360539716594
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 19800,
+      "valueOfLand": 39400,
+      "valueOfParcel": 59200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -106949,7 +113949,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6663846014686607
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36900,
+      "valueOfParcel": 36900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT DR",
@@ -107000,7 +114005,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26305836627562706
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5200,
+      "valueOfParcel": 5200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD BURBANK RD",
@@ -107083,7 +114093,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6603395420210677
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 184,
+      "valueOfParcel": 184,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD BURBANK RD",
@@ -107146,7 +114161,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.627106284378447
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 7200,
+      "valueOfLand": 25500,
+      "valueOfParcel": 32700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -107241,7 +114261,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7876813446148463
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8400,
+      "valueOfParcel": 8400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -107320,7 +114345,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7168484136073126
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5698,
+      "valueOfParcel": 5698,
+      "yearOfCAMA": 2020
     },
     {
       "address": "468 OLD MARLOW RD",
@@ -107395,7 +114425,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8184741315702889
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 173300,
+      "valueOfLand": 57000,
+      "valueOfParcel": 230300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "277 OLD MARLOW RD",
@@ -107454,7 +114489,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42374360426748575
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 43300,
+      "valueOfLand": 46600,
+      "valueOfParcel": 89900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "426 OLD MARLOW RD",
@@ -107585,7 +114625,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37862616002968597
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 542200,
+      "valueOfLand": 198161,
+      "valueOfParcel": 740361,
+      "yearOfCAMA": 2020
     },
     {
       "address": "190 OLD MARLOW RD",
@@ -107644,7 +114689,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7676272466316792
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 140100,
+      "valueOfLand": 45500,
+      "valueOfParcel": 185600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "146 OLD MARLOW RD",
@@ -107723,7 +114773,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5428831246078396
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 86600,
+      "valueOfLand": 44900,
+      "valueOfParcel": 131500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "419 NO MAIN ST",
@@ -107782,7 +114837,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7858851419694611
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 116700,
+      "valueOfLand": 36700,
+      "valueOfParcel": 153400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "141 OLD MARLOW RD",
@@ -107901,7 +114961,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4843668362744751
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 26400,
+      "valueOfLand": 36587,
+      "valueOfParcel": 62987,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -107968,7 +115033,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7772010681921669
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1368,
+      "valueOfParcel": 1368,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -108031,7 +115101,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6477970377471115
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12000,
+      "valueOfParcel": 12000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -108083,7 +115158,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.618002602374219
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 52200,
+      "valueOfParcel": 52200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "699 MILLEN POND RD",
@@ -108138,7 +115218,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6501575220385075
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 49300,
+      "valueOfLand": 166400,
+      "valueOfParcel": 215700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "689 MILLEN POND RD",
@@ -108193,7 +115278,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6712906813738743
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 40400,
+      "valueOfLand": 170700,
+      "valueOfParcel": 211100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -108245,7 +115335,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3934442361771529
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 40600,
+      "valueOfParcel": 40600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "685 MILLEN POND RD",
@@ -108301,7 +115396,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7846494805553641
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 54100,
+      "valueOfLand": 165200,
+      "valueOfParcel": 219300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -108352,7 +115452,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6402735233966667
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 78000,
+      "valueOfParcel": 78000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "611 MILLEN POND RD",
@@ -108443,7 +115548,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5460412662984855
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 175300,
+      "valueOfLand": 213500,
+      "valueOfParcel": 388800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -108503,7 +115613,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7590974204786868
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 77900,
+      "valueOfParcel": 77900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -108574,7 +115689,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5869158231645024
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 149,
+      "valueOfParcel": 149,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -108625,7 +115745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.794186042130694
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 151,
+      "valueOfParcel": 151,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -108676,7 +115801,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7732458132550633
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10900,
+      "valueOfParcel": 10900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "127 FARNSWORTH HILL RD",
@@ -108811,7 +115941,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.700004838315573
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12161,
+      "valueOfParcel": 12161,
+      "yearOfCAMA": 2020
     },
     {
       "address": "639 MILLEN POND RD",
@@ -108866,7 +116001,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6562048782450558
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 61100,
+      "valueOfLand": 118300,
+      "valueOfParcel": 179400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -108918,7 +116058,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5781153434761618
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1600,
+      "valueOfParcel": 1600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -109373,7 +116518,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5313885624110369
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3230,
+      "valueOfParcel": 3230,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SNOW RD",
@@ -109440,7 +116590,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43227696547283606
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1000,
+      "valueOfLand": 26900,
+      "valueOfParcel": 27900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "78 SNOW RD",
@@ -109559,7 +116714,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46784170239356715
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 39600,
+      "valueOfLand": 151300,
+      "valueOfParcel": 190900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -110138,7 +117298,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4618823639496018
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 4900,
+      "valueOfLand": 21765,
+      "valueOfParcel": 26665,
+      "yearOfCAMA": 2020
     },
     {
       "address": "507 HALFMOON PD RD",
@@ -110201,7 +117366,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6852703467799117
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 63400,
+      "valueOfLand": 41700,
+      "valueOfParcel": 105100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SNOW RD",
@@ -110248,7 +117418,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7857926790920416
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21800,
+      "valueOfParcel": 21800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "41 SNOW RD",
@@ -110311,7 +117486,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5894838022371779
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 78900,
+      "valueOfLand": 44900,
+      "valueOfParcel": 123800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -110358,7 +117538,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6787863530245679
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 SNOW RD",
@@ -110417,7 +117602,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6863292389390119
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 38400,
+      "valueOfLand": 160100,
+      "valueOfParcel": 198500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 SNOW RD",
@@ -110472,7 +117662,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7258285548289951
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 96900,
+      "valueOfLand": 142600,
+      "valueOfParcel": 239500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "42 SNOW RD",
@@ -110531,7 +117726,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7180230898280505
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 56700,
+      "valueOfLand": 130400,
+      "valueOfParcel": 187100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "36 SNOW RD",
@@ -110586,7 +117786,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7268966396481601
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 34600,
+      "valueOfLand": 135100,
+      "valueOfParcel": 169700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "20 SNOW RD",
@@ -110653,7 +117858,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7719509047112317
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 41600,
+      "valueOfLand": 134000,
+      "valueOfParcel": 175600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 SNOW RD",
@@ -110724,7 +117934,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.777493401683222
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 67200,
+      "valueOfLand": 145700,
+      "valueOfParcel": 212900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "727 HALFMOON PD RD",
@@ -110779,7 +117994,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7672030988477013
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 40600,
+      "valueOfLand": 122800,
+      "valueOfParcel": 163400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -110830,7 +118050,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7710729003185697
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 79100,
+      "valueOfParcel": 79100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "696 HALFMOON PD RD",
@@ -110889,7 +118114,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7560601213036743
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 94000,
+      "valueOfLand": 50400,
+      "valueOfParcel": 144400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -110936,7 +118166,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7833261773199456
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6300,
+      "valueOfParcel": 6300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -111083,7 +118318,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5118762699962633
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3888,
+      "valueOfParcel": 3888,
+      "yearOfCAMA": 2020
     },
     {
       "address": "390 HALFMOON PD RD",
@@ -111182,7 +118422,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5199650575172483
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 30258,
+      "valueOfParcel": 30258,
+      "yearOfCAMA": 2020
     },
     {
       "address": "105 ISLAND POND",
@@ -111301,7 +118546,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5156752523139237
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 69500,
+      "valueOfLand": 134743,
+      "valueOfParcel": 204243,
+      "yearOfCAMA": 2020
     },
     {
       "address": "129 ISLAND POND",
@@ -111380,7 +118630,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3268802303979394
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 10100,
+      "valueOfLand": 130414,
+      "valueOfParcel": 140514,
+      "yearOfCAMA": 2020
     },
     {
       "address": "147 ISLAND POND",
@@ -111475,7 +118730,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6471765762689344
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 63700,
+      "valueOfLand": 132280,
+      "valueOfParcel": 195980,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -111546,7 +118806,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30226654198922276
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 233,
+      "valueOfParcel": 233,
+      "yearOfCAMA": 2020
     },
     {
       "address": "294 MCLAUGHLIN RD",
@@ -112066,7 +119331,12 @@ export const LANDGRID = {
         0.34791828814091064,
         0.352707181822316
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 95800,
+      "valueOfLand": 187422,
+      "valueOfParcel": 283222,
+      "yearOfCAMA": 2020
     },
     {
       "address": "94 MCLAUGHLIN RD",
@@ -112113,7 +119383,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6218458678782206
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 172100,
+      "valueOfLand": 212000,
+      "valueOfParcel": 384100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "11 MCLAUGHLIN RD",
@@ -112160,7 +119435,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46733553860395066
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 35600,
+      "valueOfLand": 111300,
+      "valueOfParcel": 146900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "96 MCLAUGHLIN RD",
@@ -112207,7 +119487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6358285010529452
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 49500,
+      "valueOfLand": 215100,
+      "valueOfParcel": 264600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND",
@@ -112254,7 +119539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6516635438513987
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 84700,
+      "valueOfParcel": 84700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "379 MCLAUGHLIN RD",
@@ -112341,7 +119631,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3419188330309331
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 71500,
+      "valueOfLand": 181154,
+      "valueOfParcel": 252654,
+      "yearOfCAMA": 2020
     },
     {
       "address": "221 ISLAND POND",
@@ -112716,7 +120011,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.24466962267682607
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 37800,
+      "valueOfLand": 226800,
+      "valueOfParcel": 264600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "247 ISLAND POND",
@@ -112851,7 +120151,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6938598065305152
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 64600,
+      "valueOfLand": 139904,
+      "valueOfParcel": 204504,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOVELL MT RD",
@@ -112954,7 +120259,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42289282228284486
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1910,
+      "valueOfParcel": 1910,
+      "yearOfCAMA": 2020
     },
     {
       "address": "856 WASHINGTON DR",
@@ -113009,7 +120319,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5207890585633956
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 63400,
+      "valueOfLand": 158300,
+      "valueOfParcel": 221700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -113172,7 +120487,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5299514674987504
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -113219,7 +120539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4092462900249685
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 165,
+      "valueOfParcel": 165,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -113310,7 +120635,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.591818460443673
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 174,
+      "valueOfParcel": 174,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -113445,7 +120775,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.524421452007986
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 277,
+      "valueOfParcel": 277,
+      "yearOfCAMA": 2020
     },
     {
       "address": "155 WINDRUN RD",
@@ -113552,7 +120887,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6742032369112871
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 504000,
+      "valueOfLand": 321383,
+      "valueOfParcel": 825383,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -113839,7 +121179,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3746722661552965
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 959,
+      "valueOfParcel": 959,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -113910,7 +121255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42104637329589173
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 32600,
+      "valueOfParcel": 32600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -114009,7 +121359,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41463329754026246
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36600,
+      "valueOfParcel": 36600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -114064,7 +121419,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6660857847256342
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33300,
+      "valueOfParcel": 33300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -114115,7 +121475,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4240973544502087
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 32800,
+      "valueOfParcel": 32800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -114174,7 +121539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5321782045299532
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 128,
+      "valueOfParcel": 128,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -114285,7 +121655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30507373151250694
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3970,
+      "valueOfParcel": 3970,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 ISLAND POND BOAT ACC",
@@ -114516,7 +121891,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3871290970074492
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 29300,
+      "valueOfLand": 159917,
+      "valueOfParcel": 189217,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -114568,7 +121948,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6389856027876472
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1300,
+      "valueOfLand": 22300,
+      "valueOfParcel": 23600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -114628,7 +122013,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7821652583516945
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 4500,
+      "valueOfLand": 26000,
+      "valueOfParcel": 30500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -114675,7 +122065,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7717804250337075
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 83,
+      "valueOfParcel": 83,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -114722,7 +122117,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7710199023575866
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 16700,
+      "valueOfLand": 25300,
+      "valueOfParcel": 42000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "105 ISLAND POND RD",
@@ -114769,7 +122169,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7738889491653556
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 11900,
+      "valueOfLand": 24700,
+      "valueOfParcel": 36600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 ISLAND POND RD",
@@ -114816,7 +122221,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7854983840161942
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 9400,
+      "valueOfLand": 25300,
+      "valueOfParcel": 34700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -114872,7 +122282,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.779157737805658
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 7500,
+      "valueOfLand": 25300,
+      "valueOfParcel": 32800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -114928,7 +122343,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7324738591773103
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5900,
+      "valueOfLand": 23300,
+      "valueOfParcel": 29200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "125 ISLAND POND RD",
@@ -114992,7 +122412,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5904952645079209
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 13100,
+      "valueOfLand": 36000,
+      "valueOfParcel": 49100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -115063,7 +122488,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5450153772101871
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5700,
+      "valueOfLand": 24700,
+      "valueOfParcel": 30400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -115126,7 +122556,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8445936456284975
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1139,
+      "valueOfParcel": 1139,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -115177,7 +122612,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6063339680619483
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 383,
+      "valueOfParcel": 383,
+      "yearOfCAMA": 2020
     },
     {
       "address": "749 HALFMOON PD RD",
@@ -115368,7 +122808,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.38602803808616754
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 10800,
+      "valueOfLand": 92500,
+      "valueOfParcel": 103300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILL ST",
@@ -115435,7 +122880,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26490273674442477
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10,
+      "valueOfParcel": 10,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 PETERSON ISLAND",
@@ -115542,7 +122992,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7650089390290599
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5400,
+      "valueOfLand": 80800,
+      "valueOfParcel": 86200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -116081,7 +123536,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.18576072391723328
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5600,
+      "valueOfParcel": 5600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -116144,7 +123604,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5772343170052606
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5900,
+      "valueOfParcel": 5900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -116243,7 +123708,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5977437692140423
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5900,
+      "valueOfParcel": 5900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 SPENCERS ISLAND",
@@ -116574,7 +124044,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46637475818684104
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 41200,
+      "valueOfLand": 167000,
+      "valueOfParcel": 208200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 OEHLSCHLAEGER ISLAND",
@@ -116665,7 +124140,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7873753580330917
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 51100,
+      "valueOfLand": 108100,
+      "valueOfParcel": 159200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILL ST",
@@ -116753,7 +124233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.477623071616602
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9400,
+      "valueOfParcel": 9400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -116809,7 +124294,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7529363581256592
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 67500,
+      "valueOfParcel": 67500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -116860,7 +124350,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6970368594906806
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34000,
+      "valueOfParcel": 34000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -116911,7 +124406,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3552388845052993
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 848,
+      "valueOfParcel": 848,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -117030,7 +124530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3949099557766776
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 33100,
+      "valueOfParcel": 33100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ISLAND POND RD",
@@ -117150,7 +124655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.1474079622819525
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 140800,
+      "valueOfParcel": 140800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1 POLLACK ISLAND",
@@ -117217,7 +124727,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7809017679209155
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10400,
+      "valueOfParcel": 10400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -117428,7 +124943,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45829890203005275
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 900,
+      "valueOfLand": 82200,
+      "valueOfParcel": 83100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -117587,7 +125107,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.32909475033324087
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26814,
+      "valueOfParcel": 26814,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -117690,7 +125215,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26771146440858823
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21200,
+      "valueOfParcel": 21200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -117737,7 +125267,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7663186046563877
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 83,
+      "valueOfParcel": 83,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -117784,7 +125319,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7649766139918671
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 85,
+      "valueOfParcel": 85,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -117831,7 +125371,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.765251238749999
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 87,
+      "valueOfParcel": 87,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FIELDS WAY",
@@ -117878,7 +125423,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7611271095916098
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 87,
+      "valueOfParcel": 87,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -117929,7 +125479,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7462109212877707
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 701,
+      "valueOfParcel": 701,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -118196,7 +125751,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3635608705280054
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 32022,
+      "valueOfParcel": 32022,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -118251,7 +125811,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6502719371033072
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 815,
+      "valueOfParcel": 815,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HARRISON RD",
@@ -118310,7 +125875,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5627424462920285
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 104600,
+      "valueOfParcel": 104600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HARRISON RD",
@@ -118365,7 +125935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5656140538860012
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 42300,
+      "valueOfParcel": 42300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -118420,7 +125995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.747581288837344
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TAYLOR CIR",
@@ -118475,7 +126055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7144912670387418
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14300,
+      "valueOfParcel": 14300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GRANT RD",
@@ -118530,7 +126115,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6707916971490686
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8100,
+      "valueOfParcel": 8100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -118581,7 +126171,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7673967227234155
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10400,
+      "valueOfParcel": 10400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFFERSON DR",
@@ -118632,7 +126227,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7753954615766255
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MADISON DR",
@@ -118683,7 +126283,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7696954236880744
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13000,
+      "valueOfParcel": 13000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -118738,7 +126343,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6207329970147725
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VAN BUREN CIR",
@@ -118805,7 +126415,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.524967082093467
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 100,
+      "valueOfLand": 28500,
+      "valueOfParcel": 28600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCKINLEY DR",
@@ -118888,7 +126503,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37113126065800145
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 118800,
+      "valueOfParcel": 118800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "104 GARFIELD DR",
@@ -118943,7 +126563,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5715381718405586
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 126100,
+      "valueOfLand": 211500,
+      "valueOfParcel": 337600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HAYES RD",
@@ -118994,7 +126619,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7595508334304669
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11100,
+      "valueOfParcel": 11100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -119045,7 +126675,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7403228958790056
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11200,
+      "valueOfParcel": 11200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PIERCE RD",
@@ -119092,7 +126727,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7783076284155915
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12600,
+      "valueOfParcel": 12600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -119143,7 +126783,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8002961348492781
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12100,
+      "valueOfParcel": 12100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -119194,7 +126839,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7884826438718363
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -119245,7 +126895,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.60422725201076
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -119296,7 +126951,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6261315178967517
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LINCOLN DR",
@@ -119359,7 +127019,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7356920207115529
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -119414,7 +127079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6752168091071573
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10200,
+      "valueOfParcel": 10200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -119465,7 +127135,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5726938112537581
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10300,
+      "valueOfParcel": 10300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "421 PRESIDENTIAL DR",
@@ -119516,7 +127191,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7613685776181831
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 58300,
+      "valueOfLand": 35800,
+      "valueOfParcel": 94100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "CLEVELAND CIR",
@@ -119571,7 +127251,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7763852226887845
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11300,
+      "valueOfParcel": 11300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JACKSON DR",
@@ -119618,7 +127303,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7612147696951391
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -119689,7 +127379,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6254946361697487
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 37700,
+      "valueOfParcel": 37700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -119740,7 +127435,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7923304079662582
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11400,
+      "valueOfParcel": 11400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "418 COOLIDGE DR",
@@ -119815,7 +127515,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6852610378078352
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 193300,
+      "valueOfLand": 45100,
+      "valueOfParcel": 238400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -119870,7 +127575,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7337798381351388
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3400,
+      "valueOfParcel": 3400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT ACRE RD",
@@ -119921,7 +127631,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48681351352619456
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1300,
+      "valueOfLand": 81500,
+      "valueOfParcel": 82800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120000,7 +127715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7309692840692877
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10300,
+      "valueOfParcel": 10300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BUCHANAN CIR",
@@ -120071,7 +127791,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7437110558396245
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12000,
+      "valueOfParcel": 12000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120138,7 +127863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.818527029015341
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14700,
+      "valueOfParcel": 14700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120197,7 +127927,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6664223452487951
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12200,
+      "valueOfParcel": 12200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120256,7 +127991,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5700137122365464
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11800,
+      "valueOfParcel": 11800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120311,7 +128051,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5268395822831704
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12800,
+      "valueOfParcel": 12800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120362,7 +128107,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5885722469080209
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1900,
+      "valueOfLand": 12700,
+      "valueOfParcel": 14600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120425,7 +128175,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6272135132644425
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11700,
+      "valueOfParcel": 11700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COOLIDGE DR",
@@ -120488,7 +128243,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.608417331765004
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11600,
+      "valueOfParcel": 11600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -120743,7 +128503,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5030357413989024
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 912,
+      "valueOfParcel": 912,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD MARLOW RD",
@@ -120802,7 +128567,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45360706640884757
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 544,
+      "valueOfParcel": 544,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HUNTLEY MT RD",
@@ -120869,7 +128639,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6153101040066924
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 811,
+      "valueOfParcel": 811,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HUNTLEY MT RD",
@@ -120940,7 +128715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5992917607529288
       ],
-      "usage": "101"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "101",
+      "valueOfImprovement": 0,
+      "valueOfLand": 51700,
+      "valueOfParcel": 51700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT ACRE RD",
@@ -120991,7 +128771,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6488607014312325
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21100,
+      "valueOfParcel": 21100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT ACRE RD",
@@ -121042,7 +128827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.622977648836552
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23100,
+      "valueOfParcel": 23100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LANG RD",
@@ -121121,7 +128911,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47763622355580626
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24600,
+      "valueOfParcel": 24600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "51 COTTAGE LN",
@@ -121192,7 +128987,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6807359137174765
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 50600,
+      "valueOfLand": 32600,
+      "valueOfParcel": 83200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 COTTAGE LN",
@@ -121259,7 +129059,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7264121172469341
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 51200,
+      "valueOfLand": 29400,
+      "valueOfParcel": 80600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "31 LANG RD",
@@ -121306,7 +129111,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7177057536590296
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 52100,
+      "valueOfLand": 23300,
+      "valueOfParcel": 75400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "41 LANG RD",
@@ -121357,7 +129167,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7540245183259396
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 47100,
+      "valueOfLand": 17400,
+      "valueOfParcel": 64500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "530 MARLOW RD",
@@ -121404,7 +129219,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7594101567086272
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 3500,
+      "valueOfLand": 28400,
+      "valueOfParcel": 31900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -121515,7 +129335,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5383343516483986
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2137,
+      "valueOfParcel": 2137,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -121750,7 +129575,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5372575035337394
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1700,
+      "valueOfLand": 87803,
+      "valueOfParcel": 89503,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -121949,7 +129779,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3977114763242284
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 4200,
+      "valueOfLand": 41510,
+      "valueOfParcel": 45710,
+      "yearOfCAMA": 2020
     },
     {
       "address": "30 ASHUELOT POND",
@@ -122084,7 +129919,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5950573662732613
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 89500,
+      "valueOfLand": 109800,
+      "valueOfParcel": 199300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -122155,7 +129995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7439023296556977
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 55600,
+      "valueOfParcel": 55600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 ASHUELOT POND",
@@ -122210,7 +130055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7673910661990907
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 38800,
+      "valueOfLand": 77400,
+      "valueOfParcel": 116200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "52 ASHUELOT POND",
@@ -122265,7 +130115,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6424870499618861
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 24900,
+      "valueOfLand": 47500,
+      "valueOfParcel": 72400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "66 ASHUELOT POND",
@@ -122316,7 +130171,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6159332737646251
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16000,
+      "valueOfLand": 43000,
+      "valueOfParcel": 59000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "56 ASHUELOT POND",
@@ -122371,7 +130231,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6081682373425403
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 26100,
+      "valueOfLand": 65800,
+      "valueOfParcel": 91900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 ASHUELOT POND",
@@ -122422,7 +130287,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7925243459097879
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 45600,
+      "valueOfLand": 45100,
+      "valueOfParcel": 90700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "64 ASHUELOT POND",
@@ -122477,7 +130347,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3778517623401479
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 13800,
+      "valueOfLand": 40600,
+      "valueOfParcel": 54400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 ASHUELOT POND",
@@ -122524,7 +130399,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6216693634374876
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16600,
+      "valueOfLand": 47500,
+      "valueOfParcel": 64100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "74 BRENDA LN",
@@ -122583,7 +130463,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7300493693569984
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 93600,
+      "valueOfLand": 58300,
+      "valueOfParcel": 151900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BRENDA LN",
@@ -122654,7 +130539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5253099595122235
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 83,
+      "valueOfParcel": 83,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -122725,7 +130615,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.578705458326533
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 81700,
+      "valueOfParcel": 81700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BRENDA LN",
@@ -122788,7 +130683,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7644730818337508
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1500,
+      "valueOfLand": 29800,
+      "valueOfParcel": 31300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "72 BRENDA LN",
@@ -122851,7 +130751,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7479558035266234
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 13800,
+      "valueOfLand": 29700,
+      "valueOfParcel": 43500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HUNTLEY MT RD",
@@ -122898,7 +130803,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7803890418536843
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22700,
+      "valueOfParcel": 22700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "34 HUNTLEY MT RD",
@@ -122957,7 +130867,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.554959668023579
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 1200,
+      "valueOfLand": 14800,
+      "valueOfParcel": 16000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -123056,7 +130971,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46972266351604375
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2368,
+      "valueOfParcel": 2368,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -123247,7 +131167,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.22136289357096092
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1223,
+      "valueOfParcel": 1223,
+      "yearOfCAMA": 2020
     },
     {
       "address": "270 ASHUELOT POND",
@@ -123346,7 +131271,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6332477109949403
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 29400,
+      "valueOfLand": 165100,
+      "valueOfParcel": 194500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "95 MARLOW RD",
@@ -123757,7 +131687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2065266219159529
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 653,
+      "valueOfParcel": 653,
+      "yearOfCAMA": 2020
     },
     {
       "address": "578 MARLOW RD",
@@ -123808,7 +131743,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6267677568496116
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 30000,
+      "valueOfLand": 25600,
+      "valueOfParcel": 55600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -123859,7 +131799,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6802981596917763
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25800,
+      "valueOfParcel": 25800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "594 MARLOW RD",
@@ -123906,7 +131851,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7530597234267504
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 76700,
+      "valueOfLand": 29800,
+      "valueOfParcel": 106500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -123957,7 +131907,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7256534421609726
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17200,
+      "valueOfParcel": 17200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -124060,7 +132015,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6121574264107741
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21200,
+      "valueOfParcel": 21200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "184 MARLOW RD",
@@ -124107,7 +132067,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6782316403213853
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 118200,
+      "valueOfLand": 38100,
+      "valueOfParcel": 156300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "RUSSELL MILLPOND RD",
@@ -124282,7 +132247,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6461716161035621
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3067,
+      "valueOfParcel": 3067,
+      "yearOfCAMA": 2020
     },
     {
       "address": "180 ASHUELOT POND",
@@ -124333,7 +132303,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7488975091783977
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2500,
+      "valueOfLand": 60700,
+      "valueOfParcel": 63200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "182 ASHUELOT POND",
@@ -124380,7 +132355,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.526008187218797
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 21200,
+      "valueOfLand": 49400,
+      "valueOfParcel": 70600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "188 ASHUELOT POND",
@@ -124431,7 +132411,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6981087953710172
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 60600,
+      "valueOfParcel": 60600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "196 ASHUELOT POND",
@@ -124490,7 +132475,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8322503284743618
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 25000,
+      "valueOfLand": 67000,
+      "valueOfParcel": 92000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "204 ASHUELOT POND",
@@ -124545,7 +132535,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6545690863915182
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 29000,
+      "valueOfLand": 66800,
+      "valueOfParcel": 95800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "208 ASHUELOT POND",
@@ -124600,7 +132595,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6729921319536568
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 3300,
+      "valueOfLand": 67000,
+      "valueOfParcel": 70300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "214 ASHUELOT POND",
@@ -124659,7 +132659,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7463612829779595
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 15900,
+      "valueOfLand": 60600,
+      "valueOfParcel": 76500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "GARFIELD DR",
@@ -124830,7 +132835,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6610304321129223
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 517,
+      "valueOfParcel": 517,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -125137,7 +133147,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2107841283130623
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2305,
+      "valueOfParcel": 2305,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -125220,7 +133235,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43715148346721666
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 310,
+      "valueOfParcel": 310,
+      "yearOfCAMA": 2020
     },
     {
       "address": "138 MARLOW RD",
@@ -125295,7 +133315,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.689566257096999
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 154600,
+      "valueOfLand": 34125,
+      "valueOfParcel": 188725,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -125350,7 +133375,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2740079909716449
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26400,
+      "valueOfParcel": 26400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "14 PENINSULA DR",
@@ -125441,7 +133471,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3846753348762023
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -125504,7 +133539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6601970280913373
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 632,
+      "valueOfParcel": 632,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 MARLOW RD",
@@ -125595,7 +133635,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41981055898620595
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 36800,
+      "valueOfLand": 72389,
+      "valueOfParcel": 109189,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -125642,7 +133687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6083380962341763
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 81000,
+      "valueOfParcel": 81000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -125693,7 +133743,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5642578385458175
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36600,
+      "valueOfParcel": 36600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -125756,7 +133811,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45645770662092483
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 132900,
+      "valueOfParcel": 132900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -125819,7 +133879,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4454076065432953
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17900,
+      "valueOfParcel": 17900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT ACRE RD",
@@ -125866,7 +133931,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6557838424848562
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT ACRE RD",
@@ -125917,7 +133987,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6899340202141429
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 76900,
+      "valueOfParcel": 76900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -126040,7 +134115,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49296231187190065
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 137100,
+      "valueOfParcel": 137100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -126087,7 +134167,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7196203420839219
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3900,
+      "valueOfParcel": 3900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MARLOW RD",
@@ -126134,7 +134219,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5845211997969028
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -126197,7 +134287,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.23805522039541552
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 544,
+      "valueOfParcel": 544,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -126264,7 +134359,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3296345596641439
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 374,
+      "valueOfParcel": 374,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -126359,7 +134459,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4680417049321329
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1480,
+      "valueOfParcel": 1480,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -126534,7 +134639,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5928021071832343
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11871,
+      "valueOfParcel": 11871,
+      "yearOfCAMA": 2020
     },
     {
       "address": "719 FAXON HILL RD",
@@ -126597,7 +134707,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7791447884282265
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 45800,
+      "valueOfParcel": 45800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "773 FAXON HILL RD",
@@ -126648,7 +134763,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6336422456678905
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 7900,
+      "valueOfLand": 39100,
+      "valueOfParcel": 47000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -126707,7 +134827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5668318657025461
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 37700,
+      "valueOfParcel": 37700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "861 FAXON HILL RD",
@@ -126802,7 +134927,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4596855569937462
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 48500,
+      "valueOfLand": 56800,
+      "valueOfParcel": 105300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "889 FAXON HILL RD",
@@ -126853,7 +134983,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6442521463025853
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 53700,
+      "valueOfLand": 51000,
+      "valueOfParcel": 104700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -126924,7 +135059,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5428894838338795
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 898,
+      "valueOfParcel": 898,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -127003,7 +135143,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6182610565670374
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34800,
+      "valueOfParcel": 34800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -127146,7 +135291,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4729920513611888
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8416,
+      "valueOfParcel": 8416,
+      "yearOfCAMA": 2020
     },
     {
       "address": "333 KING ST",
@@ -127301,7 +135451,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7245865231125331
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 52800,
+      "valueOfLand": 27571,
+      "valueOfParcel": 80371,
+      "yearOfCAMA": 2020
     },
     {
       "address": "413 KING ST",
@@ -127361,7 +135516,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7289082129749329
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 47800,
+      "valueOfLand": 29200,
+      "valueOfParcel": 77000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "436 KING ST",
@@ -127920,7 +136080,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47140114037471353
       ],
-      "usage": "33"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "33",
+      "valueOfImprovement": 1129800,
+      "valueOfLand": 469122,
+      "valueOfParcel": 1598922,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -128143,7 +136308,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5491422642901774
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2174,
+      "valueOfParcel": 2174,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -128450,7 +136620,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5501784589901298
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21563,
+      "valueOfParcel": 21563,
+      "yearOfCAMA": 2020
     },
     {
       "address": "114 OLD HAYING RD",
@@ -128537,7 +136712,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49667862113673755
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 103000,
+      "valueOfLand": 187800,
+      "valueOfParcel": 290800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD HAYING RD",
@@ -128632,7 +136812,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2647168080209326
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 398,
+      "valueOfParcel": 398,
+      "yearOfCAMA": 2020
     },
     {
       "address": "15 OLD HAYING RD",
@@ -128727,7 +136912,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37387352248846417
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 187100,
+      "valueOfLand": 181600,
+      "valueOfParcel": 368700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PINE POINT RD",
@@ -128886,7 +137076,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.36276030201661064
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1337,
+      "valueOfParcel": 1337,
+      "yearOfCAMA": 2020
     },
     {
       "address": "152 PINE POINT RD",
@@ -129045,7 +137240,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3522303414724308
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 105000,
+      "valueOfLand": 267214,
+      "valueOfParcel": 372214,
+      "yearOfCAMA": 2020
     },
     {
       "address": "140 PINE POINT RD",
@@ -129156,7 +137356,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3714175333020133
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 131800,
+      "valueOfLand": 190500,
+      "valueOfParcel": 322300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PINE POINT RD",
@@ -129227,7 +137432,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6217511993730369
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 279,
+      "valueOfParcel": 279,
+      "yearOfCAMA": 2020
     },
     {
       "address": "758 FAXON HILL RD",
@@ -129330,7 +137540,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6708634963264992
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 117800,
+      "valueOfLand": 199899,
+      "valueOfParcel": 317699,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -129385,7 +137600,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6903489522222929
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 417,
+      "valueOfParcel": 417,
+      "yearOfCAMA": 2020
     },
     {
       "address": "19 PINE POINT RD",
@@ -129444,7 +137664,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7338388851261638
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 84900,
+      "valueOfLand": 39800,
+      "valueOfParcel": 124700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -129495,7 +137720,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.713596276862513
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 298,
+      "valueOfParcel": 298,
+      "yearOfCAMA": 2020
     },
     {
       "address": "739 MILLEN POND RD",
@@ -129574,7 +137804,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5728555724230331
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 102200,
+      "valueOfLand": 222500,
+      "valueOfParcel": 324700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -129626,7 +137861,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6350408428139687
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 41500,
+      "valueOfParcel": 41500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "791 MILLEN POND RD",
@@ -129686,7 +137926,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48746814158964813
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2900,
+      "valueOfLand": 67100,
+      "valueOfParcel": 70000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -129749,7 +137994,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6940066747559164
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 68000,
+      "valueOfParcel": 68000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -129801,7 +138051,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7463430158413356
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10500,
+      "valueOfParcel": 10500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -129853,7 +138108,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7584610921166592
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 27500,
+      "valueOfParcel": 27500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -130092,7 +138352,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5273533929262744
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 105625,
+      "valueOfParcel": 105625,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -130148,7 +138413,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5219827742678536
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 46600,
+      "valueOfParcel": 46600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -130204,7 +138474,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7520370026973116
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19,
+      "valueOfParcel": 19,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -130260,7 +138535,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.796289892424915
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 46400,
+      "valueOfParcel": 46400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -130399,7 +138679,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6466066892342505
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 338,
+      "valueOfParcel": 338,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OAK TERR",
@@ -130454,7 +138739,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.75455202048447
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16500,
+      "valueOfParcel": 16500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -130749,7 +139039,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5485021624744641
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1859,
+      "valueOfParcel": 1859,
+      "yearOfCAMA": 2020
     },
     {
       "address": "PRESIDENTIAL DR",
@@ -130836,7 +139131,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5981765476811999
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24800,
+      "valueOfParcel": 24800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1004 MILLEN POND RD",
@@ -130883,7 +139183,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6344077946735078
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 39600,
+      "valueOfLand": 34800,
+      "valueOfParcel": 74400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1002 MILLEN POND RD",
@@ -130930,7 +139235,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.700975979935629
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 39300,
+      "valueOfLand": 35300,
+      "valueOfParcel": 74600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -130981,7 +139291,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8101203327956683
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 27200,
+      "valueOfParcel": 27200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -131033,7 +139348,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7147801018920045
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 900,
+      "valueOfLand": 45700,
+      "valueOfParcel": 46600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -131124,7 +139444,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7711845975933485
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9300,
+      "valueOfParcel": 9300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ADAMS DR",
@@ -131203,7 +139528,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5400151532456576
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11700,
+      "valueOfParcel": 11700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -131262,7 +139592,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41161248339180284
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 44000,
+      "valueOfParcel": 44000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "177 KING ST",
@@ -131341,7 +139676,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4033486037053253
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 3800,
+      "valueOfLand": 18457,
+      "valueOfParcel": 22257,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -131416,7 +139756,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48693756114758846
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 700,
+      "valueOfParcel": 700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -131475,7 +139820,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4499106757525325
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 43200,
+      "valueOfParcel": 43200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "116 OLD HAYING RD",
@@ -131546,7 +139896,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5827994779263082
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 28400,
+      "valueOfLand": 190900,
+      "valueOfParcel": 219300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -131605,7 +139960,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46990081649761245
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1769,
+      "valueOfParcel": 1769,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -131668,7 +140028,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4577852965322707
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1490,
+      "valueOfParcel": 1490,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FAXON HILL RD",
@@ -131719,7 +140084,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5796354530785836
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1833,
+      "valueOfParcel": 1833,
+      "yearOfCAMA": 2020
     },
     {
       "address": "112 OLD HAYING RD",
@@ -131794,7 +140164,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8181506108432515
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 161900,
+      "valueOfLand": 199230,
+      "valueOfParcel": 361130,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -131846,7 +140221,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.541046843570502
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20100,
+      "valueOfParcel": 20100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -131898,7 +140278,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6139609165729819
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20200,
+      "valueOfParcel": 20200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -131950,7 +140335,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5296784062667261
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20600,
+      "valueOfParcel": 20600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "504 SO MAIN ST",
@@ -132237,7 +140627,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.43298394205828755
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 211100,
+      "valueOfLand": 41284,
+      "valueOfParcel": 252384,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MAPLE WAY",
@@ -132292,7 +140687,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6699802685093131
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16400,
+      "valueOfParcel": 16400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MAPLE WAY",
@@ -132339,7 +140739,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7308439905322495
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15500,
+      "valueOfParcel": 15500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "800 SO MAIN ST",
@@ -132758,7 +141163,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.41698272981680345
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 7400,
+      "valueOfLand": 38852,
+      "valueOfParcel": 46252,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MAPLE WAY",
@@ -132805,7 +141215,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5595280974125649
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19300,
+      "valueOfParcel": 19300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -132952,7 +141367,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5404067468674265
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2263,
+      "valueOfParcel": 2263,
+      "yearOfCAMA": 2020
     },
     {
       "address": "175 HIGHLAND HAVEN RD",
@@ -133147,7 +141567,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.23052650360540775
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 530,
+      "valueOfParcel": 530,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -133274,7 +141699,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4447888742820643
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 208,
+      "valueOfParcel": 208,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -133321,7 +141751,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6277034819463813
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15500,
+      "valueOfParcel": 15500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -133372,7 +141807,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7705069291702998
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20700,
+      "valueOfParcel": 20700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MAPLE WAY",
@@ -133419,7 +141859,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5802032225536925
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15500,
+      "valueOfParcel": 15500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -133478,7 +141923,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7743790051631187
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2700,
+      "valueOfLand": 17000,
+      "valueOfParcel": 19700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -133573,7 +142023,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4748967236495006
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4047,
+      "valueOfParcel": 4047,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -133684,7 +142139,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.491956420631521
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2911,
+      "valueOfParcel": 2911,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1074 SO MAIN ST",
@@ -133903,7 +142363,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5726471283209681
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8472,
+      "valueOfParcel": 8472,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1258 SO MAIN ST",
@@ -133994,7 +142459,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6874515396880962
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 83300,
+      "valueOfLand": 39687,
+      "valueOfParcel": 122987,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -134077,7 +142547,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7587419448731082
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2249,
+      "valueOfParcel": 2249,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1251 SO MAIN ST",
@@ -134172,7 +142647,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6170824368234787
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 12300,
+      "valueOfLand": 9135,
+      "valueOfParcel": 21435,
+      "yearOfCAMA": 2020
     },
     {
       "address": "79 BAILEY RD",
@@ -134231,7 +142711,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6704774853157318
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 58200,
+      "valueOfLand": 33300,
+      "valueOfParcel": 91500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -134282,7 +142767,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7590495306551771
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 71,
+      "valueOfParcel": 71,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 DOLE SCHOOL HOUSE RD",
@@ -134333,7 +142823,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6923920360399356
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21100,
+      "valueOfParcel": 21100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1399 SO MAIN ST",
@@ -134384,7 +142879,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7831677552611752
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 8400,
+      "valueOfLand": 32000,
+      "valueOfParcel": 40400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1693 SO MAIN ST",
@@ -134495,7 +142995,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5775142819097915
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 245800,
+      "valueOfLand": 40546,
+      "valueOfParcel": 286346,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -134550,7 +143055,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.761305043418323
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14400,
+      "valueOfParcel": 14400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -134629,7 +143139,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.32777899704335284
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4059,
+      "valueOfParcel": 4059,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -134688,7 +143203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6246083017882536
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1046,
+      "valueOfParcel": 1046,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -134735,7 +143255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49203922969311065
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 189,
+      "valueOfParcel": 189,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -134798,7 +143323,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.403639890187211
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 639,
+      "valueOfParcel": 639,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -134889,7 +143419,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4931669902301073
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3221,
+      "valueOfParcel": 3221,
+      "yearOfCAMA": 2020
     },
     {
       "address": "4003 E WASHINGTON RD",
@@ -134936,7 +143471,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.450320501031402
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26400,
+      "valueOfParcel": 26400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -135083,7 +143623,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4336336976344314
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4916,
+      "valueOfParcel": 4916,
+      "yearOfCAMA": 2020
     },
     {
       "address": "963 SO MAIN ST",
@@ -135162,7 +143707,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5052138609582557
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 179100,
+      "valueOfLand": 91800,
+      "valueOfParcel": 270900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "961 SO MAIN ST",
@@ -135221,7 +143771,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45877705747205944
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 4600,
+      "valueOfLand": 91100,
+      "valueOfParcel": 95700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135268,7 +143823,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40788735601808707
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 501,
+      "valueOfParcel": 501,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135375,7 +143935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49189802144625944
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 846,
+      "valueOfParcel": 846,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135438,7 +144003,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3594068428917159
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 485,
+      "valueOfParcel": 485,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135525,7 +144095,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3526520152725116
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 606,
+      "valueOfParcel": 606,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135572,7 +144147,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4158366782207911
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 396,
+      "valueOfParcel": 396,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135627,7 +144207,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45027515985454314
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 396,
+      "valueOfParcel": 396,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135682,7 +144267,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4890832123609349
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 396,
+      "valueOfParcel": 396,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -135737,7 +144327,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7568494740124339
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 192,
+      "valueOfParcel": 192,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -135812,7 +144407,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2966956463544557
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 235,
+      "valueOfParcel": 235,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -135899,7 +144499,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48129233548121586
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 250,
+      "valueOfParcel": 250,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136054,7 +144659,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5619290568787593
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 394,
+      "valueOfParcel": 394,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136153,7 +144763,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48748064054435164
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 182,
+      "valueOfParcel": 182,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136248,7 +144863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3464423497955582
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 170,
+      "valueOfParcel": 170,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136303,7 +144923,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3465694525709887
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 594,
+      "valueOfParcel": 594,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136394,7 +145019,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25413698339604357
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 274,
+      "valueOfParcel": 274,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136465,7 +145095,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2532769400952075
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 363,
+      "valueOfParcel": 363,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136576,7 +145211,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.276121837601195
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 714,
+      "valueOfParcel": 714,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136631,7 +145271,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25953008748594003
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 559,
+      "valueOfParcel": 559,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136686,7 +145331,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25027164117465855
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 556,
+      "valueOfParcel": 556,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136745,7 +145395,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30807079848247926
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26000,
+      "valueOfParcel": 26000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136812,7 +145467,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37557268446713543
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 833,
+      "valueOfParcel": 833,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136867,7 +145527,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3053079684234845
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 620,
+      "valueOfParcel": 620,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136926,7 +145591,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35959927657269314
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 586,
+      "valueOfParcel": 586,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -136981,7 +145651,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5764818998234451
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 746,
+      "valueOfParcel": 746,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WASHINGTON DR",
@@ -137040,7 +145715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.345131655823783
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26600,
+      "valueOfParcel": 26600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -137095,7 +145775,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3226291154977094
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -137142,7 +145827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31371518897729395
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13000,
+      "valueOfParcel": 13000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -137189,7 +145879,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3671135051167401
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13100,
+      "valueOfParcel": 13100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "138 BAILEY RD",
@@ -137252,7 +145947,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48736391715847915
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 102000,
+      "valueOfLand": 45200,
+      "valueOfParcel": 147200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -137307,7 +146007,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7720037973516771
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 679,
+      "valueOfParcel": 679,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -137362,7 +146067,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.743648699124881
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 7738,
+      "valueOfParcel": 7738,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -137445,7 +146155,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7569777535683357
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5209,
+      "valueOfParcel": 5209,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -137628,7 +146343,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6581663131684579
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8045,
+      "valueOfParcel": 8045,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -137695,7 +146415,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6960500800928231
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4660,
+      "valueOfParcel": 4660,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -137750,7 +146475,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5108572823590932
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2583,
+      "valueOfParcel": 2583,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 SWEENEY RD",
@@ -137801,7 +146531,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7159361398595182
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 79500,
+      "valueOfLand": 26000,
+      "valueOfParcel": 105500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "964 JEFTS RD",
@@ -137852,7 +146587,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6939018359192181
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 22300,
+      "valueOfLand": 15000,
+      "valueOfParcel": 37300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WILD ACRE DR",
@@ -137949,7 +146689,12 @@ export const LANDGRID = {
         0.7554867896798951,
         0.7278945403404573
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 42300,
+      "valueOfParcel": 42300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "44 BARDEN POND RD",
@@ -137996,7 +146741,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45021014545665017
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18600,
+      "valueOfParcel": 18600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WILD ACRE DR",
@@ -138068,7 +146818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7352870055317623
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 55700,
+      "valueOfParcel": 55700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KINGSBURY HILL RD",
@@ -138295,7 +147050,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7485308491344171
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5123,
+      "valueOfParcel": 5123,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SMITH POND RD",
@@ -138342,7 +147102,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7424484959569985
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 152,
+      "valueOfParcel": 152,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -138597,7 +147362,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5787823579674083
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 29421,
+      "valueOfParcel": 29421,
+      "yearOfCAMA": 2020
     },
     {
       "address": "926 JEFTS RD",
@@ -138644,7 +147414,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6750660187752646
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16900,
+      "valueOfLand": 15000,
+      "valueOfParcel": 31900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -138691,7 +147466,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.660167564464324
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 7,
+      "valueOfParcel": 7,
+      "yearOfCAMA": 2020
     },
     {
       "address": "990 JEFTS RD",
@@ -138770,7 +147550,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6862005911817616
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 1000,
+      "valueOfLand": 5508,
+      "valueOfParcel": 6508,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -138949,7 +147734,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5309693043912076
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1191,
+      "valueOfParcel": 1191,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -139024,7 +147814,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5900284731795812
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 49900,
+      "valueOfParcel": 49900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -139083,7 +147878,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6391139155701202
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 46600,
+      "valueOfParcel": 46600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -139402,7 +148202,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2889004462432756
       ],
-      "usage": "101"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "101",
+      "valueOfImprovement": 0,
+      "valueOfLand": 109600,
+      "valueOfParcel": 109600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "RUSSELL MILLPOND RD",
@@ -139457,7 +148262,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7430685404093054
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1627,
+      "valueOfParcel": 1627,
+      "yearOfCAMA": 2020
     },
     {
       "address": "RUSSELL MILLPOND RD",
@@ -139552,7 +148362,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5783031838902887
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12869,
+      "valueOfParcel": 12869,
+      "yearOfCAMA": 2020
     },
     {
       "address": "34 RUSSELL MILLPOND RD",
@@ -139683,7 +148498,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25343455205806553
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 23800,
+      "valueOfLand": 31430,
+      "valueOfParcel": 55230,
+      "yearOfCAMA": 2020
     },
     {
       "address": "70 RUSSELL MILLPOND RD",
@@ -139814,7 +148634,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5132815906491988
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18900,
+      "valueOfParcel": 18900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -139881,7 +148706,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7603595828910037
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 63,
+      "valueOfParcel": 63,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -139932,7 +148762,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7837936172208047
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 45,
+      "valueOfParcel": 45,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -139991,7 +148826,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.625091846573532
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 54,
+      "valueOfParcel": 54,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -140054,7 +148894,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7805211735541231
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17500,
+      "valueOfParcel": 17500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JEFTS RD",
@@ -140273,7 +149118,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.36800119384026686
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8022,
+      "valueOfParcel": 8022,
+      "yearOfCAMA": 2020
     },
     {
       "address": "162 ASHUELOT POND",
@@ -140336,7 +149186,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6734560167897031
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 78400,
+      "valueOfLand": 69700,
+      "valueOfParcel": 148100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "176 ASHUELOT POND",
@@ -140403,7 +149258,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.592975053517536
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 25400,
+      "valueOfLand": 77400,
+      "valueOfParcel": 102800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "170 ASHUELOT POND",
@@ -140454,7 +149314,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7478747333264022
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 24300,
+      "valueOfLand": 67000,
+      "valueOfParcel": 91300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -140513,7 +149378,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5814327310750449
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22,
+      "valueOfParcel": 22,
+      "yearOfCAMA": 2020
     },
     {
       "address": "154 ASHUELOT POND",
@@ -140572,7 +149442,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6745216282305585
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 45800,
+      "valueOfLand": 86400,
+      "valueOfParcel": 132200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "148 ASHUELOT POND",
@@ -140631,7 +149506,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6577647026280906
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 11400,
+      "valueOfLand": 86500,
+      "valueOfParcel": 97900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KAREN LN",
@@ -140686,7 +149566,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42047749156313635
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14,
+      "valueOfParcel": 14,
+      "yearOfCAMA": 2020
     },
     {
       "address": "144 ASHUELOT POND",
@@ -140745,7 +149630,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6503442238728282
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 60800,
+      "valueOfLand": 71500,
+      "valueOfParcel": 132300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "32 SWEENEY RD",
@@ -140796,7 +149686,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7834045138037498
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 12500,
+      "valueOfLand": 23700,
+      "valueOfParcel": 36200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "140 ASHUELOT POND",
@@ -140871,7 +149766,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.646857496919103
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 67300,
+      "valueOfLand": 95700,
+      "valueOfParcel": 163000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -140974,7 +149874,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6135702465424336
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26,
+      "valueOfParcel": 26,
+      "yearOfCAMA": 2020
     },
     {
       "address": "128 ASHUELOT POND",
@@ -141057,7 +149962,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5022567444418065
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 26500,
+      "valueOfLand": 86300,
+      "valueOfParcel": 112800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "124 ASHUELOT POND",
@@ -141124,7 +150034,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6320007163300819
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 26400,
+      "valueOfLand": 87000,
+      "valueOfParcel": 113400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "114 ASHUELOT POND",
@@ -141215,7 +150130,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47051186518827653
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 32100,
+      "valueOfLand": 84947,
+      "valueOfParcel": 117047,
+      "yearOfCAMA": 2020
     },
     {
       "address": "104 ASHUELOT POND",
@@ -141266,7 +150186,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7697738396917423
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 9600,
+      "valueOfLand": 58800,
+      "valueOfParcel": 68400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "90 ASHUELOT POND",
@@ -141329,7 +150254,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6358220493130504
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 20400,
+      "valueOfLand": 79400,
+      "valueOfParcel": 99800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "96 KAREN LN",
@@ -141380,7 +150310,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7169950305001868
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 83400,
+      "valueOfLand": 115000,
+      "valueOfParcel": 198400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "88 ASHUELOT POND",
@@ -141447,7 +150382,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5810671831703287
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 11700,
+      "valueOfLand": 76000,
+      "valueOfParcel": 87700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "166 ASHUELOT POND",
@@ -141530,7 +150470,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3006780896082645
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 2400,
+      "valueOfLand": 79000,
+      "valueOfParcel": 81400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "84 ASHUELOT POND",
@@ -141585,7 +150530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47898296577633204
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16000,
+      "valueOfLand": 67900,
+      "valueOfParcel": 83900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -141644,7 +150594,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42029895669849104
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15300,
+      "valueOfParcel": 15300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -141703,7 +150658,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5661688222189122
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20900,
+      "valueOfParcel": 20900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -141766,7 +150726,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.608626519920152
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20900,
+      "valueOfParcel": 20900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -141837,7 +150802,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5820061326944536
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 289,
+      "valueOfParcel": 289,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -141956,7 +150926,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7791943854421762
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3602,
+      "valueOfParcel": 3602,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142023,7 +150998,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47572155192795557
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 289,
+      "valueOfParcel": 289,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142086,7 +151066,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3818039046524787
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 310,
+      "valueOfParcel": 310,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142149,7 +151134,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3652102567774159
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22500,
+      "valueOfParcel": 22500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142212,7 +151202,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3715290782973845
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22200,
+      "valueOfParcel": 22200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142263,7 +151258,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.37084864531400324
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21200,
+      "valueOfParcel": 21200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142322,7 +151322,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3874828270794942
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21200,
+      "valueOfParcel": 21200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142381,7 +151386,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.39771183413573274
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20900,
+      "valueOfParcel": 20900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "50 BARDEN POND RD",
@@ -142444,7 +151454,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31151247943703275
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 32600,
+      "valueOfLand": 23900,
+      "valueOfParcel": 56500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SWEENEY RD",
@@ -142507,7 +151522,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7225084145138952
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20100,
+      "valueOfParcel": 20100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -142586,7 +151606,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25227216236319017
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 43500,
+      "valueOfParcel": 43500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "613 KING ST",
@@ -142737,7 +151762,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.476958694978589
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17627,
+      "valueOfParcel": 17627,
+      "yearOfCAMA": 2020
     },
     {
       "address": "467 KING ST",
@@ -142820,7 +151850,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7552633271132558
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 26200,
+      "valueOfLand": 28938,
+      "valueOfParcel": 55138,
+      "yearOfCAMA": 2020
     },
     {
       "address": "851 KING ST",
@@ -142876,7 +151911,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7671796539647946
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 25500,
+      "valueOfLand": 28769,
+      "valueOfParcel": 54269,
+      "yearOfCAMA": 2020
     },
     {
       "address": "859 KING ST",
@@ -142932,7 +151972,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7662292139519531
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 25500,
+      "valueOfLand": 22400,
+      "valueOfParcel": 47900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "893 KING ST",
@@ -143004,7 +152049,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5039470086545859
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 28800,
+      "valueOfLand": 26400,
+      "valueOfParcel": 55200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "47 SWEENEY RD",
@@ -143063,7 +152113,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7988246673415821
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 28200,
+      "valueOfLand": 29200,
+      "valueOfParcel": 57400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "17 SWEENEY RD",
@@ -143183,7 +152238,12 @@ export const LANDGRID = {
         0.2834122284160006,
         0.34019541920275603
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 66500,
+      "valueOfLand": 33500,
+      "valueOfParcel": 100000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "1021 KING ST",
@@ -143342,7 +152402,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5995936001636638
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 24400,
+      "valueOfLand": 49613,
+      "valueOfParcel": 74013,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -143389,7 +152454,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6372817449449881
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 626,
+      "valueOfParcel": 626,
+      "yearOfCAMA": 2020
     },
     {
       "address": "KING ST",
@@ -143445,7 +152515,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7662514799382504
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15000,
+      "valueOfParcel": 15000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "129 BAILEY RD",
@@ -143512,7 +152587,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7801816941030288
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 59900,
+      "valueOfLand": 39300,
+      "valueOfParcel": 99200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -143623,7 +152703,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3463760220716653
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26300,
+      "valueOfParcel": 26300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "35 SWEENEY RD",
@@ -143678,7 +152763,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.66985647843613
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 22500,
+      "valueOfLand": 30400,
+      "valueOfParcel": 52900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SWEENEY RD",
@@ -143733,7 +152823,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.666102570271504
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1500,
+      "valueOfParcel": 1500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "49 SWEENEY RD",
@@ -143800,7 +152895,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7964143267560344
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 9300,
+      "valueOfLand": 22300,
+      "valueOfParcel": 31600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "42 SWEENEY RD",
@@ -143851,7 +152951,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7632223557991145
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 42800,
+      "valueOfLand": 26100,
+      "valueOfParcel": 68900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "76 JUNIPER DR",
@@ -143918,7 +153023,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7168844076633186
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 32700,
+      "valueOfLand": 31300,
+      "valueOfParcel": 64000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SWEENEY RD",
@@ -143969,7 +153079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6377594440689148
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19800,
+      "valueOfParcel": 19800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OFF SWEENEY RD",
@@ -144028,7 +153143,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3500314114626783
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1500,
+      "valueOfParcel": 1500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "269 BAILEY RD",
@@ -144075,7 +153195,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7203093021588818
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 9800,
+      "valueOfLand": 21300,
+      "valueOfParcel": 31100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "283 BAILEY RD",
@@ -144130,7 +153255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6399049188152051
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 13400,
+      "valueOfLand": 26600,
+      "valueOfParcel": 40000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -144201,7 +153331,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3619208435439807
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22200,
+      "valueOfParcel": 22200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "27 JUNIPER DR",
@@ -144260,7 +153395,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6331510327976619
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 21500,
+      "valueOfLand": 34200,
+      "valueOfParcel": 55700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JUNIPER DR",
@@ -144343,7 +153483,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.1872882114700242
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8300,
+      "valueOfParcel": 8300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "62 JUNIPER DR",
@@ -144394,7 +153539,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5342719007943366
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 35600,
+      "valueOfLand": 30800,
+      "valueOfParcel": 66400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "50 JUNIPER DR",
@@ -144441,7 +153591,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.45296315003855075
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 41500,
+      "valueOfLand": 32100,
+      "valueOfParcel": 73600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "48 JUNIPER DR",
@@ -144500,7 +153655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6085188702638084
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 1500,
+      "valueOfLand": 20200,
+      "valueOfParcel": 21700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JUNIPER DR",
@@ -144555,7 +153715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6354008498255129
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20500,
+      "valueOfParcel": 20500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -144602,7 +153767,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7345845704831223
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9800,
+      "valueOfParcel": 9800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "40 JUNIPER DR",
@@ -144677,7 +153847,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.565484080851447
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 33800,
+      "valueOfLand": 21800,
+      "valueOfParcel": 55600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JUNIPER DR",
@@ -144736,7 +153911,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7831344439214976
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15400,
+      "valueOfParcel": 15400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "JUNIPER DR",
@@ -144787,7 +153967,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6464665335334937
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15700,
+      "valueOfParcel": 15700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "369 BAILEY RD",
@@ -144834,7 +154019,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6922499766076622
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 20900,
+      "valueOfLand": 25800,
+      "valueOfParcel": 46700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "379 BAILEY RD",
@@ -144889,7 +154079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6366673865969077
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21900,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -144936,7 +154131,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6373959550175728
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16200,
+      "valueOfParcel": 16200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -144983,7 +154183,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6609892954950625
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 16200,
+      "valueOfParcel": 16200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "525 BAILEY RD",
@@ -145050,7 +154255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.516070625053824
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 68700,
+      "valueOfLand": 40200,
+      "valueOfParcel": 108900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "561 BAILEY RD",
@@ -145101,7 +154311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7826466023269387
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 29600,
+      "valueOfLand": 40500,
+      "valueOfParcel": 70100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "577 BAILEY RD",
@@ -145172,7 +154387,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.40232871945967
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 98000,
+      "valueOfLand": 43600,
+      "valueOfParcel": 141600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "679 BAILEY RD",
@@ -145307,7 +154527,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5683358106896211
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 150600,
+      "valueOfLand": 44045,
+      "valueOfParcel": 194645,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -145378,7 +154603,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5981786980464938
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25800,
+      "valueOfParcel": 25800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "679 BAILEY RD",
@@ -145481,7 +154711,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7268521770892099
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 19800,
+      "valueOfLand": 34521,
+      "valueOfParcel": 54321,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -145592,7 +154827,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5997674462584136
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 8600,
+      "valueOfLand": 17115,
+      "valueOfParcel": 25715,
+      "yearOfCAMA": 2020
     },
     {
       "address": "57 LONG POND RD",
@@ -145671,7 +154911,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6909356870920569
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 145600,
+      "valueOfLand": 49600,
+      "valueOfParcel": 195200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MUD POND RD",
@@ -145746,7 +154991,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.683400412582258
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1985,
+      "valueOfParcel": 1985,
+      "yearOfCAMA": 2020
     },
     {
       "address": "632 BAILEY RD",
@@ -145829,7 +155079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4539636915334209
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 224800,
+      "valueOfLand": 39050,
+      "valueOfParcel": 263850,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOREST RD",
@@ -145888,7 +155143,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6683453822232917
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2299,
+      "valueOfParcel": 2299,
+      "yearOfCAMA": 2020
     },
     {
       "address": "194 FOREST RD",
@@ -145943,7 +155203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6530186147289864
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 51600,
+      "valueOfLand": 19870,
+      "valueOfParcel": 71470,
+      "yearOfCAMA": 2020
     },
     {
       "address": "150 FOREST RD",
@@ -145990,7 +155255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.580954193636655
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 66100,
+      "valueOfLand": 21930,
+      "valueOfParcel": 88030,
+      "yearOfCAMA": 2020
     },
     {
       "address": "108 FOREST RD",
@@ -146061,7 +155331,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5571605475558025
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16300,
+      "valueOfLand": 33300,
+      "valueOfParcel": 49600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOREST RD",
@@ -146128,7 +155403,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5255743531028769
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21100,
+      "valueOfParcel": 21100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -146187,7 +155467,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6233707621796649
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 23300,
+      "valueOfParcel": 23300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 FOREST RD",
@@ -146278,7 +155563,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6325928683038118
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 270700,
+      "valueOfLand": 31023,
+      "valueOfParcel": 301723,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -146341,7 +155631,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4871237222089799
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9433,
+      "valueOfParcel": 9433,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -146388,7 +155683,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6615610221562409
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 18700,
+      "valueOfParcel": 18700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "355 BALSAM CIR",
@@ -146443,7 +155743,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5829939017814191
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12450,
+      "valueOfParcel": 12450,
+      "yearOfCAMA": 2020
     },
     {
       "address": "253 E SHORE DR",
@@ -146518,7 +155823,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.648604247200908
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 28800,
+      "valueOfLand": 33900,
+      "valueOfParcel": 62700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "318 BAILEY RD",
@@ -146573,7 +155883,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4967973077142935
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 32800,
+      "valueOfLand": 20300,
+      "valueOfParcel": 53100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "431 BALSAM CIR",
@@ -146684,7 +155999,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6367031055475654
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 215000,
+      "valueOfLand": 33743,
+      "valueOfParcel": 248743,
+      "yearOfCAMA": 2020
     },
     {
       "address": "482 BALSAM CIRCLE",
@@ -146759,7 +156079,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6797785416496374
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 112300,
+      "valueOfLand": 43200,
+      "valueOfParcel": 155500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "69 E SHORE DR",
@@ -146846,7 +156171,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6682832101902889
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 3800,
+      "valueOfLand": 25800,
+      "valueOfParcel": 29600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "17 E SHORE DR",
@@ -146925,7 +156255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7906553378964125
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 86800,
+      "valueOfLand": 35900,
+      "valueOfParcel": 122700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "8 BALSAM CIR",
@@ -147012,7 +156347,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7398875312794614
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26900,
+      "valueOfParcel": 26900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "87 LONG POND RD",
@@ -147099,7 +156439,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6264501286307936
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34700,
+      "valueOfParcel": 34700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -147162,7 +156507,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6308920354952744
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19700,
+      "valueOfParcel": 19700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOREST RD",
@@ -147277,7 +156627,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4196138211510759
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 417,
+      "valueOfParcel": 417,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -147360,7 +156715,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6794773783537333
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 19800,
+      "valueOfParcel": 19800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -147431,7 +156791,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7882060446630245
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20000,
+      "valueOfParcel": 20000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -147498,7 +156863,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8126145734695696
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20700,
+      "valueOfParcel": 20700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -147565,7 +156935,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7533465032274247
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11000,
+      "valueOfParcel": 11000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 CHESTNUT RD",
@@ -147640,7 +157015,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7019145353122505
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 35100,
+      "valueOfLand": 22100,
+      "valueOfParcel": 57200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E SHORE DR",
@@ -147719,7 +157099,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.690026628303375
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 5100,
+      "valueOfLand": 29600,
+      "valueOfParcel": 34700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E SHORE DR",
@@ -147794,7 +157179,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5180592768132709
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 495,
+      "valueOfParcel": 495,
+      "yearOfCAMA": 2020
     },
     {
       "address": "186 E SHORE DR",
@@ -147873,7 +157263,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5551968601848608
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 206900,
+      "valueOfLand": 130527,
+      "valueOfParcel": 337427,
+      "yearOfCAMA": 2020
     },
     {
       "address": "136 E SHORE DR",
@@ -147952,7 +157347,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5334212472158569
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 165400,
+      "valueOfLand": 55100,
+      "valueOfParcel": 220500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E SHORE DR",
@@ -148023,7 +157423,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5605098234388669
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25700,
+      "valueOfParcel": 25700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "343 LONG POND RD",
@@ -148090,7 +157495,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6675955366419893
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 176600,
+      "valueOfLand": 46600,
+      "valueOfParcel": 223200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "247 LONG POND RD",
@@ -148185,7 +157595,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7292427524325851
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 36200,
+      "valueOfParcel": 36200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "226 LONG POND RD",
@@ -148256,7 +157671,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6423062149656025
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 100400,
+      "valueOfLand": 93900,
+      "valueOfParcel": 194300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "228 BAILEY RD",
@@ -148323,7 +157743,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7511125145018407
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 93400,
+      "valueOfLand": 43700,
+      "valueOfParcel": 137100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LONG POND RD",
@@ -148526,7 +157951,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3772956096537365
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 54100,
+      "valueOfParcel": 54100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "110 LONG POND RD",
@@ -148597,7 +158027,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6827071430447983
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 75700,
+      "valueOfLand": 48600,
+      "valueOfParcel": 124300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "100 LONG POND RD",
@@ -148696,7 +158131,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4330155900576096
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1213,
+      "valueOfParcel": 1213,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -148743,7 +158183,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6154718484978341
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24300,
+      "valueOfParcel": 24300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "358 BAILEY RD",
@@ -148790,7 +158235,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7174633566734102
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 48000,
+      "valueOfLand": 34800,
+      "valueOfParcel": 82800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "360 BAILEY RD",
@@ -148841,7 +158291,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.504580288156985
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 10800,
+      "valueOfLand": 20300,
+      "valueOfParcel": 31100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "276 BAILEY RD",
@@ -148896,7 +158351,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7311219574779129
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 10000,
+      "valueOfLand": 10200,
+      "valueOfParcel": 20200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -148967,7 +158427,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4924504694615686
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1500,
+      "valueOfParcel": 1500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -149014,7 +158479,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7012668474986107
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 17000,
+      "valueOfParcel": 17000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "330 BAILEY RD",
@@ -149065,7 +158535,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5855022187581413
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 24300,
+      "valueOfParcel": 24300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "302 BAILEY RD",
@@ -149124,7 +158599,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5976702358899633
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 28500,
+      "valueOfLand": 34700,
+      "valueOfParcel": 63200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "280 BAILEY RD",
@@ -149175,7 +158655,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7328720090108931
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 500,
+      "valueOfLand": 20300,
+      "valueOfParcel": 20800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "272 BAILEY RD",
@@ -149246,7 +158731,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.601236231434183
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 16700,
+      "valueOfLand": 20400,
+      "valueOfParcel": 37100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "254 BAILEY RD",
@@ -149289,7 +158779,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.59962704645497
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 59100,
+      "valueOfLand": 35300,
+      "valueOfParcel": 94400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -149344,7 +158839,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7476322663394518
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21400,
+      "valueOfParcel": 21400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "131 WOODPECKER RD",
@@ -149507,7 +159007,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4751620011088259
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 8000,
+      "valueOfLand": 35700,
+      "valueOfParcel": 43700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WOODPECKER RD",
@@ -149614,7 +159119,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7334854944135937
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3100,
+      "valueOfParcel": 3100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -149673,7 +159183,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7253852072559945
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6400,
+      "valueOfParcel": 6400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WOODPECKER RD",
@@ -149808,7 +159323,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7285121971444206
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9800,
+      "valueOfParcel": 9800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WOODPECKER RD",
@@ -149931,7 +159451,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6497357238507169
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9800,
+      "valueOfParcel": 9800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "113 PHEASANT LN",
@@ -150070,7 +159595,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.21938549927765313
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 164600,
+      "valueOfLand": 231060,
+      "valueOfParcel": 395660,
+      "yearOfCAMA": 2020
     },
     {
       "address": "120 PHEASANT LN",
@@ -150197,7 +159727,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3191909054233763
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 220200,
+      "valueOfLand": 143082,
+      "valueOfParcel": 363282,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WOODPECKER RD",
@@ -150260,7 +159795,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5475990920570825
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26100,
+      "valueOfParcel": 26100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "32 MCQUADE RD",
@@ -150307,7 +159847,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7870095392004733
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 13000,
+      "valueOfParcel": 13000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOOKOUT POINT RD",
@@ -150358,7 +159903,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6983223434144418
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10100,
+      "valueOfParcel": 10100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NUTHATCH WAY",
@@ -150718,7 +160268,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30794941105177387
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 233400,
+      "valueOfParcel": 233400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "53 NUTHATCH WAY",
@@ -150805,7 +160360,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4458629960776266
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 203300,
+      "valueOfLand": 153100,
+      "valueOfParcel": 356400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "59 NUTHATCH WAY",
@@ -150872,7 +160432,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.505998949600776
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 211900,
+      "valueOfLand": 148400,
+      "valueOfParcel": 360300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "75 NUTHATCH WAY",
@@ -151031,7 +160596,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.35354979006680043
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 223000,
+      "valueOfLand": 204200,
+      "valueOfParcel": 427200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "475 LONG POND RD",
@@ -151090,7 +160660,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6537515259411532
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 35800,
+      "valueOfLand": 178800,
+      "valueOfParcel": 214600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -151173,7 +160748,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.25379292459050284
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 533,
+      "valueOfParcel": 533,
+      "yearOfCAMA": 2020
     },
     {
       "address": "138 WOODPECKER RD",
@@ -151252,7 +160832,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6719058818554526
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 74900,
+      "valueOfLand": 40700,
+      "valueOfParcel": 115600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "106 WOODPECKER RD",
@@ -151323,7 +160908,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5422062395948172
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 5800,
+      "valueOfLand": 27700,
+      "valueOfParcel": 33500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "WOODPECKER RD",
@@ -151390,7 +160980,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6647684654378564
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 151,
+      "valueOfParcel": 151,
+      "yearOfCAMA": 2020
     },
     {
       "address": "178 BAILEY RD",
@@ -151445,7 +161040,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6117764502061925
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 17500,
+      "valueOfLand": 38500,
+      "valueOfParcel": 56000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "467 LONG POND RD",
@@ -151572,7 +161172,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.42552969117286843
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 91600,
+      "valueOfLand": 205300,
+      "valueOfParcel": 296900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "522 LONG POND RD",
@@ -151655,7 +161260,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29303664649603417
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 56300,
+      "valueOfLand": 149900,
+      "valueOfParcel": 206200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOOKOUT POINT RD",
@@ -151698,7 +161308,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4953840811050514
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 1200,
+      "valueOfLand": 11900,
+      "valueOfParcel": 13100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "138 PHEASANT LN",
@@ -151941,7 +161556,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.24093738451090443
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 137800,
+      "valueOfLand": 273900,
+      "valueOfParcel": 411700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "139 PHEASANT LN",
@@ -152092,7 +161712,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.26037993973279233
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 59600,
+      "valueOfLand": 277500,
+      "valueOfParcel": 337100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LONG POND RD",
@@ -152247,7 +161872,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48098554850694586
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4984,
+      "valueOfParcel": 4984,
+      "yearOfCAMA": 2020
     },
     {
       "address": "549 LONG POND RD",
@@ -152334,7 +161964,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.582943001976712
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 208000,
+      "valueOfLand": 214400,
+      "valueOfParcel": 422400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "545 LONG POND RD",
@@ -152409,7 +162044,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6978427017918772
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 125000,
+      "valueOfLand": 252000,
+      "valueOfParcel": 377000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "493 LONG POND RD",
@@ -152468,7 +162108,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.726459077075614
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 121200,
+      "valueOfParcel": 121200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "491 LONG POND RD",
@@ -152563,7 +162208,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5139798748330182
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 12600,
+      "valueOfLand": 181000,
+      "valueOfParcel": 193600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "487 LONG POND RD",
@@ -152662,7 +162312,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2647155164204117
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 55800,
+      "valueOfLand": 192500,
+      "valueOfParcel": 248300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "461 LONG POND RD",
@@ -152729,7 +162384,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6416614518238557
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 97300,
+      "valueOfLand": 174800,
+      "valueOfParcel": 272100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "445 LONG POND RD",
@@ -152808,7 +162468,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5304888139746385
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 32500,
+      "valueOfLand": 227400,
+      "valueOfParcel": 259900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "CHESTNUT RD",
@@ -152879,7 +162544,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6186571912522635
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 0,
+      "valueOfParcel": 0,
+      "yearOfCAMA": 2020
     },
     {
       "address": "85 CHESTNUT RD",
@@ -152930,7 +162600,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7092741269715136
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 27500,
+      "valueOfLand": 148800,
+      "valueOfParcel": 176300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E SHORE DR",
@@ -153001,7 +162676,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.78256605772182
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 118300,
+      "valueOfLand": 142200,
+      "valueOfParcel": 260500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAVER BROOK RD",
@@ -153064,7 +162744,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31110941616416454
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34800,
+      "valueOfParcel": 34800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "39 BOW RUN TERR",
@@ -153171,7 +162856,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.622730275973299
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 72800,
+      "valueOfLand": 222000,
+      "valueOfParcel": 294800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -153254,7 +162944,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4229507294539384
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21900,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -153317,7 +163012,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6999896780423182
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 20300,
+      "valueOfParcel": 20300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "46 JUNIPER DR",
@@ -153372,7 +163072,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5373516994100017
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 35700,
+      "valueOfLand": 27500,
+      "valueOfParcel": 63200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "387 BAILEY RD",
@@ -153423,7 +163128,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6560961403647939
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 13800,
+      "valueOfLand": 36600,
+      "valueOfParcel": 50400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HIGHLAND HAVEN RD",
@@ -153490,7 +163200,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.49146334889196047
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 26000,
+      "valueOfParcel": 26000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "0 BEAVER BROOK RD",
@@ -153613,7 +163328,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5653598624674715
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 97700,
+      "valueOfParcel": 97700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -153672,7 +163392,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5010121010180425
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22200,
+      "valueOfParcel": 22200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEAVER BROOK RD",
@@ -153739,7 +163464,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.29996392917994236
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34900,
+      "valueOfParcel": 34900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -153802,7 +163532,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3020839056146596
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22500,
+      "valueOfParcel": 22500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -153861,7 +163596,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6586664261529016
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21900,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -153908,7 +163648,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7548966437807636
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 21900,
+      "valueOfParcel": 21900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "FOX RUN RD",
@@ -153983,7 +163728,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5271682222085982
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 99400,
+      "valueOfParcel": 99400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "527 BAILEY RD",
@@ -154042,7 +163792,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3035149718492292
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 25100,
+      "valueOfLand": 20700,
+      "valueOfParcel": 45800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BAILEY RD",
@@ -154101,7 +163856,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4371394730415347
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9200,
+      "valueOfParcel": 9200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -154160,7 +163920,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5175911514266184
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 35300,
+      "valueOfParcel": 35300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -154263,7 +164028,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.47947881316061475
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 490,
+      "valueOfParcel": 490,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -154335,7 +164105,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.50937155527437
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 124,
+      "valueOfParcel": 124,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -154458,7 +164233,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5739569111442101
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 5272,
+      "valueOfParcel": 5272,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -154521,7 +164301,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7579062263168667
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6145,
+      "valueOfParcel": 6145,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -154660,7 +164445,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7891557416580944
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 3520,
+      "valueOfParcel": 3520,
+      "yearOfCAMA": 2020
     },
     {
       "address": "DOLE SCHOOL HOUSE RD",
@@ -154719,7 +164509,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7518217737731003
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 28000,
+      "valueOfParcel": 28000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -154806,7 +164601,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5572166448695813
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1380,
+      "valueOfParcel": 1380,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -154869,7 +164669,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.30120764972521774
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 8100,
+      "valueOfParcel": 8100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -154992,7 +164797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5395144858665031
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 4065,
+      "valueOfParcel": 4065,
+      "yearOfCAMA": 2020
     },
     {
       "address": "NO MAIN ST",
@@ -155043,7 +164853,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7240982529487483
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 25600,
+      "valueOfParcel": 25600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "SO MAIN ST",
@@ -155086,7 +164901,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3365666349580378
       ],
-      "usage": "27"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "27",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9900,
+      "valueOfParcel": 9900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -155161,7 +164981,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4894026357080481
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9900,
+      "valueOfParcel": 9900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "E WASHINGTON RD",
@@ -155260,7 +165085,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4875508476842303
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10200,
+      "valueOfParcel": 10200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -155307,7 +165137,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6451026931730435
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 15700,
+      "valueOfLand": 21700,
+      "valueOfParcel": 37400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -155626,7 +165461,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.31727865831593594
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 37900,
+      "valueOfParcel": 37900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOOKOUT POINT RD",
@@ -155673,7 +165513,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6011910992621865
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 6300,
+      "valueOfLand": 11300,
+      "valueOfParcel": 17600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "39 LOOKOUT POINT RD",
@@ -155720,7 +165565,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5642210247809413
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 31600,
+      "valueOfLand": 24300,
+      "valueOfParcel": 55900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOOKOUT POINT RD",
@@ -155775,7 +165625,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4790576224588703
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 800,
+      "valueOfLand": 18300,
+      "valueOfParcel": 19100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "73 LOOKOUT POINT RD",
@@ -155838,7 +165693,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5850218583599823
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 79800,
+      "valueOfLand": 148000,
+      "valueOfParcel": 227800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEECH WAY",
@@ -155897,7 +165757,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7121242444285157
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 94900,
+      "valueOfParcel": 94900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BEECH WAY",
@@ -155952,7 +165817,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6230548232974676
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 400,
+      "valueOfLand": 22700,
+      "valueOfParcel": 23100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BIRCH POINT WAY",
@@ -156015,7 +165885,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.46415421793394057
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 22700,
+      "valueOfParcel": 22700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156066,7 +165941,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6343801484524434
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 3100,
+      "valueOfLand": 124900,
+      "valueOfParcel": 128000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "216 COVE RD",
@@ -156161,7 +166041,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7410523367199447
       ],
-      "usage": "17"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "17",
+      "valueOfImprovement": 22100,
+      "valueOfLand": 210100,
+      "valueOfParcel": 232200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156212,7 +166097,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7417016080673384
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14200,
+      "valueOfParcel": 14200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156263,7 +166153,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.36390541461215453
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11500,
+      "valueOfParcel": 11500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156326,7 +166221,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5875165131178695
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14100,
+      "valueOfParcel": 14100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156385,7 +166285,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.714733417728528
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14500,
+      "valueOfParcel": 14500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156432,7 +166337,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.663717265551395
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15100,
+      "valueOfParcel": 15100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "COVE RD",
@@ -156483,7 +166393,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6863264722727543
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14700,
+      "valueOfParcel": 14700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "3 HERMIT ISLAND",
@@ -156570,7 +166485,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6690772710417371
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 15900,
+      "valueOfLand": 90800,
+      "valueOfParcel": 106700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "2 HERMIT ISLAND",
@@ -156653,7 +166573,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6760545457201059
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 13800,
+      "valueOfLand": 90800,
+      "valueOfParcel": 104600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "39 LAKEVIEW TERR",
@@ -156716,7 +166641,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8154186799612362
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 84200,
+      "valueOfLand": 37500,
+      "valueOfParcel": 121700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "45 LAKEVIEW TERR",
@@ -156767,7 +166697,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7271395551582406
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 136500,
+      "valueOfLand": 29200,
+      "valueOfParcel": 165700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LOOKOUT POINT RD",
@@ -156810,7 +166745,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4528483409786477
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6000,
+      "valueOfParcel": 6000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "22 MCQUADE RD",
@@ -156857,7 +166797,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5996306017032715
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 7000,
+      "valueOfLand": 15100,
+      "valueOfParcel": 22100,
+      "yearOfCAMA": 2020
     },
     {
       "address": "40 MCQUADE RD",
@@ -156924,7 +166869,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6558141144158155
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 600,
+      "valueOfLand": 13000,
+      "valueOfParcel": 13600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MCQUADE RD",
@@ -156971,7 +166921,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7863018176893821
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12000,
+      "valueOfParcel": 12000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "23 MCQUADE RD",
@@ -157022,7 +166977,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6527361631373163
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 20000,
+      "valueOfLand": 10800,
+      "valueOfParcel": 30800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157073,7 +167033,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7035133884125795
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 2600,
+      "valueOfLand": 14300,
+      "valueOfParcel": 16900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157120,7 +167085,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.640269120176246
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14200,
+      "valueOfParcel": 14200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157167,7 +167137,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7388002873301501
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 10000,
+      "valueOfParcel": 10000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157218,7 +167193,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.768499930921009
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14800,
+      "valueOfParcel": 14800,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157273,7 +167253,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.8055030223906199
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14200,
+      "valueOfParcel": 14200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HEMLOCK CIR",
@@ -157324,7 +167309,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6146100634553119
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 11200,
+      "valueOfParcel": 11200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HEMLOCK CIR",
@@ -157371,7 +167361,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.759776008338592
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9700,
+      "valueOfParcel": 9700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157434,7 +167429,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7138154161539099
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 95300,
+      "valueOfParcel": 95300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157549,7 +167549,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5188402902910493
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 119200,
+      "valueOfParcel": 119200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157600,7 +167605,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6579996191179474
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 14700,
+      "valueOfParcel": 14700,
+      "yearOfCAMA": 2020
     },
     {
       "address": "VALLEY RD",
@@ -157651,7 +167661,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7005064600451408
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 2000,
+      "valueOfParcel": 2000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "372 BAILEY RD",
@@ -157706,7 +167721,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5779736282674321
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 15200,
+      "valueOfLand": 28400,
+      "valueOfParcel": 43600,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -157765,7 +167785,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4480040371010463
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 265900,
+      "valueOfParcel": 265900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -157821,7 +167846,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5485221982168123
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 300,
+      "valueOfParcel": 300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LONG POND RD",
@@ -157888,7 +167918,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5201766056673868
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 31400,
+      "valueOfParcel": 31400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -157963,7 +167998,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6144033261350327
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12022,
+      "valueOfParcel": 12022,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TWIN BRIDGE RD",
@@ -158066,7 +168106,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48168651887554853
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1856,
+      "valueOfParcel": 1856,
+      "yearOfCAMA": 2020
     },
     {
       "address": "494 MILLEN POND RD",
@@ -158173,7 +168218,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5851259157978741
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 209500,
+      "valueOfLand": 208930,
+      "valueOfParcel": 418430,
+      "yearOfCAMA": 2020
     },
     {
       "address": "LONG POND RD",
@@ -158248,7 +168298,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3594504490509511
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 31400,
+      "valueOfParcel": 31400,
+      "yearOfCAMA": 2020
     },
     {
       "address": "274 BAILEY RD",
@@ -158363,7 +168418,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3632365529342795
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15200,
+      "valueOfParcel": 15200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "494 MILLEN POND RD",
@@ -158502,7 +168562,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2723508421437507
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 209500,
+      "valueOfLand": 208930,
+      "valueOfParcel": 418430,
+      "yearOfCAMA": 2020
     },
     {
       "address": "274 BAILEY RD",
@@ -158553,7 +168618,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7608762991817937
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 15200,
+      "valueOfParcel": 15200,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BACK MT RD",
@@ -158900,7 +168970,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6247916445811557
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 12022,
+      "valueOfParcel": 12022,
+      "yearOfCAMA": 2020
     },
     {
       "address": "HALFMOON PD RD",
@@ -159455,7 +169530,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.3863385287231424
       ],
-      "usage": "100"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "100",
+      "valueOfImprovement": 0,
+      "valueOfLand": 265900,
+      "valueOfParcel": 265900,
+      "yearOfCAMA": 2020
     },
     {
       "address": "AYERS POND RD",
@@ -159566,7 +169646,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6223199805573646
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 6449,
+      "valueOfParcel": 6449,
+      "yearOfCAMA": 2020
     },
     {
       "address": "TWIN BRIDGE RD",
@@ -159665,7 +169750,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6252783815560232
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1856,
+      "valueOfParcel": 1856,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILLEN POND RD",
@@ -159728,7 +169818,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7437303975370786
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 10000,
+      "valueOfLand": 76349,
+      "valueOfParcel": 86349,
+      "yearOfCAMA": 2020
     },
     {
       "address": "122 OLD HAYING RD",
@@ -159859,7 +169954,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5379721363929623
       ],
-      "usage": "11"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "11",
+      "valueOfImprovement": 100100,
+      "valueOfLand": 213900,
+      "valueOfParcel": 314000,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILL ST",
@@ -159918,7 +170018,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.48319470124563035
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 585,
+      "valueOfParcel": 585,
+      "yearOfCAMA": 2020
     },
     {
       "address": "MILL ST",
@@ -160025,7 +170130,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5608893352516479
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 585,
+      "valueOfParcel": 585,
+      "yearOfCAMA": 2020
     },
     {
       "address": "ASHUELOT POND",
@@ -160093,7 +170203,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.2738086942530917
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 300,
+      "valueOfParcel": 300,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -160140,7 +170255,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.5505632150127943
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1014,
+      "valueOfParcel": 1014,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BARDEN POND RD",
@@ -160191,7 +170311,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6779870724198578
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 1014,
+      "valueOfParcel": 1014,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -160262,7 +170387,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.6820875362058771
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34500,
+      "valueOfParcel": 34500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "BALSAM CIR",
@@ -160325,7 +170455,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.7204083073978815
       ],
-      "usage": "22"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "22",
+      "valueOfImprovement": 0,
+      "valueOfLand": 34500,
+      "valueOfParcel": 34500,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -160492,7 +170627,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.4557659367775763
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9006,
+      "valueOfParcel": 9006,
+      "yearOfCAMA": 2020
     },
     {
       "address": "OLD COUNTY RD",
@@ -160731,7 +170871,12 @@ export const LANDGRID = {
       "sqarcities": [
         0.493673626948196
       ],
-      "usage": "19"
+      "updatedAt": "2021-05-11T15:53:25.283Z",
+      "usage": "19",
+      "valueOfImprovement": 0,
+      "valueOfLand": 9006,
+      "valueOfParcel": 9006,
+      "yearOfCAMA": 2020
     }
   ],
   "usages": [
