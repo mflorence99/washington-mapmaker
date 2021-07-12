@@ -74,6 +74,7 @@ export const PROFILES: Record<string, Profile> = {
     cyFeet: 211200,
     cxGrid: 52800,
     cyGrid: 52800,
+    focus: { lat: 43.17667538633558, lon: -72.09721948987017 },
     origin: {
       lat: 43.634458,
       lon: -72.504642
