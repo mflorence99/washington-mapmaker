@@ -139,64 +139,73 @@ export class RootComponent implements AfterViewInit {
 
   print(): void {
     if (!this.printing && !this.geometry.legendOnly) {
-      // effect of "printing" will be to make overflow: unset
-      // NOTE: necessary for print to show entire extent
-      this.printing = true;
-      this.cdf.markForCheck();
-      // save all the lot polygons
-      let blob = new Blob([this.polygons.nativeElement().innerHTML], {
-        type: 'text/plain;charset=utf-8'
-      });
-      saveAs(blob, `${this.geometry.profile}.svg`);
-      // save the parcels index
-      const index = this.parcels.parcels.lots.reduce((acc, lot) => {
-        acc[lot.id] = {
-          address: lot.address,
-          area: lot.area,
-          centers: lot.centers,
-          updatedAt: lot.updatedAt,
-          usage: lot.usage,
-          valueOfImprovement: lot.valueOfImprovement,
-          valueOfLand: lot.valueOfLand,
-          valueOfParcel: lot.valueOfParcel,
-          yearOfCAMA: lot.yearOfCAMA
-        };
-        return acc;
-      }, {});
-      blob = new Blob(
-        [
-          'export const DESC_BY_USAGE = ',
-          JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
-          ';\n\n',
-          'export const LOTS = ',
-          JSON.stringify(index, null, 2),
-          ';\n\n'
-        ],
-        {
-          type: 'text/plain;charset=utf-8'
-        }
-      );
-      saveAs(blob, 'lots.ts');
-      // a little later, fire up the print
-      if (!this.geometry.parcelsOnly) {
-        setTimeout(() => {
-          domtoimage
-            .toJpeg(this.host.nativeElement as HTMLElement, {
-              bgcolor: 'white',
-              quality: 0.95
-            })
-            .then((dataURL) => {
-              //  save the map itself
-              this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
-              this.saver.nativeElement.href = dataURL;
-              this.saver.nativeElement.click();
-              // back to our normal programming
-              this.saver.nativeElement.href = null;
-              this.printing = false;
-              this.cdf.markForCheck();
-            });
-        }, 100);
-      }
+      this.emitLots();
+      this.emitPolygons();
+      if (!this.geometry.parcelsOnly) this.emitImage();
     }
+  }
+
+  private emitImage(): void {
+    // effect of "printing" will be to make overflow: unset
+    // NOTE: necessary for print to show entire extent
+    this.printing = true;
+    this.cdf.markForCheck();
+    // save the parcels index
+    // a little later, fire up the print
+    setTimeout(() => {
+      domtoimage
+        .toJpeg(this.host.nativeElement as HTMLElement, {
+          bgcolor: 'white',
+          quality: 0.95
+        })
+        .then((dataURL) => {
+          //  save the map itself
+          this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
+          this.saver.nativeElement.href = dataURL;
+          this.saver.nativeElement.click();
+          // back to our normal programming
+          this.saver.nativeElement.href = null;
+          this.printing = false;
+          this.cdf.markForCheck();
+        });
+    }, 100);
+  }
+
+  private emitLots(): void {
+    const index = this.parcels.parcels.lots.reduce((acc, lot) => {
+      acc[lot.id] = {
+        address: lot.address,
+        area: lot.area,
+        centers: lot.centers,
+        updatedAt: lot.updatedAt,
+        usage: lot.usage,
+        valueOfImprovement: lot.valueOfImprovement,
+        valueOfLand: lot.valueOfLand,
+        valueOfParcel: lot.valueOfParcel,
+        yearOfCAMA: lot.yearOfCAMA
+      };
+      return acc;
+    }, {});
+    const blob = new Blob(
+      [
+        'export const DESC_BY_USAGE = ',
+        JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
+        ';\n\n',
+        'export const LOTS = ',
+        JSON.stringify(index, null, 2),
+        ';\n\n'
+      ],
+      {
+        type: 'text/plain;charset=utf-8'
+      }
+    );
+    saveAs(blob, 'lots.ts');
+  }
+
+  private emitPolygons(): void {
+    const blob = new Blob([this.polygons.nativeElement().innerHTML], {
+      type: 'text/plain;charset=utf-8'
+    });
+    saveAs(blob, `${this.geometry.profile}.svg`);
   }
 }
