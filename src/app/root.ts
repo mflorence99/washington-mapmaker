@@ -191,6 +191,9 @@ export class RootComponent implements AfterViewInit {
         'export const DESC_BY_USAGE = ',
         JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
         ';\n\n',
+        'export const USAGES = ',
+        JSON.stringify(this.parcels.parcels.usages, null, 2),
+        ';\n\n',
         'export const LOTS = ',
         JSON.stringify(index, null, 2),
         ';\n\n'
