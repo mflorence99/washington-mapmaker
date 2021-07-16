@@ -69,17 +69,28 @@ export const PROFILES: Record<string, Profile> = {
   },
 
   // NOTE: just used for thumbnail
-  thumbnail: {
+  sullivan: {
     cxFeet: 158400,
     cyFeet: 211200,
     cxGrid: 52800,
     cyGrid: 52800,
-    focus: { lat: 43.17667538633558, lon: -72.09721948987017 },
     origin: {
       lat: 43.634458,
       lon: -72.504642
     },
     zoom: 11
+  },
+
+  nh: {
+    cxFeet: 654720,
+    cyFeet: 1056000,
+    cxGrid: 52800,
+    cyGrid: 52800,
+    origin: {
+      lat: 45.439295,
+      lon: -72.970874
+    },
+    zoom: 9
   }
 };
 

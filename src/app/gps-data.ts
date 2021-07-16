@@ -23,13 +23,18 @@ export interface Waypoints {
 @Injectable({ providedIn: 'root' })
 export class GpsData {
   boundary: Tracks;
+  nh: Tracks;
   sullivan: Tracks;
   washington: Tracks;
 
   constructor(private http: HttpClient) {}
 
   load(): Observable<any> {
-    return forkJoin([this.loadImpl('sullivan'), this.loadImpl('washington')]);
+    return forkJoin([
+      this.loadImpl('nh'),
+      this.loadImpl('sullivan'),
+      this.loadImpl('washington')
+    ]);
   }
 
   private loadImpl(key: string): Observable<Tracks | Waypoints> {

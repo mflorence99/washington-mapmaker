@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [
     { provide: Geometry },
-    { provide: 'params', useValue: { thumbnail: true } }
+    { provide: 'params', useValue: { thumbnail: 'nh' } }
   ],
-  selector: 'map-thumbnail',
+  selector: 'map-state',
   template: `<figure *ngIf="geometry.ready$ | async">
-    <map-street [provider]="'arcgis'" [tag]="'Thumbnail street'"></map-street>
-    <map-washington></map-washington>
+    <map-street [provider]="'arcgis'" [tag]="'State thumbnail'"></map-street>
+    <map-boundary boundary="sullivan"></map-boundary>
     <map-boundary></map-boundary>
     <map-grid></map-grid>
   </figure>`
 })
-export class ThumbnailComponent {
+export class StateComponent {
   constructor(public geometry: Geometry) {}
 }

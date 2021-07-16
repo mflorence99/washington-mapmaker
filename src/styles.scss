@@ -28,6 +28,7 @@
   --map-numVGrids: 0;
   --map-numXTiles: 0;
   --map-numYTiles: 0;
+
   // NOTE: these apply to the thumbnail
   --thumbnail-clip-x: 0;
   --thumbnail-clip-y: 0;
@@ -41,6 +42,35 @@
   --thumbnail-numVGrids: 0;
   --thumbnail-numXTiles: 0;
   --thumbnail-numYTiles: 0;
+
+  // NOTE: these apply to the county map in the thumbnail
+  --sullivan-clip-x: 0;
+  --sullivan-clip-y: 0;
+  --sullivan-clip-cx: 0;
+  --sullivan-clip-cy: 0;
+  --sullivan-cxNominal: 0;
+  --sullivan-cyNominal: 0;
+  --sullivan-cxTile: 0;
+  --sullivan-cyTile: 0;
+  --sullivan-numHGrids: 0;
+  --sullivan-numVGrids: 0;
+  --sullivan-numXTiles: 0;
+  --sullivan-numYTiles: 0;
+
+  // NOTE: these apply to the state map in the thumbnail
+  --nh-clip-x: 0;
+  --nh-clip-y: 0;
+  --nh-clip-cx: 0;
+  --nh-clip-cy: 0;
+  --nh-cxNominal: 0;
+  --nh-cyNominal: 0;
+  --nh-cxTile: 0;
+  --nh-cyTile: 0;
+  --nh-numHGrids: 0;
+  --nh-numVGrids: 0;
+  --nh-numXTiles: 0;
+  --nh-numYTiles: 0;
+
   // land use color shading
   // @see https://www.gismanual.com/style/ColorConventions.pdf
   --shade-u11: var(--rgb-brown-300);
@@ -84,37 +114,37 @@ html {
 map-root {
   background-color: white;
   display: grid;
-  grid-template-areas:
-    'map side-matter'
-    'map side-matter';
+  grid-template-columns: auto;
+  justify-content: space-around;
   overflow: auto;
-
-  &.dragging {
-    cursor: grabbing;
-  }
 
   &.printing {
     cursor: wait;
     overflow: unset;
   }
 
+  &.withLegend {
+    grid-template-columns: auto auto;
+    // TODO: total hack
+    width: 6465px;
+  }
+
   aside {
     color: var(--mat-gray-900);
-    grid-area: side-matter;
-    padding: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100)
-      calc(var(--map-cyNominal) / 100) 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
 
     map-legend {
       align-content: start;
       display: grid;
       font-family: 'Bentham Regular', sans-serif;
       font-size: 32px;
+      grid-row-gap: 96px;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto auto 1fr;
       height: 100%;
       justify-content: center;
-      row-gap: 96px;
-      width: 100%;
 
       article.grids {
         display: grid;
@@ -154,12 +184,6 @@ map-root {
         }
       }
 
-      figure.chart {
-        aspect-ratio: 4 / 3;
-        display: block;
-        width: 100%;
-      }
-
       footer {
         align-content: end;
         display: grid;
@@ -182,7 +206,38 @@ map-root {
         }
       }
 
-      map-thumbnail {
+      map-state {
+        --thumbnail-clip-x: var(--nh-clip-x);
+        --thumbnail-clip-y: var(--nh-clip-y);
+        --thumbnail-clip-cx: var(--nh-clip-cx);
+        --thumbnail-clip-cy: var(--nh-clip-cy);
+        --thumbnail-cxNominal: var(--nh-cxNominal);
+        --thumbnail-cyNominal: var(--nh-cyNominal);
+        --thumbnail-cxTile: var(--nh-cxTile);
+        --thumbnail-cyTile: var(--nh-cyTile);
+        --thumbnail-numHGrids: var(--nh-numHGrids);
+        --thumbnail-numVGrids: var(--nh-numVGrids);
+        --thumbnail-numXTiles: var(--nh-numXTiles);
+        --thumbnail-numYTiles: var(--nh-numYTiles);
+      }
+
+      map-county {
+        --thumbnail-clip-x: var(--sullivan-clip-x);
+        --thumbnail-clip-y: var(--sullivan-clip-y);
+        --thumbnail-clip-cx: var(--sullivan-clip-cx);
+        --thumbnail-clip-cy: var(--sullivan-clip-cy);
+        --thumbnail-cxNominal: var(--sullivan-cxNominal);
+        --thumbnail-cyNominal: var(--sullivan-cyNominal);
+        --thumbnail-cxTile: var(--sullivan-cxTile);
+        --thumbnail-cyTile: var(--sullivan-cyTile);
+        --thumbnail-numHGrids: var(--sullivan-numHGrids);
+        --thumbnail-numVGrids: var(--sullivan-numVGrids);
+        --thumbnail-numXTiles: var(--sullivan-numXTiles);
+        --thumbnail-numYTiles: var(--sullivan-numYTiles);
+      }
+
+      map-county,
+      map-state {
         display: block;
         height: calc(var(--thumbnail-clip-cy));
         overflow: hidden;
@@ -205,8 +260,7 @@ map-root {
           map-grid,
           map-street,
           map-tiles,
-          map-topo,
-          map-washington {
+          map-topo {
             display: block;
             height: 100%;
             position: absolute;
@@ -214,8 +268,7 @@ map-root {
           }
 
           map-boundary,
-          map-grid,
-          map-washington {
+          map-grid {
             svg {
               height: 100%;
               width: 100%;
@@ -226,6 +279,13 @@ map-root {
             fill: none;
             stroke: var(--mat-gray-800);
             stroke-dasharray: 4;
+            stroke-width: 3;
+          }
+
+          map-boundary[boundary='sullivan'],
+          map-boundary[boundary='washington'] {
+            fill: rgba(var(--rgb-amber-900), 0.25);
+            stroke: rgba(var(--rgb-amber-900), 0.75);
             stroke-width: 3;
           }
 
@@ -264,12 +324,6 @@ map-root {
             img.outside {
               filter: grayscale(1);
             }
-          }
-
-          map-washington {
-            fill: rgba(var(--rgb-teal-900), 0.1);
-            stroke: rgba(var(--rgb-teal-900), 0.5);
-            stroke-width: 2;
           }
         }
       }
@@ -372,22 +426,20 @@ map-root {
   }
 
   main {
-    grid-area: map;
-
     .border-1 {
       border: 3px solid var(--mat-gray-600);
-      margin: calc(var(--map-cyNominal) / 100) calc(var(--map-cxNominal) / 100);
+      padding: 64px;
     }
 
     .border-2 {
       background-color: var(--mat-brown-50);
-      border: calc(var(--map-cyNominal) / 300) dashed var(--mat-gray-600);
+      border: 16px dashed var(--mat-gray-600);
     }
 
     .border-3 {
       background-color: white;
       border: 1px solid var(--mat-gray-600);
-      padding: calc(var(--map-cyNominal) / 200) calc(var(--map-cxNominal) / 200);
+      padding: 24px;
     }
 
     .border-1.hidden,
@@ -737,10 +789,10 @@ map-root {
 
         footer {
           align-items: flex-end;
-          color: var(--mat-gray-700);
+          color: var(--mat-gray-900);
           display: flex;
           font-family: 'Bentham Regular', sans-serif;
-          font-size: 16px;
+          font-size: 20px;
           height: 100%;
           justify-content: space-between;
           padding: 0 16px 8px 16px;

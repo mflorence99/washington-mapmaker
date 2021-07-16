@@ -1,12 +1,7 @@
 import { Parcels } from './parcels';
 
-import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
-import { ElementRef } from '@angular/core';
-import { ViewChild } from '@angular/core';
-
-import Chart from 'chart.js/auto';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -14,13 +9,12 @@ import Chart from 'chart.js/auto';
   template: `<header>
       <h1>Town of Washington</h1>
       <h2>Sullivan Co</h2>
+      <h2>New Hampshire</h2>
     </header>
 
-    <map-thumbnail></map-thumbnail>
+    <map-state></map-state>
 
-    <figure #wrapper class="chart">
-      <canvas #canvas> </canvas>
-    </figure>
+    <map-county></map-county>
 
     <table class="usage">
       <thead>
@@ -75,7 +69,7 @@ import Chart from 'chart.js/auto';
         <div></div>
         <div>&#188; x &#188; mile<br />40 acres</div>
       </figure>
-      <figcaption>Sullivan Co</figcaption>
+      <figcaption>State, County</figcaption>
       <figcaption>Washington</figcaption>
       <figcaption>Detail Maps</figcaption>
     </article>
@@ -84,80 +78,12 @@ import Chart from 'chart.js/auto';
       <p>For information only &mdash; {{ today | date: 'longDate' }}</p>
     </footer>`
 })
-export class LegendComponent implements AfterViewInit {
-  @ViewChild('canvas', { static: true }) canvas: ElementRef;
-  @ViewChild('wrapper', { static: true }) wrapper: ElementRef;
-
-  // eslint-disable-next-line @typescript-eslint/member-ordering
-  chart: Chart;
-
+export class LegendComponent {
   today = new Date();
 
-  constructor(public parcels: Parcels) {
-    Chart.defaults.font.family = 'Bentham Regular';
-    Chart.defaults.font.size = 24;
-  }
-
-  ngAfterViewInit(): void {
-    setTimeout(() => {
-      const canvas = this.canvas.nativeElement;
-      canvas.height = this.wrapper.nativeElement.offsetHeight;
-      canvas.width = this.wrapper.nativeElement.offsetWidth;
-      const ctx = canvas.getContext('2d');
-      this.chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: this.parcels.parcels.usages.map(
-            (usage) => this.parcels.parcels.descByUsage[usage]
-          ),
-          datasets: [
-            {
-              backgroundColor: this.makeColors(),
-              borderWidth: 1,
-              data: this.parcels.parcels.usages.map(
-                (usage) => this.parcels.parcels.areaByUsage[usage]
-              )
-            }
-          ]
-        },
-        options: {
-          animation: false,
-          plugins: {
-            legend: {
-              display: false
-            }
-          },
-          scales: {
-            x: {
-              ticks: {
-                display: false
-              }
-            },
-            y: {
-              title: {
-                display: true,
-                font: {
-                  weight: 'bold'
-                },
-                text: 'ACRES'
-              }
-            }
-          }
-        }
-      });
-    }, 1000);
-  }
+  constructor(public parcels: Parcels) {}
 
   sum(byUsage: Record<string, number>): number {
     return Object.values(byUsage).reduce((p, q) => p + q, 0);
-  }
-
-  private makeColors(): string[] {
-    const style = getComputedStyle(this.canvas.nativeElement);
-    return this.parcels.parcels.usages.map((usage) => {
-      const rgb = style.getPropertyValue(`--shade-u${usage}`);
-      // NOTE: horrible hack, see styles.css
-      return `rgba(${rgb}, ${usage === '101' ? 1 : 0.5})`;
-    });
   }
 }

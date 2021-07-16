@@ -6,13 +6,13 @@ import { bbox } from './profiles';
 
 import { Inject } from '@angular/core';
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { ReplaySubject } from 'rxjs';
 
 const RAD2DEG = 180 / Math.PI;
 const PI_4 = Math.PI / 4;
 
 export interface GeoParams {
-  thumbnail: boolean;
+  thumbnail: 'nh' | 'sullivan' | undefined;
 }
 
 export interface LineProps {
@@ -77,7 +77,7 @@ export class Geometry {
   mapOnly = false;
   parcelsOnly = false;
   profile = 'washington';
-  ready$ = new Subject<boolean>();
+  ready$ = new ReplaySubject<boolean>();
   tiles = {
     bottom: 0,
     left: 0,
@@ -96,9 +96,11 @@ export class Geometry {
     this.parcelsOnly = searchParams?.parcelsOnly ?? this.parcelsOnly;
     this.profile = searchParams?.profile ?? this.profile;
     // profile values override "washington" defaults
-    const profile: Profile = params.thumbnail
-      ? PROFILES['thumbnail']
-      : PROFILES[this.profile];
+    let profile: Profile;
+    if (params.thumbnail) {
+      profile = PROFILES[params.thumbnail];
+      this.profile = params.thumbnail;
+    } else profile = PROFILES[this.profile];
     if (profile) {
       this.bbox = bbox(profile);
       this.dims.cxFeet = profile.cxFeet;
@@ -112,7 +114,7 @@ export class Geometry {
     // load all the GPS data
     this.gpsData.load().subscribe(() => {
       this.gpsData.boundary = params.thumbnail
-        ? this.gpsData.sullivan
+        ? this.gpsData[params.thumbnail]
         : this.gpsData.washington;
       // compute the boundary box from the boundary GPX
       if (this.profile === 'washington') {
@@ -178,14 +180,17 @@ export class Geometry {
       // log some useful data
       console.table(this.clip);
       console.table(this.dims);
-      let [fx, fy] = this.point2xy(this.focus);
-      // NOTE: need to adjust so that the clip rectangle is the origin
-      fx -= this.clip.x;
-      fy -= this.clip.y;
-      console.log(`focus: [${fx}, ${fy}]`);
+      // pan to the focus,if any
+      if (this.focus) {
+        let [fx, fy] = this.point2xy(this.focus);
+        // NOTE: need to adjust so that the clip rectangle is the origin
+        fx -= this.clip.x;
+        fy -= this.clip.y;
+        console.log(`focus: [${fx}, ${fy}]`);
+      }
       // set CSS variables
       const style = document.body.style;
-      const pfx = params.thumbnail ? 'thumbnail' : 'map';
+      const pfx = params.thumbnail ?? 'map';
       style.setProperty(`--${pfx}-clip-x`, `${this.clip.x}px`);
       style.setProperty(`--${pfx}-clip-y`, `${this.clip.y}px`);
       style.setProperty(`--${pfx}-clip-cx`, `${this.clip.cx}px`);

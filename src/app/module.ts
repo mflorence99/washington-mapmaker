@@ -1,5 +1,6 @@
 import { BoundaryComponent } from './boundary';
 import { ClipComponent } from './clip';
+import { CountyComponent } from './county';
 import { DefsComponent } from './defs';
 import { GridComponent } from './grid';
 import { IndicesComponent } from './indices';
@@ -8,12 +9,11 @@ import { LotLabelsComponent } from './lot-labels';
 import { LotsComponent } from './lots';
 import { PolygonsComponent } from './polygons';
 import { RootComponent } from './root';
+import { StateComponent } from './state';
 import { StreetComponent } from './street';
-import { ThumbnailComponent } from './thumbnail';
 import { TileComponent } from './tile';
 import { TilesComponent } from './tiles';
 import { TopoComponent } from './topo';
-import { WashingtonComponent } from './washington';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -39,6 +39,7 @@ class IconsModule {
 const COMPONENTS = [
   BoundaryComponent,
   ClipComponent,
+  CountyComponent,
   DefsComponent,
   GridComponent,
   IndicesComponent,
@@ -47,12 +48,11 @@ const COMPONENTS = [
   LotsComponent,
   PolygonsComponent,
   RootComponent,
+  StateComponent,
   StreetComponent,
-  ThumbnailComponent,
   TileComponent,
   TilesComponent,
-  TopoComponent,
-  WashingtonComponent
+  TopoComponent
 ];
 
 const MODULES = [

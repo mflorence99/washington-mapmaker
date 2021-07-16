@@ -18,10 +18,10 @@ import domtoimage from 'dom-to-image';
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [
     { provide: Geometry },
-    { provide: 'params', useValue: { thumbnail: false } }
+    { provide: 'params', useValue: { thumbnail: undefined } }
   ],
   selector: 'map-root',
-  template: ` <main *ngIf="geometry.ready$ | async">
+  template: ` <main #main *ngIf="geometry.ready$ | async">
       <div
         *ngIf="!geometry.legendOnly"
         [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
@@ -75,23 +75,18 @@ import domtoimage from 'dom-to-image';
       </div>
     </main>
 
-    <aside
-      *ngIf="
-        geometry.profile === 'washington' &&
-        !geometry.mapOnly &&
-        !geometry.parcelsOnly
-      "
-    >
+    <aside *ngIf="theWorks()">
       <map-legend></map-legend>
     </aside>
 
     <a #saver hidden></a>`
 })
 export class RootComponent implements AfterViewInit {
-  @HostBinding('class.dragging') dragging = false;
   @HostBinding('class.printing') printing = false;
+  @HostBinding('class.withLegend') withLegend = this.theWorks();
 
   // eslint-disable-next-line @typescript-eslint/member-ordering
+  @ViewChild('main', { static: false }) main: ElementRef;
   @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
   @ViewChild('saver', { static: false }) saver: ElementRef;
 
@@ -123,6 +118,10 @@ export class RootComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.geometry.ready$.subscribe(() => {
       this.cdf.detectChanges();
+      // need the works map to spread out to 4:3
+      // if (this.theWorks())
+      //   this.host.nativeElement.offsetWidth =
+      //     this.main.nativeElement.offsetHeight * 1.333;
       // scroll to the focus point
       if (!this.geometry.legendOnly) {
         const center = this.geometry.latlon2css({
@@ -143,6 +142,14 @@ export class RootComponent implements AfterViewInit {
       this.emitPolygons();
       if (!this.geometry.parcelsOnly) this.emitImage();
     }
+  }
+
+  theWorks(): boolean {
+    return (
+      this.geometry.profile === 'washington' &&
+      !this.geometry.mapOnly &&
+      !this.geometry.parcelsOnly
+    );
   }
 
   private emitImage(): void {

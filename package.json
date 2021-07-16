@@ -13,7 +13,8 @@
     "landgrid": "ts-node --dir bin landgrid.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
-    "serve": "ng serve --proxy-config proxy.conf.js"
+    "serve": "ng serve --proxy-config proxy.conf.js",
+    "states": "ts-node --dir bin states.ts"
   },
   "dependencies": {},
   "devDependencies": {
@@ -37,7 +38,6 @@
     "@types/xml2js": "^0.4.9",
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
-    "chart.js": "^3",
     "dom-to-image": "^2",
     "eslint": "^7",
     "eslint-config-mflorence99": "^1",

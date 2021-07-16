@@ -3,6 +3,7 @@ import { Point } from './geometry';
 
 import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -12,14 +13,16 @@ import { Component } from '@angular/core';
       geometry.dims.cyNominal
     }}"
   >
-    <g><polygon [attr.points]="boundary()" /></g>
+    <g><polygon [attr.points]="points()" /></g>
   </svg>`
 })
 export class BoundaryComponent {
+  @Input() boundary: 'boundary' | 'nh' | 'sullivan' | 'washington' = 'boundary';
+
   constructor(public geometry: Geometry) {}
 
-  boundary(): string {
-    return this.geometry.gpsData.boundary.Boundary.map((point: Point) =>
+  points(): string {
+    return this.geometry.gpsData[this.boundary].Boundary.map((point: Point) =>
       this.geometry.point2xy(point).join(',')
     ).join(' ');
   }
