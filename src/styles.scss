@@ -115,7 +115,6 @@ map-root {
   background-color: white;
   display: grid;
   grid-template-columns: auto;
-  justify-content: space-around;
   overflow: auto;
 
   &.printing {
@@ -125,6 +124,7 @@ map-root {
 
   &.withLegend {
     grid-template-columns: auto auto;
+    justify-content: space-around;
     // TODO: total hack
     width: 6465px;
   }

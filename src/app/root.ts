@@ -118,10 +118,6 @@ export class RootComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.geometry.ready$.subscribe(() => {
       this.cdf.detectChanges();
-      // need the works map to spread out to 4:3
-      // if (this.theWorks())
-      //   this.host.nativeElement.offsetWidth =
-      //     this.main.nativeElement.offsetHeight * 1.333;
       // scroll to the focus point
       if (!this.geometry.legendOnly) {
         const center = this.geometry.latlon2css({
