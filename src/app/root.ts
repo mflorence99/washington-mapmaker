@@ -21,9 +21,9 @@ import domtoimage from 'dom-to-image';
     { provide: 'params', useValue: { thumbnail: undefined } }
   ],
   selector: 'map-root',
-  template: ` <main #main *ngIf="geometry.ready$ | async">
+  template: `<ng-container *ngIf="geometry.ready$ | async">
+    <main *ngIf="!geometry.legendOnly">
       <div
-        *ngIf="!geometry.legendOnly"
         [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
         class="border-1"
       >
@@ -75,18 +75,28 @@ import domtoimage from 'dom-to-image';
       </div>
     </main>
 
-    <aside *ngIf="theWorks()">
+    <aside
+      *ngIf="
+        geometry.profile === 'washington' &&
+        !geometry.mapOnly &&
+        !geometry.parcelsOnly
+      "
+    >
       <map-legend></map-legend>
     </aside>
 
-    <a #saver hidden></a>`
+    <a #saver hidden></a>
+  </ng-container>`
 })
 export class RootComponent implements AfterViewInit {
   @HostBinding('class.printing') printing = false;
-  @HostBinding('class.withLegend') withLegend = this.theWorks();
+  @HostBinding('class.withLegend') withLegend =
+    this.geometry.profile === 'washington' &&
+    !this.geometry.legendOnly &&
+    !this.geometry.mapOnly &&
+    !this.geometry.parcelsOnly;
 
   // eslint-disable-next-line @typescript-eslint/member-ordering
-  @ViewChild('main', { static: false }) main: ElementRef;
   @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
   @ViewChild('saver', { static: false }) saver: ElementRef;
 
@@ -138,14 +148,6 @@ export class RootComponent implements AfterViewInit {
       this.emitPolygons();
       if (!this.geometry.parcelsOnly) this.emitImage();
     }
-  }
-
-  theWorks(): boolean {
-    return (
-      this.geometry.profile === 'washington' &&
-      !this.geometry.mapOnly &&
-      !this.geometry.parcelsOnly
-    );
   }
 
   private emitImage(): void {

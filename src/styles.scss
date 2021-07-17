@@ -100,6 +100,7 @@ body {
   background-color: white;
   display: grid;
   height: 100%;
+  overflow: hidden;
   place-content: center;
   user-select: none;
   width: 100%;
@@ -113,9 +114,11 @@ html {
 
 map-root {
   background-color: white;
-  display: grid;
-  grid-template-columns: auto;
+  display: block;
+  height: 100%;
   overflow: auto;
+  position: relative;
+  width: 100%;
 
   &.printing {
     cursor: wait;
@@ -123,17 +126,21 @@ map-root {
   }
 
   &.withLegend {
+    display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-around;
-    // TODO: total hack
-    width: 6465px;
   }
 
   aside {
     color: var(--mat-gray-900);
-    display: flex;
-    justify-content: space-around;
-    padding: 64px;
+    display: block;
+    height: 100%;
+    // TODO: total hack
+    // we need the w x h to be 4:3
+    // so: 4849 (map) + 1636 (legend) = width of 6465
+    // and: 4836 (map) = height
+    // therefore aspect ratio of 1.33
+    padding: 64px 385px;
+    width: 1636px;
 
     map-legend {
       align-content: start;
@@ -426,8 +433,9 @@ map-root {
   }
 
   main {
+    display: grid;
+
     .border-1 {
-      border: 3px solid var(--mat-gray-600);
       padding: 64px;
     }
 
