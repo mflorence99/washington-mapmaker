@@ -10,6 +10,7 @@ const county = JSON.parse(
   readFileSync('src/assets/data/nh_sullivan.json').toString()
 );
 
+const additions = JSON.parse(readFileSync('bin/additions.json').toString());
 const overrides = JSON.parse(readFileSync('bin/overrides.json').toString());
 
 const washington = {
@@ -37,14 +38,14 @@ const duplicates = new Set(['11-27']);
 const ids = new Set();
 
 const M2TOACRES = 4047;
-const parvals = new Set();
 
-// extract data from original
+// extract data from original + additions
 county.features
-  .map((feature) => {
-    if (feature.properties.agval) console.log(feature);
-    return feature;
-  })
+  .concat(additions.features)
+  // .map((feature) => {
+  //   if (feature.properties.agval) console.log(feature);
+  //   return feature;
+  // })
   .filter(
     (feature) =>
       feature.properties.displayid && feature.properties.city === 'washington'
@@ -58,8 +59,6 @@ county.features
       : `${base}-${parts[2]}`;
 
     if (id === '9-7') console.log(feature);
-
-    parvals.add(feature.properties.parvaltype);
 
     // eliminate duplicates
     if (!ids.has(id)) {
@@ -166,7 +165,7 @@ county.features
     }
   });
 
-console.log(parvals);
+console.log(`Processed ${Object.keys(additions).length} additions`);
 
 console.log(
   `Processed ${Object.keys(overrides).length} overrides to ${

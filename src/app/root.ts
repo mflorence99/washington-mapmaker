@@ -8,6 +8,7 @@ import { ChangeDetectorRef } from '@angular/core';
 import { Component } from '@angular/core';
 import { ElementRef } from '@angular/core';
 import { HostBinding } from '@angular/core';
+import { HostListener } from '@angular/core';
 import { ViewChild } from '@angular/core';
 
 import { saveAs } from 'file-saver';
@@ -35,7 +36,7 @@ import domtoimage from 'dom-to-image';
             [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
             class="border-3"
           >
-            <section (contextmenu)="logLocation($event)" (dblclick)="print()">
+            <section (click)="logLocation($event)" (dblclick)="print()">
               <figure>
                 <map-defs></map-defs>
                 <map-clip></map-clip>
@@ -102,6 +103,8 @@ export class RootComponent implements AfterViewInit {
 
   today = new Date();
 
+  private coordinates: [number, number][] = [];
+
   constructor(
     private cdf: ChangeDetectorRef,
     private host: ElementRef,
@@ -109,20 +112,46 @@ export class RootComponent implements AfterViewInit {
     private parcels: Parcels
   ) {}
 
+  @HostListener('window:keydown.shift') beginCoordinates(): void {
+    this.coordinates = [];
+  }
+
+  collectCoordinates(coord: [number, number]): void {
+    console.log('Collecting boundary ... ');
+    this.coordinates.push(coord);
+  }
+
+  @HostListener('window:keyup.shift') endCoordinates(): void {
+    // @see Lot in parcels.ts
+    // NOTE: we auto close by making the last point equal the first
+    const geometry = {
+      geometry: {
+        coordinates: [[...this.coordinates, this.coordinates[0]]],
+        type: 'Polygon'
+      }
+    };
+    // now log & copy to clipboard
+    navigator.clipboard.writeText(JSON.stringify(geometry)).then(() => {
+      console.log(geometry);
+    });
+  }
+
   // NOTE: we know layerX, layerY is non-standard, but
   // it works for us and that's good enough for this non-critical API
-  logLocation(event: any): boolean {
+  logLocation(event: any): void {
     const x = Number(event.layerX) + this.geometry.clip.x;
     const y = Number(event.layerY) + this.geometry.clip.y;
     const point = this.geometry.xy2point([x, y]);
-    navigator.clipboard.writeText(JSON.stringify(point)).then(() => {
-      console.log(point);
-      // also log what was clicked
-      // NOTE: see lots.ts: this is the lot ID
-      // NOTE: see styles.scss: only map-lots gets pointer events
-      console.log(event.srcElement.id);
-    });
-    return false;
+    if (event.shiftKey) this.collectCoordinates([point.lon, point.lat]);
+    else {
+      navigator.clipboard.writeText(JSON.stringify(point)).then(() => {
+        console.log(point);
+        // also log what was clicked
+        // NOTE: see lots.ts: this is the lot ID
+        // NOTE: see styles.scss: only map-lots gets pointer events
+        console.log(event.srcElement.id);
+      });
+    }
   }
 
   ngAfterViewInit(): void {
@@ -139,6 +168,8 @@ export class RootComponent implements AfterViewInit {
           center.top - this.host.nativeElement.offsetHeight / 2
         );
       }
+      // give the focus to the map
+      this.host.nativeElement.focus();
     });
   }
 

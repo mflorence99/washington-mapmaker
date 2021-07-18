@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "name": "nh_sullivan",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 586813,
+      "properties": {
+        "usecode": "11",
+        "address": "123 MAIN ST",
+        "city": "acworth",
+        "ll_gisacre": 0.22581,
+        "ll_updated_at": "2021-05-11T15:53:16.172Z",
+        "camayear": 0,
+        "improvval": 0,
+        "landval": 0,
+        "parval": 0,
+        "displayid": "99-999-99"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-72.223221496737409, 43.180693847724136],
+            [-72.223660529133454, 43.18088109656771],
+            [-72.222891091665318, 43.180092044757139],
+            [-72.223221496737409, 43.180693847724136]
+          ]
+        ]
+      }
+    }
+  ]
+}
