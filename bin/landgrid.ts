@@ -58,7 +58,7 @@ county.features
       ? base
       : `${base}-${parts[2]}`;
 
-    if (id === '9-7') console.log(feature);
+    // if (id === '9-7') console.log(feature);
 
     // eliminate duplicates
     if (!ids.has(id)) {
@@ -165,7 +165,7 @@ county.features
     }
   });
 
-console.log(`Processed ${Object.keys(additions).length} additions`);
+console.log(`Processed ${additions.features.length} additions`);
 
 console.log(
   `Processed ${Object.keys(overrides).length} overrides to ${

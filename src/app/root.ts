@@ -117,7 +117,7 @@ export class RootComponent implements AfterViewInit {
   }
 
   collectCoordinates(coord: [number, number]): void {
-    console.log('Collecting boundary ... ');
+    console.log('Collecting coordinates... ');
     this.coordinates.push(coord);
   }
 
@@ -130,8 +130,10 @@ export class RootComponent implements AfterViewInit {
         type: 'Polygon'
       }
     };
-    // now log & copy to clipboard
-    navigator.clipboard.writeText(JSON.stringify(geometry)).then(() => {
+    // NOTE: strip out leading & trailing { ... }
+    let str = JSON.stringify(geometry);
+    str = str.substring(1, str.length - 1);
+    navigator.clipboard.writeText(str).then(() => {
       console.log(geometry);
     });
   }
