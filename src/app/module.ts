@@ -1,3 +1,5 @@
+import { BodyComponent } from './body';
+import { BorderComponent } from './border';
 import { BoundaryComponent } from './boundary';
 import { ClipComponent } from './clip';
 import { CountyComponent } from './county';
@@ -9,6 +11,7 @@ import { LotLabelsComponent } from './lot-labels';
 import { LotsComponent } from './lots';
 import { PolygonsComponent } from './polygons';
 import { RootComponent } from './root';
+import { ScaleComponent } from './scale';
 import { StateComponent } from './state';
 import { StreetComponent } from './street';
 import { TileComponent } from './tile';
@@ -37,6 +40,8 @@ class IconsModule {
 }
 
 const COMPONENTS = [
+  BodyComponent,
+  BorderComponent,
   BoundaryComponent,
   ClipComponent,
   CountyComponent,
@@ -48,6 +53,7 @@ const COMPONENTS = [
   LotsComponent,
   PolygonsComponent,
   RootComponent,
+  ScaleComponent,
   StateComponent,
   StreetComponent,
   TileComponent,

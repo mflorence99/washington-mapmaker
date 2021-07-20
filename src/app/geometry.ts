@@ -78,6 +78,11 @@ export class Geometry {
   parcelsOnly = false;
   profile = 'washington';
   ready$ = new ReplaySubject<boolean>();
+  scale = {
+    cxFeet: 10000,
+    interval: 1000,
+    markers: [0, 5000, 10000]
+  };
   tiles = {
     bottom: 0,
     left: 0,
@@ -108,6 +113,7 @@ export class Geometry {
       this.dims.cxGrid = profile.cxGrid;
       this.dims.cyGrid = profile.cyGrid;
       this.focus = profile.focus;
+      this.scale = profile.scale;
       this.title = profile.title;
       this.zoom = profile.zoom;
     }
@@ -180,6 +186,7 @@ export class Geometry {
       // log some useful data
       console.table(this.clip);
       console.table(this.dims);
+      console.table(this.scale);
       // pan to the focus,if any
       if (this.focus) {
         let [fx, fy] = this.point2xy(this.focus);
@@ -214,8 +221,8 @@ export class Geometry {
       const br = this.point2xy({ lat: rect.bottom, lon: rect.right });
       return {
         height: br[1] - tl[1],
-        left: tl[0] - this.clip.x,
-        top: tl[1] - this.clip.y,
+        left: tl[0],
+        top: tl[1],
         width: br[0] - tl[0]
       };
     } else if (rect.width && rect.height) {
@@ -225,14 +232,14 @@ export class Geometry {
       });
       return {
         height: br[1] - tl[1],
-        left: tl[0] - this.clip.x,
-        top: tl[1] - this.clip.y,
+        left: tl[0],
+        top: tl[1],
         width: br[0] - tl[0]
       };
     } else {
       return {
-        left: tl[0] - this.clip.x,
-        top: tl[1] - this.clip.y
+        left: tl[0],
+        top: tl[1]
       };
     }
   }

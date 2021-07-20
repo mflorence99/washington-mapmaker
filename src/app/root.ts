@@ -24,56 +24,33 @@ import domtoimage from 'dom-to-image';
   selector: 'map-root',
   template: `<ng-container *ngIf="geometry.ready$ | async">
     <main *ngIf="!geometry.legendOnly">
-      <div
-        [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
-        class="border-1"
-      >
-        <div
-          [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
-          class="border-2"
-        >
-          <div
-            [ngClass]="{ hidden: geometry.mapOnly || geometry.parcelsOnly }"
-            class="border-3"
-          >
-            <section (click)="logLocation($event)" (dblclick)="print()">
-              <figure>
-                <map-defs></map-defs>
-                <map-clip></map-clip>
-                <map-topo
-                  *ngIf="!geometry.parcelsOnly"
-                  [provider]="'arcgis'"
-                  [tag]="'Main map topo'"
-                ></map-topo>
-                <map-lots></map-lots>
-                <map-street
-                  *ngIf="!geometry.parcelsOnly"
-                  [provider]="'osm'"
-                  [tag]="'Main map street'"
-                ></map-street>
-                <map-lot-labels></map-lot-labels>
-                <map-boundary></map-boundary>
-                <map-grid></map-grid>
-                <map-polygons #polygons></map-polygons>
-              </figure>
-
-              <figcaption>
-                <map-indices
-                  *ngIf="geometry.profile === 'washington'"
-                ></map-indices>
-
-                <footer>
-                  <p>
-                    Sources: ArcGIS, OpenStreetMap, and parcels by LOVELAND
-                    Technologies at landgrid.com
-                  </p>
-                  <p>Published {{ today | date: 'longDate' }}</p>
-                </footer>
-              </figcaption>
-            </section>
-          </div>
-        </div>
-      </div>
+      <map-border>
+        <map-body (click)="logLocation($event)" (dblclick)="print()">
+          <figure>
+            <map-defs></map-defs>
+            <map-clip></map-clip>
+            <map-topo
+              *ngIf="!geometry.parcelsOnly"
+              [provider]="'arcgis'"
+              [tag]="'Main map topo'"
+            ></map-topo>
+            <map-lots></map-lots>
+            <map-street
+              *ngIf="!geometry.parcelsOnly"
+              [provider]="'osm'"
+              [tag]="'Main map street'"
+            ></map-street>
+            <map-lot-labels></map-lot-labels>
+            <map-boundary></map-boundary>
+            <map-grid></map-grid>
+            <map-polygons #polygons></map-polygons>
+            <map-indices
+              *ngIf="geometry.profile === 'washington'"
+            ></map-indices>
+            <map-scale></map-scale>
+          </figure>
+        </map-body>
+      </map-border>
     </main>
 
     <aside
@@ -100,8 +77,6 @@ export class RootComponent implements AfterViewInit {
   // eslint-disable-next-line @typescript-eslint/member-ordering
   @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
   @ViewChild('saver', { static: false }) saver: ElementRef;
-
-  today = new Date();
 
   private coordinates: [number, number][] = [];
 
@@ -161,13 +136,14 @@ export class RootComponent implements AfterViewInit {
       this.cdf.detectChanges();
       // scroll to the focus point
       if (!this.geometry.legendOnly) {
-        const center = this.geometry.latlon2css({
-          left: this.geometry.focus.lon,
-          top: this.geometry.focus.lat
-        });
+        const center = this.geometry.point2xy(this.geometry.focus);
         this.host.nativeElement.scrollBy(
-          center.left - this.host.nativeElement.offsetWidth / 2,
-          center.top - this.host.nativeElement.offsetHeight / 2
+          center[0] -
+            this.geometry.clip.x -
+            this.host.nativeElement.offsetWidth / 2,
+          center[1] -
+            this.geometry.clip.y -
+            this.host.nativeElement.offsetHeight / 2
         );
       }
       // give the focus to the map
