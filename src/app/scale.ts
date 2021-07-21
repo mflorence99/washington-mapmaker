@@ -6,19 +6,27 @@ import { Component } from '@angular/core';
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-scale',
-  template: `<div
-    *ngIf="!isHidden()"
-    [ngStyle]="{
-      'width.px':
-        (geometry.scale.cxFeet / geometry.dims.cxFeet) * geometry.clip.cx
-    }"
-  ></div>`
+  template: `<div class="annotations">
+      <div
+        *ngFor="let unit of geometry.scale.numUnits + 1 | times"
+        class="annotation"
+      >
+        {{ unit * geometry.scale.ftUnit }}'
+      </div>
+    </div>
+    <div class="units">
+      <div
+        *ngFor="
+          let unit of geometry.scale.numUnits | times;
+          odd as white;
+          even as black
+        "
+        [class.black]="black"
+        [class.white]="white"
+        class="unit"
+      ></div>
+    </div>`
 })
 export class ScaleComponent {
   constructor(public geometry: Geometry) {}
-
-  isHidden(): boolean {
-    return false;
-    // TODO return this.geometry.mapOnly || this.geometry.parcelsOnly;
-  }
 }

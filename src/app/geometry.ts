@@ -79,9 +79,11 @@ export class Geometry {
   profile = 'washington';
   ready$ = new ReplaySubject<boolean>();
   scale = {
-    cxFeet: 10000,
-    interval: 1000,
-    markers: [0, 5000, 10000]
+    cxUnit: 0,
+    cxWidth: 0,
+    ftUnit: 1000,
+    ftWidth: 10000,
+    numUnits: 0
   };
   tiles = {
     bottom: 0,
@@ -113,7 +115,8 @@ export class Geometry {
       this.dims.cxGrid = profile.cxGrid;
       this.dims.cyGrid = profile.cyGrid;
       this.focus = profile.focus;
-      this.scale = profile.scale;
+      this.scale.ftUnit = profile.cxScale[0];
+      this.scale.ftWidth = profile.cxScale[1];
       this.title = profile.title;
       this.zoom = profile.zoom;
     }
@@ -183,6 +186,11 @@ export class Geometry {
       // grid lines every N feet
       this.dims.numHGrids = this.dims.cxFeet / this.dims.cxGrid;
       this.dims.numVGrids = this.dims.cyFeet / this.dims.cyGrid;
+      // compute dimensions of scale widget in pixels
+      this.scale.cxUnit = Math.round(this.feet2css(this.scale.ftUnit));
+      this.scale.cxWidth = Math.round(this.feet2css(this.scale.ftWidth));
+      // NOTE: assumes one is a multiple of the other
+      this.scale.numUnits = this.scale.ftWidth / this.scale.ftUnit;
       // log some useful data
       console.table(this.clip);
       console.table(this.dims);
@@ -210,9 +218,16 @@ export class Geometry {
       style.setProperty(`--${pfx}-numVGrids`, `${this.dims.numVGrids}`);
       style.setProperty(`--${pfx}-numXTiles`, `${this.dims.numXTiles}`);
       style.setProperty(`--${pfx}-numYTiles`, `${this.dims.numYTiles}`);
+      style.setProperty(`--${pfx}-scale-cxUnit`, `${this.scale.cxUnit}px`);
+      style.setProperty(`--${pfx}-scale-cxWidth`, `${this.scale.cxWidth}px`);
       // ready to rock!
       this.ready$.next(true);
     });
+  }
+
+  // TODO: assume same in all directions, OK foir this small map
+  feet2css(cxFeet: number): number {
+    return (cxFeet / this.dims.cxFeet) * this.clip.cx;
   }
 
   latlon2css(rect: Rectangle): Rectangle {

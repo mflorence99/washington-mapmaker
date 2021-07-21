@@ -15,12 +15,10 @@ import { Component } from '@angular/core';
     <ng-container *ngFor="let profile of profiles()">
       <ng-container *ngIf="rect(profile) as css">
         <article
-          [ngStyle]="{
-            'left.px': css.left,
-            'top.px': css.top,
-            'width.px': css.width,
-            'height.px': css.height
-          }"
+          [style.left.px]="css.left"
+          [style.top.px]="css.top"
+          [style.width.px]="css.width"
+          [style.height.px]="css.height"
         >
           {{ profile.title }}
         </article>

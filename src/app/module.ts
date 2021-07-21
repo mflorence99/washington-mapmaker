@@ -16,6 +16,7 @@ import { StateComponent } from './state';
 import { StreetComponent } from './street';
 import { TileComponent } from './tile';
 import { TilesComponent } from './tiles';
+import { TimesPipe } from './times';
 import { TopoComponent } from './topo';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -68,10 +69,12 @@ const MODULES = [
   IconsModule
 ];
 
+const PIPES = [TimesPipe];
+
 @NgModule({
   bootstrap: [RootComponent],
 
-  declarations: [...COMPONENTS],
+  declarations: [...COMPONENTS, ...PIPES],
 
   imports: [...MODULES]
 })

@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'map-border',
   template: `
-    <div [ngClass]="{ hidden: isHidden() }" class="border-1">
-      <div [ngClass]="{ hidden: isHidden() }" class="border-2">
-        <div [ngClass]="{ hidden: isHidden() }" class="border-3">
+    <div [class.hidden]="isHidden()" class="border-1">
+      <div [class.hidden]="isHidden()" class="border-2">
+        <div [class.hidden]="isHidden()" class="border-3">
           <ng-content></ng-content>
 
           <footer *ngIf="!isHidden()">

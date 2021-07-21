@@ -47,8 +47,8 @@ import domtoimage from 'dom-to-image';
             <map-indices
               *ngIf="geometry.profile === 'washington'"
             ></map-indices>
-            <map-scale></map-scale>
           </figure>
+          <map-scale *ngIf="!geometry.mapOnly"></map-scale>
         </map-body>
       </map-border>
     </main>

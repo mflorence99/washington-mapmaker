@@ -28,6 +28,8 @@
   --map-numVGrids: 0;
   --map-numXTiles: 0;
   --map-numYTiles: 0;
+  --map-scale-cxUnit: 0;
+  --map-scale-cxWidth: 0;
 
   // NOTE: these apply to the thumbnail
   --thumbnail-clip-x: 0;
@@ -799,20 +801,6 @@ map-root {
           // }
         }
 
-        map-scale {
-          bottom: calc(5% + var(--map-clip-x));
-          display: block;
-          font-size: 20px;
-          position: absolute;
-          right: calc(5% + var(--map-clip-x));
-
-          // TEMP
-          div {
-            border: 1px solid black;
-            height: 24px;
-          }
-        }
-
         map-tile {
           display: inline-block;
           height: calc(var(--map-cyTile));
@@ -843,12 +831,50 @@ map-root {
         }
       }
 
-      figcaption {
+      map-scale {
+        bottom: 2.5%;
         display: block;
-        height: 100%;
-        pointer-events: none;
         position: absolute;
-        width: 100%;
+        right: 2.5%;
+
+        .annotations {
+          bottom: 24px;
+          display: flex;
+          height: 24px;
+          position: absolute;
+          right: calc(var(--map-scale-cxUnit) / 2 * -1);
+          width: calc(var(--map-scale-cxWidth) + var(--map-scale-cxUnit));
+        }
+
+        .annotation {
+          color: var(--mat-gray-900);
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          text-align: center;
+          width: var(--map-scale-cxUnit);
+        }
+
+        .units {
+          border: 1px solid var(--mat-gray-800);
+          bottom: 0;
+          display: flex;
+          height: 24px;
+          position: absolute;
+          right: 0;
+          width: var(--map-scale-cxWidth);
+        }
+
+        .unit {
+          width: var(--map-scale-cxUnit);
+        }
+
+        .unit.black {
+          background-color: var(--mat-gray-800);
+        }
+
+        .unit.white {
+          background-color: var(--mat-gray-50);
+        }
       }
     }
   }
