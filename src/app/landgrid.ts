@@ -94314,12 +94314,17 @@ export const LANDGRID = {
       "callouts": [],
       "centers": [
         {
-          "lat": 43.15630674791736,
-          "lon": -72.07557194605033
+          "lat": 43.15628392476329,
+          "lon": -72.07541849499712
         }
       ],
       "id": "16-50",
-      "labels": [],
+      "labels": [
+        {
+          "rotate": false,
+          "split": true
+        }
+      ],
       "orientations": [
         36.57237947866942
       ],
@@ -96208,8 +96213,8 @@ export const LANDGRID = {
       "callouts": [],
       "centers": [
         {
-          "lat": 43.159969183976045,
-          "lon": -72.04662691285506
+          "lat": 43.162223342740035,
+          "lon": -72.04442816298598
         }
       ],
       "id": "17-5",

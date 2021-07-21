@@ -62,8 +62,6 @@ import domtoimage from 'dom-to-image';
     >
       <map-legend></map-legend>
     </aside>
-
-    <a #saver hidden></a>
   </ng-container>`
 })
 export class RootComponent implements AfterViewInit {
@@ -76,7 +74,6 @@ export class RootComponent implements AfterViewInit {
 
   // eslint-disable-next-line @typescript-eslint/member-ordering
   @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
-  @ViewChild('saver', { static: false }) saver: ElementRef;
 
   private coordinates: [number, number][] = [];
 
@@ -155,34 +152,8 @@ export class RootComponent implements AfterViewInit {
     if (!this.printing && !this.geometry.legendOnly) {
       this.emitLots();
       this.emitPolygons();
-      if (!this.geometry.parcelsOnly) this.emitImage();
+      if (!this.geometry.parcelsOnly) this.emitMap();
     }
-  }
-
-  private emitImage(): void {
-    // effect of "printing" will be to make overflow: unset
-    // NOTE: necessary for print to show entire extent
-    this.printing = true;
-    this.cdf.markForCheck();
-    // save the parcels index
-    // a little later, fire up the print
-    setTimeout(() => {
-      domtoimage
-        .toJpeg(this.host.nativeElement as HTMLElement, {
-          bgcolor: 'white',
-          quality: 0.95
-        })
-        .then((dataURL) => {
-          //  save the map itself
-          this.saver.nativeElement.download = `${this.geometry.profile}.jpeg`;
-          this.saver.nativeElement.href = dataURL;
-          this.saver.nativeElement.click();
-          // back to our normal programming
-          this.saver.nativeElement.href = null;
-          this.printing = false;
-          this.cdf.markForCheck();
-        });
-    }, 100);
   }
 
   private emitLots(): void {
@@ -217,6 +188,25 @@ export class RootComponent implements AfterViewInit {
       }
     );
     saveAs(blob, 'lots.ts');
+  }
+
+  private emitMap(): void {
+    // effect of "printing" will be to make overflow: unset
+    // NOTE: necessary for print to show entire extent
+    this.printing = true;
+    this.cdf.markForCheck();
+    // save the parcels index
+    // a little later, fire up the print
+    setTimeout(() => {
+      console.log('Printing map...');
+      domtoimage.toBlob(this.host.nativeElement as HTMLElement).then((blob) => {
+        saveAs(blob, `${this.geometry.profile}.png`);
+        // back to our normal programming
+        console.log('...map print complete');
+        this.printing = false;
+        this.cdf.markForCheck();
+      });
+    }, 100);
   }
 
   private emitPolygons(): void {

@@ -115,8 +115,8 @@ export class Geometry {
       this.dims.cxGrid = profile.cxGrid;
       this.dims.cyGrid = profile.cyGrid;
       this.focus = profile.focus;
-      this.scale.ftUnit = profile.cxScale[0];
-      this.scale.ftWidth = profile.cxScale[1];
+      this.scale.ftUnit = profile.cxScale?.[0];
+      this.scale.ftWidth = profile.cxScale?.[1];
       this.title = profile.title;
       this.zoom = profile.zoom;
     }
