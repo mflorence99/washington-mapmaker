@@ -10,8 +10,12 @@ const county = JSON.parse(
   readFileSync('src/assets/data/nh_sullivan.json').toString()
 );
 
-const additions = JSON.parse(readFileSync('bin/additions.json').toString());
-const overrides = JSON.parse(readFileSync('bin/overrides.json').toString());
+const additions = JSON.parse(
+  readFileSync('src/assets/data/additions.json').toString()
+);
+const overrides = JSON.parse(
+  readFileSync('src/assets/data/overrides.json').toString()
+);
 
 const washington = {
   areaByUsage: {},

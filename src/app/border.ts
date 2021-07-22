@@ -14,8 +14,8 @@ import { Component } from '@angular/core';
 
           <footer *ngIf="!isHidden()">
             <p>
-              Sources: ArcGIS, OpenStreetMap, and parcels by LOVELAND
-              Technologies at landgrid.com
+              Sources: ArcGIS, OpenStreetMap, and parcels by Regrid at
+              regrid.com
             </p>
             <p>Published {{ today | date: 'longDate' }}</p>
           </footer>
