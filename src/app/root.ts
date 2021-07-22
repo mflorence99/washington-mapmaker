@@ -161,13 +161,16 @@ export class RootComponent implements AfterViewInit {
       acc[lot.id] = {
         address: lot.address,
         area: lot.area,
+        building$: lot.building$,
         centers: lot.centers,
-        updatedAt: lot.updatedAt,
+        cu$: lot.cu$,
+        land$: lot.land$,
+        neighborhood: lot.neighborhood,
+        owner: lot.owner,
+        taxed$: lot.taxed$,
         usage: lot.usage,
-        valueOfImprovement: lot.valueOfImprovement,
-        valueOfLand: lot.valueOfLand,
-        valueOfParcel: lot.valueOfParcel,
-        yearOfCAMA: lot.yearOfCAMA
+        use: lot.use,
+        zone: lot.zone
       };
       return acc;
     }, {});

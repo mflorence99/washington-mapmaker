@@ -3,6 +3,7 @@ import * as turf from '@turf/turf';
 import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 
+import parse from 'csv-parse/lib/sync';
 import polylabel from 'polylabel';
 import simplify from 'simplify-geojson';
 
@@ -17,29 +18,132 @@ const overrides = JSON.parse(
   readFileSync('src/assets/data/overrides.json').toString()
 );
 
+const assessors = parse(
+  readFileSync('src/assets/data/assessor.csv').toString(),
+  {
+    columns: [
+      undefined,
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      'map',
+      'lot',
+      'sub',
+      undefined,
+      'address',
+      'owner',
+      'area',
+      'zone',
+      'neighborhood',
+      'use',
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      'building$',
+      'land$',
+      undefined,
+      'cu$',
+      'taxed$',
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    skip_empty_lines: true
+  }
+);
+
+const assessorsByID = assessors.reduce((acc, record) => {
+  let id = `${parseInt(record.map, 10)}-${parseInt(record.lot, 10)}`;
+  if ('000000' !== record.sub) {
+    let sub = record.sub;
+    while (sub.length > 2 && sub[0] === '0') sub = sub.slice(1);
+    id = `${id}-${sub}`;
+  }
+  acc[id] = record;
+  return acc;
+}, {});
+
 const washington = {
   areaByUsage: {},
   countByUsage: {},
   descByUsage: {
-    '11': 'Single Family Home',
-    '12': 'Multi Family Units',
-    '19': 'Improved Residential Land',
-    '22': 'Residential Land',
-    '100': 'Pilsbury State Park',
-    '101': 'Washington Town Forest',
-    '17': 'Industrial',
-    '33': 'Commercial',
-    '26': 'Mixed Commercial/Industrial',
-    '58': 'Garage/Storage Unit',
-    '27': 'Unclassified'
+    '110': 'Single Family Home',
+    '120': 'Multi Family Units',
+    '190': 'Current Use',
+    '260': 'Commercial/Industrial',
+    '261': 'Utilities',
+    '300': 'Town Property',
+    '400': 'State Property',
+    '500': 'Pilsbury State Park',
+    '501': 'Washington Town Forest',
+    '999': 'Unclassified'
   },
   lots: [],
-  usages: ['11', '12', '19', '22', '100', '101', '17', '33', '26', '58', '27']
+  usages: ['110', '120', '190', '260', '261', '300', '400', '500', '501', '999']
 };
+
+/* eslint-disable @typescript-eslint/naming-convention */
+const use2usage = {
+  'CI': '260',
+  'CUFL': '190',
+  'CUMH': '190',
+  'CUMO': '190',
+  'CUMW': '190',
+  'CUUH': '190',
+  'CUUO': '190',
+  'CUUW': '190',
+  'CUWL': '190',
+  'EX-M': '300',
+  'EX-S': '400',
+  'R1': '110',
+  'R1A': '110',
+  'R1W': '110',
+  'R2': '120',
+  'UTLE': '261'
+};
+/* eslint-enable @typescript-eslint/naming-convention */
 
 // NOTE: these lots are in the original data more than once
 const duplicates = new Set(['11-27']);
 const ids = new Set();
+
+const notInAssessors = new Set();
+const inLandgrid = new Set();
 
 const M2TOACRES = 4047;
 
@@ -61,6 +165,8 @@ county.features
     const id = ['0', '00', '000', '0000', '00000', '000000'].includes(parts[2])
       ? base
       : `${base}-${parts[2]}`;
+
+    inLandgrid.add(id);
 
     // if (id === '9-7') console.log(feature);
 
@@ -133,29 +239,34 @@ county.features
       // extract any overrides
       const override = overrides[id];
 
+      // find the assessor data
+      const assessor = assessorsByID[id];
+      if (!assessor) notInAssessors.add(id);
+
       // initialize the lot
       const lot = {
-        address: feature.properties.address,
-        area: feature.properties.ll_gisacre as number,
+        // NOTE: landgid aaddress is better
+        address: feature.properties.address ?? assessor.address,
+        area: assessor?.area
+          ? parseFloat(assessor.area)
+          : (feature.properties.ll_gisacre as number),
         areas: areas,
         boundaries: boundaries,
+        building$: assessor ? parseFloat(assessor.building$) : 0,
         callouts: override?.callouts ?? [],
         centers: override?.centers ?? centers,
+        cu$: assessor ? parseFloat(assessor.cu$) : 0,
         id: id,
         labels: override?.labels ?? [],
+        land$: assessor ? parseFloat(assessor.land$) : 0,
+        neighborhood: assessor?.neighborhood,
         orientations: override?.orientations ?? orientations,
+        owner: assessor?.owner,
         sqarcities: override?.sqarcities ?? sqarcities,
-        updatedAt: feature.properties.ll_updated_at,
-        usage:
-          // NOTE: fold 57 and 27 together
-          override?.usage ??
-          (feature.properties.usecode === '57'
-            ? '27'
-            : feature.properties.usecode ?? '27'),
-        valueOfImprovement: feature.properties.improvval,
-        valueOfLand: feature.properties.landval,
-        valueOfParcel: feature.properties.parval,
-        yearOfCAMA: feature.properties.camayear
+        taxed$: assessor ? parseFloat(assessor.taxed$) : 0,
+        usage: override?.usage ?? use2usage[assessor?.use] ?? '999',
+        use: assessor?.use,
+        zone: assessor?.zone
       };
       washington.lots.push(lot);
 
@@ -176,6 +287,22 @@ console.log(
     washington.lots.length
   } lots`
 );
+
+if (notInAssessors.size > 0) {
+  console.log('\n\n');
+  console.error('In landgrid, not in assessors:');
+  console.log(notInAssessors);
+}
+
+const notInLandgrid = new Set(
+  Object.keys(assessorsByID).filter((id) => !inLandgrid.has(id))
+);
+
+if (notInLandgrid.size > 0) {
+  console.log('\n\n');
+  console.error('In assessors, not in landgrid:');
+  console.log(notInLandgrid);
+}
 
 writeFileSync(
   'src/app/landgrid.ts',

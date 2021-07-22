@@ -14,20 +14,23 @@ export interface Lot {
   area: number;
   areas: number[];
   boundaries: Point[][];
+  building$: number;
   callouts: Point[];
   centers: Point[];
+  cu$: number;
   id: string;
   labels?: LotLabel[];
+  land$: number;
+  neighborhood?: string;
   // NOTE: lot orientation in degrees
   orientations: number[];
+  owner?: string;
   // NOTE 1 means lot is more square, 0 more elongated
   sqarcities: number[];
-  updatedAt: string;
+  taxed$: number;
   usage: string;
-  valueOfImprovement: number;
-  valueOfLand: number;
-  valueOfParcel: number;
-  yearOfCAMA: number;
+  use?: string;
+  zone?: string;
 }
 
 export interface Lots {
