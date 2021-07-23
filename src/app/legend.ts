@@ -22,29 +22,28 @@ import { Component } from '@angular/core';
           <td></td>
           <td></td>
           <td class="numeric">Acres</td>
-          <td class="numeric">Lots</td>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let usage of parcels.parcels.usages">
-          <td class="usage">
-            <div class="lot">
-              <div [ngClass]="'u' + usage"></div>
-            </div>
-          </td>
-          <td class="desc">{{ parcels.parcels.descByUsage[usage] }}</td>
-          <td class="numeric">
-            {{ parcels.parcels.areaByUsage[usage] | number: '1.1-1' }}
-          </td>
-          <td class="numeric">{{ parcels.parcels.countByUsage[usage] }}</td>
-        </tr>
+        <ng-container *ngFor="let usage of parcels.parcels.usages">
+          <tr *ngIf="parcels.parcels.areaByUsage[usage]">
+            <td class="usage">
+              <div class="lot">
+                <div [ngClass]="'u' + usage"></div>
+              </div>
+            </td>
+            <td class="desc">{{ parcels.parcels.descByUsage[usage] }}</td>
+            <td class="numeric">
+              {{ parcels.parcels.areaByUsage[usage] | number: '1.1-1' }}
+            </td>
+          </tr>
+        </ng-container>
         <tr class="total">
           <td></td>
           <td class="desc">Total</td>
           <td class="numeric">
             {{ sum(parcels.parcels.areaByUsage) | number: '1.1-1' }}
           </td>
-          <td class="numeric">{{ sum(parcels.parcels.countByUsage) }}</td>
         </tr>
       </tbody>
     </table>

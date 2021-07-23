@@ -10,7 +10,7 @@ export interface LotLabel {
 }
 
 export interface Lot {
-  address: string;
+  address?: string;
   area: number;
   areas: number[];
   boundaries: Point[][];

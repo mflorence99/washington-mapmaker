@@ -14,6 +14,11 @@ const county = JSON.parse(
 const additions = JSON.parse(
   readFileSync('src/assets/data/additions.json').toString()
 );
+
+const deletions = JSON.parse(
+  readFileSync('src/assets/data/deletions.json').toString()
+);
+
 const overrides = JSON.parse(
   readFileSync('src/assets/data/overrides.json').toString()
 );
@@ -106,7 +111,7 @@ const washington = {
     '120': 'Multi Family Units',
     '190': 'Current Use',
     '260': 'Commercial/Industrial',
-    '261': 'Utilities',
+    '261': 'Electric Utilities',
     '300': 'Town Property',
     '400': 'State Property',
     '500': 'Pilsbury State Park',
@@ -150,10 +155,6 @@ const M2TOACRES = 4047;
 // extract data from original + additions
 county.features
   .concat(additions.features)
-  // .map((feature) => {
-  //   if (feature.properties.agval) console.log(feature);
-  //   return feature;
-  // })
   .filter(
     (feature) =>
       feature.properties.displayid && feature.properties.city === 'washington'
@@ -168,31 +169,31 @@ county.features
 
     inLandgrid.add(id);
 
-    // if (id === '9-7') console.log(feature);
+    // if (id === '12-210') console.log(feature);
 
-    // eliminate duplicates
-    if (!ids.has(id)) {
+    // eliminate duplicates and deletions
+    if (!ids.has(id) && !deletions.includes(id)) {
       if (duplicates.has(id)) ids.add(id);
 
       // simplify boundaries
-      feature = simplify(feature, 0.00001);
+      if (feature.geometry) feature = simplify(feature, 0.00001);
 
       // find the areas of each individual polygon
-      let areas;
-      if (feature.geometry.type === 'Polygon')
+      let areas = [];
+      if (feature.geometry?.type === 'Polygon')
         areas = [turf.area(turf.polygon(feature.geometry.coordinates))];
-      else if (feature.geometry.type === 'MultiPolygon')
+      else if (feature.geometry?.type === 'MultiPolygon')
         areas = feature.geometry.coordinates.map((polygon) =>
           turf.area(turf.polygon(polygon))
         );
 
       // find the perimeters of each individual polygon
-      let perimeters;
-      if (feature.geometry.type === 'Polygon')
+      let perimeters = [];
+      if (feature.geometry?.type === 'Polygon')
         perimeters = [
           turf.length(turf.lineString(feature.geometry.coordinates[0]))
         ];
-      else if (feature.geometry.type === 'MultiPolygon')
+      else if (feature.geometry?.type === 'MultiPolygon')
         perimeters = feature.geometry.coordinates.map((polygon) =>
           turf.length(turf.lineString(polygon[0]))
         );
@@ -205,20 +206,20 @@ county.features
       // NOTE: convert sq meters to acres
       areas = areas.map((area) => area / M2TOACRES);
 
-      // extract the bundaries
-      let boundaries;
-      if (feature.geometry.type === 'Polygon')
+      // extract the boundaries
+      let boundaries = [];
+      if (feature.geometry?.type === 'Polygon')
         boundaries = [toPoints(feature.geometry.coordinates.flat(1))];
-      else if (feature.geometry.type === 'MultiPolygon')
+      else if (feature.geometry?.type === 'MultiPolygon')
         boundaries = feature.geometry.coordinates.map((polygon) =>
           toPoints(polygon.flat(1))
         );
 
       // find the centers of each individual polygon
-      let centers;
-      if (feature.geometry.type === 'Polygon')
+      let centers = [];
+      if (feature.geometry?.type === 'Polygon')
         centers = [polylabel(feature.geometry.coordinates)];
-      else if (feature.geometry.type === 'MultiPolygon')
+      else if (feature.geometry?.type === 'MultiPolygon')
         centers = feature.geometry.coordinates.map((polygon) =>
           polylabel(polygon)
         );
@@ -228,10 +229,10 @@ county.features
       }));
 
       // find the perimeters of each individual polygon
-      let orientations;
-      if (feature.geometry.type === 'Polygon')
+      let orientations = [];
+      if (feature.geometry?.type === 'Polygon')
         orientations = [orientation(feature.geometry.coordinates[0])];
-      else if (feature.geometry.type === 'MultiPolygon')
+      else if (feature.geometry?.type === 'MultiPolygon')
         orientations = feature.geometry.coordinates.map((polygon) =>
           orientation(polygon[0])
         );
@@ -243,13 +244,18 @@ county.features
       const assessor = assessorsByID[id];
       if (!assessor) notInAssessors.add(id);
 
+      // finding the area is tricky
+      let area = 0;
+      if (assessor?.area) area = parseFloat(assessor.area);
+      else if (feature.properties.ll_gisacre)
+        area = feature.properties.ll_gisacre;
+      else if (areas.length > 0) area = areas[0];
+
       // initialize the lot
       const lot = {
         // NOTE: landgid aaddress is better
-        address: feature.properties.address ?? assessor.address,
-        area: assessor?.area
-          ? parseFloat(assessor.area)
-          : (feature.properties.ll_gisacre as number),
+        address: feature.properties.address ?? assessor?.address,
+        area: area,
         areas: areas,
         boundaries: boundaries,
         building$: assessor ? parseFloat(assessor.building$) : 0,
