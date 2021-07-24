@@ -85,6 +85,14 @@
   --shade-u500: 190, 219, 75; // #BEDBAF
   --shade-u501: 170, 204, 155; // #aacc9b
   --shade-u999: var(--rgb-gray-300);
+
+  --shade-CUMH: var(--rgb-brown-500);
+  --shade-CUMW: var(--rgb-brown-500);
+  --shade-CUUH: var(--rgb-brown-500);
+  --shade-CUUW: var(--rgb-brown-500);
+
+  --shade-CUFL: var(--rgb-green-500);
+  --shade-CUWL: var(--rgb-blue-500);
 }
 
 * {
@@ -350,6 +358,27 @@ map-root {
           padding: 0.25rem;
         }
 
+        td.cu {
+          .icons {
+            display: grid;
+            font-size: 0.8em;
+            grid-gap: 8px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            padding: 0.5rem 1rem;
+
+            .icon {
+              display: grid;
+              grid-gap: 8px;
+              grid-template-columns: auto 1fr;
+            }
+          }
+        }
+
+        td.numeric {
+          text-align: right;
+        }
+
         td.desc {
           overflow: hidden;
           position: relative;
@@ -365,59 +394,51 @@ map-root {
         }
 
         td.usage {
-          .lot {
-            background-color: var(--mat-blue-gray-50);
+          .icon {
             border: 3px dashed var(--mat-blue-gray-300);
+            height: 2rem;
+            width: 3rem;
 
-            div {
-              height: 2rem;
-              width: 3rem;
-            }
-
-            .u110 {
+            &.u110 {
               background-color: rgba(var(--shade-u110), 0.5);
             }
 
-            .u120 {
+            &.u120 {
               background-color: rgba(var(--shade-u120), 0.5);
             }
 
-            .u190 {
+            &.u190 {
               background-color: rgba(var(--shade-u190), 0.5);
             }
 
-            .u260 {
+            &.u260 {
               background-color: rgba(var(--shade-u260), 0.5);
             }
 
-            .u261 {
+            &.u261 {
               background-color: rgba(var(--shade-u261), 0.5);
             }
 
-            .u300 {
+            &.u300 {
               background-color: rgba(var(--shade-u300), 0.5);
             }
 
-            .u400 {
+            &.u400 {
               background-color: rgba(var(--shade-u400), 0.5);
             }
 
-            .u500 {
+            &.u500 {
               background-color: rgba(var(--shade-u500), 0.5);
             }
 
-            .u501 {
+            &.u501 {
               background-color: rgba(var(--shade-u501), 0.5);
             }
 
-            .u999 {
+            &.u999 {
               background-color: rgba(var(--shade-u999), 0.5);
             }
           }
-        }
-
-        td.numeric {
-          text-align: right;
         }
 
         thead td {
