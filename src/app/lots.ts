@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
 
         <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
           <path
-            class="white u{{ lot.usage }}"
+            class="white u{{ lot.usage }} {{ lot.use }}"
             [attr.d]="path(boundary)"
             [id]="lot.id"
           />

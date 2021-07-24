@@ -149,6 +149,8 @@ const ids = new Set();
 
 const notInAssessors = new Set();
 const inLandgrid = new Set();
+const unclassified = new Set();
+const usages = new Set();
 
 const M2TOACRES = 4047;
 
@@ -282,7 +284,12 @@ county.features
         washington.areaByUsage[lot.usage] = area ? area + lot.area : lot.area;
         const count: number = washington.countByUsage[lot.usage];
         washington.countByUsage[lot.usage] = count ? count + 1 : 1;
+        // what usages are we using?
+        usages.add(assessor?.use);
       }
+
+      // record unclassified lots
+      if (lot.usage === '999') unclassified.add(id);
     }
   });
 
@@ -308,6 +315,18 @@ if (notInLandgrid.size > 0) {
   console.log('\n\n');
   console.error('In assessors, not in landgrid:');
   console.log(notInLandgrid);
+}
+
+if (unclassified.size > 0) {
+  console.log('\n\n');
+  console.error('Unclassified:');
+  console.log(unclassified);
+}
+
+if (usages.size > 0) {
+  console.log('\n\n');
+  console.error('Discrete usages:');
+  console.log(usages);
 }
 
 writeFileSync(

@@ -774,6 +774,36 @@ map-root {
               fill: url(#halftone-u999);
             }
           }
+
+          g.z15 path.white.u190.CUMH,
+          g.z17 path.white.u190.CUMH {
+            fill: url(#cumh);
+          }
+
+          g.z15 path.white.u190.CUMW,
+          g.z17 path.white.u190.CUMW {
+            fill: url(#cumw);
+          }
+
+          g.z15 path.white.u190.CUUH,
+          g.z17 path.white.u190.CUUH {
+            fill: url(#cuuh);
+          }
+
+          g.z15 path.white.u190.CUUW,
+          g.z17 path.white.u190.CUUW {
+            fill: url(#cuuw);
+          }
+
+          g.z15 path.white.u190.CUFL,
+          g.z17 path.white.u190.CUFL {
+            fill: url(#cufl);
+          }
+
+          g.z15 path.white.u190.CUWL,
+          g.z17 path.white.u190.CUWL {
+            fill: url(#cuwl);
+          }
         }
 
         map-polygons {
@@ -781,12 +811,6 @@ map-root {
             fill: none;
             stroke: none;
           }
-
-          // NOTE: just for testing
-          // g polygon[id='12-46'] {
-          //   fill: red;
-          //   stroke: none;
-          // }
         }
 
         map-tile {
