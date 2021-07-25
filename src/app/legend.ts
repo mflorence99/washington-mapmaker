@@ -26,97 +26,37 @@ import { Component } from '@angular/core';
       </thead>
       <tbody>
         <ng-container *ngFor="let usage of parcels.parcels.usages">
-          <ng-container *ngIf="parcels.parcels.areaByUsage[usage]">
-            <tr>
-              <td class="usage">
-                <div [ngClass]="'u' + usage" class="icon"></div>
-              </td>
-              <td class="desc">{{ parcels.parcels.descByUsage[usage] }}</td>
-              <td class="numeric">
-                {{ parcels.parcels.areaByUsage[usage] | number: '1.0-0' }}
-              </td>
-            </tr>
+          <tr>
+            <td class="usage">
+              <figure [ngClass]="'u' + usage" class="key"></figure>
+            </td>
+            <td class="desc">{{ parcels.parcels.descByUsage[usage] }}</td>
+            <td class="numeric">
+              {{ parcels.parcels.areaByUsage[usage] | number: '1.0-0' }}
+            </td>
+          </tr>
 
-            <tr *ngIf="usage === '190'">
-              <td></td>
-              <td class="cu">
-                <div class="icons">
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUMH), 0.5)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cumh.svg"
-                    ></svg-icon>
-                    <div>Managed Hardwood</div>
-                  </div>
-
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUMW), 0.5)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cumw.svg"
-                    ></svg-icon>
-                    <div>Managed Pine</div>
-                  </div>
-
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUUH), 1)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cuuh.svg"
-                    ></svg-icon>
-                    <div>Unmanaged Hardwood</div>
-                  </div>
-
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUUW), 0.5)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cuuw.svg"
-                    ></svg-icon>
-                    <div>Unmanaged Pine</div>
-                  </div>
-
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUFL), 1)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cufl.svg"
-                    ></svg-icon>
-                    <div>Farmland</div>
-                  </div>
-
-                  <div class="icon">
-                    <svg-icon
-                      [svgStyle]="{
-                        'fill': 'rgba(var(--shade-CUWL), 1)',
-                        'height.px': 32,
-                        'width.px': 32
-                      }"
-                      src="assets/cuwl.svg"
-                    ></svg-icon>
-                    <div>Wetland</div>
-                  </div>
-                </div>
-              </td>
-              <td></td>
-            </tr>
-          </ng-container>
+          <tr *ngIf="usage === '190'">
+            <td></td>
+            <td class="cu">
+              <article class="keys">
+                <figure *ngFor="let cuKey of cuKeys" class="key">
+                  <svg-icon
+                    [src]="cuKey.icon"
+                    [svgStyle]="{
+                      fill: cuKey.fill,
+                      height: '32px',
+                      width: '32px'
+                    }"
+                  ></svg-icon>
+                  <figcaption>
+                    {{ parcels.parcels.descByUse[cuKey.use] }}
+                  </figcaption>
+                </figure>
+              </article>
+            </td>
+            <td></td>
+          </tr>
         </ng-container>
 
         <tr class="total">
@@ -159,6 +99,38 @@ import { Component } from '@angular/core';
     </footer>`
 })
 export class LegendComponent {
+  cuKeys = [
+    {
+      fill: 'rgba(var(--shade-CUMH), 0.5)',
+      icon: 'assets/cumh.svg',
+      use: 'CUMH'
+    },
+    {
+      fill: 'rgba(var(--shade-CUMW), 0.5)',
+      icon: 'assets/cumw.svg',
+      use: 'CUMW'
+    },
+    {
+      fill: 'rgba(var(--shade-CUUH), 0.75)',
+      icon: 'assets/cuuh.svg',
+      use: 'CUUH'
+    },
+    {
+      fill: 'rgba(var(--shade-CUUW), 0.75)',
+      icon: 'assets/cuuw.svg',
+      use: 'CUUW'
+    },
+    {
+      fill: 'rgba(var(--shade-CUFL), 1)',
+      icon: 'assets/cufl.svg',
+      use: 'CUFL'
+    },
+    {
+      fill: 'rgba(var(--shade-CUWL), 1)',
+      icon: 'assets/cuwl.svg',
+      use: 'CUWL'
+    }
+  ];
   today = new Date();
 
   constructor(public parcels: Parcels) {}

@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
                   {{ lot.id }}
                 </tspan>
                 <tspan *ngIf="!smallLot(lot, ix)" class="area">
-                  &nbsp;{{ round(lot.area) }} ac
+                  &nbsp;{{ lot.area | number: '1.0-2' }} ac
                 </tspan>
               </text>
             </g>
@@ -74,11 +74,13 @@ import { Component } from '@angular/core';
                 [attr.dy]="'1.1em'"
                 class="area"
               >
-                {{ round(lot.area) }} ac
+                {{ lot.area | number: '1.0-2' }} ac
               </tspan>
 
               <ng-template #joined>
-                <tspan class="area">&nbsp;{{ round(lot.area) }} ac</tspan>
+                <tspan class="area">
+                  &nbsp;{{ lot.area | number: '1.0-2' }} ac
+                </tspan>
               </ng-template>
             </text>
           </g>
@@ -113,10 +115,6 @@ export class LotLabelsComponent {
     const rotate =
       label?.rotate === undefined ? this.smallLot(lot, ix) : label?.rotate;
     return rotate ? lot.orientations[ix] : 0;
-  }
-
-  round(area: number): number {
-    return Math.round(area * 10) / 10;
   }
 
   smallLot(lot: Lot, ix: number): boolean {

@@ -201,7 +201,7 @@ export class Geometry {
         // NOTE: need to adjust so that the clip rectangle is the origin
         fx -= this.clip.x;
         fy -= this.clip.y;
-        console.log(`focus: [${fx}, ${fy}]`);
+        console.log(`focus: { x: ${fx}, y: ${fy} }`);
       }
       // set CSS variables
       const style = document.body.style;

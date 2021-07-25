@@ -68,7 +68,7 @@ export const PROFILES: Record<string, Profile> = {
     cxGrid: 1320,
     cyGrid: 1320,
     cxScale: [200, 2000],
-    focus: { lat: 43.149317638444955, lon: -72.13877930259163 },
+    focus: { lat: 43.15492931705047, lon: -72.15021624183113 },
     origin: { lat: 43.17727946502029, lon: -72.17305139671191 },
     title: 'LAE',
     zoom: 17

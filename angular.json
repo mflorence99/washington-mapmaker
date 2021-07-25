@@ -33,7 +33,18 @@
             }
           },
           "options": {
-            "allowedCommonJsDependencies": ["file-saver", "xml2js"],
+            "allowedCommonJsDependencies": [
+              "concaveman",
+              "deep-equal",
+              "density-clustering",
+              "file-saver",
+              "geojson-equ",
+              "geojson-equality",
+              "geojson-rbush",
+              "rbush",
+              "skmeans",
+              "xml2js"
+            ],
             "assets": ["src/assets"],
             "index": "src/index.html",
             "main": "src/main.ts",

@@ -10,11 +10,9 @@
   "author": "Mark Florence",
   "scripts": {
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
-    "landgrid": "ts-node --dir bin landgrid.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
-    "serve": "ng serve --proxy-config proxy.conf.js",
-    "states": "ts-node --dir bin states.ts"
+    "serve": "ng serve --proxy-config proxy.conf.js"
   },
   "dependencies": {},
   "devDependencies": {

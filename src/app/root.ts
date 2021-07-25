@@ -165,22 +165,27 @@ export class RootComponent implements AfterViewInit {
         centers: lot.centers,
         cu$: lot.cu$,
         land$: lot.land$,
-        neighborhood: lot.neighborhood,
         owner: lot.owner,
         taxed$: lot.taxed$,
         usage: lot.usage,
-        use: lot.use,
-        zone: lot.zone
+        use: lot.use
       };
       return acc;
     }, {});
     const blob = new Blob(
       [
+        '/* eslint-disable @typescript-eslint/naming-convention */\n',
         'export const DESC_BY_USAGE = ',
         JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
         ';\n\n',
+        'export const DESC_BY_USE = ',
+        JSON.stringify(this.parcels.parcels.descByUse, null, 2),
+        ';\n\n',
         'export const USAGES = ',
         JSON.stringify(this.parcels.parcels.usages, null, 2),
+        ';\n\n',
+        'export const USES = ',
+        JSON.stringify(this.parcels.parcels.uses, null, 2),
         ';\n\n',
         'export const LOTS = ',
         JSON.stringify(index, null, 2),

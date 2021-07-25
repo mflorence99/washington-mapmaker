@@ -64,8 +64,8 @@ const assessors = parse(
       'address',
       'owner',
       'area',
-      'zone',
-      'neighborhood',
+      undefined,
+      undefined,
       'use',
 
       undefined,
@@ -107,23 +107,32 @@ const washington = {
   areaByUsage: {},
   countByUsage: {},
   descByUsage: {
-    '110': 'Single Family Home',
-    '120': 'Multi Family Units',
+    '110': 'Single family residence',
+    '120': 'Two family residence',
     '190': 'Current Use',
     '260': 'Commercial/Industrial',
-    '261': 'Electric Utilities',
     '300': 'Town Property',
     '400': 'State Property',
     '500': 'Pilsbury State Park',
-    '501': 'Washington Town Forest',
-    '999': 'Unclassified'
+    '501': 'Washington Town Forest'
+  },
+  descByUse: {
+    /* eslint-disable @typescript-eslint/naming-convention */
+    CUFL: 'Farmland',
+    CUMH: 'Managed hardwood',
+    CUMW: 'Managed pine',
+    CUUH: 'Unmanaged hardwood',
+    CUUW: 'Unmanaged pine',
+    CUWL: 'Wetland'
+    /* eslint-enable @typescript-eslint/naming-convention */
   },
   lots: [],
-  usages: ['110', '120', '190', '260', '261', '300', '400', '500', '501', '999']
+  usages: ['110', '120', '190', '260', '300', '400', '500', '501'],
+  uses: ['CUMH', 'CUMW', 'CUUH', 'CUUW', 'CUFL', 'CUWL']
 };
 
-/* eslint-disable @typescript-eslint/naming-convention */
 const use2usage = {
+  /* eslint-disable @typescript-eslint/naming-convention */
   'CI': '260',
   'CUFL': '190',
   'CUMH': '190',
@@ -140,8 +149,8 @@ const use2usage = {
   'R1W': '110',
   'R2': '120',
   'UTLE': '261'
+  /* eslint-enable @typescript-eslint/naming-convention */
 };
-/* eslint-enable @typescript-eslint/naming-convention */
 
 // NOTE: these lots are in the original data more than once
 const duplicates = new Set(['11-27']);
@@ -248,7 +257,7 @@ county.features
 
       // finding the area is tricky
       let area = 0;
-      if (assessor?.area) area = parseFloat(assessor.area);
+      if (assessor?.area) area = toNumber(assessor.area);
       else if (feature.properties.ll_gisacre)
         area = feature.properties.ll_gisacre;
       else if (areas.length > 0) area = areas[0];
@@ -260,21 +269,19 @@ county.features
         area: area,
         areas: areas,
         boundaries: boundaries,
-        building$: assessor ? parseFloat(assessor.building$) : 0,
+        building$: assessor ? toNumber(assessor.building$) : 0,
         callouts: override?.callouts ?? [],
         centers: override?.centers ?? centers,
-        cu$: assessor ? parseFloat(assessor.cu$) : 0,
+        cu$: assessor ? toNumber(assessor.cu$) : 0,
         id: id,
         labels: override?.labels ?? [],
-        land$: assessor ? parseFloat(assessor.land$) : 0,
-        neighborhood: assessor?.neighborhood,
+        land$: assessor ? toNumber(assessor.land$) : 0,
         orientations: override?.orientations ?? orientations,
         owner: assessor?.owner,
         sqarcities: override?.sqarcities ?? sqarcities,
-        taxed$: assessor ? parseFloat(assessor.taxed$) : 0,
+        taxed$: assessor ? toNumber(assessor.taxed$) : 0,
         usage: override?.usage ?? use2usage[assessor?.use] ?? '999',
-        use: assessor?.use,
-        zone: assessor?.zone
+        use: assessor?.use
       };
       washington.lots.push(lot);
 
@@ -355,6 +362,10 @@ function orientation(points: number[][]): number {
   });
   // convert bearing to rotation
   return angle - 90;
+}
+
+function toNumber(str: string): number {
+  return parseFloat(str.replace(/[^\d.-]/g, ''));
 }
 
 function toPoints(coordinates: number[][]): { lat: number; lon: number }[] {
