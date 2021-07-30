@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=64.000000
-ympp=64.000000
-lat=43.349522
-lon=-72.221057
+xmpp=128.000000
+ympp=128.000000
+lat=43.193004
+lon=-71.391718
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -15,6 +15,20 @@ drawhighlight=t
 ~Layer Map
 name=Map
 mode=13
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer Map
+name=Default Map
+visible=f
+mode=25
 directory=
 cache_type=1
 mapfile=
@@ -62,62 +76,12 @@ drawimages=t
 image_size=64
 image_alpha=255
 image_cache_size=300
-metadatadesc=Created by: GDAL 2.2.2
+metadatadesc=
 metadataauthor=
-metadatatime=2021-06-29T12:30:32.614313Z
+metadatatime=2021-07-30T09:03:21.494712Z
 metadatakeywords=
 external_layer=2
 external_file=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/sullivan.gpx
-
-
-~LayerData
-~EndLayerData
-~EndLayer
-
-
-~Layer TrackWaypoint
-name=boundary.gpx
-tracks_visible=t
-waypoints_visible=t
-routes_visible=t
-trackdrawlabels=t
-trackfontsize=3
-drawmode=0
-trackcolor=#000000
-drawlines=t
-line_thickness=3
-drawdirections=f
-trkdirectionsize=3
-drawpoints=t
-trkpointsize=5
-drawelevation=f
-elevation_factor=30
-drawstops=f
-stop_length=60
-bg_line_thickness=0
-trackbgcolor=#ffffff
-speed_factor=30.000000
-tracksortorder=0
-drawlabels=t
-wpfontsize=3
-wpcolor=#000000
-wptextcolor=#ffffff
-wpbgcolor=#8383c4
-wpbgand=f
-wpsymbol=1
-wpsize=2
-wpsyms=t
-wpsortorder=0
-drawimages=t
-image_size=64
-image_alpha=255
-image_cache_size=300
-metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
-metadataauthor=
-metadatatime=2020-10-24T19:49:22.507382Z
-metadatakeywords=
-external_layer=2
-external_file=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/washington.gpx
 
 
 ~LayerData
