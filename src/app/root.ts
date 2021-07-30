@@ -150,52 +150,9 @@ export class RootComponent implements AfterViewInit {
 
   print(): void {
     if (!this.printing && !this.geometry.legendOnly) {
-      this.emitLots();
       this.emitPolygons();
       if (!this.geometry.parcelsOnly) this.emitMap();
     }
-  }
-
-  private emitLots(): void {
-    const index = this.parcels.parcels.lots.reduce((acc, lot) => {
-      acc[lot.id] = {
-        address: lot.address,
-        area: lot.area,
-        building$: lot.building$,
-        centers: lot.centers,
-        cu$: lot.cu$,
-        land$: lot.land$,
-        owner: lot.owner,
-        taxed$: lot.taxed$,
-        usage: lot.usage,
-        use: lot.use
-      };
-      return acc;
-    }, {});
-    const blob = new Blob(
-      [
-        '/* eslint-disable @typescript-eslint/naming-convention */\n',
-        'export const DESC_BY_USAGE = ',
-        JSON.stringify(this.parcels.parcels.descByUsage, null, 2),
-        ';\n\n',
-        'export const DESC_BY_USE = ',
-        JSON.stringify(this.parcels.parcels.descByUse, null, 2),
-        ';\n\n',
-        'export const USAGES = ',
-        JSON.stringify(this.parcels.parcels.usages, null, 2),
-        ';\n\n',
-        'export const USES = ',
-        JSON.stringify(this.parcels.parcels.uses, null, 2),
-        ';\n\n',
-        'export const LOTS = ',
-        JSON.stringify(index, null, 2),
-        ';\n\n'
-      ],
-      {
-        type: 'text/plain;charset=utf-8'
-      }
-    );
-    saveAs(blob, 'lots.ts');
   }
 
   private emitMap(): void {

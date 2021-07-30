@@ -1,6 +1,6 @@
 import { Point } from './geometry';
 
-import parcels from '../assets/data/parcels.json';
+import PARCELS from '../assets/data/parcels.json';
 
 import * as turf from '@turf/turf';
 
@@ -19,22 +19,22 @@ export interface LotLabel {
 export interface Lot {
   address?: string;
   area: number;
-  areas: number[];
+  areas?: number[];
   boundaries: Point[][];
   building$: number;
   callouts: Point[];
-  centers: Point[];
+  centers?: Point[];
   cu$?: number;
   id: string;
   labels?: LotLabel[];
   land$?: number;
   // NOTE: lot orientation in degrees
-  orientations: number[];
+  orientations?: number[];
   owner?: string;
   // NOTE 1 means lot is more square, 0 more elongated
-  sqarcities: number[];
+  sqarcities?: number[];
   taxed$?: number;
-  usage: string;
+  usage?: string;
   use?: string;
 }
 
@@ -49,51 +49,31 @@ export interface Lots {
 
 @Injectable({ providedIn: 'root' })
 export class Parcels {
-  parcels: Lots = parcels;
+  parcels: Lots = PARCELS;
 
   constructor() {
     const areaByUsage: Record<string, number> = {};
     this.parcels.lots.forEach((lot) => {
-      // first, calulate areas -- but in sq meters
-      let areas = this.calculateAreas(lot.boundaries);
-      // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
+      const areas = this.calculateAreas(lot.boundaries);
       const perimeters = this.calculatePerimeters(lot.boundaries);
-      const sqarcities = areas.map(
-        (area, ix) => (area / Math.pow(perimeters[ix] * 1000, 2)) * 4 * Math.PI
-      );
-      this.assertDeepEqual(
-        sqarcities,
-        lot.sqarcities,
-        `Lot ${lot.id} sqarcity mismatch`
-      );
-      // lot.sqarcities = sqarcities;
-      // now reduce areas to required acres
-      areas = areas.map((area) => area / M2TOACRES);
-      this.assertDeepEqual(areas, lot.areas, `Lot ${lot.id} area mismatch`);
-      // lot.areas = areas;
-      // centers can be overriden, so only backfill what's missing
-      const centers = this.calculateCenters(lot.boundaries);
-      lot.centers = lot.centers ?? centers;
-      const orientations = this.calculateOrientations(lot.boundaries);
-      this.assertDeepEqual(
-        orientations,
-        lot.orientations,
-        `Lot ${lot.id} orientation mismatch`
-      );
-      // lot.orientations = orientations;
+      // update any missing calculated fields
+      lot.areas = lot.areas ?? areas.map((area) => area / M2TOACRES);
+      lot.centers = lot.centers ?? this.calculateCenters(lot.boundaries);
+      lot.orientations =
+        lot.orientations ?? this.calculateOrientations(lot.boundaries);
+      // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
+      lot.sqarcities =
+        lot.sqarcities ??
+        areas.map(
+          (area, ix) =>
+            (area / Math.pow(perimeters[ix] * 1000, 2)) * 4 * Math.PI
+        );
       // accumulate area by usage
       const acc = areaByUsage[lot.usage];
       areaByUsage[lot.usage] = acc ? acc + lot.area : lot.area;
     });
     // store area by usage
     this.parcels.areaByUsage = areaByUsage;
-  }
-
-  private assertDeepEqual(a, b, error): void {
-    if (JSON.stringify(a) !== JSON.stringify(b)) {
-      console.error(error, a, b);
-      throw new Error(error);
-    }
   }
 
   private calculateAreas(boundaries: Point[][]): number[] {
