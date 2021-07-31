@@ -195,14 +195,22 @@ export class Geometry {
       console.table(this.clip);
       console.table(this.dims);
       console.table(this.scale);
-      // pan to the focus,if any
-      if (this.focus) {
-        let [fx, fy] = this.point2xy(this.focus);
-        // NOTE: need to adjust so that the clip rectangle is the origin
-        fx -= this.clip.x;
-        fy -= this.clip.y;
-        console.log(`focus: { x: ${fx}, y: ${fy} }`);
+      // this data is useful for the app
+      const bbox = this.bbox;
+      if (this.profile === 'washington') {
+        const tl = this.xy2point([this.clip.x, this.clip.y]);
+        const br = this.xy2point([
+          this.clip.x + this.clip.cx,
+          this.clip.y + this.clip.cy
+        ]);
+        bbox.bottom = br.lat;
+        bbox.left = tl.lon;
+        bbox.right = br.lon;
+        bbox.top = tl.lat;
       }
+      console.log(
+        `bbox: { bottom: ${bbox.bottom}, left: ${bbox.left}, right: ${bbox.right}, top: ${bbox.top}}`
+      );
       // set CSS variables
       const style = document.body.style;
       const pfx = params.thumbnail ?? 'map';
@@ -225,7 +233,7 @@ export class Geometry {
     });
   }
 
-  // TODO: assume same in all directions, OK foir this small map
+  // TODO: assume same in all directions, OK for this small map
   feet2css(cxFeet: number): number {
     return (cxFeet / this.dims.cxFeet) * this.clip.cx;
   }
@@ -280,7 +288,7 @@ export class Geometry {
     return [x, y];
   }
 
-  xy2point([x, y]: [number, number]): Point {
+  xy2point([x, y]: XY): Point {
     const lon =
       this.bounds.left +
       (x / this.dims.cxNominal) * (this.bounds.right - this.bounds.left);
