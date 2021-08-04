@@ -41,6 +41,7 @@
               "geojson-equ",
               "geojson-equality",
               "geojson-rbush",
+              "polylabel",
               "rbush",
               "skmeans",
               "xml2js"
