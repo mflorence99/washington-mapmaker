@@ -21,7 +21,6 @@ import { TopoComponent } from './topo';
 
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { BrowserModule } from '@angular/platform-browser';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
@@ -50,7 +49,6 @@ const COMPONENTS = [
 const MODULES = [
   AngularSvgIconModule.forRoot(),
   BrowserModule,
-  FontAwesomeModule,
   HttpClientModule
 ];
 
