@@ -50,7 +50,7 @@ export class GpsData {
   }
 
   private obj2point(obj: any): Point {
-    // NOTE: GPS collected elevation in meters
+    // 👇 GPS collected elevation in meters
     const ele = Number(obj.ele?.[0] ?? 0) * METERS2FEET;
     const lat = Number(obj.$.lat);
     const lon = Number(obj.$.lon);

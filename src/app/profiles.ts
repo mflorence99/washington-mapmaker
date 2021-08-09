@@ -74,7 +74,7 @@ export const PROFILES: Record<string, Profile> = {
     zoom: 17
   },
 
-  // NOTE: just used for thumbnail
+  // 👇 just used for thumbnail
   sullivan: {
     cxFeet: 158400,
     cyFeet: 211200,

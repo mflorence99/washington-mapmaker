@@ -14,7 +14,7 @@ import { merge } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 import { of } from 'rxjs';
 
-// NOTE: tune this to balance load time against the problem that too many
+// 👇 tune this to balance load time against the problem that too many
 // concurrent XHR requests chokes the browser
 const CONCURRENCY = 10;
 

@@ -6,9 +6,9 @@ import { ChangeDetectionStrategy } from '@angular/core';
 import { Component } from '@angular/core';
 import { ElementRef } from '@angular/core';
 
-// NOTE: this is used solely for export
-// NOTE: dimensions are tied to clip area so that they exactly match image
-// NOTE: we try to make this as small as possible for export
+// 👇 this is used solely for export
+// 👇 dimensions are tied to clip area so that they exactly match image
+// 👇 we try to make this as small as possible for export
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -43,7 +43,7 @@ export class PolygonsComponent {
   points(boundary: Point[]): string {
     const polygon = boundary.map((point: Point) => {
       let [x, y] = this.geometry.point2xy(point);
-      // NOTE: need to adjust so that the clip rectangle is the origin
+      // 👇 need to adjust so that the clip rectangle is the origin
       // the paths won't line up here, but they will in the app we export to
       x -= this.geometry.clip.x;
       y -= this.geometry.clip.y;

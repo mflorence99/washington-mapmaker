@@ -140,7 +140,7 @@ export class Geometry {
         lon: this.bbox.left + (this.bbox.right - this.bbox.left) / 2
       };
       // compute tiles
-      // NOTE: spread out on all sides
+      // 👇 spread out on all sides
       this.tiles.bottom = this.lat2tile(this.bbox.bottom) + 2;
       this.tiles.left = this.lon2tile(this.bbox.left) - 2;
       this.tiles.right = this.lon2tile(this.bbox.right) + 2;
@@ -189,7 +189,7 @@ export class Geometry {
       // compute dimensions of scale widget in pixels
       this.scale.cxUnit = Math.round(this.feet2css(this.scale.ftUnit));
       this.scale.cxWidth = Math.round(this.feet2css(this.scale.ftWidth));
-      // NOTE: assumes one is a multiple of the other
+      // 👇 assumes one is a multiple of the other
       this.scale.numUnits = this.scale.ftWidth / this.scale.ftUnit;
       // log some useful data
       console.table(this.clip);
@@ -300,7 +300,7 @@ export class Geometry {
 
   /* eslint-disable @typescript-eslint/member-ordering */
 
-  // @see https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
+  // 👀  https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
 
   lat2tile(lat: number): number {
     return Math.floor(
@@ -327,7 +327,7 @@ export class Geometry {
     return (x / Math.pow(2, this.zoom)) * 360 - 180;
   }
 
-  // @see https://wiki.openstreetmap.org/wiki/Mercator#JavaScript_.28or_ActionScript.29
+  // 👀  https://wiki.openstreetmap.org/wiki/Mercator#JavaScript_.28or_ActionScript.29
 
   y2lat(y: number): number {
     return (Math.atan(Math.exp(y / RAD2DEG)) / PI_4 - 1) * 90;
@@ -345,7 +345,7 @@ export class Geometry {
     return lon;
   }
 
-  // @see https://www.geodatasource.com/developers/javascript
+  // 👀  https://www.geodatasource.com/developers/javascript
 
   distance(
     lat1: number,
@@ -386,7 +386,7 @@ export class Geometry {
       const raw = location.search.substring(1).split('&');
       return raw.reduce((params, pair) => {
         const [k, v] = pair.split('=');
-        // NOTE: a bit cheesy
+        // 👇 a bit cheesy
         if (v === 'false') params[k] = false;
         else if (v === 'true') params[k] = true;
         else if (/^[0-9]*$/.test(v)) params[k] = Number(v);

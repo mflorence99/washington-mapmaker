@@ -152,7 +152,7 @@ const use2usage = {
   /* eslint-enable @typescript-eslint/naming-convention */
 };
 
-// NOTE: these lots are in the original data more than once
+// 👇 these lots are in the original data more than once
 const duplicates = new Set(['11-27']);
 const ids = new Set();
 
@@ -209,12 +209,12 @@ county.features
           turf.length(turf.lineString(polygon[0]))
         );
 
-      // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
+      // 👀  https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
       const sqarcities = areas.map(
         (area, ix) => (area / Math.pow(perimeters[ix] * 1000, 2)) * 4 * Math.PI
       );
 
-      // NOTE: convert sq meters to acres
+      // 👇 convert sq meters to acres
       areas = areas.map((area) => area / M2TOACRES);
 
       // extract the boundaries
@@ -264,7 +264,7 @@ county.features
 
       // initialize the lot
       const lot = {
-        // NOTE: landgid aaddress is better
+        // 👇 landgid aaddress is better
         address: feature.properties.address ?? assessor?.address,
         area: area,
         areas: areas,

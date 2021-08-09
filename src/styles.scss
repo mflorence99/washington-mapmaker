@@ -15,7 +15,7 @@
 }
 
 :root {
-  // NOTE: these set in geometry.ts
+  // 👇 these set in geometry.ts
   --map-clip-x: 0;
   --map-clip-y: 0;
   --map-clip-cx: 0;
@@ -31,7 +31,7 @@
   --map-scale-cxUnit: 0;
   --map-scale-cxWidth: 0;
 
-  // NOTE: these apply to the thumbnail
+  // 👇 these apply to the thumbnail
   --thumbnail-clip-x: 0;
   --thumbnail-clip-y: 0;
   --thumbnail-clip-cx: 0;
@@ -45,7 +45,7 @@
   --thumbnail-numXTiles: 0;
   --thumbnail-numYTiles: 0;
 
-  // NOTE: these apply to the county map in the thumbnail
+  // 👇 these apply to the county map in the thumbnail
   --sullivan-clip-x: 0;
   --sullivan-clip-y: 0;
   --sullivan-clip-cx: 0;
@@ -59,7 +59,7 @@
   --sullivan-numXTiles: 0;
   --sullivan-numYTiles: 0;
 
-  // NOTE: these apply to the state map in the thumbnail
+  // 👇 these apply to the state map in the thumbnail
   --nh-clip-x: 0;
   --nh-clip-y: 0;
   --nh-clip-cx: 0;
@@ -74,7 +74,7 @@
   --nh-numYTiles: 0;
 
   // land use color shading
-  // @see https://www.gismanual.com/style/ColorConventions.pdf
+  // 👀  https://www.gismanual.com/style/ColorConventions.pdf
   --shade-u110: var(--rgb-brown-300);
   --shade-u120: var(--rgb-brown-500);
   --shade-u190: var(--rgb-yellow-200);

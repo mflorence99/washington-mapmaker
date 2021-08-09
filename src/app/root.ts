@@ -94,15 +94,15 @@ export class RootComponent implements AfterViewInit {
   }
 
   @HostListener('window:keyup.shift') endCoordinates(): void {
-    // @see Lot in parcels.ts
-    // NOTE: we auto close by making the last point equal the first
+    // 👀  Lot in parcels.ts
+    // 👇 we auto close by making the last point equal the first
     const geometry = {
       geometry: {
         coordinates: [[...this.coordinates, this.coordinates[0]]],
         type: 'Polygon'
       }
     };
-    // NOTE: strip out leading & trailing { ... }
+    // 👇 strip out leading & trailing { ... }
     let str = JSON.stringify(geometry);
     str = str.substring(1, str.length - 1);
     navigator.clipboard.writeText(str).then(() => {
@@ -110,7 +110,7 @@ export class RootComponent implements AfterViewInit {
     });
   }
 
-  // NOTE: we know layerX, layerY is non-standard, but
+  // 👇 we know layerX, layerY is non-standard, but
   // it works for us and that's good enough for this non-critical API
   logLocation(event: any): void {
     const x = Number(event.layerX) + this.geometry.clip.x;
@@ -121,8 +121,8 @@ export class RootComponent implements AfterViewInit {
       navigator.clipboard.writeText(JSON.stringify(point)).then(() => {
         console.log(point);
         // also log what was clicked
-        // NOTE: see lots.ts: this is the lot ID
-        // NOTE: see styles.scss: only map-lots gets pointer events
+        // 👇 see lots.ts: this is the lot ID
+        // 👇 see styles.scss: only map-lots gets pointer events
         console.log(event.srcElement.id);
       });
     }
@@ -157,7 +157,7 @@ export class RootComponent implements AfterViewInit {
 
   private emitMap(): void {
     // effect of "printing" will be to make overflow: unset
-    // NOTE: necessary for print to show entire extent
+    // 👇 necessary for print to show entire extent
     this.printing = true;
     this.cdf.markForCheck();
     // save the parcels index

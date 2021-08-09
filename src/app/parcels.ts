@@ -28,7 +28,7 @@ export interface Lot {
   id: string;
   labels?: LotLabel[];
   land$?: number;
-  // NOTE: lot orientation in degrees
+  // 👇 lot orientation in degrees
   orientations?: number[];
   owner?: string;
   // NOTE 1 means lot is more square, 0 more elongated
@@ -61,7 +61,7 @@ export class Parcels {
       lot.centers = lot.centers ?? this.calculateCenters(lot.boundaries);
       lot.orientations =
         lot.orientations ?? this.calculateOrientations(lot.boundaries);
-      // @see https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
+      // 👀  https://gis.stackexchange.com/questions/222345/identify-shape-of-the-polygons-elongation-roundness-etc
       lot.sqarcities =
         lot.sqarcities ??
         areas.map(
@@ -93,7 +93,7 @@ export class Parcels {
       acc.push(polylabel([points]));
       return acc;
     }, centers);
-    // NOTE: polylabel does a much better job of centers than turf
+    // 👇 polylabel does a much better job of centers than turf
     // exceptbthat result is in "wrong" format
     return centers.map((center) => ({
       lat: center[1],
