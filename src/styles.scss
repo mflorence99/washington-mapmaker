@@ -526,7 +526,6 @@ map-root {
         map-grid,
         map-lot-labels,
         map-lots,
-        map-polygons,
         map-street,
         map-tiles,
         map-topo {
@@ -824,13 +823,6 @@ map-root {
           g.z15 path.white.u190.CUWL,
           g.z17 path.white.u190.CUWL {
             fill: url(#cuwl);
-          }
-        }
-
-        map-polygons {
-          g polygon {
-            fill: none;
-            stroke: none;
           }
         }
 

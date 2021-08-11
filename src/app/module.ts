@@ -9,7 +9,6 @@ import { IndicesComponent } from './indices';
 import { LegendComponent } from './legend';
 import { LotLabelsComponent } from './lot-labels';
 import { LotsComponent } from './lots';
-import { PolygonsComponent } from './polygons';
 import { RootComponent } from './root';
 import { ScaleComponent } from './scale';
 import { StateComponent } from './state';
@@ -36,7 +35,6 @@ const COMPONENTS = [
   LegendComponent,
   LotLabelsComponent,
   LotsComponent,
-  PolygonsComponent,
   RootComponent,
   ScaleComponent,
   StateComponent,

@@ -1,6 +1,5 @@
 import { Geometry } from './geometry';
 import { Parcels } from './parcels';
-import { PolygonsComponent } from './polygons';
 
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -9,7 +8,6 @@ import { Component } from '@angular/core';
 import { ElementRef } from '@angular/core';
 import { HostBinding } from '@angular/core';
 import { HostListener } from '@angular/core';
-import { ViewChild } from '@angular/core';
 
 import { saveAs } from 'file-saver';
 
@@ -43,7 +41,6 @@ import domtoimage from 'dom-to-image';
             <map-lot-labels></map-lot-labels>
             <map-boundary></map-boundary>
             <map-grid></map-grid>
-            <map-polygons #polygons></map-polygons>
             <map-indices
               *ngIf="geometry.profile === 'washington'"
             ></map-indices>
@@ -71,9 +68,6 @@ export class RootComponent implements AfterViewInit {
     !this.geometry.legendOnly &&
     !this.geometry.mapOnly &&
     !this.geometry.parcelsOnly;
-
-  // eslint-disable-next-line @typescript-eslint/member-ordering
-  @ViewChild('polygons', { static: false }) polygons: PolygonsComponent;
 
   private coordinates: [number, number][] = [];
 
@@ -149,10 +143,12 @@ export class RootComponent implements AfterViewInit {
   }
 
   print(): void {
-    if (!this.printing && !this.geometry.legendOnly) {
-      this.emitPolygons();
-      if (!this.geometry.parcelsOnly) this.emitMap();
-    }
+    if (
+      !this.printing &&
+      !this.geometry.legendOnly &&
+      !this.geometry.parcelsOnly
+    )
+      this.emitMap();
   }
 
   private emitMap(): void {
@@ -172,12 +168,5 @@ export class RootComponent implements AfterViewInit {
         this.cdf.markForCheck();
       });
     }, 100);
-  }
-
-  private emitPolygons(): void {
-    const blob = new Blob([this.polygons.nativeElement().innerHTML], {
-      type: 'text/plain;charset=utf-8'
-    });
-    saveAs(blob, `${this.geometry.profile}.svg`);
   }
 }
