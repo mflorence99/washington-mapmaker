@@ -149,7 +149,7 @@ map-root {
     color: var(--mat-gray-900);
     display: block;
     height: 100%;
-    // TODO: total hack
+    // TODO: ⚠️ total hack
     // we need the w x h to be 4:3
     // so: 4849 (map) + 1636 (legend) = width of 6465
     // and: 4836 (map) = height

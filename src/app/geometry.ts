@@ -233,7 +233,7 @@ export class Geometry {
     });
   }
 
-  // TODO: assume same in all directions, OK for this small map
+  // TODO: ⚠️ assume same in all directions, OK for this small map
   feet2css(cxFeet: number): number {
     return (cxFeet / this.dims.cxFeet) * this.clip.cx;
   }
