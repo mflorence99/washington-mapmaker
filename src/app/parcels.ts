@@ -1,6 +1,5 @@
+import { PARCELS } from './parcel-data';
 import { Point } from './geometry';
-
-import PARCELS from '../assets/data/parcels.json';
 
 import * as turf from '@turf/turf';
 
