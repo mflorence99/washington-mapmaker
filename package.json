@@ -10,6 +10,7 @@
   "author": "Mark Florence",
   "scripts": {
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
+    "enhancer": "ts-node --dir bin enhancer.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
     "serve": "ng serve --proxy-config proxy.conf.js"
@@ -33,12 +34,14 @@
     "@typescript-eslint/parser": "^4",
     "angular-svg-icon": "^12.0.0",
     "csv-parse": "^4",
+    "delay": "^5.0.0",
     "dom-to-image": "^2",
     "eslint": "^7",
     "eslint-config-mflorence99": "^1",
     "eslint-config-prettier": "^8",
     "eslint-plugin-import-splitnsort": "^1",
     "file-saver": "^2",
+    "node-fetch": "^2.6.1",
     "polylabel": "^1",
     "prettier": "^2",
     "prettier-plugin-package": "^1",
