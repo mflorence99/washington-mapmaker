@@ -1,4 +1,5 @@
 import { PARCELS } from '../src/app/parcel-data';
+import polylabel from 'polylabel';
 
 import * as turf from '@turf/turf';
 
@@ -10,6 +11,20 @@ import fetch from 'node-fetch';
 interface Point {
   lat: number;
   lon: number;
+}
+
+function calculateCenters(boundaries: Point[][]): Point[] {
+  let centers: number[][] = [];
+  centers = boundaries.reduce((acc, boundary) => {
+    const points = boundary.map((point) => [point.lon, point.lat]);
+    const center = polylabel([points]);
+    acc.push(center);
+    return acc;
+  }, centers);
+  return centers.map((center) => ({
+    lat: center[1],
+    lon: center[0]
+  }));
 }
 
 async function calculateElevations(centers: Point[]): Promise<number[]> {
@@ -24,6 +39,7 @@ async function calculateElevations(centers: Point[]): Promise<number[]> {
         'Elevation'
       ];
     elevations.push(Number(elevation));
+    await delay(1000);
   }
   return elevations;
 }
@@ -56,18 +72,71 @@ function calculatePerimeters(boundaries: Point[][]): number[] {
   return perimeters;
 }
 
-async function main(): Promise<void> {
+function sortBoundariesClockwise(
+  boundaries: Point[][],
+  centers: Point[]
+): Point[][] {
+  const sorteds: Point[][] = [];
+  boundaries.forEach((boundary, ix) => {
+    const center = centers[ix];
+    const sorted = boundary.slice();
+    // 👀 https://stackoverflow.com/questions/6989100/sort-points-in-clockwise-order
+    sorted.sort(
+      (a, b) =>
+        (a.lon - center.lon) * (b.lat - center.lat) -
+        (b.lon - center.lon) * (a.lat - center.lat)
+    );
+    sorteds.push(sorted);
+  });
+  return sorteds;
+}
+
+function validateLot(lot: any): void {
+  if (lot.boundaries.length !== lot.areas.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} areas=${lot.areas.length}`
+    );
+  if (lot.boundaries.length !== lot.centers.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} centers=${lot.centers.length}`
+    );
+  if (lot.boundaries.length !== lot.orientations.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} orientations=${lot.orientations.length}`
+    );
+  if (lot.boundaries.length !== lot.sqarcities.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} sqarcities=${lot.sqarcities.length}`
+    );
+  if (lot.boundaries.length !== lot.elevations.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} elevations=${lot.elevations.length}`
+    );
+  if (lot.boundaries.length !== lot.lengths.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} lengths=${lot.lengths.length}`
+    );
+  if (lot.boundaries.length !== lot.perimeters.length)
+    console.error(
+      `MISMATCH boundaries=${lot.boundaries.length} perimeters=${lot.perimeters.length}`
+    );
+}
+
+function main(): void {
   for (let ix = 0; ix < PARCELS.lots.length; ix++) {
     const lot = PARCELS.lots[ix];
     console.log(lot.id);
+    validateLot(lot);
     try {
-      lot['elevations'] ??= await calculateElevations(lot.centers);
+      // lot.elevations ??= await calculateElevations(lot.centers);
     } catch (error) {
       console.error(error);
     }
-    lot['lengths'] ??= calculateLengths(lot.boundaries);
-    lot['perimeters'] ??= calculatePerimeters(lot.boundaries);
-    await delay(1000);
+    if (lot.boundaries.length !== lot.centers.length)
+      lot.centers = calculateCenters(lot.boundaries);
+    // lot.boundaries = sortBoundariesClockwise(lot.boundaries, lot.centers);
+    lot.lengths = calculateLengths(lot.boundaries);
+    lot.perimeters = calculatePerimeters(lot.boundaries);
   }
   writeFileSync(
     'src/app/parcel-data2.ts',
