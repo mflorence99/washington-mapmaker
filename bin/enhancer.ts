@@ -1,5 +1,4 @@
 import { PARCELS } from '../src/app/parcel-data';
-import polylabel from 'polylabel';
 
 import * as turf from '@turf/turf';
 
@@ -7,6 +6,7 @@ import { writeFileSync } from 'fs';
 
 import delay from 'delay';
 import fetch from 'node-fetch';
+import polylabel from 'polylabel';
 
 interface Point {
   lat: number;
@@ -72,23 +72,29 @@ function calculatePerimeters(boundaries: Point[][]): number[] {
   return perimeters;
 }
 
-function sortBoundariesClockwise(
-  boundaries: Point[][],
-  centers: Point[]
-): Point[][] {
-  const sorteds: Point[][] = [];
-  boundaries.forEach((boundary, ix) => {
-    const center = centers[ix];
-    const sorted = boundary.slice();
-    // 👀 https://stackoverflow.com/questions/6989100/sort-points-in-clockwise-order
-    sorted.sort(
-      (a, b) =>
-        (a.lon - center.lon) * (b.lat - center.lat) -
-        (b.lon - center.lon) * (a.lat - center.lat)
-    );
-    sorteds.push(sorted);
+function uniquifyLots(): void {
+  const lotByID = {};
+  PARCELS.lots.forEach((lot) => {
+    if (lotByID[lot.id]) {
+      console.error('DUPLICATE', lot.id);
+      const orig = lotByID[lot.id];
+      const dupe = lot;
+      orig.areas = orig.areas.concat(dupe.areas);
+      orig.boundaries = orig.boundaries.concat(dupe.boundaries);
+      orig.callouts = orig.callouts.concat(dupe.callouts);
+      orig.centers = orig.centers.concat(dupe.centers);
+      orig.elevations = orig.elevations.concat(dupe.elevations);
+      orig.labels = orig.labels.concat(dupe.labels);
+      orig.lengths = orig.lengths.concat(dupe.lengths);
+      orig.orientations = orig.orientations.concat(dupe.orientations);
+      orig.perimeters = orig.perimeters.concat(dupe.perimeters);
+      orig.sqarcities = orig.sqarcities.concat(dupe.sqarcities);
+    } else lotByID[lot.id] = lot;
   });
-  return sorteds;
+  // put back the deduped and sorted lots
+  PARCELS.lots = Object.values<any>(lotByID).sort((p, q) =>
+    p.id.localeCompare(q.id)
+  );
 }
 
 function validateLot(lot: any): void {
@@ -122,19 +128,21 @@ function validateLot(lot: any): void {
     );
 }
 
-function main(): void {
+async function main(): Promise<void> {
+  // first, remove any duplicates
+  uniquifyLots();
+  // next, fix them up
   for (let ix = 0; ix < PARCELS.lots.length; ix++) {
     const lot = PARCELS.lots[ix];
-    console.log(lot.id);
+    // console.log(lot.id);
     validateLot(lot);
     try {
-      // lot.elevations ??= await calculateElevations(lot.centers);
+      lot.elevations ??= await calculateElevations(lot.centers);
     } catch (error) {
       console.error(error);
     }
     if (lot.boundaries.length !== lot.centers.length)
       lot.centers = calculateCenters(lot.boundaries);
-    // lot.boundaries = sortBoundariesClockwise(lot.boundaries, lot.centers);
     lot.lengths = calculateLengths(lot.boundaries);
     lot.perimeters = calculatePerimeters(lot.boundaries);
   }
