@@ -27,6 +27,7 @@ export interface Lot {
   id: string;
   labels?: LotLabel[];
   land$?: number;
+  neighborhood?: string;
   // 👇 lot orientation in degrees
   orientations?: number[];
   owner?: string;
@@ -35,6 +36,7 @@ export interface Lot {
   taxed$?: number;
   usage?: string;
   use?: string;
+  zone?: string;
 }
 
 export interface Lots {

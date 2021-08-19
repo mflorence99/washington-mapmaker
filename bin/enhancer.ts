@@ -2,16 +2,98 @@ import { PARCELS } from '../src/app/parcel-data';
 
 import * as turf from '@turf/turf';
 
+import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 
 import delay from 'delay';
 import fetch from 'node-fetch';
+import parse from 'csv-parse/lib/sync';
 import polylabel from 'polylabel';
 
 interface Point {
   lat: number;
   lon: number;
 }
+
+const assessors = parse(
+  readFileSync('src/assets/data/assessor.csv').toString(),
+  {
+    columns: [
+      undefined,
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      'map',
+      'lot',
+      'sub',
+      undefined,
+      'address',
+      'owner',
+      'area',
+      'zone',
+      'neighborhood',
+      'use',
+
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+
+      'building$',
+      'land$',
+      undefined,
+      'cu$',
+      'taxed$',
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined
+    ],
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    skip_empty_lines: true
+  }
+);
+
+const assessorsByID = assessors.reduce((acc, record) => {
+  let id = `${parseInt(record.map, 10)}-${parseInt(record.lot, 10)}`;
+  if ('000000' !== record.sub) {
+    let sub = record.sub;
+    while (sub.length > 2 && sub[0] === '0') sub = sub.slice(1);
+    id = `${id}-${sub}`;
+  }
+  acc[id] = record;
+  return acc;
+}, {});
 
 function calculateCenters(boundaries: Point[][]): Point[] {
   let centers: number[][] = [];
@@ -145,6 +227,9 @@ async function main(): Promise<void> {
       lot.centers = calculateCenters(lot.boundaries);
     lot.lengths = calculateLengths(lot.boundaries);
     lot.perimeters = calculatePerimeters(lot.boundaries);
+    // new assessor data
+    lot['neighborhood'] = assessorsByID[lot.id]?.neighborhood;
+    lot['zone'] = assessorsByID[lot.id]?.zone;
   }
   writeFileSync(
     'src/app/parcel-data2.ts',
