@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>11-39-2</name>
+  <time>2021-08-20T18:05:01.463576Z</time>
+<trk>
+  <name>Track</name>
+  <trkseg>
+  <trkpt lat="43.17910531388209" lon="-72.11279522488404">
+  </trkpt>
+  <trkpt lat="43.17927743421971" lon="-72.11026321957398">
+  </trkpt>
+  <trkpt lat="43.17742320322381" lon="-72.11009155819703">
+  </trkpt>
+  <trkpt lat="43.17750144195639" lon="-72.10950147221375">
+  </trkpt>
+  <trkpt lat="43.176687754237534" lon="-72.10958730290223">
+  </trkpt>
+  <trkpt lat="43.176703402180536" lon="-72.10993062565613">
+  </trkpt>
+  <trkpt lat="43.176664282315514" lon="-72.11037050793458">
+  </trkpt>
+  <trkpt lat="43.177681390660865" lon="-72.11151849339295">
+  </trkpt>
+  <trkpt lat="43.17907401922312" lon="-72.11278449604798">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

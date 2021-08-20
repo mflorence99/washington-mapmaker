@@ -95,6 +95,17 @@ const assessorsByID = assessors.reduce((acc, record) => {
   return acc;
 }, {});
 
+function calculateAreas(boundaries: Point[][]): number[] {
+  let areas: number[] = [];
+  areas = boundaries.reduce((acc, boundary) => {
+    const points = boundary.map((point) => [point.lon, point.lat]);
+    const area = turf.area(turf.polygon([points]));
+    acc.push(area / 4047);
+    return acc;
+  }, areas);
+  return areas;
+}
+
 function calculateCenters(boundaries: Point[][]): Point[] {
   let centers: number[][] = [];
   centers = boundaries.reduce((acc, boundary) => {
@@ -143,6 +154,16 @@ function calculateLengths(boundaries: Point[][]): number[][] {
   return lengths;
 }
 
+function calculateOrientations(boundaries: Point[][]): number[] {
+  let perimeters: number[] = [];
+  perimeters = boundaries.reduce((acc, boundary) => {
+    const points = boundary.map((point) => [point.lon, point.lat]);
+    acc.push(orientation(points));
+    return acc;
+  }, perimeters);
+  return perimeters;
+}
+
 function calculatePerimeters(boundaries: Point[][]): number[] {
   let perimeters: number[] = [];
   perimeters = boundaries.reduce((acc, boundary) => {
@@ -152,6 +173,48 @@ function calculatePerimeters(boundaries: Point[][]): number[] {
     return acc;
   }, perimeters);
   return perimeters;
+}
+
+function calculateSqarcities(areas: number[], perimeters: number[]): number[] {
+  return areas.map((_, ix) => {
+    // need area back in m2 and perimeter in meters
+    const area = areas[ix] * 4047;
+    const perimeter = perimeters[ix] * 0.3048;
+    return (area / Math.pow(perimeter, 2)) * 4 * Math.PI;
+  });
+}
+
+function fixBoundaries(lot): void {
+  lot.boundaries.forEach((points) => {
+    const first = points[0];
+    const last = points[points.length - 1];
+    if (first.lat !== last.lat && first.lon !== last.lon) points.push(first);
+  });
+}
+
+function orientation(points: number[][]): number {
+  let angle = 0;
+  let longest = 0;
+  points.forEach((point, ix) => {
+    if (ix > 0) {
+      const p = turf.point(point);
+      const q = turf.point(points[ix - 1]);
+      const length = turf.distance(p, q);
+      if (length > longest) {
+        angle =
+          p.geometry.coordinates[0] < q.geometry.coordinates[0]
+            ? turf.bearing(p, q)
+            : turf.bearing(q, p);
+        longest = length;
+      }
+    }
+  });
+  // convert bearing to rotation
+  return angle - 90;
+}
+
+function toNumber(str: string): number {
+  return parseFloat(str.replace(/[^\d.-]/g, ''));
 }
 
 function uniquifyLots(): void {
@@ -179,62 +242,56 @@ function uniquifyLots(): void {
   );
 }
 
-function validateLot(lot: any): void {
-  if (lot.boundaries.length !== lot.areas.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} areas=${lot.areas.length}`
-    );
-  if (lot.boundaries.length !== lot.centers.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} centers=${lot.centers.length}`
-    );
-  if (lot.boundaries.length !== lot.orientations.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} orientations=${lot.orientations.length}`
-    );
-  if (lot.boundaries.length !== lot.sqarcities.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} sqarcities=${lot.sqarcities.length}`
-    );
-  if (lot.boundaries.length !== lot.elevations.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} elevations=${lot.elevations.length}`
-    );
-  if (lot.boundaries.length !== lot.lengths.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} lengths=${lot.lengths.length}`
-    );
-  if (lot.boundaries.length !== lot.perimeters.length)
-    console.error(
-      `MISMATCH boundaries=${lot.boundaries.length} perimeters=${lot.perimeters.length}`
-    );
-}
-
 async function main(): Promise<void> {
-  // first, remove any duplicates
+  let fail = false;
+  // 👇 remove any duplicates
   uniquifyLots();
   // next, fix them up
   for (let ix = 0; ix < PARCELS.lots.length; ix++) {
     const lot = PARCELS.lots[ix];
-    // console.log(lot.id);
-    validateLot(lot);
+    // fix up boundaries -- first and last should be same
+    fixBoundaries(lot);
+    // 👇 calculated fields
+    try {
+      lot.areas ??= calculateAreas(lot.boundaries);
+      lot.centers ??= calculateCenters(lot.boundaries);
+      lot.lengths ??= calculateLengths(lot.boundaries);
+      lot.orientations ??= calculateOrientations(lot.boundaries);
+      lot.perimeters ??= calculatePerimeters(lot.boundaries);
+      lot.sqarcities ??= calculateSqarcities(lot.areas, lot.perimeters);
+    } catch (error) {
+      fail = true;
+      console.error(lot.id, error.message);
+    }
+    // 👇 elevation is special
     try {
       lot.elevations ??= await calculateElevations(lot.centers);
     } catch (error) {
-      console.error(error);
+      fail = true;
+      console.error(lot.id, error.message);
     }
-    if (lot.boundaries.length !== lot.centers.length)
-      lot.centers = calculateCenters(lot.boundaries);
-    lot.lengths = calculateLengths(lot.boundaries);
-    lot.perimeters = calculatePerimeters(lot.boundaries);
-    // new assessor data
-    lot['neighborhood'] = assessorsByID[lot.id]?.neighborhood;
-    lot['zone'] = assessorsByID[lot.id]?.zone;
+    // 👇 jam the assessor data
+    const assessed = assessorsByID[lot.id];
+    if (assessed) {
+      lot.address = assessed.address;
+      lot.area = toNumber(assessed.area);
+      lot.building$ = toNumber(assessed.building$);
+      lot.cu$ = toNumber(assessed.cu$);
+      lot.land$ = toNumber(assessed.land$);
+      lot.neighborhood = assessed.neighborhood;
+      lot.owner = assessed.owner;
+      lot.taxed$ = toNumber(assessed.taxed$);
+      lot.use = assessed.use;
+      lot.zone = assessed.zone;
+    }
   }
-  writeFileSync(
-    'src/app/parcel-data2.ts',
-    'export const PARCELS = ' + JSON.stringify(PARCELS, null, 2) + ';'
-  );
+  // 👇 all done!
+  if (!fail) {
+    writeFileSync(
+      'src/app/parcel-data2.ts',
+      'export const PARCELS = ' + JSON.stringify(PARCELS, null, 2) + ';'
+    );
+  }
 }
 
 main();

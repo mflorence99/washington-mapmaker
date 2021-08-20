@@ -1,0 +1,338 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.178276
+lon=-72.110628
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer GeoRef Map
+name=11-39 drawing
+image=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/11-39.png
+corner_easting=734495.329622
+corner_northing=4784977.771492
+mpp_easting=0.946082
+mpp_northing=0.713025
+corner_zone=18
+corner_letter_as_int=84
+alpha=196
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/11-39.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-20T15:16:40.230427Z
+metadatakeywords=
+external_layer=2
+external_file=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/11-39.gpx
+
+
+~LayerData
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=11-39-0
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#c48f83
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-20T18:01:31.551647Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.18118637270452" longitude="-72.1133102090149" newsegment="yes"
+type="trackpoint" latitude="43.180732614045844" longitude="-72.11372863362122"
+type="trackpoint" latitude="43.180364910590185" longitude="-72.1141577870636"
+type="trackpoint" latitude="43.18037273409102" longitude="-72.11439382145691"
+type="trackpoint" latitude="43.180012852014954" longitude="-72.11428653309632"
+type="trackpoint" latitude="43.179864204451455" longitude="-72.11464058468628"
+type="trackpoint" latitude="43.17944173045301" longitude="-72.11423288891602"
+type="trackpoint" latitude="43.179629497035435" longitude="-72.11317073414612"
+type="trackpoint" latitude="43.1790896665546" longitude="-72.11277376721192"
+type="trackpoint" latitude="43.17928525785989" longitude="-72.11026321957398"
+type="trackpoint" latitude="43.180364910590185" longitude="-72.11032759259034"
+type="trackpoint" latitude="43.18042749856881" longitude="-72.11144339154053"
+type="trackpoint" latitude="43.18047443951067" longitude="-72.11175452778626"
+type="trackpoint" latitude="43.18058396823468" longitude="-72.11213003704835"
+type="trackpoint" latitude="43.1808421423067" longitude="-72.11278449604798"
+type="trackpoint" latitude="43.1811941961001" longitude="-72.11332093785096"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=11-39-1
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#95c483
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-20T18:04:00.923826Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.17944173045301" longitude="-72.11422216007996" newsegment="yes"
+type="trackpoint" latitude="43.179637320630505" longitude="-72.11319219181824"
+type="trackpoint" latitude="43.17908184288937" longitude="-72.11276303837586"
+type="trackpoint" latitude="43.17767356681517" longitude="-72.11152922222901"
+type="trackpoint" latitude="43.17669557820954" longitude="-72.11037050793458"
+type="trackpoint" latitude="43.17661733844442" longitude="-72.11093913624573"
+type="trackpoint" latitude="43.17657821852427" longitude="-72.11155067990113"
+type="trackpoint" latitude="43.1794182595896" longitude="-72.11423288891602"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=11-39-2
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#bec483
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-20T18:05:01.463576Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.17910531388209" longitude="-72.11279522488404" newsegment="yes"
+type="trackpoint" latitude="43.17927743421971" longitude="-72.11026321957398"
+type="trackpoint" latitude="43.17742320322381" longitude="-72.11009155819703"
+type="trackpoint" latitude="43.17750144195639" longitude="-72.10950147221375"
+type="trackpoint" latitude="43.176687754237534" longitude="-72.10958730290223"
+type="trackpoint" latitude="43.176703402180536" longitude="-72.10993062565613"
+type="trackpoint" latitude="43.176664282315514" longitude="-72.11037050793458"
+type="trackpoint" latitude="43.177681390660865" longitude="-72.11151849339295"
+type="trackpoint" latitude="43.17907401922312" longitude="-72.11278449604798"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=11-39-3
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#83c4b4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-20T18:06:53.701403Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.17752491355662" longitude="-72.10950147221375" newsegment="yes"
+type="trackpoint" latitude="43.17793957700623" longitude="-72.10669051716614"
+type="trackpoint" latitude="43.17639826656876" longitude="-72.1065939576416"
+type="trackpoint" latitude="43.175756694411774" longitude="-72.10655104229737"
+type="trackpoint" latitude="43.175741046226186" longitude="-72.10700165341187"
+type="trackpoint" latitude="43.175733222131875" longitude="-72.10738789151002"
+type="trackpoint" latitude="43.17570974984296" longitude="-72.10769902775574"
+type="trackpoint" latitude="43.175819287114074" longitude="-72.10798870632935"
+type="trackpoint" latitude="43.17589752790171" longitude="-72.10817109654236"
+type="trackpoint" latitude="43.17647650661458" longitude="-72.1089328439026"
+type="trackpoint" latitude="43.17661733844442" longitude="-72.1092761666565"
+type="trackpoint" latitude="43.17669557820954" longitude="-72.10959803173829"
+type="trackpoint" latitude="43.17750926582413" longitude="-72.10953365872193"
+type="trackend"
+~EndLayerData
+~EndLayer
+

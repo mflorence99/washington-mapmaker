@@ -11,9 +11,11 @@
   "scripts": {
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
     "enhancer": "ts-node --dir bin enhancer.ts",
+    "fromGPX": "ts-node --dir bin fromGPX.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
-    "serve": "ng serve --proxy-config proxy.conf.js"
+    "serve": "ng serve --proxy-config proxy.conf.js",
+    "toGPX": "ts-node --dir bin toGPX.ts"
   },
   "dependencies": {},
   "devDependencies": {
@@ -30,6 +32,7 @@
     "@types/csv-parse": "^1.2.2",
     "@types/polylabel": "^1",
     "@types/xml2js": "^0.4.9",
+    "@types/yargs": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "angular-svg-icon": "^12.0.0",
@@ -53,10 +56,12 @@
     "stylelint-order": "^4",
     "stylelint-scss": "^3",
     "timers": "^0.1.1",
+    "togpx": "^0.5.4",
     "ts-node": "^10",
     "tslib": "^2",
     "typescript": "^4.3",
     "xml2js": "^0.4.23",
+    "yargs": "^17.1.1",
     "zone.js": "~0.11.4"
   },
   "build": {
