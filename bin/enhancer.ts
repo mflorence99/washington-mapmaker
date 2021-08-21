@@ -254,7 +254,7 @@ function searchForAnomalies(): void {
 }
 
 function toNumber(str: string): number {
-  return parseFloat(str.replace(/[^\d.-]/g, ''));
+  return str ? parseFloat(str.replace(/[^\d.-]/g, '')) : 0;
 }
 
 function uniquifyLots(): void {
@@ -327,6 +327,8 @@ async function main(): Promise<void> {
       lot.use = assessed.use;
       lot.zone = assessed.zone;
     }
+    // 👇 it is still possible that we have no lot.area, but we really need it!
+    if (!lot.area) lot.area = lot.areas.reduce((acc, area) => acc + area, 0);
   }
   // 👇 all done!
   if (!fail) {
