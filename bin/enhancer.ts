@@ -154,14 +154,31 @@ function calculateLengths(boundaries: Point[][]): number[][] {
   return lengths;
 }
 
+function calculateMinWidths(boundaries: Point[][]): number[] {
+  let minWidths: number[] = [];
+  minWidths = boundaries.reduce((acc, boundary) => {
+    const points = boundary.map((point) => [point.lon, point.lat]);
+    const theta = orientation(points);
+    const polygon = turf.polygon([points]);
+    const rotated = turf.transformRotate(polygon, theta * -1);
+    const [minX, minY, , maxY] = turf.bbox(rotated);
+    const from = turf.point([minX, minY]);
+    const to = turf.point([minX, maxY]);
+    const minWidth = turf.distance(from, to, { units: 'miles' });
+    acc.push(minWidth * 5280);
+    return acc;
+  }, minWidths);
+  return minWidths;
+}
+
 function calculateOrientations(boundaries: Point[][]): number[] {
-  let perimeters: number[] = [];
-  perimeters = boundaries.reduce((acc, boundary) => {
+  let orientations: number[] = [];
+  orientations = boundaries.reduce((acc, boundary) => {
     const points = boundary.map((point) => [point.lon, point.lat]);
     acc.push(orientation(points));
     return acc;
-  }, perimeters);
-  return perimeters;
+  }, orientations);
+  return orientations;
 }
 
 function calculatePerimeters(boundaries: Point[][]): number[] {
@@ -177,7 +194,7 @@ function calculatePerimeters(boundaries: Point[][]): number[] {
 
 function calculateSqarcities(areas: number[], perimeters: number[]): number[] {
   return areas.map((_, ix) => {
-    // need area back in m2 and perimeter in meters
+    // 👇 need area back in m2 and perimeter in meters
     const area = areas[ix] * 4047;
     const perimeter = perimeters[ix] * 0.3048;
     return (area / Math.pow(perimeter, 2)) * 4 * Math.PI;
@@ -256,6 +273,7 @@ async function main(): Promise<void> {
       lot.areas ??= calculateAreas(lot.boundaries);
       lot.centers ??= calculateCenters(lot.boundaries);
       lot.lengths ??= calculateLengths(lot.boundaries);
+      lot.minWidths ??= calculateMinWidths(lot.boundaries);
       lot.orientations ??= calculateOrientations(lot.boundaries);
       lot.perimeters ??= calculatePerimeters(lot.boundaries);
       lot.sqarcities ??= calculateSqarcities(lot.areas, lot.perimeters);

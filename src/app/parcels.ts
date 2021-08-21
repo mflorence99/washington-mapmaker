@@ -27,6 +27,7 @@ export interface Lot {
   id: string;
   labels?: LotLabel[];
   land$?: number;
+  minWidths?: number[];
   neighborhood?: string;
   // 👇 lot orientation in degrees
   orientations?: number[];

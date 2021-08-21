@@ -33,6 +33,7 @@ async function main(): Promise<void> {
       labels: [],
       land$: 0,
       lengths: null,
+      minWidths: null,
       neighborhood: '',
       orientations: null,
       owner: '',
