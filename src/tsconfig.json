@@ -18,6 +18,7 @@
     "resolveJsonModule": true,
     "target": "es2015"
   },
+  "exclude": ["src/app/parcel-data-orig.ts", "src/app/parcel-data2.ts"],
   "files": ["main.ts", "polyfills.ts"],
   "include": ["**/*.ts"]
 }
