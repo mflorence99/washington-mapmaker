@@ -230,6 +230,29 @@ function orientation(points: number[][]): number {
   return angle - 90;
 }
 
+function searchForAnomalies(): void {
+  const lotsByID = PARCELS.lots.reduce((acc, lot) => {
+    acc[lot.id] = lot;
+    return acc;
+  }, {});
+  // 👇 these lots known to assessors, but not original landgrid dataset
+  const missingFromAssessors = PARCELS.lots
+    .map((lot) => lot.id)
+    .filter((id) => !assessorsByID[id]);
+  if (missingFromAssessors.length > 0) {
+    console.log('\n\nLOTS NOT FOUND IN assessors.csv:');
+    missingFromAssessors.forEach((id) => console.log(id));
+  }
+  // 👇 these lots known to original landgrid dataset, but not to assessors
+  const missingFromData = Object.keys(assessorsByID).filter(
+    (id) => !lotsByID[id]
+  );
+  if (missingFromData.length > 0) {
+    console.log('\n\nLOTS NOT FOUND IN parcel-data.ts:');
+    missingFromData.forEach((id) => console.log(id));
+  }
+}
+
 function toNumber(str: string): number {
   return parseFloat(str.replace(/[^\d.-]/g, ''));
 }
@@ -263,6 +286,8 @@ async function main(): Promise<void> {
   let fail = false;
   // 👇 remove any duplicates
   uniquifyLots();
+  // 👇 find any anomalies
+  searchForAnomalies();
   // next, fix them up
   for (let ix = 0; ix < PARCELS.lots.length; ix++) {
     const lot = PARCELS.lots[ix];
