@@ -240,7 +240,9 @@ function searchForAnomalies(): void {
     .map((lot) => lot.id)
     .filter((id) => !assessorsByID[id]);
   if (missingFromAssessors.length > 0) {
-    console.log('\n\nLOTS NOT FOUND IN assessors.csv:');
+    console.log(
+      `\n\n${missingFromAssessors.length} LOTS NOT FOUND IN assessors.csv:`
+    );
     missingFromAssessors.forEach((id) => console.log(id));
   }
   // 👇 these lots known to original landgrid dataset, but not to assessors
@@ -248,8 +250,25 @@ function searchForAnomalies(): void {
     (id) => !lotsByID[id]
   );
   if (missingFromData.length > 0) {
-    console.log('\n\nLOTS NOT FOUND IN parcel-data.ts:');
+    console.log(
+      `\n\n${missingFromData.length} LOTS NOT FOUND IN parcel-data.ts:`
+    );
     missingFromData.forEach((id) => console.log(id));
+  }
+  // 👇 these lots are residential, but we have no addess
+  const missingAddress = PARCELS.lots
+    .filter(
+      (lot) =>
+        lot.usage === '110' &&
+        !['U', 'V', 'W'].includes(lot.neighborhood) &&
+        (!lot.address || !/^[\d]+ /.test(lot.address))
+    )
+    .map((lot) => lot.id);
+  if (missingAddress.length > 0) {
+    console.log(
+      `\n\n${missingAddress.length} RESIDENTIAL LOTS WITH MISSING ADDRESS:`
+    );
+    missingAddress.forEach((id) => console.log(id));
   }
 }
 
