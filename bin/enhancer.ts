@@ -260,7 +260,7 @@ function toNumber(str: string): number {
 function uniquifyLots(): void {
   const lotByID = {};
   PARCELS.lots.forEach((lot) => {
-    if (lotByID[lot.id]) {
+    if (lotByID[lot.id]) {🌖
       console.error('DUPLICATE', lot.id);
       const orig = lotByID[lot.id];
       const dupe = lot;
@@ -296,6 +296,7 @@ async function main(): Promise<void> {
     // 👇 calculated fields
     try {
       lot.areas ??= calculateAreas(lot.boundaries);
+      // 🧨 DON'T recalculate centers b/c they've been tweaked
       lot.centers ??= calculateCenters(lot.boundaries);
       lot.lengths ??= calculateLengths(lot.boundaries);
       lot.minWidths ??= calculateMinWidths(lot.boundaries);
