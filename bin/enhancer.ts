@@ -260,7 +260,7 @@ function toNumber(str: string): number {
 function uniquifyLots(): void {
   const lotByID = {};
   PARCELS.lots.forEach((lot) => {
-    if (lotByID[lot.id]) {🌖
+    if (lotByID[lot.id]) {
       console.error('DUPLICATE', lot.id);
       const orig = lotByID[lot.id];
       const dupe = lot;
