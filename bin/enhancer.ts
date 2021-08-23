@@ -1,4 +1,4 @@
-import { PARCELS } from '../src/app/parcel-data';
+import { PARCELS } from '../src/app/parcel-data2';
 
 import * as turf from '@turf/turf';
 
@@ -209,6 +209,34 @@ function fixBoundaries(lot): void {
   });
 }
 
+function normalizeAddress(address: string): string {
+  let normalized = address.trim();
+  normalized = normalized.replace(/ RD$/, ' ROAD');
+  normalized = normalized.replace(/ DR$/, ' DRIVE');
+  normalized = normalized.replace(/ CIR$/, ' CIRCLE');
+  normalized = normalized.replace(/ TER$/, ' TERRACE');
+  normalized = normalized.replace(/ TERR$/, ' TERRACE');
+  normalized = normalized.replace(/ LN$/, ' LANE');
+  normalized = normalized.replace(/ ST$/, ' SREET');
+
+  normalized = normalized.replace(/^E /, 'EAST ');
+  normalized = normalized.replace(/^N /, 'NORTH ');
+  normalized = normalized.replace(/^NO /, 'NORTH ');
+  normalized = normalized.replace(/^S /, 'SOUTH ');
+  normalized = normalized.replace(/^SO /, 'SOUTH ');
+
+  normalized = normalized.replace(/ E /, ' EAST ');
+  normalized = normalized.replace(/ N /, ' NORTH ');
+  normalized = normalized.replace(/ NO /, ' NORTH ');
+  normalized = normalized.replace(/ S /, ' SOUTH ');
+  normalized = normalized.replace(/ SO /, ' SOUTH ');
+
+  normalized = normalized.replace(/ PD /, ' POND ');
+  normalized = normalized.replace(/ MT /, ' MOUNTAIN ');
+  normalized = normalized.replace(/ HGTS /, ' HEIGHTS ');
+  return normalized;
+}
+
 function orientation(points: number[][]): number {
   let angle = 0;
   let longest = 0;
@@ -235,7 +263,9 @@ function searchForAnomalies(): void {
     acc[lot.id] = lot;
     return acc;
   }, {});
+  // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots known to assessors, but not original landgrid dataset
+  // ///////////////////////////////////////////////////////////////////////
   const missingFromAssessors = PARCELS.lots
     .map((lot) => lot.id)
     .filter((id) => !assessorsByID[id]);
@@ -245,7 +275,9 @@ function searchForAnomalies(): void {
     );
     missingFromAssessors.forEach((id) => console.log(id));
   }
-  // 👇 these lots known to original landgrid dataset, but not to assessors
+  // ///////////////////////////////////////////////////////////////////////
+  // 👇 these lots known to landgrid dataset, but not to assessors
+  // ///////////////////////////////////////////////////////////////////////
   const missingFromData = Object.keys(assessorsByID).filter(
     (id) => !lotsByID[id]
   );
@@ -255,7 +287,9 @@ function searchForAnomalies(): void {
     );
     missingFromData.forEach((id) => console.log(id));
   }
+  // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots are residential, but we have no addess
+  // ///////////////////////////////////////////////////////////////////////
   const missingAddress = PARCELS.lots
     .filter(
       (lot) =>
@@ -268,7 +302,22 @@ function searchForAnomalies(): void {
     console.log(
       `\n\n${missingAddress.length} RESIDENTIAL LOTS WITH MISSING ADDRESS:`
     );
-    missingAddress.forEach((id) => console.log(id));
+    // missingAddress.forEach((id) => console.log(id));
+  }
+  // ///////////////////////////////////////////////////////////////////////
+  // 👇 explore unique addresses
+  // ///////////////////////////////////////////////////////////////////////
+  const uniqueAddresses = PARCELS.lots.reduce((set, lot) => {
+    if (lot.address) {
+      const addr = lot.address.replace(/^[\d]*\s*/, '');
+      set.add(addr);
+    }
+    return set;
+  }, new Set());
+  if (uniqueAddresses.size > 0) {
+    const sortedUniqueAddresses = Array.from(uniqueAddresses).sort();
+    console.log(`\n\n${sortedUniqueAddresses.length} UNIQUE ADDRESSES:`);
+    sortedUniqueAddresses.forEach((id) => console.log(id));
   }
 }
 
@@ -314,14 +363,14 @@ async function main(): Promise<void> {
     fixBoundaries(lot);
     // 👇 calculated fields
     try {
-      lot.areas ??= calculateAreas(lot.boundaries);
+      lot.areas = calculateAreas(lot.boundaries);
       // 🧨 DON'T recalculate centers b/c they've been tweaked
       lot.centers ??= calculateCenters(lot.boundaries);
-      lot.lengths ??= calculateLengths(lot.boundaries);
-      lot.minWidths ??= calculateMinWidths(lot.boundaries);
-      lot.orientations ??= calculateOrientations(lot.boundaries);
-      lot.perimeters ??= calculatePerimeters(lot.boundaries);
-      lot.sqarcities ??= calculateSqarcities(lot.areas, lot.perimeters);
+      lot.lengths = calculateLengths(lot.boundaries);
+      lot.minWidths = calculateMinWidths(lot.boundaries);
+      lot.orientations = calculateOrientations(lot.boundaries);
+      lot.perimeters = calculatePerimeters(lot.boundaries);
+      lot.sqarcities = calculateSqarcities(lot.areas, lot.perimeters);
     } catch (error) {
       fail = true;
       console.error(lot.id, error.message);
@@ -336,7 +385,8 @@ async function main(): Promise<void> {
     // 👇 jam the assessor data
     const assessed = assessorsByID[lot.id];
     if (assessed) {
-      lot.address = assessed.address;
+      // 🧨 only use assessor address as last resort, as it has no street #
+      lot.address ??= assessed.address;
       lot.area = toNumber(assessed.area);
       lot.building$ = toNumber(assessed.building$);
       lot.cu$ = toNumber(assessed.cu$);
@@ -349,6 +399,9 @@ async function main(): Promise<void> {
     }
     // 👇 it is still possible that we have no lot.area, but we really need it!
     if (!lot.area) lot.area = lot.areas.reduce((acc, area) => acc + area, 0);
+
+    // 👇 try to elimiate difference between RD/ROAD, CIR/CIRCLE etc
+    if (lot.address) lot.address = normalizeAddress(lot.address);
   }
   // 👇 all done!
   if (!fail) {
