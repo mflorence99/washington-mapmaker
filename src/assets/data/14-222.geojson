@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.14629854234275,
+              43.15800527510418
+            ],
+            [
+              -72.14644575566186,
+              43.15842017172386
+            ],
+            [
+              -72.14720843931538,
+              43.15828650075053
+            ],
+            [
+              -72.14708545869523,
+              43.15785594877896
+            ],
+            [
+              -72.14629854234275,
+              43.15800527510418
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "address": "587 PRESIDENTIAL DRIVE",
+        "area": 1.41,
+        "building$": 54500,
+        "id": "14-222",
+        "land$": 41100,
+        "neighborhood": "E",
+        "owner": "TILTON-WAHLERT, ELIZABETH",
+        "usage": "110",
+        "use": "R1",
+        "zone": "02"
+      }
+    }
+  ]
+}

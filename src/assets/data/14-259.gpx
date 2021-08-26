@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.15381011197294</minlat><minlon>-72.13871492957527</minlon><maxlat>43.154498853559105</maxlat><maxlon>-72.13787808036263</maxlon></bounds></metadata><trk><name>14-259</name><desc>address=MONROE ROAD
+area=0.8
+building$=0
+id=14-259
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.154412760860836" lon="-72.13871492957527"/><trkpt lat="43.154498853559105" lon="-72.13821067428047"/><trkpt lat="43.153872724844405" lon="-72.13787808036263"/><trkpt lat="43.15381011197294" lon="-72.13831796264107"/><trkpt lat="43.154412760860836" lon="-72.13871492957527"/></trkseg></trk></gpx>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>7-25</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-26T20:07:18.720298Z</time>
+<trk>
+  <name>7-25</name>
+  <desc>address=117 WASHINGTON HEIGHTS ROAD
+area=10.3
+building$=79300
+id=7-25
+land$=36000
+neighborhood=A
+owner=CASEY, GEORGANN
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.19511823714486" lon="-72.1162697271347">
+  </trkpt>
+  <trkpt lat="43.19544283312276" lon="-72.11923625030518">
+  </trkpt>
+  <trkpt lat="43.19384557522666" lon="-72.1190197335222">
+  </trkpt>
+  <trkpt lat="43.193446848474125" lon="-72.11705556161625">
+  </trkpt>
+  <trkpt lat="43.193559497829106" lon="-72.11690396741882">
+  </trkpt>
+  <trkpt lat="43.19377775274437" lon="-72.11667393024348">
+  </trkpt>
+  <trkpt lat="43.194046667080336" lon="-72.11647893943787">
+  </trkpt>
+  <trkpt lat="43.19510650472778" lon="-72.11626436271668">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

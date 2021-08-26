@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>12-128</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-26T20:30:42.403496Z</time>
+<trk>
+  <name>12-128</name>
+  <desc>address=WASHINGTON DRIVE
+area=4.59
+building$=0
+id=12-128
+land$=33300
+neighborhood=V
+owner=GEBO LIVING TRUST
+usage=110
+use=R1A
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.17209217101065" lon="-72.05759528843981">
+  </trkpt>
+  <trkpt lat="43.17177408778142" lon="-72.05817307987213">
+  </trkpt>
+  <trkpt lat="43.17068254604094" lon="-72.05641355075836">
+  </trkpt>
+  <trkpt lat="43.17079991705661" lon="-72.05628480472565">
+  </trkpt>
+  <trkpt lat="43.17085860247987" lon="-72.0560594991684">
+  </trkpt>
+  <trkpt lat="43.171007271966396" lon="-72.05587710895539">
+  </trkpt>
+  <trkpt lat="43.171171590451536" lon="-72.05572154083252">
+  </trkpt>
+  <trkpt lat="43.171300605977365" lon="-72.0555778766369">
+  </trkpt>
+  <trkpt lat="43.171985857806376" lon="-72.05504318942333">
+  </trkpt>
+  <trkpt lat="43.17225272905938" lon="-72.05482926470576">
+  </trkpt>
+  <trkpt lat="43.17263857581856" lon="-72.05731128333824">
+  </trkpt>
+  <trkpt lat="43.17235145727437" lon="-72.05739234692594">
+  </trkpt>
+  <trkpt lat="43.17209217101065" lon="-72.05759528843981">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

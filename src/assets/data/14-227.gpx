@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.1579366524442</minlat><minlon>-72.14644575566186</minlon><maxlat>43.15852354833921</maxlat><maxlon>-72.1455977391502</maxlon></bounds></metadata><trk><name>14-227</name><desc>address=HARDING ROAD
+area=0.771
+building$=0
+id=14-227
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.15804425250808" lon="-72.1455977391502"/><trkpt lat="43.15852354833921" lon="-72.14576051688856"/><trkpt lat="43.15842017172386" lon="-72.14644575566186"/><trkpt lat="43.15800527510418" lon="-72.14629854234275"/><trkpt lat="43.1579366524442" lon="-72.14628018681296"/><trkpt lat="43.15804425250808" lon="-72.1455977391502"/></trkseg></trk></gpx>

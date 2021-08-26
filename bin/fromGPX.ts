@@ -11,10 +11,14 @@ import yargs from 'yargs';
 
 // 👇 npm run fromGPX -- --lotID="11-27" --out="11-27" --usage="120"
 
+// 👇 npm run fromGPX -- --lotID="14-258" --out="14-258" --usage="110"
+
 const argv = yargs(hideBin(process.argv)).argv;
 
 const lotIDs = Array.isArray(argv['lotID']) ? argv['lotID'] : [argv['lotID']];
 const usage = String(argv['usage'] ?? 110);
+
+console.log(`Processing lots ${lotIDs.join(', ')}`);
 
 const lotByID = PARCELS.lots.reduce((acc, lot) => {
   acc[lot.id] = lot;

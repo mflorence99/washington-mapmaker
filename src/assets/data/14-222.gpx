@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>14-222</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-26T20:55:47.762405Z</time>
+<trk>
+  <name>14-222</name>
+  <desc>address=587 PRESIDENTIAL DRIVE
+area=1.41
+building$=54500
+id=14-222
+land$=41100
+neighborhood=E
+owner=TILTON-WAHLERT, ELIZABETH
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.15800527510418" lon="-72.14629854234275">
+  </trkpt>
+  <trkpt lat="43.157937157163076" lon="-72.14628230490685">
+  </trkpt>
+  <trkpt lat="43.158044769718586" lon="-72.14559834160805">
+  </trkpt>
+  <trkpt lat="43.15852608901094" lon="-72.145770002985">
+  </trkpt>
+  <trkpt lat="43.15845369570109" lon="-72.14619379200936">
+  </trkpt>
+  <trkpt lat="43.15842017172386" lon="-72.14644575566186">
+  </trkpt>
+  <trkpt lat="43.1583533362372" lon="-72.14682709748863">
+  </trkpt>
+  <trkpt lat="43.15828650075053" lon="-72.14720843931538">
+  </trkpt>
+  <trkpt lat="43.15785594877896" lon="-72.14708545869523">
+  </trkpt>
+  <trkpt lat="43.15800527510418" lon="-72.14629854234275">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

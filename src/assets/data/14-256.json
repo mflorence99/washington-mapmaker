@@ -1,0 +1,62 @@
+[
+  {
+    "address": "69 MCKINLEY DRIVE",
+    "area": 1.64,
+    "areas": null,
+    "boundaries": [
+      [
+        {
+          "lat": 43.15431900375133,
+          "lon": -72.1392905357188
+        },
+        {
+          "lat": 43.15445040781821,
+          "lon": -72.13876742579937
+        },
+        {
+          "lat": 43.15502567646479,
+          "lon": -72.13918853261471
+        },
+        {
+          "lat": 43.15481674986525,
+          "lon": -72.13967217791868
+        },
+        {
+          "lat": 43.154701801094404,
+          "lon": -72.13992935198351
+        },
+        {
+          "lat": 43.15458685232356,
+          "lon": -72.14018652604835
+        },
+        {
+          "lat": 43.154111646018166,
+          "lon": -72.13980529594794
+        },
+        {
+          "lat": 43.15431900375133,
+          "lon": -72.1392905357188
+        }
+      ]
+    ],
+    "building$": 129600,
+    "callouts": [],
+    "centers": null,
+    "cu$": 13100,
+    "elevations": null,
+    "id": "14-256",
+    "labels": [],
+    "land$": 41500,
+    "lengths": null,
+    "minWidths": null,
+    "neighborhood": "E",
+    "orientations": null,
+    "owner": "COYNE, JOSEPH C",
+    "perimeters": null,
+    "sqarcities": null,
+    "taxed$": 0,
+    "usage": "110",
+    "use": "R1",
+    "zone": "02"
+  }
+]

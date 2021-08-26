@@ -1,0 +1,62 @@
+[
+  {
+    "address": "117 WASHINGTON HEIGHTS ROAD",
+    "area": 10.3,
+    "areas": null,
+    "boundaries": [
+      [
+        {
+          "lat": 43.19511823714486,
+          "lon": -72.1162697271347
+        },
+        {
+          "lat": 43.19544283312276,
+          "lon": -72.11923625030518
+        },
+        {
+          "lat": 43.19384557522666,
+          "lon": -72.1190197335222
+        },
+        {
+          "lat": 43.193446848474125,
+          "lon": -72.11705556161625
+        },
+        {
+          "lat": 43.193559497829106,
+          "lon": -72.11690396741882
+        },
+        {
+          "lat": 43.19377775274437,
+          "lon": -72.11667393024348
+        },
+        {
+          "lat": 43.194046667080336,
+          "lon": -72.11647893943787
+        },
+        {
+          "lat": 43.19510650472778,
+          "lon": -72.11626436271668
+        }
+      ]
+    ],
+    "building$": 79300,
+    "callouts": [],
+    "centers": null,
+    "cu$": 2000,
+    "elevations": null,
+    "id": "7-25",
+    "labels": [],
+    "land$": 36000,
+    "lengths": null,
+    "minWidths": null,
+    "neighborhood": "A",
+    "orientations": null,
+    "owner": "CASEY, GEORGANN",
+    "perimeters": null,
+    "sqarcities": null,
+    "taxed$": 0,
+    "usage": "110",
+    "use": "R1",
+    "zone": "02"
+  }
+]

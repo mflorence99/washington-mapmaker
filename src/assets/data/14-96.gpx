@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>14-96</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-26T20:40:45.962938Z</time>
+<trk>
+  <name>14-96</name>
+  <desc>address=JEFFERSON DRIVE
+area=1.46
+building$=0
+id=14-96
+land$=10400
+neighborhood=U
+owner=SZYMANSKI, JOSEPH
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.160341893045725" lon="-72.14949609350342">
+  </trkpt>
+  <trkpt lat="43.160062603555446" lon="-72.149408586564">
+  </trkpt>
+  <trkpt lat="43.1599229588103" lon="-72.1493648330943">
+  </trkpt>
+  <trkpt lat="43.159772414436645" lon="-72.14932392992974">
+  </trkpt>
+  <trkpt lat="43.1597430664065" lon="-72.14947681584358">
+  </trkpt>
+  <trkpt lat="43.159259800149385" lon="-72.14928637900353">
+  </trkpt>
+  <trkpt lat="43.159371323471056" lon="-72.14871238627434">
+  </trkpt>
+  <trkpt lat="43.15986104125028" lon="-72.14887663786169">
+  </trkpt>
+  <trkpt lat="43.15988215901167" lon="-72.14875734639965">
+  </trkpt>
+  <trkpt lat="43.16045650642472" lon="-72.14893672160852">
+  </trkpt>
+  <trkpt lat="43.160341893045725" lon="-72.14949609350342">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

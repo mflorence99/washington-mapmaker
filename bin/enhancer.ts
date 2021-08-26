@@ -217,7 +217,7 @@ function normalizeAddress(address: string): string {
   normalized = normalized.replace(/ TER$/, ' TERRACE');
   normalized = normalized.replace(/ TERR$/, ' TERRACE');
   normalized = normalized.replace(/ LN$/, ' LANE');
-  normalized = normalized.replace(/ ST$/, ' SREET');
+  normalized = normalized.replace(/ ST$/, ' STREET');
 
   normalized = normalized.replace(/^E /, 'EAST ');
   normalized = normalized.replace(/^N /, 'NORTH ');
@@ -370,7 +370,8 @@ async function main(): Promise<void> {
     try {
       lot.areas = calculateAreas(lot.boundaries);
       // 🧨 DON'T recalculate centers b/c they've been tweaked
-      lot.centers ??= calculateCenters(lot.boundaries);
+      if (lot.centers?.length !== lot.boundaries.length)
+        lot.centers = calculateCenters(lot.boundaries);
       lot.lengths = calculateLengths(lot.boundaries);
       lot.minWidths = calculateMinWidths(lot.boundaries);
       lot.orientations = calculateOrientations(lot.boundaries);
@@ -411,8 +412,10 @@ async function main(): Promise<void> {
   // 👇 all done!
   if (!fail) {
     writeFileSync(
-      'src/app/parcel-data2.ts',
-      'export const PARCELS = ' + JSON.stringify(PARCELS, null, 2) + ';'
+      'src/app/parcel-data.ts',
+      `/* eslint-disable */
+// prettier-ignore
+export const PARCELS = ${JSON.stringify(PARCELS, null, 2)};`
     );
   }
 }

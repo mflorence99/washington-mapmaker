@@ -6,11 +6,13 @@ import { writeFileSync } from 'fs';
 import togpx from 'togpx';
 import yargs from 'yargs';
 
-// 👇 npm run toGPX -- --lotID="11-39"
+// 👇 npm run toGPX -- --lotID="14-298"
 
 const argv = yargs(hideBin(process.argv)).argv;
 
 const lotID = argv['lotID'];
+
+console.log(`Processing lot ${lotID}`);
 
 const lot = PARCELS.lots.find((lot) => lot.id === lotID);
 

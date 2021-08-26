@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.194045450147804</minlat><minlon>-72.11922897692152</minlon><maxlat>43.19542209767482</maxlat><maxlon>-72.11626781816908</maxlon></bounds></metadata><trk><name>7-24</name><desc>address=WASHINGTON HEIGHTS ROAD
+area=5.1
+building$=0
+id=7-24
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.19542209767482" lon="-72.11922897692152"/><trkpt lat="43.19510922323686" lon="-72.11626781816908"/><trkpt lat="43.194045450147804" lon="-72.11648239489027"/><trkpt lat="43.19498407346168" lon="-72.11914314623304"/><trkpt lat="43.19542209767482" lon="-72.11922897692152"/></trkseg></trk></gpx>
