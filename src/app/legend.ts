@@ -1,3 +1,4 @@
+import { Geometry } from './geometry';
 import { Parcels } from './parcels';
 
 import { ChangeDetectionStrategy } from '@angular/core';
@@ -59,11 +60,22 @@ import { Component } from '@angular/core';
           </tr>
         </ng-container>
 
+        <tr>
+          <td></td>
+          <td class="desc">Lakes, ponds, rights of way</td>
+          <td class="numeric">
+            {{
+              this.geometry.area - sum(parcels.parcels.areaByUsage)
+                | number: '1.0-0'
+            }}
+          </td>
+        </tr>
+
         <tr class="total">
           <td></td>
           <td class="desc">Total</td>
           <td class="numeric">
-            {{ sum(parcels.parcels.areaByUsage) | number: '1.0-0' }}
+            {{ this.geometry.area | number: '1.0-0' }}
           </td>
         </tr>
       </tbody>
@@ -133,7 +145,7 @@ export class LegendComponent {
   ];
   today = new Date();
 
-  constructor(public parcels: Parcels) {}
+  constructor(public geometry: Geometry, public parcels: Parcels) {}
 
   sum(byUsage: Record<string, number>): number {
     return Object.values(byUsage).reduce((p, q) => p + q, 0);

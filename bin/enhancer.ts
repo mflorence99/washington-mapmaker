@@ -1,4 +1,4 @@
-import { PARCELS } from '../src/app/parcel-data2';
+import { PARCELS } from '../src/app/parcel-data';
 
 import * as turf from '@turf/turf';
 
@@ -266,14 +266,16 @@ function searchForAnomalies(): void {
   // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots known to assessors, but not original landgrid dataset
   // ///////////////////////////////////////////////////////////////////////
-  const missingFromAssessors = PARCELS.lots
-    .map((lot) => lot.id)
-    .filter((id) => !assessorsByID[id]);
+  const missingFromAssessors = PARCELS.lots.filter(
+    (lot) => !assessorsByID[lot.id]
+  );
   if (missingFromAssessors.length > 0) {
     console.log(
       `\n\n${missingFromAssessors.length} LOTS NOT FOUND IN assessors.csv:`
     );
-    missingFromAssessors.forEach((id) => console.log(id));
+    missingFromAssessors.forEach((lot) =>
+      console.log(`${lot.id}\t${lot.address}\t${lot.owner}`)
+    );
   }
   // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots known to landgrid dataset, but not to assessors
@@ -285,7 +287,10 @@ function searchForAnomalies(): void {
     console.log(
       `\n\n${missingFromData.length} LOTS NOT FOUND IN parcel-data.ts:`
     );
-    missingFromData.forEach((id) => console.log(id));
+    missingFromData.forEach((id) => {
+      const assessors = assessorsByID[id];
+      console.log(`${id}\t${assessors.address}\t${assessors.owner}`);
+    });
   }
   // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots are residential, but we have no addess
@@ -317,7 +322,7 @@ function searchForAnomalies(): void {
   if (uniqueAddresses.size > 0) {
     const sortedUniqueAddresses = Array.from(uniqueAddresses).sort();
     console.log(`\n\n${sortedUniqueAddresses.length} UNIQUE ADDRESSES:`);
-    sortedUniqueAddresses.forEach((id) => console.log(id));
+    // sortedUniqueAddresses.forEach((id) => console.log(id));
   }
 }
 

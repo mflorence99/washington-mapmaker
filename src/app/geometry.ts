@@ -4,6 +4,8 @@ import { PROFILES } from './profiles';
 
 import { bbox } from './profiles';
 
+import * as turf from '@turf/turf';
+
 import { Inject } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { ReplaySubject } from 'rxjs';
@@ -38,6 +40,7 @@ export type XY = [x: number, y: number];
 
 @Injectable()
 export class Geometry {
+  area = 0;
   bbox: Rectangle = {
     bottom: Number.MAX_SAFE_INTEGER,
     left: Number.MAX_SAFE_INTEGER,
@@ -125,6 +128,15 @@ export class Geometry {
       this.gpsData.boundary = params.thumbnail
         ? this.gpsData[params.thumbnail]
         : this.gpsData.washington;
+      // compute the boundary area
+      this.area = Object.keys(this.gpsData.boundary).reduce((acc, nm) => {
+        const points = this.gpsData.boundary[nm].map((point) => [
+          point.lon,
+          point.lat
+        ]);
+        const area = turf.area(turf.polygon([points]));
+        return acc + area / 4047;
+      }, 0);
       // compute the boundary box from the boundary GPX
       if (this.profile === 'washington') {
         this.gpsData.boundary.Boundary.forEach((point: Point) => {
@@ -192,6 +204,7 @@ export class Geometry {
       // 👇 assumes one is a multiple of the other
       this.scale.numUnits = this.scale.ftWidth / this.scale.ftUnit;
       // log some useful data
+      console.log({ area: this.area });
       console.table(this.clip);
       console.table(this.dims);
       console.table(this.scale);
