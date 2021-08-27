@@ -2,6 +2,8 @@ import { PARCELS } from '../src/app/parcel-data';
 
 import * as turf from '@turf/turf';
 
+import { copyFileSync } from 'fs';
+import { hideBin } from 'yargs/helpers';
 import { readFileSync } from 'fs';
 import { writeFileSync } from 'fs';
 
@@ -9,11 +11,20 @@ import delay from 'delay';
 import fetch from 'node-fetch';
 import parse from 'csv-parse/lib/sync';
 import polylabel from 'polylabel';
+import yargs from 'yargs';
 
 interface Point {
   lat: number;
   lon: number;
 }
+
+const argv = yargs(hideBin(process.argv)).argv;
+const add = arrayArgs('add');
+if (add) console.log(`Adding lots ${add.join(', ')}`);
+const del = arrayArgs('del');
+if (del) console.log(`Deleting lots ${del.join(', ')}`);
+const update = arrayArgs('up');
+if (update) console.log(`Updating lots ${update.join(', ')}`);
 
 const assessors = parse(
   readFileSync('src/assets/data/assessor.csv').toString(),
@@ -94,6 +105,35 @@ const assessorsByID = assessors.reduce((acc, record) => {
   acc[id] = record;
   return acc;
 }, {});
+
+let lotByID = PARCELS.lots.reduce((acc, lot) => {
+  acc[lot.id] = lot;
+  return acc;
+}, {});
+
+function arrayArgs(nm: string): string[] {
+  if (argv[nm]) return Array.isArray(argv[nm]) ? argv[nm] : [argv[nm]];
+  else return null;
+}
+
+function addLots(): void {
+  for (const lotID of add) {
+    if (!lotByID[lotID])
+      throw new Error(`Attempt to add lot ${lotID} that does already exists`);
+    const lot = JSON.parse(
+      readFileSync(`src/assets/data/${lotID}.json`).toString()
+    );
+    lotByID[lot.id] = lot;
+  }
+  PARCELS.lots = Object.values<any>(lotByID);
+}
+
+function backupData(): void {
+  copyFileSync(
+    'src/app/parcel-data.ts',
+    '/home/mflo/Documents/parcel-data.backup.ts'
+  );
+}
 
 function calculateAreas(boundaries: Point[][]): number[] {
   let areas: number[] = [];
@@ -201,6 +241,15 @@ function calculateSqarcities(areas: number[], perimeters: number[]): number[] {
   });
 }
 
+function deleteLots(): void {
+  for (const lotID of del) {
+    if (!lotByID[lotID])
+      throw new Error(`Attempt to delete lot ${lotID} that does not exist`);
+    delete lotByID[lotID];
+  }
+  PARCELS.lots = Object.values<any>(lotByID);
+}
+
 function fixBoundaries(lot): void {
   lot.boundaries.forEach((points) => {
     const first = points[0];
@@ -259,10 +308,6 @@ function orientation(points: number[][]): number {
 }
 
 function searchForAnomalies(): void {
-  const lotsByID = PARCELS.lots.reduce((acc, lot) => {
-    acc[lot.id] = lot;
-    return acc;
-  }, {});
   // ///////////////////////////////////////////////////////////////////////
   // 👇 these lots known to assessors, but not original landgrid dataset
   // ///////////////////////////////////////////////////////////////////////
@@ -281,7 +326,7 @@ function searchForAnomalies(): void {
   // 👇 these lots known to landgrid dataset, but not to assessors
   // ///////////////////////////////////////////////////////////////////////
   const missingFromData = Object.keys(assessorsByID).filter(
-    (id) => !lotsByID[id]
+    (id) => !lotByID[id]
   );
   if (missingFromData.length > 0) {
     console.log(
@@ -326,16 +371,31 @@ function searchForAnomalies(): void {
   }
 }
 
+function updateLots(): void {
+  for (const lotID of update) {
+    if (!lotByID[lotID])
+      throw new Error(`Attempt to update lot ${lotID} that does not exist`);
+    const oldLot = lotByID[lotID];
+    const newLot = JSON.parse(
+      readFileSync(`src/assets/data/${lotID}.json`).toString()
+    );
+    oldLot.area = null;
+    oldLot.boundaries = newLot.boundaries;
+    oldLot.centers = null;
+  }
+  PARCELS.lots = Object.values<any>(lotByID);
+}
+
 function toNumber(str: string): number {
   return str ? parseFloat(str.replace(/[^\d.-]/g, '')) : 0;
 }
 
 function uniquifyLots(): void {
-  const lotByID = {};
+  const lotByID$ = {};
   PARCELS.lots.forEach((lot) => {
-    if (lotByID[lot.id]) {
+    if (lotByID$[lot.id]) {
       console.error('DUPLICATE', lot.id);
-      const orig = lotByID[lot.id];
+      const orig = lotByID$[lot.id];
       const dupe = lot;
       orig.areas = orig.areas.concat(dupe.areas);
       orig.boundaries = orig.boundaries.concat(dupe.boundaries);
@@ -347,21 +407,23 @@ function uniquifyLots(): void {
       orig.orientations = orig.orientations.concat(dupe.orientations);
       orig.perimeters = orig.perimeters.concat(dupe.perimeters);
       orig.sqarcities = orig.sqarcities.concat(dupe.sqarcities);
-    } else lotByID[lot.id] = lot;
+    } else lotByID$[lot.id] = lot;
   });
   // put back the deduped and sorted lots
-  PARCELS.lots = Object.values<any>(lotByID).sort((p, q) =>
+  PARCELS.lots = Object.values<any>(lotByID$).sort((p, q) =>
     p.id.localeCompare(q.id)
   );
+  lotByID = lotByID$;
 }
 
 async function main(): Promise<void> {
   let fail = false;
-  // 👇 remove any duplicates
+  backupData();
   uniquifyLots();
-  // 👇 find any anomalies
+  if (del) deleteLots();
+  if (add) addLots();
+  if (update) updateLots();
   searchForAnomalies();
-  // next, fix them up
   for (let ix = 0; ix < PARCELS.lots.length; ix++) {
     const lot = PARCELS.lots[ix];
     // fix up boundaries -- first and last should be same
