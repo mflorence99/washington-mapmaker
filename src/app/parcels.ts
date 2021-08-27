@@ -15,7 +15,7 @@ export interface Lot {
   areas?: number[];
   boundaries: Point[][];
   building$: number;
-  callouts: Point[];
+  callouts?: Point[];
   centers?: Point[];
   cu$?: number;
   id: string;

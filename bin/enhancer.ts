@@ -23,7 +23,7 @@ const add = arrayArgs('add');
 if (add) console.log(`Adding lots ${add.join(', ')}`);
 const del = arrayArgs('del');
 if (del) console.log(`Deleting lots ${del.join(', ')}`);
-const update = arrayArgs('up');
+const update = arrayArgs('update');
 if (update) console.log(`Updating lots ${update.join(', ')}`);
 
 const assessors = parse(
@@ -118,8 +118,8 @@ function arrayArgs(nm: string): string[] {
 
 function addLots(): void {
   for (const lotID of add) {
-    if (!lotByID[lotID])
-      throw new Error(`Attempt to add lot ${lotID} that does already exists`);
+    if (lotByID[lotID])
+      throw new Error(`Attempt to add lot ${lotID} that already exists`);
     const lot = JSON.parse(
       readFileSync(`src/assets/data/${lotID}.json`).toString()
     );
@@ -254,7 +254,7 @@ function fixBoundaries(lot): void {
   lot.boundaries.forEach((points) => {
     const first = points[0];
     const last = points[points.length - 1];
-    if (first.lat !== last.lat && first.lon !== last.lon) points.push(first);
+    if (first.lat !== last.lat || first.lon !== last.lon) points.push(first);
   });
 }
 
@@ -381,7 +381,9 @@ function updateLots(): void {
     );
     oldLot.area = null;
     oldLot.boundaries = newLot.boundaries;
+    oldLot.callouts = [];
     oldLot.centers = null;
+    oldLot.labels = [];
   }
   PARCELS.lots = Object.values<any>(lotByID);
 }
@@ -400,6 +402,7 @@ function uniquifyLots(): void {
       orig.areas = orig.areas.concat(dupe.areas);
       orig.boundaries = orig.boundaries.concat(dupe.boundaries);
       orig.callouts = orig.callouts.concat(dupe.callouts);
+      orig.centers = orig.centers.concat(dupe.centers);
       orig.centers = orig.centers.concat(dupe.centers);
       orig.elevations = orig.elevations.concat(dupe.elevations);
       orig.labels = orig.labels.concat(dupe.labels);
@@ -441,6 +444,7 @@ async function main(): Promise<void> {
       lot.sqarcities = calculateSqarcities(lot.areas, lot.perimeters);
     } catch (error) {
       fail = true;
+      console.log(lot);
       console.error(lot.id, error.message);
     }
     // 👇 elevation is special
@@ -466,11 +470,19 @@ async function main(): Promise<void> {
       lot.use = assessed.use;
       lot.zone = assessed.zone;
     }
+
     // 👇 it is still possible that we have no lot.area, but we really need it!
     if (!lot.area) lot.area = lot.areas.reduce((acc, area) => acc + area, 0);
 
     // 👇 try to elimiate difference between RD/ROAD, CIR/CIRCLE etc
     if (lot.address) lot.address = normalizeAddress(lot.address);
+
+    // 👇 we must have at least empty callouts and labels
+    if (!lot.callouts) lot.callouts = [];
+    if (!lot.labels) lot.labels = [];
+
+    // 👇 it is still possible that we have no lot.usage, but we really need it!
+    if (!lot.usage) lot.usage = '110';
   }
   // 👇 all done!
   if (!fail) {

@@ -6,7 +6,7 @@ import { writeFileSync } from 'fs';
 import togpx from 'togpx';
 import yargs from 'yargs';
 
-// 👇 npm run toGPX -- --lotID="25-82" --lotID="25-83-02"
+// 👇 npm run toGPX -- --lotID="9-16"
 
 const argv = yargs(hideBin(process.argv)).argv;
 
@@ -60,10 +60,10 @@ for (const lotID of lotIDs) {
     });
   });
 
-  writeFileSync(
-    `src/assets/data/${lotID}.geojson`,
-    JSON.stringify(geojson, null, 2)
-  );
+  // writeFileSync(
+  //   `src/assets/data/${lotID}.geojson`,
+  //   JSON.stringify(geojson, null, 2)
+  // );
 
   let gpx = togpx(geojson, { metadata: { bounds } });
 
