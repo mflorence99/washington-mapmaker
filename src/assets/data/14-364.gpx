@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>14-364</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T04:53:13.953660Z</time>
+<trk>
+  <name>14-364</name>
+  <desc>address=COOLIDGE DRIVE
+area=4.8
+building$=0
+id=14-364
+land$=12500
+neighborhood=U
+owner=BOYCE, STEVEN M TRUST
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.16185678099124" lon="-72.14268169363626">
+  </trkpt>
+  <trkpt lat="43.16173302563219" lon="-72.14242960649872">
+  </trkpt>
+  <trkpt lat="43.16160194186154" lon="-72.14214529234314">
+  </trkpt>
+  <trkpt lat="43.16141803281371" lon="-72.14170809227372">
+  </trkpt>
+  <trkpt lat="43.162038234515855" lon="-72.14168931681061">
+  </trkpt>
+  <trkpt lat="43.16302428356581" lon="-72.14223112303162">
+  </trkpt>
+  <trkpt lat="43.162889289695656" lon="-72.1432905955925">
+  </trkpt>
+  <trkpt lat="43.16269364587617" lon="-72.14311356979752">
+  </trkpt>
+  <trkpt lat="43.16258017217379" lon="-72.1430733366623">
+  </trkpt>
+  <trkpt lat="43.162470611157715" lon="-72.14304651457215">
+  </trkpt>
+  <trkpt lat="43.16226909663297" lon="-72.14307601887131">
+  </trkpt>
+  <trkpt lat="43.16207149436618" lon="-72.14318330723191">
+  </trkpt>
+  <trkpt lat="43.16194509234389" lon="-72.14331562573898">
+  </trkpt>
+  <trkpt lat="43.16194258717065" lon="-72.1433188808202">
+  </trkpt>
+  <trkpt lat="43.16189955543887" lon="-72.14338026849344">
+  </trkpt>
+  <trkpt lat="43.16164379704349" lon="-72.14376683493916">
+  </trkpt>
+  <trkpt lat="43.16162150262018" lon="-72.14377232522276">
+  </trkpt>
+  <trkpt lat="43.16162041880675" lon="-72.14377233277617">
+  </trkpt>
+  <trkpt lat="43.16158535329267" lon="-72.14375897413412">
+  </trkpt>
+  <trkpt lat="43.161584428454795" lon="-72.14375820210265">
+  </trkpt>
+  <trkpt lat="43.161559691015235" lon="-72.14372158033113">
+  </trkpt>
+  <trkpt lat="43.161321729383296" lon="-72.14336366367502">
+  </trkpt>
+  <trkpt lat="43.16185678099124" lon="-72.14268169363626">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

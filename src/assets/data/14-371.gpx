@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.16065839478998</minlat><minlon>-72.14027061080391</minlon><maxlat>43.161519321772694</maxlat><maxlon>-72.1395303211158</maxlon></bounds></metadata><trk><name>14-371</name><desc>address=COOLIDGE DRIVE
+area=1.17
+building$=0
+id=14-371
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.16148801533696" lon="-72.14027061080391"/><trkpt lat="43.161519321772694" lon="-72.1395303211158"/><trkpt lat="43.16065839478998" lon="-72.13966979598457"/><trkpt lat="43.160814926968655" lon="-72.14022769545967"/><trkpt lat="43.16148801533696" lon="-72.14027061080391"/></trkseg></trk></gpx>

@@ -1,0 +1,62 @@
+[
+  {
+    "address": "81 COOLIDGE DRIVE",
+    "area": 2.32,
+    "areas": null,
+    "boundaries": [
+      [
+        {
+          "lat": 43.16148215716589,
+          "lon": -72.14026786340713
+        },
+        {
+          "lat": 43.1608169503026,
+          "lon": -72.14022226585388
+        },
+        {
+          "lat": 43.160559602605204,
+          "lon": -72.13939370504545
+        },
+        {
+          "lat": 43.16048075182397,
+          "lon": -72.13912720048478
+        },
+        {
+          "lat": 43.16129356277256,
+          "lon": -72.13895979349722
+        },
+        {
+          "lat": 43.161557091668065,
+          "lon": -72.13927128041325
+        },
+        {
+          "lat": 43.161537744727426,
+          "lon": -72.13954284239459
+        },
+        {
+          "lat": 43.16149193956572,
+          "lon": -72.14027591003418
+        }
+      ]
+    ],
+    "building$": 144300,
+    "callouts": [],
+    "centers": null,
+    "cu$": 1900,
+    "elevations": null,
+    "id": "14-372",
+    "labels": [],
+    "land$": 42500,
+    "lengths": null,
+    "minWidths": null,
+    "neighborhood": "E",
+    "orientations": null,
+    "owner": "CALE, ROBERT L",
+    "perimeters": null,
+    "sqarcities": null,
+    "taxed$": 0,
+    "usage": "110",
+    "use": "R1",
+    "zone": "02"
+  }
+]
