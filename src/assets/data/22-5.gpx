@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>22-5.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T19:51:53.884367Z</time>
+<trk>
+  <name>22-5</name>
+  <desc>address=NORTH MAIN SREET
+area=69.8
+building$=0
+id=22-5
+land$=3779
+neighborhood=D
+owner=CILLEY, DONNA J
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.17804817530399" lon="-72.09697047016954">
+  </trkpt>
+  <trkpt lat="43.178040701324136" lon="-72.09655844347726">
+  </trkpt>
+  <trkpt lat="43.17800795759589" lon="-72.09579990695295">
+  </trkpt>
+  <trkpt lat="43.178207863811" lon="-72.09370083662616">
+  </trkpt>
+  <trkpt lat="43.17866760825253" lon="-72.09320940696088">
+  </trkpt>
+  <trkpt lat="43.18346871970483" lon="-72.09431237617896">
+  </trkpt>
+  <trkpt lat="43.18495661747341" lon="-72.09468111627743">
+  </trkpt>
+  <trkpt lat="43.18500020127069" lon="-72.09470531188262">
+  </trkpt>
+  <trkpt lat="43.185313795463685" lon="-72.09493446377921">
+  </trkpt>
+  <trkpt lat="43.18587119522916" lon="-72.09536839611532">
+  </trkpt>
+  <trkpt lat="43.185641856222205" lon="-72.0982874505149">
+  </trkpt>
+  <trkpt lat="43.18494345391527" lon="-72.09818696960099">
+  </trkpt>
+  <trkpt lat="43.18349629987601" lon="-72.09792867822355">
+  </trkpt>
+  <trkpt lat="43.181499755449785" lon="-72.09759891964457">
+  </trkpt>
+  <trkpt lat="43.18061742447055" lon="-72.09789377468032">
+  </trkpt>
+  <trkpt lat="43.18021842624875" lon="-72.09924560802382">
+  </trkpt>
+  <trkpt lat="43.18025754383676" lon="-72.10026484744948">
+  </trkpt>
+  <trkpt lat="43.17961949287625" lon="-72.09984192069683">
+  </trkpt>
+  <trkpt lat="43.17983282053604" lon="-72.09877822520112">
+  </trkpt>
+  <trkpt lat="43.17884976117922" lon="-72.09836305627393">
+  </trkpt>
+  <trkpt lat="43.1789120918141" lon="-72.09767638244281">
+  </trkpt>
+  <trkpt lat="43.1788413455352" lon="-72.09728176483455">
+  </trkpt>
+  <trkpt lat="43.17885990022173" lon="-72.0971099575326">
+  </trkpt>
+  <trkpt lat="43.178121301519475" lon="-72.09695325339061">
+  </trkpt>
+  <trkpt lat="43.17804817530399" lon="-72.09697047016954">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>
