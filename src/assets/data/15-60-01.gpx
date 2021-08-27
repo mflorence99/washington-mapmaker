@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<trk>
+  <name>15-60-01</name>
+  <desc>address=122 OLD HAYING ROAD
+area=2.03
+building$=97400
+id=15-60
+land$=213900
+neighborhood=F
+owner=MANCHESTER, LAURA LINCOLN TRUS
+usage=110
+use=R1W
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.16255096813224" lon="-72.12494913078038">
+  </trkpt>
+  <trkpt lat="43.162465646424096" lon="-72.12497655402241">
+  </trkpt>
+  <trkpt lat="43.162417774246705" lon="-72.12502631958473">
+  </trkpt>
+  <trkpt lat="43.162362367074245" lon="-72.1251261569318">
+  </trkpt>
+  <trkpt lat="43.1623436911254" lon="-72.12521122881283">
+  </trkpt>
+  <trkpt lat="43.162292012054266" lon="-72.12529605506872">
+  </trkpt>
+  <trkpt lat="43.16219002130397" lon="-72.125346829592">
+  </trkpt>
+  <trkpt lat="43.162022943682224" lon="-72.12535168524128">
+  </trkpt>
+  <trkpt lat="43.16198647436873" lon="-72.1253012870716">
+  </trkpt>
+  <trkpt lat="43.16192774221749" lon="-72.12531588522789">
+  </trkpt>
+  <trkpt lat="43.16187646478059" lon="-72.12530046440394">
+  </trkpt>
+  <trkpt lat="43.16182885354726" lon="-72.12528507102152">
+  </trkpt>
+  <trkpt lat="43.16178849619125" lon="-72.12528978249833">
+  </trkpt>
+  <trkpt lat="43.16175353956627" lon="-72.12530419813133">
+  </trkpt>
+  <trkpt lat="43.16188314288992" lon="-72.12465032863969">
+  </trkpt>
+  <trkpt lat="43.16085285780718" lon="-72.12336024557769">
+  </trkpt>
+  <trkpt lat="43.161602998018495" lon="-72.12346334682981">
+  </trkpt>
+  <trkpt lat="43.16219488335418" lon="-72.12411680687426">
+  </trkpt>
+  <trkpt lat="43.16255096813224" lon="-72.12494913078038">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>
