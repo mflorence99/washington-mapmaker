@@ -1,0 +1,152 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.181940
+lon=-72.096864
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer TrackWaypoint
+name=22-5-02
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T19:52:24.109165Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.18065654180292" longitude="-72.10052233951491" newsegment="yes"
+type="trackpoint" latitude="43.18024189680457" longitude="-72.10026484744948"
+type="trackpoint" latitude="43.18021842624875" longitude="-72.09924560802382"
+type="trackpoint" latitude="43.18060960100106" longitude="-72.09789377468032"
+type="trackpoint" latitude="43.18149364670894" longitude="-72.09759336727065"
+type="trackpoint" latitude="43.18064871833845" longitude="-72.10050088184279"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=22-5.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T19:51:53.884367Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="22-5" description="address=NORTH MAIN SREET area=69.8 building$=0 id=22-5 land$=3779 neighborhood=D owner=CILLEY, DONNA J usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.17804817530399" longitude="-72.09697047016954" newsegment="yes"
+type="trackpoint" latitude="43.178040701324136" longitude="-72.09655844347726"
+type="trackpoint" latitude="43.17800795759589" longitude="-72.09579990695295"
+type="trackpoint" latitude="43.178207863811" longitude="-72.09370083662616"
+type="trackpoint" latitude="43.17866760825253" longitude="-72.09320940696088"
+type="trackpoint" latitude="43.18346871970483" longitude="-72.09431237617896"
+type="trackpoint" latitude="43.18495661747341" longitude="-72.09468111627743"
+type="trackpoint" latitude="43.18500020127069" longitude="-72.09470531188262"
+type="trackpoint" latitude="43.185313795463685" longitude="-72.09493446377921"
+type="trackpoint" latitude="43.18587119522916" longitude="-72.09536839611532"
+type="trackpoint" latitude="43.185641856222205" longitude="-72.0982874505149"
+type="trackpoint" latitude="43.18494345391527" longitude="-72.09818696960099"
+type="trackpoint" latitude="43.18349629987601" longitude="-72.09792867822355"
+type="trackpoint" latitude="43.181499755449785" longitude="-72.09759891964457"
+type="trackpoint" latitude="43.18061742447055" longitude="-72.09789377468032"
+type="trackpoint" latitude="43.18021842624875" longitude="-72.09924560802382"
+type="trackpoint" latitude="43.18025754383676" longitude="-72.10026484744948"
+type="trackpoint" latitude="43.17961949287625" longitude="-72.09984192069683"
+type="trackpoint" latitude="43.17983282053604" longitude="-72.09877822520112"
+type="trackpoint" latitude="43.17884976117922" longitude="-72.09836305627393"
+type="trackpoint" latitude="43.1789120918141" longitude="-72.09767638244281"
+type="trackpoint" latitude="43.1788413455352" longitude="-72.09728176483455"
+type="trackpoint" latitude="43.17885990022173" longitude="-72.0971099575326"
+type="trackpoint" latitude="43.178121301519475" longitude="-72.09695325339061"
+type="trackpoint" latitude="43.17804817530399" longitude="-72.09697047016954"
+type="trackend"
+~EndLayerData
+~EndLayer
+

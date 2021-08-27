@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>22-49.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T20:06:52.926700Z</time>
+<trk>
+  <name>22-49</name>
+  <desc>address=1 OLD MARLOW ROAD
+area=2.83
+building$=114200
+id=22-49
+land$=36367
+neighborhood=D
+owner=STAPLETON, JOSEPH BRIAN
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.17603722751476" lon="-72.10104261449166">
+  </trkpt>
+  <trkpt lat="43.17611751696833" lon="-72.10072472163998">
+  </trkpt>
+  <trkpt lat="43.17612327902465" lon="-72.10067006975358">
+  </trkpt>
+  <trkpt lat="43.17649259573579" lon="-72.10044854843964">
+  </trkpt>
+  <trkpt lat="43.177355191519865" lon="-72.09993996126465">
+  </trkpt>
+  <trkpt lat="43.17753407373996" lon="-72.10042501505161">
+  </trkpt>
+  <trkpt lat="43.17786542931342" lon="-72.1000897455485">
+  </trkpt>
+  <trkpt lat="43.177929602753096" lon="-72.10028676443427">
+  </trkpt>
+  <trkpt lat="43.17809999667761" lon="-72.10099420558282">
+  </trkpt>
+  <trkpt lat="43.17828497673614" lon="-72.10177053611253">
+  </trkpt>
+  <trkpt lat="43.17727915623541" lon="-72.10262678092796">
+  </trkpt>
+  <trkpt lat="43.17603722751476" lon="-72.10104261449166">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

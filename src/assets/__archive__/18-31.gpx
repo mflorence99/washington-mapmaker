@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>18-31.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T19:35:35.596103Z</time>
+<trk>
+  <name>18-31</name>
+  <desc>address=ASHUELOT POND area=0.17 building$=0 id=18-31 land$=300 neighborhood=X owner=STROUT, DOUGLAS, THOMAS usage=110 use=R1 zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.146872363783416" lon="-72.15209249264323">
+  </trkpt>
+  <trkpt lat="43.14693837062378" lon="-72.15223617610094">
+  </trkpt>
+  <trkpt lat="43.14657927001536" lon="-72.15252183136103">
+  </trkpt>
+  <trkpt lat="43.14651952534692" lon="-72.15238204299163">
+  </trkpt>
+  <trkpt lat="43.146872363783416" lon="-72.15209249264323">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

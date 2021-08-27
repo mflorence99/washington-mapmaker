@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.14644525026294</minlat><minlon>-72.15238214437511</minlon><maxlat>43.147032903738065</maxlat><maxlon>-72.15172784234568</maxlon></bounds></metadata><trk><name>18-36</name><desc>address=84 ASHUELOT POND
+area=0.23
+building$=16000
+id=18-36
+land$=67900
+neighborhood=A
+owner=STROUT, DOUGLAS
+usage=110
+use=R1W
+zone=02</desc><trkseg><trkpt lat="43.146522125797965" lon="-72.15238214437511"/><trkpt lat="43.14644525026294" lon="-72.1522102240511"/><trkpt lat="43.14700849604275" lon="-72.15172784234568"/><trkpt lat="43.147032903738065" lon="-72.15181321809293"/><trkpt lat="43.14702822764898" lon="-72.15188303761079"/><trkpt lat="43.146872363783416" lon="-72.15209249264323"/><trkpt lat="43.146522125797965" lon="-72.15238214437511"/></trkseg></trk></gpx>
