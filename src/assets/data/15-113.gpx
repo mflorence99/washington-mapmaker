@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>15-113.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T12:06:11.775070Z</time>
+<trk>
+  <name>15-113</name>
+  <desc>address=768 MILLEN POND ROAD area=0.51 building$=95500 id=15-113 land$=45100 neighborhood=G owner=PACHECO, JOHN D usage=110 use=R1 zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.16813773087561" lon="-72.12541296802641">
+  </trkpt>
+  <trkpt lat="43.168254679429474" lon="-72.1255665330925">
+  </trkpt>
+  <trkpt lat="43.168103708894925" lon="-72.12576701107979">
+  </trkpt>
+  <trkpt lat="43.167714410308754" lon="-72.12527348462105">
+  </trkpt>
+  <trkpt lat="43.167837488333745" lon="-72.12503147277344">
+  </trkpt>
+  <trkpt lat="43.16813773087561" lon="-72.12541296802641">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

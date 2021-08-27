@@ -1,0 +1,149 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.125000
+ympp=0.125000
+lat=43.167867
+lon=-72.125535
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Default Map
+mode=25
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=15-113.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T12:06:11.775070Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="15-113" description="address=768 MILLEN POND ROAD area=0.51 building$=95500 id=15-113 land$=45100 neighborhood=G owner=PACHECO, JOHN D usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.16813773087561" longitude="-72.12541296802641" newsegment="yes"
+type="trackpoint" latitude="43.168254679429474" longitude="-72.1255665330925"
+type="trackpoint" latitude="43.168103708894925" longitude="-72.12576701107979"
+type="trackpoint" latitude="43.167714410308754" longitude="-72.12527348462105"
+type="trackpoint" latitude="43.167837488333745" longitude="-72.12503147277344"
+type="trackpoint" latitude="43.16813773087561" longitude="-72.12541296802641"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=11-11-01
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T12:06:56.609380Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track#2" color=#000000
+type="trackpoint" latitude="43.1678037772795" longitude="-72.12618925160993" newsegment="yes"
+type="trackpoint" latitude="43.16810468702896" longitude="-72.12576701107979"
+type="trackpoint" latitude="43.167714410308754" longitude="-72.12527616683006"
+type="trackpoint" latitude="43.167667815829816" longitude="-72.1253725189649"
+type="trackpoint" latitude="43.167574892362786" longitude="-72.12550931162465"
+type="trackpoint" latitude="43.167805733557145" longitude="-72.12588079757322"
+type="trackpoint" latitude="43.167687378646974" longitude="-72.12603770680059"
+type="trackpoint" latitude="43.16780475541833" longitude="-72.12619327492345"
+type="trackpoint" latitude="43.1678037772795" longitude="-72.12619461602796"
+type="trackend"
+~EndLayerData
+~EndLayer
+
