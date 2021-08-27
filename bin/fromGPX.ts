@@ -11,7 +11,7 @@ import yargs from 'yargs';
 
 // 👇 npm run fromGPX -- --lotID="11-27" --out="11-27" --usage="120"
 
-// 👇 npm run fromGPX -- --lotID="14-364" --out="14-364"
+// 👇 npm run fromGPX -- --lotID="25-83-02" --out="25-83-02"
 
 const argv = yargs(hideBin(process.argv)).argv;
 

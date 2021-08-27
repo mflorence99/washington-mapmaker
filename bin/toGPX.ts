@@ -6,7 +6,7 @@ import { writeFileSync } from 'fs';
 import togpx from 'togpx';
 import yargs from 'yargs';
 
-// 👇 npm run toGPX -- --lotID="14-394" --lotID="14-395" --lotID="14-364"
+// 👇 npm run toGPX -- --lotID="25-82" --lotID="25-83-02"
 
 const argv = yargs(hideBin(process.argv)).argv;
 

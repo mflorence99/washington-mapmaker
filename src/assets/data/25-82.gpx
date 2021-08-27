@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.130491514958806</minlat><minlon>-72.08788516935708</minlon><maxlat>43.13127434265502</maxlat><maxlon>-72.08661916670205</maxlon></bounds></metadata><trk><name>25-82</name><desc>address=VALLEY ROAD
+area=0.41
+building$=0
+id=25-82
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.131039494346155" lon="-72.08694103178384"/><trkpt lat="43.13067156532894" lon="-72.08661916670205"/><trkpt lat="43.130491514958806" lon="-72.08693030294778"/><trkpt lat="43.130491514958806" lon="-72.08748820242288"/><trkpt lat="43.13096121157653" lon="-72.08735945639016"/><trkpt lat="43.13094555502261" lon="-72.08767059263589"/><trkpt lat="43.13112560539274" lon="-72.08788516935708"/><trkpt lat="43.13127434265502" lon="-72.08714487966897"/><trkpt lat="43.131039494346155" lon="-72.08694103178384"/></trkseg></trk></gpx>

@@ -1,0 +1,152 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.250000
+ympp=0.250000
+lat=43.162323
+lon=-72.145034
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Default Map
+mode=25
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=14-87.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T05:09:49.035129Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="14-87" description="address=OFF JEFFERSON DRIVE area=0.65025 building$=0 id=14-87 land$=0 neighborhood=undefined owner=undefined usage=110 use=undefined zone=undefined" color=#2d870a
+type="trackpoint" latitude="43.16138640630992" longitude="-72.1474017108587" newsegment="yes"
+type="trackpoint" latitude="43.161481744033665" longitude="-72.14684779156394"
+type="trackpoint" latitude="43.16210986431942" longitude="-72.14707704253544"
+type="trackpoint" latitude="43.16186632396328" longitude="-72.14748028594043"
+type="trackpoint" latitude="43.16138640630992" longitude="-72.1474017108587"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=14-80.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T05:09:49.029972Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="14-80" description="address=107 STOWELL ROAD area=5.96 building$=83600 id=14-80 land$=47900 neighborhood=E owner=SNOW, STEPHEN P usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.161875341995916" longitude="-72.14586412388536" newsegment="yes"
+type="trackpoint" latitude="43.162402654026494" longitude="-72.14503433268695"
+type="trackpoint" latitude="43.162963538968675" longitude="-72.1457854279229"
+type="trackpoint" latitude="43.163356135428785" longitude="-72.14630744583934"
+type="trackpoint" latitude="43.162669284556735" longitude="-72.14687565704216"
+type="trackpoint" latitude="43.16221878568601" longitude="-72.14722597930968"
+type="trackpoint" latitude="43.16210986431942" longitude="-72.14707704253544"
+type="trackpoint" latitude="43.16186747996609" longitude="-72.14747517499791"
+type="trackpoint" latitude="43.16138814347859" longitude="-72.14739739093648"
+type="trackpoint" latitude="43.161481744033665" longitude="-72.14684779156394"
+type="trackpoint" latitude="43.161661694044085" longitude="-72.14576021458602"
+type="trackpoint" latitude="43.161737686465415" longitude="-72.14520206301106"
+type="trackpoint" latitude="43.161875341995916" longitude="-72.14586412388536"
+type="trackend"
+~EndLayerData
+~EndLayer
+

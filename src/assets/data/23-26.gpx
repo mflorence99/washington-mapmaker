@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.189225800406376</minlat><minlon>-72.01397971741979</minlon><maxlat>43.19065713056935</maxlat><maxlon>-72.0123060189945</maxlon></bounds></metadata><trk><name>23-26</name><desc>address=EAST WASHINGTON ROAD
+area=3.1
+building$=0
+id=23-26
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.189413515837586" lon="-72.01377586953465"/><trkpt lat="43.19065713056935" lon="-72.01397971741979"/><trkpt lat="43.190453772185535" lon="-72.01332525842015"/><trkpt lat="43.18989844736821" lon="-72.01263861291234"/><trkpt lat="43.18950737355319" lon="-72.0123060189945"/><trkpt lat="43.189225800406376" lon="-72.01336817376439"/><trkpt lat="43.189413515837586" lon="-72.01377586953465"/></trkseg></trk></gpx>

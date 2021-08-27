@@ -393,7 +393,8 @@ async function main(): Promise<void> {
     if (assessed) {
       // 🧨 only use assessor address as last resort, as it has no street #
       lot.address ??= assessed.address;
-      lot.area = toNumber(assessed.area);
+      // 🧨 we may also mess with the assessed area
+      lot.area ??= toNumber(assessed.area);
       lot.building$ = toNumber(assessed.building$);
       lot.cu$ = toNumber(assessed.cu$);
       lot.land$ = toNumber(assessed.land$);

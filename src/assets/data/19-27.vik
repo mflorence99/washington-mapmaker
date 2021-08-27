@@ -1,0 +1,154 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.135338
+lon=-72.126559
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Default Map
+mode=25
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=19-26.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T05:40:55.652696Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="19-26" description="address=KING SREET area=28.29 building$=0 id=19-26 land$=0 neighborhood=undefined owner=undefined usage=110 use=undefined zone=undefined" color=#2d870a
+type="trackpoint" latitude="43.13860409974134" longitude="-72.12764038439222" newsegment="yes"
+type="trackpoint" latitude="43.13863538718514" longitude="-72.12566627855726"
+type="trackpoint" latitude="43.13344167151501" longitude="-72.12291969652601"
+type="trackpoint" latitude="43.133285234296025" longitude="-72.12528004045912"
+type="trackpoint" latitude="43.13384840828436" longitude="-72.12558044786878"
+type="trackpoint" latitude="43.13394227061574" longitude="-72.12523712511488"
+type="trackpoint" latitude="43.13447415716028" longitude="-72.12553753252455"
+type="trackpoint" latitude="43.13447415716028" longitude="-72.12588085527845"
+type="trackpoint" latitude="43.13544406791795" longitude="-72.12639583940931"
+type="trackpoint" latitude="43.13544406791795" longitude="-72.12686790819593"
+type="trackpoint" latitude="43.13697715266395" longitude="-72.12738289232679"
+type="trackpoint" latitude="43.13713358988293" longitude="-72.1266104161305"
+type="trackpoint" latitude="43.13750903920848" longitude="-72.12686790819593"
+type="trackpoint" latitude="43.1374151768771" longitude="-72.12755455370375"
+type="trackpoint" latitude="43.13860409974134" longitude="-72.12764038439222"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=19-27.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T05:40:55.655440Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="19-27" description="address=851 KING SREET area=28.64 building$=26300 id=19-27 land$=28589 neighborhood=C owner=DESCLOS, JAMES C usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.135221954870765" longitude="-72.12631574222839" newsegment="yes"
+type="trackpoint" latitude="43.13548468765263" longitude="-72.1264419547982"
+type="trackpoint" latitude="43.13545452666491" longitude="-72.12680138802422"
+type="trackpoint" latitude="43.135191794290066" longitude="-72.12667517275055"
+type="trackpoint" latitude="43.135221954870765" longitude="-72.12631574222839"
+type="trackend"
+~EndLayerData
+~EndLayer
+
