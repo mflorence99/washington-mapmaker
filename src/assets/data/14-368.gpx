@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>14-368</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T04:28:42.920874Z</time>
+<trk>
+  <name>14-368</name>
+  <desc>address=11 COOLIDGE DRIVE
+area=2.34
+building$=163200
+id=14-368
+land$=42500
+neighborhood=E
+owner=MORIN, MELISSA
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.15997395998993" lon="-72.14167432701599">
+  </trkpt>
+  <trkpt lat="43.160203926816465" lon="-72.14143132262635">
+  </trkpt>
+  <trkpt lat="43.16031891022973" lon="-72.14130982043153">
+  </trkpt>
+  <trkpt lat="43.16043389364301" lon="-72.14118831823671">
+  </trkpt>
+  <trkpt lat="43.16067936352984" lon="-72.14132290480677">
+  </trkpt>
+  <trkpt lat="43.16092483341666" lon="-72.14145749137683">
+  </trkpt>
+  <trkpt lat="43.161288465326635" lon="-72.14168943418503">
+  </trkpt>
+  <trkpt lat="43.16063890841349" lon="-72.1425665165329">
+  </trkpt>
+  <trkpt lat="43.16029087625459" lon="-72.14215540917156">
+  </trkpt>
+  <trkpt lat="43.160235301411596" lon="-72.1420543984446">
+  </trkpt>
+  <trkpt lat="43.1601797265686" lon="-72.14195338771765">
+  </trkpt>
+  <trkpt lat="43.15997395998993" lon="-72.14167432701599">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>
