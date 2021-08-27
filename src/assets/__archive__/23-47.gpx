@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.189892144246976</minlat><minlon>-72.0196298693336</minlon><maxlat>43.19030391294014</maxlat><maxlon>-72.01921616086777</maxlon></bounds></metadata><trk><name>23-47</name><desc>address=PURLING BECK ROAD
+area=0.23
+building$=0
+id=23-47
+land$=31800
+neighborhood=F
+owner=WASHINGTON, TOWN OF-EW SALLY J
+usage=300
+use=EX-M
+zone=02</desc><trkseg><trkpt lat="43.19030391294014" lon="-72.01962792689889"/><trkpt lat="43.189892144246976" lon="-72.0196298693336"/><trkpt lat="43.18991635960302" lon="-72.01933328169088"/><trkpt lat="43.19016819646707" lon="-72.01921616086777"/><trkpt lat="43.19015187524351" lon="-72.01937474524608"/><trkpt lat="43.19016681237599" lon="-72.01942905298482"/><trkpt lat="43.19030391294014" lon="-72.01962792689889"/></trkseg></trk></gpx>

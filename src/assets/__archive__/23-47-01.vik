@@ -1,0 +1,227 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.250000
+ympp=0.250000
+lat=43.190697
+lon=-72.019624
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Map
+mode=13
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=23-47.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T20:43:14.388147Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="23-47" description="address=PURLING BECK ROAD area=0.23 building$=0 id=23-47 land$=31800 neighborhood=F owner=WASHINGTON, TOWN OF-EW SALLY J usage=300 use=EX-M zone=02" color=#2d870a
+type="trackpoint" latitude="43.19030391294014" longitude="-72.01962792689889" newsegment="yes"
+type="trackpoint" latitude="43.189892144246976" longitude="-72.0196298693336"
+type="trackpoint" latitude="43.18991635960302" longitude="-72.01933328169088"
+type="trackpoint" latitude="43.19016819646707" longitude="-72.01921616086777"
+type="trackpoint" latitude="43.19015187524351" longitude="-72.01937474524608"
+type="trackpoint" latitude="43.19016681237599" longitude="-72.01942905298482"
+type="trackpoint" latitude="43.19030391294014" longitude="-72.01962792689889"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=23-48.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T20:43:14.389757Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="23-48" description="address=2291 EAST WASHINGTON ROAD area=1.47 building$=230600 id=23-48 land$=49900 neighborhood=F owner=QUATTROCHI, JOSEPH C usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.191168027663544" longitude="-72.019116112758" newsegment="yes"
+type="trackpoint" latitude="43.19125489807075" longitude="-72.0192608429088"
+type="trackpoint" latitude="43.19164222094254" longitude="-72.02029028087836"
+type="trackpoint" latitude="43.19137664429061" longitude="-72.02047083197107"
+type="trackpoint" latitude="43.191334294390856" longitude="-72.02044017232504"
+type="trackpoint" latitude="43.19125133296066" longitude="-72.02040354546686"
+type="trackpoint" latitude="43.19116266709822" longitude="-72.02037979590075"
+type="trackpoint" latitude="43.19103724877002" longitude="-72.02033517750014"
+type="trackpoint" latitude="43.19092236587394" longitude="-72.02024156332826"
+type="trackpoint" latitude="43.19088677999432" longitude="-72.02014840673638"
+type="trackpoint" latitude="43.19087391411623" longitude="-72.02003472564459"
+type="trackpoint" latitude="43.190866625005526" longitude="-72.01994947784381"
+type="trackpoint" latitude="43.190886269980986" longitude="-72.01970171915058"
+type="trackpoint" latitude="43.19093225219294" longitude="-72.01948509648604"
+type="trackpoint" latitude="43.190994386665274" longitude="-72.01925723225754"
+type="trackpoint" latitude="43.191168027663544" longitude="-72.019116112758"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=23-47-01
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T20:44:41.077853Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.19025122965458" longitude="-72.01912828452885" newsegment="yes"
+type="trackpoint" latitude="43.190409629695985" longitude="-72.0190826869756"
+type="trackpoint" latitude="43.19061887356495" longitude="-72.01904513604939"
+type="trackpoint" latitude="43.1907381618047" longitude="-72.0190290427953"
+type="trackpoint" latitude="43.1908965605824" longitude="-72.01907732255756"
+type="trackpoint" latitude="43.19100411507366" longitude="-72.01920606859028"
+type="trackpoint" latitude="43.191000204004574" longitude="-72.0192650771886"
+type="trackpoint" latitude="43.19117229080739" longitude="-72.01911487348377"
+type="trackpoint" latitude="43.191011937211094" longitude="-72.01897808082401"
+type="trackpoint" latitude="43.19079096144294" longitude="-72.01889493234455"
+type="trackpoint" latitude="43.19073425071857" longitude="-72.01887347467243"
+type="trackpoint" latitude="43.19055825158326" longitude="-72.01886542804539"
+type="trackpoint" latitude="43.19040376303512" longitude="-72.01888152129948"
+type="trackpoint" latitude="43.19032358528005" longitude="-72.01889761455357"
+type="trackpoint" latitude="43.19023949630182" longitude="-72.01895930536091"
+type="trackpoint" latitude="43.19025122965458" longitude="-72.0191390133649"
+type="trackend"
+~EndLayerData
+~EndLayer
+

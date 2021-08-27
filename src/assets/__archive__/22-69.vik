@@ -1,0 +1,81 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.176455
+lon=-72.097095
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer TrackWaypoint
+name=22-68.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T20:18:46.133144Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="22-69" description="address=NORTH MAIN SREET area=0.27 building$=0 id=22-68 land$=3200 neighborhood=D owner=WASHINGTON, TOWN OF - BANDSTND usage=300 use=EX-M zone=02" color=#2d870a
+type="trackpoint" latitude="43.1763247909447" longitude="-72.09681319201087" newsegment="yes"
+type="trackpoint" latitude="43.17652898175871" longitude="-72.09711320408732"
+type="trackpoint" latitude="43.17631410000991" longitude="-72.09709020344089"
+type="trackpoint" latitude="43.1763247909447" longitude="-72.09681319201087"
+type="trackend"
+type="track" name="22-68" color=#135d34
+type="trackpoint" latitude="43.1766634619126" longitude="-72.09737603544285" newsegment="yes"
+type="trackpoint" latitude="43.17624685700442" longitude="-72.09727354159116"
+type="trackpoint" latitude="43.17626573907516" longitude="-72.09723367668279"
+type="trackpoint" latitude="43.17654148276452" longitude="-72.09725854431262"
+type="trackpoint" latitude="43.17654287705927" longitude="-72.09725903255298"
+type="trackpoint" latitude="43.17660925744419" longitude="-72.0973007240222"
+type="trackpoint" latitude="43.17661043689835" longitude="-72.09730185155546"
+type="trackpoint" latitude="43.1766634619126" longitude="-72.09737603544285"
+type="trackend"
+~EndLayerData
+~EndLayer
+
