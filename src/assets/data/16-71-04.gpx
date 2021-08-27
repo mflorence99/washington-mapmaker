@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>16-71-04</name>
+  <time>2021-08-27T19:12:20.883467Z</time>
+<trk>
+  <name>Track</name>
+  <trkseg>
+  <trkpt lat="43.155531729543085" lon="-72.0730860247382">
+  </trkpt>
+  <trkpt lat="43.15658049601898" lon="-72.07259249827946">
+  </trkpt>
+  <trkpt lat="43.15765272373279" lon="-72.07228136203373">
+  </trkpt>
+  <trkpt lat="43.15766055014329" lon="-72.06928801677311">
+  </trkpt>
+  <trkpt lat="43.154788190167494" lon="-72.07153034350956">
+  </trkpt>
+  <trkpt lat="43.15554738290639" lon="-72.07214188716496">
+  </trkpt>
+  <trkpt lat="43.155046473291854" lon="-72.0727427019843">
+  </trkpt>
+  <trkpt lat="43.15526562175344" lon="-72.07288217685307">
+  </trkpt>
+  <trkpt lat="43.15539867579311" lon="-72.07293582103337">
+  </trkpt>
+  <trkpt lat="43.155539556225236" lon="-72.0730860247382">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

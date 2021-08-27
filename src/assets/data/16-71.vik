@@ -1,0 +1,368 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.154232
+lon=-72.069106
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Hillshade
+mode=50
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer Map
+name=Street
+visible=f
+mode=13
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=16-71-04
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=t
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T19:12:20.883467Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.155531729543085" longitude="-72.0730860247382" newsegment="yes"
+type="trackpoint" latitude="43.15658049601898" longitude="-72.07259249827946"
+type="trackpoint" latitude="43.15765272373279" longitude="-72.07228136203373"
+type="trackpoint" latitude="43.15766055014329" longitude="-72.06928801677311"
+type="trackpoint" latitude="43.154788190167494" longitude="-72.07153034350956"
+type="trackpoint" latitude="43.15554738290639" longitude="-72.07214188716496"
+type="trackpoint" latitude="43.155046473291854" longitude="-72.0727427019843"
+type="trackpoint" latitude="43.15526562175344" longitude="-72.07288217685307"
+type="trackpoint" latitude="43.15539867579311" longitude="-72.07293582103337"
+type="trackpoint" latitude="43.155539556225236" longitude="-72.0730860247382"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=16-71-03
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T19:14:30.220747Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.15507778026306" longitude="-72.07276415965642" newsegment="yes"
+type="trackpoint" latitude="43.155563036265676" longitude="-72.07215261600102"
+type="trackpoint" latitude="43.15480384372126" longitude="-72.07155180118168"
+type="trackpoint" latitude="43.15440467684775" longitude="-72.07260322711552"
+type="trackpoint" latitude="43.154553386379874" longitude="-72.0726354136237"
+type="trackpoint" latitude="43.154788190167494" longitude="-72.07264614245976"
+type="trackpoint" latitude="43.15510126048093" longitude="-72.07277488849248"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=16-71-02
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T19:15:31.800238Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.154788190167494" longitude="-72.07150888583745" newsegment="yes"
+type="trackpoint" latitude="43.15410725669788" longitude="-72.07109046123112"
+type="trackpoint" latitude="43.15344196954353" longitude="-72.07232427737797"
+type="trackpoint" latitude="43.15362981606206" longitude="-72.07243156573857"
+type="trackpoint" latitude="43.153786354386426" longitude="-72.0724744810828"
+type="trackpoint" latitude="43.15395854608012" longitude="-72.0725817694434"
+type="trackpoint" latitude="43.15413856415022" longitude="-72.07262468478764"
+type="trackpoint" latitude="43.15439685002024" longitude="-72.07260322711552"
+type="trackpoint" latitude="43.15479601694488" longitude="-72.07154107234562"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=16-71-01
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-27T19:16:33.238999Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.15182176935488" longitude="-72.06868720195378" newsegment="yes"
+type="trackpoint" latitude="43.15256534482264" longitude="-72.06857991359318"
+type="trackpoint" latitude="43.15266709655137" longitude="-72.06897688052739"
+type="trackpoint" latitude="43.15276884811068" longitude="-72.06925583026494"
+type="trackpoint" latitude="43.152682750648445" longitude="-72.06968498370732"
+type="trackpoint" latitude="43.15276102107368" longitude="-72.07014632365788"
+type="trackpoint" latitude="43.152095719263954" longitude="-72.07058620593632"
+type="trackpoint" latitude="43.15200962085343" longitude="-72.07038235805119"
+type="trackpoint" latitude="43.151892213734506" longitude="-72.07019996783818"
+type="trackpoint" latitude="43.15170436187509" longitude="-72.06988883159245"
+type="trackpoint" latitude="43.152025275118916" longitude="-72.0689983381995"
+type="trackpoint" latitude="43.151806115037274" longitude="-72.0687086596259"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=16-71.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-27T19:07:50.223308Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="16-71" description="address=1107 SOUTH MAIN SREET area=29.48 building$=175900 id=16-71 land$=85754 neighborhood=E owner=PARTYKA, STANLEY J. III usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.15661962874809" longitude="-72.07010340831364" newsegment="yes"
+type="trackpoint" latitude="43.15478036338911" longitude="-72.07150888583745"
+type="trackpoint" latitude="43.15410725669788" longitude="-72.07107973239506"
+type="trackpoint" latitude="43.15342160050895" longitude="-72.07232183832107"
+type="trackpoint" latitude="43.1528079832807" longitude="-72.0716269030341"
+type="trackpoint" latitude="43.152354013767805" longitude="-72.07100463054265"
+type="trackpoint" latitude="43.15210354638617" longitude="-72.07057547710026"
+type="trackpoint" latitude="43.15276884811068" longitude="-72.0701141371497"
+type="trackpoint" latitude="43.15269840474151" longitude="-72.06965279719914"
+type="trackpoint" latitude="43.15278450218171" longitude="-72.06927728793706"
+type="trackpoint" latitude="43.152682750648445" longitude="-72.06898760936345"
+type="trackpoint" latitude="43.1525966530649" longitude="-72.06859064242924"
+type="trackpoint" latitude="43.151813942196576" longitude="-72.06867647311772"
+type="trackpoint" latitude="43.15173148501409" longitude="-72.06859898786945"
+type="trackpoint" latitude="43.151118838548875" longitude="-72.06905769904198"
+type="trackpoint" latitude="43.15100245445289" longitude="-72.06887984037158"
+type="trackpoint" latitude="43.1508262072959" longitude="-72.06853787499875"
+type="trackpoint" latitude="43.15729118650912" longitude="-72.06510684112874"
+type="trackpoint" latitude="43.15766055014329" longitude="-72.06928801677311"
+type="trackpoint" latitude="43.15660397565946" longitude="-72.07009267947758"
+type="trackend"
+~EndLayerData
+~EndLayer
+
