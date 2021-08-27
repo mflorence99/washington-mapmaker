@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>11-27.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-27T12:20:01.855810Z</time>
+<trk>
+  <name>11-27</name>
+  <desc>address=LEMPSTER MOUNTAIN ROAD
+area=166.7
+building$=0
+id=11-27
+land$=7947
+neighborhood=E
+owner=TWEEDY, MEGHAN
+usage=190
+use=CUUW
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.19070983928458" lon="-72.11101304641984">
+  </trkpt>
+  <trkpt lat="43.192949329401166" lon="-72.11001007567816">
+  </trkpt>
+  <trkpt lat="43.19506695867814" lon="-72.10904023688488">
+  </trkpt>
+  <trkpt lat="43.19493739350296" lon="-72.10960207055693">
+  </trkpt>
+  <trkpt lat="43.1947256817885" lon="-72.11051710795239">
+  </trkpt>
+  <trkpt lat="43.19422685928866" lon="-72.11249018847568">
+  </trkpt>
+  <trkpt lat="43.1941118469737" lon="-72.11302985341854">
+  </trkpt>
+  <trkpt lat="43.193716254337026" lon="-72.1131350716206">
+  </trkpt>
+  <trkpt lat="43.19332060223575" lon="-72.11325572928396">
+  </trkpt>
+  <trkpt lat="43.19263097252044" lon="-72.11348234045576">
+  </trkpt>
+  <trkpt lat="43.191953830349995" lon="-72.11368650932465">
+  </trkpt>
+  <trkpt lat="43.19131939433249" lon="-72.11395148368916">
+  </trkpt>
+  <trkpt lat="43.1905503656443" lon="-72.11427015169622">
+  </trkpt>
+  <trkpt lat="43.190607124285066" lon="-72.11391096428554">
+  </trkpt>
+  <trkpt lat="43.18888264263912" lon="-72.1137984931121">
+  </trkpt>
+  <trkpt lat="43.18883648015126" lon="-72.11361717822939">
+  </trkpt>
+  <trkpt lat="43.188560817761804" lon="-72.11254619096125">
+  </trkpt>
+  <trkpt lat="43.18832276780098" lon="-72.11172623370673">
+  </trkpt>
+  <trkpt lat="43.18818898465115" lon="-72.11138873384522">
+  </trkpt>
+  <trkpt lat="43.18802612447085" lon="-72.11108401905956">
+  </trkpt>
+  <trkpt lat="43.18786285377983" lon="-72.11088487852973">
+  </trkpt>
+  <trkpt lat="43.1871217464897" lon="-72.11039121970181">
+  </trkpt>
+  <trkpt lat="43.186717700150574" lon="-72.11007156947551">
+  </trkpt>
+  <trkpt lat="43.18605927288987" lon="-72.10940697058179">
+  </trkpt>
+  <trkpt lat="43.18575161568846" lon="-72.10911442193289">
+  </trkpt>
+  <trkpt lat="43.18541443959798" lon="-72.10883388081928">
+  </trkpt>
+  <trkpt lat="43.18535304807521" lon="-72.10878415561878">
+  </trkpt>
+  <trkpt lat="43.184953368543994" lon="-72.10842244397799">
+  </trkpt>
+  <trkpt lat="43.184605696817584" lon="-72.10803709510589">
+  </trkpt>
+  <trkpt lat="43.18585009754485" lon="-72.10495472707838">
+  </trkpt>
+  <trkpt lat="43.18687621017809" lon="-72.1052223494377">
+  </trkpt>
+  <trkpt lat="43.18690613829494" lon="-72.10473577345935">
+  </trkpt>
+  <trkpt lat="43.187082131964836" lon="-72.10375688309169">
+  </trkpt>
+  <trkpt lat="43.18815405909098" lon="-72.10417623895916">
+  </trkpt>
+  <trkpt lat="43.188953796124835" lon="-72.10448548754337">
+  </trkpt>
+  <trkpt lat="43.18936841641387" lon="-72.10456763424263">
+  </trkpt>
+  <trkpt lat="43.18977005887569" lon="-72.10459410975344">
+  </trkpt>
+  <trkpt lat="43.19013559563503" lon="-72.10506001266192">
+  </trkpt>
+  <trkpt lat="43.190320227113105" lon="-72.10531267719905">
+  </trkpt>
+  <trkpt lat="43.18829929045251" lon="-72.10898353697915">
+  </trkpt>
+  <trkpt lat="43.18730891827581" lon="-72.11049137763786">
+  </trkpt>
+  <trkpt lat="43.18876213753781" lon="-72.11126259826881">
+  </trkpt>
+  <trkpt lat="43.18927633620734" lon="-72.11155901045412">
+  </trkpt>
+  <trkpt lat="43.19070983928458" lon="-72.11101304641984">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>
