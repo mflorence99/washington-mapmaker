@@ -4,12 +4,12 @@ creator="Viking 1.7 -- http://viking.sf.net/"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://www.topografix.com/GPX/1/0"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-  <name>/home/mflo/mflorence99/washington-mapmaker/src/assets/data/11-27.gpx</name>
+  <name>11-27.gpx</name>
   <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
-  <time>2021-08-22T07:57:02.697207Z</time>
+  <time>2021-08-27T12:20:01.855810Z</time>
 <trk>
   <name>11-27</name>
-  <desc>address=LEMPSTER MT RD
+  <desc>address=LEMPSTER MOUNTAIN ROAD
 area=166.7
 building$=0
 id=11-27
@@ -107,38 +107,6 @@ zone=02</desc>
   <trkpt lat="43.18927633620734" lon="-72.11155901045412">
   </trkpt>
   <trkpt lat="43.19070983928458" lon="-72.11101304641984">
-  </trkpt>
-  </trkseg>
-  <trkseg>
-  <trkpt lat="43.18311386097876" lon="-72.1064234335537">
-  </trkpt>
-  <trkpt lat="43.18432634506655" lon="-72.10806973761079">
-  </trkpt>
-  <trkpt lat="43.184661499970595" lon="-72.10843264712238">
-  </trkpt>
-  <trkpt lat="43.18398089946022" lon="-72.10959136141682">
-  </trkpt>
-  <trkpt lat="43.18471626060138" lon="-72.1100205148592">
-  </trkpt>
-  <trkpt lat="43.18456762448925" lon="-72.11025654925251">
-  </trkpt>
-  <trkpt lat="43.18444245695623" lon="-72.11037456644917">
-  </trkpt>
-  <trkpt lat="43.184332935154316" lon="-72.11043893946552">
-  </trkpt>
-  <trkpt lat="43.18421559014851" lon="-72.1104711259737">
-  </trkpt>
-  <trkpt lat="43.18416865208303" lon="-72.11117922915363">
-  </trkpt>
-  <trkpt lat="43.18409042189369" lon="-72.11143672121906">
-  </trkpt>
-  <trkpt lat="43.18323770632835" lon="-72.1110826696291">
-  </trkpt>
-  <trkpt lat="43.18270171151602" lon="-72.11112009487867">
-  </trkpt>
-  <trkpt lat="43.182760781964234" lon="-72.11010335266829">
-  </trkpt>
-  <trkpt lat="43.18311386097876" lon="-72.1064234335537">
   </trkpt>
   </trkseg>
 </trk>
