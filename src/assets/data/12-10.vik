@@ -1,0 +1,174 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.125000
+ympp=0.125000
+lat=43.175644
+lon=-72.084919
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Map
+mode=50
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer Map
+name=Map
+visible=f
+mode=13
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=12-210.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-28T08:20:12.264681Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="12-210" description="address=HALFMOON POND ROAD area=0.5032479793580408 building$=0 id=12-210 land$=0 neighborhood=undefined owner=undefined usage=110 use=undefined zone=undefined" color=#2d870a
+type="trackpoint" latitude="43.17574423363907" longitude="-72.0860936868764" newsegment="yes"
+type="trackpoint" latitude="43.17560338701271" longitude="-72.0859327543355"
+type="trackpoint" latitude="43.175399941885736" longitude="-72.08576109295855"
+type="trackpoint" latitude="43.17525909525938" longitude="-72.0855357874013"
+type="trackpoint" latitude="43.175102599007865" longitude="-72.08538558369646"
+type="trackpoint" latitude="43.17549383963665" longitude="-72.08541777020464"
+type="trackpoint" latitude="43.17567381032589" longitude="-72.08538558369646"
+type="trackpoint" latitude="43.175822481764826" longitude="-72.08607222920428"
+type="trackpoint" latitude="43.17574423363907" longitude="-72.0860936868764"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=12-10.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-28T08:20:12.263253Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="12-10" description="address=507 HALFMOON POND ROAD area=1.8 building$=60400 id=12-10 land$=41700 neighborhood=E owner=DANFORTH, DEAN A. usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.17510165134732" longitude="-72.08538558369646" newsegment="yes"
+type="trackpoint" latitude="43.17549285888042" longitude="-72.08541777020464"
+type="trackpoint" latitude="43.17567574754246" longitude="-72.08538424259196"
+type="trackpoint" latitude="43.17615636267848" longitude="-72.08521100466771"
+type="trackpoint" latitude="43.17616129214894" longitude="-72.08520847390575"
+type="trackpoint" latitude="43.17623337286528" longitude="-72.08559592469973"
+type="trackpoint" latitude="43.17611219200015" longitude="-72.08562458982234"
+type="trackpoint" latitude="43.175991011135004" longitude="-72.08565325494494"
+type="trackpoint" latitude="43.17595610524104" longitude="-72.08564769390657"
+type="trackpoint" latitude="43.17592119934707" longitude="-72.08564213286817"
+type="trackpoint" latitude="43.175720736113355" longitude="-72.08560418373118"
+type="trackpoint" latitude="43.17582342729229" longitude="-72.08606954699526"
+type="trackpoint" latitude="43.17574518640971" longitude="-72.08609100466738"
+type="trackpoint" latitude="43.17560533058234" longitude="-72.085931413231"
+type="trackpoint" latitude="43.17539994731823" longitude="-72.08576109295855"
+type="trackpoint" latitude="43.1752610687196" longitude="-72.08553846961031"
+type="trackpoint" latitude="43.17509969530335" longitude="-72.08538021927843"
+type="trackend"
+~EndLayerData
+~EndLayer
+

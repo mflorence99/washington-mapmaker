@@ -113,7 +113,7 @@ const washington = {
     '260': 'Commercial/Industrial',
     '300': 'Town Property',
     '400': 'State Property',
-    '500': 'Pilsbury State Park',
+    '500': 'Pillsbury State Park',
     '501': 'Washington Town Forest'
   },
   descByUse: {

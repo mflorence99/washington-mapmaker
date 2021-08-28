@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>15-112.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-28T09:04:11.851104Z</time>
+<trk>
+  <name>15-112</name>
+  <desc>address=798 MILLEN POND ROAD
+area=0.45
+building$=72500
+id=15-112
+land$=44400
+neighborhood=G
+owner=MACDONALD, LEANDRA ANN
+usage=110
+use=R1
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.167205391477985" lon="-72.12686955495434">
+  </trkpt>
+  <trkpt lat="43.167084826228454" lon="-72.12652150599558">
+  </trkpt>
+  <trkpt lat="43.166930851187686" lon="-72.12622919726229">
+  </trkpt>
+  <trkpt lat="43.167214626973674" lon="-72.12594982105102">
+  </trkpt>
+  <trkpt lat="43.16738315787326" lon="-72.1267530709775">
+  </trkpt>
+  <trkpt lat="43.167205391477985" lon="-72.12686955495434">
+  </trkpt>
+  </trkseg>
+  <trkseg>
+  <trkpt lat="43.16713418313829" lon="-72.12584034318567">
+  </trkpt>
+  <trkpt lat="43.16692778381832" lon="-72.12601629868037">
+  </trkpt>
+  <trkpt lat="43.16686760170997" lon="-72.1258791921935">
+  </trkpt>
+  <trkpt lat="43.16707451598601" lon="-72.12569550389887">
+  </trkpt>
+  <trkpt lat="43.16713516128784" lon="-72.12584034318567">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

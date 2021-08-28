@@ -1,0 +1,169 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.250000
+ympp=0.250000
+lat=43.142141
+lon=-72.069986
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer TrackWaypoint
+name=20-107.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-08-28T08:34:09.928315Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="20-107" description="address=274 BAILEY ROAD area=5.1 building$=0 id=20-107 land$=15200 neighborhood=E owner=DEMERS, JEFFREY usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.14310571060153" longitude="-72.06997117743005" newsegment="yes"
+type="trackpoint" latitude="43.143103742318594" longitude="-72.07064326323616"
+type="trackpoint" latitude="43.143108968767585" longitude="-72.07083907495638"
+type="trackpoint" latitude="43.14304300978738" longitude="-72.07203970807403"
+type="trackpoint" latitude="43.14300351174175" longitude="-72.07258845576091"
+type="trackpoint" latitude="43.14287908706678" longitude="-72.07257699985286"
+type="trackpoint" latitude="43.14229665929021" longitude="-72.07249313656247"
+type="trackpoint" latitude="43.14229925049881" longitude="-72.07115618223818"
+type="trackpoint" latitude="43.14229824862121" longitude="-72.07099106711077"
+type="trackpoint" latitude="43.14266549429669" longitude="-72.07097792468868"
+type="trackpoint" latitude="43.14264344242845" longitude="-72.07039279490957"
+type="trackpoint" latitude="43.14229464028595" longitude="-72.07039694844308"
+type="trackpoint" latitude="43.14197128182992" longitude="-72.07039499642484"
+type="trackpoint" latitude="43.141975998648626" longitude="-72.07005206359787"
+type="trackpoint" latitude="43.141736007043235" longitude="-72.07003787093376"
+type="trackpoint" latitude="43.14180598966675" longitude="-72.06939074879091"
+type="trackpoint" latitude="43.1421812831818" longitude="-72.06943526100343"
+type="trackpoint" latitude="43.14251621870698" longitude="-72.06962823574855"
+type="trackpoint" latitude="43.14247003784841" longitude="-72.0697653415103"
+type="trackpoint" latitude="43.14269809155576" longitude="-72.06989175294264"
+type="trackpoint" latitude="43.142735178388946" longitude="-72.06974209528222"
+type="trackpoint" latitude="43.14310571060153" longitude="-72.06997117743005"
+type="trackpoint" latitude="43.14229925049881" longitude="-72.07115618223818" newsegment="yes"
+type="trackpoint" latitude="43.14163127364822" longitude="-72.07113370627825"
+type="trackpoint" latitude="43.14184554632135" longitude="-72.07039399497985"
+type="trackpoint" latitude="43.14197128182992" longitude="-72.07039499642484"
+type="trackpoint" latitude="43.14229464028595" longitude="-72.07039694844308"
+type="trackpoint" latitude="43.14229925049881" longitude="-72.07115618223818"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=20-107
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=
+metadataauthor=
+metadatatime=2021-08-28T08:34:26.016544Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="Track" color=#000000
+type="trackpoint" latitude="43.14300812988368" longitude="-72.07259356326682" newsegment="yes"
+type="trackpoint" latitude="43.1430414000921" longitude="-72.07204102820975"
+type="trackpoint" latitude="43.143109897523004" longitude="-72.07084476298911"
+type="trackpoint" latitude="43.14310794045462" longitude="-72.07064896173102"
+type="trackpoint" latitude="43.14310794045462" longitude="-72.06998109168632"
+type="trackpoint" latitude="43.14274001048439" longitude="-72.06973969287498"
+type="trackpoint" latitude="43.14270086886788" longitude="-72.06988989657981"
+type="trackpoint" latitude="43.14247580408665" longitude="-72.06977456159217"
+type="trackpoint" latitude="43.14251690293462" longitude="-72.06962435788734"
+type="trackpoint" latitude="43.14218224008336" longitude="-72.06943660325629"
+type="trackpoint" latitude="43.14180451899212" longitude="-72.06939368791205"
+type="trackpoint" latitude="43.141736020098655" longitude="-72.07004546470267"
+type="trackpoint" latitude="43.141978701546925" longitude="-72.07005619353873"
+type="trackpoint" latitude="43.141974787337666" longitude="-72.07039683408362"
+type="trackpoint" latitude="43.141849532508886" longitude="-72.07039683408362"
+type="trackpoint" latitude="43.141632293056745" longitude="-72.07113444156272"
+type="trackpoint" latitude="43.14229770875951" longitude="-72.07115858144385"
+type="trackpoint" latitude="43.14229575166511" longitude="-72.07249700374228"
+type="trackpoint" latitude="43.14288092009631" longitude="-72.07258015222175"
+type="trackpoint" latitude="43.14300812988368" longitude="-72.0725908810578"
+type="trackend"
+~EndLayerData
+~EndLayer
+

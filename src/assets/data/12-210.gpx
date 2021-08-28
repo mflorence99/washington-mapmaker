@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><bounds><minlat>43.175102599007865</minlat><minlon>-72.0860936868764</minlon><maxlat>43.175822481764826</maxlat><maxlon>-72.08538558369646</maxlon></bounds></metadata><trk><name>12-210</name><desc>address=HALFMOON POND ROAD
+area=0.5032479793580408
+building$=0
+id=12-210
+land$=0
+neighborhood=undefined
+owner=undefined
+usage=110
+use=undefined
+zone=undefined</desc><trkseg><trkpt lat="43.17574423363907" lon="-72.0860936868764"/><trkpt lat="43.17560338701271" lon="-72.0859327543355"/><trkpt lat="43.175399941885736" lon="-72.08576109295855"/><trkpt lat="43.17525909525938" lon="-72.0855357874013"/><trkpt lat="43.175102599007865" lon="-72.08538558369646"/><trkpt lat="43.17549383963665" lon="-72.08541777020464"/><trkpt lat="43.17567381032589" lon="-72.08538558369646"/><trkpt lat="43.175822481764826" lon="-72.08607222920428"/><trkpt lat="43.17574423363907" lon="-72.0860936868764"/></trkseg></trk></gpx>

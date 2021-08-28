@@ -309,7 +309,7 @@ function orientation(points: number[][]): number {
 
 function searchForAnomalies(): void {
   // ///////////////////////////////////////////////////////////////////////
-  // 👇 these lots known to assessors, but not original landgrid dataset
+  // 👇 these lots known to landgrid dataset, but not to assessors
   // ///////////////////////////////////////////////////////////////////////
   const missingFromAssessors = PARCELS.lots.filter(
     (lot) => !assessorsByID[lot.id]
@@ -323,10 +323,10 @@ function searchForAnomalies(): void {
     );
   }
   // ///////////////////////////////////////////////////////////////////////
-  // 👇 these lots known to landgrid dataset, but not to assessors
+  // 👇 these lots known to assessors, but not original landgrid dataset
   // ///////////////////////////////////////////////////////////////////////
   const missingFromData = Object.keys(assessorsByID).filter(
-    (id) => !lotByID[id]
+    (id) => !lotByID[id] && Number(assessorsByID[id].area) > 0
   );
   if (missingFromData.length > 0) {
     console.log(
@@ -482,7 +482,14 @@ async function main(): Promise<void> {
     if (!lot.labels) lot.labels = [];
 
     // 👇 it is still possible that we have no lot.usage, but we really need it!
-    if (!lot.usage) lot.usage = '110';
+    if (!lot.usage) {
+      if (lot.use.startsWith('R1')) lot.usage = '110';
+      else if (lot.use.startsWith('R2')) lot.usage = '120';
+      else if (lot.use.startsWith('CU')) lot.usage = '190';
+      else if (lot.use === 'CI') lot.usage = '260';
+      else if (lot.use === 'EX-M') lot.usage = '300';
+      else if (lot.use === 'EX-S') lot.usage = '400';
+    }
   }
   // 👇 all done!
   if (!fail) {

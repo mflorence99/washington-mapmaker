@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>24-142</name>
+  <time>2021-08-28T07:57:02.407665Z</time>
+<trk>
+  <name>Track</name>
+  <trkseg>
+  <trkpt lat="43.140495471463865" lon="-72.09254480665822">
+  </trkpt>
+  <trkpt lat="43.14056592889704" lon="-72.09193594521184">
+  </trkpt>
+  <trkpt lat="43.140377063650234" lon="-72.09193192189832">
+  </trkpt>
+  <trkpt lat="43.14030660599943" lon="-72.09250189131399">
+  </trkpt>
+  <trkpt lat="43.140495471463865" lon="-72.09254882997175">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

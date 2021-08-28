@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>24-33.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-08-28T07:55:08.167036Z</time>
+<trk>
+  <name>24-33</name>
+  <desc>address=VALLEY ROAD
+area=0.23
+building$=0
+id=24-33
+land$=13200
+neighborhood=E
+owner=CORDEIRO, PAUL
+usage=110
+use=R1A
+zone=02</desc>
+  <trkseg>
+  <trkpt lat="43.140928979105894" lon="-72.09186620777746">
+  </trkpt>
+  <trkpt lat="43.14105443942222" lon="-72.09177733634431">
+  </trkpt>
+  <trkpt lat="43.14124032715371" lon="-72.0922455305912">
+  </trkpt>
+  <trkpt lat="43.141089464225395" lon="-72.09234498208662">
+  </trkpt>
+  <trkpt lat="43.140928979105894" lon="-72.09186486667295">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>
