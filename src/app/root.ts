@@ -152,8 +152,8 @@ export class RootComponent implements AfterViewInit {
   }
 
   private emitMap(): void {
-    // effect of "printing" will be to make overflow: unset
     // 👇 necessary for print to show entire extent
+    //    effect of "printing" will be to make overflow: unset
     this.printing = true;
     this.cdf.markForCheck();
     // save the parcels index
@@ -161,7 +161,8 @@ export class RootComponent implements AfterViewInit {
     setTimeout(() => {
       console.log('Printing map...');
       domtoimage.toBlob(this.host.nativeElement as HTMLElement).then((blob) => {
-        saveAs(blob, `${this.geometry.profile}.png`);
+        const suffix = this.geometry.mapOnly ? '' : 'full';
+        saveAs(blob, `${this.geometry.profile}-${suffix}.png`);
         // back to our normal programming
         console.log('...map print complete');
         this.printing = false;
