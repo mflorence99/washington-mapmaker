@@ -6,11 +6,11 @@ xmlns="http://www.topografix.com/GPX/1/0"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
   <name>25-83-02.gpx</name>
   <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
-  <time>2021-08-27T06:10:25.251775Z</time>
+  <time>2021-08-27T21:17:15.596104Z</time>
 <trk>
   <name>25-83-02</name>
   <desc>address=2041 VALLEY ROAD
-area=0.36
+area=1.52
 building$=78200
 id=25-83-02
 land$=34300
@@ -28,21 +28,9 @@ zone=02</desc>
   </trkpt>
   <trkpt lat="43.130544550362444" lon="-72.08771658519179">
   </trkpt>
-  <trkpt lat="43.130492636266425" lon="-72.08748709216246">
+  <trkpt lat="43.13049948615948" lon="-72.08748977437148">
   </trkpt>
-  <trkpt lat="43.130490678794175" lon="-72.08693187489638">
-  </trkpt>
-  <trkpt lat="43.13066880851206" lon="-72.08661939754614">
-  </trkpt>
-  <trkpt lat="43.13080387355673" lon="-72.08673205032477">
-  </trkpt>
-  <trkpt lat="43.13092229990845" lon="-72.08684067978987">
-  </trkpt>
-  <trkpt lat="43.131034853666556" lon="-72.08694126262793">
-  </trkpt>
-  <trkpt lat="43.13127562014064" lon="-72.08714376940856">
-  </trkpt>
-  <trkpt lat="43.13112587524989" lon="-72.08788808241019">
+  <trkpt lat="43.130972213819604" lon="-72.08738114490637">
   </trkpt>
   <trkpt lat="43.13096738419771" lon="-72.08769439011945">
   </trkpt>
