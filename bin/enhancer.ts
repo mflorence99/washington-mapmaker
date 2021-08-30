@@ -267,6 +267,7 @@ function normalizeAddress(address: string): string {
   normalized = normalized.replace(/ TERR$/, ' TERRACE');
   normalized = normalized.replace(/ LN$/, ' LANE');
   normalized = normalized.replace(/ ST$/, ' STREET');
+  normalized = normalized.replace(/ SREET$/, ' STREET');
 
   normalized = normalized.replace(/^E /, 'EAST ');
   normalized = normalized.replace(/^N /, 'NORTH ');
