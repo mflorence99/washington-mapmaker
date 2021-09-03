@@ -10,6 +10,7 @@ export interface LotLabel {
 }
 
 export interface Lot {
+  abutters?: string[];
   address?: string;
   area: number;
   areas?: number[];

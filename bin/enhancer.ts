@@ -9,6 +9,8 @@ import { writeFileSync } from 'fs';
 
 import delay from 'delay';
 import fetch from 'node-fetch';
+import jsome from 'jsome';
+import Offset from 'polygon-offset';
 import parse from 'csv-parse/lib/sync';
 import polylabel from 'polylabel';
 import yargs from 'yargs';
@@ -250,6 +252,30 @@ function deleteLots(): void {
   PARCELS.lots = Object.values<any>(lotByID);
 }
 
+function findAbutters(lot): string[] {
+  let abutters = new Set<string>();
+  abutters = lot.boundaries.reduce((acc, boundary) => {
+    const points = boundary.map((point) => [point.lon, point.lat]);
+    // 👇 about 30 feet
+    const inflated = new Offset().data(points).margin(0.0002);
+    try {
+      const us = turf.polygon(inflated);
+      // now look at all other lots
+      PARCELS.lots.forEach((other) => {
+        if (other.id !== lot.id) {
+          other.boundaries.forEach((boundary) => {
+            const points = boundary.map((point) => [point.lon, point.lat]);
+            const them = turf.polygon([points]);
+            if (turf.intersect(us, them)) abutters.add(other.id);
+          });
+        }
+      });
+    } catch (error) {}
+    return acc;
+  }, abutters);
+  return Array.from(abutters);
+}
+
 function fixBoundaries(lot): void {
   lot.boundaries.forEach((points) => {
     const first = points[0];
@@ -434,6 +460,7 @@ async function main(): Promise<void> {
     fixBoundaries(lot);
     // 👇 calculated fields
     try {
+      lot.abutters ??= findAbutters(lot);
       lot.areas = calculateAreas(lot.boundaries);
       // 🧨 DON'T recalculate centers b/c they've been tweaked
       if (lot.centers?.length !== lot.boundaries.length)
@@ -445,7 +472,7 @@ async function main(): Promise<void> {
       lot.sqarcities = calculateSqarcities(lot.areas, lot.perimeters);
     } catch (error) {
       fail = true;
-      console.log(lot);
+      jsome(lot);
       console.error(lot.id, error.message);
     }
     // 👇 elevation is special
