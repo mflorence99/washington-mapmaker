@@ -256,8 +256,8 @@ function findAbutters(lot): string[] {
   let abutters = new Set<string>();
   abutters = lot.boundaries.reduce((acc, boundary) => {
     const points = boundary.map((point) => [point.lon, point.lat]);
-    // 👇 about 30 feet
-    const inflated = new Offset().data(points).margin(0.0002);
+    // 👇 about 50 feet
+    const inflated = new Offset().data(points).margin(0.00035);
     try {
       const us = turf.polygon(inflated);
       // now look at all other lots
@@ -407,6 +407,7 @@ function updateLots(): void {
       readFileSync(`src/assets/data/${lotID}.json`).toString()
     );
     oldLot.area = null;
+    oldLot.areas = null;
     oldLot.boundaries = newLot.boundaries;
     oldLot.callouts = [];
     oldLot.centers = null;
@@ -426,6 +427,7 @@ function uniquifyLots(): void {
       console.error('DUPLICATE', lot.id);
       const orig = lotByID$[lot.id];
       const dupe = lot;
+      orig.abutters = orig.abutters.concat(dupe.abutters);
       orig.areas = orig.areas.concat(dupe.areas);
       orig.boundaries = orig.boundaries.concat(dupe.boundaries);
       orig.callouts = orig.callouts.concat(dupe.callouts);
@@ -460,7 +462,7 @@ async function main(): Promise<void> {
     fixBoundaries(lot);
     // 👇 calculated fields
     try {
-      lot.abutters ??= findAbutters(lot);
+      lot.abutters = findAbutters(lot);
       lot.areas = calculateAreas(lot.boundaries);
       // 🧨 DON'T recalculate centers b/c they've been tweaked
       if (lot.centers?.length !== lot.boundaries.length)
