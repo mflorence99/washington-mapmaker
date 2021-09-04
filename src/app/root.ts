@@ -161,8 +161,8 @@ export class RootComponent implements AfterViewInit {
     setTimeout(() => {
       console.log('Printing map...');
       domtoimage.toBlob(this.host.nativeElement as HTMLElement).then((blob) => {
-        const suffix = this.geometry.mapOnly ? '' : 'full';
-        saveAs(blob, `${this.geometry.profile}-${suffix}.png`);
+        const suffix = this.geometry.mapOnly ? '' : '-full';
+        saveAs(blob, `${this.geometry.profile}${suffix}.png`);
         // back to our normal programming
         console.log('...map print complete');
         this.printing = false;
