@@ -9,6 +9,7 @@
   },
   "author": "Mark Florence",
   "scripts": {
+    "buildings": "ts-node --dir bin buildings.ts",
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
     "enhancer": "ts-node --dir bin enhancer.ts",
     "fromGPX": "ts-node --dir bin fromGPX.ts",

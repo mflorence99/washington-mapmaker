@@ -23,6 +23,7 @@ export interface Waypoints {
 @Injectable({ providedIn: 'root' })
 export class GpsData {
   boundary: Tracks;
+  buildings: Tracks;
   nh: Tracks;
   sullivan: Tracks;
   washington: Tracks;
@@ -31,6 +32,7 @@ export class GpsData {
 
   load(): Observable<any> {
     return forkJoin([
+      this.loadImpl('buildings'),
       this.loadImpl('nh'),
       this.loadImpl('sullivan'),
       this.loadImpl('washington')
@@ -70,12 +72,13 @@ export class GpsData {
   }
 
   private toTracks(gpx: any): Tracks {
-    return gpx.trk.reduce((acc, trk) => {
-      acc[trk.name[0]] = trk.trkseg[0].trkpt.map((trkpt) =>
-        this.obj2point(trkpt)
-      );
+    const nm = gpx.trk[0].name[0];
+    const pointss = gpx.trk.reduce((acc, trk) => {
+      const points = trk.trkseg[0].trkpt.map((trkpt) => this.obj2point(trkpt));
+      acc.push(points);
       return acc;
-    }, {});
+    }, []);
+    return { [nm]: pointss.length > 1 ? pointss : pointss[0] };
   }
 
   private toWaypoints(gpx: any): Waypoints {

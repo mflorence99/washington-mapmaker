@@ -396,6 +396,35 @@ function searchForAnomalies(): void {
     console.log(`\n\n${sortedUniqueAddresses.length} UNIQUE ADDRESSES:`);
     // sortedUniqueAddresses.forEach((id) => console.log(id));
   }
+  // ///////////////////////////////////////////////////////////////////////
+  // 👇 lots with conservation easements
+  // ///////////////////////////////////////////////////////////////////////
+  const conservation = [
+    'ANDORRA FOREST LTD PARTNERSHIP',
+    'AUDUBON SOCIETY OF NH',
+    'DOLE EW TRUST',
+    'NEW ENGLAND FORESTRY FNDTN',
+    'SOCIETY FOR THE PROTECTION',
+    'WILD LAKE ASSOCIATION, INC',
+    '2-1',
+    '2-2',
+    '3-4',
+    '5-1',
+    '5-3',
+    '6-1',
+    '8-31',
+    '9-2',
+    '9-31',
+    '13-38'
+  ];
+  console.log('\n\nLOTS WITH CONSERVATION EASEMENTS:');
+  PARCELS.lots.forEach((lot) => {
+    if (conservation.includes(lot.owner) || conservation.includes(lot.id)) {
+      console.log(`${lot.id}\t${lot.owner}\t${lot['_usage'] ?? lot.usage}`);
+      lot['_usage'] = lot.usage;
+      lot.usage = '502';
+    }
+  });
 }
 
 function updateLots(): void {
@@ -462,7 +491,7 @@ async function main(): Promise<void> {
     fixBoundaries(lot);
     // 👇 calculated fields
     try {
-      lot.abutters = findAbutters(lot);
+      lot.abutters ??= findAbutters(lot);
       lot.areas = calculateAreas(lot.boundaries);
       // 🧨 DON'T recalculate centers b/c they've been tweaked
       if (lot.centers?.length !== lot.boundaries.length)
@@ -521,6 +550,7 @@ async function main(): Promise<void> {
       else if (lot.use === 'EX-S') lot.usage = '400';
     }
   }
+
   // 👇 all done!
   if (!fail) {
     writeFileSync(

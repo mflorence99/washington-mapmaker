@@ -15,8 +15,8 @@ import { mergeMap } from 'rxjs/operators';
 import { of } from 'rxjs';
 
 // 👇 tune this to balance load time against the problem that too many
-// concurrent XHR requests chokes the browser
-const CONCURRENCY = 10;
+//    concurrent XHR requests chokes the browser
+const CONCURRENCY = 16;
 
 export function makeTileParams(params: TileParams): TileParams {
   params.ready$ = new Subject<ImageBitmap>();
@@ -60,13 +60,13 @@ export class TilesComponent implements AfterViewInit {
     merge(...requests, CONCURRENCY).subscribe({
       complete: () =>
         console.log(
-          `%c ${this.tag} completed`,
+          `%c${this.tag} completed`,
           'color: light-blue; font-weight: bold'
         ),
       next: ([bitmap, params]) => {
         if (bitmap) {
           params.ready$.next(bitmap);
-          console.log(`${this.tag} loading ...`);
+          console.log(`${this.tag} loading ${params.src}...`);
         }
       }
     });

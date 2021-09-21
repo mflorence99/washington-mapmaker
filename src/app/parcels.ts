@@ -10,6 +10,8 @@ export interface LotLabel {
 }
 
 export interface Lot {
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  _usage?: string;
   abutters?: string[];
   address?: string;
   area: number;

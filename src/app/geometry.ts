@@ -151,8 +151,7 @@ export class Geometry {
         lat: this.bbox.top - (this.bbox.top - this.bbox.bottom) / 2,
         lon: this.bbox.left + (this.bbox.right - this.bbox.left) / 2
       };
-      // compute tiles
-      // 👇 spread out on all sides
+      // 👇 compute tiles, spread out on all sides
       this.tiles.bottom = this.lat2tile(this.bbox.bottom) + 2;
       this.tiles.left = this.lon2tile(this.bbox.left) - 2;
       this.tiles.right = this.lon2tile(this.bbox.right) + 2;
@@ -315,7 +314,7 @@ export class Geometry {
 
   // 👀  https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
 
-  lat2tile(lat: number): number {
+  lat2tile(lat: number, zoom = this.zoom): number {
     return Math.floor(
       ((1 -
         Math.log(
@@ -323,21 +322,21 @@ export class Geometry {
         ) /
           Math.PI) /
         2) *
-        Math.pow(2, this.zoom)
+        Math.pow(2, zoom)
     );
   }
 
-  lon2tile(lon: number): number {
-    return Math.floor(((lon + 180) / 360) * Math.pow(2, this.zoom));
+  lon2tile(lon: number, zoom = this.zoom): number {
+    return Math.floor(((lon + 180) / 360) * Math.pow(2, zoom));
   }
 
-  tile2lat(y: number): number {
-    const n = Math.PI - (2 * Math.PI * y) / Math.pow(2, this.zoom);
+  tile2lat(y: number, zoom = this.zoom): number {
+    const n = Math.PI - (2 * Math.PI * y) / Math.pow(2, zoom);
     return (180 / Math.PI) * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n)));
   }
 
-  tile2lon(x: number): number {
-    return (x / Math.pow(2, this.zoom)) * 360 - 180;
+  tile2lon(x: number, zoom = this.zoom): number {
+    return (x / Math.pow(2, zoom)) * 360 - 180;
   }
 
   // 👀  https://wiki.openstreetmap.org/wiki/Mercator#JavaScript_.28or_ActionScript.29

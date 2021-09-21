@@ -1,6 +1,7 @@
 import { BodyComponent } from './body';
 import { BorderComponent } from './border';
 import { BoundaryComponent } from './boundary';
+import { BuildingsComponent } from './buildings';
 import { ClipComponent } from './clip';
 import { CountyComponent } from './county';
 import { DefsComponent } from './defs';
@@ -27,6 +28,7 @@ const COMPONENTS = [
   BodyComponent,
   BorderComponent,
   BoundaryComponent,
+  BuildingsComponent,
   ClipComponent,
   CountyComponent,
   DefsComponent,

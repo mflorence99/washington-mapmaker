@@ -38,6 +38,7 @@ import domtoimage from 'dom-to-image';
               [provider]="'osm'"
               [tag]="'Main map street'"
             ></map-street>
+            <map-buildings></map-buildings>
             <map-lot-labels></map-lot-labels>
             <map-boundary></map-boundary>
             <map-grid></map-grid>

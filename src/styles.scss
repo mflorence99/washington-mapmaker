@@ -75,15 +75,17 @@
 
   // land use color shading
   // 👀  https://www.gismanual.com/style/ColorConventions.pdf
-  --shade-u110: var(--rgb-brown-300);
-  --shade-u120: var(--rgb-brown-500);
+  --shade-u110: var(--rgb-brown-200);
+  --shade-u120: var(--rgb-brown-400);
   --shade-u190: var(--rgb-yellow-200);
   --shade-u260: var(--rgb-red-200);
   --shade-u261: var(--rgb-purple-200);
   --shade-u300: var(--rgb-cyan-200);
   --shade-u400: var(--rgb-orange-200);
+  // 👇 these need to match the colors from OpenStreetMap
   --shade-u500: 190, 219, 75; // #BEDBAF
-  --shade-u501: 170, 204, 155; // #aacc9b
+  --shade-u501: 173, 209, 158; // #add19e
+  --shade-u502: var(--rgb-green-300);
   --shade-u999: var(--rgb-gray-300);
 
   --shade-CUMH: var(--rgb-brown-500);
@@ -435,6 +437,10 @@ map-root {
               background-color: rgba(var(--shade-u501), 1);
             }
 
+            &.u502 {
+              background-color: rgba(var(--shade-u502), 0.5);
+            }
+
             &.u999 {
               background-color: rgba(var(--shade-u999), 0.5);
             }
@@ -521,6 +527,7 @@ map-root {
         width: calc(var(--map-cxNominal));
 
         map-boundary,
+        map-buildings,
         map-clip,
         map-defs,
         map-grid,
@@ -536,6 +543,7 @@ map-root {
         }
 
         map-boundary,
+        map-buildings,
         map-clip,
         map-grid,
         map-lot-labels,
@@ -552,6 +560,15 @@ map-root {
             stroke: var(--mat-gray-800);
             stroke-dasharray: 4;
             stroke-width: 3;
+          }
+        }
+
+        map-buildings {
+          g.z15 polygon {
+            fill: rgba(var(--rgb-orange-900), 0.66);
+          }
+          g.z17 polygon {
+            fill: rgba(var(--rgb-orange-900), 0.5);
           }
         }
 
@@ -742,8 +759,14 @@ map-root {
               fill: rgba(var(--shade-u500), 0.5);
             }
 
+            // 👇 necessary because of the way OpenStreetMap
+            //    shades Washington Town Forest
             &.white.u501 {
-              fill: rgba(var(--shade-u501), 0.5);
+              fill: url(#forest-501);
+            }
+
+            &.white.u502 {
+              fill: rgba(var(--shade-u502), 0.5);
             }
 
             &.white.u999 {
@@ -786,8 +809,14 @@ map-root {
               fill: url(#halftone-u500);
             }
 
+            // 👇 necessary because of the way OpenStreetMap
+            //    shades Washington Town Forest
             &.white.u501 {
-              fill: url(#halftone-u501);
+              fill: url(#forest-501);
+            }
+
+            &.white.u502 {
+              fill: url(#halftone-u502);
             }
 
             &.white.u999 {
