@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=4.000000
-ympp=4.000000
-lat=43.164136
-lon=-72.112778
+xmpp=8.000000
+ympp=8.000000
+lat=43.200047
+lon=-72.066019
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
@@ -13,8 +13,8 @@ drawcentermark=t
 drawhighlight=t
 
 ~Layer Map
-name=Map
-mode=13
+name=Satellite
+mode=212
 directory=
 cache_type=1
 mapfile=
@@ -35,7 +35,7 @@ trackfontsize=3
 drawmode=0
 trackcolor=#000000
 drawlines=t
-line_thickness=3
+line_thickness=10
 drawdirections=f
 trkdirectionsize=3
 drawpoints=t
@@ -114,7 +114,7 @@ image_alpha=255
 image_cache_size=300
 metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
 metadataauthor=
-metadatatime=2021-09-21T19:45:01.252974Z
+metadatatime=2021-09-22T09:24:43.199917Z
 metadatakeywords=
 external_layer=2
 external_file=/home/mflo/mflorence99/washington-mapmaker/src/assets/data/buildings.gpx

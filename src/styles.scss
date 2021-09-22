@@ -564,11 +564,14 @@ map-root {
         }
 
         map-buildings {
+          clip-path: url(#boundary);
+
           g.z15 polygon {
-            fill: rgba(var(--rgb-orange-900), 0.66);
+            fill: var(--mat-red-a400);
           }
+
           g.z17 polygon {
-            fill: rgba(var(--rgb-orange-900), 0.5);
+            fill: url(#halftone-gray);
           }
         }
 

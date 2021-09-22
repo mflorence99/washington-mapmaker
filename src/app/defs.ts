@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   selector: 'map-defs',
   template: `<svg>
     <defs>
-      <!-- PATTERN: HALFTONE -->
+      <!-- PATTERN: HALFTONE for usage categories -->
       <pattern
         *ngFor="let usage of parcels.parcels.usages"
         [attr.id]="'halftone-u' + usage"
@@ -17,6 +17,19 @@ import { Component } from '@angular/core';
         height="4"
       >
         <g [attr.fill]="'rgba(var(--shade-u' + usage + ', 0.75)'">
+          <rect x="0" y="0" width="2" height="2" />
+          <rect x="2" y="2" width="2" height="2" />
+        </g>
+      </pattern>
+
+      <!-- PATTERN: HALFTONE for buildings etc -->
+      <pattern
+        id="halftone-gray"
+        patternUnits="userSpaceOnUse"
+        width="4"
+        height="4"
+      >
+        <g fill="rgba(var(--rgb-gray-800, 0.75)">
           <rect x="0" y="0" width="2" height="2" />
           <rect x="2" y="2" width="2" height="2" />
         </g>

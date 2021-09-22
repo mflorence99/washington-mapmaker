@@ -14,8 +14,8 @@ import { Component } from '@angular/core';
   >
     <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
       <polygon
-        *ngFor="let points of geometry.gpsData.buildings.buildings"
-        [attr.points]="pointsOf(points)"
+        *ngFor="let outline of geometry.gpsData.buildings.buildings"
+        [attr.points]="points(outline)"
       />
     </g>
   </svg>`
@@ -23,8 +23,8 @@ import { Component } from '@angular/core';
 export class BuildingsComponent {
   constructor(public geometry: Geometry) {}
 
-  pointsOf(points: Point[]): string {
-    return points
+  points(outline: Point[]): string {
+    return outline
       .map((point: Point) => this.geometry.point2xy(point).join(','))
       .join(' ');
   }

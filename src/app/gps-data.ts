@@ -72,7 +72,7 @@ export class GpsData {
   }
 
   private toTracks(gpx: any): Tracks {
-    const nm = gpx.trk[0].name[0];
+    const nm = gpx.trk[gpx.trk.length - 1].name[0];
     const pointss = gpx.trk.reduce((acc, trk) => {
       const points = trk.trkseg[0].trkpt.map((trkpt) => this.obj2point(trkpt));
       acc.push(points);
