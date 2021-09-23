@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
   selector: 'map-defs',
   template: `<svg>
     <defs>
+      <filter id="shadow" color-interpolation-filters="sRGB">
+        <feDropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.25" />
+      </filter>
+
       <!-- PATTERN: HALFTONE for usage categories -->
       <pattern
         *ngFor="let usage of parcels.parcels.usages"

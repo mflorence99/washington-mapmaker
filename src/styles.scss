@@ -571,7 +571,10 @@ map-root {
           }
 
           g.z17 polygon {
-            fill: url(#halftone-gray);
+            fill: rgba(var(--rgb-brown-300), 0.5);
+            filter: url(#shadow);
+            stroke: rgba(var(--rgb-brown-400), 0.5);
+            stroke-width: 1;
           }
         }
 

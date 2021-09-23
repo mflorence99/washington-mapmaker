@@ -1,16 +1,44 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=8.000000
-ympp=8.000000
-lat=43.200047
-lon=-72.066019
+xmpp=0.250000
+ympp=0.250000
+lat=43.146244
+lon=-72.151962
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
 drawscale=t
 drawcentermark=t
 drawhighlight=t
+
+~Layer Map
+name=Map
+visible=f
+mode=193
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer Map
+name=Map
+visible=f
+mode=60
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
 
 ~Layer Map
 name=Satellite
