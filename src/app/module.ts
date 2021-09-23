@@ -14,6 +14,7 @@ import { RootComponent } from './root';
 import { ScaleComponent } from './scale';
 import { StateComponent } from './state';
 import { StreetComponent } from './street';
+import { SymbolsComponent } from './symbols';
 import { TileComponent } from './tile';
 import { TilesComponent } from './tiles';
 import { TimesPipe } from './times';
@@ -41,6 +42,7 @@ const COMPONENTS = [
   ScaleComponent,
   StateComponent,
   StreetComponent,
+  SymbolsComponent,
   TileComponent,
   TilesComponent,
   TopoComponent

@@ -95,6 +95,8 @@
 
   --shade-CUFL: var(--rgb-green-500);
   --shade-CUWL: var(--rgb-blue-500);
+
+  --shade-building: var(--rgb-red-600);
 }
 
 * {
@@ -534,6 +536,7 @@ map-root {
         map-lot-labels,
         map-lots,
         map-street,
+        map-symbols,
         map-tiles,
         map-topo {
           display: block;
@@ -547,7 +550,8 @@ map-root {
         map-clip,
         map-grid,
         map-lot-labels,
-        map-lots {
+        map-lots,
+        map-symbols {
           svg {
             height: 100%;
             width: 100%;
@@ -566,15 +570,10 @@ map-root {
         map-buildings {
           clip-path: url(#boundary);
 
-          g.z15 polygon {
-            fill: var(--mat-red-a400);
-          }
-
-          g.z17 polygon {
-            fill: rgba(var(--rgb-brown-300), 0.5);
+          g polygon {
+            fill: rgba(var(--shade-building), 0.33);
             filter: url(#shadow);
-            stroke: rgba(var(--rgb-brown-400), 0.5);
-            stroke-width: 1;
+            stroke: rgba(var(--shade-building), 0.75);
           }
         }
 
@@ -858,6 +857,16 @@ map-root {
           g.z15 path.white.u190.CUWL,
           g.z17 path.white.u190.CUWL {
             fill: url(#cuwl);
+          }
+        }
+
+        map-symbols {
+          clip-path: url(#boundary);
+
+          g circle {
+            fill: rgba(var(--shade-building), 0.33);
+            stroke: rgba(var(--shade-building), 0.75);
+            stroke-width: 1;
           }
         }
 

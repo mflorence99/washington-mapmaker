@@ -38,7 +38,12 @@ import domtoimage from 'dom-to-image';
               [provider]="'osm'"
               [tag]="'Main map street'"
             ></map-street>
-            <map-buildings></map-buildings>
+            <map-symbols
+              *ngIf="geometry.profile === 'washington'"
+            ></map-symbols>
+            <map-buildings
+              *ngIf="geometry.profile !== 'washington'"
+            ></map-buildings>
             <map-lot-labels></map-lot-labels>
             <map-boundary></map-boundary>
             <map-grid></map-grid>
