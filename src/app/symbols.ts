@@ -54,7 +54,8 @@ export class SymbolsComponent {
     bbox.height = bbox.bottom - bbox.top;
     return {
       xy: [bbox.left + bbox.width / 2, bbox.top + bbox.height / 2],
-      r: Math.max(3, Math.min(bbox.width, bbox.height) * 0.75)
+      // 👇 this is just a heuristic to keep the radius under control
+      r: Math.max(1, Math.min(bbox.width, bbox.height) * 0.75)
     };
   }
 }
