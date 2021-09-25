@@ -1,10 +1,10 @@
 #VIKING GPS Data file http://viking.sf.net/
 FILE_VERSION=1
 
-xmpp=0.500000
-ympp=0.500000
-lat=43.198768
-lon=-72.019988
+xmpp=0.250000
+ympp=0.250000
+lat=43.163665
+lon=-72.122725
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
