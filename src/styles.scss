@@ -572,7 +572,7 @@ map-root {
 
           g polygon {
             fill: rgba(var(--shade-building), 0.33);
-            filter: url(#shadow);
+            // filter: url(#shadow);
             stroke: rgba(var(--shade-building), 0.75);
           }
         }
@@ -866,7 +866,6 @@ map-root {
           g circle {
             fill: rgba(var(--shade-building), 0.33);
             stroke: rgba(var(--shade-building), 0.75);
-            stroke-width: 1;
           }
         }
 
