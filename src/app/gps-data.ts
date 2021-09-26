@@ -74,8 +74,8 @@ export class GpsData {
   private toTracks(gpx: any): Tracks {
     const nm = gpx.trk[gpx.trk.length - 1].name[0];
     const pointss = gpx.trk.reduce((acc, trk) => {
-      const points = trk.trkseg[0].trkpt.map((trkpt) => this.obj2point(trkpt));
-      acc.push(points);
+      const points = trk.trkseg[0].trkpt?.map((trkpt) => this.obj2point(trkpt));
+      if (points) acc.push(points);
       return acc;
     }, []);
     return { [nm]: pointss.length > 1 ? pointss : pointss[0] };

@@ -16,7 +16,8 @@
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
     "serve": "ng serve --proxy-config proxy.conf.js",
-    "toGPX": "ts-node --dir bin toGPX.ts"
+    "toGPX": "ts-node --dir bin toGPX.ts",
+    "unoccupied": "ts-node --dir bin unoccupied.ts"
   },
   "dependencies": {},
   "devDependencies": {
