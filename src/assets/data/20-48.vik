@@ -1,0 +1,99 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=1.000000
+ympp=1.000000
+lat=43.139008
+lon=-72.055484
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Map
+mode=13
+directory=
+cache_type=1
+mapfile=
+alpha=255
+autodownload=t
+adlonlymissing=f
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=20-48.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=t
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=t
+elevation_factor=30
+drawstops=t
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=1
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-09-27T08:31:52.834755Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="20-48" description="address=679 BAILEY ROAD area=68.48 building$=0 id=20-48 land$=34211 neighborhood=E owner=CULLEN, ROGER H usage=110 use=R1 zone=02" color=#2d870a
+type="trackpoint" latitude="43.140218774617374" longitude="-72.05950260401167" newsegment="yes"
+type="trackpoint" latitude="43.13657416225556" longitude="-72.05976520834976"
+type="trackpoint" latitude="43.13668792179797" longitude="-72.05899016125295"
+type="trackpoint" latitude="43.13690169783964" longitude="-72.05758083725415"
+type="trackpoint" latitude="43.13725141064812" longitude="-72.05610298489768"
+type="trackpoint" latitude="43.13731535915821" longitude="-72.05539698799767"
+type="trackpoint" latitude="43.13764737467741" longitude="-72.05368353362884"
+type="trackpoint" latitude="43.13790365797843" longitude="-72.05212138506018"
+type="trackpoint" latitude="43.14144139755209" longitude="-72.05120357063494"
+type="trackpoint" latitude="43.141409892594666" longitude="-72.05175053239135"
+type="trackpoint" latitude="43.141351084931266" longitude="-72.05243541195817"
+type="trackpoint" latitude="43.14119892804285" longitude="-72.05357331891992"
+type="trackpoint" latitude="43.14105477158838" longitude="-72.05443138013337"
+type="trackpoint" latitude="43.141051367399804" longitude="-72.05543509825644"
+type="trackpoint" latitude="43.14091228627029" longitude="-72.05687226529884"
+type="trackpoint" latitude="43.140571939008346" longitude="-72.05829849135057"
+type="trackpoint" latitude="43.14046421709773" longitude="-72.05881897162274"
+type="trackpoint" latitude="43.14034273109077" longitude="-72.05923319840343"
+type="trackpoint" latitude="43.140218774617374" longitude="-72.05950260401167"
+type="trackend"
+~EndLayerData
+~EndLayer
+

@@ -1,6 +1,8 @@
 import { Geometry } from './geometry';
 import { Parcels } from './parcels';
 
+import * as htmlToImage from 'html-to-image';
+
 import { AfterViewInit } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { ChangeDetectorRef } from '@angular/core';
@@ -10,8 +12,6 @@ import { HostBinding } from '@angular/core';
 import { HostListener } from '@angular/core';
 
 import { saveAs } from 'file-saver';
-
-import domtoimage from 'dom-to-image';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -149,12 +149,7 @@ export class RootComponent implements AfterViewInit {
   }
 
   print(): void {
-    if (
-      !this.printing &&
-      !this.geometry.legendOnly &&
-      !this.geometry.parcelsOnly
-    )
-      this.emitMap();
+    if (!this.printing) this.emitMap();
   }
 
   private emitMap(): void {
@@ -166,14 +161,16 @@ export class RootComponent implements AfterViewInit {
     // a little later, fire up the print
     setTimeout(() => {
       console.log('Printing map...');
-      domtoimage.toBlob(this.host.nativeElement as HTMLElement).then((blob) => {
-        const suffix = this.geometry.mapOnly ? '' : '-full';
-        saveAs(blob, `${this.geometry.profile}${suffix}.png`);
-        // back to our normal programming
-        console.log('...map print complete');
-        this.printing = false;
-        this.cdf.markForCheck();
-      });
+      htmlToImage
+        .toBlob(this.host.nativeElement as HTMLElement)
+        .then((blob) => {
+          const suffix = this.geometry.mapOnly ? '' : '-full';
+          saveAs(blob, `${this.geometry.profile}${suffix}.png`);
+          // back to our normal programming
+          console.log('...map print complete');
+          this.printing = false;
+          this.cdf.markForCheck();
+        });
     }, 100);
   }
 }

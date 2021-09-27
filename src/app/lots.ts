@@ -15,17 +15,23 @@ import { Component } from '@angular/core';
   >
     <ng-container *ngFor="let lot of parcels.parcels.lots">
       <ng-container *ngFor="let boundary of lot.boundaries">
-        <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
-          <path class="black" [attr.d]="path(boundary)" />
-        </g>
+        <ng-container *ngIf="path(boundary) as outline">
+          <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
+            <!-- 
+              👇 no idea what is wrong with 20-48 outline
+                 it causes large triangular shadow when printing
+                 possible out of order point?
+                 but looks good when exported to viking 
+            -->
+            <path *ngIf="lot.id !== '20-48'" class="black" [attr.d]="outline" />
 
-        <g [ngClass]="[geometry.profile, 'z' + geometry.zoom]">
-          <path
-            class="white u{{ lot.usage }} {{ lot.use }}"
-            [attr.d]="path(boundary)"
-            [id]="lot.id"
-          />
-        </g>
+            <path
+              class="white u{{ lot.usage }} {{ lot.use }}"
+              [attr.d]="outline"
+              [id]="lot.id"
+            />
+          </g>
+        </ng-container>
       </ng-container>
     </ng-container>
   </svg>`
