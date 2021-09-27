@@ -3,6 +3,7 @@ import { PARCELS } from '../src/app/parcel-data';
 import { hideBin } from 'yargs/helpers';
 import { writeFileSync } from 'fs';
 
+import format from 'xml-formatter';
 import togpx from 'togpx';
 import yargs from 'yargs';
 
@@ -77,5 +78,8 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/
 
   gpx = gpx.replace(/<gpx[^>]*>/, hdr);
 
-  writeFileSync(`src/assets/data/${lotID}.gpx`, gpx);
+  writeFileSync(
+    `src/assets/data/${lotID}.gpx`,
+    format(gpx, { indentation: '  ' })
+  );
 }

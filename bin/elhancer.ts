@@ -15,6 +15,10 @@ import parse from 'csv-parse/lib/sync';
 import polylabel from 'polylabel';
 import yargs from 'yargs';
 
+// ///////////////////////////////////////////////////////////////////////
+// 👉 ENHANCE LOTS IN src/app/parcel-data.ts
+// ///////////////////////////////////////////////////////////////////////
+
 interface Point {
   lat: number;
   lon: number;

@@ -9,9 +9,10 @@
   },
   "author": "Mark Florence",
   "scripts": {
+    "benhancer": "ts-node --dir bin benhancer.ts",
     "buildings": "ts-node --dir bin buildings.ts",
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
-    "enhancer": "ts-node --dir bin enhancer.ts",
+    "elhancer": "ts-node --dir bin elhancer.ts",
     "fromGPX": "ts-node --dir bin fromGPX.ts",
     "postinstall": "ngcc",
     "prettier": "prettier --write .",
@@ -63,6 +64,7 @@
     "ts-node": "^10",
     "tslib": "^2",
     "typescript": "^4",
+    "xml-formatter": "^2",
     "xml2js": "^0.4.23",
     "yargs": "^17",
     "zone.js": "~0.11.4"
