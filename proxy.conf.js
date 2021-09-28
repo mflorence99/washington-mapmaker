@@ -1,14 +1,6 @@
 const PROXY_CONFIG = [
   {
     changeOrigin: true,
-    context: ['/buildings/osm'],
-    logLevel: 'debug',
-    pathRewrite: (path, req) => path.replace('/buildings/osm', '') + '.json',
-    target: 'https://data.osmbuildings.org/0.2/anonymous/tile',
-    secure: true
-  },
-  {
-    changeOrigin: true,
     context: ['/street/arcgis'],
     pathRewrite: (path, req) =>
       reverseXY(path).replace('/street/arcgis', '/tile'),

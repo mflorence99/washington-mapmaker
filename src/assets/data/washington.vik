@@ -3,8 +3,8 @@ FILE_VERSION=1
 
 xmpp=0.250000
 ympp=0.250000
-lat=43.170919
-lon=-72.108303
+lat=43.148319
+lon=-72.152881
 mode=mercator
 color=#cccccc
 highlightcolor=#eea500
