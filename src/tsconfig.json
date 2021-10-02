@@ -13,7 +13,7 @@
     "lib": ["es2019", "dom"],
     "module": "es2020",
     "moduleResolution": "node",
-    "outDir": "../dist/renderer",
+    "outDir": "../dist/out-tsc",
     "sourceMap": true,
     "resolveJsonModule": true,
     "target": "es2015"
