@@ -52,6 +52,7 @@ function checkForOwnershipChanges(): void {
           alot.OWNER
         )}" from "${chalk.green(plot.owner)}"`
       );
+      plot.owner = alot.OWNER;
     }
   });
 }
@@ -96,7 +97,7 @@ function searchForAnomalies(): void {
     });
   }
   // 👇 any anomaly, we crash
-  if (missingFromAvitar.length || missingFromDatsa.length)
+  if (missingFromAvitar.length || missingFromData.length)
     throw new Error('Anomalies found!');
 }
 
