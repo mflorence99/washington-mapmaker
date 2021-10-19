@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<gpx version="1.0"
+creator="Viking 1.7 -- http://viking.sf.net/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <name>24-30.gpx</name>
+  <desc>Created by: Viking 1.7 -- http://viking.sf.net/</desc>
+  <time>2021-10-19T11:09:43.097806Z</time>
+<trk>
+  <name>
+      24-30
+    </name>
+  <desc>
+      address=1394 VALLEY ROAD
+area=0.62
+building$=57500
+id=24-30
+land$=38200
+neighborhood=E
+owner=TAPP, JOSEPH A
+usage=110
+use=R1A
+zone=02
+    </desc>
+  <trkseg>
+  <trkpt lat="43.1425871818343" lon="-72.09160292824404">
+  </trkpt>
+  <trkpt lat="43.142752300100945" lon="-72.0916457700949">
+  </trkpt>
+  <trkpt lat="43.14262900394887" lon="-72.09221171619704">
+  </trkpt>
+  <trkpt lat="43.1424613436918" lon="-72.09214289346316">
+  </trkpt>
+  <trkpt lat="43.142311663460696" lon="-72.09209125196226">
+  </trkpt>
+  <trkpt lat="43.14216198322959" lon="-72.09203961046136">
+  </trkpt>
+  <trkpt lat="43.142271607675326" lon="-72.0915026983166">
+  </trkpt>
+  <trkpt lat="43.1425871818343" lon="-72.09160292824404">
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

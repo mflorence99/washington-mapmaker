@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<gpx version="1.0" creator="Viking 1.7 -- http://viking.sf.net/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <metadata>
+    <bounds>
+      <minlat>
+        43.1424613436918
+      </minlat>
+      <minlon>
+        -72.09220728746621
+      </minlon>
+      <maxlat>
+        43.14275598023878
+      </maxlat>
+      <maxlon>
+        -72.09160292824404
+      </maxlon>
+    </bounds>
+  </metadata>
+  <trk>
+    <name>
+      24-29
+    </name>
+    <desc>
+      address=VALLEY ROAD
+area=0.21
+building$=0
+id=24-29
+land$=0
+neighborhood=E
+owner=TAPP, JOSEPH A
+usage=110
+use=R1A
+zone=02
+    </desc>
+    <trkseg>
+      <trkpt lat="43.14275598023878" lon="-72.0916483761122"/>
+      <trkpt lat="43.142625441961236" lon="-72.09220728746621"/>
+      <trkpt lat="43.1424613436918" lon="-72.09214289346316"/>
+      <trkpt lat="43.1425871818343" lon="-72.09160292824404"/>
+      <trkpt lat="43.14275598023878" lon="-72.0916483761122"/>
+    </trkseg>
+  </trk>
+</gpx>

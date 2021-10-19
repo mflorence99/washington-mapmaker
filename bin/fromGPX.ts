@@ -9,7 +9,7 @@ import yargs from 'yargs';
 
 // 👇 npm run fromGPX -- --lotID="11-27" --out="11-27"
 
-// 👇 npm run fromGPX -- --lotID="9-25" --out="9-25"
+// 👇 npm run fromGPX -- --lotID="24-30" --out="24-30"
 
 const argv = yargs(hideBin(process.argv)).argv;
 

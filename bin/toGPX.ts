@@ -7,7 +7,7 @@ import format from 'xml-formatter';
 import togpx from 'togpx';
 import yargs from 'yargs';
 
-// 👇 npm run toGPX -- --lotID="20-48"
+// 👇 npm run toGPX -- --lotID="24-29" --lotID="24-30"
 
 const argv = yargs(hideBin(process.argv)).argv;
 

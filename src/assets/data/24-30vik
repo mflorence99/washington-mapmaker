@@ -1,0 +1,134 @@
+#VIKING GPS Data file http://viking.sf.net/
+FILE_VERSION=1
+
+xmpp=0.250000
+ympp=0.250000
+lat=43.142179
+lon=-72.091010
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer TrackWaypoint
+name=24-29.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-10-19T11:09:43.095634Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="       24-29     " description="       address=VALLEY ROAD area=0.21 building$=0 id=24-29 land$=0 neighborhood=E owner=TAPP, JOSEPH A usage=110 use=R1A zone=02     " color=#2d870a
+type="trackpoint" latitude="43.14275598023878" longitude="-72.0916483761122" newsegment="yes"
+type="trackpoint" latitude="43.142625441961236" longitude="-72.09220728746621"
+type="trackpoint" latitude="43.1424613436918" longitude="-72.09214289346316"
+type="trackpoint" latitude="43.1425871818343" longitude="-72.09160292824404"
+type="trackpoint" latitude="43.14275598023878" longitude="-72.0916483761122"
+type="trackend"
+~EndLayerData
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=24-30.gpx
+tracks_visible=t
+waypoints_visible=t
+routes_visible=t
+trackdrawlabels=t
+trackfontsize=3
+drawmode=0
+trackcolor=#000000
+drawlines=t
+line_thickness=3
+drawdirections=f
+trkdirectionsize=3
+drawpoints=t
+trkpointsize=5
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+bg_line_thickness=0
+trackbgcolor=#ffffff
+speed_factor=30.000000
+tracksortorder=0
+drawlabels=t
+wpfontsize=3
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=f
+wpsymbol=1
+wpsize=2
+wpsyms=t
+wpsortorder=0
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+metadatadesc=Created by: Viking 1.7 -- http://viking.sf.net/
+metadataauthor=
+metadatatime=2021-10-19T11:09:43.097806Z
+metadatakeywords=
+external_layer=0
+external_file=
+
+
+~LayerData
+type="waypointlist"
+type="waypointlistend"
+type="track" name="       24-30     " description="       address=1394 VALLEY ROAD area=0.62 building$=57500 id=24-30 land$=38200 neighborhood=E owner=TAPP, JOSEPH A usage=110 use=R1A zone=02     " color=#2d870a
+type="trackpoint" latitude="43.1425871818343" longitude="-72.09160292824404" newsegment="yes"
+type="trackpoint" latitude="43.142752300100945" longitude="-72.0916457700949"
+type="trackpoint" latitude="43.14262900394887" longitude="-72.09221171619704"
+type="trackpoint" latitude="43.1424613436918" longitude="-72.09214289346316"
+type="trackpoint" latitude="43.142311663460696" longitude="-72.09209125196226"
+type="trackpoint" latitude="43.14216198322959" longitude="-72.09203961046136"
+type="trackpoint" latitude="43.142271607675326" longitude="-72.0915026983166"
+type="trackpoint" latitude="43.1425871818343" longitude="-72.09160292824404"
+type="trackend"
+~EndLayerData
+~EndLayer
+
