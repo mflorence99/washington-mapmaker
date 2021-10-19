@@ -96,7 +96,7 @@
   --shade-CUFL: var(--rgb-green-500);
   --shade-CUWL: var(--rgb-blue-500);
 
-  --shade-building: var(--rgb-red-600);
+  --shade-building: var(--rgb-gray-700);
 }
 
 * {
@@ -571,7 +571,7 @@ map-root {
           clip-path: url(#boundary);
 
           g polygon {
-            fill: rgba(var(--shade-building), 0.33);
+            fill: rgba(var(--shade-building), 0.5);
             // filter: url(#shadow);
             stroke: rgba(var(--shade-building), 0.75);
           }
@@ -864,7 +864,7 @@ map-root {
           clip-path: url(#boundary);
 
           g circle {
-            fill: rgba(var(--shade-building), 0.33);
+            fill: rgba(var(--shade-building), 0.5);
             stroke: rgba(var(--shade-building), 0.75);
           }
         }
