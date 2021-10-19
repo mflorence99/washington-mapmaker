@@ -9,6 +9,7 @@
   },
   "author": "Mark Florence",
   "scripts": {
+    "avitar": "ts-node --dir bin avitar.ts",
     "benhancer": "ts-node --dir bin benhancer.ts",
     "buildings": "ts-node --dir bin buildings.ts",
     "clean:deps": "rm -rf node_modules && rm package-lock.json && npm install",
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "angular-svg-icon": "^12",
+    "chalk": "^4.1.2",
     "csv-parse": "^4",
     "delay": "^5",
     "eslint": "^7",
@@ -47,6 +49,7 @@
     "file-saver": "^2",
     "html-to-image": "^1",
     "jsome": "^2",
+    "node-dbf": "^0.4.0",
     "node-fetch": "^3",
     "polygon-offset": "^0.3.1",
     "polylabel": "^1",
