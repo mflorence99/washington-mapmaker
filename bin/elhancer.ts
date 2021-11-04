@@ -465,7 +465,6 @@ function uniquifyLots(): void {
       orig.boundaries = orig.boundaries.concat(dupe.boundaries);
       orig.callouts = orig.callouts.concat(dupe.callouts);
       orig.centers = orig.centers.concat(dupe.centers);
-      orig.centers = orig.centers.concat(dupe.centers);
       orig.elevations = orig.elevations.concat(dupe.elevations);
       orig.labels = orig.labels.concat(dupe.labels);
       orig.lengths = orig.lengths.concat(dupe.lengths);
