@@ -65,8 +65,7 @@ import { Component } from '@angular/core';
           <td class="desc">Lakes, ponds, rights of way</td>
           <td class="numeric">
             {{
-              this.geometry.area - sum(parcels.parcels.areaByUsage)
-                | number: '1.0-0'
+              geometry.area - sum(parcels.parcels.areaByUsage) | number: '1.0-0'
             }}
           </td>
         </tr>
@@ -75,7 +74,7 @@ import { Component } from '@angular/core';
           <td></td>
           <td class="desc">Total</td>
           <td class="numeric">
-            {{ this.geometry.area | number: '1.0-0' }}
+            {{ geometry.area | number: '1.0-0' }}
           </td>
         </tr>
       </tbody>
