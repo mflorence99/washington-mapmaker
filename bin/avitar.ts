@@ -114,6 +114,7 @@ function main(): void {
 
 /* eslint-disable @typescript-eslint/naming-convention */
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const sample = {
   PID: '000000000001000000',
   MAP: '000000',
